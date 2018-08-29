@@ -1,0 +1,11 @@
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-d-4149726-nikita-mirzani-yang-kini-berubah-total.txt
+Kalimat ke-1: Nikita Mirzani dulu dikenal sebagai artis yang kerap tampil seksi .
+Relasi: dikenal sebagai(Nikita Mirzani, artis)
+Class: false
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-d-4149726-nikita-mirzani-yang-kini-berubah-total.txt
+Kalimat ke-1: Nikita Mirzani dulu dikenal sebagai artis yang kerap tampil seksi .
+Relasi: tampil(artis, seksi)
+Class: false
+
+

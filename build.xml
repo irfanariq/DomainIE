@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="openie" default="all">
+  
+  
+  <property file="build.properties"/>
+  <!-- Uncomment the following property if no tests compilation is needed -->
+  <!-- 
+  <property name="skip.tests" value="true"/>
+   -->
+  
+  <!-- Compiler options -->
+  
+  <property name="compiler.debug" value="on"/>
+  <property name="compiler.generate.no.warnings" value="off"/>
+  <property name="compiler.args" value=""/>
+  <property name="compiler.max.memory" value="700m"/>
+  <patternset id="ignored.files">
+    <exclude name="**/*.hprof/**"/>
+    <exclude name="**/*.pyc/**"/>
+    <exclude name="**/*.pyo/**"/>
+    <exclude name="**/*.rbc/**"/>
+    <exclude name="**/*.yarb/**"/>
+    <exclude name="**/*~/**"/>
+    <exclude name="**/.DS_Store/**"/>
+    <exclude name="**/.git/**"/>
+    <exclude name="**/.hg/**"/>
+    <exclude name="**/.svn/**"/>
+    <exclude name="**/CVS/**"/>
+    <exclude name="**/RCS/**"/>
+    <exclude name="**/SCCS/**"/>
+    <exclude name="**/__pycache__/**"/>
+    <exclude name="**/_svn/**"/>
+    <exclude name="**/rcs/**"/>
+    <exclude name="**/vssver.scc/**"/>
+    <exclude name="**/vssver2.scc/**"/>
+  </patternset>
+  <patternset id="library.patterns">
+    <include name="*.egg"/>
+    <include name="*.jar"/>
+    <include name="*.ear"/>
+    <include name="*.apk"/>
+    <include name="*.swc"/>
+    <include name="*.war"/>
+    <include name="*.ane"/>
+    <include name="*.zip"/>
+  </patternset>
+  <patternset id="compiler.resources">
+    <exclude name="**/?*.java"/>
+    <exclude name="**/?*.form"/>
+    <exclude name="**/?*.class"/>
+    <exclude name="**/?*.groovy"/>
+    <exclude name="**/?*.scala"/>
+    <exclude name="**/?*.flex"/>
+    <exclude name="**/?*.kt"/>
+    <exclude name="**/?*.clj"/>
+    <exclude name="**/?*.aj"/>
+  </patternset>
+  
+  <!-- JDK definitions -->
+  
+  <property name="jdk.bin.1.8" value="${jdk.home.1.8}/bin"/>
+  <path id="jdk.classpath.1.8">
+    <fileset dir="${jdk.home.1.8}">
+      <include name="jre/lib/charsets.jar"/>
+      <include name="jre/lib/deploy.jar"/>
+      <include name="jre/lib/ext/cldrdata.jar"/>
+      <include name="jre/lib/ext/dnsns.jar"/>
+      <include name="jre/lib/ext/jaccess.jar"/>
+      <include name="jre/lib/ext/jfxrt.jar"/>
+      <include name="jre/lib/ext/localedata.jar"/>
+      <include name="jre/lib/ext/nashorn.jar"/>
+      <include name="jre/lib/ext/sunec.jar"/>
+      <include name="jre/lib/ext/sunjce_provider.jar"/>
+      <include name="jre/lib/ext/sunpkcs11.jar"/>
+      <include name="jre/lib/ext/zipfs.jar"/>
+      <include name="jre/lib/javaws.jar"/>
+      <include name="jre/lib/jce.jar"/>
+      <include name="jre/lib/jfr.jar"/>
+      <include name="jre/lib/jfxswt.jar"/>
+      <include name="jre/lib/jsse.jar"/>
+      <include name="jre/lib/management-agent.jar"/>
+      <include name="jre/lib/plugin.jar"/>
+      <include name="jre/lib/resources.jar"/>
+      <include name="jre/lib/rt.jar"/>
+      <include name="lib/ant-javafx.jar"/>
+      <include name="lib/dt.jar"/>
+      <include name="lib/javafx-mx.jar"/>
+      <include name="lib/jconsole.jar"/>
+      <include name="lib/packager.jar"/>
+      <include name="lib/sa-jdi.jar"/>
+      <include name="lib/tools.jar"/>
+    </fileset>
+  </path>
+  
+  <property name="project.jdk.home" value="${jdk.home.1.8}"/>
+  <property name="project.jdk.bin" value="${jdk.bin.1.8}"/>
+  <property name="project.jdk.classpath" value="jdk.classpath.1.8"/>
+  
+  
+  <!-- Project Libraries -->
+  
+  <path id="library.openie.classpath">
+    <pathelement location="${basedir}/jars/InaNLP.jar"/>
+    <pathelement location="${basedir}/jars/OpenIE.jar"/>
+    <pathelement location="${basedir}/jars/apache-mime4j-core-0.7.2.jar"/>
+    <pathelement location="${basedir}/jars/apache-mime4j-dom-0.7.2.jar"/>
+    <pathelement location="${basedir}/jars/asm-debug-all-4.1.jar"/>
+    <pathelement location="${basedir}/jars/aspectjrt-1.6.11.jar"/>
+    <pathelement location="${basedir}/jars/bcmail-jdk15-1.45.jar"/>
+    <pathelement location="${basedir}/jars/bcprov-jdk15-1.45.jar"/>
+    <pathelement location="${basedir}/jars/boilerpipe-1.1.0.jar"/>
+    <pathelement location="${basedir}/jars/commons-codec-1.9.jar"/>
+    <pathelement location="${basedir}/jars/commons-compress-1.5.jar"/>
+    <pathelement location="${basedir}/jars/commons-lang3-3.5.jar"/>
+    <pathelement location="${basedir}/jars/commons-logging-1.2.jar"/>
+    <pathelement location="${basedir}/jars/crawler4j-4.2.jar"/>
+    <pathelement location="${basedir}/jars/dom4j-1.6.1.jar"/>
+    <pathelement location="${basedir}/jars/fontbox-1.8.4.jar"/>
+    <pathelement location="${basedir}/jars/geronimo-stax-api_1.0_spec-1.0.1.jar"/>
+    <pathelement location="${basedir}/jars/guava-14.0.1.jar"/>
+    <pathelement location="${basedir}/jars/httpclient-4.4.jar"/>
+    <pathelement location="${basedir}/jars/httpcore-4.4.jar"/>
+    <pathelement location="${basedir}/jars/ipostagger.jar"/>
+    <pathelement location="${basedir}/jars/isoparser-1.0-RC-1.jar"/>
+    <pathelement location="${basedir}/jars/java-semver-0.9.0.jar"/>
+    <pathelement location="${basedir}/jars/jdom-1.0.jar"/>
+    <pathelement location="${basedir}/jars/je-5.0.73.jar"/>
+    <pathelement location="${basedir}/jars/jempbox-1.8.4.jar"/>
+    <pathelement location="${basedir}/jars/jhighlight-1.0.jar"/>
+    <pathelement location="${basedir}/jars/jsoup-1.10.2.jar"/>
+    <pathelement location="${basedir}/jars/juniversalchardet-1.0.3.jar"/>
+    <pathelement location="${basedir}/jars/lidalia-slf4j-ext-1.0.0.jar"/>
+    <pathelement location="${basedir}/jars/metadata-extractor-2.6.2.jar"/>
+    <pathelement location="${basedir}/jars/netcdf-4.2-min.jar"/>
+    <pathelement location="${basedir}/jars/pdfbox-1.8.4.jar"/>
+    <pathelement location="${basedir}/jars/pf4j-1.1.1.jar"/>
+    <pathelement location="${basedir}/jars/poi-3.10-beta2.jar"/>
+    <pathelement location="${basedir}/jars/poi-ooxml-3.10-beta2.jar"/>
+    <pathelement location="${basedir}/jars/poi-ooxml-schemas-3.10-beta2.jar"/>
+    <pathelement location="${basedir}/jars/poi-scratchpad-3.10-beta2.jar"/>
+    <pathelement location="${basedir}/jars/rome-0.9.jar"/>
+    <pathelement location="${basedir}/jars/slf4j-api-1.7.10.jar"/>
+    <pathelement location="${basedir}/jars/slf4j-simple-1.6.1.jar"/>
+    <pathelement location="${basedir}/jars/slugify-2.1.7.jar"/>
+    <pathelement location="${basedir}/jars/tagsoup-1.2.1.jar"/>
+    <pathelement location="${basedir}/jars/tika-core-1.5.jar"/>
+    <pathelement location="${basedir}/jars/tika-parsers-1.5.jar"/>
+    <pathelement location="${basedir}/jars/vorbis-java-core-0.1-tests.jar"/>
+    <pathelement location="${basedir}/jars/vorbis-java-core-0.1.jar"/>
+    <pathelement location="${basedir}/jars/vorbis-java-tika-0.1.jar"/>
+    <pathelement location="${basedir}/jars/weka-3-8-0-monolithic.jar"/>
+    <pathelement location="${basedir}/jars/xercesImpl-2.8.1.jar"/>
+    <pathelement location="${basedir}/jars/xml-apis-1.3.03.jar"/>
+    <pathelement location="${basedir}/jars/xmlbeans-2.3.0.jar"/>
+    <pathelement location="${basedir}/jars/xmpcore-5.1.2.jar"/>
+    <pathelement location="${basedir}/jars/xz-1.2.jar"/>
+  </path>
+  
+  <!-- Modules -->
+  
+  
+  <!-- Module OpenIE -->
+  
+  <dirname property="module.openie.basedir" file="${ant.file}"/>
+  
+  
+  <property name="module.jdk.home.openie" value="${project.jdk.home}"/>
+  <property name="module.jdk.bin.openie" value="${project.jdk.bin}"/>
+  <property name="module.jdk.classpath.openie" value="${project.jdk.classpath}"/>
+  
+  <property name="compiler.args.openie" value="-encoding UTF-8 -source 8 -target 1.8 ${compiler.args}"/>
+  
+  <property name="openie.output.dir" value="${module.openie.basedir}/target/classes"/>
+  <property name="openie.testoutput.dir" value="${module.openie.basedir}/target/test-classes"/>
+  
+  <path id="openie.module.bootclasspath">
+    <!-- Paths to be included in compilation bootclasspath -->
+  </path>
+  
+  <path id="openie.module.production.classpath">
+    <path refid="${module.jdk.classpath.openie}"/>
+    <path refid="library.openie.classpath"/>
+  </path>
+  
+  <path id="openie.runtime.production.module.classpath">
+    <pathelement location="${openie.output.dir}"/>
+    <path refid="library.openie.classpath"/>
+  </path>
+  
+  <path id="openie.module.classpath">
+    <path refid="${module.jdk.classpath.openie}"/>
+    <pathelement location="${openie.output.dir}"/>
+    <path refid="library.openie.classpath"/>
+  </path>
+  
+  <path id="openie.runtime.module.classpath">
+    <pathelement location="${openie.testoutput.dir}"/>
+    <pathelement location="${openie.output.dir}"/>
+    <path refid="library.openie.classpath"/>
+  </path>
+  
+  
+  <patternset id="excluded.from.module.openie">
+    <patternset refid="ignored.files"/>
+  </patternset>
+  
+  <patternset id="excluded.from.compilation.openie">
+    <patternset refid="excluded.from.module.openie"/>
+  </patternset>
+  
+  <path id="openie.module.sourcepath">
+    <dirset dir="${module.openie.basedir}">
+      <include name="src/main/java"/>
+      <include name="src/main/resources"/>
+      <include name="plugins"/>
+    </dirset>
+  </path>
+  
+  <path id="openie.module.test.sourcepath">
+    <dirset dir="${module.openie.basedir}">
+      <include name="src/test/java"/>
+    </dirset>
+  </path>
+  
+  
+  <target name="compile.module.openie" depends="compile.module.openie.production,compile.module.openie.tests" description="Compile module OpenIE"/>
+  
+  <target name="compile.module.openie.production" description="Compile module OpenIE; production classes">
+    <mkdir dir="${openie.output.dir}"/>
+    <javac destdir="${openie.output.dir}" debug="${compiler.debug}" nowarn="${compiler.generate.no.warnings}" memorymaximumsize="${compiler.max.memory}" fork="true" executable="${module.jdk.bin.openie}/javac">
+      <compilerarg line="${compiler.args.openie}"/>
+      <bootclasspath refid="openie.module.bootclasspath"/>
+      <classpath refid="openie.module.production.classpath"/>
+      <src refid="openie.module.sourcepath"/>
+      <patternset refid="excluded.from.compilation.openie"/>
+    </javac>
+    
+    <copy todir="${openie.output.dir}">
+      <fileset dir="${module.openie.basedir}/src/main/java">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+      <fileset dir="${module.openie.basedir}/src/main/resources">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+      <fileset dir="${module.openie.basedir}/plugins">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+    </copy>
+  </target>
+  
+  <target name="compile.module.openie.tests" depends="compile.module.openie.production" description="compile module OpenIE; test classes" unless="skip.tests">
+    <mkdir dir="${openie.testoutput.dir}"/>
+    <javac destdir="${openie.testoutput.dir}" debug="${compiler.debug}" nowarn="${compiler.generate.no.warnings}" memorymaximumsize="${compiler.max.memory}" fork="true" executable="${module.jdk.bin.openie}/javac">
+      <compilerarg line="${compiler.args.openie}"/>
+      <bootclasspath refid="openie.module.bootclasspath"/>
+      <classpath refid="openie.module.classpath"/>
+      <src refid="openie.module.test.sourcepath"/>
+      <patternset refid="excluded.from.compilation.openie"/>
+    </javac>
+    
+    <copy todir="${openie.testoutput.dir}">
+      <fileset dir="${module.openie.basedir}/src/test/java">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+    </copy>
+  </target>
+  
+  <target name="clean.module.openie" description="cleanup module">
+    <delete dir="${openie.output.dir}"/>
+    <delete dir="${openie.testoutput.dir}"/>
+  </target>
+  
+  <target name="init" description="Build initialization">
+    <!-- Perform any build initialization in this target -->
+  </target>
+  
+  <target name="clean" depends="clean.module.openie, clean.artifact.openie:jar" description="cleanup all"/>
+  
+  <target name="build.modules" depends="init, clean, compile.module.openie" description="build all modules"/>
+  
+  <target name="init.artifacts">
+    <property name="artifacts.temp.dir" value="${basedir}/__artifacts_temp"/>
+    <property name="artifact.output.openie:jar" value="${basedir}/out/artifacts/OpenIE_jar"/>
+    <mkdir dir="${artifacts.temp.dir}"/>
+    <property name="temp.jar.path.OpenIE.jar" value="${artifacts.temp.dir}/OpenIE.jar"/>
+  </target>
+  
+  <target name="clean.artifact.openie:jar" description="clean OpenIE:jar artifact output">
+    <delete dir="${artifact.output.openie:jar}"/>
+  </target>
+  
+  <target name="artifact.openie:jar" depends="init.artifacts, compile.module.openie" description="Build &#39;OpenIE:jar&#39; artifact">
+    <mkdir dir="${artifact.output.openie:jar}"/>
+    <jar destfile="${temp.jar.path.OpenIE.jar}" duplicate="preserve" filesetmanifest="mergewithoutmain">
+      <zipfileset dir="${openie.output.dir}"/>
+    </jar>
+    <copy file="${temp.jar.path.OpenIE.jar}" tofile="${artifact.output.openie:jar}/OpenIE.jar"/>
+  </target>
+  
+  <target name="build.all.artifacts" depends="artifact.openie:jar" description="Build all artifacts">
+    
+    <!-- Delete temporary files -->
+    <delete dir="${artifacts.temp.dir}"/>
+  </target>
+  
+  <target name="all" depends="build.modules, build.all.artifacts" description="build all"/>
+</project>

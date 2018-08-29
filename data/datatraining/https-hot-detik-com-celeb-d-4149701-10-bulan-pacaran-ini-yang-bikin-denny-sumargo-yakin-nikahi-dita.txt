@@ -1,0 +1,101 @@
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-d-4149701-10-bulan-pacaran-ini-yang-bikin-denny-sumargo-yakin-nikahi-dita.txt
+Kalimat ke-1: Siapa sangka ternyata Denny Sumargo memiliki kisah asmara yang pahit .
+Relasi: memiliki(Denny Sumargo, kisah asmara)
+Class: true
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-d-4149701-10-bulan-pacaran-ini-yang-bikin-denny-sumargo-yakin-nikahi-dita.txt
+Kalimat ke-2: Ia berkali-kali gagal dalam percintaan hingga menemukan sosok Dita Soedarjo .
+Relasi: menemukan(percintaan, sosok Dita Soedarjo)
+Class: true
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-d-4149701-10-bulan-pacaran-ini-yang-bikin-denny-sumargo-yakin-nikahi-dita.txt
+Kalimat ke-3: Mulai dari gagalnya cinta pertama yang bertepuk sebelah tangan hingga kejadian empat tahun lalu di mana Denny gagal melangsungkan pernikahan akibat diselingkuhi kekasihnya jadi warna tersendiri di kisah cinta mantan atlit basket itu .
+Relasi: bertepuk(gagalnya cinta pertama, sebelah tangan)
+Class: false
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-d-4149701-10-bulan-pacaran-ini-yang-bikin-denny-sumargo-yakin-nikahi-dita.txt
+Kalimat ke-3: Mulai dari gagalnya cinta pertama yang bertepuk sebelah tangan hingga kejadian empat tahun lalu di mana Denny gagal melangsungkan pernikahan akibat diselingkuhi kekasihnya jadi warna tersendiri di kisah cinta mantan atlit basket itu .
+Relasi: melangsungkan(mana Denny, pernikahan akibat)
+Class: false
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-d-4149701-10-bulan-pacaran-ini-yang-bikin-denny-sumargo-yakin-nikahi-dita.txt
+Kalimat ke-3: Mulai dari gagalnya cinta pertama yang bertepuk sebelah tangan hingga kejadian empat tahun lalu di mana Denny gagal melangsungkan pernikahan akibat diselingkuhi kekasihnya jadi warna tersendiri di kisah cinta mantan atlit basket itu .
+Relasi: diselingkuhi kekasihnya jadi warna tersendiri di(pernikahan akibat, kisah cinta mantan atlit basket)
+Class: false
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-d-4149701-10-bulan-pacaran-ini-yang-bikin-denny-sumargo-yakin-nikahi-dita.txt
+Kalimat ke-4: Baca juga: Tunangan Denny Sumargo yang Konon Habiskan Rp 1 M Sehari Kemudian 2 tahun lalu muncul Dita Soedarjo yang dikenalnya lewat suatu proyek bersama .
+Relasi: Habiskan(Konon, Rp 1 M Sehari)
+Class: true
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-d-4149701-10-bulan-pacaran-ini-yang-bikin-denny-sumargo-yakin-nikahi-dita.txt
+Kalimat ke-4: Baca juga: Tunangan Denny Sumargo yang Konon Habiskan Rp 1 M Sehari Kemudian 2 tahun lalu muncul Dita Soedarjo yang dikenalnya lewat suatu proyek bersama .
+Relasi: muncul(2 tahun, Dita Soedarjo)
+Class: false
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-d-4149701-10-bulan-pacaran-ini-yang-bikin-denny-sumargo-yakin-nikahi-dita.txt
+Kalimat ke-4: Baca juga: Tunangan Denny Sumargo yang Konon Habiskan Rp 1 M Sehari Kemudian 2 tahun lalu muncul Dita Soedarjo yang dikenalnya lewat suatu proyek bersama .
+Relasi: dikenalnya(Dita Soedarjo, lewat)
+Class: true
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-d-4149701-10-bulan-pacaran-ini-yang-bikin-denny-sumargo-yakin-nikahi-dita.txt
+Kalimat ke-6: Pebasket berusia 36 tahun itu sempat minder saat mengetahui background Dita yang lahir dari keluarga pengusaha .
+Relasi: berusia(Pebasket, 36 tahun)
+Class: true
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-d-4149701-10-bulan-pacaran-ini-yang-bikin-denny-sumargo-yakin-nikahi-dita.txt
+Kalimat ke-6: Pebasket berusia 36 tahun itu sempat minder saat mengetahui background Dita yang lahir dari keluarga pengusaha .
+Relasi: mengetahui(36 tahun, background Dita)
+Class: false
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-d-4149701-10-bulan-pacaran-ini-yang-bikin-denny-sumargo-yakin-nikahi-dita.txt
+Kalimat ke-6: Pebasket berusia 36 tahun itu sempat minder saat mengetahui background Dita yang lahir dari keluarga pengusaha .
+Relasi: lahir dari(background Dita, keluarga pengusaha)
+Class: true
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-d-4149701-10-bulan-pacaran-ini-yang-bikin-denny-sumargo-yakin-nikahi-dita.txt
+Kalimat ke-10: Saya meminta kepada tuhan, saya enggak kepedean, jujur kalau bisa cari sederhana aja," tuturnya saat ditemui di The Dharmawangsa Residence, Jakarta Selatan pada Sabtu (4/8) .
+Relasi: ditemui di(tuturnya, The Dharmawangsa)
+Class: false
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-d-4149701-10-bulan-pacaran-ini-yang-bikin-denny-sumargo-yakin-nikahi-dita.txt
+Kalimat ke-11: Dita pun berhasil meluluhkan hati Denny dengan sikapnya yang dewasa itu meskipun berbeda usia hingga 11 tahun .
+Relasi: meluluhkan hati Denny dengan(Dita, sikapnya)
+Class: true
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-d-4149701-10-bulan-pacaran-ini-yang-bikin-denny-sumargo-yakin-nikahi-dita.txt
+Kalimat ke-12: Baca juga: Denny Sumargo yang Mendadak Amnesia Ditanya Nikah oleh Pacar "Ada satu kata yang bikin saya enggak bisa nolak, ketika dia ngomong 'kamu nggak bisa salahin saya dan saya tidak bisa milih lahir darimana'," kenang Denny menirukan ucapan Dita .
+Relasi: kata(satu, bikin)
+Class: true
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-d-4149701-10-bulan-pacaran-ini-yang-bikin-denny-sumargo-yakin-nikahi-dita.txt
+Kalimat ke-12: Baca juga: Denny Sumargo yang Mendadak Amnesia Ditanya Nikah oleh Pacar "Ada satu kata yang bikin saya enggak bisa nolak, ketika dia ngomong 'kamu nggak bisa salahin saya dan saya tidak bisa milih lahir darimana'," kenang Denny menirukan ucapan Dita .
+Relasi: lahir(milih, kenang Denny)
+Class: false
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-d-4149701-10-bulan-pacaran-ini-yang-bikin-denny-sumargo-yakin-nikahi-dita.txt
+Kalimat ke-12: Baca juga: Denny Sumargo yang Mendadak Amnesia Ditanya Nikah oleh Pacar "Ada satu kata yang bikin saya enggak bisa nolak, ketika dia ngomong 'kamu nggak bisa salahin saya dan saya tidak bisa milih lahir darimana'," kenang Denny menirukan ucapan Dita .
+Relasi: menirukan(kenang Denny, ucapan Dita)
+Class: true
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-d-4149701-10-bulan-pacaran-ini-yang-bikin-denny-sumargo-yakin-nikahi-dita.txt
+Kalimat ke-13: Usai berpacaran 10 bulan Denny pun melamar kekasihnya itu dan memutuskan untuk menikah tahun depan .
+Relasi: melamar(10 bulan Denny, kekasihnya)
+Class: true
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-d-4149701-10-bulan-pacaran-ini-yang-bikin-denny-sumargo-yakin-nikahi-dita.txt
+Kalimat ke-13: Usai berpacaran 10 bulan Denny pun melamar kekasihnya itu dan memutuskan untuk menikah tahun depan .
+Relasi: memutuskan untuk menikah(kekasihnya, tahun depan)
+Class: false
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-d-4149701-10-bulan-pacaran-ini-yang-bikin-denny-sumargo-yakin-nikahi-dita.txt
+Kalimat ke-20: 6 celeb Ayushita hingga Dian Sastro Hadiri Syukuran Film 'Kartini' celeb Ayushita hingga Dian Sastro Hadiri Syukuran Film 'Kartini' celeb Ayushita hingga Dian Sastro Hadiri Syukuran Film 'Kartini' celeb Ayushita hingga Dian Sastro Hadiri Syukuran Film 'Kartini' celeb Ayushita hingga Dian Sastro Hadiri Syukuran Film 'Kartini' 7 photo DJ Verny Pamer Luka Akibat Dianiaya Suami Siri 8 screenshoot-movie Kisah Para Ghosthunter di Film "Mall Klender" 9 photo Denny Sumargo <i>Cool</i> Berkacamata Hitam 10 photo Gaya Denny Sumargo Berjaket Kulit 11 photo Bantah Hamili DJ Verny, Denny Sumargo Menangis 12 photo DJ Verny Tak Ingin Damai dengan Denny Sumargo 13 photo Perut Hamil Wanita yang Ngaku Dihamili Denny Sumargo 14 photo Ini DJ yang Mengaku Dihamili Denny Sumargo 15 photo Ini Dia Para Pemain Film 5 Cm 16 1  .
+Relasi: Ingin Damai dengan(Denny Sumargo Menangis 12 photo DJ Verny, Denny Sumargo 13 photo Perut Hamil Wanita)
+Class: false
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-d-4149701-10-bulan-pacaran-ini-yang-bikin-denny-sumargo-yakin-nikahi-dita.txt
+Kalimat ke-20: 6 celeb Ayushita hingga Dian Sastro Hadiri Syukuran Film 'Kartini' celeb Ayushita hingga Dian Sastro Hadiri Syukuran Film 'Kartini' celeb Ayushita hingga Dian Sastro Hadiri Syukuran Film 'Kartini' celeb Ayushita hingga Dian Sastro Hadiri Syukuran Film 'Kartini' celeb Ayushita hingga Dian Sastro Hadiri Syukuran Film 'Kartini' 7 photo DJ Verny Pamer Luka Akibat Dianiaya Suami Siri 8 screenshoot-movie Kisah Para Ghosthunter di Film "Mall Klender" 9 photo Denny Sumargo <i>Cool</i> Berkacamata Hitam 10 photo Gaya Denny Sumargo Berjaket Kulit 11 photo Bantah Hamili DJ Verny, Denny Sumargo Menangis 12 photo DJ Verny Tak Ingin Damai dengan Denny Sumargo 13 photo Perut Hamil Wanita yang Ngaku Dihamili Denny Sumargo 14 photo Ini DJ yang Mengaku Dihamili Denny Sumargo 15 photo Ini Dia Para Pemain Film 5 Cm 16 1  .
+Relasi: Mengaku(Ngaku Dihamili Denny Sumargo 14 photo, Dihamili Denny Sumargo 15 photo)
+Class: true
+
+

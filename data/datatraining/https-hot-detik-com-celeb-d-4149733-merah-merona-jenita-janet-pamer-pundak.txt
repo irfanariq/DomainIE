@@ -1,0 +1,16 @@
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-d-4149733-merah-merona-jenita-janet-pamer-pundak.txt
+Kalimat ke-1: Jenita Janet tampil menarik saat menghadiri sebuah acara .
+Relasi: tampil(Jenita Janet, sebuah acara)
+Class: false
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-d-4149733-merah-merona-jenita-janet-pamer-pundak.txt
+Kalimat ke-1: Jenita Janet tampil menarik saat menghadiri sebuah acara .
+Relasi: menghadiri(Jenita Janet, sebuah acara)
+Class: true
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-d-4149733-merah-merona-jenita-janet-pamer-pundak.txt
+Kalimat ke-2: Ia mengenakan gaun merah memamerkan pundaknya .
+Relasi: memamerkan(gaun, pundaknya)
+Class: false
+
+

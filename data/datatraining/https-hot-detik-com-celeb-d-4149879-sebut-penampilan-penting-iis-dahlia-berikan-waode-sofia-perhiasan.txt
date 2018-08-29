@@ -1,0 +1,131 @@
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-d-4149879-sebut-penampilan-penting-iis-dahlia-berikan-waode-sofia-perhiasan.txt
+Kalimat ke-1: Setelah beberapa kali dihujat karena pernyataannya kepada salah satu kontestan ajang dangdut KDI, Iis Dahlia berikan perhiasan pada Waode Sofia .
+Relasi: dihujat(beberapa kali, pernyataannya)
+Class: true
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-d-4149879-sebut-penampilan-penting-iis-dahlia-berikan-waode-sofia-perhiasan.txt
+Kalimat ke-1: Setelah beberapa kali dihujat karena pernyataannya kepada salah satu kontestan ajang dangdut KDI, Iis Dahlia berikan perhiasan pada Waode Sofia .
+Relasi: berikan perhiasan pada(Iis Dahlia, Waode Sofia)
+Class: false
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-d-4149879-sebut-penampilan-penting-iis-dahlia-berikan-waode-sofia-perhiasan.txt
+Kalimat ke-2: Ketika tampil di KDI episode 6, Waode tampil dengan gaun berwarna kuning stabilo dengan memakai anting berbentuk lingkaran .
+Relasi: tampil dengan(Waode, gaun)
+Class: false
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-d-4149879-sebut-penampilan-penting-iis-dahlia-berikan-waode-sofia-perhiasan.txt
+Kalimat ke-2: Ketika tampil di KDI episode 6, Waode tampil dengan gaun berwarna kuning stabilo dengan memakai anting berbentuk lingkaran .
+Relasi: berwarna kuning stabilo dengan memakai(gaun, anting)
+Class: false
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-d-4149879-sebut-penampilan-penting-iis-dahlia-berikan-waode-sofia-perhiasan.txt
+Kalimat ke-2: Ketika tampil di KDI episode 6, Waode tampil dengan gaun berwarna kuning stabilo dengan memakai anting berbentuk lingkaran .
+Relasi: berbentuk(anting, lingkaran)
+Class: true
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-d-4149879-sebut-penampilan-penting-iis-dahlia-berikan-waode-sofia-perhiasan.txt
+Kalimat ke-4: Baca juga: Iis Dahlia Dihujat, Anak Jualan Puding di Pinggir Jalan Melihat penampilan Waode yang kurang menarik, sebagai juri Ivan Gunawan dan Iis Dahlia memberi masukan dan mengubah beberapa penampilan Waode .
+Relasi: Melihat(Pinggir Jalan, penampilan Waode)
+Class: false
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-d-4149879-sebut-penampilan-penting-iis-dahlia-berikan-waode-sofia-perhiasan.txt
+Kalimat ke-4: Baca juga: Iis Dahlia Dihujat, Anak Jualan Puding di Pinggir Jalan Melihat penampilan Waode yang kurang menarik, sebagai juri Ivan Gunawan dan Iis Dahlia memberi masukan dan mengubah beberapa penampilan Waode .
+Relasi: memberi(juri Ivan Gunawan, masukan)
+Class: false
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-d-4149879-sebut-penampilan-penting-iis-dahlia-berikan-waode-sofia-perhiasan.txt
+Kalimat ke-4: Baca juga: Iis Dahlia Dihujat, Anak Jualan Puding di Pinggir Jalan Melihat penampilan Waode yang kurang menarik, sebagai juri Ivan Gunawan dan Iis Dahlia memberi masukan dan mengubah beberapa penampilan Waode .
+Relasi: mengubah(masukan, beberapa penampilan Waode)
+Class: true
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-d-4149879-sebut-penampilan-penting-iis-dahlia-berikan-waode-sofia-perhiasan.txt
+Kalimat ke-5: Salah satunya dengan Ivan yang memotong poni Waode dan Iis yang memberikan kalung dan antingnya untuk dipakai oleh Waode .
+Relasi: memotong(Ivan, poni Waode)
+Class: false
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-d-4149879-sebut-penampilan-penting-iis-dahlia-berikan-waode-sofia-perhiasan.txt
+Kalimat ke-5: Salah satunya dengan Ivan yang memotong poni Waode dan Iis yang memberikan kalung dan antingnya untuk dipakai oleh Waode .
+Relasi: memberikan(Iis, kalung)
+Class: false
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-d-4149879-sebut-penampilan-penting-iis-dahlia-berikan-waode-sofia-perhiasan.txt
+Kalimat ke-6: "Aku mah memperlakukan semua anak-anak kontestan seperti itu sih .
+Relasi: memperlakukan(mah, semua)
+Class: false
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-d-4149879-sebut-penampilan-penting-iis-dahlia-berikan-waode-sofia-perhiasan.txt
+Kalimat ke-7: Sebenarnya banyak yang nggak disorot kameranya ya karena kan aku dari hati .
+Relasi: disorot(nggak, aku)
+Class: true
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-d-4149879-sebut-penampilan-penting-iis-dahlia-berikan-waode-sofia-perhiasan.txt
+Kalimat ke-8: Maksudnya aku pengen tuh mereka berpenampilan," ujar Iis saat ditemui di kawasan Kemang, Jakarta Selatan, Jumat (3/8) .
+Relasi: ujar(Maksudnya aku pengen tuh, Iis)
+Class: true
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-d-4149879-sebut-penampilan-penting-iis-dahlia-berikan-waode-sofia-perhiasan.txt
+Kalimat ke-8: Maksudnya aku pengen tuh mereka berpenampilan," ujar Iis saat ditemui di kawasan Kemang, Jakarta Selatan, Jumat (3/8) .
+Relasi: ditemui di(Iis, kawasan)
+Class: true
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-d-4149879-sebut-penampilan-penting-iis-dahlia-berikan-waode-sofia-perhiasan.txt
+Kalimat ke-9: Tidak perlu cantik, bagi Iis penampilan adalah salah satu hal terpenting dalam kontes tersebut .
+Relasi: adalah(Iis penampilan, satu hal)
+Class: true
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-d-4149879-sebut-penampilan-penting-iis-dahlia-berikan-waode-sofia-perhiasan.txt
+Kalimat ke-9: Tidak perlu cantik, bagi Iis penampilan adalah salah satu hal terpenting dalam kontes tersebut .
+Relasi: terpenting dalam(satu hal, kontes)
+Class: true
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-d-4149879-sebut-penampilan-penting-iis-dahlia-berikan-waode-sofia-perhiasan.txt
+Kalimat ke-12: Selain kira ditunjang dengan kualitas kita, tapi penampilan itu penting banget," tambahnya .
+Relasi: ditunjang dengan(Selain kira, kualitas)
+Class: true
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-d-4149879-sebut-penampilan-penting-iis-dahlia-berikan-waode-sofia-perhiasan.txt
+Kalimat ke-14: Waode pun mengungkapkan kepada Iis mengapa ia menangis .
+Relasi: mengungkapkan kepada(Waode, Iis)
+Class: true
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-d-4149879-sebut-penampilan-penting-iis-dahlia-berikan-waode-sofia-perhiasan.txt
+Kalimat ke-15: Baca juga: Iis Dahlia Dihujat, Ini Tanggapan Sang Anak "Oh dia merasa bersalah karena dia berpikir gini karena aku mama (Iis) digituin sama orang-orang, dibully .
+Relasi: merasa bersalah(Anak, gini)
+Class: true
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-d-4149879-sebut-penampilan-penting-iis-dahlia-berikan-waode-sofia-perhiasan.txt
+Kalimat ke-15: Baca juga: Iis Dahlia Dihujat, Ini Tanggapan Sang Anak "Oh dia merasa bersalah karena dia berpikir gini karena aku mama (Iis) digituin sama orang-orang, dibully .
+Relasi: berpikir(Anak, gini)
+Class: true
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-d-4149879-sebut-penampilan-penting-iis-dahlia-berikan-waode-sofia-perhiasan.txt
+Kalimat ke-17: Karena ini anak (dulu) nggak punya Instagram, sekarang baru punya Instagram," tambahnya .
+Relasi: punya(nggak, sekarang)
+Class: false
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-d-4149879-sebut-penampilan-penting-iis-dahlia-berikan-waode-sofia-perhiasan.txt
+Kalimat ke-17: Karena ini anak (dulu) nggak punya Instagram, sekarang baru punya Instagram," tambahnya .
+Relasi: punya(nggak, sekarang)
+Class: false
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-d-4149879-sebut-penampilan-penting-iis-dahlia-berikan-waode-sofia-perhiasan.txt
+Kalimat ke-18: Ibu dua anak ini pun tetap tidak mau menghiraukan apa yang dikatakan oleh netizen mengenai kejadian tersebut .
+Relasi: menghiraukan(Ibu dua anak, netizen)
+Class: false
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-d-4149879-sebut-penampilan-penting-iis-dahlia-berikan-waode-sofia-perhiasan.txt
+Kalimat ke-18: Ibu dua anak ini pun tetap tidak mau menghiraukan apa yang dikatakan oleh netizen mengenai kejadian tersebut .
+Relasi: dikatakan oleh(Ibu dua anak, netizen)
+Class: true
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-d-4149879-sebut-penampilan-penting-iis-dahlia-berikan-waode-sofia-perhiasan.txt
+Kalimat ke-18: Ibu dua anak ini pun tetap tidak mau menghiraukan apa yang dikatakan oleh netizen mengenai kejadian tersebut .
+Relasi: mengenai(netizen, kejadian)
+Class: false
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-d-4149879-sebut-penampilan-penting-iis-dahlia-berikan-waode-sofia-perhiasan.txt
+Kalimat ke-22: Makanya kalau kita diemin dengan sendirinya akan mereda," tukasnya .
+Relasi: diemin dengan(Makanya, tukasnya)
+Class: true
+
+

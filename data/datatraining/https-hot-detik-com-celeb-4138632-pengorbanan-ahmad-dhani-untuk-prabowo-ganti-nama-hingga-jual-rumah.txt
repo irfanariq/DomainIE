@@ -1,0 +1,136 @@
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-4138632-pengorbanan-ahmad-dhani-untuk-prabowo-ganti-nama-hingga-jual-rumah.txt
+Kalimat ke-1: Ahmad Dhani mengaku siap berjuang untuk kemenangan Prabowo Subianto sebagai Presiden .
+Relasi: mengaku(Ahmad Dhani, kemenangan Prabowo Subianto)
+Class: true
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-4138632-pengorbanan-ahmad-dhani-untuk-prabowo-ganti-nama-hingga-jual-rumah.txt
+Kalimat ke-1: Ahmad Dhani mengaku siap berjuang untuk kemenangan Prabowo Subianto sebagai Presiden .
+Relasi: berjuang untuk(Ahmad Dhani, kemenangan Prabowo Subianto)
+Class: false
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-4138632-pengorbanan-ahmad-dhani-untuk-prabowo-ganti-nama-hingga-jual-rumah.txt
+Kalimat ke-2: Dua pengorbanan yang rela dilakukan Ahmad Dhani adalah mengganti nama dan menjual rumah .
+Relasi: dilakukan(Dua pengorbanan, Ahmad Dhani)
+Class: true
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-4138632-pengorbanan-ahmad-dhani-untuk-prabowo-ganti-nama-hingga-jual-rumah.txt
+Kalimat ke-2: Dua pengorbanan yang rela dilakukan Ahmad Dhani adalah mengganti nama dan menjual rumah .
+Relasi: adalah mengganti(Ahmad Dhani, nama)
+Class: false
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-4138632-pengorbanan-ahmad-dhani-untuk-prabowo-ganti-nama-hingga-jual-rumah.txt
+Kalimat ke-2: Dua pengorbanan yang rela dilakukan Ahmad Dhani adalah mengganti nama dan menjual rumah .
+Relasi: menjual(nama, rumah)
+Class: false
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-4138632-pengorbanan-ahmad-dhani-untuk-prabowo-ganti-nama-hingga-jual-rumah.txt
+Kalimat ke-3: Hal itu disampaikan Ahmad Dhani di Pengadilan Negeri Jakarta Selatan usai dirinya resmi berganti nama dari Dhani Ahmad Prasetyo menjadi Ahmad Dhani Prasetyo .
+Relasi: disampaikan Ahmad Dhani di(Hal, Pengadilan Negeri Jakarta Selatan)
+Class: false
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-4138632-pengorbanan-ahmad-dhani-untuk-prabowo-ganti-nama-hingga-jual-rumah.txt
+Kalimat ke-3: Hal itu disampaikan Ahmad Dhani di Pengadilan Negeri Jakarta Selatan usai dirinya resmi berganti nama dari Dhani Ahmad Prasetyo menjadi Ahmad Dhani Prasetyo .
+Relasi: usai(Pengadilan Negeri Jakarta Selatan, dirinya)
+Class: false
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-4138632-pengorbanan-ahmad-dhani-untuk-prabowo-ganti-nama-hingga-jual-rumah.txt
+Kalimat ke-3: Hal itu disampaikan Ahmad Dhani di Pengadilan Negeri Jakarta Selatan usai dirinya resmi berganti nama dari Dhani Ahmad Prasetyo menjadi Ahmad Dhani Prasetyo .
+Relasi: berganti nama dari(dirinya, Dhani Ahmad Prasetyo)
+Class: false
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-4138632-pengorbanan-ahmad-dhani-untuk-prabowo-ganti-nama-hingga-jual-rumah.txt
+Kalimat ke-3: Hal itu disampaikan Ahmad Dhani di Pengadilan Negeri Jakarta Selatan usai dirinya resmi berganti nama dari Dhani Ahmad Prasetyo menjadi Ahmad Dhani Prasetyo .
+Relasi: menjadi(Dhani Ahmad Prasetyo, Ahmad Dhani Prasetyo)
+Class: false
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-4138632-pengorbanan-ahmad-dhani-untuk-prabowo-ganti-nama-hingga-jual-rumah.txt
+Kalimat ke-4: Tak sendiri, sang istri, Raden Wulansari, juga telah resmi berganti nama menjadi Mulan Jameela .
+Relasi: berganti(Raden, nama)
+Class: false
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-4138632-pengorbanan-ahmad-dhani-untuk-prabowo-ganti-nama-hingga-jual-rumah.txt
+Kalimat ke-4: Tak sendiri, sang istri, Raden Wulansari, juga telah resmi berganti nama menjadi Mulan Jameela .
+Relasi: menjadi(nama, Mulan Jameela)
+Class: false
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-4138632-pengorbanan-ahmad-dhani-untuk-prabowo-ganti-nama-hingga-jual-rumah.txt
+Kalimat ke-5: Nama itu memang sudah melekat menjadi nama panggung istri Dhani itu .
+Relasi: sudah melekat menjadi(Nama, nama panggung istri Dhani)
+Class: false
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-4138632-pengorbanan-ahmad-dhani-untuk-prabowo-ganti-nama-hingga-jual-rumah.txt
+Kalimat ke-7: "Iya kita suami istri berjuang untuk Pak Prabowo .
+Relasi: berjuang untuk(suami istri, Pak Prabowo)
+Class: false
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-4138632-pengorbanan-ahmad-dhani-untuk-prabowo-ganti-nama-hingga-jual-rumah.txt
+Kalimat ke-8: Jadi alasan mencalegkan itu berjuang untuk Pak Prabowo," kata Dhani .
+Relasi: berjuang untuk(Jadi alasan mencalegkan, Pak)
+Class: true
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-4138632-pengorbanan-ahmad-dhani-untuk-prabowo-ganti-nama-hingga-jual-rumah.txt
+Kalimat ke-8: Jadi alasan mencalegkan itu berjuang untuk Pak Prabowo," kata Dhani .
+Relasi: kata(Pak, Dhani)
+Class: true
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-4138632-pengorbanan-ahmad-dhani-untuk-prabowo-ganti-nama-hingga-jual-rumah.txt
+Kalimat ke-9: Dan untuk mendukung kemenangan Prabowo yang akan maju lagi sebagai calon presiden, Dhani juga siap menjual rumahnya .
+Relasi: akan maju lagi sebagai(kemenangan Prabowo, calon)
+Class: false
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-4138632-pengorbanan-ahmad-dhani-untuk-prabowo-ganti-nama-hingga-jual-rumah.txt
+Kalimat ke-9: Dan untuk mendukung kemenangan Prabowo yang akan maju lagi sebagai calon presiden, Dhani juga siap menjual rumahnya .
+Relasi: menjual(Dhani, rumahnya)
+Class: true
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-4138632-pengorbanan-ahmad-dhani-untuk-prabowo-ganti-nama-hingga-jual-rumah.txt
+Kalimat ke-10: "Kita siap jual rumah lah untuk Pak Prabowo," kata musisi yang kini lebih banyak berkecimpung di politik itu .
+Relasi: lah untuk(siap jual rumah, Pak)
+Class: true
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-4138632-pengorbanan-ahmad-dhani-untuk-prabowo-ganti-nama-hingga-jual-rumah.txt
+Kalimat ke-10: "Kita siap jual rumah lah untuk Pak Prabowo," kata musisi yang kini lebih banyak berkecimpung di politik itu .
+Relasi: kata(Pak, musisi)
+Class: true
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-4138632-pengorbanan-ahmad-dhani-untuk-prabowo-ganti-nama-hingga-jual-rumah.txt
+Kalimat ke-10: "Kita siap jual rumah lah untuk Pak Prabowo," kata musisi yang kini lebih banyak berkecimpung di politik itu .
+Relasi: berkecimpung di(musisi, politik)
+Class: true
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-4138632-pengorbanan-ahmad-dhani-untuk-prabowo-ganti-nama-hingga-jual-rumah.txt
+Kalimat ke-11: Baca juga: Ini Alasan Ahmad Dhani dan Mulan Jameela Ganti Nama Seperti diketahui, sekitar satu bulan lalu, Ketua Umum Partai Gerindra Prabowo menggalang donasi untuk mendukung perjuangan politiknya dan Gerindra .
+Relasi: menggalang donasi untuk mendukung(Gerindra, perjuangan politiknya)
+Class: true
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-4138632-pengorbanan-ahmad-dhani-untuk-prabowo-ganti-nama-hingga-jual-rumah.txt
+Kalimat ke-13: Penggalangan donasi politik dari Prabowo itu sempat menjadi kontroversi .
+Relasi: menjadi(Prabowo, kontroversi)
+Class: true
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-4138632-pengorbanan-ahmad-dhani-untuk-prabowo-ganti-nama-hingga-jual-rumah.txt
+Kalimat ke-20: 2 celeb Mulan Jameela Mantap Kenakan Hijab celeb Mulan Jameela Mantap Kenakan Hijab celeb Mulan Jameela Mantap Kenakan Hijab celeb Mulan Jameela Mantap Kenakan Hijab celeb Mulan Jameela Mantap Kenakan Hijab celeb Mulan Jameela Mantap Kenakan Hijab 3 celeb Maia Estianty Bicara Kemiripan Dul dan Ahmad Dhani celeb Maia Estianty Bicara Kemiripan Dul dan Ahmad Dhani celeb Maia Estianty Bicara Kemiripan Dul dan Ahmad Dhani celeb Maia Estianty Bicara Kemiripan Dul dan Ahmad Dhani celeb Maia Estianty Bicara Kemiripan Dul dan Ahmad Dhani celeb Maia Estianty Bicara Kemiripan Dul dan Ahmad Dhani celeb Maia Estianty Bicara Kemiripan Dul dan Ahmad Dhani 4 celeb Dul Jaelani Langsung Nikah Usai Lulus Sekolah?
+Relasi: Usai(Ahmad Dhani 4 celeb Dul Jaelani Langsung Nikah, Lulus)
+Class: true
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-4138632-pengorbanan-ahmad-dhani-untuk-prabowo-ganti-nama-hingga-jual-rumah.txt
+Kalimat ke-21: celeb Dul Jaelani Langsung Nikah Usai Lulus Sekolah?
+Relasi: Usai(celeb Dul Jaelani Langsung Nikah, Lulus)
+Class: false
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-4138632-pengorbanan-ahmad-dhani-untuk-prabowo-ganti-nama-hingga-jual-rumah.txt
+Kalimat ke-22: celeb Dul Jaelani Langsung Nikah Usai Lulus Sekolah?
+Relasi: Usai(celeb Dul Jaelani Langsung Nikah, Lulus)
+Class: true
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-4138632-pengorbanan-ahmad-dhani-untuk-prabowo-ganti-nama-hingga-jual-rumah.txt
+Kalimat ke-23: celeb Dul Jaelani Langsung Nikah Usai Lulus Sekolah?
+Relasi: Usai(celeb Dul Jaelani Langsung Nikah, Lulus)
+Class: false
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-4138632-pengorbanan-ahmad-dhani-untuk-prabowo-ganti-nama-hingga-jual-rumah.txt
+Kalimat ke-24: celeb Dul Jaelani Langsung Nikah Usai Lulus Sekolah?
+Relasi: Usai(celeb Dul Jaelani Langsung Nikah, Lulus)
+Class: true
+
+

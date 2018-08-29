@@ -1,0 +1,68 @@
+Source: D:\openIE-master\data\preprocess\http-otomotif-kompas-com-read-2017-11-30-080200915-menjajal-suv-sokon-glory-580-produksi-serang-video.txt
+Kalimat ke-2: Merek asal China ini memang secara resmi belum meluncurkan model tersebut, tapi sudah mengizinkan awak media untuk menjajalnya .
+Relasi: memang secara resmi belum meluncurkan(Merek asal China ini, model tersebut,)
+
+Source: D:\openIE-master\data\preprocess\http-otomotif-kompas-com-read-2017-11-30-080200915-menjajal-suv-sokon-glory-580-produksi-serang-video.txt
+Kalimat ke-4: Bahkan, tak lebih dari lima menit nampaknya mengendarai produk baru yang punya nama Glory 580 ini .
+Relasi: mengendarai(lima menit, produk baru)
+
+Source: D:\openIE-master\data\preprocess\http-otomotif-kompas-com-read-2017-11-30-080200915-menjajal-suv-sokon-glory-580-produksi-serang-video.txt
+Kalimat ke-6: Posisi Bekendara Jok berlapis kulit dengan desain semi-bucketseat, ditambah dengan ketebalan busa yang pas, membuat pinggul dan tubuh pewe ketika pertama kali duduk .
+Relasi: berlapis(Posisi Bekendara Jok, kulit)
+
+Source: D:\openIE-master\data\preprocess\http-otomotif-kompas-com-read-2017-11-30-080200915-menjajal-suv-sokon-glory-580-produksi-serang-video.txt
+Kalimat ke-6: Posisi Bekendara Jok berlapis kulit dengan desain semi-bucketseat, ditambah dengan ketebalan busa yang pas, membuat pinggul dan tubuh pewe ketika pertama kali duduk .
+Relasi: ditambah(desain semi-bucketseat,, ketebalan busa)
+
+Source: D:\openIE-master\data\preprocess\http-otomotif-kompas-com-read-2017-11-30-080200915-menjajal-suv-sokon-glory-580-produksi-serang-video.txt
+Kalimat ke-6: Posisi Bekendara Jok berlapis kulit dengan desain semi-bucketseat, ditambah dengan ketebalan busa yang pas, membuat pinggul dan tubuh pewe ketika pertama kali duduk .
+Relasi: pas membuat(ketebalan busa, pinggul dan tubuh pewe)
+
+Source: D:\openIE-master\data\preprocess\http-otomotif-kompas-com-read-2017-11-30-080200915-menjajal-suv-sokon-glory-580-produksi-serang-video.txt
+Kalimat ke-7: Pengemudi bisa menyesuaikan posisi berkendara dengan menyetel kursi maju-mundur, maupun sudut sandar (reclining seat) serta kemudi yang bisa diatur up and down .
+Relasi: menyesuaikan(Pengemudi, posisi)
+
+Source: D:\openIE-master\data\preprocess\http-otomotif-kompas-com-read-2017-11-30-080200915-menjajal-suv-sokon-glory-580-produksi-serang-video.txt
+Kalimat ke-7: Pengemudi bisa menyesuaikan posisi berkendara dengan menyetel kursi maju-mundur, maupun sudut sandar (reclining seat) serta kemudi yang bisa diatur up and down .
+Relasi: diatur((reclining seat) serta kemudi, up and down)
+
+Source: D:\openIE-master\data\preprocess\http-otomotif-kompas-com-read-2017-11-30-080200915-menjajal-suv-sokon-glory-580-produksi-serang-video.txt
+Kalimat ke-8: Baca juga : Mobil China Sokon Glory 580 Dijual Awal 2018 Menggenggam lingkar kemudi juga terasa nyaman, yang juga berlapis kulit .
+Relasi: juga(Baca, Mobil China Sokon Glory)
+
+Source: D:\openIE-master\data\preprocess\http-otomotif-kompas-com-read-2017-11-30-080200915-menjajal-suv-sokon-glory-580-produksi-serang-video.txt
+Kalimat ke-9: Pada sisi mukanya sudah terdapat tombol-tombol pengatur head unit di sisi kiri setir, sementara sebelah kanan untuk mengangkat telepon .
+Relasi: mengangkat(sisi kiri setir, sementara sebelah kanan, telepon)
+
+Source: D:\openIE-master\data\preprocess\http-otomotif-kompas-com-read-2017-11-30-080200915-menjajal-suv-sokon-glory-580-produksi-serang-video.txt
+Kalimat ke-14: Performa Setelah rampung kutak-kutik posisi berkendara, mulai nyalakan mobil dengan injak kopling dan tekan tombol push-start di belakang kemudi sebelah kiri (bukan kanan) .
+Relasi: rampung(Performa, kutak-kutik posisi)
+
+Source: D:\openIE-master\data\preprocess\http-otomotif-kompas-com-read-2017-11-30-080200915-menjajal-suv-sokon-glory-580-produksi-serang-video.txt
+Kalimat ke-16: Dalam kondisi pintu dan kaca tertutup rapat, suara mesin hampir tak terdengar sampai bagian dalam mobil alias cukup kedap .
+Relasi: tertutup rapat(kondisi pintu dan kaca, suara mesin)
+
+Source: D:\openIE-master\data\preprocess\http-otomotif-kompas-com-read-2017-11-30-080200915-menjajal-suv-sokon-glory-580-produksi-serang-video.txt
+Kalimat ke-19: Caranya, dari posisi netral angkat tuas pada gagang persenling terlebih dahulu, kemudian geser mentok ke kiri kemudian ke arah atas .
+Relasi: terlebih dahulu(gagang persenling, geser)
+
+Source: D:\openIE-master\data\preprocess\http-otomotif-kompas-com-read-2017-11-30-080200915-menjajal-suv-sokon-glory-580-produksi-serang-video.txt
+Kalimat ke-21: Masuk gigi satu dan mulai berjalan dan kopling tidak terasa keras maupun terlalu empuk, serta perpindahan ke posisi gigi dua maupun tiga juga tidak kasar dan sulit .
+Relasi: tidak terasa keras terlalu(kopling, perpindahan)
+
+Source: D:\openIE-master\data\preprocess\http-otomotif-kompas-com-read-2017-11-30-080200915-menjajal-suv-sokon-glory-580-produksi-serang-video.txt
+Kalimat ke-22: Saat ada di posisi gigi kedua, menjajal menekan pedal gas sedikit dan ternyata tenaganya cepat terasa naiknya .
+Relasi: menjajal menekan(posisi gigi kedua,, pedal gas sedikit)
+
+Source: D:\openIE-master\data\preprocess\http-otomotif-kompas-com-read-2017-11-30-080200915-menjajal-suv-sokon-glory-580-produksi-serang-video.txt
+Kalimat ke-23: Sempak meliuk-liukkan mobil pada trek lurus, mobil bisa dikontrol baik tidak teralu boyo .
+Relasi: meliuk-liukkan(Sempak, mobil)
+
+Source: D:\openIE-master\data\preprocess\http-otomotif-kompas-com-read-2017-11-30-080200915-menjajal-suv-sokon-glory-580-produksi-serang-video.txt
+Kalimat ke-24: Handling-nya tidak menyulitkan untuk bermanuver atau tetap terjaga ketika melaju lurus dalam kecepatan tinggi .
+Relasi: tidak menyulitkan bermanuver tetap terjaga melaju lurus(Handling-nya, kecepatan tinggi)
+
+Source: D:\openIE-master\data\preprocess\http-otomotif-kompas-com-read-2017-11-30-080200915-menjajal-suv-sokon-glory-580-produksi-serang-video.txt
+Kalimat ke-25: Memang belum sepantasnya mengambil kesimpulan soal SUV terbaru Glory 580 ini, tapi kencan singkat pertama bersamanya ini cukup berhasil menyedot daya tarik, walaupun belum sampai membuat jatuh hati .
+Relasi: bersamanya cukup berhasil menyedot(kencan singkat pertama, daya tarik,)
+

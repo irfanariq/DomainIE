@@ -1,0 +1,251 @@
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-4149357-praperadilan-luna-maya-dan-cut-tari-panji-trihatmodjo-resmi-menikah.txt
+Kalimat ke-1: Kabar dunia hiburan detikHOT kali ini datang dari kasus video porno yang melibatkan Cut Tari dan Luna Maya mencuat kembali .
+Relasi: datang dari(Kabar dunia hiburan detikHOT kali, kasus video)
+Class: true
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-4149357-praperadilan-luna-maya-dan-cut-tari-panji-trihatmodjo-resmi-menikah.txt
+Kalimat ke-1: Kabar dunia hiburan detikHOT kali ini datang dari kasus video porno yang melibatkan Cut Tari dan Luna Maya mencuat kembali .
+Relasi: melibatkan(kasus video, Cut Tari)
+Class: true
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-4149357-praperadilan-luna-maya-dan-cut-tari-panji-trihatmodjo-resmi-menikah.txt
+Kalimat ke-2: Kabar lainnya datang dari Panji Trihatmodjo yang resmi menikah dengan sang kekasih, Varsha Strauss .
+Relasi: datang dari(Kabar lainnya, Panji Trihatmodjo)
+Class: false
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-4149357-praperadilan-luna-maya-dan-cut-tari-panji-trihatmodjo-resmi-menikah.txt
+Kalimat ke-2: Kabar lainnya datang dari Panji Trihatmodjo yang resmi menikah dengan sang kekasih, Varsha Strauss .
+Relasi: menikah dengan(Panji Trihatmodjo, Varsha Strauss)
+Class: false
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-4149357-praperadilan-luna-maya-dan-cut-tari-panji-trihatmodjo-resmi-menikah.txt
+Kalimat ke-3: Berikut berita terpopuler detikHOT, Jumat, (3/8/2018): 1 .
+Relasi: terpopuler(Berikut berita, 1)
+Class: true
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-4149357-praperadilan-luna-maya-dan-cut-tari-panji-trihatmodjo-resmi-menikah.txt
+Kalimat ke-4: Kasus Video Porno Ariel-Luna-Cut Tari Dipraperadilankan, Ini Reaksi Hotman Kasus video porno Ariel 'NOAH', Luna Maya dan Cut Tari ternyata masih menyisakan kisah .
+Relasi: menyisakan(Luna Maya, kisah)
+Class: false
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-4149357-praperadilan-luna-maya-dan-cut-tari-panji-trihatmodjo-resmi-menikah.txt
+Kalimat ke-5: Perkara yang heboh nyaris satu dekade lalu itu ternyata dibawa ke praperadilan di PN Jaksel .
+Relasi: dibawa ke(heboh nyaris satu, praperadilan)
+Class: true
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-4149357-praperadilan-luna-maya-dan-cut-tari-panji-trihatmodjo-resmi-menikah.txt
+Kalimat ke-6: LP3HI mengajukan gugatan praperadilan untuk kasus tersebut .
+Relasi: mengajukan gugatan praperadilan untuk(LP3HI, kasus)
+Class: false
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-4149357-praperadilan-luna-maya-dan-cut-tari-panji-trihatmodjo-resmi-menikah.txt
+Kalimat ke-7: Mereka meminta Polri untuk mengeluarkan surat pemberitahuan penghentian penyidikan (SP3) di kasus Luna Maya-Cut Tari yang sudah mengendap bertahun-tahun di kepolisian .
+Relasi: sudah mengendap(Tari, kepolisian)
+Class: false
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-4149357-praperadilan-luna-maya-dan-cut-tari-panji-trihatmodjo-resmi-menikah.txt
+Kalimat ke-8: "Bahwa termohon I (Polri) telah menyidik dan menetapkan Cut Tari Aminah Anasya binti Joeransyah M dan Luna Maya Sugeng sebagai tersangka tindak pidana pornografi sebagaimana diatur pasal 282 ayat (1) KUHP dan telah menyerahkan," tullis salinan praperadilan yang diperoleh, Jumat (3/8/2018) .
+Relasi: telah menyidik(I (Polri), Cut Tari Aminah Anasya binti Joeransyah M)
+Class: true
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-4149357-praperadilan-luna-maya-dan-cut-tari-panji-trihatmodjo-resmi-menikah.txt
+Kalimat ke-8: "Bahwa termohon I (Polri) telah menyidik dan menetapkan Cut Tari Aminah Anasya binti Joeransyah M dan Luna Maya Sugeng sebagai tersangka tindak pidana pornografi sebagaimana diatur pasal 282 ayat (1) KUHP dan telah menyerahkan," tullis salinan praperadilan yang diperoleh, Jumat (3/8/2018) .
+Relasi: menetapkan(I (Polri), Cut Tari Aminah Anasya binti Joeransyah M)
+Class: true
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-4149357-praperadilan-luna-maya-dan-cut-tari-panji-trihatmodjo-resmi-menikah.txt
+Kalimat ke-8: "Bahwa termohon I (Polri) telah menyidik dan menetapkan Cut Tari Aminah Anasya binti Joeransyah M dan Luna Maya Sugeng sebagai tersangka tindak pidana pornografi sebagaimana diatur pasal 282 ayat (1) KUHP dan telah menyerahkan," tullis salinan praperadilan yang diperoleh, Jumat (3/8/2018) .
+Relasi: diatur(tersangka tindak pidana pornografi, pasal 282 ayat (1) KUHP)
+Class: false
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-4149357-praperadilan-luna-maya-dan-cut-tari-panji-trihatmodjo-resmi-menikah.txt
+Kalimat ke-10: Tiba-tiba eks Suami Kedua Kirim Duit, Nikita Mirzani Masih Nyinyir Nikita Mirzani tiba-tiba saja dikirim uang oleh mantan suami keduanya, Sajad Ukra .
+Relasi: dikirim uang oleh(Nyinyir Nikita Mirzani, mantan suami)
+Class: false
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-4149357-praperadilan-luna-maya-dan-cut-tari-panji-trihatmodjo-resmi-menikah.txt
+Kalimat ke-11: Hal itu sudah berlangsung selama empat bulan belakangan ini .
+Relasi: sudah berlangsung selama(Hal, empat bulan belakangan)
+Class: true
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-4149357-praperadilan-luna-maya-dan-cut-tari-panji-trihatmodjo-resmi-menikah.txt
+Kalimat ke-12: "600 sing (saja) kalau dirupiahin itu 10.400 yang paling cuman 6.400.000 .
+Relasi: cuman(10.400, 6.400.000)
+Class: false
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-4149357-praperadilan-luna-maya-dan-cut-tari-panji-trihatmodjo-resmi-menikah.txt
+Kalimat ke-13: 600 juta dari mane ada duit aja nggak dia," ucap Nikita Mirzani usai mengisi acara di 'Pagi-pagi Pasti Happy', Trans TV, Kapten Tendean, Jakarta Selatan, Jumat, (3/8/2018) .
+Relasi: ada(mane, duit aja nggak)
+Class: false
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-4149357-praperadilan-luna-maya-dan-cut-tari-panji-trihatmodjo-resmi-menikah.txt
+Kalimat ke-13: 600 juta dari mane ada duit aja nggak dia," ucap Nikita Mirzani usai mengisi acara di 'Pagi-pagi Pasti Happy', Trans TV, Kapten Tendean, Jakarta Selatan, Jumat, (3/8/2018) .
+Relasi: usai mengisi acara di(ucap Nikita Mirzani, Trans)
+Class: true
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-4149357-praperadilan-luna-maya-dan-cut-tari-panji-trihatmodjo-resmi-menikah.txt
+Kalimat ke-14: Hal itu terjadi sejak Nikita Mirzani sempat dilaporkan ke polisi oleh Sajad Ukra .
+Relasi: terjadi sejak(Hal, Nikita Mirzani)
+Class: true
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-4149357-praperadilan-luna-maya-dan-cut-tari-panji-trihatmodjo-resmi-menikah.txt
+Kalimat ke-14: Hal itu terjadi sejak Nikita Mirzani sempat dilaporkan ke polisi oleh Sajad Ukra .
+Relasi: dilaporkan ke(Nikita Mirzani, polisi)
+Class: false
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-4149357-praperadilan-luna-maya-dan-cut-tari-panji-trihatmodjo-resmi-menikah.txt
+Kalimat ke-15: Sajad melaporkan Nikita lantaran merasa dipersulit untuk bertemu dengan anaknya, Azka Raqila Ukra  .
+Relasi: melaporkan(Sajad, Nikita lantaran)
+Class: true
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-4149357-praperadilan-luna-maya-dan-cut-tari-panji-trihatmodjo-resmi-menikah.txt
+Kalimat ke-15: Sajad melaporkan Nikita lantaran merasa dipersulit untuk bertemu dengan anaknya, Azka Raqila Ukra  .
+Relasi: merasa dipersulit untuk bertemu dengan(Nikita lantaran, Azka Raqila Ukra)
+Class: false
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-4149357-praperadilan-luna-maya-dan-cut-tari-panji-trihatmodjo-resmi-menikah.txt
+Kalimat ke-18: Pacari pengusaha kaya, Denny Sumargo malah menyesal orang-orang tahu status sosial sang kekasih .
+Relasi: menyesal(Denny Sumargo malah, status)
+Class: true
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-4149357-praperadilan-luna-maya-dan-cut-tari-panji-trihatmodjo-resmi-menikah.txt
+Kalimat ke-18: Pacari pengusaha kaya, Denny Sumargo malah menyesal orang-orang tahu status sosial sang kekasih .
+Relasi: tahu(Denny Sumargo malah, status)
+Class: false
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-4149357-praperadilan-luna-maya-dan-cut-tari-panji-trihatmodjo-resmi-menikah.txt
+Kalimat ke-20: Dita sendiri, selain dikenal sebagai sosialita dia juga merupakan pengusaha yang dikenal tajir .
+Relasi: dikenal sebagai(Dita, sosialita)
+Class: true
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-4149357-praperadilan-luna-maya-dan-cut-tari-panji-trihatmodjo-resmi-menikah.txt
+Kalimat ke-20: Dita sendiri, selain dikenal sebagai sosialita dia juga merupakan pengusaha yang dikenal tajir .
+Relasi: merupakan(sosialita, pengusaha)
+Class: true
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-4149357-praperadilan-luna-maya-dan-cut-tari-panji-trihatmodjo-resmi-menikah.txt
+Kalimat ke-20: Dita sendiri, selain dikenal sebagai sosialita dia juga merupakan pengusaha yang dikenal tajir .
+Relasi: dikenal(Dita, sosialita)
+Class: true
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-4149357-praperadilan-luna-maya-dan-cut-tari-panji-trihatmodjo-resmi-menikah.txt
+Kalimat ke-22: Nyesel aku (upload) ketahuan ya kaya," celetuk Denny Sumargo saat dihubungi detikHOT, Jumat (3/8/2018) sambil tertawa .
+Relasi: dihubungi(celetuk Denny Sumargo, Jumat)
+Class: false
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-4149357-praperadilan-luna-maya-dan-cut-tari-panji-trihatmodjo-resmi-menikah.txt
+Kalimat ke-24: Benarkah 2 Bulan Biaya Pengobatan Shakira Sampai Rp 4 Miliar?
+Relasi: Sampai(Benarkah 2 Bulan Biaya Pengobatan Shakira, Rp 4)
+Class: true
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-4149357-praperadilan-luna-maya-dan-cut-tari-panji-trihatmodjo-resmi-menikah.txt
+Kalimat ke-25: Shakira kini tengah menjalani pengobatan di National University Hospital, Singapura .
+Relasi: menjalani pengobatan di(tengah, National University)
+Class: true
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-4149357-praperadilan-luna-maya-dan-cut-tari-panji-trihatmodjo-resmi-menikah.txt
+Kalimat ke-26: Mengenai hal tersebut, ada kabar kalau Denada dan Jerry Aurum sudah menghabiskan uang sebesar Rp 4 miliar dalam dua bulan .
+Relasi: ada(hal, kabar)
+Class: true
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-4149357-praperadilan-luna-maya-dan-cut-tari-panji-trihatmodjo-resmi-menikah.txt
+Kalimat ke-26: Mengenai hal tersebut, ada kabar kalau Denada dan Jerry Aurum sudah menghabiskan uang sebesar Rp 4 miliar dalam dua bulan .
+Relasi: sudah menghabiskan uang sebesar Rp 4 miliar dalam(Jerry Aurum, dua bulan)
+Class: true
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-4149357-praperadilan-luna-maya-dan-cut-tari-panji-trihatmodjo-resmi-menikah.txt
+Kalimat ke-29: Namun, pelantun 'Jogetin Aja' itu mengatakan uang yang sudah dikeluarkannya memang cukup besar .
+Relasi: mengatakan(pelantun, uang)
+Class: false
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-4149357-praperadilan-luna-maya-dan-cut-tari-panji-trihatmodjo-resmi-menikah.txt
+Kalimat ke-30: "Lebih dari ratusan jadi terima kasih sekali lagi .
+Relasi: terima(ratusan, kasih)
+Class: true
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-4149357-praperadilan-luna-maya-dan-cut-tari-panji-trihatmodjo-resmi-menikah.txt
+Kalimat ke-31: Pokoknya ini saya nggak sampai hati ngomongnya banyak betul jumlahnya besar," ucap Denada saat ditemui usai mengisi acara di 'Brownis', Trans TV, Jalan Kapten Tendean, Jakarta Selatan, Jumat (3/8/2018) .
+Relasi: sampai(nggak, hati ngomongnya banyak betul jumlahnya)
+Class: false
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-4149357-praperadilan-luna-maya-dan-cut-tari-panji-trihatmodjo-resmi-menikah.txt
+Kalimat ke-31: Pokoknya ini saya nggak sampai hati ngomongnya banyak betul jumlahnya besar," ucap Denada saat ditemui usai mengisi acara di 'Brownis', Trans TV, Jalan Kapten Tendean, Jakarta Selatan, Jumat (3/8/2018) .
+Relasi: ditemui usai mengisi acara di(ucap Denada, Trans)
+Class: false
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-4149357-praperadilan-luna-maya-dan-cut-tari-panji-trihatmodjo-resmi-menikah.txt
+Kalimat ke-33: Panji Trihatmodjo Akhirnya Resmi Menikah dengan Pacar Bulenya Cucu mantan Presiden Soeharto, Panji Trihatmodjo akhirnya resmi menikah dengan kekasih bulenya, Varsha Strauss .
+Relasi: menikah dengan(Pacar Bulenya Cucu mantan Presiden, kekasih)
+Class: true
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-4149357-praperadilan-luna-maya-dan-cut-tari-panji-trihatmodjo-resmi-menikah.txt
+Kalimat ke-35: Kental menggunakan adat Jawa, Panji Trihatmodjo dan Varsha Strauss akhirnya resmi menikah .
+Relasi: menggunakan(Kental, adat)
+Class: false
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-4149357-praperadilan-luna-maya-dan-cut-tari-panji-trihatmodjo-resmi-menikah.txt
+Kalimat ke-36: Dilihat dari foto yang diunggah @lambe**urah, Panji dan Varsha terlihat mengenakan pakaian adat Jawa serba putih .
+Relasi: diunggah(foto, Panji)
+Class: false
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-4149357-praperadilan-luna-maya-dan-cut-tari-panji-trihatmodjo-resmi-menikah.txt
+Kalimat ke-36: Dilihat dari foto yang diunggah @lambe**urah, Panji dan Varsha terlihat mengenakan pakaian adat Jawa serba putih .
+Relasi: terlihat mengenakan(Varsha, pakaian adat Jawa serba)
+Class: true
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-4149357-praperadilan-luna-maya-dan-cut-tari-panji-trihatmodjo-resmi-menikah.txt
+Kalimat ke-37: Foto tersebut diambil ketika keduanya tengah mengucapkan ijab kabul di hadapan keluarga dan pengghulu .
+Relasi: diambil(Foto, tengah)
+Class: false
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-4149357-praperadilan-luna-maya-dan-cut-tari-panji-trihatmodjo-resmi-menikah.txt
+Kalimat ke-37: Foto tersebut diambil ketika keduanya tengah mengucapkan ijab kabul di hadapan keluarga dan pengghulu .
+Relasi: mengucapkan ijab kabul di(tengah, hadapan keluarga)
+Class: false
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-4149357-praperadilan-luna-maya-dan-cut-tari-panji-trihatmodjo-resmi-menikah.txt
+Kalimat ke-38: "Yuhuuuu Syelamat menempuh idup baru buat babang panji & mbak versha," tulis akun tersebut seperti yang dilihat detikHOT, Jumat, (3/8/2018) .
+Relasi: menempuh(Syelamat, idup baru buat babang panji & mbak)
+Class: true
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-4149357-praperadilan-luna-maya-dan-cut-tari-panji-trihatmodjo-resmi-menikah.txt
+Kalimat ke-50: 7 celeb Reino Barack Ulang Tahun, Luna Maya Unggah Foto Mesra celeb Reino Barack Ulang Tahun, Luna Maya Unggah Foto Mesra celeb Reino Barack Ulang Tahun, Luna Maya Unggah Foto Mesra celeb Reino Barack Ulang Tahun, Luna Maya Unggah Foto Mesra celeb Reino Barack Ulang Tahun, Luna Maya Unggah Foto Mesra celeb Reino Barack Ulang Tahun, Luna Maya Unggah Foto Mesra 8 celeb Luna Maya Ditanya soal Balikan dengan Ariel 'NOAH' celeb Luna Maya Ditanya soal Balikan dengan Ariel 'NOAH' celeb Luna Maya Ditanya soal Balikan dengan Ariel 'NOAH' celeb Luna Maya Ditanya soal Balikan dengan Ariel 'NOAH' celeb Luna Maya Ditanya soal Balikan dengan Ariel 'NOAH' celeb Luna Maya Ditanya soal Balikan dengan Ariel 'NOAH' celeb Luna Maya Ditanya soal Balikan dengan Ariel 'NOAH' celeb Luna Maya Ditanya soal Balikan dengan Ariel 'NOAH' 9 celeb Penampilan Baru Bunga Zainal yang Makin Fresh celeb Penampilan Baru Bunga Zainal yang Makin Fresh celeb Penampilan Baru Bunga Zainal yang Makin Fresh celeb Penampilan Baru Bunga Zainal yang Makin Fresh celeb Penampilan Baru Bunga Zainal yang Makin Fresh celeb Penampilan Baru Bunga Zainal yang Makin Fresh 10 celeb Pesona Seleb Cantik di Atas 30 Tahun yang Belum Menikah celeb Pesona Seleb Cantik di Atas 30 Tahun yang Belum Menikah celeb Pesona Seleb Cantik di Atas 30 Tahun yang Belum Menikah celeb Pesona Seleb Cantik di Atas 30 Tahun yang Belum Menikah celeb Pesona Seleb Cantik di Atas 30 Tahun yang Belum Menikah celeb Pesona Seleb Cantik di Atas 30 Tahun yang Belum Menikah celeb Pesona Seleb Cantik di Atas 30 Tahun yang Belum Menikah celeb Pesona Seleb Cantik di Atas 30 Tahun yang Belum Menikah celeb Pesona Seleb Cantik di Atas 30 Tahun yang Belum Menikah celeb Pesona Seleb Cantik di Atas 30 Tahun yang Belum Menikah celeb Pesona Seleb Cantik di Atas 30 Tahun yang Belum Menikah celeb Pesona Seleb Cantik di Atas 30 Tahun yang Belum Menikah celeb Pesona Seleb Cantik di Atas 30 Tahun yang Belum Menikah 11 celeb Tampil dengan Riasan Pengantin, Luna Maya Disebut akan Menikah celeb Tampil dengan Riasan Pengantin, Luna Maya Disebut akan Menikah celeb Tampil dengan Riasan Pengantin, Luna Maya Disebut akan Menikah celeb Tampil dengan Riasan Pengantin, Luna Maya Disebut akan Menikah celeb Tampil dengan Riasan Pengantin, Luna Maya Disebut akan Menikah celeb Tampil dengan Riasan Pengantin, Luna Maya Disebut akan Menikah celeb Tampil dengan Riasan Pengantin, Luna Maya Disebut akan Menikah celeb Tampil dengan Riasan Pengantin, Luna Maya Disebut akan Menikah 12 celeb Gaya Genit Geng Menteri Ceria celeb Gaya Genit Geng Menteri Ceria celeb Gaya Genit Geng Menteri Ceria celeb Gaya Genit Geng Menteri Ceria celeb Gaya Genit Geng Menteri Ceria celeb Gaya Genit Geng Menteri Ceria 13 celeb Kena Macet?
+Relasi: Disebut(Riasan, Menikah celeb Tampil)
+Class: false
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-4149357-praperadilan-luna-maya-dan-cut-tari-panji-trihatmodjo-resmi-menikah.txt
+Kalimat ke-50: 7 celeb Reino Barack Ulang Tahun, Luna Maya Unggah Foto Mesra celeb Reino Barack Ulang Tahun, Luna Maya Unggah Foto Mesra celeb Reino Barack Ulang Tahun, Luna Maya Unggah Foto Mesra celeb Reino Barack Ulang Tahun, Luna Maya Unggah Foto Mesra celeb Reino Barack Ulang Tahun, Luna Maya Unggah Foto Mesra celeb Reino Barack Ulang Tahun, Luna Maya Unggah Foto Mesra 8 celeb Luna Maya Ditanya soal Balikan dengan Ariel 'NOAH' celeb Luna Maya Ditanya soal Balikan dengan Ariel 'NOAH' celeb Luna Maya Ditanya soal Balikan dengan Ariel 'NOAH' celeb Luna Maya Ditanya soal Balikan dengan Ariel 'NOAH' celeb Luna Maya Ditanya soal Balikan dengan Ariel 'NOAH' celeb Luna Maya Ditanya soal Balikan dengan Ariel 'NOAH' celeb Luna Maya Ditanya soal Balikan dengan Ariel 'NOAH' celeb Luna Maya Ditanya soal Balikan dengan Ariel 'NOAH' 9 celeb Penampilan Baru Bunga Zainal yang Makin Fresh celeb Penampilan Baru Bunga Zainal yang Makin Fresh celeb Penampilan Baru Bunga Zainal yang Makin Fresh celeb Penampilan Baru Bunga Zainal yang Makin Fresh celeb Penampilan Baru Bunga Zainal yang Makin Fresh celeb Penampilan Baru Bunga Zainal yang Makin Fresh 10 celeb Pesona Seleb Cantik di Atas 30 Tahun yang Belum Menikah celeb Pesona Seleb Cantik di Atas 30 Tahun yang Belum Menikah celeb Pesona Seleb Cantik di Atas 30 Tahun yang Belum Menikah celeb Pesona Seleb Cantik di Atas 30 Tahun yang Belum Menikah celeb Pesona Seleb Cantik di Atas 30 Tahun yang Belum Menikah celeb Pesona Seleb Cantik di Atas 30 Tahun yang Belum Menikah celeb Pesona Seleb Cantik di Atas 30 Tahun yang Belum Menikah celeb Pesona Seleb Cantik di Atas 30 Tahun yang Belum Menikah celeb Pesona Seleb Cantik di Atas 30 Tahun yang Belum Menikah celeb Pesona Seleb Cantik di Atas 30 Tahun yang Belum Menikah celeb Pesona Seleb Cantik di Atas 30 Tahun yang Belum Menikah celeb Pesona Seleb Cantik di Atas 30 Tahun yang Belum Menikah celeb Pesona Seleb Cantik di Atas 30 Tahun yang Belum Menikah 11 celeb Tampil dengan Riasan Pengantin, Luna Maya Disebut akan Menikah celeb Tampil dengan Riasan Pengantin, Luna Maya Disebut akan Menikah celeb Tampil dengan Riasan Pengantin, Luna Maya Disebut akan Menikah celeb Tampil dengan Riasan Pengantin, Luna Maya Disebut akan Menikah celeb Tampil dengan Riasan Pengantin, Luna Maya Disebut akan Menikah celeb Tampil dengan Riasan Pengantin, Luna Maya Disebut akan Menikah celeb Tampil dengan Riasan Pengantin, Luna Maya Disebut akan Menikah celeb Tampil dengan Riasan Pengantin, Luna Maya Disebut akan Menikah 12 celeb Gaya Genit Geng Menteri Ceria celeb Gaya Genit Geng Menteri Ceria celeb Gaya Genit Geng Menteri Ceria celeb Gaya Genit Geng Menteri Ceria celeb Gaya Genit Geng Menteri Ceria celeb Gaya Genit Geng Menteri Ceria 13 celeb Kena Macet?
+Relasi: Disebut(Riasan, Menikah celeb Tampil)
+Class: false
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-4149357-praperadilan-luna-maya-dan-cut-tari-panji-trihatmodjo-resmi-menikah.txt
+Kalimat ke-50: 7 celeb Reino Barack Ulang Tahun, Luna Maya Unggah Foto Mesra celeb Reino Barack Ulang Tahun, Luna Maya Unggah Foto Mesra celeb Reino Barack Ulang Tahun, Luna Maya Unggah Foto Mesra celeb Reino Barack Ulang Tahun, Luna Maya Unggah Foto Mesra celeb Reino Barack Ulang Tahun, Luna Maya Unggah Foto Mesra celeb Reino Barack Ulang Tahun, Luna Maya Unggah Foto Mesra 8 celeb Luna Maya Ditanya soal Balikan dengan Ariel 'NOAH' celeb Luna Maya Ditanya soal Balikan dengan Ariel 'NOAH' celeb Luna Maya Ditanya soal Balikan dengan Ariel 'NOAH' celeb Luna Maya Ditanya soal Balikan dengan Ariel 'NOAH' celeb Luna Maya Ditanya soal Balikan dengan Ariel 'NOAH' celeb Luna Maya Ditanya soal Balikan dengan Ariel 'NOAH' celeb Luna Maya Ditanya soal Balikan dengan Ariel 'NOAH' celeb Luna Maya Ditanya soal Balikan dengan Ariel 'NOAH' 9 celeb Penampilan Baru Bunga Zainal yang Makin Fresh celeb Penampilan Baru Bunga Zainal yang Makin Fresh celeb Penampilan Baru Bunga Zainal yang Makin Fresh celeb Penampilan Baru Bunga Zainal yang Makin Fresh celeb Penampilan Baru Bunga Zainal yang Makin Fresh celeb Penampilan Baru Bunga Zainal yang Makin Fresh 10 celeb Pesona Seleb Cantik di Atas 30 Tahun yang Belum Menikah celeb Pesona Seleb Cantik di Atas 30 Tahun yang Belum Menikah celeb Pesona Seleb Cantik di Atas 30 Tahun yang Belum Menikah celeb Pesona Seleb Cantik di Atas 30 Tahun yang Belum Menikah celeb Pesona Seleb Cantik di Atas 30 Tahun yang Belum Menikah celeb Pesona Seleb Cantik di Atas 30 Tahun yang Belum Menikah celeb Pesona Seleb Cantik di Atas 30 Tahun yang Belum Menikah celeb Pesona Seleb Cantik di Atas 30 Tahun yang Belum Menikah celeb Pesona Seleb Cantik di Atas 30 Tahun yang Belum Menikah celeb Pesona Seleb Cantik di Atas 30 Tahun yang Belum Menikah celeb Pesona Seleb Cantik di Atas 30 Tahun yang Belum Menikah celeb Pesona Seleb Cantik di Atas 30 Tahun yang Belum Menikah celeb Pesona Seleb Cantik di Atas 30 Tahun yang Belum Menikah 11 celeb Tampil dengan Riasan Pengantin, Luna Maya Disebut akan Menikah celeb Tampil dengan Riasan Pengantin, Luna Maya Disebut akan Menikah celeb Tampil dengan Riasan Pengantin, Luna Maya Disebut akan Menikah celeb Tampil dengan Riasan Pengantin, Luna Maya Disebut akan Menikah celeb Tampil dengan Riasan Pengantin, Luna Maya Disebut akan Menikah celeb Tampil dengan Riasan Pengantin, Luna Maya Disebut akan Menikah celeb Tampil dengan Riasan Pengantin, Luna Maya Disebut akan Menikah celeb Tampil dengan Riasan Pengantin, Luna Maya Disebut akan Menikah 12 celeb Gaya Genit Geng Menteri Ceria celeb Gaya Genit Geng Menteri Ceria celeb Gaya Genit Geng Menteri Ceria celeb Gaya Genit Geng Menteri Ceria celeb Gaya Genit Geng Menteri Ceria celeb Gaya Genit Geng Menteri Ceria 13 celeb Kena Macet?
+Relasi: Disebut(Riasan, Menikah celeb Tampil)
+Class: true
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-4149357-praperadilan-luna-maya-dan-cut-tari-panji-trihatmodjo-resmi-menikah.txt
+Kalimat ke-50: 7 celeb Reino Barack Ulang Tahun, Luna Maya Unggah Foto Mesra celeb Reino Barack Ulang Tahun, Luna Maya Unggah Foto Mesra celeb Reino Barack Ulang Tahun, Luna Maya Unggah Foto Mesra celeb Reino Barack Ulang Tahun, Luna Maya Unggah Foto Mesra celeb Reino Barack Ulang Tahun, Luna Maya Unggah Foto Mesra celeb Reino Barack Ulang Tahun, Luna Maya Unggah Foto Mesra 8 celeb Luna Maya Ditanya soal Balikan dengan Ariel 'NOAH' celeb Luna Maya Ditanya soal Balikan dengan Ariel 'NOAH' celeb Luna Maya Ditanya soal Balikan dengan Ariel 'NOAH' celeb Luna Maya Ditanya soal Balikan dengan Ariel 'NOAH' celeb Luna Maya Ditanya soal Balikan dengan Ariel 'NOAH' celeb Luna Maya Ditanya soal Balikan dengan Ariel 'NOAH' celeb Luna Maya Ditanya soal Balikan dengan Ariel 'NOAH' celeb Luna Maya Ditanya soal Balikan dengan Ariel 'NOAH' 9 celeb Penampilan Baru Bunga Zainal yang Makin Fresh celeb Penampilan Baru Bunga Zainal yang Makin Fresh celeb Penampilan Baru Bunga Zainal yang Makin Fresh celeb Penampilan Baru Bunga Zainal yang Makin Fresh celeb Penampilan Baru Bunga Zainal yang Makin Fresh celeb Penampilan Baru Bunga Zainal yang Makin Fresh 10 celeb Pesona Seleb Cantik di Atas 30 Tahun yang Belum Menikah celeb Pesona Seleb Cantik di Atas 30 Tahun yang Belum Menikah celeb Pesona Seleb Cantik di Atas 30 Tahun yang Belum Menikah celeb Pesona Seleb Cantik di Atas 30 Tahun yang Belum Menikah celeb Pesona Seleb Cantik di Atas 30 Tahun yang Belum Menikah celeb Pesona Seleb Cantik di Atas 30 Tahun yang Belum Menikah celeb Pesona Seleb Cantik di Atas 30 Tahun yang Belum Menikah celeb Pesona Seleb Cantik di Atas 30 Tahun yang Belum Menikah celeb Pesona Seleb Cantik di Atas 30 Tahun yang Belum Menikah celeb Pesona Seleb Cantik di Atas 30 Tahun yang Belum Menikah celeb Pesona Seleb Cantik di Atas 30 Tahun yang Belum Menikah celeb Pesona Seleb Cantik di Atas 30 Tahun yang Belum Menikah celeb Pesona Seleb Cantik di Atas 30 Tahun yang Belum Menikah 11 celeb Tampil dengan Riasan Pengantin, Luna Maya Disebut akan Menikah celeb Tampil dengan Riasan Pengantin, Luna Maya Disebut akan Menikah celeb Tampil dengan Riasan Pengantin, Luna Maya Disebut akan Menikah celeb Tampil dengan Riasan Pengantin, Luna Maya Disebut akan Menikah celeb Tampil dengan Riasan Pengantin, Luna Maya Disebut akan Menikah celeb Tampil dengan Riasan Pengantin, Luna Maya Disebut akan Menikah celeb Tampil dengan Riasan Pengantin, Luna Maya Disebut akan Menikah celeb Tampil dengan Riasan Pengantin, Luna Maya Disebut akan Menikah 12 celeb Gaya Genit Geng Menteri Ceria celeb Gaya Genit Geng Menteri Ceria celeb Gaya Genit Geng Menteri Ceria celeb Gaya Genit Geng Menteri Ceria celeb Gaya Genit Geng Menteri Ceria celeb Gaya Genit Geng Menteri Ceria 13 celeb Kena Macet?
+Relasi: Disebut(Riasan, Menikah celeb Tampil)
+Class: false
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-4149357-praperadilan-luna-maya-dan-cut-tari-panji-trihatmodjo-resmi-menikah.txt
+Kalimat ke-50: 7 celeb Reino Barack Ulang Tahun, Luna Maya Unggah Foto Mesra celeb Reino Barack Ulang Tahun, Luna Maya Unggah Foto Mesra celeb Reino Barack Ulang Tahun, Luna Maya Unggah Foto Mesra celeb Reino Barack Ulang Tahun, Luna Maya Unggah Foto Mesra celeb Reino Barack Ulang Tahun, Luna Maya Unggah Foto Mesra celeb Reino Barack Ulang Tahun, Luna Maya Unggah Foto Mesra 8 celeb Luna Maya Ditanya soal Balikan dengan Ariel 'NOAH' celeb Luna Maya Ditanya soal Balikan dengan Ariel 'NOAH' celeb Luna Maya Ditanya soal Balikan dengan Ariel 'NOAH' celeb Luna Maya Ditanya soal Balikan dengan Ariel 'NOAH' celeb Luna Maya Ditanya soal Balikan dengan Ariel 'NOAH' celeb Luna Maya Ditanya soal Balikan dengan Ariel 'NOAH' celeb Luna Maya Ditanya soal Balikan dengan Ariel 'NOAH' celeb Luna Maya Ditanya soal Balikan dengan Ariel 'NOAH' 9 celeb Penampilan Baru Bunga Zainal yang Makin Fresh celeb Penampilan Baru Bunga Zainal yang Makin Fresh celeb Penampilan Baru Bunga Zainal yang Makin Fresh celeb Penampilan Baru Bunga Zainal yang Makin Fresh celeb Penampilan Baru Bunga Zainal yang Makin Fresh celeb Penampilan Baru Bunga Zainal yang Makin Fresh 10 celeb Pesona Seleb Cantik di Atas 30 Tahun yang Belum Menikah celeb Pesona Seleb Cantik di Atas 30 Tahun yang Belum Menikah celeb Pesona Seleb Cantik di Atas 30 Tahun yang Belum Menikah celeb Pesona Seleb Cantik di Atas 30 Tahun yang Belum Menikah celeb Pesona Seleb Cantik di Atas 30 Tahun yang Belum Menikah celeb Pesona Seleb Cantik di Atas 30 Tahun yang Belum Menikah celeb Pesona Seleb Cantik di Atas 30 Tahun yang Belum Menikah celeb Pesona Seleb Cantik di Atas 30 Tahun yang Belum Menikah celeb Pesona Seleb Cantik di Atas 30 Tahun yang Belum Menikah celeb Pesona Seleb Cantik di Atas 30 Tahun yang Belum Menikah celeb Pesona Seleb Cantik di Atas 30 Tahun yang Belum Menikah celeb Pesona Seleb Cantik di Atas 30 Tahun yang Belum Menikah celeb Pesona Seleb Cantik di Atas 30 Tahun yang Belum Menikah 11 celeb Tampil dengan Riasan Pengantin, Luna Maya Disebut akan Menikah celeb Tampil dengan Riasan Pengantin, Luna Maya Disebut akan Menikah celeb Tampil dengan Riasan Pengantin, Luna Maya Disebut akan Menikah celeb Tampil dengan Riasan Pengantin, Luna Maya Disebut akan Menikah celeb Tampil dengan Riasan Pengantin, Luna Maya Disebut akan Menikah celeb Tampil dengan Riasan Pengantin, Luna Maya Disebut akan Menikah celeb Tampil dengan Riasan Pengantin, Luna Maya Disebut akan Menikah celeb Tampil dengan Riasan Pengantin, Luna Maya Disebut akan Menikah 12 celeb Gaya Genit Geng Menteri Ceria celeb Gaya Genit Geng Menteri Ceria celeb Gaya Genit Geng Menteri Ceria celeb Gaya Genit Geng Menteri Ceria celeb Gaya Genit Geng Menteri Ceria celeb Gaya Genit Geng Menteri Ceria 13 celeb Kena Macet?
+Relasi: Disebut(Riasan, Menikah celeb Tampil)
+Class: true
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-4149357-praperadilan-luna-maya-dan-cut-tari-panji-trihatmodjo-resmi-menikah.txt
+Kalimat ke-50: 7 celeb Reino Barack Ulang Tahun, Luna Maya Unggah Foto Mesra celeb Reino Barack Ulang Tahun, Luna Maya Unggah Foto Mesra celeb Reino Barack Ulang Tahun, Luna Maya Unggah Foto Mesra celeb Reino Barack Ulang Tahun, Luna Maya Unggah Foto Mesra celeb Reino Barack Ulang Tahun, Luna Maya Unggah Foto Mesra celeb Reino Barack Ulang Tahun, Luna Maya Unggah Foto Mesra 8 celeb Luna Maya Ditanya soal Balikan dengan Ariel 'NOAH' celeb Luna Maya Ditanya soal Balikan dengan Ariel 'NOAH' celeb Luna Maya Ditanya soal Balikan dengan Ariel 'NOAH' celeb Luna Maya Ditanya soal Balikan dengan Ariel 'NOAH' celeb Luna Maya Ditanya soal Balikan dengan Ariel 'NOAH' celeb Luna Maya Ditanya soal Balikan dengan Ariel 'NOAH' celeb Luna Maya Ditanya soal Balikan dengan Ariel 'NOAH' celeb Luna Maya Ditanya soal Balikan dengan Ariel 'NOAH' 9 celeb Penampilan Baru Bunga Zainal yang Makin Fresh celeb Penampilan Baru Bunga Zainal yang Makin Fresh celeb Penampilan Baru Bunga Zainal yang Makin Fresh celeb Penampilan Baru Bunga Zainal yang Makin Fresh celeb Penampilan Baru Bunga Zainal yang Makin Fresh celeb Penampilan Baru Bunga Zainal yang Makin Fresh 10 celeb Pesona Seleb Cantik di Atas 30 Tahun yang Belum Menikah celeb Pesona Seleb Cantik di Atas 30 Tahun yang Belum Menikah celeb Pesona Seleb Cantik di Atas 30 Tahun yang Belum Menikah celeb Pesona Seleb Cantik di Atas 30 Tahun yang Belum Menikah celeb Pesona Seleb Cantik di Atas 30 Tahun yang Belum Menikah celeb Pesona Seleb Cantik di Atas 30 Tahun yang Belum Menikah celeb Pesona Seleb Cantik di Atas 30 Tahun yang Belum Menikah celeb Pesona Seleb Cantik di Atas 30 Tahun yang Belum Menikah celeb Pesona Seleb Cantik di Atas 30 Tahun yang Belum Menikah celeb Pesona Seleb Cantik di Atas 30 Tahun yang Belum Menikah celeb Pesona Seleb Cantik di Atas 30 Tahun yang Belum Menikah celeb Pesona Seleb Cantik di Atas 30 Tahun yang Belum Menikah celeb Pesona Seleb Cantik di Atas 30 Tahun yang Belum Menikah 11 celeb Tampil dengan Riasan Pengantin, Luna Maya Disebut akan Menikah celeb Tampil dengan Riasan Pengantin, Luna Maya Disebut akan Menikah celeb Tampil dengan Riasan Pengantin, Luna Maya Disebut akan Menikah celeb Tampil dengan Riasan Pengantin, Luna Maya Disebut akan Menikah celeb Tampil dengan Riasan Pengantin, Luna Maya Disebut akan Menikah celeb Tampil dengan Riasan Pengantin, Luna Maya Disebut akan Menikah celeb Tampil dengan Riasan Pengantin, Luna Maya Disebut akan Menikah celeb Tampil dengan Riasan Pengantin, Luna Maya Disebut akan Menikah 12 celeb Gaya Genit Geng Menteri Ceria celeb Gaya Genit Geng Menteri Ceria celeb Gaya Genit Geng Menteri Ceria celeb Gaya Genit Geng Menteri Ceria celeb Gaya Genit Geng Menteri Ceria celeb Gaya Genit Geng Menteri Ceria 13 celeb Kena Macet?
+Relasi: Disebut(Riasan, Menikah celeb Tampil)
+Class: true
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-4149357-praperadilan-luna-maya-dan-cut-tari-panji-trihatmodjo-resmi-menikah.txt
+Kalimat ke-50: 7 celeb Reino Barack Ulang Tahun, Luna Maya Unggah Foto Mesra celeb Reino Barack Ulang Tahun, Luna Maya Unggah Foto Mesra celeb Reino Barack Ulang Tahun, Luna Maya Unggah Foto Mesra celeb Reino Barack Ulang Tahun, Luna Maya Unggah Foto Mesra celeb Reino Barack Ulang Tahun, Luna Maya Unggah Foto Mesra celeb Reino Barack Ulang Tahun, Luna Maya Unggah Foto Mesra 8 celeb Luna Maya Ditanya soal Balikan dengan Ariel 'NOAH' celeb Luna Maya Ditanya soal Balikan dengan Ariel 'NOAH' celeb Luna Maya Ditanya soal Balikan dengan Ariel 'NOAH' celeb Luna Maya Ditanya soal Balikan dengan Ariel 'NOAH' celeb Luna Maya Ditanya soal Balikan dengan Ariel 'NOAH' celeb Luna Maya Ditanya soal Balikan dengan Ariel 'NOAH' celeb Luna Maya Ditanya soal Balikan dengan Ariel 'NOAH' celeb Luna Maya Ditanya soal Balikan dengan Ariel 'NOAH' 9 celeb Penampilan Baru Bunga Zainal yang Makin Fresh celeb Penampilan Baru Bunga Zainal yang Makin Fresh celeb Penampilan Baru Bunga Zainal yang Makin Fresh celeb Penampilan Baru Bunga Zainal yang Makin Fresh celeb Penampilan Baru Bunga Zainal yang Makin Fresh celeb Penampilan Baru Bunga Zainal yang Makin Fresh 10 celeb Pesona Seleb Cantik di Atas 30 Tahun yang Belum Menikah celeb Pesona Seleb Cantik di Atas 30 Tahun yang Belum Menikah celeb Pesona Seleb Cantik di Atas 30 Tahun yang Belum Menikah celeb Pesona Seleb Cantik di Atas 30 Tahun yang Belum Menikah celeb Pesona Seleb Cantik di Atas 30 Tahun yang Belum Menikah celeb Pesona Seleb Cantik di Atas 30 Tahun yang Belum Menikah celeb Pesona Seleb Cantik di Atas 30 Tahun yang Belum Menikah celeb Pesona Seleb Cantik di Atas 30 Tahun yang Belum Menikah celeb Pesona Seleb Cantik di Atas 30 Tahun yang Belum Menikah celeb Pesona Seleb Cantik di Atas 30 Tahun yang Belum Menikah celeb Pesona Seleb Cantik di Atas 30 Tahun yang Belum Menikah celeb Pesona Seleb Cantik di Atas 30 Tahun yang Belum Menikah celeb Pesona Seleb Cantik di Atas 30 Tahun yang Belum Menikah 11 celeb Tampil dengan Riasan Pengantin, Luna Maya Disebut akan Menikah celeb Tampil dengan Riasan Pengantin, Luna Maya Disebut akan Menikah celeb Tampil dengan Riasan Pengantin, Luna Maya Disebut akan Menikah celeb Tampil dengan Riasan Pengantin, Luna Maya Disebut akan Menikah celeb Tampil dengan Riasan Pengantin, Luna Maya Disebut akan Menikah celeb Tampil dengan Riasan Pengantin, Luna Maya Disebut akan Menikah celeb Tampil dengan Riasan Pengantin, Luna Maya Disebut akan Menikah celeb Tampil dengan Riasan Pengantin, Luna Maya Disebut akan Menikah 12 celeb Gaya Genit Geng Menteri Ceria celeb Gaya Genit Geng Menteri Ceria celeb Gaya Genit Geng Menteri Ceria celeb Gaya Genit Geng Menteri Ceria celeb Gaya Genit Geng Menteri Ceria celeb Gaya Genit Geng Menteri Ceria 13 celeb Kena Macet?
+Relasi: Disebut(Riasan, Menikah celeb Tampil)
+Class: true
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-4149357-praperadilan-luna-maya-dan-cut-tari-panji-trihatmodjo-resmi-menikah.txt
+Kalimat ke-50: 7 celeb Reino Barack Ulang Tahun, Luna Maya Unggah Foto Mesra celeb Reino Barack Ulang Tahun, Luna Maya Unggah Foto Mesra celeb Reino Barack Ulang Tahun, Luna Maya Unggah Foto Mesra celeb Reino Barack Ulang Tahun, Luna Maya Unggah Foto Mesra celeb Reino Barack Ulang Tahun, Luna Maya Unggah Foto Mesra celeb Reino Barack Ulang Tahun, Luna Maya Unggah Foto Mesra 8 celeb Luna Maya Ditanya soal Balikan dengan Ariel 'NOAH' celeb Luna Maya Ditanya soal Balikan dengan Ariel 'NOAH' celeb Luna Maya Ditanya soal Balikan dengan Ariel 'NOAH' celeb Luna Maya Ditanya soal Balikan dengan Ariel 'NOAH' celeb Luna Maya Ditanya soal Balikan dengan Ariel 'NOAH' celeb Luna Maya Ditanya soal Balikan dengan Ariel 'NOAH' celeb Luna Maya Ditanya soal Balikan dengan Ariel 'NOAH' celeb Luna Maya Ditanya soal Balikan dengan Ariel 'NOAH' 9 celeb Penampilan Baru Bunga Zainal yang Makin Fresh celeb Penampilan Baru Bunga Zainal yang Makin Fresh celeb Penampilan Baru Bunga Zainal yang Makin Fresh celeb Penampilan Baru Bunga Zainal yang Makin Fresh celeb Penampilan Baru Bunga Zainal yang Makin Fresh celeb Penampilan Baru Bunga Zainal yang Makin Fresh 10 celeb Pesona Seleb Cantik di Atas 30 Tahun yang Belum Menikah celeb Pesona Seleb Cantik di Atas 30 Tahun yang Belum Menikah celeb Pesona Seleb Cantik di Atas 30 Tahun yang Belum Menikah celeb Pesona Seleb Cantik di Atas 30 Tahun yang Belum Menikah celeb Pesona Seleb Cantik di Atas 30 Tahun yang Belum Menikah celeb Pesona Seleb Cantik di Atas 30 Tahun yang Belum Menikah celeb Pesona Seleb Cantik di Atas 30 Tahun yang Belum Menikah celeb Pesona Seleb Cantik di Atas 30 Tahun yang Belum Menikah celeb Pesona Seleb Cantik di Atas 30 Tahun yang Belum Menikah celeb Pesona Seleb Cantik di Atas 30 Tahun yang Belum Menikah celeb Pesona Seleb Cantik di Atas 30 Tahun yang Belum Menikah celeb Pesona Seleb Cantik di Atas 30 Tahun yang Belum Menikah celeb Pesona Seleb Cantik di Atas 30 Tahun yang Belum Menikah 11 celeb Tampil dengan Riasan Pengantin, Luna Maya Disebut akan Menikah celeb Tampil dengan Riasan Pengantin, Luna Maya Disebut akan Menikah celeb Tampil dengan Riasan Pengantin, Luna Maya Disebut akan Menikah celeb Tampil dengan Riasan Pengantin, Luna Maya Disebut akan Menikah celeb Tampil dengan Riasan Pengantin, Luna Maya Disebut akan Menikah celeb Tampil dengan Riasan Pengantin, Luna Maya Disebut akan Menikah celeb Tampil dengan Riasan Pengantin, Luna Maya Disebut akan Menikah celeb Tampil dengan Riasan Pengantin, Luna Maya Disebut akan Menikah 12 celeb Gaya Genit Geng Menteri Ceria celeb Gaya Genit Geng Menteri Ceria celeb Gaya Genit Geng Menteri Ceria celeb Gaya Genit Geng Menteri Ceria celeb Gaya Genit Geng Menteri Ceria celeb Gaya Genit Geng Menteri Ceria 13 celeb Kena Macet?
+Relasi: Disebut(Riasan, Menikah celeb Tampil)
+Class: false
+
+

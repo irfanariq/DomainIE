@@ -1,0 +1,96 @@
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-d-4150117-elly-kasim-sumbang-lagu-di-resepsi-panji-trihatmodjo.txt
+Kalimat ke-1: Sebelumnya Panji Trihatmodjo memilih adat Jawa di acara akad nikahnya yang berlangsung pada Jumat (3/8) lalu .
+Relasi: memilih adat Jawa di(Sebelumnya Panji Trihatmodjo, acara akad)
+Class: true
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-d-4150117-elly-kasim-sumbang-lagu-di-resepsi-panji-trihatmodjo.txt
+Kalimat ke-1: Sebelumnya Panji Trihatmodjo memilih adat Jawa di acara akad nikahnya yang berlangsung pada Jumat (3/8) lalu .
+Relasi: berlangsung pada(acara akad, Jumat)
+Class: true
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-d-4150117-elly-kasim-sumbang-lagu-di-resepsi-panji-trihatmodjo.txt
+Kalimat ke-2: Namun untuk resepsi cucu mantan Presiden Soeharto itu ternyata memilih adat Minang .
+Relasi: memilih(resepsi cucu mantan Presiden Soeharto, adat Minang)
+Class: true
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-d-4150117-elly-kasim-sumbang-lagu-di-resepsi-panji-trihatmodjo.txt
+Kalimat ke-3: Acara yang digelar di Raffles Hotel, Jakarta Selatan pada Sabtu (4/8) malam itu berlangsung mewah .
+Relasi: digelar di(Acara, Raffles)
+Class: false
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-d-4150117-elly-kasim-sumbang-lagu-di-resepsi-panji-trihatmodjo.txt
+Kalimat ke-4: Hiasan bunga terlihat memenuhi ruangan ditambah ornamen khas Minang .
+Relasi: terlihat memenuhi(Hiasan bunga, ruangan)
+Class: false
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-d-4150117-elly-kasim-sumbang-lagu-di-resepsi-panji-trihatmodjo.txt
+Kalimat ke-4: Hiasan bunga terlihat memenuhi ruangan ditambah ornamen khas Minang .
+Relasi: ditambah(ruangan, ornamen khas Minang)
+Class: false
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-d-4150117-elly-kasim-sumbang-lagu-di-resepsi-panji-trihatmodjo.txt
+Kalimat ke-5: Baca juga: Pengamanan Ekstra Ketat di Pernikahan Panji Trihatmodjo Menurut salah satu tamu yang enggan disebut namanya itu, acara dimulai pada pukul 19.00 WIB dengan sambutan dan acara adat yang kemudian diisi oleh penampilan artis senior Elly Kasim .
+Relasi: Menurut(Pernikahan Panji Trihatmodjo, satu tamu)
+Class: false
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-d-4150117-elly-kasim-sumbang-lagu-di-resepsi-panji-trihatmodjo.txt
+Kalimat ke-5: Baca juga: Pengamanan Ekstra Ketat di Pernikahan Panji Trihatmodjo Menurut salah satu tamu yang enggan disebut namanya itu, acara dimulai pada pukul 19.00 WIB dengan sambutan dan acara adat yang kemudian diisi oleh penampilan artis senior Elly Kasim .
+Relasi: disebut(satu tamu, namanya)
+Class: false
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-d-4150117-elly-kasim-sumbang-lagu-di-resepsi-panji-trihatmodjo.txt
+Kalimat ke-5: Baca juga: Pengamanan Ekstra Ketat di Pernikahan Panji Trihatmodjo Menurut salah satu tamu yang enggan disebut namanya itu, acara dimulai pada pukul 19.00 WIB dengan sambutan dan acara adat yang kemudian diisi oleh penampilan artis senior Elly Kasim .
+Relasi: dimulai pada(acara, pukul 19.00 WIB)
+Class: true
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-d-4150117-elly-kasim-sumbang-lagu-di-resepsi-panji-trihatmodjo.txt
+Kalimat ke-5: Baca juga: Pengamanan Ekstra Ketat di Pernikahan Panji Trihatmodjo Menurut salah satu tamu yang enggan disebut namanya itu, acara dimulai pada pukul 19.00 WIB dengan sambutan dan acara adat yang kemudian diisi oleh penampilan artis senior Elly Kasim .
+Relasi: diisi oleh(acara adat, penampilan artis senior Elly Kasim)
+Class: true
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-d-4150117-elly-kasim-sumbang-lagu-di-resepsi-panji-trihatmodjo.txt
+Kalimat ke-6: Penyanyi berusia 73 tahun itu menampilkan tiga lagu khas Minang di acara resepsi Panji Trihatmodjo dan Varsha Strauss .
+Relasi: berusia(Penyanyi, 73 tahun)
+Class: false
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-d-4150117-elly-kasim-sumbang-lagu-di-resepsi-panji-trihatmodjo.txt
+Kalimat ke-6: Penyanyi berusia 73 tahun itu menampilkan tiga lagu khas Minang di acara resepsi Panji Trihatmodjo dan Varsha Strauss .
+Relasi: menampilkan tiga lagu khas Minang di(73 tahun, acara resepsi Panji Trihatmodjo)
+Class: true
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-d-4150117-elly-kasim-sumbang-lagu-di-resepsi-panji-trihatmodjo.txt
+Kalimat ke-7: Untuk souvenir sendiri, Panji dan Varsha Strauss memberikan kotak berwarna merah dengan hiasan Minang berwarna emas .
+Relasi: memberikan(Varsha Strauss, kotak)
+Class: true
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-d-4150117-elly-kasim-sumbang-lagu-di-resepsi-panji-trihatmodjo.txt
+Kalimat ke-7: Untuk souvenir sendiri, Panji dan Varsha Strauss memberikan kotak berwarna merah dengan hiasan Minang berwarna emas .
+Relasi: berwarna merah dengan(kotak, hiasan Minang)
+Class: false
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-d-4150117-elly-kasim-sumbang-lagu-di-resepsi-panji-trihatmodjo.txt
+Kalimat ke-7: Untuk souvenir sendiri, Panji dan Varsha Strauss memberikan kotak berwarna merah dengan hiasan Minang berwarna emas .
+Relasi: berwarna(kotak, hiasan Minang)
+Class: true
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-d-4150117-elly-kasim-sumbang-lagu-di-resepsi-panji-trihatmodjo.txt
+Kalimat ke-8: Saat dibuka tampak sebuah amplop berisi kartu ucapan di dalamnya .
+Relasi: berisi kartu ucapan di(sebuah amplop, dalamnya)
+Class: false
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-d-4150117-elly-kasim-sumbang-lagu-di-resepsi-panji-trihatmodjo.txt
+Kalimat ke-9: Baca juga: Panji Trihatmodjo Akhirnya Resmi Menikah dengan Pacar Bulenya Para tamu pun tampak sudah mulai meninggalkan lokasi dan selanjutnya akan ada acara After Party untuk rekan-rekan dan sahabat dari pasangan Panji dan Varsha .
+Relasi: tampak sudah mulai meninggalkan(tamu, lokasi)
+Class: true
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-d-4150117-elly-kasim-sumbang-lagu-di-resepsi-panji-trihatmodjo.txt
+Kalimat ke-9: Baca juga: Panji Trihatmodjo Akhirnya Resmi Menikah dengan Pacar Bulenya Para tamu pun tampak sudah mulai meninggalkan lokasi dan selanjutnya akan ada acara After Party untuk rekan-rekan dan sahabat dari pasangan Panji dan Varsha .
+Relasi: akan ada acara After Party untuk(selanjutnya, sahabat)
+Class: true
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-d-4150117-elly-kasim-sumbang-lagu-di-resepsi-panji-trihatmodjo.txt
+Kalimat ke-10: Foto: Asep/detikHOT (ass/nu2) panji trihatmodjo panji trihatmodjo menikah Photo Gallery 1 celeb Momen Mesra Panji Trihatmodjo dan Varsha Strauss Jelang Nikah celeb Momen Mesra Panji Trihatmodjo dan Varsha Strauss Jelang Nikah celeb Momen Mesra Panji Trihatmodjo dan Varsha Strauss Jelang Nikah celeb Momen Mesra Panji Trihatmodjo dan Varsha Strauss Jelang Nikah celeb Momen Mesra Panji Trihatmodjo dan Varsha Strauss Jelang Nikah celeb Momen Mesra Panji Trihatmodjo dan Varsha Strauss Jelang Nikah celeb Momen Mesra Panji Trihatmodjo dan Varsha Strauss Jelang Nikah 1 celeb Aditya Trihatmanto Lamar Pacar, Panji Trihatmodjo Dilangkahi Nikah?
+Relasi: menikah(panji trihatmodjo panji trihatmodjo, Photo Gallery 1 celeb Momen Mesra Panji Trihatmodjo)
+Class: true
+
+

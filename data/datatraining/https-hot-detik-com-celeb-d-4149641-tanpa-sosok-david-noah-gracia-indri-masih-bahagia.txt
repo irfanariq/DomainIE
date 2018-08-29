@@ -1,0 +1,146 @@
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-d-4149641-tanpa-sosok-david-noah-gracia-indri-masih-bahagia.txt
+Kalimat ke-1: Gracia Indri dan David 'Noah' terlibat drama yang mengakibatkan perceraian .
+Relasi: terlibat(David, drama)
+Class: true
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-d-4149641-tanpa-sosok-david-noah-gracia-indri-masih-bahagia.txt
+Kalimat ke-1: Gracia Indri dan David 'Noah' terlibat drama yang mengakibatkan perceraian .
+Relasi: mengakibatkan(drama, perceraian)
+Class: false
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-d-4149641-tanpa-sosok-david-noah-gracia-indri-masih-bahagia.txt
+Kalimat ke-2: Meski sudah bercerai Gracia merasa tak sendiri dan masih bahagia tanpa sosok David .
+Relasi: merasa(Gracia, bahagia)
+Class: false
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-d-4149641-tanpa-sosok-david-noah-gracia-indri-masih-bahagia.txt
+Kalimat ke-4: Jadi maksudnya saya masih bisa menjalani hidup, kerja juga masih puji Tuhan, masih dikasih kerjaan terus masih bisa keluar kota terus, maksud aku semuanya berjalan seperti biasa ajah sih nggak ada yang aneh," katanya saat sharing bersama Gracia Indri, Martinez Professionnel, PIM 2, Pondok Indah, Jakarta Selatan .
+Relasi: bisa menjalani(Jadi maksudnya, kerja)
+Class: false
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-d-4149641-tanpa-sosok-david-noah-gracia-indri-masih-bahagia.txt
+Kalimat ke-4: Jadi maksudnya saya masih bisa menjalani hidup, kerja juga masih puji Tuhan, masih dikasih kerjaan terus masih bisa keluar kota terus, maksud aku semuanya berjalan seperti biasa ajah sih nggak ada yang aneh," katanya saat sharing bersama Gracia Indri, Martinez Professionnel, PIM 2, Pondok Indah, Jakarta Selatan .
+Relasi: dikasih(puji, kerjaan)
+Class: true
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-d-4149641-tanpa-sosok-david-noah-gracia-indri-masih-bahagia.txt
+Kalimat ke-4: Jadi maksudnya saya masih bisa menjalani hidup, kerja juga masih puji Tuhan, masih dikasih kerjaan terus masih bisa keluar kota terus, maksud aku semuanya berjalan seperti biasa ajah sih nggak ada yang aneh," katanya saat sharing bersama Gracia Indri, Martinez Professionnel, PIM 2, Pondok Indah, Jakarta Selatan .
+Relasi: bisa keluar(kerjaan, kota)
+Class: true
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-d-4149641-tanpa-sosok-david-noah-gracia-indri-masih-bahagia.txt
+Kalimat ke-4: Jadi maksudnya saya masih bisa menjalani hidup, kerja juga masih puji Tuhan, masih dikasih kerjaan terus masih bisa keluar kota terus, maksud aku semuanya berjalan seperti biasa ajah sih nggak ada yang aneh," katanya saat sharing bersama Gracia Indri, Martinez Professionnel, PIM 2, Pondok Indah, Jakarta Selatan .
+Relasi: berjalan seperti(maksud aku, biasa ajah sih nggak)
+Class: true
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-d-4149641-tanpa-sosok-david-noah-gracia-indri-masih-bahagia.txt
+Kalimat ke-4: Jadi maksudnya saya masih bisa menjalani hidup, kerja juga masih puji Tuhan, masih dikasih kerjaan terus masih bisa keluar kota terus, maksud aku semuanya berjalan seperti biasa ajah sih nggak ada yang aneh," katanya saat sharing bersama Gracia Indri, Martinez Professionnel, PIM 2, Pondok Indah, Jakarta Selatan .
+Relasi: ada(biasa ajah sih nggak, saat sharing bersama Gracia)
+Class: true
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-d-4149641-tanpa-sosok-david-noah-gracia-indri-masih-bahagia.txt
+Kalimat ke-4: Jadi maksudnya saya masih bisa menjalani hidup, kerja juga masih puji Tuhan, masih dikasih kerjaan terus masih bisa keluar kota terus, maksud aku semuanya berjalan seperti biasa ajah sih nggak ada yang aneh," katanya saat sharing bersama Gracia Indri, Martinez Professionnel, PIM 2, Pondok Indah, Jakarta Selatan .
+Relasi: katanya(biasa ajah sih nggak, saat sharing bersama Gracia)
+Class: true
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-d-4149641-tanpa-sosok-david-noah-gracia-indri-masih-bahagia.txt
+Kalimat ke-6: Salah satunya kebahagiaan adalah saat dirinya dan sang ibu mengunjungi adiknya yang kini tinggal di Amerika beberapa saat lalu .
+Relasi: adalah(kebahagiaan, saat dirinya)
+Class: true
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-d-4149641-tanpa-sosok-david-noah-gracia-indri-masih-bahagia.txt
+Kalimat ke-6: Salah satunya kebahagiaan adalah saat dirinya dan sang ibu mengunjungi adiknya yang kini tinggal di Amerika beberapa saat lalu .
+Relasi: mengunjungi(ibu, adiknya)
+Class: true
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-d-4149641-tanpa-sosok-david-noah-gracia-indri-masih-bahagia.txt
+Kalimat ke-6: Salah satunya kebahagiaan adalah saat dirinya dan sang ibu mengunjungi adiknya yang kini tinggal di Amerika beberapa saat lalu .
+Relasi: tinggal di(adiknya, Amerika beberapa saat)
+Class: true
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-d-4149641-tanpa-sosok-david-noah-gracia-indri-masih-bahagia.txt
+Kalimat ke-7: Baca juga: David Tertawakan Klaim KDRT Terbukti versi Gracia Indri "Salah satunya aku kemarin bisa pergi sama ibu ketemu adik aku yang udah sekian tahun nggak ketemu dan itu adalah hal yang paling membahagiakan hidup saya, karena 6 sampai 7 tahun itu bukan waktu yang sebentar, pisah sama adik aku .
+Relasi: bisa pergi(aku kemarin, sama ibu ketemu adik aku)
+Class: false
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-d-4149641-tanpa-sosok-david-noah-gracia-indri-masih-bahagia.txt
+Kalimat ke-7: Baca juga: David Tertawakan Klaim KDRT Terbukti versi Gracia Indri "Salah satunya aku kemarin bisa pergi sama ibu ketemu adik aku yang udah sekian tahun nggak ketemu dan itu adalah hal yang paling membahagiakan hidup saya, karena 6 sampai 7 tahun itu bukan waktu yang sebentar, pisah sama adik aku .
+Relasi: adalah(tahun nggak ketemu, hal)
+Class: false
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-d-4149641-tanpa-sosok-david-noah-gracia-indri-masih-bahagia.txt
+Kalimat ke-7: Baca juga: David Tertawakan Klaim KDRT Terbukti versi Gracia Indri "Salah satunya aku kemarin bisa pergi sama ibu ketemu adik aku yang udah sekian tahun nggak ketemu dan itu adalah hal yang paling membahagiakan hidup saya, karena 6 sampai 7 tahun itu bukan waktu yang sebentar, pisah sama adik aku .
+Relasi: membahagiakan(hal, hidup)
+Class: false
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-d-4149641-tanpa-sosok-david-noah-gracia-indri-masih-bahagia.txt
+Kalimat ke-7: Baca juga: David Tertawakan Klaim KDRT Terbukti versi Gracia Indri "Salah satunya aku kemarin bisa pergi sama ibu ketemu adik aku yang udah sekian tahun nggak ketemu dan itu adalah hal yang paling membahagiakan hidup saya, karena 6 sampai 7 tahun itu bukan waktu yang sebentar, pisah sama adik aku .
+Relasi: sampai(6, 7 tahun)
+Class: true
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-d-4149641-tanpa-sosok-david-noah-gracia-indri-masih-bahagia.txt
+Kalimat ke-22: 3 celeb Makin Kurus, Gracia Indri Bangga celeb Makin Kurus, Gracia Indri Bangga celeb Makin Kurus, Gracia Indri Bangga celeb Makin Kurus, Gracia Indri Bangga celeb Makin Kurus, Gracia Indri Bangga celeb Makin Kurus, Gracia Indri Bangga 4 celeb David 'NOAH' dan Gracia Kompak Hadiri Sidang Cerai celeb David 'NOAH' dan Gracia Kompak Hadiri Sidang Cerai celeb David 'NOAH' dan Gracia Kompak Hadiri Sidang Cerai celeb David 'NOAH' dan Gracia Kompak Hadiri Sidang Cerai celeb David 'NOAH' dan Gracia Kompak Hadiri Sidang Cerai celeb David 'NOAH' dan Gracia Kompak Hadiri Sidang Cerai celeb David 'NOAH' dan Gracia Kompak Hadiri Sidang Cerai celeb David 'NOAH' dan Gracia Kompak Hadiri Sidang Cerai celeb David 'NOAH' dan Gracia Kompak Hadiri Sidang Cerai 5 celeb Raut Wajah Gracia Indri saat Mediasi celeb Raut Wajah Gracia Indri saat Mediasi celeb Raut Wajah Gracia Indri saat Mediasi celeb Raut Wajah Gracia Indri saat Mediasi celeb Raut Wajah Gracia Indri saat Mediasi celeb Raut Wajah Gracia Indri saat Mediasi celeb Raut Wajah Gracia Indri saat Mediasi 6 celeb Lihat Gracia Indri Nikmati Musim Dingin di Jepang celeb Lihat Gracia Indri Nikmati Musim Dingin di Jepang celeb Lihat Gracia Indri Nikmati Musim Dingin di Jepang celeb Lihat Gracia Indri Nikmati Musim Dingin di Jepang celeb Lihat Gracia Indri Nikmati Musim Dingin di Jepang celeb Lihat Gracia Indri Nikmati Musim Dingin di Jepang 7 celeb Kurus Salah, Gemuk Salah!
+Relasi: Lihat Gracia Indri Nikmati Musim Dingin di(Mediasi 6 celeb, Jepang celeb)
+Class: false
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-d-4149641-tanpa-sosok-david-noah-gracia-indri-masih-bahagia.txt
+Kalimat ke-22: 3 celeb Makin Kurus, Gracia Indri Bangga celeb Makin Kurus, Gracia Indri Bangga celeb Makin Kurus, Gracia Indri Bangga celeb Makin Kurus, Gracia Indri Bangga celeb Makin Kurus, Gracia Indri Bangga celeb Makin Kurus, Gracia Indri Bangga 4 celeb David 'NOAH' dan Gracia Kompak Hadiri Sidang Cerai celeb David 'NOAH' dan Gracia Kompak Hadiri Sidang Cerai celeb David 'NOAH' dan Gracia Kompak Hadiri Sidang Cerai celeb David 'NOAH' dan Gracia Kompak Hadiri Sidang Cerai celeb David 'NOAH' dan Gracia Kompak Hadiri Sidang Cerai celeb David 'NOAH' dan Gracia Kompak Hadiri Sidang Cerai celeb David 'NOAH' dan Gracia Kompak Hadiri Sidang Cerai celeb David 'NOAH' dan Gracia Kompak Hadiri Sidang Cerai celeb David 'NOAH' dan Gracia Kompak Hadiri Sidang Cerai 5 celeb Raut Wajah Gracia Indri saat Mediasi celeb Raut Wajah Gracia Indri saat Mediasi celeb Raut Wajah Gracia Indri saat Mediasi celeb Raut Wajah Gracia Indri saat Mediasi celeb Raut Wajah Gracia Indri saat Mediasi celeb Raut Wajah Gracia Indri saat Mediasi celeb Raut Wajah Gracia Indri saat Mediasi 6 celeb Lihat Gracia Indri Nikmati Musim Dingin di Jepang celeb Lihat Gracia Indri Nikmati Musim Dingin di Jepang celeb Lihat Gracia Indri Nikmati Musim Dingin di Jepang celeb Lihat Gracia Indri Nikmati Musim Dingin di Jepang celeb Lihat Gracia Indri Nikmati Musim Dingin di Jepang celeb Lihat Gracia Indri Nikmati Musim Dingin di Jepang 7 celeb Kurus Salah, Gemuk Salah!
+Relasi: Lihat Gracia Indri Nikmati Musim Dingin di(Mediasi 6 celeb, Jepang celeb)
+Class: true
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-d-4149641-tanpa-sosok-david-noah-gracia-indri-masih-bahagia.txt
+Kalimat ke-22: 3 celeb Makin Kurus, Gracia Indri Bangga celeb Makin Kurus, Gracia Indri Bangga celeb Makin Kurus, Gracia Indri Bangga celeb Makin Kurus, Gracia Indri Bangga celeb Makin Kurus, Gracia Indri Bangga celeb Makin Kurus, Gracia Indri Bangga 4 celeb David 'NOAH' dan Gracia Kompak Hadiri Sidang Cerai celeb David 'NOAH' dan Gracia Kompak Hadiri Sidang Cerai celeb David 'NOAH' dan Gracia Kompak Hadiri Sidang Cerai celeb David 'NOAH' dan Gracia Kompak Hadiri Sidang Cerai celeb David 'NOAH' dan Gracia Kompak Hadiri Sidang Cerai celeb David 'NOAH' dan Gracia Kompak Hadiri Sidang Cerai celeb David 'NOAH' dan Gracia Kompak Hadiri Sidang Cerai celeb David 'NOAH' dan Gracia Kompak Hadiri Sidang Cerai celeb David 'NOAH' dan Gracia Kompak Hadiri Sidang Cerai 5 celeb Raut Wajah Gracia Indri saat Mediasi celeb Raut Wajah Gracia Indri saat Mediasi celeb Raut Wajah Gracia Indri saat Mediasi celeb Raut Wajah Gracia Indri saat Mediasi celeb Raut Wajah Gracia Indri saat Mediasi celeb Raut Wajah Gracia Indri saat Mediasi celeb Raut Wajah Gracia Indri saat Mediasi 6 celeb Lihat Gracia Indri Nikmati Musim Dingin di Jepang celeb Lihat Gracia Indri Nikmati Musim Dingin di Jepang celeb Lihat Gracia Indri Nikmati Musim Dingin di Jepang celeb Lihat Gracia Indri Nikmati Musim Dingin di Jepang celeb Lihat Gracia Indri Nikmati Musim Dingin di Jepang celeb Lihat Gracia Indri Nikmati Musim Dingin di Jepang 7 celeb Kurus Salah, Gemuk Salah!
+Relasi: Lihat Gracia Indri Nikmati Musim Dingin di(Mediasi 6 celeb, Jepang celeb)
+Class: false
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-d-4149641-tanpa-sosok-david-noah-gracia-indri-masih-bahagia.txt
+Kalimat ke-22: 3 celeb Makin Kurus, Gracia Indri Bangga celeb Makin Kurus, Gracia Indri Bangga celeb Makin Kurus, Gracia Indri Bangga celeb Makin Kurus, Gracia Indri Bangga celeb Makin Kurus, Gracia Indri Bangga celeb Makin Kurus, Gracia Indri Bangga 4 celeb David 'NOAH' dan Gracia Kompak Hadiri Sidang Cerai celeb David 'NOAH' dan Gracia Kompak Hadiri Sidang Cerai celeb David 'NOAH' dan Gracia Kompak Hadiri Sidang Cerai celeb David 'NOAH' dan Gracia Kompak Hadiri Sidang Cerai celeb David 'NOAH' dan Gracia Kompak Hadiri Sidang Cerai celeb David 'NOAH' dan Gracia Kompak Hadiri Sidang Cerai celeb David 'NOAH' dan Gracia Kompak Hadiri Sidang Cerai celeb David 'NOAH' dan Gracia Kompak Hadiri Sidang Cerai celeb David 'NOAH' dan Gracia Kompak Hadiri Sidang Cerai 5 celeb Raut Wajah Gracia Indri saat Mediasi celeb Raut Wajah Gracia Indri saat Mediasi celeb Raut Wajah Gracia Indri saat Mediasi celeb Raut Wajah Gracia Indri saat Mediasi celeb Raut Wajah Gracia Indri saat Mediasi celeb Raut Wajah Gracia Indri saat Mediasi celeb Raut Wajah Gracia Indri saat Mediasi 6 celeb Lihat Gracia Indri Nikmati Musim Dingin di Jepang celeb Lihat Gracia Indri Nikmati Musim Dingin di Jepang celeb Lihat Gracia Indri Nikmati Musim Dingin di Jepang celeb Lihat Gracia Indri Nikmati Musim Dingin di Jepang celeb Lihat Gracia Indri Nikmati Musim Dingin di Jepang celeb Lihat Gracia Indri Nikmati Musim Dingin di Jepang 7 celeb Kurus Salah, Gemuk Salah!
+Relasi: Lihat Gracia Indri Nikmati Musim Dingin di(Mediasi 6 celeb, Jepang celeb)
+Class: false
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-d-4149641-tanpa-sosok-david-noah-gracia-indri-masih-bahagia.txt
+Kalimat ke-22: 3 celeb Makin Kurus, Gracia Indri Bangga celeb Makin Kurus, Gracia Indri Bangga celeb Makin Kurus, Gracia Indri Bangga celeb Makin Kurus, Gracia Indri Bangga celeb Makin Kurus, Gracia Indri Bangga celeb Makin Kurus, Gracia Indri Bangga 4 celeb David 'NOAH' dan Gracia Kompak Hadiri Sidang Cerai celeb David 'NOAH' dan Gracia Kompak Hadiri Sidang Cerai celeb David 'NOAH' dan Gracia Kompak Hadiri Sidang Cerai celeb David 'NOAH' dan Gracia Kompak Hadiri Sidang Cerai celeb David 'NOAH' dan Gracia Kompak Hadiri Sidang Cerai celeb David 'NOAH' dan Gracia Kompak Hadiri Sidang Cerai celeb David 'NOAH' dan Gracia Kompak Hadiri Sidang Cerai celeb David 'NOAH' dan Gracia Kompak Hadiri Sidang Cerai celeb David 'NOAH' dan Gracia Kompak Hadiri Sidang Cerai 5 celeb Raut Wajah Gracia Indri saat Mediasi celeb Raut Wajah Gracia Indri saat Mediasi celeb Raut Wajah Gracia Indri saat Mediasi celeb Raut Wajah Gracia Indri saat Mediasi celeb Raut Wajah Gracia Indri saat Mediasi celeb Raut Wajah Gracia Indri saat Mediasi celeb Raut Wajah Gracia Indri saat Mediasi 6 celeb Lihat Gracia Indri Nikmati Musim Dingin di Jepang celeb Lihat Gracia Indri Nikmati Musim Dingin di Jepang celeb Lihat Gracia Indri Nikmati Musim Dingin di Jepang celeb Lihat Gracia Indri Nikmati Musim Dingin di Jepang celeb Lihat Gracia Indri Nikmati Musim Dingin di Jepang celeb Lihat Gracia Indri Nikmati Musim Dingin di Jepang 7 celeb Kurus Salah, Gemuk Salah!
+Relasi: Lihat Gracia Indri Nikmati Musim Dingin di(Mediasi 6 celeb, Jepang celeb)
+Class: false
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-d-4149641-tanpa-sosok-david-noah-gracia-indri-masih-bahagia.txt
+Kalimat ke-22: 3 celeb Makin Kurus, Gracia Indri Bangga celeb Makin Kurus, Gracia Indri Bangga celeb Makin Kurus, Gracia Indri Bangga celeb Makin Kurus, Gracia Indri Bangga celeb Makin Kurus, Gracia Indri Bangga celeb Makin Kurus, Gracia Indri Bangga 4 celeb David 'NOAH' dan Gracia Kompak Hadiri Sidang Cerai celeb David 'NOAH' dan Gracia Kompak Hadiri Sidang Cerai celeb David 'NOAH' dan Gracia Kompak Hadiri Sidang Cerai celeb David 'NOAH' dan Gracia Kompak Hadiri Sidang Cerai celeb David 'NOAH' dan Gracia Kompak Hadiri Sidang Cerai celeb David 'NOAH' dan Gracia Kompak Hadiri Sidang Cerai celeb David 'NOAH' dan Gracia Kompak Hadiri Sidang Cerai celeb David 'NOAH' dan Gracia Kompak Hadiri Sidang Cerai celeb David 'NOAH' dan Gracia Kompak Hadiri Sidang Cerai 5 celeb Raut Wajah Gracia Indri saat Mediasi celeb Raut Wajah Gracia Indri saat Mediasi celeb Raut Wajah Gracia Indri saat Mediasi celeb Raut Wajah Gracia Indri saat Mediasi celeb Raut Wajah Gracia Indri saat Mediasi celeb Raut Wajah Gracia Indri saat Mediasi celeb Raut Wajah Gracia Indri saat Mediasi 6 celeb Lihat Gracia Indri Nikmati Musim Dingin di Jepang celeb Lihat Gracia Indri Nikmati Musim Dingin di Jepang celeb Lihat Gracia Indri Nikmati Musim Dingin di Jepang celeb Lihat Gracia Indri Nikmati Musim Dingin di Jepang celeb Lihat Gracia Indri Nikmati Musim Dingin di Jepang celeb Lihat Gracia Indri Nikmati Musim Dingin di Jepang 7 celeb Kurus Salah, Gemuk Salah!
+Relasi: Lihat Gracia Indri Nikmati Musim Dingin di(Mediasi 6 celeb, Jepang celeb)
+Class: false
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-d-4149641-tanpa-sosok-david-noah-gracia-indri-masih-bahagia.txt
+Kalimat ke-51: Mesranya Gracia Indri-David 'NOAH' Sebelum Cerai 18 celeb Cara Gracia Indri Menembus 'Badai' di Rumah Tangganya celeb Cara Gracia Indri Menembus 'Badai' di Rumah Tangganya celeb Cara Gracia Indri Menembus 'Badai' di Rumah Tangganya celeb Cara Gracia Indri Menembus 'Badai' di Rumah Tangganya celeb Cara Gracia Indri Menembus 'Badai' di Rumah Tangganya celeb Cara Gracia Indri Menembus 'Badai' di Rumah Tangganya celeb Cara Gracia Indri Menembus 'Badai' di Rumah Tangganya 19 photo Gracia Indri, Kok Sendirian di Nikahan Gina-Kinos?
+Relasi: Menembus(Cerai 18 celeb Cara Gracia Indri, Rumah Tangganya celeb Cara Gracia Indri)
+Class: true
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-d-4149641-tanpa-sosok-david-noah-gracia-indri-masih-bahagia.txt
+Kalimat ke-51: Mesranya Gracia Indri-David 'NOAH' Sebelum Cerai 18 celeb Cara Gracia Indri Menembus 'Badai' di Rumah Tangganya celeb Cara Gracia Indri Menembus 'Badai' di Rumah Tangganya celeb Cara Gracia Indri Menembus 'Badai' di Rumah Tangganya celeb Cara Gracia Indri Menembus 'Badai' di Rumah Tangganya celeb Cara Gracia Indri Menembus 'Badai' di Rumah Tangganya celeb Cara Gracia Indri Menembus 'Badai' di Rumah Tangganya celeb Cara Gracia Indri Menembus 'Badai' di Rumah Tangganya 19 photo Gracia Indri, Kok Sendirian di Nikahan Gina-Kinos?
+Relasi: Menembus(Cerai 18 celeb Cara Gracia Indri, Rumah Tangganya celeb Cara Gracia Indri)
+Class: false
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-d-4149641-tanpa-sosok-david-noah-gracia-indri-masih-bahagia.txt
+Kalimat ke-51: Mesranya Gracia Indri-David 'NOAH' Sebelum Cerai 18 celeb Cara Gracia Indri Menembus 'Badai' di Rumah Tangganya celeb Cara Gracia Indri Menembus 'Badai' di Rumah Tangganya celeb Cara Gracia Indri Menembus 'Badai' di Rumah Tangganya celeb Cara Gracia Indri Menembus 'Badai' di Rumah Tangganya celeb Cara Gracia Indri Menembus 'Badai' di Rumah Tangganya celeb Cara Gracia Indri Menembus 'Badai' di Rumah Tangganya celeb Cara Gracia Indri Menembus 'Badai' di Rumah Tangganya 19 photo Gracia Indri, Kok Sendirian di Nikahan Gina-Kinos?
+Relasi: Menembus(Cerai 18 celeb Cara Gracia Indri, Rumah Tangganya celeb Cara Gracia Indri)
+Class: true
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-d-4149641-tanpa-sosok-david-noah-gracia-indri-masih-bahagia.txt
+Kalimat ke-51: Mesranya Gracia Indri-David 'NOAH' Sebelum Cerai 18 celeb Cara Gracia Indri Menembus 'Badai' di Rumah Tangganya celeb Cara Gracia Indri Menembus 'Badai' di Rumah Tangganya celeb Cara Gracia Indri Menembus 'Badai' di Rumah Tangganya celeb Cara Gracia Indri Menembus 'Badai' di Rumah Tangganya celeb Cara Gracia Indri Menembus 'Badai' di Rumah Tangganya celeb Cara Gracia Indri Menembus 'Badai' di Rumah Tangganya celeb Cara Gracia Indri Menembus 'Badai' di Rumah Tangganya 19 photo Gracia Indri, Kok Sendirian di Nikahan Gina-Kinos?
+Relasi: Menembus(Cerai 18 celeb Cara Gracia Indri, Rumah Tangganya celeb Cara Gracia Indri)
+Class: false
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-d-4149641-tanpa-sosok-david-noah-gracia-indri-masih-bahagia.txt
+Kalimat ke-51: Mesranya Gracia Indri-David 'NOAH' Sebelum Cerai 18 celeb Cara Gracia Indri Menembus 'Badai' di Rumah Tangganya celeb Cara Gracia Indri Menembus 'Badai' di Rumah Tangganya celeb Cara Gracia Indri Menembus 'Badai' di Rumah Tangganya celeb Cara Gracia Indri Menembus 'Badai' di Rumah Tangganya celeb Cara Gracia Indri Menembus 'Badai' di Rumah Tangganya celeb Cara Gracia Indri Menembus 'Badai' di Rumah Tangganya celeb Cara Gracia Indri Menembus 'Badai' di Rumah Tangganya 19 photo Gracia Indri, Kok Sendirian di Nikahan Gina-Kinos?
+Relasi: Menembus(Cerai 18 celeb Cara Gracia Indri, Rumah Tangganya celeb Cara Gracia Indri)
+Class: false
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-d-4149641-tanpa-sosok-david-noah-gracia-indri-masih-bahagia.txt
+Kalimat ke-51: Mesranya Gracia Indri-David 'NOAH' Sebelum Cerai 18 celeb Cara Gracia Indri Menembus 'Badai' di Rumah Tangganya celeb Cara Gracia Indri Menembus 'Badai' di Rumah Tangganya celeb Cara Gracia Indri Menembus 'Badai' di Rumah Tangganya celeb Cara Gracia Indri Menembus 'Badai' di Rumah Tangganya celeb Cara Gracia Indri Menembus 'Badai' di Rumah Tangganya celeb Cara Gracia Indri Menembus 'Badai' di Rumah Tangganya celeb Cara Gracia Indri Menembus 'Badai' di Rumah Tangganya 19 photo Gracia Indri, Kok Sendirian di Nikahan Gina-Kinos?
+Relasi: Menembus(Cerai 18 celeb Cara Gracia Indri, Rumah Tangganya celeb Cara Gracia Indri)
+Class: true
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-d-4149641-tanpa-sosok-david-noah-gracia-indri-masih-bahagia.txt
+Kalimat ke-51: Mesranya Gracia Indri-David 'NOAH' Sebelum Cerai 18 celeb Cara Gracia Indri Menembus 'Badai' di Rumah Tangganya celeb Cara Gracia Indri Menembus 'Badai' di Rumah Tangganya celeb Cara Gracia Indri Menembus 'Badai' di Rumah Tangganya celeb Cara Gracia Indri Menembus 'Badai' di Rumah Tangganya celeb Cara Gracia Indri Menembus 'Badai' di Rumah Tangganya celeb Cara Gracia Indri Menembus 'Badai' di Rumah Tangganya celeb Cara Gracia Indri Menembus 'Badai' di Rumah Tangganya 19 photo Gracia Indri, Kok Sendirian di Nikahan Gina-Kinos?
+Relasi: Menembus(Cerai 18 celeb Cara Gracia Indri, Rumah Tangganya celeb Cara Gracia Indri)
+Class: false
+
+

@@ -1,0 +1,136 @@
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-d-4150283-menaksir-harga-rumah-ahmad-dhani-yang-akan-dijual-demi-prabowo.txt
+Kalimat ke-1: Ahmad Dhani siap menjual rumahnya untuk mendukung perjuangan politik Prabowo Subianto .
+Relasi: menjual rumahnya untuk mendukung(Ahmad Dhani, perjuangan politik Prabowo Subianto)
+Class: false
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-d-4150283-menaksir-harga-rumah-ahmad-dhani-yang-akan-dijual-demi-prabowo.txt
+Kalimat ke-2: Lalu, kira-kira berapa harga rumah yang ditempati Ahmad Dhani dan keluarganya itu?
+Relasi: ditempati(harga rumah, Ahmad Dhani)
+Class: false
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-d-4150283-menaksir-harga-rumah-ahmad-dhani-yang-akan-dijual-demi-prabowo.txt
+Kalimat ke-3: Dari tayangan MTV Rumah Gue yang videonya tersebar di YouTube, rumah di kawasan Pondok Pinang, Jakarta Selatan itu pertama dibeli seharga Rp 2,5 miliar .
+Relasi: tersebar di(videonya, rumah)
+Class: true
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-d-4150283-menaksir-harga-rumah-ahmad-dhani-yang-akan-dijual-demi-prabowo.txt
+Kalimat ke-3: Dari tayangan MTV Rumah Gue yang videonya tersebar di YouTube, rumah di kawasan Pondok Pinang, Jakarta Selatan itu pertama dibeli seharga Rp 2,5 miliar .
+Relasi: dibeli seharga(pertama, Rp 2,5 miliar)
+Class: true
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-d-4150283-menaksir-harga-rumah-ahmad-dhani-yang-akan-dijual-demi-prabowo.txt
+Kalimat ke-4: Ahmad Dhani kemudian melakukan banyak renovasi .
+Relasi: melakukan(Ahmad Dhani, banyak renovasi)
+Class: false
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-d-4150283-menaksir-harga-rumah-ahmad-dhani-yang-akan-dijual-demi-prabowo.txt
+Kalimat ke-5: Dan kini, rumah bercat hitam yang unik itu memiliki empat lantai .
+Relasi: bercat(rumah, unik)
+Class: true
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-d-4150283-menaksir-harga-rumah-ahmad-dhani-yang-akan-dijual-demi-prabowo.txt
+Kalimat ke-5: Dan kini, rumah bercat hitam yang unik itu memiliki empat lantai .
+Relasi: memiliki(unik, empat lantai)
+Class: false
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-d-4150283-menaksir-harga-rumah-ahmad-dhani-yang-akan-dijual-demi-prabowo.txt
+Kalimat ke-6: Rumah itu juga dilengkapi kolam renang .
+Relasi: dilengkapi(Rumah, kolam renang)
+Class: true
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-d-4150283-menaksir-harga-rumah-ahmad-dhani-yang-akan-dijual-demi-prabowo.txt
+Kalimat ke-7: Rumah itu juga memiliki rooftop yang sering digunakan keluarga Ahmad Dhani bersantai .
+Relasi: memiliki(Rumah, rooftop)
+Class: true
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-d-4150283-menaksir-harga-rumah-ahmad-dhani-yang-akan-dijual-demi-prabowo.txt
+Kalimat ke-7: Rumah itu juga memiliki rooftop yang sering digunakan keluarga Ahmad Dhani bersantai .
+Relasi: digunakan(rooftop, keluarga Ahmad Dhani)
+Class: false
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-d-4150283-menaksir-harga-rumah-ahmad-dhani-yang-akan-dijual-demi-prabowo.txt
+Kalimat ke-8: Rumah bergaya Eropa itu memiliki banyak sekali interior mewah .
+Relasi: bergaya(Rumah, Eropa)
+Class: true
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-d-4150283-menaksir-harga-rumah-ahmad-dhani-yang-akan-dijual-demi-prabowo.txt
+Kalimat ke-8: Rumah bergaya Eropa itu memiliki banyak sekali interior mewah .
+Relasi: memiliki(Eropa, interior)
+Class: false
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-d-4150283-menaksir-harga-rumah-ahmad-dhani-yang-akan-dijual-demi-prabowo.txt
+Kalimat ke-15: Berdasar situs jual beli rumah Rumah123, pasaran harga rumah-rumah di kawasan ini sudah menyentuh harga Rp 10 miliar hingga Rp 20 miliar .
+Relasi: beli(Berdasar situs jual, rumah)
+Class: true
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-d-4150283-menaksir-harga-rumah-ahmad-dhani-yang-akan-dijual-demi-prabowo.txt
+Kalimat ke-15: Berdasar situs jual beli rumah Rumah123, pasaran harga rumah-rumah di kawasan ini sudah menyentuh harga Rp 10 miliar hingga Rp 20 miliar .
+Relasi: sudah menyentuh(kawasan, harga Rp 10 miliar)
+Class: true
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-d-4150283-menaksir-harga-rumah-ahmad-dhani-yang-akan-dijual-demi-prabowo.txt
+Kalimat ke-16: Pada 2016, harga rumah Ahmad Dhani diperkirakan sudah mencapai Rp 12,5 miliar .
+Relasi: diperkirakan sudah mencapai(harga rumah Ahmad Dhani, Rp 12,5 miliar)
+Class: true
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-d-4150283-menaksir-harga-rumah-ahmad-dhani-yang-akan-dijual-demi-prabowo.txt
+Kalimat ke-17: Saat itu, Ahmad Dhani juga diberitakan akan menjual rumahnya .
+Relasi: diberitakan akan menjual(Ahmad Dhani, rumahnya)
+Class: true
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-d-4150283-menaksir-harga-rumah-ahmad-dhani-yang-akan-dijual-demi-prabowo.txt
+Kalimat ke-19: Saat itu, Ahmad Dhani disebut-sebut bangkut dan terpaksa akan melepaskan rumahnya untuk menutupi kebutuhan .
+Relasi: terpaksa akan melepaskan rumahnya untuk menutupi(Ahmad Dhani, kebutuhan)
+Class: true
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-d-4150283-menaksir-harga-rumah-ahmad-dhani-yang-akan-dijual-demi-prabowo.txt
+Kalimat ke-20: Namun hal itu dibantah oleh Ahmad Dhani .
+Relasi: dibantah oleh(hal, Ahmad Dhani)
+Class: false
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-d-4150283-menaksir-harga-rumah-ahmad-dhani-yang-akan-dijual-demi-prabowo.txt
+Kalimat ke-21: "Sebenarnya saya mau jual rumah yang di Pondok Indah itu memang benar, saya mau pindah," jawab Dhani saat ditemui di Senayan, Jakarta Pusat, saat itu .
+Relasi: jawab(Pondok Indah, Dhani)
+Class: true
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-d-4150283-menaksir-harga-rumah-ahmad-dhani-yang-akan-dijual-demi-prabowo.txt
+Kalimat ke-21: "Sebenarnya saya mau jual rumah yang di Pondok Indah itu memang benar, saya mau pindah," jawab Dhani saat ditemui di Senayan, Jakarta Pusat, saat itu .
+Relasi: ditemui di(saat, Jakarta)
+Class: false
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-d-4150283-menaksir-harga-rumah-ahmad-dhani-yang-akan-dijual-demi-prabowo.txt
+Kalimat ke-22: "Orang jual rumah kan bisa aja mau ganti yang lebih besar, atau pindah yang lebih mahal .
+Relasi: pindah(ganti, mahal)
+Class: true
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-d-4150283-menaksir-harga-rumah-ahmad-dhani-yang-akan-dijual-demi-prabowo.txt
+Kalimat ke-24: Artinya ketika dijual tidak untuk kebutuhan sehari-hari," lanjutnya .
+Relasi: dijual(Artinya, kebutuhan)
+Class: false
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-d-4150283-menaksir-harga-rumah-ahmad-dhani-yang-akan-dijual-demi-prabowo.txt
+Kalimat ke-25: (ken/dal) ahmad dhani prabowo subianto rumah ahmad dhani Photo Gallery 1 celeb Mulan Jameela Mantap Kenakan Hijab celeb Mulan Jameela Mantap Kenakan Hijab celeb Mulan Jameela Mantap Kenakan Hijab celeb Mulan Jameela Mantap Kenakan Hijab celeb Mulan Jameela Mantap Kenakan Hijab celeb Mulan Jameela Mantap Kenakan Hijab 1 celeb Maia Estianty Bicara Kemiripan Dul dan Ahmad Dhani celeb Maia Estianty Bicara Kemiripan Dul dan Ahmad Dhani celeb Maia Estianty Bicara Kemiripan Dul dan Ahmad Dhani celeb Maia Estianty Bicara Kemiripan Dul dan Ahmad Dhani celeb Maia Estianty Bicara Kemiripan Dul dan Ahmad Dhani celeb Maia Estianty Bicara Kemiripan Dul dan Ahmad Dhani celeb Maia Estianty Bicara Kemiripan Dul dan Ahmad Dhani 2 celeb Dul Jaelani Langsung Nikah Usai Lulus Sekolah?
+Relasi: Usai(Ahmad Dhani 2 celeb Dul Jaelani Langsung Nikah, Lulus)
+Class: true
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-d-4150283-menaksir-harga-rumah-ahmad-dhani-yang-akan-dijual-demi-prabowo.txt
+Kalimat ke-26: celeb Dul Jaelani Langsung Nikah Usai Lulus Sekolah?
+Relasi: Usai(celeb Dul Jaelani Langsung Nikah, Lulus)
+Class: true
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-d-4150283-menaksir-harga-rumah-ahmad-dhani-yang-akan-dijual-demi-prabowo.txt
+Kalimat ke-27: celeb Dul Jaelani Langsung Nikah Usai Lulus Sekolah?
+Relasi: Usai(celeb Dul Jaelani Langsung Nikah, Lulus)
+Class: false
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-d-4150283-menaksir-harga-rumah-ahmad-dhani-yang-akan-dijual-demi-prabowo.txt
+Kalimat ke-28: celeb Dul Jaelani Langsung Nikah Usai Lulus Sekolah?
+Relasi: Usai(celeb Dul Jaelani Langsung Nikah, Lulus)
+Class: false
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-d-4150283-menaksir-harga-rumah-ahmad-dhani-yang-akan-dijual-demi-prabowo.txt
+Kalimat ke-29: celeb Dul Jaelani Langsung Nikah Usai Lulus Sekolah?
+Relasi: Usai(celeb Dul Jaelani Langsung Nikah, Lulus)
+Class: false
+
+

@@ -1,0 +1,96 @@
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-d-4149972-denny-sumargo-terpuruk-hingga-yakin-melamar-si-pengusaha-tajir.txt
+Kalimat ke-1: Setelah kisahnya yang ditunding menghamili Verny Hasan, Denny Sumargo semakin hampir tak pernah menggandeng pacar .
+Relasi: menggandeng(Denny Sumargo, pacar)
+Class: true
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-d-4149972-denny-sumargo-terpuruk-hingga-yakin-melamar-si-pengusaha-tajir.txt
+Kalimat ke-2: Tiba-tiba Denny sudah melamar pengusaha cantik dan kaya Dita Soedarjo .
+Relasi: sudah melamar(Denny, pengusaha)
+Class: false
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-d-4149972-denny-sumargo-terpuruk-hingga-yakin-melamar-si-pengusaha-tajir.txt
+Kalimat ke-3: Kepada detikHOT, Denny Sumargo menceritakan awal mula dirinya kenal dengan Dita Soedarjo karena pekerjaan .
+Relasi: menceritakan awal mula dirinya kenal dengan(Denny Sumargo, Dita Soedarjo)
+Class: true
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-d-4149972-denny-sumargo-terpuruk-hingga-yakin-melamar-si-pengusaha-tajir.txt
+Kalimat ke-4: Dita yang ingin membuat sebuah video, diajukan nama Denny Sumargo oleh sang sutradara .
+Relasi: ingin membuat(Dita, sebuah)
+Class: false
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-d-4149972-denny-sumargo-terpuruk-hingga-yakin-melamar-si-pengusaha-tajir.txt
+Kalimat ke-4: Dita yang ingin membuat sebuah video, diajukan nama Denny Sumargo oleh sang sutradara .
+Relasi: diajukan nama Denny Sumargo oleh(sebuah, sutradara)
+Class: false
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-d-4149972-denny-sumargo-terpuruk-hingga-yakin-melamar-si-pengusaha-tajir.txt
+Kalimat ke-5: Baca juga: Keserasian Denny Sumargo dan Dita Soedarjo "Sebenarnya kenalnya kan aku ada urusan kerjaan .
+Relasi: ada(aku, urusan kerjaan)
+Class: true
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-d-4149972-denny-sumargo-terpuruk-hingga-yakin-melamar-si-pengusaha-tajir.txt
+Kalimat ke-7: Aku datang, meetingnya bisnis, habis itu sudah begitu aja," akunya dalam perbincangan Jumat (3/8/2018) .
+Relasi: meetingnya(Aku, perbincangan Jumat)
+Class: true
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-d-4149972-denny-sumargo-terpuruk-hingga-yakin-melamar-si-pengusaha-tajir.txt
+Kalimat ke-7: Aku datang, meetingnya bisnis, habis itu sudah begitu aja," akunya dalam perbincangan Jumat (3/8/2018) .
+Relasi: habis(Aku, perbincangan Jumat)
+Class: false
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-d-4149972-denny-sumargo-terpuruk-hingga-yakin-melamar-si-pengusaha-tajir.txt
+Kalimat ke-8: Lama tak bertemu, Denny Sumargo dan Dita kembali bertatap wajah dalam sebuah acara charity .
+Relasi: bertatap wajah dalam(Dita, sebuah acara charity)
+Class: true
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-d-4149972-denny-sumargo-terpuruk-hingga-yakin-melamar-si-pengusaha-tajir.txt
+Kalimat ke-9: Kesan Denny kepada sang pengusaha adalah perempuan yang sangat senang bicara dan bertanya .
+Relasi: adalah(pengusaha, perempuan)
+Class: true
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-d-4149972-denny-sumargo-terpuruk-hingga-yakin-melamar-si-pengusaha-tajir.txt
+Kalimat ke-11: Saya bingung ni anak suka banget tanya-tanya sama saya saya bingung, bocah tanya apa ya hahaha," tuturnya .
+Relasi: suka(bingung ni anak, banget)
+Class: false
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-d-4149972-denny-sumargo-terpuruk-hingga-yakin-melamar-si-pengusaha-tajir.txt
+Kalimat ke-11: Saya bingung ni anak suka banget tanya-tanya sama saya saya bingung, bocah tanya apa ya hahaha," tuturnya .
+Relasi: tanya(banget, bocah)
+Class: false
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-d-4149972-denny-sumargo-terpuruk-hingga-yakin-melamar-si-pengusaha-tajir.txt
+Kalimat ke-13: Saya berharap moga-moga nggak ditanya lagi, kapok-kapok ketemu cowok cuek .
+Relasi: ditanya(nggak, ketemu cowok)
+Class: true
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-d-4149972-denny-sumargo-terpuruk-hingga-yakin-melamar-si-pengusaha-tajir.txt
+Kalimat ke-17: Punya image jelek dengan masa lalu kelam, kini Denny Sumargo yakin akan melamar Dita Soedarjo .
+Relasi: akan melamar(Denny Sumargo, Dita Soedarjo)
+Class: true
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-d-4149972-denny-sumargo-terpuruk-hingga-yakin-melamar-si-pengusaha-tajir.txt
+Kalimat ke-18: "Dari awal saya bilang sama Dita, Dita kita jalaninnya berserah sama Tuhan saja .
+Relasi: berserah(jalaninnya, sama Tuhan)
+Class: true
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-d-4149972-denny-sumargo-terpuruk-hingga-yakin-melamar-si-pengusaha-tajir.txt
+Kalimat ke-19: Makannya kita ada konseling pernikahan agar makin mengenal .
+Relasi: ada(Makannya, konseling pernikahan)
+Class: true
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-d-4149972-denny-sumargo-terpuruk-hingga-yakin-melamar-si-pengusaha-tajir.txt
+Kalimat ke-22: Saya minta maaf kalau banyak hal-hal dari masa lalu saya yang mungkin membebani kamu," pungkas Denny Sumargo .
+Relasi: membebani(masa, pungkas Denny Sumargo)
+Class: true
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-d-4149972-denny-sumargo-terpuruk-hingga-yakin-melamar-si-pengusaha-tajir.txt
+Kalimat ke-28: 6 celeb Ayushita hingga Dian Sastro Hadiri Syukuran Film 'Kartini' celeb Ayushita hingga Dian Sastro Hadiri Syukuran Film 'Kartini' celeb Ayushita hingga Dian Sastro Hadiri Syukuran Film 'Kartini' celeb Ayushita hingga Dian Sastro Hadiri Syukuran Film 'Kartini' celeb Ayushita hingga Dian Sastro Hadiri Syukuran Film 'Kartini' 7 photo DJ Verny Pamer Luka Akibat Dianiaya Suami Siri 8 screenshoot-movie Kisah Para Ghosthunter di Film "Mall Klender" 9 photo Denny Sumargo <i>Cool</i> Berkacamata Hitam 10 photo Gaya Denny Sumargo Berjaket Kulit 11 photo Bantah Hamili DJ Verny, Denny Sumargo Menangis 12 photo DJ Verny Tak Ingin Damai dengan Denny Sumargo 13 photo Perut Hamil Wanita yang Ngaku Dihamili Denny Sumargo 14 photo Ini DJ yang Mengaku Dihamili Denny Sumargo 15 photo Ini Dia Para Pemain Film 5 Cm 16 1  .
+Relasi: Ingin Damai dengan(Denny Sumargo Menangis 12 photo DJ Verny, Denny Sumargo 13 photo Perut Hamil Wanita)
+Class: false
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-d-4149972-denny-sumargo-terpuruk-hingga-yakin-melamar-si-pengusaha-tajir.txt
+Kalimat ke-28: 6 celeb Ayushita hingga Dian Sastro Hadiri Syukuran Film 'Kartini' celeb Ayushita hingga Dian Sastro Hadiri Syukuran Film 'Kartini' celeb Ayushita hingga Dian Sastro Hadiri Syukuran Film 'Kartini' celeb Ayushita hingga Dian Sastro Hadiri Syukuran Film 'Kartini' celeb Ayushita hingga Dian Sastro Hadiri Syukuran Film 'Kartini' 7 photo DJ Verny Pamer Luka Akibat Dianiaya Suami Siri 8 screenshoot-movie Kisah Para Ghosthunter di Film "Mall Klender" 9 photo Denny Sumargo <i>Cool</i> Berkacamata Hitam 10 photo Gaya Denny Sumargo Berjaket Kulit 11 photo Bantah Hamili DJ Verny, Denny Sumargo Menangis 12 photo DJ Verny Tak Ingin Damai dengan Denny Sumargo 13 photo Perut Hamil Wanita yang Ngaku Dihamili Denny Sumargo 14 photo Ini DJ yang Mengaku Dihamili Denny Sumargo 15 photo Ini Dia Para Pemain Film 5 Cm 16 1  .
+Relasi: Mengaku(Ngaku Dihamili Denny Sumargo 14 photo, Dihamili Denny Sumargo 15 photo)
+Class: false
+
+

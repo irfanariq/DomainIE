@@ -1,0 +1,126 @@
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-d-4149760-cerita-dita-soedarjo-soal-denny-sumargo-he-is-my-idol.txt
+Kalimat ke-1: Usai ditemui di prosesi lamarannya, Dita Soedarjo menceritakan kekaguman kepada sosok Denny Sumargo, pria yang akan menjadi calon suaminya itu .
+Relasi: menceritakan kekaguman kepada(Dita Soedarjo, sosok Denny)
+Class: false
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-d-4149760-cerita-dita-soedarjo-soal-denny-sumargo-he-is-my-idol.txt
+Kalimat ke-1: Usai ditemui di prosesi lamarannya, Dita Soedarjo menceritakan kekaguman kepada sosok Denny Sumargo, pria yang akan menjadi calon suaminya itu .
+Relasi: akan menjadi(pria, calon suaminya)
+Class: true
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-d-4149760-cerita-dita-soedarjo-soal-denny-sumargo-he-is-my-idol.txt
+Kalimat ke-2: Ia menyebut Denny adalah sosok inspiratif dan ternyata Dita sudah lama mengaguminya .
+Relasi: adalah(Denny, sosok inspiratif)
+Class: false
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-d-4149760-cerita-dita-soedarjo-soal-denny-sumargo-he-is-my-idol.txt
+Kalimat ke-3: Baca juga: 10 Bulan Pacaran, Ini yang Bikin Denny Sumargo Yakin Nikahi Dita "He is my idol," ujar Dita saat ditemui di The Dharmawangsa Residence, Jakarta Selatan pada Sabtu (4/8) .
+Relasi: ujar(is my, The Dharmawangsa)
+Class: true
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-d-4149760-cerita-dita-soedarjo-soal-denny-sumargo-he-is-my-idol.txt
+Kalimat ke-3: Baca juga: 10 Bulan Pacaran, Ini yang Bikin Denny Sumargo Yakin Nikahi Dita "He is my idol," ujar Dita saat ditemui di The Dharmawangsa Residence, Jakarta Selatan pada Sabtu (4/8) .
+Relasi: ditemui di(is my, The Dharmawangsa)
+Class: true
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-d-4149760-cerita-dita-soedarjo-soal-denny-sumargo-he-is-my-idol.txt
+Kalimat ke-4: Pengusaha berusia 25 tahun itu pun menyebut bahwa dirinya juga membaca buku biografi Denny yang bertajuk 'Denny Sumargo: Sebuah Catatan Perjalanan Pebasket Nasional' .
+Relasi: berusia(Pengusaha, 25 tahun)
+Class: false
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-d-4149760-cerita-dita-soedarjo-soal-denny-sumargo-he-is-my-idol.txt
+Kalimat ke-4: Pengusaha berusia 25 tahun itu pun menyebut bahwa dirinya juga membaca buku biografi Denny yang bertajuk 'Denny Sumargo: Sebuah Catatan Perjalanan Pebasket Nasional' .
+Relasi: menyebut(25 tahun, buku biografi Denny)
+Class: true
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-d-4149760-cerita-dita-soedarjo-soal-denny-sumargo-he-is-my-idol.txt
+Kalimat ke-4: Pengusaha berusia 25 tahun itu pun menyebut bahwa dirinya juga membaca buku biografi Denny yang bertajuk 'Denny Sumargo: Sebuah Catatan Perjalanan Pebasket Nasional' .
+Relasi: dirinya(25 tahun, buku biografi Denny)
+Class: false
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-d-4149760-cerita-dita-soedarjo-soal-denny-sumargo-he-is-my-idol.txt
+Kalimat ke-4: Pengusaha berusia 25 tahun itu pun menyebut bahwa dirinya juga membaca buku biografi Denny yang bertajuk 'Denny Sumargo: Sebuah Catatan Perjalanan Pebasket Nasional' .
+Relasi: membaca(25 tahun, buku biografi Denny)
+Class: false
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-d-4149760-cerita-dita-soedarjo-soal-denny-sumargo-he-is-my-idol.txt
+Kalimat ke-4: Pengusaha berusia 25 tahun itu pun menyebut bahwa dirinya juga membaca buku biografi Denny yang bertajuk 'Denny Sumargo: Sebuah Catatan Perjalanan Pebasket Nasional' .
+Relasi: bertajuk(buku biografi Denny, Sebuah Catatan Perjalanan Pebasket)
+Class: false
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-d-4149760-cerita-dita-soedarjo-soal-denny-sumargo-he-is-my-idol.txt
+Kalimat ke-5: Bahkan Dita juga mengetahui kisah cintanya yang dituangkan dalam buku karya Agnes Donovar itu .
+Relasi: mengetahui(Dita, kisah cintanya)
+Class: true
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-d-4149760-cerita-dita-soedarjo-soal-denny-sumargo-he-is-my-idol.txt
+Kalimat ke-5: Bahkan Dita juga mengetahui kisah cintanya yang dituangkan dalam buku karya Agnes Donovar itu .
+Relasi: dituangkan dalam(kisah cintanya, buku karya Agnes Donovar)
+Class: true
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-d-4149760-cerita-dita-soedarjo-soal-denny-sumargo-he-is-my-idol.txt
+Kalimat ke-7: Dia merasa sedih, cinta pertamanya dia enggak dateng ke ceweknya," tutur Dita .
+Relasi: dateng ke(cinta pertamanya, tutur Dita)
+Class: false
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-d-4149760-cerita-dita-soedarjo-soal-denny-sumargo-he-is-my-idol.txt
+Kalimat ke-8: Baca juga: Suasana Lamaran Denny Sumargo dan Dita Soedarjo Dita pun tak merasa takut saat Denny mengungkapkan masa lalunya yang kelam itu .
+Relasi: merasa(Dita Soedarjo Dita, saat Denny)
+Class: false
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-d-4149760-cerita-dita-soedarjo-soal-denny-sumargo-he-is-my-idol.txt
+Kalimat ke-8: Baca juga: Suasana Lamaran Denny Sumargo dan Dita Soedarjo Dita pun tak merasa takut saat Denny mengungkapkan masa lalunya yang kelam itu .
+Relasi: mengungkapkan(saat Denny, masa)
+Class: false
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-d-4149760-cerita-dita-soedarjo-soal-denny-sumargo-he-is-my-idol.txt
+Kalimat ke-9: Bahkan ia malah meyakinkan Denny meski telah ditolak dengan halus .
+Relasi: telah ditolak dengan(malah meyakinkan Denny, halus)
+Class: true
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-d-4149760-cerita-dita-soedarjo-soal-denny-sumargo-he-is-my-idol.txt
+Kalimat ke-10: "Ada satu wanita (Dita) tiba-tiba datang dan sudah kenal, dari (Denny) awal sudah ngomong kalau ada indikasi pasangan, jangan saya karena saya bukan orang benar .
+Relasi: datang(satu wanita (Dita), (Denny))
+Class: false
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-d-4149760-cerita-dita-soedarjo-soal-denny-sumargo-he-is-my-idol.txt
+Kalimat ke-10: "Ada satu wanita (Dita) tiba-tiba datang dan sudah kenal, dari (Denny) awal sudah ngomong kalau ada indikasi pasangan, jangan saya karena saya bukan orang benar .
+Relasi: ada(ngomong, indikasi)
+Class: false
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-d-4149760-cerita-dita-soedarjo-soal-denny-sumargo-he-is-my-idol.txt
+Kalimat ke-11: Tapi dia makin tertarik, akhirnya saya melihat anak ini baik, sabar, penyayang, dan mau menerima kekurangan hidup saya termasuk masa lalu saya dan membuat respect .
+Relasi: menerima(anak, masa)
+Class: false
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-d-4149760-cerita-dita-soedarjo-soal-denny-sumargo-he-is-my-idol.txt
+Kalimat ke-11: Tapi dia makin tertarik, akhirnya saya melihat anak ini baik, sabar, penyayang, dan mau menerima kekurangan hidup saya termasuk masa lalu saya dan membuat respect .
+Relasi: hidup(anak, masa)
+Class: true
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-d-4149760-cerita-dita-soedarjo-soal-denny-sumargo-he-is-my-idol.txt
+Kalimat ke-11: Tapi dia makin tertarik, akhirnya saya melihat anak ini baik, sabar, penyayang, dan mau menerima kekurangan hidup saya termasuk masa lalu saya dan membuat respect .
+Relasi: termasuk(anak, masa)
+Class: true
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-d-4149760-cerita-dita-soedarjo-soal-denny-sumargo-he-is-my-idol.txt
+Kalimat ke-11: Tapi dia makin tertarik, akhirnya saya melihat anak ini baik, sabar, penyayang, dan mau menerima kekurangan hidup saya termasuk masa lalu saya dan membuat respect .
+Relasi: membuat(masa, respect)
+Class: false
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-d-4149760-cerita-dita-soedarjo-soal-denny-sumargo-he-is-my-idol.txt
+Kalimat ke-14: Tonton juga video: Denny Sumargo dan Dita Akan Nikah Tahun Ini [Gambas:Video 20detik] (ass/nu2) dita soedarjo denny sumargo denny sumargo tunangan denny sumargo lamaran Photo Gallery 1 celeb Keserasian Denny Sumargo dan Dita Soedarjo celeb Keserasian Denny Sumargo dan Dita Soedarjo celeb Keserasian Denny Sumargo dan Dita Soedarjo celeb Keserasian Denny Sumargo dan Dita Soedarjo celeb Keserasian Denny Sumargo dan Dita Soedarjo celeb Keserasian Denny Sumargo dan Dita Soedarjo 1 celeb Riasan hingga iPhone X Jadi Seserahan Denny Sumargo celeb Riasan hingga iPhone X Jadi Seserahan Denny Sumargo celeb Riasan hingga iPhone X Jadi Seserahan Denny Sumargo celeb Riasan hingga iPhone X Jadi Seserahan Denny Sumargo celeb Riasan hingga iPhone X Jadi Seserahan Denny Sumargo celeb Riasan hingga iPhone X Jadi Seserahan Denny Sumargo 2 celeb Para Perempuan Cantik Penakluk Hati Denny Sumargo celeb Para Perempuan Cantik Penakluk Hati Denny Sumargo celeb Para Perempuan Cantik Penakluk Hati Denny Sumargo celeb Para Perempuan Cantik Penakluk Hati Denny Sumargo celeb Para Perempuan Cantik Penakluk Hati Denny Sumargo celeb Para Perempuan Cantik Penakluk Hati Denny Sumargo celeb Para Perempuan Cantik Penakluk Hati Denny Sumargo celeb Para Perempuan Cantik Penakluk Hati Denny Sumargo celeb Para Perempuan Cantik Penakluk Hati Denny Sumargo 3 celeb Potret Transformasi Dita Soedarjo, Tunangan Denny Sumargo celeb Potret Transformasi Dita Soedarjo, Tunangan Denny Sumargo celeb Potret Transformasi Dita Soedarjo, Tunangan Denny Sumargo celeb Potret Transformasi Dita Soedarjo, Tunangan Denny Sumargo celeb Potret Transformasi Dita Soedarjo, Tunangan Denny Sumargo celeb Potret Transformasi Dita Soedarjo, Tunangan Denny Sumargo celeb Potret Transformasi Dita Soedarjo, Tunangan Denny Sumargo celeb Potret Transformasi Dita Soedarjo, Tunangan Denny Sumargo celeb Potret Transformasi Dita Soedarjo, Tunangan Denny Sumargo 4 celeb Intip Kemesraan Denny Sumargo dengan Tunangannya yang Tajir celeb Intip Kemesraan Denny Sumargo dengan Tunangannya yang Tajir celeb Intip Kemesraan Denny Sumargo dengan Tunangannya yang Tajir celeb Intip Kemesraan Denny Sumargo dengan Tunangannya yang Tajir celeb Intip Kemesraan Denny Sumargo dengan Tunangannya yang Tajir celeb Intip Kemesraan Denny Sumargo dengan Tunangannya yang Tajir celeb Intip Kemesraan Denny Sumargo dengan Tunangannya yang Tajir celeb Intip Kemesraan Denny Sumargo dengan Tunangannya yang Tajir celeb Intip Kemesraan Denny Sumargo dengan Tunangannya yang Tajir 5 celeb Denny Sumargo, Cool Banget Sih!
+Relasi: dita soedarjo denny(Nikah Tahun, sumargo)
+Class: false
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-d-4149760-cerita-dita-soedarjo-soal-denny-sumargo-he-is-my-idol.txt
+Kalimat ke-19: 6 celeb Ayushita hingga Dian Sastro Hadiri Syukuran Film 'Kartini' celeb Ayushita hingga Dian Sastro Hadiri Syukuran Film 'Kartini' celeb Ayushita hingga Dian Sastro Hadiri Syukuran Film 'Kartini' celeb Ayushita hingga Dian Sastro Hadiri Syukuran Film 'Kartini' celeb Ayushita hingga Dian Sastro Hadiri Syukuran Film 'Kartini' 7 photo DJ Verny Pamer Luka Akibat Dianiaya Suami Siri 8 screenshoot-movie Kisah Para Ghosthunter di Film "Mall Klender" 9 photo Denny Sumargo <i>Cool</i> Berkacamata Hitam 10 photo Gaya Denny Sumargo Berjaket Kulit 11 photo Bantah Hamili DJ Verny, Denny Sumargo Menangis 12 photo DJ Verny Tak Ingin Damai dengan Denny Sumargo 13 photo Perut Hamil Wanita yang Ngaku Dihamili Denny Sumargo 14 photo Ini DJ yang Mengaku Dihamili Denny Sumargo 15 photo Ini Dia Para Pemain Film 5 Cm 16 1  .
+Relasi: Ingin Damai dengan(Denny Sumargo Menangis 12 photo DJ Verny, Denny Sumargo 13 photo Perut Hamil Wanita)
+Class: false
+
+Source: D:\openIE-master\data\preprocess\https-hot-detik-com-celeb-d-4149760-cerita-dita-soedarjo-soal-denny-sumargo-he-is-my-idol.txt
+Kalimat ke-19: 6 celeb Ayushita hingga Dian Sastro Hadiri Syukuran Film 'Kartini' celeb Ayushita hingga Dian Sastro Hadiri Syukuran Film 'Kartini' celeb Ayushita hingga Dian Sastro Hadiri Syukuran Film 'Kartini' celeb Ayushita hingga Dian Sastro Hadiri Syukuran Film 'Kartini' celeb Ayushita hingga Dian Sastro Hadiri Syukuran Film 'Kartini' 7 photo DJ Verny Pamer Luka Akibat Dianiaya Suami Siri 8 screenshoot-movie Kisah Para Ghosthunter di Film "Mall Klender" 9 photo Denny Sumargo <i>Cool</i> Berkacamata Hitam 10 photo Gaya Denny Sumargo Berjaket Kulit 11 photo Bantah Hamili DJ Verny, Denny Sumargo Menangis 12 photo DJ Verny Tak Ingin Damai dengan Denny Sumargo 13 photo Perut Hamil Wanita yang Ngaku Dihamili Denny Sumargo 14 photo Ini DJ yang Mengaku Dihamili Denny Sumargo 15 photo Ini Dia Para Pemain Film 5 Cm 16 1  .
+Relasi: Mengaku(Ngaku Dihamili Denny Sumargo 14 photo, Dihamili Denny Sumargo 15 photo)
+Class: true
+
+

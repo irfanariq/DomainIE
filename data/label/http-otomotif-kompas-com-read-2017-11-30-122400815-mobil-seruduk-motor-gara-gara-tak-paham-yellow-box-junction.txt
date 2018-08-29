@@ -1,0 +1,4 @@
+Source: http-otomotif-kompas-com-read-2017-11-30-122400815-mobil-seruduk-motor-gara-gara-tak-paham-yellow-box-junction.txt
+Kalimat ke-2: Dalam video yang terekam oleh Area Traffic Control System (ATCS) Dinas Perhubungan Kota Medan, terlihat mobil menyeruduk motor hingga membuat pengendaranya terpental .
+Relasi: menyeruduk(mobil, motor)
+
