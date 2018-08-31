@@ -39,7 +39,7 @@ public class DataprocessorPipeline implements IOpenIePipelineElement{
     }
     
     public DataprocessorPipeline addPipelineElementTraining(IDataprocessorPipelineElement dataprocessorPipelineElement) {
-        datatrainingprocessorPipelineElements.add(dataprocessorPipelineElement);
+        datatrainingprocessorPipelineElements.add(0,dataprocessorPipelineElement);
         
         return this;
     }

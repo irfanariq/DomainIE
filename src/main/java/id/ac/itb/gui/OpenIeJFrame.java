@@ -1137,7 +1137,10 @@ public class OpenIeJFrame extends javax.swing.JFrame {
                 IClassifierPipelineElement classifierPipelineElement = (IClassifierPipelineElement) selectedPipelineElement;
                 classifierPipeline.addPipelineElement(classifierPipelineElement);
             } else if (selectedPipelineElement instanceof IDataprocessorPipelineElement) {
-                //Dataprocessor dp= (Data)
+                Dataprocessor dp= (Dataprocessor) selectedPipelineElement;
+                if(dp.getDataprocessorHandler().getPluginName().equalsIgnoreCase("Dataprocessor Data Training File Reader")){
+                    dataprocessorPipeline.addPipelineElementTraining(dp);
+                }
                 IDataprocessorPipelineElement dataprocessorPipelineElement = (IDataprocessorPipelineElement) selectedPipelineElement;
                 dataprocessorPipeline.addPipelineElement(dataprocessorPipelineElement);
             } else if (selectedPipelineElement instanceof IPreprocessorPipelineElement) {
