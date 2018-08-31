@@ -134,7 +134,7 @@ public class ConfigFeatureDialog extends JFrame {
 
         setDefaultCloseOperation(WindowConstants.DISPOSE_ON_CLOSE);
 
-        addButton.setText("Add more");
+        addButton.setText("Add more feature");
         addButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 addButtonActionPerformed(evt);
