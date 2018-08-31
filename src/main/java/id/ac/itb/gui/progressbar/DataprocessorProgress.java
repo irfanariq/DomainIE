@@ -47,7 +47,7 @@ public class DataprocessorProgress extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        jLabel1.setText("Running Dataprocessor\n for Data Training");
+        jLabel1.setText("Processing data training");
 
         showProgressLabel();
 
@@ -104,7 +104,7 @@ public class DataprocessorProgress extends javax.swing.JFrame {
             tick = (tick % 4) + 1;
         }
 
-        if(!dataprocessorPipeline.isTraining()) jLabel1.setText("Running Dataprocessor\n for Data Set");
+        if(!dataprocessorPipeline.isTraining()) jLabel1.setText("Processing data test");
 
         
         if (dataprocessorPipeline.getCurrentlyRunningDataprocessor() != null) {
@@ -112,7 +112,7 @@ public class DataprocessorProgress extends javax.swing.JFrame {
         }
 
         if (totalDocumentsToBeDataprocessed > 0 && totalCurrentlyDocumentsDataprocessed == totalDocumentsToBeDataprocessed) {
-            dataprocessingDocumentsProgressLabel.setText("Dataprocessing Completed. Loading" + trail);
+            dataprocessingDocumentsProgressLabel.setText("Dataprocess Completed. Loading" + trail);
         } else {
             dataprocessingDocumentsProgressLabel.setText(" " + totalCurrentlyDocumentsDataprocessed + " / " + totalDocumentsToBeDataprocessed + " documents ");
         }

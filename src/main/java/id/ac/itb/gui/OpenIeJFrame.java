@@ -508,8 +508,12 @@ public class OpenIeJFrame extends javax.swing.JFrame {
                     
                     if(selectedPipelineElement instanceof Dataprocessor){
                         Dataprocessor temp= (Dataprocessor)selectedPipelineElement;
-                        if(!temp.getDataprocessorHandler().getPluginName().equalsIgnoreCase("Dataprocessor Data Training File Reader"))
-                        openIESectionSetFeaturesPipelineElementButton.setEnabled(true);
+                        if(!temp.getDataprocessorHandler().getPluginName().equalsIgnoreCase("Dataprocessor Data Training File Reader")){
+                            openIESectionSetFeaturesPipelineElementButton.setEnabled(true);
+                            System.out.println("masuk");
+                        }else{
+                            openIESectionSetFeaturesPipelineElementButton.setEnabled(false);                          
+                        }
                     }else{
                         openIESectionSetFeaturesPipelineElementButton.setEnabled(false);
                     }
@@ -1140,12 +1144,18 @@ public class OpenIeJFrame extends javax.swing.JFrame {
                 Dataprocessor dp= (Dataprocessor) selectedPipelineElement;
                 if(dp.getDataprocessorHandler().getPluginName().equalsIgnoreCase("Dataprocessor Data Training File Reader")){
                     dataprocessorPipeline.addPipelineElementTraining(dp);
+                }else{
+                    IDataprocessorPipelineElement dataprocessorPipelineElement = (IDataprocessorPipelineElement) selectedPipelineElement;
+                    dataprocessorPipeline.addPipelineElement(dataprocessorPipelineElement);
                 }
-                IDataprocessorPipelineElement dataprocessorPipelineElement = (IDataprocessorPipelineElement) selectedPipelineElement;
-                dataprocessorPipeline.addPipelineElement(dataprocessorPipelineElement);
             } else if (selectedPipelineElement instanceof IPreprocessorPipelineElement) {
-                IPreprocessorPipelineElement preprocessorPipelineElement = (IPreprocessorPipelineElement) selectedPipelineElement;
-                preprocessorPipeline.addPipelineElement(preprocessorPipelineElement);
+                Preprocessor pp=(Preprocessor) selectedPipelineElement;
+                if(pp.getPreprocessorHandler().getPluginName().equalsIgnoreCase("Preprocessor File Reader")){
+                    preprocessorPipeline.addPipelineElementInput(pp);
+                }else{
+                    IPreprocessorPipelineElement preprocessorPipelineElement = (IPreprocessorPipelineElement) selectedPipelineElement;
+                    preprocessorPipeline.addPipelineElement(preprocessorPipelineElement);
+                }
             } else if (selectedPipelineElement instanceof ICrawlerPipelineElement) {
                 ICrawlerPipelineElement crawlerPipelineElement = (ICrawlerPipelineElement) selectedPipelineElement;
                 crawlerPipeline.addPipelineElement(crawlerPipelineElement);

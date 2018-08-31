@@ -25,6 +25,11 @@ public class PreprocessorPipeline implements IOpenIePipelineElement {
         preprocessorPipelineElements.add(preprocessorPipelineElement);
         return this;
     }
+    
+    public PreprocessorPipeline addPipelineElementInput(IPreprocessorPipelineElement preprocessorPipelineElement) {
+        preprocessorPipelineElements.add(0,preprocessorPipelineElement);
+        return this;
+    }
 
     public ArrayList<IPreprocessorPipelineElement> getPreprocessorPipelineElements() {
         return this.preprocessorPipelineElements;
@@ -98,7 +103,7 @@ public class PreprocessorPipeline implements IOpenIePipelineElement {
             if (((Preprocessor)preprocessorPipelineElement).getPreprocessorHandler().getPluginName().equalsIgnoreCase("Preprocessor File Reader")) {
                 HashMap<File, String> preprocessed = preprocessorPipelineElement.read();
                 nextPipeQueue.putAll(preprocessed);
-                totalDocumentsToBePreprocessed += preprocessed.size();
+                totalDocumentsToBePreprocessed = preprocessed.size();
             } else if (((Preprocessor)preprocessorPipelineElement).getPreprocessorHandler().getPluginName().equalsIgnoreCase("Preprocessor File Writer")) {
                 for (Map.Entry<File, String> pair : pipeQueue.entrySet()) {
                     preprocessorPipelineElement.write(pair.getKey(), pair.getValue());

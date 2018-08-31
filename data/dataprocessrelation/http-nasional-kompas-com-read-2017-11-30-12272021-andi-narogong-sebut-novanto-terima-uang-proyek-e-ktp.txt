@@ -1,88 +1,88 @@
 Source: D:\openIE\data\preprocess\http-nasional-kompas-com-read-2017-11-30-12272021-andi-narogong-sebut-novanto-terima-uang-proyek-e-ktp.txt
-Kalimat ke-1: Andi Agustinus alias Andi Narogong memberikan keterangan sebagai terdakwa di Pengadilan Tipikor Jakarta, Kamis (30/11/2017) .
+Kalimat ke-1: Andi Agustinus alias Andi Narogong memberikan keterangan sebagai terdakwa di Pengadilan Tipikor Jakarta , Kamis ( 30/11/2017 )  .
 Relasi: memberikan(Andi Agustinus alias Andi Narogong, keterangan)
 
 Source: D:\openIE\data\preprocess\http-nasional-kompas-com-read-2017-11-30-12272021-andi-narogong-sebut-novanto-terima-uang-proyek-e-ktp.txt
-Kalimat ke-2: Dalam persidangan, Andi buka-bukaan soal skandal korupsi pengadaan Kartu Tanda Penduduk berbasis elektronik (e-KTP) .
-Relasi: berbasis(persidangan, Andi buka-bukaan soal skandal korupsi pengadaan Kartu Tanda Penduduk, elektronik (e-KTP))
+Kalimat ke-2: Dalam persidangan , Andi buka - bukaan soal skandal korupsi pengadaan Kartu Tanda Penduduk berbasis elektronik ( e - KTP )  .
+Relasi: berbasis(bukaan soal skandal korupsi pengadaan Kartu Tanda Penduduk, elektronik)
 
 Source: D:\openIE\data\preprocess\http-nasional-kompas-com-read-2017-11-30-12272021-andi-narogong-sebut-novanto-terima-uang-proyek-e-ktp.txt
-Kalimat ke-3: Andi mengakui bahwa korupsi proyek pengadaan e-KTP telah diatur sejak awal .
-Relasi: mengakui(Andi, korupsi proyek pengadaan e-KTP)
+Kalimat ke-3: Andi mengakui bahwa korupsi proyek pengadaan e - KTP telah diatur sejak awal  .
+Relasi: mengakui(Andi, korupsi proyek pengadaan e)
 
 Source: D:\openIE\data\preprocess\http-nasional-kompas-com-read-2017-11-30-12272021-andi-narogong-sebut-novanto-terima-uang-proyek-e-ktp.txt
-Kalimat ke-4: Andi mengatakan, mekanisme pengadaaan dan penentuan pelaksana proyek telah direncanakan sejak sebelum proses lelang .
-Relasi: mengatakan(Andi, mekanisme pengadaaan dan penentuan pelaksana proyek)
+Kalimat ke-4: Andi mengatakan , mekanisme pengadan dan penentuan pelaksana proyek telah direncanakan sejak sebelum proses lelang  .
+Relasi: mengatakan(Andi, mekanisme pengadan dan penentuan pelaksana proyek)
 
 Source: D:\openIE\data\preprocess\http-nasional-kompas-com-read-2017-11-30-12272021-andi-narogong-sebut-novanto-terima-uang-proyek-e-ktp.txt
-Kalimat ke-4: Andi mengatakan, mekanisme pengadaaan dan penentuan pelaksana proyek telah direncanakan sejak sebelum proses lelang .
-Relasi: direncanakan(mekanisme pengadaaan dan penentuan pelaksana proyek, sebelum proses lelang)
+Kalimat ke-4: Andi mengatakan , mekanisme pengadan dan penentuan pelaksana proyek telah direncanakan sejak sebelum proses lelang  .
+Relasi: direncanakan(mekanisme pengadan dan penentuan pelaksana proyek, sebelum proses lelang)
 
 Source: D:\openIE\data\preprocess\http-nasional-kompas-com-read-2017-11-30-12272021-andi-narogong-sebut-novanto-terima-uang-proyek-e-ktp.txt
-Kalimat ke-5: Baca juga : Andi Narogong Akui Pernah Bertemu Novanto Bersama Made Oka Masagung Menurut Andi, Direktur Jenderal Kependudukan dan Pencatatan Sipil Kementerian Dalam Negeri, Irman minta agar para pengusaha menyediakan fee 10 persen jika ingin dimenangkan .
+Kalimat ke-5: Baca juga : Andi Narogong Akui Pernah Bertemu Novanto Bersama Made Oka Masagung Menurut Andi , Direktur Jenderal Kependudukan dan Pencatatan Sipil Kementerian Dalam Negeri , Irman minta agar para pengusaha menyediakan fee 10 persen jika ingin dimenangkan  .
 Relasi: juga(Baca, Andi Narogong)
 
 Source: D:\openIE\data\preprocess\http-nasional-kompas-com-read-2017-11-30-12272021-andi-narogong-sebut-novanto-terima-uang-proyek-e-ktp.txt
-Kalimat ke-5: Baca juga : Andi Narogong Akui Pernah Bertemu Novanto Bersama Made Oka Masagung Menurut Andi, Direktur Jenderal Kependudukan dan Pencatatan Sipil Kementerian Dalam Negeri, Irman minta agar para pengusaha menyediakan fee 10 persen jika ingin dimenangkan .
+Kalimat ke-5: Baca juga : Andi Narogong Akui Pernah Bertemu Novanto Bersama Made Oka Masagung Menurut Andi , Direktur Jenderal Kependudukan dan Pencatatan Sipil Kementerian Dalam Negeri , Irman minta agar para pengusaha menyediakan fee 10 persen jika ingin dimenangkan  .
 Relasi: Bertemu(Pernah, Novanto)
 
 Source: D:\openIE\data\preprocess\http-nasional-kompas-com-read-2017-11-30-12272021-andi-narogong-sebut-novanto-terima-uang-proyek-e-ktp.txt
-Kalimat ke-5: Baca juga : Andi Narogong Akui Pernah Bertemu Novanto Bersama Made Oka Masagung Menurut Andi, Direktur Jenderal Kependudukan dan Pencatatan Sipil Kementerian Dalam Negeri, Irman minta agar para pengusaha menyediakan fee 10 persen jika ingin dimenangkan .
-Relasi: Menurut(Made Oka Masagung, Andi, Direktur Jenderal Kependudukan dan Pencatatan Sipil Kementerian)
+Kalimat ke-5: Baca juga : Andi Narogong Akui Pernah Bertemu Novanto Bersama Made Oka Masagung Menurut Andi , Direktur Jenderal Kependudukan dan Pencatatan Sipil Kementerian Dalam Negeri , Irman minta agar para pengusaha menyediakan fee 10 persen jika ingin dimenangkan  .
+Relasi: Menurut(Made Oka Masagung, Andi)
 
 Source: D:\openIE\data\preprocess\http-nasional-kompas-com-read-2017-11-30-12272021-andi-narogong-sebut-novanto-terima-uang-proyek-e-ktp.txt
-Kalimat ke-5: Baca juga : Andi Narogong Akui Pernah Bertemu Novanto Bersama Made Oka Masagung Menurut Andi, Direktur Jenderal Kependudukan dan Pencatatan Sipil Kementerian Dalam Negeri, Irman minta agar para pengusaha menyediakan fee 10 persen jika ingin dimenangkan .
-Relasi: minta(Negeri, Irman, pengusaha)
+Kalimat ke-5: Baca juga : Andi Narogong Akui Pernah Bertemu Novanto Bersama Made Oka Masagung Menurut Andi , Direktur Jenderal Kependudukan dan Pencatatan Sipil Kementerian Dalam Negeri , Irman minta agar para pengusaha menyediakan fee 10 persen jika ingin dimenangkan  .
+Relasi: minta(Irman, pengusaha)
 
 Source: D:\openIE\data\preprocess\http-nasional-kompas-com-read-2017-11-30-12272021-andi-narogong-sebut-novanto-terima-uang-proyek-e-ktp.txt
-Kalimat ke-5: Baca juga : Andi Narogong Akui Pernah Bertemu Novanto Bersama Made Oka Masagung Menurut Andi, Direktur Jenderal Kependudukan dan Pencatatan Sipil Kementerian Dalam Negeri, Irman minta agar para pengusaha menyediakan fee 10 persen jika ingin dimenangkan .
+Kalimat ke-5: Baca juga : Andi Narogong Akui Pernah Bertemu Novanto Bersama Made Oka Masagung Menurut Andi , Direktur Jenderal Kependudukan dan Pencatatan Sipil Kementerian Dalam Negeri , Irman minta agar para pengusaha menyediakan fee 10 persen jika ingin dimenangkan  .
 Relasi: menyediakan(pengusaha, fee 10 persen)
 
 Source: D:\openIE\data\preprocess\http-nasional-kompas-com-read-2017-11-30-12272021-andi-narogong-sebut-novanto-terima-uang-proyek-e-ktp.txt
-Kalimat ke-6: "Permintaan itu terkonfirmasi dengan peserta lain .
-Relasi: terkonfirmasi("Permintaan itu, peserta lain)
+Kalimat ke-6: " Permintaan itu terkonfirmasi dengan peserta lain  .
+Relasi: terkonfirmasi(Permintaan itu, peserta lain)
 
 Source: D:\openIE\data\preprocess\http-nasional-kompas-com-read-2017-11-30-12272021-andi-narogong-sebut-novanto-terima-uang-proyek-e-ktp.txt
-Kalimat ke-7: Kami anggota konsorsium menyanggupi, fee 5 persen untuk DPR, 5 persen untuk Pak Irman dan pejabat Kemendagri," kata Andi kepada majelis hakim .
+Kalimat ke-7: Kami anggota konsorsium menyanggupi , fee 5 persen untuk DPR , 5 persen untuk Pak Irman dan pejabat Kemendagri, " kata Andi kepada majelis hakim  .
 Relasi: menyanggupi(anggota konsorsium, fee 5 persen)
 
 Source: D:\openIE\data\preprocess\http-nasional-kompas-com-read-2017-11-30-12272021-andi-narogong-sebut-novanto-terima-uang-proyek-e-ktp.txt
-Kalimat ke-7: Kami anggota konsorsium menyanggupi, fee 5 persen untuk DPR, 5 persen untuk Pak Irman dan pejabat Kemendagri," kata Andi kepada majelis hakim .
-Relasi: kata(Pak Irman dan pejabat Kemendagri,", Andi)
+Kalimat ke-7: Kami anggota konsorsium menyanggupi , fee 5 persen untuk DPR , 5 persen untuk Pak Irman dan pejabat Kemendagri, " kata Andi kepada majelis hakim  .
+Relasi: kata(Pak Irman dan pejabat Kemendagri,, Andi)
 
 Source: D:\openIE\data\preprocess\http-nasional-kompas-com-read-2017-11-30-12272021-andi-narogong-sebut-novanto-terima-uang-proyek-e-ktp.txt
-Kalimat ke-7: Kami anggota konsorsium menyanggupi, fee 5 persen untuk DPR, 5 persen untuk Pak Irman dan pejabat Kemendagri," kata Andi kepada majelis hakim .
+Kalimat ke-7: Kami anggota konsorsium menyanggupi , fee 5 persen untuk DPR , 5 persen untuk Pak Irman dan pejabat Kemendagri, " kata Andi kepada majelis hakim  .
 Relasi: kepada majelis(Andi, hakim)
 
 Source: D:\openIE\data\preprocess\http-nasional-kompas-com-read-2017-11-30-12272021-andi-narogong-sebut-novanto-terima-uang-proyek-e-ktp.txt
-Kalimat ke-8: Dalam persidangan, Andi juga menjelaskan secara rinci peran Setya Novanto yang saat itu menjabat sebagai Ketua Fraksi Partai Golkar .
-Relasi: juga menjelaskan secara rinci(persidangan, Andi, peran Setya Novanto)
+Kalimat ke-8: Dalam persidangan , Andi juga menjelaskan secara rinci peran Setya Novanto yang saat itu menjabat sebagai Ketua Fraksi Partai Golkar  .
+Relasi: juga menjelaskan secara rinci(Andi, peran Setya Novanto)
 
 Source: D:\openIE\data\preprocess\http-nasional-kompas-com-read-2017-11-30-12272021-andi-narogong-sebut-novanto-terima-uang-proyek-e-ktp.txt
-Kalimat ke-8: Dalam persidangan, Andi juga menjelaskan secara rinci peran Setya Novanto yang saat itu menjabat sebagai Ketua Fraksi Partai Golkar .
+Kalimat ke-8: Dalam persidangan , Andi juga menjelaskan secara rinci peran Setya Novanto yang saat itu menjabat sebagai Ketua Fraksi Partai Golkar  .
 Relasi: menjabat(saat itu, Ketua Fraksi Partai Golkar)
 
 Source: D:\openIE\data\preprocess\http-nasional-kompas-com-read-2017-11-30-12272021-andi-narogong-sebut-novanto-terima-uang-proyek-e-ktp.txt
-Kalimat ke-9: Andi mengakui bahwa Novanto ikut berkoordinasi dalam jalannya proyek e-KTP .
+Kalimat ke-9: Andi mengakui bahwa Novanto ikut berkoordinasi dalam jalannya proyek e - KTP  .
 Relasi: mengakui(Andi, Novanto)
 
 Source: D:\openIE\data\preprocess\http-nasional-kompas-com-read-2017-11-30-12272021-andi-narogong-sebut-novanto-terima-uang-proyek-e-ktp.txt
-Kalimat ke-9: Andi mengakui bahwa Novanto ikut berkoordinasi dalam jalannya proyek e-KTP .
-Relasi: ikut berkoordinasi(Novanto, jalannya proyek e-KTP)
+Kalimat ke-9: Andi mengakui bahwa Novanto ikut berkoordinasi dalam jalannya proyek e - KTP  .
+Relasi: ikut berkoordinasi(Novanto, jalannya proyek e)
 
 Source: D:\openIE\data\preprocess\http-nasional-kompas-com-read-2017-11-30-12272021-andi-narogong-sebut-novanto-terima-uang-proyek-e-ktp.txt
-Kalimat ke-10: Andi bahkan mengakui bahwa Novanto menerima uang dalam proyek e-KTP .
+Kalimat ke-10: Andi bahkan mengakui bahwa Novanto menerima uang dalam proyek e - KTP  .
 Relasi: bahkan mengakui(Andi, Novanto)
 
 Source: D:\openIE\data\preprocess\http-nasional-kompas-com-read-2017-11-30-12272021-andi-narogong-sebut-novanto-terima-uang-proyek-e-ktp.txt
-Kalimat ke-10: Andi bahkan mengakui bahwa Novanto menerima uang dalam proyek e-KTP .
+Kalimat ke-10: Andi bahkan mengakui bahwa Novanto menerima uang dalam proyek e - KTP  .
 Relasi: menerima(Novanto, uang)
 
 Source: D:\openIE\data\preprocess\http-nasional-kompas-com-read-2017-11-30-12272021-andi-narogong-sebut-novanto-terima-uang-proyek-e-ktp.txt
-Kalimat ke-11: Menurut Andi, ia dan beberapa pengusaha lainnya, yakni Anang Sugiana Sudihardjo, Paulus Tanos dan Johannes Marliem pernah bertemu beberapa kali di kediaman dan kantor Novanto .
-Relasi: yakni(ia dan beberapa pengusaha lainnya,, Anang Sugiana Sudihardjo, Paulus Tanos dan Johannes Marliem)
+Kalimat ke-11: Menurut Andi , ia dan beberapa pengusaha lainnya , yakni Anang Sugiana Sudihardjo , Paulus Tanos dan Johannes Marliem pernah bertemu beberapa kali di kediaman dan kantor Novanto  .
+Relasi: yakni(ia dan beberapa pengusaha lainnya, Anang Sugiana Sudihardjo)
 
 Source: D:\openIE\data\preprocess\http-nasional-kompas-com-read-2017-11-30-12272021-andi-narogong-sebut-novanto-terima-uang-proyek-e-ktp.txt
-Kalimat ke-11: Menurut Andi, ia dan beberapa pengusaha lainnya, yakni Anang Sugiana Sudihardjo, Paulus Tanos dan Johannes Marliem pernah bertemu beberapa kali di kediaman dan kantor Novanto .
-Relasi: pernah bertemu(Anang Sugiana Sudihardjo, Paulus Tanos dan Johannes Marliem, beberapa kali)
+Kalimat ke-11: Menurut Andi , ia dan beberapa pengusaha lainnya , yakni Anang Sugiana Sudihardjo , Paulus Tanos dan Johannes Marliem pernah bertemu beberapa kali di kediaman dan kantor Novanto  .
+Relasi: pernah bertemu(Paulus Tanos dan Johannes Marliem, beberapa kali)
 

@@ -1,0 +1,38 @@
+@relation 'Textrunner Dataprocessor'
+
+@attribute Right_Arg2_POStag {VBI,VBT,CDP,NULL,CC,CD,OD,DT,FW,IN,JJ,MD,NEG,NN,NNP,NND,PR,PRP,RB,RP,SC,SYM,UH,VB,WH,X,Z}
+@attribute Is_Arg2_Proper_Noun {yes,no}
+@attribute number_stopwords numeric
+@attribute Is_Arg1_Proper_Noun {yes,no}
+@attribute Left_Arg1_POStag {VBI,VBT,CDP,NULL,CC,CD,OD,DT,FW,IN,JJ,MD,NEG,NN,NNP,NND,PR,PRP,RB,RP,SC,SYM,UH,VB,WH,X,Z}
+@attribute number_token numeric
+@attribute classtarget {yes,no}
+
+@data
+NN,no,0,no,DT,1,yes
+IN,no,1,no,JJ,1,yes
+IN,no,0,no,NULL,1,yes
+NULL,no,0,no,IN,1,yes
+NULL,no,1,no,DT,1,yes
+VBT,no,1,no,DT,1,yes
+NULL,no,1,no,VBT,1,no
+NULL,no,2,no,MD,2,yes
+NULL,no,2,no,JJ,4,no
+VBT,no,1,no,RP,1,yes
+NULL,no,0,no,JJ,1,no
+NULL,no,0,no,SC,1,yes
+NULL,yes,1,no,IN,1,no
+NULL,yes,1,no,NULL,1,yes
+NULL,yes,1,no,NULL,1,yes
+NULL,yes,1,no,NULL,1,yes
+NULL,yes,1,no,NULL,1,yes
+NULL,yes,1,no,NULL,1,yes
+CDP,no,0,no,NNP,1,no
+CDP,no,0,no,NNP,1,no
+CDP,no,0,no,NNP,1,no
+NN,no,1,no,NNP,2,yes
+NULL,no,1,no,JJ,1,no
+NNP,yes,0,no,VBT,1,yes
+CDP,no,1,yes,JJ,1,yes
+NNP,no,0,no,NNP,1,no
+NN,no,0,no,NULL,1,no

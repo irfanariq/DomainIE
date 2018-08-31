@@ -164,7 +164,7 @@ public class ClassifierPipeline implements IOpenIePipelineElement {
             if (((Classifier)classifierPipelineElement).getClassifierHandler().getPluginName().equalsIgnoreCase("Classifier File Reader")) {
                 HashMap<File, Instances> featuredDocuments = classifierPipelineElement.read();
                 nextPipeQueue.putAll(featuredDocuments);
-                totalDocumentsToBeClassified += featuredDocuments.size();
+                totalDocumentsToBeClassified = featuredDocuments.size();
             } else if (((Classifier)classifierPipelineElement).getClassifierHandler().getPluginName().equalsIgnoreCase("Classifier File Writer")) {
                 for (Map.Entry<File, Instances> pair : pipeQueue.entrySet()) {
                     classifierPipelineElement.write(pair.getKey(), pair.getValue());

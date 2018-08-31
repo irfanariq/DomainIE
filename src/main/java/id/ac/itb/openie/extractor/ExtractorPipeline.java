@@ -132,7 +132,7 @@ public class ExtractorPipeline implements IOpenIePipelineElement {
                 if (((Extractor)extractorPipelineElement).getExtractorHandler().getPluginName().equalsIgnoreCase("Extractor File Reader")) {
                     HashMap<File, Pair<String, Relations>> extractedRelations = extractorPipelineElement.read();
                     nextPipeQueue.putAll(extractedRelations);
-                    totalDocumentsToBeExtracted += extractedRelations.size();
+                    totalDocumentsToBeExtracted = extractedRelations.size();
                 } else if (((Extractor)extractorPipelineElement).getExtractorHandler().getPluginName().equalsIgnoreCase("Extractor File Writer")) {
                     for (Map.Entry<File, Pair<String, Relations>> pair : pipeQueue.entrySet()) {
                         extractorPipelineElement.write(pair.getKey(), pair.getValue().getRight());
