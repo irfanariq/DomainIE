@@ -310,6 +310,7 @@ public class OpenIeJFrame extends javax.swing.JFrame {
         jSeparator10 = new javax.swing.JSeparator();
         openIESectionExtractionLabel = new javax.swing.JLabel();
         openIESectionExtractionComboBox = new javax.swing.JComboBox<>();
+        openIESectionSetFeaturesPipelineElementButton = new javax.swing.JButton();
         openIESectionAddExtractionButton = new javax.swing.JButton();
         jSeparator11 = new javax.swing.JSeparator();
         openIESectionPostprocessLabel = new javax.swing.JLabel();
@@ -489,6 +490,8 @@ public class OpenIeJFrame extends javax.swing.JFrame {
                         availableConfigurations = ((Crawler)selectedPipelineElement).getCrawlerhandler().getAvailableConfigurations();
                     } else if (selectedPipelineElement instanceof Preprocessor) {
                         availableConfigurations = ((Preprocessor)selectedPipelineElement).getPreprocessorHandler().getAvailableConfigurations();
+                    } else if(selectedPipelineElement instanceof Dataprocessor){
+                        availableConfigurations = ((Dataprocessor)selectedPipelineElement).getDataprocessorHandler().getAvailableConfigurations();
                     } else if(selectedPipelineElement instanceof Classifier){
                         availableConfigurations = ((Classifier)selectedPipelineElement).getClassifierHandler().getAvailableConfigurations();
                     } else if (selectedPipelineElement instanceof Extractor) {
@@ -506,7 +509,9 @@ public class OpenIeJFrame extends javax.swing.JFrame {
                     if(selectedPipelineElement instanceof Dataprocessor){
                         Dataprocessor temp= (Dataprocessor)selectedPipelineElement;
                         if(!temp.getDataprocessorHandler().getPluginName().equalsIgnoreCase("Dataprocessor Data Training File Reader"))
-                        openIESectionConfigurePipelineElementButton1.setEnabled(true);
+                        openIESectionSetFeaturesPipelineElementButton.setEnabled(true);
+                    }else{
+                        openIESectionSetFeaturesPipelineElementButton.setEnabled(false);
                     }
 
                     openIESectionRemovePipelineElementButton.setEnabled(true);
@@ -548,6 +553,14 @@ public class OpenIeJFrame extends javax.swing.JFrame {
                 openIESectionAddClassifierButtonActionPerformed(evt);
             }
         });
+        
+        openIESectionSetFeaturesPipelineElementButton.setText("Set Features");
+        openIESectionSetFeaturesPipelineElementButton.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                openIESectionSetFeaturesPipelineElementButtonActionPerformed(evt);
+            }
+        });
+        openIESectionSetFeaturesPipelineElementButton.setEnabled(false);
 
         javax.swing.GroupLayout jPanel5Layout = new javax.swing.GroupLayout(jPanel5);
         jPanel5.setLayout(jPanel5Layout);
@@ -596,7 +609,8 @@ public class OpenIeJFrame extends javax.swing.JFrame {
                         .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(openIESectionConfigurePipelineElementButton1, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                             .addComponent(openIESectionRemovePipelineElementButton, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(openIESectionExecutePipelineElementButton, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
+                            .addComponent(openIESectionExecutePipelineElementButton, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(openIESectionSetFeaturesPipelineElementButton, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
                     .addGroup(jPanel5Layout.createSequentialGroup()
                         .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(loadPluginsLabel)
@@ -735,7 +749,9 @@ public class OpenIeJFrame extends javax.swing.JFrame {
                         .addComponent(openIESectionRemovePipelineElementButton)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                         .addComponent(openIESectionConfigurePipelineElementButton1)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(openIESectionSetFeaturesPipelineElementButton)
+                        .addGap(98, 98, 98)
                         .addComponent(openIESectionExecutePipelineElementButton)
                         .addContainerGap())
                     .addComponent(jScrollPane6, javax.swing.GroupLayout.PREFERRED_SIZE, 223, javax.swing.GroupLayout.PREFERRED_SIZE)))
@@ -855,6 +871,8 @@ public class OpenIeJFrame extends javax.swing.JFrame {
             }
         });
 
+        
+        
         addedRelationsLabel.setFont(new java.awt.Font("Lucida Grande", 0, 11)); // NOI18N
         addedRelationsLabel.setText("Added Relations:");
 
@@ -1078,14 +1096,25 @@ public class OpenIeJFrame extends javax.swing.JFrame {
             } else if (selectedPipelineElement instanceof Postprocessor) {
                 new ConfigDialog(((Postprocessor)selectedPipelineElement).getPostprocessorHandler().getAvailableConfigurations()).setVisible(true);
             } else if (selectedPipelineElement instanceof Dataprocessor) {
-                System.out.println("feature dp "+((Dataprocessor)selectedPipelineElement).getArrayFeature().size());
-                new ConfigFeatureDialog(((Dataprocessor)selectedPipelineElement).getArrayFeature()).setVisible(true);
-                System.out.println("feature dp "+((Dataprocessor)selectedPipelineElement).getArrayFeature().size());
+                new ConfigDialog(((Dataprocessor)selectedPipelineElement).getDataprocessorHandler().getAvailableConfigurations()).setVisible(true);
             } 
         }
 
     }//GEN-LAST:event_openIESectionConfigurePipelineElementButton1ActionPerformed
 
+    private void openIESectionSetFeaturesPipelineElementButtonActionPerformed(java.awt.event.ActionEvent evt) {                                                                              
+        // TODO add your handling code here:
+        Object selectedPipelineElement = openIePipelineDragDropList.getSelectedValue();
+
+        if (selectedPipelineElement != null) {
+            if (selectedPipelineElement instanceof Dataprocessor) {
+                System.out.println("feature dp "+((Dataprocessor)selectedPipelineElement).getArrayFeature().size());
+                new ConfigFeatureDialog(((Dataprocessor)selectedPipelineElement).getArrayFeature()).setVisible(true);
+                System.out.println("feature dp "+((Dataprocessor)selectedPipelineElement).getArrayFeature().size());
+            } 
+        }
+    }   
+    
     private void openIESectionExecutePipelineElementButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_openIESectionExecutePipelineElementButtonActionPerformed
         // TODO add your handling code here:
 
@@ -1400,6 +1429,7 @@ public class OpenIeJFrame extends javax.swing.JFrame {
     private javax.swing.JComboBox<Object> openIESectionClassifierComboBox;
     private javax.swing.JLabel openIESectionClassifierLabel;
     private javax.swing.JButton openIESectionConfigurePipelineElementButton1;
+    private javax.swing.JButton openIESectionSetFeaturesPipelineElementButton;
     private javax.swing.JComboBox<Object> openIESectionCrawlerComboBox;
     private javax.swing.JLabel openIESectionCrawlerLabel;
     private javax.swing.JComboBox<Object> openIESectionDataprocessComboBox;

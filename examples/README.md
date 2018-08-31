@@ -12,5 +12,3 @@ Steps to create a plugin:
 
 Steps to integrate a plugin:
 - Plugins can be copied directly to the `/plugins` directory or plugins can be loaded through GUI Load Plugins section which will copy plugins to `/plugins` directory.
-- Recompile app using `ant`
-- Rerun app

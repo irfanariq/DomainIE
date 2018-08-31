@@ -9,11 +9,11 @@
 @attribute classtarget {yes,no}
 
 @data
-VBI,no,2,yes,NULL,4,yes
+VBI,no,2,yes,NULL,4,no
 CC,no,0,no,RP,1,yes
 NULL,no,0,no,VBI,1,yes
 VBI,no,0,yes,NULL,1,yes
-IN,yes,0,no,IN,1,no
+IN,yes,0,no,IN,1,yes
 IN,no,0,no,NULL,1,yes
 SC,no,0,yes,NULL,1,yes
 NULL,no,1,no,VBT,2,no
@@ -21,16 +21,16 @@ NNP,no,0,yes,NULL,1,yes
 VBI,no,0,no,JJ,1,no
 IN,no,0,no,SC,1,yes
 VBI,no,2,no,SC,3,no
-PRP,no,0,no,SC,1,no
+PRP,no,0,no,SC,1,yes
 RB,no,0,no,PRP,1,no
-RB,no,0,no,VBI,1,yes
-IN,no,0,no,IN,1,no
+RB,no,0,no,VBI,1,no
+IN,no,0,no,IN,1,yes
 IN,no,1,no,NULL,2,yes
 VBT,yes,2,no,IN,2,yes
 SC,no,1,yes,VBT,1,no
 NULL,no,0,no,NULL,1,yes
 NULL,no,2,no,NULL,3,yes
-NULL,no,1,no,SC,2,no
+NULL,no,1,no,SC,2,yes
 NN,no,0,no,NULL,1,yes
 IN,no,1,no,NULL,1,yes
 NN,no,0,no,NN,1,yes
@@ -44,11 +44,11 @@ IN,no,1,no,NULL,1,yes
 NN,no,0,no,NN,1,yes
 IN,no,1,no,NULL,1,yes
 IN,yes,0,no,FW,1,yes
-IN,yes,0,no,IN,1,no
-IN,yes,0,no,IN,1,no
-IN,yes,0,no,IN,1,no
-IN,yes,0,no,IN,1,no
-IN,yes,0,no,IN,1,no
+IN,yes,0,no,IN,1,yes
+IN,yes,0,no,IN,1,yes
+IN,yes,0,no,IN,1,yes
+IN,yes,0,no,IN,1,yes
+IN,yes,0,no,IN,1,yes
 NNP,no,0,no,NN,1,yes
 NNP,no,0,no,RP,1,yes
 NNP,no,0,no,RP,1,yes

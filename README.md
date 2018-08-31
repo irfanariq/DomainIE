@@ -25,12 +25,12 @@ All source codes are placed in the /src directory. Application is developed usin
 This will open the main application window.
 ## UNIX
 ```
-$ java -cp out/artifacts/OpenIE_jar/*:jars/*: id.ac.itb.gui.OpenIeJFrame
+$ java -cp .:out/artifacts/OpenIE_jar/*:jars/*:target/classes id.ac.itb.gui.OpenIeJFrame
 ```
 
 ## Windows
 ```
-$ java -cp out/artifacts/OpenIE_jar/*;jars/*; id.ac.itb.gui.OpenIeJFrame
+$ java -cp .;out/artifacts/OpenIE_jar/*;jars/*;target/classes id.ac.itb.gui.OpenIeJFrame
 ```
 
 # Creating a plugin

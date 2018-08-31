@@ -8,23 +8,30 @@ import ro.fortsoft.pf4j.PluginWrapper;
 
 import java.io.File;
 import java.util.HashMap;
+import weka.core.Instances;
+import weka.core.Instance;
+import java.util.ArrayList;
+import java.util.Enumeration;
+
 
 /**
  * Created by elvanowen on 2/24/17.
  */
-public class ReverbExtractorV2Handler extends Plugin {
+public class Extractor extends Plugin {
 
-    public ReverbExtractorV2Handler(PluginWrapper wrapper) {
+    public Extractor(PluginWrapper wrapper) {
         super(wrapper);
     }
 
     @Extension
-    public static class ReverbExtractorV2HandlerPlugin extends IExtractorExtensionHandler {
+    public static class ExtractorHandler extends IExtractorExtensionHandler {
 
         HashMap<String, String> availableConfigurations = new HashMap<>();
 
         public String getPluginName() {
-            return "Reverb Extractor V2";
+            String name = "My Extractor";
+
+            return name;       
         }
 
         @Override
@@ -38,12 +45,8 @@ public class ReverbExtractorV2Handler extends Plugin {
         }
 
         @Override
-        public Relations extract(File file, String document, Relations extracted) throws Exception {
-            return new ReverbExtractorV2().extract(file, document, extracted);
-        }
-
-        public String toString() {
-            return this.getPluginName();
+        public Relations extract(File file, Instances instances, Relations extracted) throws Exception {
+           
         }
 
         public void extractorWillRun() {
@@ -54,5 +57,8 @@ public class ReverbExtractorV2Handler extends Plugin {
             System.out.println(this.getPluginName() + " did run..");
         }
 
+        public int getExtractorType(){
+            return 1;
+        }
     }
 }
