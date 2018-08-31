@@ -1,0 +1,80 @@
+Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749580-keluarga-sudah-saling-kenal-caisar-hito-dan-felicya-siap-menikah.txt
+Kalimat ke-1: Percintaan Caisar Hito dengan Felicya Angelista tak banyak diperlihatkan di depan layar  .
+Relasi: banyak diperlihatkan(Felicya Angelista, depan layar)
+
+Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749580-keluarga-sudah-saling-kenal-caisar-hito-dan-felicya-siap-menikah.txt
+Kalimat ke-2: Tapi pasangan muda itu ternyata sudah sering melakukan pertemuan keluarga  .
+Relasi: ternyata sering melakukan(pasangan muda itu, pertemuan keluarga)
+
+Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749580-keluarga-sudah-saling-kenal-caisar-hito-dan-felicya-siap-menikah.txt
+Kalimat ke-3: Sudah sering melakukan acara keluarga bersama - sama , Caisar Hito pun ditanya soal keseriusannya dengan Felicya  .
+Relasi: ditanya(Caisar Hito, soal keseriusannya)
+
+Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749580-keluarga-sudah-saling-kenal-caisar-hito-dan-felicya-siap-menikah.txt
+Kalimat ke-4: Benarkan Natal tahun ini , Caisar akan melamar Felicya ?
+Relasi: melamar(Caisar, Felicya)
+
+Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749580-keluarga-sudah-saling-kenal-caisar-hito-dan-felicya-siap-menikah.txt
+Kalimat ke-6: Nantilah ada waktunya, " jawab Caisar ditemui di kawasan Daan Mogot , Jakarta Barat , Kamis ( 29/11/2017 ) malam  .
+Relasi: ada(Nantilah, waktunya,)
+
+Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749580-keluarga-sudah-saling-kenal-caisar-hito-dan-felicya-siap-menikah.txt
+Kalimat ke-6: Nantilah ada waktunya, " jawab Caisar ditemui di kawasan Daan Mogot , Jakarta Barat , Kamis ( 29/11/2017 ) malam  .
+Relasi: jawab(waktunya,, Caisar)
+
+Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749580-keluarga-sudah-saling-kenal-caisar-hito-dan-felicya-siap-menikah.txt
+Kalimat ke-6: Nantilah ada waktunya, " jawab Caisar ditemui di kawasan Daan Mogot , Jakarta Barat , Kamis ( 29/11/2017 ) malam  .
+Relasi: ditemui(Caisar, kawasan Daan Mogot)
+
+Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749580-keluarga-sudah-saling-kenal-caisar-hito-dan-felicya-siap-menikah.txt
+Kalimat ke-7: Baca juga : Felicya Angelista Mau Dinikahi Caisar Hito 1 atau 2 Tahun Lagi Tapi Caisar tak menampik dirinya sering berlibur bersama dengan keluarga sang kekasih  .
+Relasi: juga(Baca, Felicya Angelista Mau Dinikahi Caisar Hito)
+
+Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749580-keluarga-sudah-saling-kenal-caisar-hito-dan-felicya-siap-menikah.txt
+Kalimat ke-7: Baca juga : Felicya Angelista Mau Dinikahi Caisar Hito 1 atau 2 Tahun Lagi Tapi Caisar tak menampik dirinya sering berlibur bersama dengan keluarga sang kekasih  .
+Relasi: Lagi(2 Tahun, Caisar)
+
+Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749580-keluarga-sudah-saling-kenal-caisar-hito-dan-felicya-siap-menikah.txt
+Kalimat ke-9: Akan tetapi , Caisar membantah liburan natalnya kali ini bersama Feli sengaja dilakukan untuk pertemuan keluaga formal  .
+Relasi: membantah(Caisar, liburan natalnya kali ini)
+
+Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749580-keluarga-sudah-saling-kenal-caisar-hito-dan-felicya-siap-menikah.txt
+Kalimat ke-9: Akan tetapi , Caisar membantah liburan natalnya kali ini bersama Feli sengaja dilakukan untuk pertemuan keluaga formal  .
+Relasi: sengaja dilakukan(Feli, pertemuan keluaga formal)
+
+Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749580-keluarga-sudah-saling-kenal-caisar-hito-dan-felicya-siap-menikah.txt
+Kalimat ke-10: Sudah pacaran selama lima tahun , menurut Caisar wajar bila kedua keluarga sudah saling kenal  .
+Relasi: menurut(lima tahun, Caisar wajar)
+
+Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749580-keluarga-sudah-saling-kenal-caisar-hito-dan-felicya-siap-menikah.txt
+Kalimat ke-12: Pertemuan keluarga itu kalau lagi ulang tahun  .
+Relasi: lagi(Pertemuan keluarga itu, ulang tahun)
+
+Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749580-keluarga-sudah-saling-kenal-caisar-hito-dan-felicya-siap-menikah.txt
+Kalimat ke-14: Pokoknya ada acara apa pasti dirayain bareng  .
+Relasi: ada(Pokoknya, acara)
+
+Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749580-keluarga-sudah-saling-kenal-caisar-hito-dan-felicya-siap-menikah.txt
+Kalimat ke-14: Pokoknya ada acara apa pasti dirayain bareng  .
+Relasi: pasti dirayain(acara, bareng)
+
+Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749580-keluarga-sudah-saling-kenal-caisar-hito-dan-felicya-siap-menikah.txt
+Kalimat ke-15: Tahun lalu saja kita Natalan bareng, " jelasnya  .
+Relasi: saja(Tahun lalu, kita)
+
+Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749580-keluarga-sudah-saling-kenal-caisar-hito-dan-felicya-siap-menikah.txt
+Kalimat ke-16: Baca juga : Felicya Angelista Juga Pernah Jadi Korban Penyiraman Air Keras " Iyalah sudah pacaran segitu lama masa tidak ingin serius  .
+Relasi: juga(Baca, Felicya Angelista)
+
+Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749580-keluarga-sudah-saling-kenal-caisar-hito-dan-felicya-siap-menikah.txt
+Kalimat ke-16: Baca juga : Felicya Angelista Juga Pernah Jadi Korban Penyiraman Air Keras " Iyalah sudah pacaran segitu lama masa tidak ingin serius  .
+Relasi: Juga(Felicya Angelista, Pernah Jadi Korban Penyiraman Air Keras)
+
+Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749580-keluarga-sudah-saling-kenal-caisar-hito-dan-felicya-siap-menikah.txt
+Kalimat ke-17: Ya pokoknya lihat saja nanti, " pungkas bintang sinema elektronik ' Anak Jalanan ' itu  .
+Relasi: lihat saja(pokoknya, nanti,)
+
+Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749580-keluarga-sudah-saling-kenal-caisar-hito-dan-felicya-siap-menikah.txt
+Kalimat ke-19: Saat ini dia dan Feli masih sama - sama fokus bekerja  .
+Relasi: sama(Saat ini dia dan Feli masih sama, fokus)
+

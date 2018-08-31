@@ -1,0 +1,12 @@
+Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749641-mantan-dan-pacar-baru-ezra-walian-cantik-plus-seksi-mana.txt
+Kalimat ke-1: Ezra Walian punya tambatan hati baru usai putus dari Julle Offenberg  .
+Relasi: punya(Ezra Walian, tambatan hati baru)
+
+Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749641-mantan-dan-pacar-baru-ezra-walian-cantik-plus-seksi-mana.txt
+Kalimat ke-2: Ia memacari dara bernama Ylon Louise  .
+Relasi: memacari(Ia, dara)
+
+Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749641-mantan-dan-pacar-baru-ezra-walian-cantik-plus-seksi-mana.txt
+Kalimat ke-3: Cantik dan seksi mana menurut kalian ?
+Relasi: menurut(Cantik dan seksi mana, kalian)
+

@@ -1,0 +1,60 @@
+Source: D:\openIE\data\preprocess\https-oto-detik-com-berita-d-3749631-parkir-di-antara-dua-garis-di-israel-bisa-dipenjara.txt
+Kalimat ke-1: Parkir tak sesuai aturan yakni berada di antara dua garis pastinya menyebalkan iya , Otolovers  .
+Relasi: yakni berada di(aturan, dua garis pastinya)
+
+Source: D:\openIE\data\preprocess\https-oto-detik-com-berita-d-3749631-parkir-di-antara-dua-garis-di-israel-bisa-dipenjara.txt
+Kalimat ke-1: Parkir tak sesuai aturan yakni berada di antara dua garis pastinya menyebalkan iya , Otolovers  .
+Relasi: menyebalkan(dua garis pastinya, iya)
+
+Source: D:\openIE\data\preprocess\https-oto-detik-com-berita-d-3749631-parkir-di-antara-dua-garis-di-israel-bisa-dipenjara.txt
+Kalimat ke-2: Di Israel bahkan sedang ada wacana untuk memenjarakan mereka yang parkir di antara dua garis itu  .
+Relasi: ada wacana untuk memenjarakan(Israel, parkir)
+
+Source: D:\openIE\data\preprocess\https-oto-detik-com-berita-d-3749631-parkir-di-antara-dua-garis-di-israel-bisa-dipenjara.txt
+Kalimat ke-3: Parkir di antara dua garis di Israel akan dianggap sebagai tindakan kriminal sama halnya seperti berkendara di bawah pengaruh alkohol atau berkendara tanpa SIM  .
+Relasi: akan dianggap sebagai(Israel, tindakan kriminal sama halnya)
+
+Source: D:\openIE\data\preprocess\https-oto-detik-com-berita-d-3749631-parkir-di-antara-dua-garis-di-israel-bisa-dipenjara.txt
+Kalimat ke-3: Parkir di antara dua garis di Israel akan dianggap sebagai tindakan kriminal sama halnya seperti berkendara di bawah pengaruh alkohol atau berkendara tanpa SIM  .
+Relasi: berkendara di(tindakan kriminal sama halnya, bawah pengaruh alkohol)
+
+Source: D:\openIE\data\preprocess\https-oto-detik-com-berita-d-3749631-parkir-di-antara-dua-garis-di-israel-bisa-dipenjara.txt
+Kalimat ke-3: Parkir di antara dua garis di Israel akan dianggap sebagai tindakan kriminal sama halnya seperti berkendara di bawah pengaruh alkohol atau berkendara tanpa SIM  .
+Relasi: berkendara(tindakan kriminal sama halnya, bawah pengaruh alkohol)
+
+Source: D:\openIE\data\preprocess\https-oto-detik-com-berita-d-3749631-parkir-di-antara-dua-garis-di-israel-bisa-dipenjara.txt
+Kalimat ke-5: " Kami tak bisa membiarkan mereka yang memarkir mobil sembarangan di antara dua garis sehingga menghalangi pengendara lain untuk memarkir kendaraannya  .
+Relasi: menghalangi pengendara lain untuk memarkir(dua garis, kendaraannya)
+
+Source: D:\openIE\data\preprocess\https-oto-detik-com-berita-d-3749631-parkir-di-antara-dua-garis-di-israel-bisa-dipenjara.txt
+Kalimat ke-6: Tetapi saat itu polisi tak bisa berperan apa - apa, " ungkap penggagas aturan ini Michael Malchieli  .
+Relasi: bisa berperan(polisi, penggagas aturan)
+
+Source: D:\openIE\data\preprocess\https-oto-detik-com-berita-d-3749631-parkir-di-antara-dua-garis-di-israel-bisa-dipenjara.txt
+Kalimat ke-6: Tetapi saat itu polisi tak bisa berperan apa - apa, " ungkap penggagas aturan ini Michael Malchieli  .
+Relasi: ungkap(polisi, penggagas aturan)
+
+Source: D:\openIE\data\preprocess\https-oto-detik-com-berita-d-3749631-parkir-di-antara-dua-garis-di-israel-bisa-dipenjara.txt
+Kalimat ke-7: " Siapa pun yang pernah mengalami ini pasti merasa kesal karena harus menunggu dua sampai tiga jam  .
+Relasi: harus menunggu(kesal, dua)
+
+Source: D:\openIE\data\preprocess\https-oto-detik-com-berita-d-3749631-parkir-di-antara-dua-garis-di-israel-bisa-dipenjara.txt
+Kalimat ke-7: " Siapa pun yang pernah mengalami ini pasti merasa kesal karena harus menunggu dua sampai tiga jam  .
+Relasi: sampai(dua, tiga jam)
+
+Source: D:\openIE\data\preprocess\https-oto-detik-com-berita-d-3749631-parkir-di-antara-dua-garis-di-israel-bisa-dipenjara.txt
+Kalimat ke-8: Mereka yang memblok parkir ini harus mengerti, " kata Michael lagi  .
+Relasi: kata(parkir, Michael)
+
+Source: D:\openIE\data\preprocess\https-oto-detik-com-berita-d-3749631-parkir-di-antara-dua-garis-di-israel-bisa-dipenjara.txt
+Kalimat ke-9: Aturan yang berlaku di Israel saat ini tak menyebutkan dengan detail apa hukuman bagi si pelanggar  .
+Relasi: berlaku di(Aturan, Israel saat)
+
+Source: D:\openIE\data\preprocess\https-oto-detik-com-berita-d-3749631-parkir-di-antara-dua-garis-di-israel-bisa-dipenjara.txt
+Kalimat ke-9: Aturan yang berlaku di Israel saat ini tak menyebutkan dengan detail apa hukuman bagi si pelanggar  .
+Relasi: menyebutkan dengan(Israel saat, detail)
+
+Source: D:\openIE\data\preprocess\https-oto-detik-com-berita-d-3749631-parkir-di-antara-dua-garis-di-israel-bisa-dipenjara.txt
+Kalimat ke-10: Namun kini pengendara yang hobi parkir tak sesuai aturan di antara dua garis akan dihukum dua tahun penjara atau denda  .
+Relasi: akan dihukum(dua garis, dua tahun penjara)
+

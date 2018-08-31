@@ -9,4 +9,4 @@
 @attribute classtarget {yes,no}
 
 @data
-NULL,no,1,no,IN,2,no
+NULL,no,1,no,IN,2,yes

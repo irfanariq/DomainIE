@@ -1,92 +1,140 @@
-Source: D:\openIE-master\data\preprocess\http-otomotif-kompas-com-read-2017-11-30-122400815-mobil-seruduk-motor-gara-gara-tak-paham-yellow-box-junction.txt
-Kalimat ke-1: Kecelakaan lalu lintas yang melibatkan sebuah mobil dan sepeda motor terjadi di simpang Lapangan Benteng-Mandiri Primbon, Medan, Rabu (29/11/2017) .
-Relasi: melibatkan(Kecelakaan lalu lintas, sebuah mobil dan sepeda motor)
+Source: D:\openIE\data\preprocess\http-otomotif-kompas-com-read-2017-11-30-122400815-mobil-seruduk-motor-gara-gara-tak-paham-yellow-box-junction.txt
+Kalimat ke-1: Kecelakaan lalu lintas yang melibatkan sebuah mobil dan sepeda motor terjadi di simpang Lapangan Benteng - Mandiri Primbon , Medan , Rabu ( 29/11/2017 )  .
+Relasi: melibatkan(Kecelakaan lalu lintas, sebuah mobil)
 
-Source: D:\openIE-master\data\preprocess\http-otomotif-kompas-com-read-2017-11-30-122400815-mobil-seruduk-motor-gara-gara-tak-paham-yellow-box-junction.txt
-Kalimat ke-2: Dalam video yang terekam oleh Area Traffic Control System (ATCS) Dinas Perhubungan Kota Medan, terlihat mobil menyeruduk motor hingga membuat pengendaranya terpental .
-Relasi: terekam(video, Area Traffic Control System (ATCS) Dinas Perhubungan Kota Medan,)
+Source: D:\openIE\data\preprocess\http-otomotif-kompas-com-read-2017-11-30-122400815-mobil-seruduk-motor-gara-gara-tak-paham-yellow-box-junction.txt
+Kalimat ke-1: Kecelakaan lalu lintas yang melibatkan sebuah mobil dan sepeda motor terjadi di simpang Lapangan Benteng - Mandiri Primbon , Medan , Rabu ( 29/11/2017 )  .
+Relasi: terjadi di(sepeda motor, simpang Lapangan Benteng)
 
-Source: D:\openIE-master\data\preprocess\http-otomotif-kompas-com-read-2017-11-30-122400815-mobil-seruduk-motor-gara-gara-tak-paham-yellow-box-junction.txt
-Kalimat ke-2: Dalam video yang terekam oleh Area Traffic Control System (ATCS) Dinas Perhubungan Kota Medan, terlihat mobil menyeruduk motor hingga membuat pengendaranya terpental .
-Relasi: terlihat(Area Traffic Control System (ATCS) Dinas Perhubungan Kota Medan,, mobil)
+Source: D:\openIE\data\preprocess\http-otomotif-kompas-com-read-2017-11-30-122400815-mobil-seruduk-motor-gara-gara-tak-paham-yellow-box-junction.txt
+Kalimat ke-2: Dalam video yang terekam oleh Area Traffic Control System ( ATCS ) Dinas Perhubungan Kota Medan , terlihat mobil menyeruduk motor hingga membuat pengendaranya terpental  .
+Relasi: terekam oleh(video, Area Traffic Control System)
 
-Source: D:\openIE-master\data\preprocess\http-otomotif-kompas-com-read-2017-11-30-122400815-mobil-seruduk-motor-gara-gara-tak-paham-yellow-box-junction.txt
-Kalimat ke-3: Dalam laporannya di Instagram, akun milik ATCS Dishub Medan menyebut tabrakan terjadi akibat ketidaktahuan pengendara mobil akan fungsi Yellow Box Junction atau YBJ .
-Relasi: milik(Instagram, akun, ATCS Dishub Medan)
+Source: D:\openIE\data\preprocess\http-otomotif-kompas-com-read-2017-11-30-122400815-mobil-seruduk-motor-gara-gara-tak-paham-yellow-box-junction.txt
+Kalimat ke-2: Dalam video yang terekam oleh Area Traffic Control System ( ATCS ) Dinas Perhubungan Kota Medan , terlihat mobil menyeruduk motor hingga membuat pengendaranya terpental  .
+Relasi: terlihat(Dinas Perhubungan Kota Medan, mobil)
 
-Source: D:\openIE-master\data\preprocess\http-otomotif-kompas-com-read-2017-11-30-122400815-mobil-seruduk-motor-gara-gara-tak-paham-yellow-box-junction.txt
-Kalimat ke-4: Sebab mobil tersebut sudah bergerak maju ke depan saat kepadatan kendaraan dari arah lainnya belum sepenuhnya terurai .
-Relasi: bergerak maju(Sebab mobil tersebut, depan saat kepadatan kendaraan)
+Source: D:\openIE\data\preprocess\http-otomotif-kompas-com-read-2017-11-30-122400815-mobil-seruduk-motor-gara-gara-tak-paham-yellow-box-junction.txt
+Kalimat ke-2: Dalam video yang terekam oleh Area Traffic Control System ( ATCS ) Dinas Perhubungan Kota Medan , terlihat mobil menyeruduk motor hingga membuat pengendaranya terpental  .
+Relasi: menyeruduk(mobil, motor)
 
-Source: D:\openIE-master\data\preprocess\http-otomotif-kompas-com-read-2017-11-30-122400815-mobil-seruduk-motor-gara-gara-tak-paham-yellow-box-junction.txt
-Kalimat ke-5: Persimpangan yang menjadi lokasi tabrakan sebenarnya sudah dilengkapi YBJ .
+Source: D:\openIE\data\preprocess\http-otomotif-kompas-com-read-2017-11-30-122400815-mobil-seruduk-motor-gara-gara-tak-paham-yellow-box-junction.txt
+Kalimat ke-2: Dalam video yang terekam oleh Area Traffic Control System ( ATCS ) Dinas Perhubungan Kota Medan , terlihat mobil menyeruduk motor hingga membuat pengendaranya terpental  .
+Relasi: membuat(motor, pengendaranya)
+
+Source: D:\openIE\data\preprocess\http-otomotif-kompas-com-read-2017-11-30-122400815-mobil-seruduk-motor-gara-gara-tak-paham-yellow-box-junction.txt
+Kalimat ke-3: Dalam laporannya di Instagram , akun milik ATCS Dishub Medan menyebut tabrakan terjadi akibat ketidaktahuan pengendara mobil akan fungsi Yellow Bonya Junction atau YBJ  .
+Relasi: milik(akun, ATCS Dishub Medan)
+
+Source: D:\openIE\data\preprocess\http-otomotif-kompas-com-read-2017-11-30-122400815-mobil-seruduk-motor-gara-gara-tak-paham-yellow-box-junction.txt
+Kalimat ke-3: Dalam laporannya di Instagram , akun milik ATCS Dishub Medan menyebut tabrakan terjadi akibat ketidaktahuan pengendara mobil akan fungsi Yellow Bonya Junction atau YBJ  .
+Relasi: menyebut(ATCS Dishub Medan, tabrakan)
+
+Source: D:\openIE\data\preprocess\http-otomotif-kompas-com-read-2017-11-30-122400815-mobil-seruduk-motor-gara-gara-tak-paham-yellow-box-junction.txt
+Kalimat ke-3: Dalam laporannya di Instagram , akun milik ATCS Dishub Medan menyebut tabrakan terjadi akibat ketidaktahuan pengendara mobil akan fungsi Yellow Bonya Junction atau YBJ  .
+Relasi: terjadi(tabrakan, akibat ketidaktahuan pengendara mobil)
+
+Source: D:\openIE\data\preprocess\http-otomotif-kompas-com-read-2017-11-30-122400815-mobil-seruduk-motor-gara-gara-tak-paham-yellow-box-junction.txt
+Kalimat ke-4: Sebab mobil tersebut sudah bergerak maju ke depan saat kepadatan kendaraan dari arah lainnya belum sepenuhnya terurai  .
+Relasi: sudah bergerak maju ke(Sebab mobil, depan saat kepadatan kendaraan)
+
+Source: D:\openIE\data\preprocess\http-otomotif-kompas-com-read-2017-11-30-122400815-mobil-seruduk-motor-gara-gara-tak-paham-yellow-box-junction.txt
+Kalimat ke-5: Persimpangan yang menjadi lokasi tabrakan sebenarnya sudah dilengkapi YBJ  .
 Relasi: menjadi(Persimpangan, lokasi tabrakan)
 
-Source: D:\openIE-master\data\preprocess\http-otomotif-kompas-com-read-2017-11-30-122400815-mobil-seruduk-motor-gara-gara-tak-paham-yellow-box-junction.txt
-Kalimat ke-6: Saat kejadian, mobil datang dari arah "pukul 6", sedangkan motor dari arah "pukul 3" .
-Relasi: datang(Saat kejadian, mobil, arah "pukul 6", sedangkan motor)
+Source: D:\openIE\data\preprocess\http-otomotif-kompas-com-read-2017-11-30-122400815-mobil-seruduk-motor-gara-gara-tak-paham-yellow-box-junction.txt
+Kalimat ke-5: Persimpangan yang menjadi lokasi tabrakan sebenarnya sudah dilengkapi YBJ  .
+Relasi: sudah dilengkapi(lokasi tabrakan, YBJ)
 
-Source: D:\openIE-master\data\preprocess\http-otomotif-kompas-com-read-2017-11-30-122400815-mobil-seruduk-motor-gara-gara-tak-paham-yellow-box-junction.txt
-Kalimat ke-7: Baca juga : Hari Gini Masih Belum Kenal Yellow Box Junction ?
-Relasi: juga(Baca, Hari Gini)
+Source: D:\openIE\data\preprocess\http-otomotif-kompas-com-read-2017-11-30-122400815-mobil-seruduk-motor-gara-gara-tak-paham-yellow-box-junction.txt
+Kalimat ke-6: Saat kejadian , mobil datang dari arah " pukul 6" , sedangkan motor dari arah " pukul 3 "  .
+Relasi: datang dari(mobil, arah)
 
-Source: D:\openIE-master\data\preprocess\http-otomotif-kompas-com-read-2017-11-30-122400815-mobil-seruduk-motor-gara-gara-tak-paham-yellow-box-junction.txt
-Kalimat ke-7: Baca juga : Hari Gini Masih Belum Kenal Yellow Box Junction ?
-Relasi: Masih(Hari Gini, Kenal Yellow Box Junction)
+Source: D:\openIE\data\preprocess\http-otomotif-kompas-com-read-2017-11-30-122400815-mobil-seruduk-motor-gara-gara-tak-paham-yellow-box-junction.txt
+Kalimat ke-8: https://w.instagram.com/p/BcELOYRA8HF / Arus lalu lintas dari arah " pukul 3 " mendapat giliran lampu hijau lebih dulu , namun terjadi kepadatan hingga arus tersendat  .
+Relasi: mendapat(pukul 3, giliran lampu)
 
-Source: D:\openIE-master\data\preprocess\http-otomotif-kompas-com-read-2017-11-30-122400815-mobil-seruduk-motor-gara-gara-tak-paham-yellow-box-junction.txt
-Kalimat ke-8: https://www.instagram.com/p/BcELOYRA8HF/ Arus lalu lintas dari arah "pukul 3" mendapat giliran lampu hijau lebih dulu, namun terjadi kepadatan hingga arus tersendat .
-Relasi: mendapat(arah "pukul 3", giliran lampu hijau)
+Source: D:\openIE\data\preprocess\http-otomotif-kompas-com-read-2017-11-30-122400815-mobil-seruduk-motor-gara-gara-tak-paham-yellow-box-junction.txt
+Kalimat ke-8: https://w.instagram.com/p/BcELOYRA8HF / Arus lalu lintas dari arah " pukul 3 " mendapat giliran lampu hijau lebih dulu , namun terjadi kepadatan hingga arus tersendat  .
+Relasi: terjadi(giliran lampu, kepadatan)
 
-Source: D:\openIE-master\data\preprocess\http-otomotif-kompas-com-read-2017-11-30-122400815-mobil-seruduk-motor-gara-gara-tak-paham-yellow-box-junction.txt
-Kalimat ke-9: Persimpangan dengan YBJ itu belum sepenuhnya steril dari kendaraan arah "pukul 3", dan arah "jalur 6" sudah mendapat giliran lampu hijau .
-Relasi: sepenuhnya steril(YBJ itu, kendaraan arah "pukul 3", dan arah "jalur)
+Source: D:\openIE\data\preprocess\http-otomotif-kompas-com-read-2017-11-30-122400815-mobil-seruduk-motor-gara-gara-tak-paham-yellow-box-junction.txt
+Kalimat ke-9: Persimpangan dengan YBJ itu belum sepenuhnya steril dari kendaraan arah " pukul 3" , dan arah " jalur 6 " sudah mendapat giliran lampu hijau  .
+Relasi: sudah mendapat(jalur 6, giliran lampu)
 
-Source: D:\openIE-master\data\preprocess\http-otomotif-kompas-com-read-2017-11-30-122400815-mobil-seruduk-motor-gara-gara-tak-paham-yellow-box-junction.txt
-Kalimat ke-9: Persimpangan dengan YBJ itu belum sepenuhnya steril dari kendaraan arah "pukul 3", dan arah "jalur 6" sudah mendapat giliran lampu hijau .
-Relasi: mendapat(kendaraan arah "pukul 3", dan arah "jalur, giliran lampu hijau)
+Source: D:\openIE\data\preprocess\http-otomotif-kompas-com-read-2017-11-30-122400815-mobil-seruduk-motor-gara-gara-tak-paham-yellow-box-junction.txt
+Kalimat ke-11: Jika mematuhi fungsi YBJ , kendaraan dari arah " pukul 6 " seharusnya belum boleh maju , meskipun sudah mendapat lampu hijau  .
+Relasi: boleh maju(pukul 6, lampu)
 
-Source: D:\openIE-master\data\preprocess\http-otomotif-kompas-com-read-2017-11-30-122400815-mobil-seruduk-motor-gara-gara-tak-paham-yellow-box-junction.txt
-Kalimat ke-12: Hal inilah yang tidak dilakukan pengendara mobil .
-Relasi: tidak dilakukan(Hal inilah, pengendara mobil)
+Source: D:\openIE\data\preprocess\http-otomotif-kompas-com-read-2017-11-30-122400815-mobil-seruduk-motor-gara-gara-tak-paham-yellow-box-junction.txt
+Kalimat ke-11: Jika mematuhi fungsi YBJ , kendaraan dari arah " pukul 6 " seharusnya belum boleh maju , meskipun sudah mendapat lampu hijau  .
+Relasi: sudah mendapat(pukul 6, lampu)
 
-Source: D:\openIE-master\data\preprocess\http-otomotif-kompas-com-read-2017-11-30-122400815-mobil-seruduk-motor-gara-gara-tak-paham-yellow-box-junction.txt
-Kalimat ke-13: YBJ sendiri berfungsi mencegah terjadinya pertemuan kepadatan kendaraan dari dua arah, yang bisa membuat tersendatnya arus lalu lintas .
-Relasi: sendiri berfungsi mencegah(YBJ, terjadinya pertemuan kepadatan kendaraan)
+Source: D:\openIE\data\preprocess\http-otomotif-kompas-com-read-2017-11-30-122400815-mobil-seruduk-motor-gara-gara-tak-paham-yellow-box-junction.txt
+Kalimat ke-12: Hal inilah yang tidak dilakukan pengendara mobil  .
+Relasi: dilakukan(Hal, pengendara mobil)
 
-Source: D:\openIE-master\data\preprocess\http-otomotif-kompas-com-read-2017-11-30-122400815-mobil-seruduk-motor-gara-gara-tak-paham-yellow-box-junction.txt
-Kalimat ke-13: YBJ sendiri berfungsi mencegah terjadinya pertemuan kepadatan kendaraan dari dua arah, yang bisa membuat tersendatnya arus lalu lintas .
-Relasi: membuat(dua arah,, arus lalu lintas)
+Source: D:\openIE\data\preprocess\http-otomotif-kompas-com-read-2017-11-30-122400815-mobil-seruduk-motor-gara-gara-tak-paham-yellow-box-junction.txt
+Kalimat ke-13: YBJ sendiri berfungsi mencegah terjadinya pertemuan kepadatan kendaraan dari dua arah , yang bisa membuat tersendatnya arus lalu lintas  .
+Relasi: berfungsi mencegah terjadinya pertemuan kepadatan kendaraan dari(YBJ, dua arah)
 
-Source: D:\openIE-master\data\preprocess\http-otomotif-kompas-com-read-2017-11-30-122400815-mobil-seruduk-motor-gara-gara-tak-paham-yellow-box-junction.txt
-Kalimat ke-14: Baca juga : Sosialisasi Yellow Box Junction Masih Kurang Terlepas dari hal tersebut, sebelum tabrakan terjadi, mobil juga tampak lebih dulu bergerak maju ke depan saat lampu hijau belum menyala .
-Relasi: juga(Baca, Sosialisasi Yellow Box Junction)
+Source: D:\openIE\data\preprocess\http-otomotif-kompas-com-read-2017-11-30-122400815-mobil-seruduk-motor-gara-gara-tak-paham-yellow-box-junction.txt
+Kalimat ke-13: YBJ sendiri berfungsi mencegah terjadinya pertemuan kepadatan kendaraan dari dua arah , yang bisa membuat tersendatnya arus lalu lintas  .
+Relasi: bisa membuat tersendatnya(dua arah, arus lalu lintas)
 
-Source: D:\openIE-master\data\preprocess\http-otomotif-kompas-com-read-2017-11-30-122400815-mobil-seruduk-motor-gara-gara-tak-paham-yellow-box-junction.txt
-Kalimat ke-14: Baca juga : Sosialisasi Yellow Box Junction Masih Kurang Terlepas dari hal tersebut, sebelum tabrakan terjadi, mobil juga tampak lebih dulu bergerak maju ke depan saat lampu hijau belum menyala .
-Relasi: Masih Kurang Terlepas(Sosialisasi Yellow Box Junction, hal tersebut,)
+Source: D:\openIE\data\preprocess\http-otomotif-kompas-com-read-2017-11-30-122400815-mobil-seruduk-motor-gara-gara-tak-paham-yellow-box-junction.txt
+Kalimat ke-14: Baca juga : Sosialisasi Yellow Bonya Junction Masih Kurang Terlepas dari hal tersebut , sebelum tabrakan terjadi , mobil juga tampak lebih dulu bergerak maju ke depan saat lampu hijau belum menyala  .
+Relasi: Terlepas dari(Sosialisasi Yellow Bonya Junction, hal)
 
-Source: D:\openIE-master\data\preprocess\http-otomotif-kompas-com-read-2017-11-30-122400815-mobil-seruduk-motor-gara-gara-tak-paham-yellow-box-junction.txt
-Kalimat ke-15: Kondisi ini yang membuat posisi mobil terlalu dekat dengan persimpangan, saat posisi kendaraan lain dari arah yang sama masih berada di belakang garis zebra cross .
-Relasi: membuat(Kondisi ini, posisi mobil terlalu dekat)
+Source: D:\openIE\data\preprocess\http-otomotif-kompas-com-read-2017-11-30-122400815-mobil-seruduk-motor-gara-gara-tak-paham-yellow-box-junction.txt
+Kalimat ke-14: Baca juga : Sosialisasi Yellow Bonya Junction Masih Kurang Terlepas dari hal tersebut , sebelum tabrakan terjadi , mobil juga tampak lebih dulu bergerak maju ke depan saat lampu hijau belum menyala  .
+Relasi: terjadi(tabrakan, mobil)
 
-Source: D:\openIE-master\data\preprocess\http-otomotif-kompas-com-read-2017-11-30-122400815-mobil-seruduk-motor-gara-gara-tak-paham-yellow-box-junction.txt
-Kalimat ke-17: YBJ adalah marka jalan yang mulai digunakan di Indonesia sejak 2010 .
+Source: D:\openIE\data\preprocess\http-otomotif-kompas-com-read-2017-11-30-122400815-mobil-seruduk-motor-gara-gara-tak-paham-yellow-box-junction.txt
+Kalimat ke-14: Baca juga : Sosialisasi Yellow Bonya Junction Masih Kurang Terlepas dari hal tersebut , sebelum tabrakan terjadi , mobil juga tampak lebih dulu bergerak maju ke depan saat lampu hijau belum menyala  .
+Relasi: tampak(mobil, depan saat lampu)
+
+Source: D:\openIE\data\preprocess\http-otomotif-kompas-com-read-2017-11-30-122400815-mobil-seruduk-motor-gara-gara-tak-paham-yellow-box-junction.txt
+Kalimat ke-14: Baca juga : Sosialisasi Yellow Bonya Junction Masih Kurang Terlepas dari hal tersebut , sebelum tabrakan terjadi , mobil juga tampak lebih dulu bergerak maju ke depan saat lampu hijau belum menyala  .
+Relasi: bergerak maju ke(mobil, depan saat lampu)
+
+Source: D:\openIE\data\preprocess\http-otomotif-kompas-com-read-2017-11-30-122400815-mobil-seruduk-motor-gara-gara-tak-paham-yellow-box-junction.txt
+Kalimat ke-15: Kondisi ini yang membuat posisi mobil terlalu dekat dengan persimpangan , saat posisi kendaraan lain dari arah yang sama masih berada di belakang garis zebra cross  .
+Relasi: membuat posisi mobil terlalu dekat dengan(Kondisi, persimpangan)
+
+Source: D:\openIE\data\preprocess\http-otomotif-kompas-com-read-2017-11-30-122400815-mobil-seruduk-motor-gara-gara-tak-paham-yellow-box-junction.txt
+Kalimat ke-15: Kondisi ini yang membuat posisi mobil terlalu dekat dengan persimpangan , saat posisi kendaraan lain dari arah yang sama masih berada di belakang garis zebra cross  .
+Relasi: berada di(arah, belakang garis zebra cross)
+
+Source: D:\openIE\data\preprocess\http-otomotif-kompas-com-read-2017-11-30-122400815-mobil-seruduk-motor-gara-gara-tak-paham-yellow-box-junction.txt
+Kalimat ke-17: YBJ adalah marka jalan yang mulai digunakan di Indonesia sejak 2010  .
 Relasi: adalah(YBJ, marka jalan)
 
-Source: D:\openIE-master\data\preprocess\http-otomotif-kompas-com-read-2017-11-30-122400815-mobil-seruduk-motor-gara-gara-tak-paham-yellow-box-junction.txt
-Kalimat ke-18: YBJ berfungsi untuk mencegah agar arus lalu lintas di persimpangan tidak terkunci saat kepadatan terjadi .
-Relasi: berfungsi mencegah(YBJ, arus lalu lintas)
+Source: D:\openIE\data\preprocess\http-otomotif-kompas-com-read-2017-11-30-122400815-mobil-seruduk-motor-gara-gara-tak-paham-yellow-box-junction.txt
+Kalimat ke-17: YBJ adalah marka jalan yang mulai digunakan di Indonesia sejak 2010  .
+Relasi: mulai digunakan di(marka jalan, Indonesia)
 
-Source: D:\openIE-master\data\preprocess\http-otomotif-kompas-com-read-2017-11-30-122400815-mobil-seruduk-motor-gara-gara-tak-paham-yellow-box-junction.txt
-Kalimat ke-18: YBJ berfungsi untuk mencegah agar arus lalu lintas di persimpangan tidak terkunci saat kepadatan terjadi .
-Relasi: tidak terkunci(persimpangan, saat kepadatan)
+Source: D:\openIE\data\preprocess\http-otomotif-kompas-com-read-2017-11-30-122400815-mobil-seruduk-motor-gara-gara-tak-paham-yellow-box-junction.txt
+Kalimat ke-18: YBJ berfungsi untuk mencegah agar arus lalu lintas di persimpangan tidak terkunci saat kepadatan terjadi  .
+Relasi: berfungsi untuk mencegah agar(YBJ, arus lalu lintas)
 
-Source: D:\openIE-master\data\preprocess\http-otomotif-kompas-com-read-2017-11-30-122400815-mobil-seruduk-motor-gara-gara-tak-paham-yellow-box-junction.txt
-Kalimat ke-19: Dalam penggunaannya, pengemudi dari suatu arah tidak boleh maju ke depan selama masih ada kendaraan dari arah lain di dalam YBJ .
-Relasi: maju(arah, depan)
+Source: D:\openIE\data\preprocess\http-otomotif-kompas-com-read-2017-11-30-122400815-mobil-seruduk-motor-gara-gara-tak-paham-yellow-box-junction.txt
+Kalimat ke-18: YBJ berfungsi untuk mencegah agar arus lalu lintas di persimpangan tidak terkunci saat kepadatan terjadi  .
+Relasi: terkunci(persimpangan, saat kepadatan)
 
-Source: D:\openIE-master\data\preprocess\http-otomotif-kompas-com-read-2017-11-30-122400815-mobil-seruduk-motor-gara-gara-tak-paham-yellow-box-junction.txt
-Kalimat ke-20: Meskipun arah dari pengemudi tersebut sudah mendapat lampu hijau.Mereka baru bisa melanjutkan perjalanan jikaYBJ telah kosong .
-Relasi: mendapat(pengemudi tersebut, lampu hijau.Mereka baru)
+Source: D:\openIE\data\preprocess\http-otomotif-kompas-com-read-2017-11-30-122400815-mobil-seruduk-motor-gara-gara-tak-paham-yellow-box-junction.txt
+Kalimat ke-19: Dalam penggunaannya , pengemudi dari suatu arah tidak boleh maju ke depan selama masih ada kendaraan dari arah lain di dalam YBJ  .
+Relasi: boleh maju ke(arah, depan)
+
+Source: D:\openIE\data\preprocess\http-otomotif-kompas-com-read-2017-11-30-122400815-mobil-seruduk-motor-gara-gara-tak-paham-yellow-box-junction.txt
+Kalimat ke-19: Dalam penggunaannya , pengemudi dari suatu arah tidak boleh maju ke depan selama masih ada kendaraan dari arah lain di dalam YBJ  .
+Relasi: ada kendaraan dari(depan, YBJ)
+
+Source: D:\openIE\data\preprocess\http-otomotif-kompas-com-read-2017-11-30-122400815-mobil-seruduk-motor-gara-gara-tak-paham-yellow-box-junction.txt
+Kalimat ke-20: Meskipun arah dari pengemudi tersebut sudah mendapat lampu hijau.Mereka baru bisa melanjutkan perjalanan jikaYBJ telah kosong  .
+Relasi: sudah mendapat(pengemudi, lampu)
+
+Source: D:\openIE\data\preprocess\http-otomotif-kompas-com-read-2017-11-30-122400815-mobil-seruduk-motor-gara-gara-tak-paham-yellow-box-junction.txt
+Kalimat ke-20: Meskipun arah dari pengemudi tersebut sudah mendapat lampu hijau.Mereka baru bisa melanjutkan perjalanan jikaYBJ telah kosong  .
+Relasi: bisa melanjutkan(lampu, perjalanan)
 

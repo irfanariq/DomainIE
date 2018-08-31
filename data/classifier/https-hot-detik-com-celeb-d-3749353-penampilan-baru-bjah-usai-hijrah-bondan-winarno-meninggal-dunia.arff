@@ -11,4 +11,4 @@
 @data
 NULL,no,1,yes,NULL,2,yes
 SC,no,1,no,NULL,1,yes
-NULL,no,0,no,VBI,1,no
+NULL,no,0,no,VBI,1,yes

@@ -10,11 +10,11 @@
 
 @data
 IN,no,0,no,NULL,1,yes
-IN,no,0,no,IN,1,no
+IN,no,0,no,IN,1,yes
 VBI,no,1,no,NULL,2,no
-NULL,no,0,no,JJ,1,no
+NULL,no,0,no,JJ,1,yes
 MD,no,1,no,IN,1,yes
-PRP,no,0,no,MD,1,yes
+PRP,no,0,no,MD,1,no
 NULL,no,1,no,IN,1,yes
 NULL,no,0,no,NULL,1,yes
 IN,no,1,no,NULL,1,yes
@@ -23,7 +23,7 @@ IN,no,0,yes,NULL,1,yes
 NULL,no,0,yes,NULL,1,yes
 NULL,no,1,no,VBT,1,no
 IN,no,1,no,NULL,2,yes
-VBI,no,0,no,IN,1,yes
+VBI,no,0,no,IN,1,no
 NULL,no,0,no,VBT,1,no
 NULL,no,0,no,NULL,2,yes
 SC,no,1,no,NULL,1,yes
@@ -31,8 +31,8 @@ VBT,no,1,no,IN,2,yes
 NULL,no,0,no,VBT,1,no
 IN,no,1,no,NULL,1,yes
 SC,no,0,no,NULL,1,yes
-PRP,no,1,no,VBT,1,no
-VBT,no,1,no,NULL,2,no
+PRP,no,1,no,VBT,1,yes
+VBT,no,1,no,NULL,2,yes
 IN,no,1,no,VBT,1,no
 NULL,no,0,yes,NULL,1,yes
 NULL,no,0,no,VBT,1,no

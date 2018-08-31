@@ -11,4 +11,4 @@
 @data
 NULL,no,0,yes,NULL,1,yes
 NULL,no,2,yes,IN,3,yes
-NULL,no,1,no,NULL,1,no
+NULL,no,1,no,NULL,1,yes

@@ -1,0 +1,4 @@
+Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3518956-adu-seksi-wags-di-final-liga-champions.txt
+Kalimat ke-1: Euforia menyambut final Liga Champions , Juventus vs Real Madrid di Cardiff kurang seru tanpa bahas WAGs kedua tim yang seksi  .
+Relasi: menyambut(Euforia, final Liga Champions)
+

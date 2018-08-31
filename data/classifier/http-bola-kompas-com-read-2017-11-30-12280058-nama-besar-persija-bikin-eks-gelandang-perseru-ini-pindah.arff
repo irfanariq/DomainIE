@@ -10,7 +10,7 @@
 
 @data
 IN,no,0,no,NULL,2,yes
-IN,no,2,no,NULL,3,yes
+IN,no,2,no,NULL,3,no
 NULL,no,0,no,NULL,1,yes
 NULL,no,0,no,NULL,1,yes
 IN,no,2,no,NULL,2,yes
@@ -19,6 +19,6 @@ SC,no,0,no,JJ,1,yes
 NULL,no,0,no,NULL,1,yes
 NULL,no,2,no,NULL,2,yes
 CC,yes,1,no,NULL,2,yes
-NULL,no,1,no,SC,2,no
+NULL,no,1,no,SC,2,yes
 VBI,no,1,no,VBT,1,no
 NULL,no,0,no,VBT,1,no

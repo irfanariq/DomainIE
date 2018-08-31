@@ -9,7 +9,7 @@
 @attribute classtarget {yes,no}
 
 @data
-NULL,no,1,no,SC,1,no
+NULL,no,1,no,SC,1,yes
 VBT,yes,1,no,NULL,1,yes
 IN,no,0,no,NULL,1,yes
 RP,no,1,no,NULL,3,no
@@ -53,8 +53,8 @@ NULL,no,1,yes,NULL,1,yes
 NULL,no,1,yes,NULL,1,yes
 NULL,no,1,yes,NULL,1,yes
 NULL,no,1,yes,NULL,1,yes
-IN,no,1,yes,NULL,1,no
-IN,no,1,yes,NULL,1,no
-IN,no,1,yes,NULL,1,no
-IN,no,1,yes,NULL,1,no
-IN,no,1,yes,NULL,1,no
+IN,no,1,yes,NULL,1,yes
+IN,no,1,yes,NULL,1,yes
+IN,no,1,yes,NULL,1,yes
+IN,no,1,yes,NULL,1,yes
+IN,no,1,yes,NULL,1,yes

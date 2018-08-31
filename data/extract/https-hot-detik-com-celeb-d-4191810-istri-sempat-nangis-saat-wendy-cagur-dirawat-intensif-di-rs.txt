@@ -1,0 +1,52 @@
+Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-4191810-istri-sempat-nangis-saat-wendy-cagur-dirawat-intensif-di-rs.txt
+Kalimat ke-1: Wendy 'Cagur' sempat dirawat di rumah sakit selama kurang lebih seminggu .
+Relasi: sempat dirawat(Wendy 'Cagur', rumah sakit)
+
+Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-4191810-istri-sempat-nangis-saat-wendy-cagur-dirawat-intensif-di-rs.txt
+Kalimat ke-2: Saat itu, sang istri Ayu Natasya menangis saat menyusul suaminya di sana .
+Relasi: menangis menyusul(istri Ayu Natasya, suaminya)
+
+Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-4191810-istri-sempat-nangis-saat-wendy-cagur-dirawat-intensif-di-rs.txt
+Kalimat ke-3: "Istri nangis pas waktu terpaksa nyusul gue ke rumah sakit daerah Puri Indah sendiri .
+Relasi: terpaksa("Istri nangis pas waktu, nyusul gue)
+
+Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-4191810-istri-sempat-nangis-saat-wendy-cagur-dirawat-intensif-di-rs.txt
+Kalimat ke-6: Baca juga: Sejak Masuk UGD, Wendy 'Cagur' Makin Diproteksi Istri dan Anak Tak hanya sang istri, salah satu anak Wendy 'Cagur' juga sempat ingin menangis .
+Relasi: juga: Masuk(Baca, UGD, Wendy 'Cagur')
+
+Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-4191810-istri-sempat-nangis-saat-wendy-cagur-dirawat-intensif-di-rs.txt
+Kalimat ke-6: Baca juga: Sejak Masuk UGD, Wendy 'Cagur' Makin Diproteksi Istri dan Anak Tak hanya sang istri, salah satu anak Wendy 'Cagur' juga sempat ingin menangis .
+Relasi: hanya(Diproteksi Istri dan Anak, istri, salah)
+
+Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-4191810-istri-sempat-nangis-saat-wendy-cagur-dirawat-intensif-di-rs.txt
+Kalimat ke-7: Namun, sang anak malu untuk mengungkapkan kalau dirinya sedih melihat ayahnya sakit .
+Relasi: mengungkapkan(anak malu, dirinya sedih)
+
+Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-4191810-istri-sempat-nangis-saat-wendy-cagur-dirawat-intensif-di-rs.txt
+Kalimat ke-7: Namun, sang anak malu untuk mengungkapkan kalau dirinya sedih melihat ayahnya sakit .
+Relasi: melihat(dirinya sedih, ayahnya sakit)
+
+Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-4191810-istri-sempat-nangis-saat-wendy-cagur-dirawat-intensif-di-rs.txt
+Kalimat ke-9: Tapi dia nggak berani ngomong ke gue, dia malu untuk ngungkapin ke gue tapi ya gue bersyukurlah, anak-anak gue, istri gue mereka sangat khawatir," pungkas Wendy 'Cagur' .
+Relasi: gue bersyukurlah(gue, anak-anak gue, istri gue mereka sangat khawatir,")
+
+Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-4191810-istri-sempat-nangis-saat-wendy-cagur-dirawat-intensif-di-rs.txt
+Kalimat ke-10: Wendy sempat sakit kepala hebat sampai harus dilarikan ke rumah sakit untuk mendapat perawatan .
+Relasi: sampai dilarikan(kepala hebat, rumah sakit)
+
+Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-4191810-istri-sempat-nangis-saat-wendy-cagur-dirawat-intensif-di-rs.txt
+Kalimat ke-10: Wendy sempat sakit kepala hebat sampai harus dilarikan ke rumah sakit untuk mendapat perawatan .
+Relasi: mendapat(rumah sakit, perawatan)
+
+Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-4191810-istri-sempat-nangis-saat-wendy-cagur-dirawat-intensif-di-rs.txt
+Kalimat ke-11: Tonton juga 'Enggan Sakit Lagi, Wendy 'Cagur' Terapkan Pola Hidup Sehat': [Gambas:Video 20detik] (hnh/kmb) wendy cagur Photo Gallery 1 celeb TRANS TV Gandeng Sejumlah Selebriti untuk Sambut Ramadan celeb TRANS TV Gandeng Sejumlah Selebriti untuk Sambut Ramadan celeb TRANS TV Gandeng Sejumlah Selebriti untuk Sambut Ramadan celeb TRANS TV Gandeng Sejumlah Selebriti untuk Sambut Ramadan celeb TRANS TV Gandeng Sejumlah Selebriti untuk Sambut Ramadan celeb TRANS TV Gandeng Sejumlah Selebriti untuk Sambut Ramadan 1 photo OVJ is Back!
+Relasi: juga(Tonton, 'Enggan Sakit)
+
+Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-4191810-istri-sempat-nangis-saat-wendy-cagur-dirawat-intensif-di-rs.txt
+Kalimat ke-11: Tonton juga 'Enggan Sakit Lagi, Wendy 'Cagur' Terapkan Pola Hidup Sehat': [Gambas:Video 20detik] (hnh/kmb) wendy cagur Photo Gallery 1 celeb TRANS TV Gandeng Sejumlah Selebriti untuk Sambut Ramadan celeb TRANS TV Gandeng Sejumlah Selebriti untuk Sambut Ramadan celeb TRANS TV Gandeng Sejumlah Selebriti untuk Sambut Ramadan celeb TRANS TV Gandeng Sejumlah Selebriti untuk Sambut Ramadan celeb TRANS TV Gandeng Sejumlah Selebriti untuk Sambut Ramadan celeb TRANS TV Gandeng Sejumlah Selebriti untuk Sambut Ramadan 1 photo OVJ is Back!
+Relasi: Lagi('Enggan Sakit, Wendy 'Cagur' Terapkan Pola Hidup Sehat': [Gambas:Video 20detik])
+
+Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-4191810-istri-sempat-nangis-saat-wendy-cagur-dirawat-intensif-di-rs.txt
+Kalimat ke-23: Pipi Anak Wendy 'Cagur' Merah Merona 3 photo Wendy 'Cagur' Nge-gowes Terus photo Wendy 'Cagur' Nge-gowes Terus photo Wendy 'Cagur' Nge-gowes Terus photo Wendy 'Cagur' Nge-gowes Terus photo Wendy 'Cagur' Nge-gowes Terus photo Wendy 'Cagur' Nge-gowes Terus 4 photo Anak Wendy 'Cagur' Cute Banget!
+Relasi: Terus(photo Wendy 'Cagur' Nge-gowes, 4 photo Anak Wendy 'Cagur' Cute Banget!)
+

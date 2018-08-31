@@ -13,4 +13,4 @@ VBI,no,1,no,NULL,1,yes
 NULL,no,1,no,VBT,2,no
 VBI,no,0,no,NULL,1,yes
 NULL,no,0,no,VBT,1,no
-NULL,no,1,no,NULL,1,no
+NULL,no,1,no,NULL,1,yes
