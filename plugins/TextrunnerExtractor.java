@@ -13,10 +13,6 @@ import weka.core.Instance;
 import java.util.ArrayList;
 import java.util.Enumeration;
 
-
-/**
- * Created by elvanowen on 2/24/17.
- */
 public class TextrunnerExtractor extends Plugin {
 
     public TextrunnerExtractor(PluginWrapper wrapper) {

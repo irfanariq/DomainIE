@@ -43,17 +43,17 @@ public class J48Classifier extends Plugin {
         }
 
         @Override
-        public Instances classify(Instances dataset, Instances datatraining) throws Exception{
-            dataset.setClassIndex(dataset.numAttributes() - 1);
+        public Instances classify(Instances datatest, Instances datatraining) throws Exception{
+            datatest.setClassIndex(datatest.numAttributes() - 1);
             datatraining.setClassIndex(datatraining.numAttributes() - 1);
             J48 j48=new J48();
             j48.buildClassifier(datatraining);
-            Enumeration<Instance> enumIns = dataset.enumerateInstances();
+            Enumeration<Instance> enumIns = datatest.enumerateInstances();
             while(enumIns.hasMoreElements()){
                 Instance ins = (Instance) enumIns.nextElement();
                 ins.setValue(ins.classIndex(),j48.classifyInstance(ins));
             }
-            return dataset;
+            return datatest;
 
         }
     }

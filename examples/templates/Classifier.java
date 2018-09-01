@@ -1,6 +1,6 @@
 package classes;
 
-import id.ac.itb.openie.extractor.IClassifierExtensionHandler;
+import id.ac.itb.openie.classifier.IClassifierExtensionHandler;
 import id.ac.itb.openie.relation.Relations;
 import ro.fortsoft.pf4j.Extension;
 import ro.fortsoft.pf4j.Plugin;
@@ -9,6 +9,7 @@ import ro.fortsoft.pf4j.PluginWrapper;
 import java.io.File;
 import java.util.HashMap;
 import java.util.ArrayList;
+import weka.core.Instances;
 
 
 public class Classifier extends Plugin {
@@ -30,28 +31,18 @@ public class Classifier extends Plugin {
 
         @Override
         public HashMap<String, String> getAvailableConfigurations() {
-            return availableConfigurations;
+            return availableConfigurations;//use this in other function to get configuration that may be changed by user
         }
 
         @Override
         public void setAvailableConfigurations(String key, String value) {
-            availableConfigurations.put(key, value);
+            availableConfigurations.put(key, value);//use this in other function to add configuration that user will be able to configure
         }
 
         @Override
-        public ArrayList<String> classify(File file, String document, ArrayList<String> instances) throws Exception{
-            /* TODO: Extract relations from document */
+        public Instances classify(Instances datatest, Instances datatraining) throws Exception{
+            /* TODO: add target class value in datatest using model trained from datatraining and return the datatest  */
             return ;
         }
-
-        public void classifierWillRun() {
-            /* TODO: before extractor start crawling */
-        }
-
-        public void classifierDidRun() {
-            /* TODO: after extractor finish crawling */
-        }
-
-
     }
 }

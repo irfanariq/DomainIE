@@ -45,18 +45,18 @@ public class KnnClassifier extends Plugin {
         }
 
         @Override
-        public Instances classify(Instances dataset, Instances datatraining) throws Exception{
+        public Instances classify(Instances datatest, Instances datatraining) throws Exception{
             int k = Integer.parseInt(availableConfigurations.get("n"));
-            dataset.setClassIndex(dataset.numAttributes() - 1);
+            datatest.setClassIndex(datatest.numAttributes() - 1);
             datatraining.setClassIndex(datatraining.numAttributes() - 1);
             IBk ibk=new IBk(k);
             ibk.buildClassifier(datatraining);
-            Enumeration<Instance> enumIns = dataset.enumerateInstances();
+            Enumeration<Instance> enumIns = datatest.enumerateInstances();
             while(enumIns.hasMoreElements()){
                 Instance ins = (Instance) enumIns.nextElement();
                 ins.setValue(ins.classIndex(),ibk.classifyInstance(ins));
             }
-            return dataset;
+            return datatest;
 
         }
 

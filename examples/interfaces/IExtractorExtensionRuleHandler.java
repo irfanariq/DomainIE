@@ -1,7 +1,7 @@
 /**
  * This is a simplified schema that shows each methods a user has to implement
  */
-public abstract class IExtractorExtensionHandler implements IExtractorHandler {
+public abstract class IExtractorExtensionRuleHandler implements IExtractorHandler {
     /**
      *
      * @return Plugin name
@@ -29,15 +29,5 @@ public abstract class IExtractorExtensionHandler implements IExtractorHandler {
      * @throws Exception
      */
     public Relations extract(File file, String document, Relations extracted) throws Exception;
-
-    /**
-     * Hook to be called before extractor will run
-     */
-    public void extractorWillRun();
-
-    /**
-     * Hook to be called before extractor have run
-     */
-    public void extractorDidRun();
 
 }

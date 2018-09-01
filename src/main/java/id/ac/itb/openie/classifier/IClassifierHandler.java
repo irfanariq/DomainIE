@@ -42,10 +42,10 @@ public interface IClassifierHandler extends ExtensionPoint, Serializable{
      *
      * @param dataset datatest in Instances representation which want to be classified
      * @param datatraining data training in Instances representation
-     * @return new Instances with class target value
+     * @return datatest as Instances with class target value
      * @throws Exception
      */
-    public Instances classify(Instances dataset, Instances datatraining) throws Exception;
+    public Instances classify(Instances datatest, Instances datatraining) throws Exception;
 
     /**
      *

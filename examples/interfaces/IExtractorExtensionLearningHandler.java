@@ -1,7 +1,7 @@
 /**
  * This is a simplified schema that shows each methods a user has to implement
  */
-public abstract class IClassifierExtensionHandler implements IClassifierHandler {
+public abstract class IExtractorExtensionLearningHandler implements IExtractorHandler {
     /**
      *
      * @return Plugin name
@@ -20,13 +20,13 @@ public abstract class IClassifierExtensionHandler implements IClassifierHandler 
      * @param value Configuration value
      */
     public void setAvailableConfigurations(String key, String value);
-
     /**
      *
-     * @param dataset datatest in Instances representation which want to be classified
-     * @param datatraining data training in Instances representation
-     * @return datatest as Instances with class target value
+     * @param instance data test that has been classified
+     * @param extracted List of incomplete relation from preprocessor
+     * @return extracted relations
      * @throws Exception
      */
-    public Instances classify(Instances datatest, Instances datatraining) throws Exception;
+    public Relations extract(Instances instance, Relations extracted) throws Exception;
+
 }
