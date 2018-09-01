@@ -100,60 +100,9 @@
   <!-- Project Libraries -->
   
   <path id="library.openie.classpath">
-    <pathelement location="${basedir}/jars/InaNLP.jar"/>
-    <pathelement location="${basedir}/jars/OpenIE.jar"/>
-    <pathelement location="${basedir}/jars/apache-mime4j-core-0.7.2.jar"/>
-    <pathelement location="${basedir}/jars/apache-mime4j-dom-0.7.2.jar"/>
-    <pathelement location="${basedir}/jars/asm-debug-all-4.1.jar"/>
-    <pathelement location="${basedir}/jars/aspectjrt-1.6.11.jar"/>
-    <pathelement location="${basedir}/jars/bcmail-jdk15-1.45.jar"/>
-    <pathelement location="${basedir}/jars/bcprov-jdk15-1.45.jar"/>
-    <pathelement location="${basedir}/jars/boilerpipe-1.1.0.jar"/>
-    <pathelement location="${basedir}/jars/commons-codec-1.9.jar"/>
-    <pathelement location="${basedir}/jars/commons-compress-1.5.jar"/>
-    <pathelement location="${basedir}/jars/commons-lang3-3.5.jar"/>
-    <pathelement location="${basedir}/jars/commons-logging-1.2.jar"/>
-    <pathelement location="${basedir}/jars/crawler4j-4.2.jar"/>
-    <pathelement location="${basedir}/jars/dom4j-1.6.1.jar"/>
-    <pathelement location="${basedir}/jars/fontbox-1.8.4.jar"/>
-    <pathelement location="${basedir}/jars/geronimo-stax-api_1.0_spec-1.0.1.jar"/>
-    <pathelement location="${basedir}/jars/guava-14.0.1.jar"/>
-    <pathelement location="${basedir}/jars/httpclient-4.4.jar"/>
-    <pathelement location="${basedir}/jars/httpcore-4.4.jar"/>
-    <pathelement location="${basedir}/jars/ipostagger.jar"/>
-    <pathelement location="${basedir}/jars/isoparser-1.0-RC-1.jar"/>
-    <pathelement location="${basedir}/jars/java-semver-0.9.0.jar"/>
-    <pathelement location="${basedir}/jars/jdom-1.0.jar"/>
-    <pathelement location="${basedir}/jars/je-5.0.73.jar"/>
-    <pathelement location="${basedir}/jars/jempbox-1.8.4.jar"/>
-    <pathelement location="${basedir}/jars/jhighlight-1.0.jar"/>
-    <pathelement location="${basedir}/jars/jsoup-1.10.2.jar"/>
-    <pathelement location="${basedir}/jars/juniversalchardet-1.0.3.jar"/>
-    <pathelement location="${basedir}/jars/lidalia-slf4j-ext-1.0.0.jar"/>
-    <pathelement location="${basedir}/jars/metadata-extractor-2.6.2.jar"/>
-    <pathelement location="${basedir}/jars/netcdf-4.2-min.jar"/>
-    <pathelement location="${basedir}/jars/pdfbox-1.8.4.jar"/>
-    <pathelement location="${basedir}/jars/pf4j-1.1.1.jar"/>
-    <pathelement location="${basedir}/jars/poi-3.10-beta2.jar"/>
-    <pathelement location="${basedir}/jars/poi-ooxml-3.10-beta2.jar"/>
-    <pathelement location="${basedir}/jars/poi-ooxml-schemas-3.10-beta2.jar"/>
-    <pathelement location="${basedir}/jars/poi-scratchpad-3.10-beta2.jar"/>
-    <pathelement location="${basedir}/jars/rome-0.9.jar"/>
-    <pathelement location="${basedir}/jars/slf4j-api-1.7.10.jar"/>
-    <pathelement location="${basedir}/jars/slf4j-simple-1.6.1.jar"/>
-    <pathelement location="${basedir}/jars/slugify-2.1.7.jar"/>
-    <pathelement location="${basedir}/jars/tagsoup-1.2.1.jar"/>
-    <pathelement location="${basedir}/jars/tika-core-1.5.jar"/>
-    <pathelement location="${basedir}/jars/tika-parsers-1.5.jar"/>
-    <pathelement location="${basedir}/jars/vorbis-java-core-0.1-tests.jar"/>
-    <pathelement location="${basedir}/jars/vorbis-java-core-0.1.jar"/>
-    <pathelement location="${basedir}/jars/vorbis-java-tika-0.1.jar"/>
-    <pathelement location="${basedir}/jars/weka-3-8-0-monolithic.jar"/>
-    <pathelement location="${basedir}/jars/xercesImpl-2.8.1.jar"/>
-    <pathelement location="${basedir}/jars/xml-apis-1.3.03.jar"/>
-    <pathelement location="${basedir}/jars/xmlbeans-2.3.0.jar"/>
-    <pathelement location="${basedir}/jars/xmpcore-5.1.2.jar"/>
-    <pathelement location="${basedir}/jars/xz-1.2.jar"/>
+    <fileset dir = "${basedir}/jars">
+      <include name = "**/*.jar"/>
+   </fileset>
   </path>
   
   <!-- Modules -->

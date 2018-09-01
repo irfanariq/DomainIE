@@ -1,18 +1,18 @@
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749090-nggak-pake-pacaran-ardina-rasti-langsung-diajak-nikah.txt
 Kalimat ke-1: Ardina Rasti dikabarkan bakal melangsungkan pernikahan Desember ini  .
-Relasi: dikabarkan bakal melangsungkan(Ardina Rasti, pernikahan Desember)
+Relasi: dikabarkan melangsungkan(Ardina Rasti, pernikahan Desember ini)
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749090-nggak-pake-pacaran-ardina-rasti-langsung-diajak-nikah.txt
 Kalimat ke-2: Padahal , ia mengaku tak pernah pacaran dengan pria yang dikenalnya enam bulan belakangan ini  .
-Relasi: mengaku(Padahal, pacaran)
+Relasi: mengaku pernah(ia, pacaran)
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749090-nggak-pake-pacaran-ardina-rasti-langsung-diajak-nikah.txt
 Kalimat ke-2: Padahal , ia mengaku tak pernah pacaran dengan pria yang dikenalnya enam bulan belakangan ini  .
-Relasi: dikenalnya(pria, enam bulan belakangan)
+Relasi: dikenalnya(pria, enam bulan belakangan ini)
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749090-nggak-pake-pacaran-ardina-rasti-langsung-diajak-nikah.txt
 Kalimat ke-3: Rasti membantah kabar tersebut  .
-Relasi: membantah(Rasti, kabar)
+Relasi: membantah(Rasti, kabar tersebut)
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749090-nggak-pake-pacaran-ardina-rasti-langsung-diajak-nikah.txt
 Kalimat ke-4: Namun , Rasti membenarkan dirinya sudah begitu dekat dengan sang kekasih  .
@@ -20,59 +20,75 @@ Relasi: membenarkan(Rasti, dirinya)
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749090-nggak-pake-pacaran-ardina-rasti-langsung-diajak-nikah.txt
 Kalimat ke-5: " Kalau ada ke jenjang berikutnya tidak mungkin kita tutupin , cuma kalau teman - teman lihat dari media sosial , tidak ada tanda - tanda karena kita tidak ada pacaran sama sekali  .
-Relasi: tutupin(jenjang, teman)
+Relasi: tutupin cuma(kita, teman)
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749090-nggak-pake-pacaran-ardina-rasti-langsung-diajak-nikah.txt
 Kalimat ke-5: " Kalau ada ke jenjang berikutnya tidak mungkin kita tutupin , cuma kalau teman - teman lihat dari media sosial , tidak ada tanda - tanda karena kita tidak ada pacaran sama sekali  .
-Relasi: lihat dari(teman, media)
+Relasi: lihat(teman, media sosial)
+
+Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749090-nggak-pake-pacaran-ardina-rasti-langsung-diajak-nikah.txt
+Kalimat ke-5: " Kalau ada ke jenjang berikutnya tidak mungkin kita tutupin , cuma kalau teman - teman lihat dari media sosial , tidak ada tanda - tanda karena kita tidak ada pacaran sama sekali  .
+Relasi: tidak ada(media sosial, tanda)
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749090-nggak-pake-pacaran-ardina-rasti-langsung-diajak-nikah.txt
 Kalimat ke-6: Ketemu kebetulan dari pihak dia ketemu orangtuaku , langsung mengutarakan niat serius , buat aku itu tindakan gentleman, " ungkapnya saat ditemui di Kemang , Jakarta Selatan , Rabu ( 29/11/2017 )  .
-Relasi: mengutarakan(ketemu orangtuaku, niat)
+Relasi: langsung mengutarakan(pihak dia ketemu orangtuaku, niat serius)
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749090-nggak-pake-pacaran-ardina-rasti-langsung-diajak-nikah.txt
 Kalimat ke-6: Ketemu kebetulan dari pihak dia ketemu orangtuaku , langsung mengutarakan niat serius , buat aku itu tindakan gentleman, " ungkapnya saat ditemui di Kemang , Jakarta Selatan , Rabu ( 29/11/2017 )  .
-Relasi: ditemui di(ungkapnya, Kemang)
-
-Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749090-nggak-pake-pacaran-ardina-rasti-langsung-diajak-nikah.txt
-Kalimat ke-7: Rasti merasa bingung karena memang baru saja mengenal pria tersebut  .
-Relasi: merasa(Rasti, pria)
-
-Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749090-nggak-pake-pacaran-ardina-rasti-langsung-diajak-nikah.txt
-Kalimat ke-7: Rasti merasa bingung karena memang baru saja mengenal pria tersebut  .
-Relasi: mengenal(Rasti, pria)
+Relasi: ditemui(ungkapnya, Kemang)
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749090-nggak-pake-pacaran-ardina-rasti-langsung-diajak-nikah.txt
 Kalimat ke-8: Tapi selama ini ia merasa banyak sekali kecocokan , sehingga tak ada keraguan untuk menjalani kisah tersebut  .
-Relasi: ada keraguan untuk menjalani(kecocokan, kisah)
+Relasi: merasa banyak sekali(ia, kecocokan)
+
+Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749090-nggak-pake-pacaran-ardina-rasti-langsung-diajak-nikah.txt
+Kalimat ke-8: Tapi selama ini ia merasa banyak sekali kecocokan , sehingga tak ada keraguan untuk menjalani kisah tersebut  .
+Relasi: menjalani(keraguan, kisah tersebut)
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749090-nggak-pake-pacaran-ardina-rasti-langsung-diajak-nikah.txt
 Kalimat ke-9: Rasti mengaku tak ingin buang - buang waktu untuk pacaran  .
-Relasi: mengaku(Rasti, buang)
+Relasi: mengaku tak ingin(Rasti, buang)
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749090-nggak-pake-pacaran-ardina-rasti-langsung-diajak-nikah.txt
-Kalimat ke-9: Rasti mengaku tak ingin buang - buang waktu untuk pacaran  .
-Relasi: ingin(Rasti, buang)
+Kalimat ke-10: Ia menyebut jalan yang diambilnya itu mungkin seperti taaruf , tapi landasannya memang berbeda  .
+Relasi: menyebut(Ia, jalan)
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749090-nggak-pake-pacaran-ardina-rasti-langsung-diajak-nikah.txt
-Kalimat ke-11: " Dari pihak pihak sana juga langsung mengutarakan serius , jadi buat aku ngapaen buang waktu pacaran lagi kalau memang mau melangkah bareng, " ujarnya  .
-Relasi: mengutarakan(pihak pihak, jadi buat aku ngapaen buang waktu pacaran)
-
-Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749090-nggak-pake-pacaran-ardina-rasti-langsung-diajak-nikah.txt
-Kalimat ke-13: Sejauh ini , menurutnya belum ada perbincangan mengenai hal itu , meski ke arah sana sudah menjadi fokus utama  .
-Relasi: menurutnya(Sejauh, perbincangan)
+Kalimat ke-10: Ia menyebut jalan yang diambilnya itu mungkin seperti taaruf , tapi landasannya memang berbeda  .
+Relasi: mungkin(diambilnya itu, taaruf)
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749090-nggak-pake-pacaran-ardina-rasti-langsung-diajak-nikah.txt
 Kalimat ke-13: Sejauh ini , menurutnya belum ada perbincangan mengenai hal itu , meski ke arah sana sudah menjadi fokus utama  .
-Relasi: ada(Sejauh, perbincangan)
+Relasi: mengenai(perbincangan, hal itu)
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749090-nggak-pake-pacaran-ardina-rasti-langsung-diajak-nikah.txt
 Kalimat ke-13: Sejauh ini , menurutnya belum ada perbincangan mengenai hal itu , meski ke arah sana sudah menjadi fokus utama  .
-Relasi: mengenai(perbincangan, hal)
+Relasi: sudah menjadi(arah, fokus utama)
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749090-nggak-pake-pacaran-ardina-rasti-langsung-diajak-nikah.txt
-Kalimat ke-13: Sejauh ini , menurutnya belum ada perbincangan mengenai hal itu , meski ke arah sana sudah menjadi fokus utama  .
-Relasi: menjadi(arah, fokus)
+Kalimat ke-32: Ultah ke - 30 , Ardina Rasti Dapat Kejutan dari Gandhi Fernando 3 photo Ganti Lagi , Rambut Ardina Rasti Kini Biru !
+Relasi: Lagi(Gandhi Fernando 3 photo Ganti, Rambut Ardina Rasti)
+
+Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749090-nggak-pake-pacaran-ardina-rasti-langsung-diajak-nikah.txt
+Kalimat ke-32: Ultah ke - 30 , Ardina Rasti Dapat Kejutan dari Gandhi Fernando 3 photo Ganti Lagi , Rambut Ardina Rasti Kini Biru !
+Relasi: Kini(Rambut Ardina Rasti, Biru)
+
+Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749090-nggak-pake-pacaran-ardina-rasti-langsung-diajak-nikah.txt
+Kalimat ke-34: photo Ganti Lagi , Rambut Ardina Rasti Kini Biru !
+Relasi: Kini(Rambut Ardina Rasti, Biru)
+
+Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749090-nggak-pake-pacaran-ardina-rasti-langsung-diajak-nikah.txt
+Kalimat ke-36: photo Ganti Lagi , Rambut Ardina Rasti Kini Biru !
+Relasi: Kini(Rambut Ardina Rasti, Biru)
+
+Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749090-nggak-pake-pacaran-ardina-rasti-langsung-diajak-nikah.txt
+Kalimat ke-38: photo Ganti Lagi , Rambut Ardina Rasti Kini Biru !
+Relasi: Kini(Rambut Ardina Rasti, Biru)
+
+Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749090-nggak-pake-pacaran-ardina-rasti-langsung-diajak-nikah.txt
+Kalimat ke-40: photo Ganti Lagi , Rambut Ardina Rasti Kini Biru !
+Relasi: Kini(Rambut Ardina Rasti, Biru)
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749090-nggak-pake-pacaran-ardina-rasti-langsung-diajak-nikah.txt
 Kalimat ke-59: Ardina Rasti Lengket dengan Gandhi Fernando 8 photo Eza Gionino Dipenjara 7 Bulan , Ardina Rasti Nangis 9 photo Ardina Rasti " Dianiaya " di Film ' Honeymoon ' 10 photo Ardina Rasti Tampak Lebih Fresh 11 photo Ardina Rasti Kembali Ceria 1-1 photo Ardina Rasti dengan Rambut Barunya 13 photo Wajah Lelah Ardina Rasti 14 1  .
@@ -80,5 +96,5 @@ Relasi: Dipenjara(Gandhi Fernando 8 photo Eza Gionino, 7 Bulan)
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749090-nggak-pake-pacaran-ardina-rasti-langsung-diajak-nikah.txt
 Kalimat ke-59: Ardina Rasti Lengket dengan Gandhi Fernando 8 photo Eza Gionino Dipenjara 7 Bulan , Ardina Rasti Nangis 9 photo Ardina Rasti " Dianiaya " di Film ' Honeymoon ' 10 photo Ardina Rasti Tampak Lebih Fresh 11 photo Ardina Rasti Kembali Ceria 1-1 photo Ardina Rasti dengan Rambut Barunya 13 photo Wajah Lelah Ardina Rasti 14 1  .
-Relasi: Tampak(10 photo Ardina Rasti, Fresh 11 photo Ardina Rasti)
+Relasi: Tampak Lebih(10 photo Ardina Rasti, Fresh)
 

@@ -1,40 +1,40 @@
 Source: D:\openIE\data\preprocess\http-bola-kompas-com-read-2017-11-30-12280058-nama-besar-persija-bikin-eks-gelandang-perseru-ini-pindah.txt
 Kalimat ke-1: Septinus Alua memutuskan untuk menerima pinangan sebagai pemain Persija Jakarta pada Liga 1 musim 2018  .
-Relasi: memutuskan untuk menerima pinangan sebagai(Septinus Alua, pemain Persija Jakarta)
+Relasi: memutuskan menerima(Septinus Alua, pinangan)
 
 Source: D:\openIE\data\preprocess\http-bola-kompas-com-read-2017-11-30-12280058-nama-besar-persija-bikin-eks-gelandang-perseru-ini-pindah.txt
 Kalimat ke-3: Eks gelandang Perseru Serui itu diperkenalkan di Kantor Persija , Duren Tiga , Jakarta Selatan  .
-Relasi: diperkenalkan di(Eks gelandang Perseru Serui, Kantor Persija)
+Relasi: diperkenalkan(Eks gelandang Perseru Serui itu, Kantor Persija)
 
 Source: D:\openIE\data\preprocess\http-bola-kompas-com-read-2017-11-30-12280058-nama-besar-persija-bikin-eks-gelandang-perseru-ini-pindah.txt
 Kalimat ke-4: " Senin pekan lalu , saya ditelepon Pak Gede Widiade ( Direktur Utama Persija )  .
-Relasi: ditelepon(Senin pekan, Pak Gede Widiade)
+Relasi: ditelepon(saya, Pak Gede Widiade)
 
 Source: D:\openIE\data\preprocess\http-bola-kompas-com-read-2017-11-30-12280058-nama-besar-persija-bikin-eks-gelandang-perseru-ini-pindah.txt
 Kalimat ke-6: " Senang sekali mendapat tawaran dari tim sebesar Persija  .
-Relasi: mendapat tawaran dari(Senang, tim)
+Relasi: sekali mendapat(Senang, tawaran)
+
+Source: D:\openIE\data\preprocess\http-bola-kompas-com-read-2017-11-30-12280058-nama-besar-persija-bikin-eks-gelandang-perseru-ini-pindah.txt
+Kalimat ke-6: " Senang sekali mendapat tawaran dari tim sebesar Persija  .
+Relasi: sebesar(tim, Persija)
 
 Source: D:\openIE\data\preprocess\http-bola-kompas-com-read-2017-11-30-12280058-nama-besar-persija-bikin-eks-gelandang-perseru-ini-pindah.txt
 Kalimat ke-7: Banyak pemain yang mau main di sini, " tutur pemain berusia 28 tahun itu  .
-Relasi: main di(Banyak pemain, tutur pemain)
+Relasi: main(pemain, tutur pemain)
 
 Source: D:\openIE\data\preprocess\http-bola-kompas-com-read-2017-11-30-12280058-nama-besar-persija-bikin-eks-gelandang-perseru-ini-pindah.txt
 Kalimat ke-7: Banyak pemain yang mau main di sini, " tutur pemain berusia 28 tahun itu  .
-Relasi: berusia(tutur pemain, 28 tahun)
+Relasi: berusia(tutur pemain, 28 tahun itu)
 
 Source: D:\openIE\data\preprocess\http-bola-kompas-com-read-2017-11-30-12280058-nama-besar-persija-bikin-eks-gelandang-perseru-ini-pindah.txt
 Kalimat ke-8: Selain Septinus , Persija juga dipastikan kedatangan kapten Perseru , Arthur Bonai  .
-Relasi: dipastikan(Persija, kedatangan kapten Perseru)
+Relasi: juga dipastikan(Persija, kedatangan kapten Perseru)
 
 Source: D:\openIE\data\preprocess\http-bola-kompas-com-read-2017-11-30-12280058-nama-besar-persija-bikin-eks-gelandang-perseru-ini-pindah.txt
 Kalimat ke-9: " Ya , saya sempat dengar Arthur mau ke Persija tetapi yang bikin saya pindah adalah nama besar tim ini, " kata pemain bertinggi 156 sentimeter itu  .
-Relasi: pindah adalah(bikin, nama besar tim)
+Relasi: sempat dengar(saya, Arthur)
 
 Source: D:\openIE\data\preprocess\http-bola-kompas-com-read-2017-11-30-12280058-nama-besar-persija-bikin-eks-gelandang-perseru-ini-pindah.txt
 Kalimat ke-9: " Ya , saya sempat dengar Arthur mau ke Persija tetapi yang bikin saya pindah adalah nama besar tim ini, " kata pemain bertinggi 156 sentimeter itu  .
-Relasi: kata(nama besar tim, pemain)
-
-Source: D:\openIE\data\preprocess\http-bola-kompas-com-read-2017-11-30-12280058-nama-besar-persija-bikin-eks-gelandang-perseru-ini-pindah.txt
-Kalimat ke-9: " Ya , saya sempat dengar Arthur mau ke Persija tetapi yang bikin saya pindah adalah nama besar tim ini, " kata pemain bertinggi 156 sentimeter itu  .
-Relasi: bertinggi(pemain, 156 sentimeter)
+Relasi: pindah adalah(bikin saya, nama besar tim ini,)
 

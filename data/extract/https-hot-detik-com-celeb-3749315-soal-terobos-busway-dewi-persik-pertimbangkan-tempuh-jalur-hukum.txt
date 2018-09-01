@@ -1,138 +1,114 @@
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-3749315-soal-terobos-busway-dewi-persik-pertimbangkan-tempuh-jalur-hukum.txt
 Kalimat ke-1: Dewi Persik ramai diberitakan mengenai dirinya terobos busway  .
-Relasi: diberitakan mengenai(Dewi Persik, dirinya)
+Relasi: diberitakan mengenai(Dewi Persik ramai, dirinya)
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-3749315-soal-terobos-busway-dewi-persik-pertimbangkan-tempuh-jalur-hukum.txt
-Kalimat ke-1: Dewi Persik ramai diberitakan mengenai dirinya terobos busway  .
-Relasi: terobos(dirinya, busway)
-
-Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-3749315-soal-terobos-busway-dewi-persik-pertimbangkan-tempuh-jalur-hukum.txt
-Kalimat ke-4: Tapi kalau sudah cukup sampai di sini , iya cukup, " ungkap Dewi Persik saat ditemui di Studio Trans TV , Jalan Kapten Tendean , Jakarta Selatan  .
-Relasi: ungkap(iya, Dewi Persik)
+Kalimat ke-2: Ia pun mempertimbangkan untuk menempuh jalur hukum jika ada yang tak sesuai  .
+Relasi: mempertimbangkan menempuh(Ia, jalur hukum)
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-3749315-soal-terobos-busway-dewi-persik-pertimbangkan-tempuh-jalur-hukum.txt
 Kalimat ke-4: Tapi kalau sudah cukup sampai di sini , iya cukup, " ungkap Dewi Persik saat ditemui di Studio Trans TV , Jalan Kapten Tendean , Jakarta Selatan  .
-Relasi: ditemui di(Dewi Persik, Studio Trans TV)
+Relasi: ungkap(iya cukup,, Dewi Persik)
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-3749315-soal-terobos-busway-dewi-persik-pertimbangkan-tempuh-jalur-hukum.txt
 Kalimat ke-5: Baca juga : Dewi Persik Merasa Dipermalukan saat Tragedi Terobos Busway Depe merasa dipermalukan saat kejadian itu  .
-Relasi: merasa dipermalukan(Dewi Persik Merasa Dipermalukan saat Tragedi Terobos Busway Depe, saat kejadian)
+Relasi: juga(Baca, Dewi Persik Merasa Dipermalukan saat Tragedi Terobos Busway Depe)
+
+Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-3749315-soal-terobos-busway-dewi-persik-pertimbangkan-tempuh-jalur-hukum.txt
+Kalimat ke-5: Baca juga : Dewi Persik Merasa Dipermalukan saat Tragedi Terobos Busway Depe merasa dipermalukan saat kejadian itu  .
+Relasi: merasa dipermalukan(Dewi Persik Merasa Dipermalukan saat Tragedi Terobos Busway Depe, saat kejadian itu)
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-3749315-soal-terobos-busway-dewi-persik-pertimbangkan-tempuh-jalur-hukum.txt
 Kalimat ke-6: Apalagi setelahnya beredar video - video yang menuai profesional dan kontra  .
 Relasi: beredar(setelahnya, video)
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-3749315-soal-terobos-busway-dewi-persik-pertimbangkan-tempuh-jalur-hukum.txt
-Kalimat ke-7: Dewi Persik sendiri sejak awal mengakui memang sengaja menerobos busway karena tengah membawa penumpang yang sakit  .
-Relasi: mengakui(Dewi Persik, busway)
-
-Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-3749315-soal-terobos-busway-dewi-persik-pertimbangkan-tempuh-jalur-hukum.txt
-Kalimat ke-7: Dewi Persik sendiri sejak awal mengakui memang sengaja menerobos busway karena tengah membawa penumpang yang sakit  .
-Relasi: sengaja menerobos(Dewi Persik, busway)
-
-Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-3749315-soal-terobos-busway-dewi-persik-pertimbangkan-tempuh-jalur-hukum.txt
-Kalimat ke-7: Dewi Persik sendiri sejak awal mengakui memang sengaja menerobos busway karena tengah membawa penumpang yang sakit  .
-Relasi: membawa(tengah, penumpang)
-
-Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-3749315-soal-terobos-busway-dewi-persik-pertimbangkan-tempuh-jalur-hukum.txt
 Kalimat ke-9: Sang pedangdut memang memilih jalur damai , meski ia juga terus memantau perkembangan yang ada  .
-Relasi: memilih(pedangdut, jalur)
+Relasi: memang memilih(pedangdut, jalur damai)
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-3749315-soal-terobos-busway-dewi-persik-pertimbangkan-tempuh-jalur-hukum.txt
-Kalimat ke-9: Sang pedangdut memang memilih jalur damai , meski ia juga terus memantau perkembangan yang ada  .
-Relasi: memantau(jalur, perkembangan)
+Kalimat ke-10: Menurutnya , ia punya bukti kuat bahwa dalam hal ini dirinya tidak bersalah  .
+Relasi: punya(ia, bukti kuat)
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-3749315-soal-terobos-busway-dewi-persik-pertimbangkan-tempuh-jalur-hukum.txt
-Kalimat ke-13: Baca juga : Kata Dewi Persik soal Pelakor dan Kabar Dirinya Hamil Saat hendak menerobos busway , Depe memang tidak dibukakan palang pintu oleh petugas  .
-Relasi: Kata(Baca, Dewi Persik soal Pelakor)
-
-Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-3749315-soal-terobos-busway-dewi-persik-pertimbangkan-tempuh-jalur-hukum.txt
-Kalimat ke-13: Baca juga : Kata Dewi Persik soal Pelakor dan Kabar Dirinya Hamil Saat hendak menerobos busway , Depe memang tidak dibukakan palang pintu oleh petugas  .
-Relasi: hendak menerobos(Kabar Dirinya Hamil, busway)
+Kalimat ke-11: " Kita tergantung , kalau terus - terusan , mau tidak mau kita harus keluarkan bukti  .
+Relasi: tergantung terus(Kita, terusan)
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-3749315-soal-terobos-busway-dewi-persik-pertimbangkan-tempuh-jalur-hukum.txt
 Kalimat ke-13: Baca juga : Kata Dewi Persik soal Pelakor dan Kabar Dirinya Hamil Saat hendak menerobos busway , Depe memang tidak dibukakan palang pintu oleh petugas  .
-Relasi: dibukakan palang pintu oleh(Depe, petugas)
+Relasi: juga Kata(Baca, Dewi Persik soal Pelakor dan Kabar Dirinya Hamil)
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-3749315-soal-terobos-busway-dewi-persik-pertimbangkan-tempuh-jalur-hukum.txt
 Kalimat ke-14: Warga pun berkumpul hingga terjadi adu mulut , Depe bahkan menganggap ada perkataan yang kurang mengenakan saat kejadian itu  .
-Relasi: berkumpul(Warga, adu mulut)
+Relasi: berkumpul hingga terjadi(Warga, adu mulut)
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-3749315-soal-terobos-busway-dewi-persik-pertimbangkan-tempuh-jalur-hukum.txt
 Kalimat ke-14: Warga pun berkumpul hingga terjadi adu mulut , Depe bahkan menganggap ada perkataan yang kurang mengenakan saat kejadian itu  .
-Relasi: terjadi(Warga, adu mulut)
-
-Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-3749315-soal-terobos-busway-dewi-persik-pertimbangkan-tempuh-jalur-hukum.txt
-Kalimat ke-14: Warga pun berkumpul hingga terjadi adu mulut , Depe bahkan menganggap ada perkataan yang kurang mengenakan saat kejadian itu  .
-Relasi: menganggap ada(Depe, perkataan)
-
-Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-3749315-soal-terobos-busway-dewi-persik-pertimbangkan-tempuh-jalur-hukum.txt
-Kalimat ke-14: Warga pun berkumpul hingga terjadi adu mulut , Depe bahkan menganggap ada perkataan yang kurang mengenakan saat kejadian itu  .
-Relasi: mengenakan(perkataan, saat kejadian)
+Relasi: kurang mengenakan(perkataan, saat kejadian itu)
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-3749315-soal-terobos-busway-dewi-persik-pertimbangkan-tempuh-jalur-hukum.txt
 Kalimat ke-15: " Mobil tidak disambit , kalau didorong iya , dikepung oleh warga iya  .
-Relasi: disambit(Mobil, iya)
+Relasi: tidak disambit didorong(Mobil, iya)
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-3749315-soal-terobos-busway-dewi-persik-pertimbangkan-tempuh-jalur-hukum.txt
 Kalimat ke-15: " Mobil tidak disambit , kalau didorong iya , dikepung oleh warga iya  .
-Relasi: didorong(Mobil, iya)
-
-Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-3749315-soal-terobos-busway-dewi-persik-pertimbangkan-tempuh-jalur-hukum.txt
-Kalimat ke-15: " Mobil tidak disambit , kalau didorong iya , dikepung oleh warga iya  .
-Relasi: dikepung oleh(iya, warga iya)
+Relasi: dikepung(iya, warga iya)
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-3749315-soal-terobos-busway-dewi-persik-pertimbangkan-tempuh-jalur-hukum.txt
 Kalimat ke-16: Jadi awalnya aku ada di mobil , karena aku mencintai dia ( suami ) mau bagaimana pun aku harus turun dari mobil  .
-Relasi: ada di(aku, mobil)
+Relasi: ada(aku, mobil)
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-3749315-soal-terobos-busway-dewi-persik-pertimbangkan-tempuh-jalur-hukum.txt
 Kalimat ke-16: Jadi awalnya aku ada di mobil , karena aku mencintai dia ( suami ) mau bagaimana pun aku harus turun dari mobil  .
-Relasi: mencintai(mobil, suami)
+Relasi: mencintai(aku, dia)
+
+Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-3749315-soal-terobos-busway-dewi-persik-pertimbangkan-tempuh-jalur-hukum.txt
+Kalimat ke-16: Jadi awalnya aku ada di mobil , karena aku mencintai dia ( suami ) mau bagaimana pun aku harus turun dari mobil  .
+Relasi: turun(aku, mobil)
+
+Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-3749315-soal-terobos-busway-dewi-persik-pertimbangkan-tempuh-jalur-hukum.txt
+Kalimat ke-17: Aku menolong dia  .
+Relasi: menolong(Aku, dia)
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-3749315-soal-terobos-busway-dewi-persik-pertimbangkan-tempuh-jalur-hukum.txt
 Kalimat ke-18: Kalau misalkan saya tidak tolong , dia kala itu mungkin sudah digebukin , dia sudah habis mungkin , tidak tahu deh, " kisah Dewi Persik  .
-Relasi: sudah digebukin(kala, kisah Dewi Persik)
-
-Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-3749315-soal-terobos-busway-dewi-persik-pertimbangkan-tempuh-jalur-hukum.txt
-Kalimat ke-18: Kalau misalkan saya tidak tolong , dia kala itu mungkin sudah digebukin , dia sudah habis mungkin , tidak tahu deh, " kisah Dewi Persik  .
-Relasi: sudah habis(kala, kisah Dewi Persik)
-
-Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-3749315-soal-terobos-busway-dewi-persik-pertimbangkan-tempuh-jalur-hukum.txt
-Kalimat ke-18: Kalau misalkan saya tidak tolong , dia kala itu mungkin sudah digebukin , dia sudah habis mungkin , tidak tahu deh, " kisah Dewi Persik  .
-Relasi: tahu(kala, kisah Dewi Persik)
+Relasi: mungkin digebukin(kala itu, dia)
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-3749315-soal-terobos-busway-dewi-persik-pertimbangkan-tempuh-jalur-hukum.txt
 Kalimat ke-19: Saksikan video rodetik untuk melihat tanggapan Dewi Persik untuk melaporkan petugas patroli Transjakarta ke polisi di sini : [ Gambas:Video rodetik ] ( nu2/wes ) dewi persik dewi persik terobos busway Photo Gallery 1 celeb So Sweet !
-Relasi: melihat tanggapan Dewi Persik untuk melaporkan petugas patroli Transjakarta ke(rodetik, polisi)
+Relasi: melihat(Saksikan video rodetik, tanggapan Dewi Persik)
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-3749315-soal-terobos-busway-dewi-persik-pertimbangkan-tempuh-jalur-hukum.txt
 Kalimat ke-19: Saksikan video rodetik untuk melihat tanggapan Dewi Persik untuk melaporkan petugas patroli Transjakarta ke polisi di sini : [ Gambas:Video rodetik ] ( nu2/wes ) dewi persik dewi persik terobos busway Photo Gallery 1 celeb So Sweet !
-Relasi: terobos(dewi persik dewi persik, busway Photo Gallery 1 celeb So Sweet)
+Relasi: dewi(Gambas:Video rodetik, persik dewi persik)
+
+Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-3749315-soal-terobos-busway-dewi-persik-pertimbangkan-tempuh-jalur-hukum.txt
+Kalimat ke-19: Saksikan video rodetik untuk melihat tanggapan Dewi Persik untuk melaporkan petugas patroli Transjakarta ke polisi di sini : [ Gambas:Video rodetik ] ( nu2/wes ) dewi persik dewi persik terobos busway Photo Gallery 1 celeb So Sweet !
+Relasi: terobos(persik dewi persik, busway Photo Gallery 1 celeb So Sweet)
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-3749315-soal-terobos-busway-dewi-persik-pertimbangkan-tempuh-jalur-hukum.txt
 Kalimat ke-27: Saat Sang Suami Bantu Dewi Persik Lewati Genangan 1 celeb Yang Baju Merah Jangan Sampai Lolos !
-Relasi: Sampai(Baju, Lolos)
+Relasi: Jangan Sampai(Baju Merah, Lolos)
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-3749315-soal-terobos-busway-dewi-persik-pertimbangkan-tempuh-jalur-hukum.txt
 Kalimat ke-28: Seksinya Dewi Persik celeb Yang Baju Merah Jangan Sampai Lolos !
-Relasi: Sampai(Baju, Lolos)
+Relasi: Jangan Sampai(Baju Merah, Lolos)
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-3749315-soal-terobos-busway-dewi-persik-pertimbangkan-tempuh-jalur-hukum.txt
 Kalimat ke-29: Seksinya Dewi Persik celeb Yang Baju Merah Jangan Sampai Lolos !
-Relasi: Sampai(Baju, Lolos)
+Relasi: Jangan Sampai(Baju Merah, Lolos)
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-3749315-soal-terobos-busway-dewi-persik-pertimbangkan-tempuh-jalur-hukum.txt
 Kalimat ke-30: Seksinya Dewi Persik celeb Yang Baju Merah Jangan Sampai Lolos !
-Relasi: Sampai(Baju, Lolos)
+Relasi: Jangan Sampai(Baju Merah, Lolos)
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-3749315-soal-terobos-busway-dewi-persik-pertimbangkan-tempuh-jalur-hukum.txt
 Kalimat ke-31: Seksinya Dewi Persik celeb Yang Baju Merah Jangan Sampai Lolos !
-Relasi: Sampai(Baju, Lolos)
+Relasi: Jangan Sampai(Baju Merah, Lolos)
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-3749315-soal-terobos-busway-dewi-persik-pertimbangkan-tempuh-jalur-hukum.txt
 Kalimat ke-32: Seksinya Dewi Persik celeb Yang Baju Merah Jangan Sampai Lolos !
-Relasi: Sampai(Baju, Lolos)
+Relasi: Jangan Sampai(Baju Merah, Lolos)
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-3749315-soal-terobos-busway-dewi-persik-pertimbangkan-tempuh-jalur-hukum.txt
 Kalimat ke-33: Seksinya Dewi Persik 2 celeb Disebut Sudah Menikah , Ini Kemesraan Dewi Persik dan Angga Wijaya celeb Disebut Sudah Menikah , Ini Kemesraan Dewi Persik dan Angga Wijaya celeb Disebut Sudah Menikah , Ini Kemesraan Dewi Persik dan Angga Wijaya celeb Disebut Sudah Menikah , Ini Kemesraan Dewi Persik dan Angga Wijaya celeb Disebut Sudah Menikah , Ini Kemesraan Dewi Persik dan Angga Wijaya celeb Disebut Sudah Menikah , Ini Kemesraan Dewi Persik dan Angga Wijaya celeb Disebut Sudah Menikah , Ini Kemesraan Dewi Persik dan Angga Wijaya 3 celeb Mikha Tambayong Tampil Seksi , Dewi Persik Sebut Arab Gede - gede celeb Mikha Tambayong Tampil Seksi , Dewi Persik Sebut Arab Gede - gede celeb Mikha Tambayong Tampil Seksi , Dewi Persik Sebut Arab Gede - gede celeb Mikha Tambayong Tampil Seksi , Dewi Persik Sebut Arab Gede - gede celeb Mikha Tambayong Tampil Seksi , Dewi Persik Sebut Arab Gede - gede celeb Mikha Tambayong Tampil Seksi , Dewi Persik Sebut Arab Gede - gede 4 celeb Dewi Persik Takut karena Orang Arab Gede - gede , Apanya ?
@@ -140,25 +116,117 @@ Relasi: Disebut(Seksinya Dewi Persik 2 celeb, Menikah)
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-3749315-soal-terobos-busway-dewi-persik-pertimbangkan-tempuh-jalur-hukum.txt
 Kalimat ke-33: Seksinya Dewi Persik 2 celeb Disebut Sudah Menikah , Ini Kemesraan Dewi Persik dan Angga Wijaya celeb Disebut Sudah Menikah , Ini Kemesraan Dewi Persik dan Angga Wijaya celeb Disebut Sudah Menikah , Ini Kemesraan Dewi Persik dan Angga Wijaya celeb Disebut Sudah Menikah , Ini Kemesraan Dewi Persik dan Angga Wijaya celeb Disebut Sudah Menikah , Ini Kemesraan Dewi Persik dan Angga Wijaya celeb Disebut Sudah Menikah , Ini Kemesraan Dewi Persik dan Angga Wijaya celeb Disebut Sudah Menikah , Ini Kemesraan Dewi Persik dan Angga Wijaya 3 celeb Mikha Tambayong Tampil Seksi , Dewi Persik Sebut Arab Gede - gede celeb Mikha Tambayong Tampil Seksi , Dewi Persik Sebut Arab Gede - gede celeb Mikha Tambayong Tampil Seksi , Dewi Persik Sebut Arab Gede - gede celeb Mikha Tambayong Tampil Seksi , Dewi Persik Sebut Arab Gede - gede celeb Mikha Tambayong Tampil Seksi , Dewi Persik Sebut Arab Gede - gede celeb Mikha Tambayong Tampil Seksi , Dewi Persik Sebut Arab Gede - gede 4 celeb Dewi Persik Takut karena Orang Arab Gede - gede , Apanya ?
-Relasi: Disebut(Seksinya Dewi Persik 2 celeb, Menikah)
+Relasi: Disebut(Kemesraan Dewi Persik dan Angga Wijaya celeb, Menikah)
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-3749315-soal-terobos-busway-dewi-persik-pertimbangkan-tempuh-jalur-hukum.txt
 Kalimat ke-33: Seksinya Dewi Persik 2 celeb Disebut Sudah Menikah , Ini Kemesraan Dewi Persik dan Angga Wijaya celeb Disebut Sudah Menikah , Ini Kemesraan Dewi Persik dan Angga Wijaya celeb Disebut Sudah Menikah , Ini Kemesraan Dewi Persik dan Angga Wijaya celeb Disebut Sudah Menikah , Ini Kemesraan Dewi Persik dan Angga Wijaya celeb Disebut Sudah Menikah , Ini Kemesraan Dewi Persik dan Angga Wijaya celeb Disebut Sudah Menikah , Ini Kemesraan Dewi Persik dan Angga Wijaya celeb Disebut Sudah Menikah , Ini Kemesraan Dewi Persik dan Angga Wijaya 3 celeb Mikha Tambayong Tampil Seksi , Dewi Persik Sebut Arab Gede - gede celeb Mikha Tambayong Tampil Seksi , Dewi Persik Sebut Arab Gede - gede celeb Mikha Tambayong Tampil Seksi , Dewi Persik Sebut Arab Gede - gede celeb Mikha Tambayong Tampil Seksi , Dewi Persik Sebut Arab Gede - gede celeb Mikha Tambayong Tampil Seksi , Dewi Persik Sebut Arab Gede - gede celeb Mikha Tambayong Tampil Seksi , Dewi Persik Sebut Arab Gede - gede 4 celeb Dewi Persik Takut karena Orang Arab Gede - gede , Apanya ?
-Relasi: Disebut(Seksinya Dewi Persik 2 celeb, Menikah)
+Relasi: Disebut(Kemesraan Dewi Persik dan Angga Wijaya celeb, Menikah)
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-3749315-soal-terobos-busway-dewi-persik-pertimbangkan-tempuh-jalur-hukum.txt
 Kalimat ke-33: Seksinya Dewi Persik 2 celeb Disebut Sudah Menikah , Ini Kemesraan Dewi Persik dan Angga Wijaya celeb Disebut Sudah Menikah , Ini Kemesraan Dewi Persik dan Angga Wijaya celeb Disebut Sudah Menikah , Ini Kemesraan Dewi Persik dan Angga Wijaya celeb Disebut Sudah Menikah , Ini Kemesraan Dewi Persik dan Angga Wijaya celeb Disebut Sudah Menikah , Ini Kemesraan Dewi Persik dan Angga Wijaya celeb Disebut Sudah Menikah , Ini Kemesraan Dewi Persik dan Angga Wijaya celeb Disebut Sudah Menikah , Ini Kemesraan Dewi Persik dan Angga Wijaya 3 celeb Mikha Tambayong Tampil Seksi , Dewi Persik Sebut Arab Gede - gede celeb Mikha Tambayong Tampil Seksi , Dewi Persik Sebut Arab Gede - gede celeb Mikha Tambayong Tampil Seksi , Dewi Persik Sebut Arab Gede - gede celeb Mikha Tambayong Tampil Seksi , Dewi Persik Sebut Arab Gede - gede celeb Mikha Tambayong Tampil Seksi , Dewi Persik Sebut Arab Gede - gede celeb Mikha Tambayong Tampil Seksi , Dewi Persik Sebut Arab Gede - gede 4 celeb Dewi Persik Takut karena Orang Arab Gede - gede , Apanya ?
-Relasi: Disebut(Seksinya Dewi Persik 2 celeb, Menikah)
+Relasi: Disebut(Kemesraan Dewi Persik dan Angga Wijaya celeb, Menikah)
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-3749315-soal-terobos-busway-dewi-persik-pertimbangkan-tempuh-jalur-hukum.txt
 Kalimat ke-33: Seksinya Dewi Persik 2 celeb Disebut Sudah Menikah , Ini Kemesraan Dewi Persik dan Angga Wijaya celeb Disebut Sudah Menikah , Ini Kemesraan Dewi Persik dan Angga Wijaya celeb Disebut Sudah Menikah , Ini Kemesraan Dewi Persik dan Angga Wijaya celeb Disebut Sudah Menikah , Ini Kemesraan Dewi Persik dan Angga Wijaya celeb Disebut Sudah Menikah , Ini Kemesraan Dewi Persik dan Angga Wijaya celeb Disebut Sudah Menikah , Ini Kemesraan Dewi Persik dan Angga Wijaya celeb Disebut Sudah Menikah , Ini Kemesraan Dewi Persik dan Angga Wijaya 3 celeb Mikha Tambayong Tampil Seksi , Dewi Persik Sebut Arab Gede - gede celeb Mikha Tambayong Tampil Seksi , Dewi Persik Sebut Arab Gede - gede celeb Mikha Tambayong Tampil Seksi , Dewi Persik Sebut Arab Gede - gede celeb Mikha Tambayong Tampil Seksi , Dewi Persik Sebut Arab Gede - gede celeb Mikha Tambayong Tampil Seksi , Dewi Persik Sebut Arab Gede - gede celeb Mikha Tambayong Tampil Seksi , Dewi Persik Sebut Arab Gede - gede 4 celeb Dewi Persik Takut karena Orang Arab Gede - gede , Apanya ?
-Relasi: Disebut(Seksinya Dewi Persik 2 celeb, Menikah)
+Relasi: Disebut(Kemesraan Dewi Persik dan Angga Wijaya celeb, Menikah)
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-3749315-soal-terobos-busway-dewi-persik-pertimbangkan-tempuh-jalur-hukum.txt
 Kalimat ke-33: Seksinya Dewi Persik 2 celeb Disebut Sudah Menikah , Ini Kemesraan Dewi Persik dan Angga Wijaya celeb Disebut Sudah Menikah , Ini Kemesraan Dewi Persik dan Angga Wijaya celeb Disebut Sudah Menikah , Ini Kemesraan Dewi Persik dan Angga Wijaya celeb Disebut Sudah Menikah , Ini Kemesraan Dewi Persik dan Angga Wijaya celeb Disebut Sudah Menikah , Ini Kemesraan Dewi Persik dan Angga Wijaya celeb Disebut Sudah Menikah , Ini Kemesraan Dewi Persik dan Angga Wijaya celeb Disebut Sudah Menikah , Ini Kemesraan Dewi Persik dan Angga Wijaya 3 celeb Mikha Tambayong Tampil Seksi , Dewi Persik Sebut Arab Gede - gede celeb Mikha Tambayong Tampil Seksi , Dewi Persik Sebut Arab Gede - gede celeb Mikha Tambayong Tampil Seksi , Dewi Persik Sebut Arab Gede - gede celeb Mikha Tambayong Tampil Seksi , Dewi Persik Sebut Arab Gede - gede celeb Mikha Tambayong Tampil Seksi , Dewi Persik Sebut Arab Gede - gede celeb Mikha Tambayong Tampil Seksi , Dewi Persik Sebut Arab Gede - gede 4 celeb Dewi Persik Takut karena Orang Arab Gede - gede , Apanya ?
-Relasi: Disebut(Seksinya Dewi Persik 2 celeb, Menikah)
+Relasi: Disebut(Kemesraan Dewi Persik dan Angga Wijaya celeb, Menikah)
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-3749315-soal-terobos-busway-dewi-persik-pertimbangkan-tempuh-jalur-hukum.txt
 Kalimat ke-33: Seksinya Dewi Persik 2 celeb Disebut Sudah Menikah , Ini Kemesraan Dewi Persik dan Angga Wijaya celeb Disebut Sudah Menikah , Ini Kemesraan Dewi Persik dan Angga Wijaya celeb Disebut Sudah Menikah , Ini Kemesraan Dewi Persik dan Angga Wijaya celeb Disebut Sudah Menikah , Ini Kemesraan Dewi Persik dan Angga Wijaya celeb Disebut Sudah Menikah , Ini Kemesraan Dewi Persik dan Angga Wijaya celeb Disebut Sudah Menikah , Ini Kemesraan Dewi Persik dan Angga Wijaya celeb Disebut Sudah Menikah , Ini Kemesraan Dewi Persik dan Angga Wijaya 3 celeb Mikha Tambayong Tampil Seksi , Dewi Persik Sebut Arab Gede - gede celeb Mikha Tambayong Tampil Seksi , Dewi Persik Sebut Arab Gede - gede celeb Mikha Tambayong Tampil Seksi , Dewi Persik Sebut Arab Gede - gede celeb Mikha Tambayong Tampil Seksi , Dewi Persik Sebut Arab Gede - gede celeb Mikha Tambayong Tampil Seksi , Dewi Persik Sebut Arab Gede - gede celeb Mikha Tambayong Tampil Seksi , Dewi Persik Sebut Arab Gede - gede 4 celeb Dewi Persik Takut karena Orang Arab Gede - gede , Apanya ?
-Relasi: Disebut(Seksinya Dewi Persik 2 celeb, Menikah)
+Relasi: Disebut(Kemesraan Dewi Persik dan Angga Wijaya celeb, Menikah)
+
+Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-3749315-soal-terobos-busway-dewi-persik-pertimbangkan-tempuh-jalur-hukum.txt
+Kalimat ke-33: Seksinya Dewi Persik 2 celeb Disebut Sudah Menikah , Ini Kemesraan Dewi Persik dan Angga Wijaya celeb Disebut Sudah Menikah , Ini Kemesraan Dewi Persik dan Angga Wijaya celeb Disebut Sudah Menikah , Ini Kemesraan Dewi Persik dan Angga Wijaya celeb Disebut Sudah Menikah , Ini Kemesraan Dewi Persik dan Angga Wijaya celeb Disebut Sudah Menikah , Ini Kemesraan Dewi Persik dan Angga Wijaya celeb Disebut Sudah Menikah , Ini Kemesraan Dewi Persik dan Angga Wijaya celeb Disebut Sudah Menikah , Ini Kemesraan Dewi Persik dan Angga Wijaya 3 celeb Mikha Tambayong Tampil Seksi , Dewi Persik Sebut Arab Gede - gede celeb Mikha Tambayong Tampil Seksi , Dewi Persik Sebut Arab Gede - gede celeb Mikha Tambayong Tampil Seksi , Dewi Persik Sebut Arab Gede - gede celeb Mikha Tambayong Tampil Seksi , Dewi Persik Sebut Arab Gede - gede celeb Mikha Tambayong Tampil Seksi , Dewi Persik Sebut Arab Gede - gede celeb Mikha Tambayong Tampil Seksi , Dewi Persik Sebut Arab Gede - gede 4 celeb Dewi Persik Takut karena Orang Arab Gede - gede , Apanya ?
+Relasi: gede(Dewi Persik Sebut Arab Gede, celeb Mikha Tambayong Tampil Seksi)
+
+Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-3749315-soal-terobos-busway-dewi-persik-pertimbangkan-tempuh-jalur-hukum.txt
+Kalimat ke-33: Seksinya Dewi Persik 2 celeb Disebut Sudah Menikah , Ini Kemesraan Dewi Persik dan Angga Wijaya celeb Disebut Sudah Menikah , Ini Kemesraan Dewi Persik dan Angga Wijaya celeb Disebut Sudah Menikah , Ini Kemesraan Dewi Persik dan Angga Wijaya celeb Disebut Sudah Menikah , Ini Kemesraan Dewi Persik dan Angga Wijaya celeb Disebut Sudah Menikah , Ini Kemesraan Dewi Persik dan Angga Wijaya celeb Disebut Sudah Menikah , Ini Kemesraan Dewi Persik dan Angga Wijaya celeb Disebut Sudah Menikah , Ini Kemesraan Dewi Persik dan Angga Wijaya 3 celeb Mikha Tambayong Tampil Seksi , Dewi Persik Sebut Arab Gede - gede celeb Mikha Tambayong Tampil Seksi , Dewi Persik Sebut Arab Gede - gede celeb Mikha Tambayong Tampil Seksi , Dewi Persik Sebut Arab Gede - gede celeb Mikha Tambayong Tampil Seksi , Dewi Persik Sebut Arab Gede - gede celeb Mikha Tambayong Tampil Seksi , Dewi Persik Sebut Arab Gede - gede celeb Mikha Tambayong Tampil Seksi , Dewi Persik Sebut Arab Gede - gede 4 celeb Dewi Persik Takut karena Orang Arab Gede - gede , Apanya ?
+Relasi: gede(Dewi Persik Sebut Arab Gede, celeb Mikha Tambayong Tampil Seksi)
+
+Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-3749315-soal-terobos-busway-dewi-persik-pertimbangkan-tempuh-jalur-hukum.txt
+Kalimat ke-33: Seksinya Dewi Persik 2 celeb Disebut Sudah Menikah , Ini Kemesraan Dewi Persik dan Angga Wijaya celeb Disebut Sudah Menikah , Ini Kemesraan Dewi Persik dan Angga Wijaya celeb Disebut Sudah Menikah , Ini Kemesraan Dewi Persik dan Angga Wijaya celeb Disebut Sudah Menikah , Ini Kemesraan Dewi Persik dan Angga Wijaya celeb Disebut Sudah Menikah , Ini Kemesraan Dewi Persik dan Angga Wijaya celeb Disebut Sudah Menikah , Ini Kemesraan Dewi Persik dan Angga Wijaya celeb Disebut Sudah Menikah , Ini Kemesraan Dewi Persik dan Angga Wijaya 3 celeb Mikha Tambayong Tampil Seksi , Dewi Persik Sebut Arab Gede - gede celeb Mikha Tambayong Tampil Seksi , Dewi Persik Sebut Arab Gede - gede celeb Mikha Tambayong Tampil Seksi , Dewi Persik Sebut Arab Gede - gede celeb Mikha Tambayong Tampil Seksi , Dewi Persik Sebut Arab Gede - gede celeb Mikha Tambayong Tampil Seksi , Dewi Persik Sebut Arab Gede - gede celeb Mikha Tambayong Tampil Seksi , Dewi Persik Sebut Arab Gede - gede 4 celeb Dewi Persik Takut karena Orang Arab Gede - gede , Apanya ?
+Relasi: gede(Dewi Persik Sebut Arab Gede, celeb Mikha Tambayong Tampil Seksi)
+
+Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-3749315-soal-terobos-busway-dewi-persik-pertimbangkan-tempuh-jalur-hukum.txt
+Kalimat ke-33: Seksinya Dewi Persik 2 celeb Disebut Sudah Menikah , Ini Kemesraan Dewi Persik dan Angga Wijaya celeb Disebut Sudah Menikah , Ini Kemesraan Dewi Persik dan Angga Wijaya celeb Disebut Sudah Menikah , Ini Kemesraan Dewi Persik dan Angga Wijaya celeb Disebut Sudah Menikah , Ini Kemesraan Dewi Persik dan Angga Wijaya celeb Disebut Sudah Menikah , Ini Kemesraan Dewi Persik dan Angga Wijaya celeb Disebut Sudah Menikah , Ini Kemesraan Dewi Persik dan Angga Wijaya celeb Disebut Sudah Menikah , Ini Kemesraan Dewi Persik dan Angga Wijaya 3 celeb Mikha Tambayong Tampil Seksi , Dewi Persik Sebut Arab Gede - gede celeb Mikha Tambayong Tampil Seksi , Dewi Persik Sebut Arab Gede - gede celeb Mikha Tambayong Tampil Seksi , Dewi Persik Sebut Arab Gede - gede celeb Mikha Tambayong Tampil Seksi , Dewi Persik Sebut Arab Gede - gede celeb Mikha Tambayong Tampil Seksi , Dewi Persik Sebut Arab Gede - gede celeb Mikha Tambayong Tampil Seksi , Dewi Persik Sebut Arab Gede - gede 4 celeb Dewi Persik Takut karena Orang Arab Gede - gede , Apanya ?
+Relasi: gede(Dewi Persik Sebut Arab Gede, celeb Mikha Tambayong Tampil Seksi)
+
+Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-3749315-soal-terobos-busway-dewi-persik-pertimbangkan-tempuh-jalur-hukum.txt
+Kalimat ke-33: Seksinya Dewi Persik 2 celeb Disebut Sudah Menikah , Ini Kemesraan Dewi Persik dan Angga Wijaya celeb Disebut Sudah Menikah , Ini Kemesraan Dewi Persik dan Angga Wijaya celeb Disebut Sudah Menikah , Ini Kemesraan Dewi Persik dan Angga Wijaya celeb Disebut Sudah Menikah , Ini Kemesraan Dewi Persik dan Angga Wijaya celeb Disebut Sudah Menikah , Ini Kemesraan Dewi Persik dan Angga Wijaya celeb Disebut Sudah Menikah , Ini Kemesraan Dewi Persik dan Angga Wijaya celeb Disebut Sudah Menikah , Ini Kemesraan Dewi Persik dan Angga Wijaya 3 celeb Mikha Tambayong Tampil Seksi , Dewi Persik Sebut Arab Gede - gede celeb Mikha Tambayong Tampil Seksi , Dewi Persik Sebut Arab Gede - gede celeb Mikha Tambayong Tampil Seksi , Dewi Persik Sebut Arab Gede - gede celeb Mikha Tambayong Tampil Seksi , Dewi Persik Sebut Arab Gede - gede celeb Mikha Tambayong Tampil Seksi , Dewi Persik Sebut Arab Gede - gede celeb Mikha Tambayong Tampil Seksi , Dewi Persik Sebut Arab Gede - gede 4 celeb Dewi Persik Takut karena Orang Arab Gede - gede , Apanya ?
+Relasi: gede(Dewi Persik Sebut Arab Gede, celeb Mikha Tambayong Tampil Seksi)
+
+Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-3749315-soal-terobos-busway-dewi-persik-pertimbangkan-tempuh-jalur-hukum.txt
+Kalimat ke-33: Seksinya Dewi Persik 2 celeb Disebut Sudah Menikah , Ini Kemesraan Dewi Persik dan Angga Wijaya celeb Disebut Sudah Menikah , Ini Kemesraan Dewi Persik dan Angga Wijaya celeb Disebut Sudah Menikah , Ini Kemesraan Dewi Persik dan Angga Wijaya celeb Disebut Sudah Menikah , Ini Kemesraan Dewi Persik dan Angga Wijaya celeb Disebut Sudah Menikah , Ini Kemesraan Dewi Persik dan Angga Wijaya celeb Disebut Sudah Menikah , Ini Kemesraan Dewi Persik dan Angga Wijaya celeb Disebut Sudah Menikah , Ini Kemesraan Dewi Persik dan Angga Wijaya 3 celeb Mikha Tambayong Tampil Seksi , Dewi Persik Sebut Arab Gede - gede celeb Mikha Tambayong Tampil Seksi , Dewi Persik Sebut Arab Gede - gede celeb Mikha Tambayong Tampil Seksi , Dewi Persik Sebut Arab Gede - gede celeb Mikha Tambayong Tampil Seksi , Dewi Persik Sebut Arab Gede - gede celeb Mikha Tambayong Tampil Seksi , Dewi Persik Sebut Arab Gede - gede celeb Mikha Tambayong Tampil Seksi , Dewi Persik Sebut Arab Gede - gede 4 celeb Dewi Persik Takut karena Orang Arab Gede - gede , Apanya ?
+Relasi: gede(Dewi Persik Sebut Arab Gede, 4 celeb Dewi Persik Takut karena Orang Arab Gede)
+
+Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-3749315-soal-terobos-busway-dewi-persik-pertimbangkan-tempuh-jalur-hukum.txt
+Kalimat ke-34: celeb Dewi Persik Takut karena Orang Arab Gede - gede , Apanya ?
+Relasi: gede(celeb Dewi Persik Takut karena Orang Arab Gede, Apanya)
+
+Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-3749315-soal-terobos-busway-dewi-persik-pertimbangkan-tempuh-jalur-hukum.txt
+Kalimat ke-35: celeb Dewi Persik Takut karena Orang Arab Gede - gede , Apanya ?
+Relasi: gede(celeb Dewi Persik Takut karena Orang Arab Gede, Apanya)
+
+Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-3749315-soal-terobos-busway-dewi-persik-pertimbangkan-tempuh-jalur-hukum.txt
+Kalimat ke-36: celeb Dewi Persik Takut karena Orang Arab Gede - gede , Apanya ?
+Relasi: gede(celeb Dewi Persik Takut karena Orang Arab Gede, Apanya)
+
+Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-3749315-soal-terobos-busway-dewi-persik-pertimbangkan-tempuh-jalur-hukum.txt
+Kalimat ke-37: celeb Dewi Persik Takut karena Orang Arab Gede - gede , Apanya ?
+Relasi: gede(celeb Dewi Persik Takut karena Orang Arab Gede, Apanya)
+
+Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-3749315-soal-terobos-busway-dewi-persik-pertimbangkan-tempuh-jalur-hukum.txt
+Kalimat ke-38: celeb Dewi Persik Takut karena Orang Arab Gede - gede , Apanya ?
+Relasi: gede(celeb Dewi Persik Takut karena Orang Arab Gede, Apanya)
+
+Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-3749315-soal-terobos-busway-dewi-persik-pertimbangkan-tempuh-jalur-hukum.txt
+Kalimat ke-51: 8 on - stage Ciee.Dewi Persik dan Julia Perez Pegangan Tangan Terus on - stage Ciee.Dewi Persik dan Julia Perez Pegangan Tangan Terus on - stage Ciee.Dewi Persik dan Julia Perez Pegangan Tangan Terus on - stage Ciee.Dewi Persik dan Julia Perez Pegangan Tangan Terus on - stage Ciee.Dewi Persik dan Julia Perez Pegangan Tangan Terus on - stage Ciee.Dewi Persik dan Julia Perez Pegangan Tangan Terus on - stage Ciee.Dewi Persik dan Julia Perez Pegangan Tangan Terus 9 celeb Ini Jadinya Jika Jupe , Depe dan Ayu Ting Ting Sepanggung celeb Ini Jadinya Jika Jupe , Depe dan Ayu Ting Ting Sepanggung celeb Ini Jadinya Jika Jupe , Depe dan Ayu Ting Ting Sepanggung celeb Ini Jadinya Jika Jupe , Depe dan Ayu Ting Ting Sepanggung celeb Ini Jadinya Jika Jupe , Depe dan Ayu Ting Ting Sepanggung 10 photo Penampilan Ayu Dewi Persik Bergaun Batik photo Penampilan Ayu Dewi Persik Bergaun Batik photo Penampilan Ayu Dewi Persik Bergaun Batik photo Penampilan Ayu Dewi Persik Bergaun Batik photo Penampilan Ayu Dewi Persik Bergaun Batik photo Penampilan Ayu Dewi Persik Bergaun Batik 11 photo Hebohnya Julia Perez dan Dewi Persik Saat Sepanggung Lagi photo Hebohnya Julia Perez dan Dewi Persik Saat Sepanggung Lagi photo Hebohnya Julia Perez dan Dewi Persik Saat Sepanggung Lagi photo Hebohnya Julia Perez dan Dewi Persik Saat Sepanggung Lagi photo Hebohnya Julia Perez dan Dewi Persik Saat Sepanggung Lagi 1-1 celeb Penampilan Seksi Dewi Persik celeb Penampilan Seksi Dewi Persik celeb Penampilan Seksi Dewi Persik celeb Penampilan Seksi Dewi Persik celeb Penampilan Seksi Dewi Persik celeb Penampilan Seksi Dewi Persik 13 on - stage Happy dan Sendunya Dewi Persik di Atas Panggung on - stage Happy dan Sendunya Dewi Persik di Atas Panggung on - stage Happy dan Sendunya Dewi Persik di Atas Panggung on - stage Happy dan Sendunya Dewi Persik di Atas Panggung on - stage Happy dan Sendunya Dewi Persik di Atas Panggung on - stage Happy dan Sendunya Dewi Persik di Atas Panggung on - stage Happy dan Sendunya Dewi Persik di Atas Panggung 14 celeb Dewi Persik Buru - buru , Mau Ke Mana ?
+Relasi: Terus(stage Ciee.Dewi Persik dan Julia Perez Pegangan Tangan, on)
+
+Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-3749315-soal-terobos-busway-dewi-persik-pertimbangkan-tempuh-jalur-hukum.txt
+Kalimat ke-51: 8 on - stage Ciee.Dewi Persik dan Julia Perez Pegangan Tangan Terus on - stage Ciee.Dewi Persik dan Julia Perez Pegangan Tangan Terus on - stage Ciee.Dewi Persik dan Julia Perez Pegangan Tangan Terus on - stage Ciee.Dewi Persik dan Julia Perez Pegangan Tangan Terus on - stage Ciee.Dewi Persik dan Julia Perez Pegangan Tangan Terus on - stage Ciee.Dewi Persik dan Julia Perez Pegangan Tangan Terus on - stage Ciee.Dewi Persik dan Julia Perez Pegangan Tangan Terus 9 celeb Ini Jadinya Jika Jupe , Depe dan Ayu Ting Ting Sepanggung celeb Ini Jadinya Jika Jupe , Depe dan Ayu Ting Ting Sepanggung celeb Ini Jadinya Jika Jupe , Depe dan Ayu Ting Ting Sepanggung celeb Ini Jadinya Jika Jupe , Depe dan Ayu Ting Ting Sepanggung celeb Ini Jadinya Jika Jupe , Depe dan Ayu Ting Ting Sepanggung 10 photo Penampilan Ayu Dewi Persik Bergaun Batik photo Penampilan Ayu Dewi Persik Bergaun Batik photo Penampilan Ayu Dewi Persik Bergaun Batik photo Penampilan Ayu Dewi Persik Bergaun Batik photo Penampilan Ayu Dewi Persik Bergaun Batik photo Penampilan Ayu Dewi Persik Bergaun Batik 11 photo Hebohnya Julia Perez dan Dewi Persik Saat Sepanggung Lagi photo Hebohnya Julia Perez dan Dewi Persik Saat Sepanggung Lagi photo Hebohnya Julia Perez dan Dewi Persik Saat Sepanggung Lagi photo Hebohnya Julia Perez dan Dewi Persik Saat Sepanggung Lagi photo Hebohnya Julia Perez dan Dewi Persik Saat Sepanggung Lagi 1-1 celeb Penampilan Seksi Dewi Persik celeb Penampilan Seksi Dewi Persik celeb Penampilan Seksi Dewi Persik celeb Penampilan Seksi Dewi Persik celeb Penampilan Seksi Dewi Persik celeb Penampilan Seksi Dewi Persik 13 on - stage Happy dan Sendunya Dewi Persik di Atas Panggung on - stage Happy dan Sendunya Dewi Persik di Atas Panggung on - stage Happy dan Sendunya Dewi Persik di Atas Panggung on - stage Happy dan Sendunya Dewi Persik di Atas Panggung on - stage Happy dan Sendunya Dewi Persik di Atas Panggung on - stage Happy dan Sendunya Dewi Persik di Atas Panggung on - stage Happy dan Sendunya Dewi Persik di Atas Panggung 14 celeb Dewi Persik Buru - buru , Mau Ke Mana ?
+Relasi: Terus(stage Ciee.Dewi Persik dan Julia Perez Pegangan Tangan, on)
+
+Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-3749315-soal-terobos-busway-dewi-persik-pertimbangkan-tempuh-jalur-hukum.txt
+Kalimat ke-51: 8 on - stage Ciee.Dewi Persik dan Julia Perez Pegangan Tangan Terus on - stage Ciee.Dewi Persik dan Julia Perez Pegangan Tangan Terus on - stage Ciee.Dewi Persik dan Julia Perez Pegangan Tangan Terus on - stage Ciee.Dewi Persik dan Julia Perez Pegangan Tangan Terus on - stage Ciee.Dewi Persik dan Julia Perez Pegangan Tangan Terus on - stage Ciee.Dewi Persik dan Julia Perez Pegangan Tangan Terus on - stage Ciee.Dewi Persik dan Julia Perez Pegangan Tangan Terus 9 celeb Ini Jadinya Jika Jupe , Depe dan Ayu Ting Ting Sepanggung celeb Ini Jadinya Jika Jupe , Depe dan Ayu Ting Ting Sepanggung celeb Ini Jadinya Jika Jupe , Depe dan Ayu Ting Ting Sepanggung celeb Ini Jadinya Jika Jupe , Depe dan Ayu Ting Ting Sepanggung celeb Ini Jadinya Jika Jupe , Depe dan Ayu Ting Ting Sepanggung 10 photo Penampilan Ayu Dewi Persik Bergaun Batik photo Penampilan Ayu Dewi Persik Bergaun Batik photo Penampilan Ayu Dewi Persik Bergaun Batik photo Penampilan Ayu Dewi Persik Bergaun Batik photo Penampilan Ayu Dewi Persik Bergaun Batik photo Penampilan Ayu Dewi Persik Bergaun Batik 11 photo Hebohnya Julia Perez dan Dewi Persik Saat Sepanggung Lagi photo Hebohnya Julia Perez dan Dewi Persik Saat Sepanggung Lagi photo Hebohnya Julia Perez dan Dewi Persik Saat Sepanggung Lagi photo Hebohnya Julia Perez dan Dewi Persik Saat Sepanggung Lagi photo Hebohnya Julia Perez dan Dewi Persik Saat Sepanggung Lagi 1-1 celeb Penampilan Seksi Dewi Persik celeb Penampilan Seksi Dewi Persik celeb Penampilan Seksi Dewi Persik celeb Penampilan Seksi Dewi Persik celeb Penampilan Seksi Dewi Persik celeb Penampilan Seksi Dewi Persik 13 on - stage Happy dan Sendunya Dewi Persik di Atas Panggung on - stage Happy dan Sendunya Dewi Persik di Atas Panggung on - stage Happy dan Sendunya Dewi Persik di Atas Panggung on - stage Happy dan Sendunya Dewi Persik di Atas Panggung on - stage Happy dan Sendunya Dewi Persik di Atas Panggung on - stage Happy dan Sendunya Dewi Persik di Atas Panggung on - stage Happy dan Sendunya Dewi Persik di Atas Panggung 14 celeb Dewi Persik Buru - buru , Mau Ke Mana ?
+Relasi: Terus(stage Ciee.Dewi Persik dan Julia Perez Pegangan Tangan, on)
+
+Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-3749315-soal-terobos-busway-dewi-persik-pertimbangkan-tempuh-jalur-hukum.txt
+Kalimat ke-51: 8 on - stage Ciee.Dewi Persik dan Julia Perez Pegangan Tangan Terus on - stage Ciee.Dewi Persik dan Julia Perez Pegangan Tangan Terus on - stage Ciee.Dewi Persik dan Julia Perez Pegangan Tangan Terus on - stage Ciee.Dewi Persik dan Julia Perez Pegangan Tangan Terus on - stage Ciee.Dewi Persik dan Julia Perez Pegangan Tangan Terus on - stage Ciee.Dewi Persik dan Julia Perez Pegangan Tangan Terus on - stage Ciee.Dewi Persik dan Julia Perez Pegangan Tangan Terus 9 celeb Ini Jadinya Jika Jupe , Depe dan Ayu Ting Ting Sepanggung celeb Ini Jadinya Jika Jupe , Depe dan Ayu Ting Ting Sepanggung celeb Ini Jadinya Jika Jupe , Depe dan Ayu Ting Ting Sepanggung celeb Ini Jadinya Jika Jupe , Depe dan Ayu Ting Ting Sepanggung celeb Ini Jadinya Jika Jupe , Depe dan Ayu Ting Ting Sepanggung 10 photo Penampilan Ayu Dewi Persik Bergaun Batik photo Penampilan Ayu Dewi Persik Bergaun Batik photo Penampilan Ayu Dewi Persik Bergaun Batik photo Penampilan Ayu Dewi Persik Bergaun Batik photo Penampilan Ayu Dewi Persik Bergaun Batik photo Penampilan Ayu Dewi Persik Bergaun Batik 11 photo Hebohnya Julia Perez dan Dewi Persik Saat Sepanggung Lagi photo Hebohnya Julia Perez dan Dewi Persik Saat Sepanggung Lagi photo Hebohnya Julia Perez dan Dewi Persik Saat Sepanggung Lagi photo Hebohnya Julia Perez dan Dewi Persik Saat Sepanggung Lagi photo Hebohnya Julia Perez dan Dewi Persik Saat Sepanggung Lagi 1-1 celeb Penampilan Seksi Dewi Persik celeb Penampilan Seksi Dewi Persik celeb Penampilan Seksi Dewi Persik celeb Penampilan Seksi Dewi Persik celeb Penampilan Seksi Dewi Persik celeb Penampilan Seksi Dewi Persik 13 on - stage Happy dan Sendunya Dewi Persik di Atas Panggung on - stage Happy dan Sendunya Dewi Persik di Atas Panggung on - stage Happy dan Sendunya Dewi Persik di Atas Panggung on - stage Happy dan Sendunya Dewi Persik di Atas Panggung on - stage Happy dan Sendunya Dewi Persik di Atas Panggung on - stage Happy dan Sendunya Dewi Persik di Atas Panggung on - stage Happy dan Sendunya Dewi Persik di Atas Panggung 14 celeb Dewi Persik Buru - buru , Mau Ke Mana ?
+Relasi: Terus(stage Ciee.Dewi Persik dan Julia Perez Pegangan Tangan, on)
+
+Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-3749315-soal-terobos-busway-dewi-persik-pertimbangkan-tempuh-jalur-hukum.txt
+Kalimat ke-51: 8 on - stage Ciee.Dewi Persik dan Julia Perez Pegangan Tangan Terus on - stage Ciee.Dewi Persik dan Julia Perez Pegangan Tangan Terus on - stage Ciee.Dewi Persik dan Julia Perez Pegangan Tangan Terus on - stage Ciee.Dewi Persik dan Julia Perez Pegangan Tangan Terus on - stage Ciee.Dewi Persik dan Julia Perez Pegangan Tangan Terus on - stage Ciee.Dewi Persik dan Julia Perez Pegangan Tangan Terus on - stage Ciee.Dewi Persik dan Julia Perez Pegangan Tangan Terus 9 celeb Ini Jadinya Jika Jupe , Depe dan Ayu Ting Ting Sepanggung celeb Ini Jadinya Jika Jupe , Depe dan Ayu Ting Ting Sepanggung celeb Ini Jadinya Jika Jupe , Depe dan Ayu Ting Ting Sepanggung celeb Ini Jadinya Jika Jupe , Depe dan Ayu Ting Ting Sepanggung celeb Ini Jadinya Jika Jupe , Depe dan Ayu Ting Ting Sepanggung 10 photo Penampilan Ayu Dewi Persik Bergaun Batik photo Penampilan Ayu Dewi Persik Bergaun Batik photo Penampilan Ayu Dewi Persik Bergaun Batik photo Penampilan Ayu Dewi Persik Bergaun Batik photo Penampilan Ayu Dewi Persik Bergaun Batik photo Penampilan Ayu Dewi Persik Bergaun Batik 11 photo Hebohnya Julia Perez dan Dewi Persik Saat Sepanggung Lagi photo Hebohnya Julia Perez dan Dewi Persik Saat Sepanggung Lagi photo Hebohnya Julia Perez dan Dewi Persik Saat Sepanggung Lagi photo Hebohnya Julia Perez dan Dewi Persik Saat Sepanggung Lagi photo Hebohnya Julia Perez dan Dewi Persik Saat Sepanggung Lagi 1-1 celeb Penampilan Seksi Dewi Persik celeb Penampilan Seksi Dewi Persik celeb Penampilan Seksi Dewi Persik celeb Penampilan Seksi Dewi Persik celeb Penampilan Seksi Dewi Persik celeb Penampilan Seksi Dewi Persik 13 on - stage Happy dan Sendunya Dewi Persik di Atas Panggung on - stage Happy dan Sendunya Dewi Persik di Atas Panggung on - stage Happy dan Sendunya Dewi Persik di Atas Panggung on - stage Happy dan Sendunya Dewi Persik di Atas Panggung on - stage Happy dan Sendunya Dewi Persik di Atas Panggung on - stage Happy dan Sendunya Dewi Persik di Atas Panggung on - stage Happy dan Sendunya Dewi Persik di Atas Panggung 14 celeb Dewi Persik Buru - buru , Mau Ke Mana ?
+Relasi: Terus(stage Ciee.Dewi Persik dan Julia Perez Pegangan Tangan, on)
+
+Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-3749315-soal-terobos-busway-dewi-persik-pertimbangkan-tempuh-jalur-hukum.txt
+Kalimat ke-51: 8 on - stage Ciee.Dewi Persik dan Julia Perez Pegangan Tangan Terus on - stage Ciee.Dewi Persik dan Julia Perez Pegangan Tangan Terus on - stage Ciee.Dewi Persik dan Julia Perez Pegangan Tangan Terus on - stage Ciee.Dewi Persik dan Julia Perez Pegangan Tangan Terus on - stage Ciee.Dewi Persik dan Julia Perez Pegangan Tangan Terus on - stage Ciee.Dewi Persik dan Julia Perez Pegangan Tangan Terus on - stage Ciee.Dewi Persik dan Julia Perez Pegangan Tangan Terus 9 celeb Ini Jadinya Jika Jupe , Depe dan Ayu Ting Ting Sepanggung celeb Ini Jadinya Jika Jupe , Depe dan Ayu Ting Ting Sepanggung celeb Ini Jadinya Jika Jupe , Depe dan Ayu Ting Ting Sepanggung celeb Ini Jadinya Jika Jupe , Depe dan Ayu Ting Ting Sepanggung celeb Ini Jadinya Jika Jupe , Depe dan Ayu Ting Ting Sepanggung 10 photo Penampilan Ayu Dewi Persik Bergaun Batik photo Penampilan Ayu Dewi Persik Bergaun Batik photo Penampilan Ayu Dewi Persik Bergaun Batik photo Penampilan Ayu Dewi Persik Bergaun Batik photo Penampilan Ayu Dewi Persik Bergaun Batik photo Penampilan Ayu Dewi Persik Bergaun Batik 11 photo Hebohnya Julia Perez dan Dewi Persik Saat Sepanggung Lagi photo Hebohnya Julia Perez dan Dewi Persik Saat Sepanggung Lagi photo Hebohnya Julia Perez dan Dewi Persik Saat Sepanggung Lagi photo Hebohnya Julia Perez dan Dewi Persik Saat Sepanggung Lagi photo Hebohnya Julia Perez dan Dewi Persik Saat Sepanggung Lagi 1-1 celeb Penampilan Seksi Dewi Persik celeb Penampilan Seksi Dewi Persik celeb Penampilan Seksi Dewi Persik celeb Penampilan Seksi Dewi Persik celeb Penampilan Seksi Dewi Persik celeb Penampilan Seksi Dewi Persik 13 on - stage Happy dan Sendunya Dewi Persik di Atas Panggung on - stage Happy dan Sendunya Dewi Persik di Atas Panggung on - stage Happy dan Sendunya Dewi Persik di Atas Panggung on - stage Happy dan Sendunya Dewi Persik di Atas Panggung on - stage Happy dan Sendunya Dewi Persik di Atas Panggung on - stage Happy dan Sendunya Dewi Persik di Atas Panggung on - stage Happy dan Sendunya Dewi Persik di Atas Panggung 14 celeb Dewi Persik Buru - buru , Mau Ke Mana ?
+Relasi: Terus(stage Ciee.Dewi Persik dan Julia Perez Pegangan Tangan, on)
+
+Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-3749315-soal-terobos-busway-dewi-persik-pertimbangkan-tempuh-jalur-hukum.txt
+Kalimat ke-51: 8 on - stage Ciee.Dewi Persik dan Julia Perez Pegangan Tangan Terus on - stage Ciee.Dewi Persik dan Julia Perez Pegangan Tangan Terus on - stage Ciee.Dewi Persik dan Julia Perez Pegangan Tangan Terus on - stage Ciee.Dewi Persik dan Julia Perez Pegangan Tangan Terus on - stage Ciee.Dewi Persik dan Julia Perez Pegangan Tangan Terus on - stage Ciee.Dewi Persik dan Julia Perez Pegangan Tangan Terus on - stage Ciee.Dewi Persik dan Julia Perez Pegangan Tangan Terus 9 celeb Ini Jadinya Jika Jupe , Depe dan Ayu Ting Ting Sepanggung celeb Ini Jadinya Jika Jupe , Depe dan Ayu Ting Ting Sepanggung celeb Ini Jadinya Jika Jupe , Depe dan Ayu Ting Ting Sepanggung celeb Ini Jadinya Jika Jupe , Depe dan Ayu Ting Ting Sepanggung celeb Ini Jadinya Jika Jupe , Depe dan Ayu Ting Ting Sepanggung 10 photo Penampilan Ayu Dewi Persik Bergaun Batik photo Penampilan Ayu Dewi Persik Bergaun Batik photo Penampilan Ayu Dewi Persik Bergaun Batik photo Penampilan Ayu Dewi Persik Bergaun Batik photo Penampilan Ayu Dewi Persik Bergaun Batik photo Penampilan Ayu Dewi Persik Bergaun Batik 11 photo Hebohnya Julia Perez dan Dewi Persik Saat Sepanggung Lagi photo Hebohnya Julia Perez dan Dewi Persik Saat Sepanggung Lagi photo Hebohnya Julia Perez dan Dewi Persik Saat Sepanggung Lagi photo Hebohnya Julia Perez dan Dewi Persik Saat Sepanggung Lagi photo Hebohnya Julia Perez dan Dewi Persik Saat Sepanggung Lagi 1-1 celeb Penampilan Seksi Dewi Persik celeb Penampilan Seksi Dewi Persik celeb Penampilan Seksi Dewi Persik celeb Penampilan Seksi Dewi Persik celeb Penampilan Seksi Dewi Persik celeb Penampilan Seksi Dewi Persik 13 on - stage Happy dan Sendunya Dewi Persik di Atas Panggung on - stage Happy dan Sendunya Dewi Persik di Atas Panggung on - stage Happy dan Sendunya Dewi Persik di Atas Panggung on - stage Happy dan Sendunya Dewi Persik di Atas Panggung on - stage Happy dan Sendunya Dewi Persik di Atas Panggung on - stage Happy dan Sendunya Dewi Persik di Atas Panggung on - stage Happy dan Sendunya Dewi Persik di Atas Panggung 14 celeb Dewi Persik Buru - buru , Mau Ke Mana ?
+Relasi: Terus(stage Ciee.Dewi Persik dan Julia Perez Pegangan Tangan, 9 celeb Ini Jadinya)
+
+Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-3749315-soal-terobos-busway-dewi-persik-pertimbangkan-tempuh-jalur-hukum.txt
+Kalimat ke-51: 8 on - stage Ciee.Dewi Persik dan Julia Perez Pegangan Tangan Terus on - stage Ciee.Dewi Persik dan Julia Perez Pegangan Tangan Terus on - stage Ciee.Dewi Persik dan Julia Perez Pegangan Tangan Terus on - stage Ciee.Dewi Persik dan Julia Perez Pegangan Tangan Terus on - stage Ciee.Dewi Persik dan Julia Perez Pegangan Tangan Terus on - stage Ciee.Dewi Persik dan Julia Perez Pegangan Tangan Terus on - stage Ciee.Dewi Persik dan Julia Perez Pegangan Tangan Terus 9 celeb Ini Jadinya Jika Jupe , Depe dan Ayu Ting Ting Sepanggung celeb Ini Jadinya Jika Jupe , Depe dan Ayu Ting Ting Sepanggung celeb Ini Jadinya Jika Jupe , Depe dan Ayu Ting Ting Sepanggung celeb Ini Jadinya Jika Jupe , Depe dan Ayu Ting Ting Sepanggung celeb Ini Jadinya Jika Jupe , Depe dan Ayu Ting Ting Sepanggung 10 photo Penampilan Ayu Dewi Persik Bergaun Batik photo Penampilan Ayu Dewi Persik Bergaun Batik photo Penampilan Ayu Dewi Persik Bergaun Batik photo Penampilan Ayu Dewi Persik Bergaun Batik photo Penampilan Ayu Dewi Persik Bergaun Batik photo Penampilan Ayu Dewi Persik Bergaun Batik 11 photo Hebohnya Julia Perez dan Dewi Persik Saat Sepanggung Lagi photo Hebohnya Julia Perez dan Dewi Persik Saat Sepanggung Lagi photo Hebohnya Julia Perez dan Dewi Persik Saat Sepanggung Lagi photo Hebohnya Julia Perez dan Dewi Persik Saat Sepanggung Lagi photo Hebohnya Julia Perez dan Dewi Persik Saat Sepanggung Lagi 1-1 celeb Penampilan Seksi Dewi Persik celeb Penampilan Seksi Dewi Persik celeb Penampilan Seksi Dewi Persik celeb Penampilan Seksi Dewi Persik celeb Penampilan Seksi Dewi Persik celeb Penampilan Seksi Dewi Persik 13 on - stage Happy dan Sendunya Dewi Persik di Atas Panggung on - stage Happy dan Sendunya Dewi Persik di Atas Panggung on - stage Happy dan Sendunya Dewi Persik di Atas Panggung on - stage Happy dan Sendunya Dewi Persik di Atas Panggung on - stage Happy dan Sendunya Dewi Persik di Atas Panggung on - stage Happy dan Sendunya Dewi Persik di Atas Panggung on - stage Happy dan Sendunya Dewi Persik di Atas Panggung 14 celeb Dewi Persik Buru - buru , Mau Ke Mana ?
+Relasi: Lagi(Depe dan Ayu Ting Ting Sepanggung 10 photo Penampilan Ayu Dewi Persik Bergaun Batik photo Penampilan Ayu Dewi Persik Bergaun Batik photo Penampilan Ayu Dewi Persik Bergaun Batik photo Penampilan Ayu Dewi Persik Bergaun Batik photo Penampilan Ayu Dewi Persik Bergaun Batik photo Penampilan Ayu Dewi Persik Bergaun Batik 11 photo Hebohnya Julia Perez dan Dewi Persik Saat Sepanggung, photo Hebohnya Julia Perez dan Dewi Persik Saat Sepanggung)
+
+Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-3749315-soal-terobos-busway-dewi-persik-pertimbangkan-tempuh-jalur-hukum.txt
+Kalimat ke-51: 8 on - stage Ciee.Dewi Persik dan Julia Perez Pegangan Tangan Terus on - stage Ciee.Dewi Persik dan Julia Perez Pegangan Tangan Terus on - stage Ciee.Dewi Persik dan Julia Perez Pegangan Tangan Terus on - stage Ciee.Dewi Persik dan Julia Perez Pegangan Tangan Terus on - stage Ciee.Dewi Persik dan Julia Perez Pegangan Tangan Terus on - stage Ciee.Dewi Persik dan Julia Perez Pegangan Tangan Terus on - stage Ciee.Dewi Persik dan Julia Perez Pegangan Tangan Terus 9 celeb Ini Jadinya Jika Jupe , Depe dan Ayu Ting Ting Sepanggung celeb Ini Jadinya Jika Jupe , Depe dan Ayu Ting Ting Sepanggung celeb Ini Jadinya Jika Jupe , Depe dan Ayu Ting Ting Sepanggung celeb Ini Jadinya Jika Jupe , Depe dan Ayu Ting Ting Sepanggung celeb Ini Jadinya Jika Jupe , Depe dan Ayu Ting Ting Sepanggung 10 photo Penampilan Ayu Dewi Persik Bergaun Batik photo Penampilan Ayu Dewi Persik Bergaun Batik photo Penampilan Ayu Dewi Persik Bergaun Batik photo Penampilan Ayu Dewi Persik Bergaun Batik photo Penampilan Ayu Dewi Persik Bergaun Batik photo Penampilan Ayu Dewi Persik Bergaun Batik 11 photo Hebohnya Julia Perez dan Dewi Persik Saat Sepanggung Lagi photo Hebohnya Julia Perez dan Dewi Persik Saat Sepanggung Lagi photo Hebohnya Julia Perez dan Dewi Persik Saat Sepanggung Lagi photo Hebohnya Julia Perez dan Dewi Persik Saat Sepanggung Lagi photo Hebohnya Julia Perez dan Dewi Persik Saat Sepanggung Lagi 1-1 celeb Penampilan Seksi Dewi Persik celeb Penampilan Seksi Dewi Persik celeb Penampilan Seksi Dewi Persik celeb Penampilan Seksi Dewi Persik celeb Penampilan Seksi Dewi Persik celeb Penampilan Seksi Dewi Persik 13 on - stage Happy dan Sendunya Dewi Persik di Atas Panggung on - stage Happy dan Sendunya Dewi Persik di Atas Panggung on - stage Happy dan Sendunya Dewi Persik di Atas Panggung on - stage Happy dan Sendunya Dewi Persik di Atas Panggung on - stage Happy dan Sendunya Dewi Persik di Atas Panggung on - stage Happy dan Sendunya Dewi Persik di Atas Panggung on - stage Happy dan Sendunya Dewi Persik di Atas Panggung 14 celeb Dewi Persik Buru - buru , Mau Ke Mana ?
+Relasi: Lagi(photo Hebohnya Julia Perez dan Dewi Persik Saat Sepanggung, photo Hebohnya Julia Perez dan Dewi Persik Saat Sepanggung)
+
+Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-3749315-soal-terobos-busway-dewi-persik-pertimbangkan-tempuh-jalur-hukum.txt
+Kalimat ke-51: 8 on - stage Ciee.Dewi Persik dan Julia Perez Pegangan Tangan Terus on - stage Ciee.Dewi Persik dan Julia Perez Pegangan Tangan Terus on - stage Ciee.Dewi Persik dan Julia Perez Pegangan Tangan Terus on - stage Ciee.Dewi Persik dan Julia Perez Pegangan Tangan Terus on - stage Ciee.Dewi Persik dan Julia Perez Pegangan Tangan Terus on - stage Ciee.Dewi Persik dan Julia Perez Pegangan Tangan Terus on - stage Ciee.Dewi Persik dan Julia Perez Pegangan Tangan Terus 9 celeb Ini Jadinya Jika Jupe , Depe dan Ayu Ting Ting Sepanggung celeb Ini Jadinya Jika Jupe , Depe dan Ayu Ting Ting Sepanggung celeb Ini Jadinya Jika Jupe , Depe dan Ayu Ting Ting Sepanggung celeb Ini Jadinya Jika Jupe , Depe dan Ayu Ting Ting Sepanggung celeb Ini Jadinya Jika Jupe , Depe dan Ayu Ting Ting Sepanggung 10 photo Penampilan Ayu Dewi Persik Bergaun Batik photo Penampilan Ayu Dewi Persik Bergaun Batik photo Penampilan Ayu Dewi Persik Bergaun Batik photo Penampilan Ayu Dewi Persik Bergaun Batik photo Penampilan Ayu Dewi Persik Bergaun Batik photo Penampilan Ayu Dewi Persik Bergaun Batik 11 photo Hebohnya Julia Perez dan Dewi Persik Saat Sepanggung Lagi photo Hebohnya Julia Perez dan Dewi Persik Saat Sepanggung Lagi photo Hebohnya Julia Perez dan Dewi Persik Saat Sepanggung Lagi photo Hebohnya Julia Perez dan Dewi Persik Saat Sepanggung Lagi photo Hebohnya Julia Perez dan Dewi Persik Saat Sepanggung Lagi 1-1 celeb Penampilan Seksi Dewi Persik celeb Penampilan Seksi Dewi Persik celeb Penampilan Seksi Dewi Persik celeb Penampilan Seksi Dewi Persik celeb Penampilan Seksi Dewi Persik celeb Penampilan Seksi Dewi Persik 13 on - stage Happy dan Sendunya Dewi Persik di Atas Panggung on - stage Happy dan Sendunya Dewi Persik di Atas Panggung on - stage Happy dan Sendunya Dewi Persik di Atas Panggung on - stage Happy dan Sendunya Dewi Persik di Atas Panggung on - stage Happy dan Sendunya Dewi Persik di Atas Panggung on - stage Happy dan Sendunya Dewi Persik di Atas Panggung on - stage Happy dan Sendunya Dewi Persik di Atas Panggung 14 celeb Dewi Persik Buru - buru , Mau Ke Mana ?
+Relasi: Lagi(photo Hebohnya Julia Perez dan Dewi Persik Saat Sepanggung, photo Hebohnya Julia Perez dan Dewi Persik Saat Sepanggung)
+
+Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-3749315-soal-terobos-busway-dewi-persik-pertimbangkan-tempuh-jalur-hukum.txt
+Kalimat ke-51: 8 on - stage Ciee.Dewi Persik dan Julia Perez Pegangan Tangan Terus on - stage Ciee.Dewi Persik dan Julia Perez Pegangan Tangan Terus on - stage Ciee.Dewi Persik dan Julia Perez Pegangan Tangan Terus on - stage Ciee.Dewi Persik dan Julia Perez Pegangan Tangan Terus on - stage Ciee.Dewi Persik dan Julia Perez Pegangan Tangan Terus on - stage Ciee.Dewi Persik dan Julia Perez Pegangan Tangan Terus on - stage Ciee.Dewi Persik dan Julia Perez Pegangan Tangan Terus 9 celeb Ini Jadinya Jika Jupe , Depe dan Ayu Ting Ting Sepanggung celeb Ini Jadinya Jika Jupe , Depe dan Ayu Ting Ting Sepanggung celeb Ini Jadinya Jika Jupe , Depe dan Ayu Ting Ting Sepanggung celeb Ini Jadinya Jika Jupe , Depe dan Ayu Ting Ting Sepanggung celeb Ini Jadinya Jika Jupe , Depe dan Ayu Ting Ting Sepanggung 10 photo Penampilan Ayu Dewi Persik Bergaun Batik photo Penampilan Ayu Dewi Persik Bergaun Batik photo Penampilan Ayu Dewi Persik Bergaun Batik photo Penampilan Ayu Dewi Persik Bergaun Batik photo Penampilan Ayu Dewi Persik Bergaun Batik photo Penampilan Ayu Dewi Persik Bergaun Batik 11 photo Hebohnya Julia Perez dan Dewi Persik Saat Sepanggung Lagi photo Hebohnya Julia Perez dan Dewi Persik Saat Sepanggung Lagi photo Hebohnya Julia Perez dan Dewi Persik Saat Sepanggung Lagi photo Hebohnya Julia Perez dan Dewi Persik Saat Sepanggung Lagi photo Hebohnya Julia Perez dan Dewi Persik Saat Sepanggung Lagi 1-1 celeb Penampilan Seksi Dewi Persik celeb Penampilan Seksi Dewi Persik celeb Penampilan Seksi Dewi Persik celeb Penampilan Seksi Dewi Persik celeb Penampilan Seksi Dewi Persik celeb Penampilan Seksi Dewi Persik 13 on - stage Happy dan Sendunya Dewi Persik di Atas Panggung on - stage Happy dan Sendunya Dewi Persik di Atas Panggung on - stage Happy dan Sendunya Dewi Persik di Atas Panggung on - stage Happy dan Sendunya Dewi Persik di Atas Panggung on - stage Happy dan Sendunya Dewi Persik di Atas Panggung on - stage Happy dan Sendunya Dewi Persik di Atas Panggung on - stage Happy dan Sendunya Dewi Persik di Atas Panggung 14 celeb Dewi Persik Buru - buru , Mau Ke Mana ?
+Relasi: Lagi(photo Hebohnya Julia Perez dan Dewi Persik Saat Sepanggung, photo Hebohnya Julia Perez dan Dewi Persik Saat Sepanggung)
+
+Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-3749315-soal-terobos-busway-dewi-persik-pertimbangkan-tempuh-jalur-hukum.txt
+Kalimat ke-51: 8 on - stage Ciee.Dewi Persik dan Julia Perez Pegangan Tangan Terus on - stage Ciee.Dewi Persik dan Julia Perez Pegangan Tangan Terus on - stage Ciee.Dewi Persik dan Julia Perez Pegangan Tangan Terus on - stage Ciee.Dewi Persik dan Julia Perez Pegangan Tangan Terus on - stage Ciee.Dewi Persik dan Julia Perez Pegangan Tangan Terus on - stage Ciee.Dewi Persik dan Julia Perez Pegangan Tangan Terus on - stage Ciee.Dewi Persik dan Julia Perez Pegangan Tangan Terus 9 celeb Ini Jadinya Jika Jupe , Depe dan Ayu Ting Ting Sepanggung celeb Ini Jadinya Jika Jupe , Depe dan Ayu Ting Ting Sepanggung celeb Ini Jadinya Jika Jupe , Depe dan Ayu Ting Ting Sepanggung celeb Ini Jadinya Jika Jupe , Depe dan Ayu Ting Ting Sepanggung celeb Ini Jadinya Jika Jupe , Depe dan Ayu Ting Ting Sepanggung 10 photo Penampilan Ayu Dewi Persik Bergaun Batik photo Penampilan Ayu Dewi Persik Bergaun Batik photo Penampilan Ayu Dewi Persik Bergaun Batik photo Penampilan Ayu Dewi Persik Bergaun Batik photo Penampilan Ayu Dewi Persik Bergaun Batik photo Penampilan Ayu Dewi Persik Bergaun Batik 11 photo Hebohnya Julia Perez dan Dewi Persik Saat Sepanggung Lagi photo Hebohnya Julia Perez dan Dewi Persik Saat Sepanggung Lagi photo Hebohnya Julia Perez dan Dewi Persik Saat Sepanggung Lagi photo Hebohnya Julia Perez dan Dewi Persik Saat Sepanggung Lagi photo Hebohnya Julia Perez dan Dewi Persik Saat Sepanggung Lagi 1-1 celeb Penampilan Seksi Dewi Persik celeb Penampilan Seksi Dewi Persik celeb Penampilan Seksi Dewi Persik celeb Penampilan Seksi Dewi Persik celeb Penampilan Seksi Dewi Persik celeb Penampilan Seksi Dewi Persik 13 on - stage Happy dan Sendunya Dewi Persik di Atas Panggung on - stage Happy dan Sendunya Dewi Persik di Atas Panggung on - stage Happy dan Sendunya Dewi Persik di Atas Panggung on - stage Happy dan Sendunya Dewi Persik di Atas Panggung on - stage Happy dan Sendunya Dewi Persik di Atas Panggung on - stage Happy dan Sendunya Dewi Persik di Atas Panggung on - stage Happy dan Sendunya Dewi Persik di Atas Panggung 14 celeb Dewi Persik Buru - buru , Mau Ke Mana ?
+Relasi: Lagi(photo Hebohnya Julia Perez dan Dewi Persik Saat Sepanggung, 1-1 celeb Penampilan Seksi Dewi Persik celeb Penampilan Seksi Dewi Persik celeb Penampilan Seksi Dewi Persik celeb Penampilan Seksi Dewi Persik celeb Penampilan Seksi Dewi Persik celeb Penampilan Seksi Dewi Persik 13 on)
 

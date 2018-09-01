@@ -1,38 +1,18 @@
 Source: D:\openIE\data\preprocess\http-nasional-kompas-com-read-2017-11-30-06131421-alasan-pn-jaksel-pilih-hakim-kusno-pimpin-sidang-praperadilan-novanto.txt
 Kalimat ke-1: JAKARTA , KOMPAS.com Kepala Humas Pengadilan Negeri Jakarta Selatan Made Sutrisna mengatakan , publik tak perlu meragukan profesionalitas hakim Kusno , hakim tunggal yang akan memimpin sidang gugatan praperadilan yang diajukan Ketua DPR Setya Novanto  .
-Relasi: mengatakan(Kepala Humas Pengadilan Negeri Jakarta Selatan Made Sutrisna, publik)
+Relasi: meragukan(publik, profesionalitas hakim Kusno)
 
 Source: D:\openIE\data\preprocess\http-nasional-kompas-com-read-2017-11-30-06131421-alasan-pn-jaksel-pilih-hakim-kusno-pimpin-sidang-praperadilan-novanto.txt
 Kalimat ke-1: JAKARTA , KOMPAS.com Kepala Humas Pengadilan Negeri Jakarta Selatan Made Sutrisna mengatakan , publik tak perlu meragukan profesionalitas hakim Kusno , hakim tunggal yang akan memimpin sidang gugatan praperadilan yang diajukan Ketua DPR Setya Novanto  .
-Relasi: perlu meragukan(publik, profesionalitas hakim Kusno)
-
-Source: D:\openIE\data\preprocess\http-nasional-kompas-com-read-2017-11-30-06131421-alasan-pn-jaksel-pilih-hakim-kusno-pimpin-sidang-praperadilan-novanto.txt
-Kalimat ke-1: JAKARTA , KOMPAS.com Kepala Humas Pengadilan Negeri Jakarta Selatan Made Sutrisna mengatakan , publik tak perlu meragukan profesionalitas hakim Kusno , hakim tunggal yang akan memimpin sidang gugatan praperadilan yang diajukan Ketua DPR Setya Novanto  .
-Relasi: akan memimpin(hakim, sidang gugatan praperadilan)
-
-Source: D:\openIE\data\preprocess\http-nasional-kompas-com-read-2017-11-30-06131421-alasan-pn-jaksel-pilih-hakim-kusno-pimpin-sidang-praperadilan-novanto.txt
-Kalimat ke-1: JAKARTA , KOMPAS.com Kepala Humas Pengadilan Negeri Jakarta Selatan Made Sutrisna mengatakan , publik tak perlu meragukan profesionalitas hakim Kusno , hakim tunggal yang akan memimpin sidang gugatan praperadilan yang diajukan Ketua DPR Setya Novanto  .
-Relasi: diajukan(sidang gugatan praperadilan, Ketua DPR Setya Novanto)
+Relasi: memimpin(hakim tunggal, sidang gugatan praperadilan)
 
 Source: D:\openIE\data\preprocess\http-nasional-kompas-com-read-2017-11-30-06131421-alasan-pn-jaksel-pilih-hakim-kusno-pimpin-sidang-praperadilan-novanto.txt
 Kalimat ke-2: Sidang perdana praperadilan akan digelar di PN Jakarta Selatan , Kamis ( 30/11/2017 )  .
-Relasi: akan digelar di(Sidang perdana praperadilan, PN Jakarta Selatan)
-
-Source: D:\openIE\data\preprocess\http-nasional-kompas-com-read-2017-11-30-06131421-alasan-pn-jaksel-pilih-hakim-kusno-pimpin-sidang-praperadilan-novanto.txt
-Kalimat ke-3: " Iya , yang jelas profesionalismenya itu tidak diragukanlah, " kata Sutrisna saat dihubungi Kompas.com , Rabu ( 29/11/2017 )  .
-Relasi: kata(jelas profesionalismenya, Sutrisna)
-
-Source: D:\openIE\data\preprocess\http-nasional-kompas-com-read-2017-11-30-06131421-alasan-pn-jaksel-pilih-hakim-kusno-pimpin-sidang-praperadilan-novanto.txt
-Kalimat ke-3: " Iya , yang jelas profesionalismenya itu tidak diragukanlah, " kata Sutrisna saat dihubungi Kompas.com , Rabu ( 29/11/2017 )  .
-Relasi: dihubungi(Sutrisna, Rabu)
+Relasi: digelar(Sidang perdana praperadilan, PN Jakarta Selatan)
 
 Source: D:\openIE\data\preprocess\http-nasional-kompas-com-read-2017-11-30-06131421-alasan-pn-jaksel-pilih-hakim-kusno-pimpin-sidang-praperadilan-novanto.txt
 Kalimat ke-4: Baca:Hasil Penelusuran ICW Terkait Rekam Jejak Hakim Praperadilan Novanto Sutrisna mengatakan , Kusno merupakan hakim berprestasi  .
-Relasi: Terkait(Penelusuran ICW, Rekam Jejak Hakim Praperadilan Novanto Sutrisna)
-
-Source: D:\openIE\data\preprocess\http-nasional-kompas-com-read-2017-11-30-06131421-alasan-pn-jaksel-pilih-hakim-kusno-pimpin-sidang-praperadilan-novanto.txt
-Kalimat ke-4: Baca:Hasil Penelusuran ICW Terkait Rekam Jejak Hakim Praperadilan Novanto Sutrisna mengatakan , Kusno merupakan hakim berprestasi  .
-Relasi: mengatakan(Rekam Jejak Hakim Praperadilan Novanto Sutrisna, Kusno)
+Relasi: Terkait(Baca:Hasil Penelusuran ICW, Rekam Jejak Hakim Praperadilan Novanto Sutrisna)
 
 Source: D:\openIE\data\preprocess\http-nasional-kompas-com-read-2017-11-30-06131421-alasan-pn-jaksel-pilih-hakim-kusno-pimpin-sidang-praperadilan-novanto.txt
 Kalimat ke-4: Baca:Hasil Penelusuran ICW Terkait Rekam Jejak Hakim Praperadilan Novanto Sutrisna mengatakan , Kusno merupakan hakim berprestasi  .
@@ -40,43 +20,35 @@ Relasi: merupakan(Kusno, hakim)
 
 Source: D:\openIE\data\preprocess\http-nasional-kompas-com-read-2017-11-30-06131421-alasan-pn-jaksel-pilih-hakim-kusno-pimpin-sidang-praperadilan-novanto.txt
 Kalimat ke-5: Hal itu , kata dia , tecermin dari jabatan yang diemban Kusno sebagai Wakil Ketua Pengadilan Negeri Jakarta Selatan  .
-Relasi: kata(Hal, jabatan)
+Relasi: kata(Hal itu, dia)
 
 Source: D:\openIE\data\preprocess\http-nasional-kompas-com-read-2017-11-30-06131421-alasan-pn-jaksel-pilih-hakim-kusno-pimpin-sidang-praperadilan-novanto.txt
 Kalimat ke-5: Hal itu , kata dia , tecermin dari jabatan yang diemban Kusno sebagai Wakil Ketua Pengadilan Negeri Jakarta Selatan  .
-Relasi: diemban Kusno sebagai(jabatan, Wakil Ketua Pengadilan Negeri Jakarta Selatan)
+Relasi: diemban(jabatan, Kusno)
 
 Source: D:\openIE\data\preprocess\http-nasional-kompas-com-read-2017-11-30-06131421-alasan-pn-jaksel-pilih-hakim-kusno-pimpin-sidang-praperadilan-novanto.txt
 Kalimat ke-6: KOMPAS.com/AMBARANIE NADIA Humas Pengadilan Negeri Jakarta Selatan I Made Sutrisna."Kalau berbicara tentang prestasi dia , tentu sudah sampai ke taraf menjadi wakil ketua pengadilan setingkat di Jakarta itu tentu sudah melalui ujian - ujian , fit and proper test , ya, " ujar Made  .
-Relasi: berbicara tentang(Made, prestasi)
+Relasi: berbicara(NADIA Humas Pengadilan Negeri Jakarta Selatan I Made Sutrisna."Kalau, prestasi dia)
 
 Source: D:\openIE\data\preprocess\http-nasional-kompas-com-read-2017-11-30-06131421-alasan-pn-jaksel-pilih-hakim-kusno-pimpin-sidang-praperadilan-novanto.txt
 Kalimat ke-6: KOMPAS.com/AMBARANIE NADIA Humas Pengadilan Negeri Jakarta Selatan I Made Sutrisna."Kalau berbicara tentang prestasi dia , tentu sudah sampai ke taraf menjadi wakil ketua pengadilan setingkat di Jakarta itu tentu sudah melalui ujian - ujian , fit and proper test , ya, " ujar Made  .
-Relasi: sudah sampai ke(prestasi, taraf)
+Relasi: tentu sampai(prestasi dia, taraf)
 
 Source: D:\openIE\data\preprocess\http-nasional-kompas-com-read-2017-11-30-06131421-alasan-pn-jaksel-pilih-hakim-kusno-pimpin-sidang-praperadilan-novanto.txt
 Kalimat ke-6: KOMPAS.com/AMBARANIE NADIA Humas Pengadilan Negeri Jakarta Selatan I Made Sutrisna."Kalau berbicara tentang prestasi dia , tentu sudah sampai ke taraf menjadi wakil ketua pengadilan setingkat di Jakarta itu tentu sudah melalui ujian - ujian , fit and proper test , ya, " ujar Made  .
-Relasi: menjadi wakil ketua pengadilan setingkat di(taraf, ujian)
+Relasi: menjadi(taraf, wakil ketua pengadilan setingkat)
 
 Source: D:\openIE\data\preprocess\http-nasional-kompas-com-read-2017-11-30-06131421-alasan-pn-jaksel-pilih-hakim-kusno-pimpin-sidang-praperadilan-novanto.txt
 Kalimat ke-6: KOMPAS.com/AMBARANIE NADIA Humas Pengadilan Negeri Jakarta Selatan I Made Sutrisna."Kalau berbicara tentang prestasi dia , tentu sudah sampai ke taraf menjadi wakil ketua pengadilan setingkat di Jakarta itu tentu sudah melalui ujian - ujian , fit and proper test , ya, " ujar Made  .
-Relasi: sudah melalui(wakil ketua pengadilan setingkat, ujian)
+Relasi: tentu melalui(Jakarta itu, ujian)
 
 Source: D:\openIE\data\preprocess\http-nasional-kompas-com-read-2017-11-30-06131421-alasan-pn-jaksel-pilih-hakim-kusno-pimpin-sidang-praperadilan-novanto.txt
-Kalimat ke-7: Sutrisna mengatakan , Kusno bukan orang baru di lingkungan PN Jaksel  .
-Relasi: mengatakan(Sutrisna, Kusno)
+Kalimat ke-6: KOMPAS.com/AMBARANIE NADIA Humas Pengadilan Negeri Jakarta Selatan I Made Sutrisna."Kalau berbicara tentang prestasi dia , tentu sudah sampai ke taraf menjadi wakil ketua pengadilan setingkat di Jakarta itu tentu sudah melalui ujian - ujian , fit and proper test , ya, " ujar Made  .
+Relasi: ujar(fit and proper test, Made)
 
 Source: D:\openIE\data\preprocess\http-nasional-kompas-com-read-2017-11-30-06131421-alasan-pn-jaksel-pilih-hakim-kusno-pimpin-sidang-praperadilan-novanto.txt
 Kalimat ke-8: Sekitar tahun 2004 , ia pernah menjadi hakim anggota tiga tahun  .
-Relasi: menjadi(Sekitar tahun 2004, hakim anggota tiga tahun)
-
-Source: D:\openIE\data\preprocess\http-nasional-kompas-com-read-2017-11-30-06131421-alasan-pn-jaksel-pilih-hakim-kusno-pimpin-sidang-praperadilan-novanto.txt
-Kalimat ke-9: Baca:KPK Siap 100 Persen Hadapi Praperadilan Setya Novanto Kusno juga pernah menjadi pimpinan sejumlah pengadilan di daerah  .
-Relasi: Hadapi(100 Persen, Praperadilan)
-
-Source: D:\openIE\data\preprocess\http-nasional-kompas-com-read-2017-11-30-06131421-alasan-pn-jaksel-pilih-hakim-kusno-pimpin-sidang-praperadilan-novanto.txt
-Kalimat ke-9: Baca:KPK Siap 100 Persen Hadapi Praperadilan Setya Novanto Kusno juga pernah menjadi pimpinan sejumlah pengadilan di daerah  .
-Relasi: menjadi(Novanto Kusno, pimpinan sejumlah pengadilan)
+Relasi: pernah menjadi(ia, hakim anggota tiga tahun)
 
 Source: D:\openIE\data\preprocess\http-nasional-kompas-com-read-2017-11-30-06131421-alasan-pn-jaksel-pilih-hakim-kusno-pimpin-sidang-praperadilan-novanto.txt
 Kalimat ke-10: Sebelum bertugas di PN Jaksel , Kusno menjabat Ketua Pengadilan Negeri Pontianak  .
@@ -84,31 +56,35 @@ Relasi: menjabat(Kusno, Ketua Pengadilan Negeri Pontianak)
 
 Source: D:\openIE\data\preprocess\http-nasional-kompas-com-read-2017-11-30-06131421-alasan-pn-jaksel-pilih-hakim-kusno-pimpin-sidang-praperadilan-novanto.txt
 Kalimat ke-11: " Setelah menjadi pimpinan - pimpinan di daerah , ikut fit and proper test dan sekarang menjadi wakil ketua lagi di Jakarta Selatan, " ujar Sutrisna  .
-Relasi: ikut(daerah, fit and proper test)
+Relasi: ikut(daerah, fit and proper test dan sekarang)
 
 Source: D:\openIE\data\preprocess\http-nasional-kompas-com-read-2017-11-30-06131421-alasan-pn-jaksel-pilih-hakim-kusno-pimpin-sidang-praperadilan-novanto.txt
 Kalimat ke-11: " Setelah menjadi pimpinan - pimpinan di daerah , ikut fit and proper test dan sekarang menjadi wakil ketua lagi di Jakarta Selatan, " ujar Sutrisna  .
-Relasi: menjadi wakil ketua lagi di(sekarang, Jakarta)
-
-Source: D:\openIE\data\preprocess\http-nasional-kompas-com-read-2017-11-30-06131421-alasan-pn-jaksel-pilih-hakim-kusno-pimpin-sidang-praperadilan-novanto.txt
-Kalimat ke-11: " Setelah menjadi pimpinan - pimpinan di daerah , ikut fit and proper test dan sekarang menjadi wakil ketua lagi di Jakarta Selatan, " ujar Sutrisna  .
-Relasi: ujar(Jakarta, Sutrisna)
+Relasi: ujar(Jakarta Selatan,, Sutrisna)
 
 Source: D:\openIE\data\preprocess\http-nasional-kompas-com-read-2017-11-30-06131421-alasan-pn-jaksel-pilih-hakim-kusno-pimpin-sidang-praperadilan-novanto.txt
 Kalimat ke-12: Akan tetapi , Sutrisna tak bisa menyebutkan kasus - kasus besar apa saja yang pernah ditangani Kusno  .
-Relasi: bisa menyebutkan(Sutrisna, kasus)
-
-Source: D:\openIE\data\preprocess\http-nasional-kompas-com-read-2017-11-30-06131421-alasan-pn-jaksel-pilih-hakim-kusno-pimpin-sidang-praperadilan-novanto.txt
-Kalimat ke-12: Akan tetapi , Sutrisna tak bisa menyebutkan kasus - kasus besar apa saja yang pernah ditangani Kusno  .
-Relasi: ditangani(kasus, Kusno)
+Relasi: menyebutkan(Sutrisna, kasus)
 
 Source: D:\openIE\data\preprocess\http-nasional-kompas-com-read-2017-11-30-06131421-alasan-pn-jaksel-pilih-hakim-kusno-pimpin-sidang-praperadilan-novanto.txt
 Kalimat ke-13: " Saya tidak terlalu hafal kasus - kasus apa , tetapi memang kasus - kasus di Jakarta Selatan pasti ada kasus - kasus besarlah , Jaksel memang banyak kasus besar, " ujar Sutrisna  .
-Relasi: ada(Jakarta Selatan, Jaksel)
+Relasi: terlalu hafal(Saya, kasus)
 
 Source: D:\openIE\data\preprocess\http-nasional-kompas-com-read-2017-11-30-06131421-alasan-pn-jaksel-pilih-hakim-kusno-pimpin-sidang-praperadilan-novanto.txt
 Kalimat ke-13: " Saya tidak terlalu hafal kasus - kasus apa , tetapi memang kasus - kasus di Jakarta Selatan pasti ada kasus - kasus besarlah , Jaksel memang banyak kasus besar, " ujar Sutrisna  .
-Relasi: ujar(banyak kasus, Sutrisna)
+Relasi: memang(kasus, kasus)
+
+Source: D:\openIE\data\preprocess\http-nasional-kompas-com-read-2017-11-30-06131421-alasan-pn-jaksel-pilih-hakim-kusno-pimpin-sidang-praperadilan-novanto.txt
+Kalimat ke-13: " Saya tidak terlalu hafal kasus - kasus apa , tetapi memang kasus - kasus di Jakarta Selatan pasti ada kasus - kasus besarlah , Jaksel memang banyak kasus besar, " ujar Sutrisna  .
+Relasi: ada(Jakarta Selatan pasti, kasus)
+
+Source: D:\openIE\data\preprocess\http-nasional-kompas-com-read-2017-11-30-06131421-alasan-pn-jaksel-pilih-hakim-kusno-pimpin-sidang-praperadilan-novanto.txt
+Kalimat ke-13: " Saya tidak terlalu hafal kasus - kasus apa , tetapi memang kasus - kasus di Jakarta Selatan pasti ada kasus - kasus besarlah , Jaksel memang banyak kasus besar, " ujar Sutrisna  .
+Relasi: ujar(kasus besar,, Sutrisna)
+
+Source: D:\openIE\data\preprocess\http-nasional-kompas-com-read-2017-11-30-06131421-alasan-pn-jaksel-pilih-hakim-kusno-pimpin-sidang-praperadilan-novanto.txt
+Kalimat ke-14: Baca juga:ICW : Hakim Praperadilan Setya Novanto Pernah Bebaskan Koruptor Mengenai catatan bahwa Kusno pernah membebaskan empat terdakwa kasus korupsi , Sutrisna mengatakan , putusan hakim pasti berdasarkan bukti di pengadilan  .
+Relasi: juga:ICW(Baca, Hakim Praperadilan Setya Novanto Pernah Bebaskan Koruptor)
 
 Source: D:\openIE\data\preprocess\http-nasional-kompas-com-read-2017-11-30-06131421-alasan-pn-jaksel-pilih-hakim-kusno-pimpin-sidang-praperadilan-novanto.txt
 Kalimat ke-14: Baca juga:ICW : Hakim Praperadilan Setya Novanto Pernah Bebaskan Koruptor Mengenai catatan bahwa Kusno pernah membebaskan empat terdakwa kasus korupsi , Sutrisna mengatakan , putusan hakim pasti berdasarkan bukti di pengadilan  .
@@ -116,15 +92,15 @@ Relasi: Mengenai(Hakim Praperadilan Setya Novanto Pernah Bebaskan Koruptor, cata
 
 Source: D:\openIE\data\preprocess\http-nasional-kompas-com-read-2017-11-30-06131421-alasan-pn-jaksel-pilih-hakim-kusno-pimpin-sidang-praperadilan-novanto.txt
 Kalimat ke-14: Baca juga:ICW : Hakim Praperadilan Setya Novanto Pernah Bebaskan Koruptor Mengenai catatan bahwa Kusno pernah membebaskan empat terdakwa kasus korupsi , Sutrisna mengatakan , putusan hakim pasti berdasarkan bukti di pengadilan  .
-Relasi: membebaskan(Kusno, empat terdakwa kasus korupsi)
+Relasi: pernah membebaskan(Kusno, empat terdakwa kasus korupsi)
 
 Source: D:\openIE\data\preprocess\http-nasional-kompas-com-read-2017-11-30-06131421-alasan-pn-jaksel-pilih-hakim-kusno-pimpin-sidang-praperadilan-novanto.txt
 Kalimat ke-14: Baca juga:ICW : Hakim Praperadilan Setya Novanto Pernah Bebaskan Koruptor Mengenai catatan bahwa Kusno pernah membebaskan empat terdakwa kasus korupsi , Sutrisna mengatakan , putusan hakim pasti berdasarkan bukti di pengadilan  .
-Relasi: mengatakan(Sutrisna, putusan hakim)
+Relasi: mengatakan(Sutrisna, putusan hakim pasti)
 
 Source: D:\openIE\data\preprocess\http-nasional-kompas-com-read-2017-11-30-06131421-alasan-pn-jaksel-pilih-hakim-kusno-pimpin-sidang-praperadilan-novanto.txt
 Kalimat ke-14: Baca juga:ICW : Hakim Praperadilan Setya Novanto Pernah Bebaskan Koruptor Mengenai catatan bahwa Kusno pernah membebaskan empat terdakwa kasus korupsi , Sutrisna mengatakan , putusan hakim pasti berdasarkan bukti di pengadilan  .
-Relasi: berdasarkan bukti di(putusan hakim, pengadilan)
+Relasi: berdasarkan(putusan hakim pasti, bukti)
 
 Source: D:\openIE\data\preprocess\http-nasional-kompas-com-read-2017-11-30-06131421-alasan-pn-jaksel-pilih-hakim-kusno-pimpin-sidang-praperadilan-novanto.txt
 Kalimat ke-15: " Hakim , kan , mempunyai wewenang membebaskan orang ( atau ) menghukum orang berdasarkan bukti - bukti yang ditemukan di persidangan, " ujar Sutrisna  .
@@ -132,35 +108,11 @@ Relasi: mempunyai(Hakim, wewenang)
 
 Source: D:\openIE\data\preprocess\http-nasional-kompas-com-read-2017-11-30-06131421-alasan-pn-jaksel-pilih-hakim-kusno-pimpin-sidang-praperadilan-novanto.txt
 Kalimat ke-15: " Hakim , kan , mempunyai wewenang membebaskan orang ( atau ) menghukum orang berdasarkan bukti - bukti yang ditemukan di persidangan, " ujar Sutrisna  .
-Relasi: membebaskan(wewenang, orang)
-
-Source: D:\openIE\data\preprocess\http-nasional-kompas-com-read-2017-11-30-06131421-alasan-pn-jaksel-pilih-hakim-kusno-pimpin-sidang-praperadilan-novanto.txt
-Kalimat ke-15: " Hakim , kan , mempunyai wewenang membebaskan orang ( atau ) menghukum orang berdasarkan bukti - bukti yang ditemukan di persidangan, " ujar Sutrisna  .
-Relasi: menghukum(orang, bukti)
-
-Source: D:\openIE\data\preprocess\http-nasional-kompas-com-read-2017-11-30-06131421-alasan-pn-jaksel-pilih-hakim-kusno-pimpin-sidang-praperadilan-novanto.txt
-Kalimat ke-15: " Hakim , kan , mempunyai wewenang membebaskan orang ( atau ) menghukum orang berdasarkan bukti - bukti yang ditemukan di persidangan, " ujar Sutrisna  .
-Relasi: berdasarkan(orang, bukti)
-
-Source: D:\openIE\data\preprocess\http-nasional-kompas-com-read-2017-11-30-06131421-alasan-pn-jaksel-pilih-hakim-kusno-pimpin-sidang-praperadilan-novanto.txt
-Kalimat ke-15: " Hakim , kan , mempunyai wewenang membebaskan orang ( atau ) menghukum orang berdasarkan bukti - bukti yang ditemukan di persidangan, " ujar Sutrisna  .
-Relasi: ditemukan di(bukti, Sutrisna)
-
-Source: D:\openIE\data\preprocess\http-nasional-kompas-com-read-2017-11-30-06131421-alasan-pn-jaksel-pilih-hakim-kusno-pimpin-sidang-praperadilan-novanto.txt
-Kalimat ke-15: " Hakim , kan , mempunyai wewenang membebaskan orang ( atau ) menghukum orang berdasarkan bukti - bukti yang ditemukan di persidangan, " ujar Sutrisna  .
-Relasi: ujar(bukti, Sutrisna)
+Relasi: ujar(persidangan,, Sutrisna)
 
 Source: D:\openIE\data\preprocess\http-nasional-kompas-com-read-2017-11-30-06131421-alasan-pn-jaksel-pilih-hakim-kusno-pimpin-sidang-praperadilan-novanto.txt
 Kalimat ke-16: Baca:Wakil Ketua KPK : Berkas Penyidikan Novanto Sudah Selesai Berdasarkan penelusuran Indonesia Corruption Watch ( ICW) , Kusno pernah membebaskan empat terdakwa korupsi saat menjabat hakim di Pengadilan Negeri Pontianak  .
-Relasi: Berdasarkan(Selesai, penelusuran Indonesia Corruption Watch)
-
-Source: D:\openIE\data\preprocess\http-nasional-kompas-com-read-2017-11-30-06131421-alasan-pn-jaksel-pilih-hakim-kusno-pimpin-sidang-praperadilan-novanto.txt
-Kalimat ke-16: Baca:Wakil Ketua KPK : Berkas Penyidikan Novanto Sudah Selesai Berdasarkan penelusuran Indonesia Corruption Watch ( ICW) , Kusno pernah membebaskan empat terdakwa korupsi saat menjabat hakim di Pengadilan Negeri Pontianak  .
-Relasi: membebaskan(Kusno, empat terdakwa korupsi)
-
-Source: D:\openIE\data\preprocess\http-nasional-kompas-com-read-2017-11-30-06131421-alasan-pn-jaksel-pilih-hakim-kusno-pimpin-sidang-praperadilan-novanto.txt
-Kalimat ke-16: Baca:Wakil Ketua KPK : Berkas Penyidikan Novanto Sudah Selesai Berdasarkan penelusuran Indonesia Corruption Watch ( ICW) , Kusno pernah membebaskan empat terdakwa korupsi saat menjabat hakim di Pengadilan Negeri Pontianak  .
-Relasi: menjabat hakim di(empat terdakwa korupsi, Pengadilan Negeri Pontianak)
+Relasi: pernah membebaskan(Kusno, empat terdakwa korupsi)
 
 Source: D:\openIE\data\preprocess\http-nasional-kompas-com-read-2017-11-30-06131421-alasan-pn-jaksel-pilih-hakim-kusno-pimpin-sidang-praperadilan-novanto.txt
 Kalimat ke-17: ICW mengingatkan KPK berhati - hati dalam menghadapi praperadilan ini  .
@@ -168,17 +120,5 @@ Relasi: mengingatkan(ICW, KPK)
 
 Source: D:\openIE\data\preprocess\http-nasional-kompas-com-read-2017-11-30-06131421-alasan-pn-jaksel-pilih-hakim-kusno-pimpin-sidang-praperadilan-novanto.txt
 Kalimat ke-17: ICW mengingatkan KPK berhati - hati dalam menghadapi praperadilan ini  .
-Relasi: berhati(KPK, praperadilan)
-
-Source: D:\openIE\data\preprocess\http-nasional-kompas-com-read-2017-11-30-06131421-alasan-pn-jaksel-pilih-hakim-kusno-pimpin-sidang-praperadilan-novanto.txt
-Kalimat ke-17: ICW mengingatkan KPK berhati - hati dalam menghadapi praperadilan ini  .
-Relasi: menghadapi(hati, praperadilan)
-
-Source: D:\openIE\data\preprocess\http-nasional-kompas-com-read-2017-11-30-06131421-alasan-pn-jaksel-pilih-hakim-kusno-pimpin-sidang-praperadilan-novanto.txt
-Kalimat ke-18: ICW juga mengingatkan KPK jangan sampai kalah lagi dari Novanto seperti pada praperadilan sebelumnya  .
-Relasi: mengingatkan(ICW, KPK)
-
-Source: D:\openIE\data\preprocess\http-nasional-kompas-com-read-2017-11-30-06131421-alasan-pn-jaksel-pilih-hakim-kusno-pimpin-sidang-praperadilan-novanto.txt
-Kalimat ke-18: ICW juga mengingatkan KPK jangan sampai kalah lagi dari Novanto seperti pada praperadilan sebelumnya  .
-Relasi: sampai kalah lagi dari(KPK, Novanto)
+Relasi: menghadapi(hati, praperadilan ini)
 

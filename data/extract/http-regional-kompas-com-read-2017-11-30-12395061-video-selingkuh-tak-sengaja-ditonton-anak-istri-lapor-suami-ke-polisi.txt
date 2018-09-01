@@ -4,7 +4,11 @@ Relasi: berinisial(Seorang istri, M)
 
 Source: D:\openIE\data\preprocess\http-regional-kompas-com-read-2017-11-30-12395061-video-selingkuh-tak-sengaja-ditonton-anak-istri-lapor-suami-ke-polisi.txt
 Kalimat ke-1: Seorang istri berinisial M ( 43) , warga Jakabaring , melaporkan suaminya ke Mapolresta Palembang  .
-Relasi: melaporkan suaminya ke(warga Jakabaring, Mapolresta Palembang)
+Relasi: melaporkan(warga Jakabaring, suaminya)
+
+Source: D:\openIE\data\preprocess\http-regional-kompas-com-read-2017-11-30-12395061-video-selingkuh-tak-sengaja-ditonton-anak-istri-lapor-suami-ke-polisi.txt
+Kalimat ke-2: Dia melaporkan perselingkuhan suaminya dengan wanita berinisial DP ( 43) , oknum PNS di Pemerintah Kota Palembang  .
+Relasi: melaporkan perselingkuhan(Dia, suaminya)
 
 Source: D:\openIE\data\preprocess\http-regional-kompas-com-read-2017-11-30-12395061-video-selingkuh-tak-sengaja-ditonton-anak-istri-lapor-suami-ke-polisi.txt
 Kalimat ke-2: Dia melaporkan perselingkuhan suaminya dengan wanita berinisial DP ( 43) , oknum PNS di Pemerintah Kota Palembang  .
@@ -15,52 +19,36 @@ Kalimat ke-3: Martini melaporkan suaminya berdasarkan video porno suami dan oknu
 Relasi: melaporkan(Martini, suaminya)
 
 Source: D:\openIE\data\preprocess\http-regional-kompas-com-read-2017-11-30-12395061-video-selingkuh-tak-sengaja-ditonton-anak-istri-lapor-suami-ke-polisi.txt
-Kalimat ke-3: Martini melaporkan suaminya berdasarkan video porno suami dan oknum PNS tersebut  .
-Relasi: berdasarkan(suaminya, video porno suami)
-
-Source: D:\openIE\data\preprocess\http-regional-kompas-com-read-2017-11-30-12395061-video-selingkuh-tak-sengaja-ditonton-anak-istri-lapor-suami-ke-polisi.txt
 Kalimat ke-4: " Pertama , anak saya yang melihat video itu  .
-Relasi: melihat(anak, video)
+Relasi: melihat(anak saya, video itu)
 
 Source: D:\openIE\data\preprocess\http-regional-kompas-com-read-2017-11-30-12395061-video-selingkuh-tak-sengaja-ditonton-anak-istri-lapor-suami-ke-polisi.txt
 Kalimat ke-6: Sebagai istri tentu saya tidak terima suami saya selingkuh, " ungkap Martini saat melapor ke SPKT Polresta Palembang , Rabu ( 30/11/2017 )  .
-Relasi: terima(istri, suami)
-
-Source: D:\openIE\data\preprocess\http-regional-kompas-com-read-2017-11-30-12395061-video-selingkuh-tak-sengaja-ditonton-anak-istri-lapor-suami-ke-polisi.txt
-Kalimat ke-6: Sebagai istri tentu saya tidak terima suami saya selingkuh, " ungkap Martini saat melapor ke SPKT Polresta Palembang , Rabu ( 30/11/2017 )  .
-Relasi: ungkap(suami, Martini)
-
-Source: D:\openIE\data\preprocess\http-regional-kompas-com-read-2017-11-30-12395061-video-selingkuh-tak-sengaja-ditonton-anak-istri-lapor-suami-ke-polisi.txt
-Kalimat ke-6: Sebagai istri tentu saya tidak terima suami saya selingkuh, " ungkap Martini saat melapor ke SPKT Polresta Palembang , Rabu ( 30/11/2017 )  .
-Relasi: melapor ke(Martini, SPKT Polresta Palembang)
+Relasi: tidak terima(saya, suami saya selingkuh,)
 
 Source: D:\openIE\data\preprocess\http-regional-kompas-com-read-2017-11-30-12395061-video-selingkuh-tak-sengaja-ditonton-anak-istri-lapor-suami-ke-polisi.txt
 Kalimat ke-7: Menurut Martini , dalam video yang berdurasi sekitar 3 menit itu , suaminya dan DP sedang berhubungan badan di sebuah hotel yang diduga ada di Kota Palembang  .
-Relasi: berdurasi(video, sekitar 3 menit)
+Relasi: berdurasi(video, sekitar 3 menit itu)
 
 Source: D:\openIE\data\preprocess\http-regional-kompas-com-read-2017-11-30-12395061-video-selingkuh-tak-sengaja-ditonton-anak-istri-lapor-suami-ke-polisi.txt
 Kalimat ke-7: Menurut Martini , dalam video yang berdurasi sekitar 3 menit itu , suaminya dan DP sedang berhubungan badan di sebuah hotel yang diduga ada di Kota Palembang  .
-Relasi: berhubungan badan di(DP, sebuah hotel)
+Relasi: sedang berhubungan(suaminya dan DP, badan)
 
 Source: D:\openIE\data\preprocess\http-regional-kompas-com-read-2017-11-30-12395061-video-selingkuh-tak-sengaja-ditonton-anak-istri-lapor-suami-ke-polisi.txt
 Kalimat ke-7: Menurut Martini , dalam video yang berdurasi sekitar 3 menit itu , suaminya dan DP sedang berhubungan badan di sebuah hotel yang diduga ada di Kota Palembang  .
-Relasi: diduga ada di(sebuah hotel, Kota Palembang)
+Relasi: diduga ada(sebuah hotel, Kota Palembang)
 
 Source: D:\openIE\data\preprocess\http-regional-kompas-com-read-2017-11-30-12395061-video-selingkuh-tak-sengaja-ditonton-anak-istri-lapor-suami-ke-polisi.txt
 Kalimat ke-8: " Saya tidak menyangka , sebagai seorang PNS , wanita itu berbuat mesum dengan suami orang  .
-Relasi: berbuat mesum dengan(wanita, suami orang)
+Relasi: tidak menyangka(Saya, seorang PNS)
+
+Source: D:\openIE\data\preprocess\http-regional-kompas-com-read-2017-11-30-12395061-video-selingkuh-tak-sengaja-ditonton-anak-istri-lapor-suami-ke-polisi.txt
+Kalimat ke-8: " Saya tidak menyangka , sebagai seorang PNS , wanita itu berbuat mesum dengan suami orang  .
+Relasi: berbuat mesum(wanita itu, suami orang)
 
 Source: D:\openIE\data\preprocess\http-regional-kompas-com-read-2017-11-30-12395061-video-selingkuh-tak-sengaja-ditonton-anak-istri-lapor-suami-ke-polisi.txt
 Kalimat ke-10: Martini menjelaskan , selama ini suaminya mengaku , dia kerap kali datang ke kelurahan tempat oknum PNS tersebut berdinas  .
-Relasi: menjelaskan(Martini, kerap kali)
-
-Source: D:\openIE\data\preprocess\http-regional-kompas-com-read-2017-11-30-12395061-video-selingkuh-tak-sengaja-ditonton-anak-istri-lapor-suami-ke-polisi.txt
-Kalimat ke-10: Martini menjelaskan , selama ini suaminya mengaku , dia kerap kali datang ke kelurahan tempat oknum PNS tersebut berdinas  .
-Relasi: mengaku(Martini, kerap kali)
-
-Source: D:\openIE\data\preprocess\http-regional-kompas-com-read-2017-11-30-12395061-video-selingkuh-tak-sengaja-ditonton-anak-istri-lapor-suami-ke-polisi.txt
-Kalimat ke-10: Martini menjelaskan , selama ini suaminya mengaku , dia kerap kali datang ke kelurahan tempat oknum PNS tersebut berdinas  .
-Relasi: datang ke(kerap kali, kelurahan tempat oknum PNS)
+Relasi: menjelaskan mengaku(Martini, dia kerap)
 
 Source: D:\openIE\data\preprocess\http-regional-kompas-com-read-2017-11-30-12395061-video-selingkuh-tak-sengaja-ditonton-anak-istri-lapor-suami-ke-polisi.txt
 Kalimat ke-11: Namun saat ditanya , suaminya yang juga menjabat sebagai Ketua RT itu selalu beralasan datang ke kelurahan untuk mengurus berkas warganya  .
@@ -68,21 +56,13 @@ Relasi: ditanya(saat, suaminya)
 
 Source: D:\openIE\data\preprocess\http-regional-kompas-com-read-2017-11-30-12395061-video-selingkuh-tak-sengaja-ditonton-anak-istri-lapor-suami-ke-polisi.txt
 Kalimat ke-11: Namun saat ditanya , suaminya yang juga menjabat sebagai Ketua RT itu selalu beralasan datang ke kelurahan untuk mengurus berkas warganya  .
-Relasi: menjabat sebagai(suaminya, Ketua RT)
-
-Source: D:\openIE\data\preprocess\http-regional-kompas-com-read-2017-11-30-12395061-video-selingkuh-tak-sengaja-ditonton-anak-istri-lapor-suami-ke-polisi.txt
-Kalimat ke-11: Namun saat ditanya , suaminya yang juga menjabat sebagai Ketua RT itu selalu beralasan datang ke kelurahan untuk mengurus berkas warganya  .
-Relasi: beralasan datang ke(Ketua RT, kelurahan)
-
-Source: D:\openIE\data\preprocess\http-regional-kompas-com-read-2017-11-30-12395061-video-selingkuh-tak-sengaja-ditonton-anak-istri-lapor-suami-ke-polisi.txt
-Kalimat ke-11: Namun saat ditanya , suaminya yang juga menjabat sebagai Ketua RT itu selalu beralasan datang ke kelurahan untuk mengurus berkas warganya  .
 Relasi: mengurus(kelurahan, berkas warganya)
 
 Source: D:\openIE\data\preprocess\http-regional-kompas-com-read-2017-11-30-12395061-video-selingkuh-tak-sengaja-ditonton-anak-istri-lapor-suami-ke-polisi.txt
-Kalimat ke-12: " Saya kira memang kerja , tidak tahunya bahkan selingkuh  .
-Relasi: kerja(kira, tahunya)
+Kalimat ke-13: Kurang apa saya ini dibanding PNS itu  .
+Relasi: dibanding(saya ini, PNS itu)
 
 Source: D:\openIE\data\preprocess\http-regional-kompas-com-read-2017-11-30-12395061-video-selingkuh-tak-sengaja-ditonton-anak-istri-lapor-suami-ke-polisi.txt
 Kalimat ke-15: Berita ini telah tayang di Tribunnews.com , Rabu ( 29/11/2017) , dengan judul : Begini Jadinya Jika Istri Pegang Video Mesum Suami dan WIL - nya  .
-Relasi: telah tayang di(Berita, Rabu)
+Relasi: tayang(Berita ini, Tribunnews.com)
 
