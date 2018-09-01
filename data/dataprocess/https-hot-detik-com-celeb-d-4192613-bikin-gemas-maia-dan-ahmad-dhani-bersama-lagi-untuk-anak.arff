@@ -1,0 +1,59 @@
+@relation 'Textrunner Dataprocessor'
+
+@attribute Right_Arg2_POStag {VBI,VBT,CDP,NULL,CC,CD,OD,DT,FW,IN,JJ,MD,NEG,NN,NNP,NND,PR,PRP,RB,RP,SC,SYM,UH,VB,WH,X,Z}
+@attribute Is_Arg2_Proper_Noun {yes,no}
+@attribute number_stopwords numeric
+@attribute Is_Arg1_Proper_Noun {yes,no}
+@attribute Left_Arg1_POStag {VBI,VBT,CDP,NULL,CC,CD,OD,DT,FW,IN,JJ,MD,NEG,NN,NNP,NND,PR,PRP,RB,RP,SC,SYM,UH,VB,WH,X,Z}
+@attribute number_token numeric
+@attribute classtarget {yes,no}
+
+@data
+SC,no,0,no,NULL,1,?
+NULL,no,0,no,IN,1,?
+NULL,no,0,yes,NULL,1,?
+NULL,no,1,no,NULL,1,?
+NULL,no,0,no,NULL,1,?
+CC,no,0,no,NULL,1,?
+NULL,no,0,no,RP,1,?
+VBT,no,1,yes,NULL,1,?
+IN,no,0,no,NULL,1,?
+VBT,no,0,no,NULL,1,?
+NULL,no,0,no,VBT,1,?
+NULL,no,1,no,NULL,1,?
+NULL,no,1,no,NULL,2,?
+IN,no,1,yes,NULL,1,?
+IN,no,1,no,IN,1,?
+IN,no,1,no,IN,1,?
+SC,no,1,no,NULL,1,?
+SC,no,1,no,RB,1,?
+SC,no,1,no,RB,1,?
+SC,no,1,no,RB,1,?
+SC,no,1,no,RB,1,?
+NN,yes,1,no,RB,1,?
+SC,no,0,no,NNP,1,?
+SC,no,0,no,VBT,1,?
+SC,no,0,no,VBT,1,?
+SC,no,0,no,VBT,1,?
+SC,no,0,no,VBT,1,?
+SC,no,0,no,VBT,1,?
+SC,no,0,no,VBT,1,?
+NN,no,0,no,VBT,1,?
+NULL,no,1,no,IN,1,?
+NULL,no,1,no,NULL,1,?
+NULL,no,1,no,NULL,1,?
+NULL,no,1,no,NULL,1,?
+NULL,no,1,no,NULL,1,?
+NULL,no,1,no,NULL,1,?
+NULL,no,1,no,NN,1,?
+NULL,no,1,no,NULL,1,?
+NULL,no,1,no,NULL,1,?
+NULL,no,1,no,NULL,1,?
+NULL,no,1,no,NULL,1,?
+NULL,no,1,no,NULL,1,?
+NULL,no,1,no,NULL,1,?
+NULL,no,1,no,NULL,1,?
+NULL,no,1,no,NULL,1,?
+NULL,no,1,no,NULL,1,?
+NULL,no,1,no,NULL,1,?
+NULL,no,1,no,NULL,1,?

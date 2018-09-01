@@ -1,0 +1,111 @@
+Source: D:\openIE\data\preprocess\http-regional-kompas-com-read-2017-11-30-12395061-video-selingkuh-tak-sengaja-ditonton-anak-istri-lapor-suami-ke-polisi.txt
+Kalimat ke-1: Seorang istri berinisial M ( 43) , warga Jakabaring , melaporkan suaminya ke Mapolresta Palembang  .
+Relasi: berinisial(Seorang istri, M)
+Class: false
+
+Source: D:\openIE\data\preprocess\http-regional-kompas-com-read-2017-11-30-12395061-video-selingkuh-tak-sengaja-ditonton-anak-istri-lapor-suami-ke-polisi.txt
+Kalimat ke-1: Seorang istri berinisial M ( 43) , warga Jakabaring , melaporkan suaminya ke Mapolresta Palembang  .
+Relasi: melaporkan suaminya ke(warga Jakabaring, Mapolresta Palembang)
+Class: false
+
+Source: D:\openIE\data\preprocess\http-regional-kompas-com-read-2017-11-30-12395061-video-selingkuh-tak-sengaja-ditonton-anak-istri-lapor-suami-ke-polisi.txt
+Kalimat ke-2: Dia melaporkan perselingkuhan suaminya dengan wanita berinisial DP ( 43) , oknum PNS di Pemerintah Kota Palembang  .
+Relasi: berinisial(wanita, DP)
+Class: true
+
+Source: D:\openIE\data\preprocess\http-regional-kompas-com-read-2017-11-30-12395061-video-selingkuh-tak-sengaja-ditonton-anak-istri-lapor-suami-ke-polisi.txt
+Kalimat ke-3: Martini melaporkan suaminya berdasarkan video porno suami dan oknum PNS tersebut  .
+Relasi: melaporkan(Martini, suaminya)
+Class: true
+
+Source: D:\openIE\data\preprocess\http-regional-kompas-com-read-2017-11-30-12395061-video-selingkuh-tak-sengaja-ditonton-anak-istri-lapor-suami-ke-polisi.txt
+Kalimat ke-3: Martini melaporkan suaminya berdasarkan video porno suami dan oknum PNS tersebut  .
+Relasi: berdasarkan(suaminya, video porno suami)
+Class: false
+
+Source: D:\openIE\data\preprocess\http-regional-kompas-com-read-2017-11-30-12395061-video-selingkuh-tak-sengaja-ditonton-anak-istri-lapor-suami-ke-polisi.txt
+Kalimat ke-4: " Pertama , anak saya yang melihat video itu  .
+Relasi: melihat(anak, video)
+Class: false
+
+Source: D:\openIE\data\preprocess\http-regional-kompas-com-read-2017-11-30-12395061-video-selingkuh-tak-sengaja-ditonton-anak-istri-lapor-suami-ke-polisi.txt
+Kalimat ke-6: Sebagai istri tentu saya tidak terima suami saya selingkuh, " ungkap Martini saat melapor ke SPKT Polresta Palembang , Rabu ( 30/11/2017 )  .
+Relasi: terima(istri, suami)
+Class: false
+
+Source: D:\openIE\data\preprocess\http-regional-kompas-com-read-2017-11-30-12395061-video-selingkuh-tak-sengaja-ditonton-anak-istri-lapor-suami-ke-polisi.txt
+Kalimat ke-6: Sebagai istri tentu saya tidak terima suami saya selingkuh, " ungkap Martini saat melapor ke SPKT Polresta Palembang , Rabu ( 30/11/2017 )  .
+Relasi: ungkap(suami, Martini)
+Class: false
+
+Source: D:\openIE\data\preprocess\http-regional-kompas-com-read-2017-11-30-12395061-video-selingkuh-tak-sengaja-ditonton-anak-istri-lapor-suami-ke-polisi.txt
+Kalimat ke-6: Sebagai istri tentu saya tidak terima suami saya selingkuh, " ungkap Martini saat melapor ke SPKT Polresta Palembang , Rabu ( 30/11/2017 )  .
+Relasi: melapor ke(Martini, SPKT Polresta Palembang)
+Class: false
+
+Source: D:\openIE\data\preprocess\http-regional-kompas-com-read-2017-11-30-12395061-video-selingkuh-tak-sengaja-ditonton-anak-istri-lapor-suami-ke-polisi.txt
+Kalimat ke-7: Menurut Martini , dalam video yang berdurasi sekitar 3 menit itu , suaminya dan DP sedang berhubungan badan di sebuah hotel yang diduga ada di Kota Palembang  .
+Relasi: berdurasi(video, sekitar 3 menit)
+Class: true
+
+Source: D:\openIE\data\preprocess\http-regional-kompas-com-read-2017-11-30-12395061-video-selingkuh-tak-sengaja-ditonton-anak-istri-lapor-suami-ke-polisi.txt
+Kalimat ke-7: Menurut Martini , dalam video yang berdurasi sekitar 3 menit itu , suaminya dan DP sedang berhubungan badan di sebuah hotel yang diduga ada di Kota Palembang  .
+Relasi: berhubungan badan di(DP, sebuah hotel)
+Class: true
+
+Source: D:\openIE\data\preprocess\http-regional-kompas-com-read-2017-11-30-12395061-video-selingkuh-tak-sengaja-ditonton-anak-istri-lapor-suami-ke-polisi.txt
+Kalimat ke-7: Menurut Martini , dalam video yang berdurasi sekitar 3 menit itu , suaminya dan DP sedang berhubungan badan di sebuah hotel yang diduga ada di Kota Palembang  .
+Relasi: diduga ada di(sebuah hotel, Kota Palembang)
+Class: true
+
+Source: D:\openIE\data\preprocess\http-regional-kompas-com-read-2017-11-30-12395061-video-selingkuh-tak-sengaja-ditonton-anak-istri-lapor-suami-ke-polisi.txt
+Kalimat ke-8: " Saya tidak menyangka , sebagai seorang PNS , wanita itu berbuat mesum dengan suami orang  .
+Relasi: berbuat mesum dengan(wanita, suami orang)
+Class: true
+
+Source: D:\openIE\data\preprocess\http-regional-kompas-com-read-2017-11-30-12395061-video-selingkuh-tak-sengaja-ditonton-anak-istri-lapor-suami-ke-polisi.txt
+Kalimat ke-10: Martini menjelaskan , selama ini suaminya mengaku , dia kerap kali datang ke kelurahan tempat oknum PNS tersebut berdinas  .
+Relasi: menjelaskan(Martini, kerap kali)
+Class: true
+
+Source: D:\openIE\data\preprocess\http-regional-kompas-com-read-2017-11-30-12395061-video-selingkuh-tak-sengaja-ditonton-anak-istri-lapor-suami-ke-polisi.txt
+Kalimat ke-10: Martini menjelaskan , selama ini suaminya mengaku , dia kerap kali datang ke kelurahan tempat oknum PNS tersebut berdinas  .
+Relasi: mengaku(Martini, kerap kali)
+Class: false
+
+Source: D:\openIE\data\preprocess\http-regional-kompas-com-read-2017-11-30-12395061-video-selingkuh-tak-sengaja-ditonton-anak-istri-lapor-suami-ke-polisi.txt
+Kalimat ke-10: Martini menjelaskan , selama ini suaminya mengaku , dia kerap kali datang ke kelurahan tempat oknum PNS tersebut berdinas  .
+Relasi: datang ke(kerap kali, kelurahan tempat oknum PNS)
+Class: false
+
+Source: D:\openIE\data\preprocess\http-regional-kompas-com-read-2017-11-30-12395061-video-selingkuh-tak-sengaja-ditonton-anak-istri-lapor-suami-ke-polisi.txt
+Kalimat ke-11: Namun saat ditanya , suaminya yang juga menjabat sebagai Ketua RT itu selalu beralasan datang ke kelurahan untuk mengurus berkas warganya  .
+Relasi: ditanya(saat, suaminya)
+Class: false
+
+Source: D:\openIE\data\preprocess\http-regional-kompas-com-read-2017-11-30-12395061-video-selingkuh-tak-sengaja-ditonton-anak-istri-lapor-suami-ke-polisi.txt
+Kalimat ke-11: Namun saat ditanya , suaminya yang juga menjabat sebagai Ketua RT itu selalu beralasan datang ke kelurahan untuk mengurus berkas warganya  .
+Relasi: menjabat sebagai(suaminya, Ketua RT)
+Class: false
+
+Source: D:\openIE\data\preprocess\http-regional-kompas-com-read-2017-11-30-12395061-video-selingkuh-tak-sengaja-ditonton-anak-istri-lapor-suami-ke-polisi.txt
+Kalimat ke-11: Namun saat ditanya , suaminya yang juga menjabat sebagai Ketua RT itu selalu beralasan datang ke kelurahan untuk mengurus berkas warganya  .
+Relasi: beralasan datang ke(Ketua RT, kelurahan)
+Class: true
+
+Source: D:\openIE\data\preprocess\http-regional-kompas-com-read-2017-11-30-12395061-video-selingkuh-tak-sengaja-ditonton-anak-istri-lapor-suami-ke-polisi.txt
+Kalimat ke-11: Namun saat ditanya , suaminya yang juga menjabat sebagai Ketua RT itu selalu beralasan datang ke kelurahan untuk mengurus berkas warganya  .
+Relasi: mengurus(kelurahan, berkas warganya)
+Class: false
+
+Source: D:\openIE\data\preprocess\http-regional-kompas-com-read-2017-11-30-12395061-video-selingkuh-tak-sengaja-ditonton-anak-istri-lapor-suami-ke-polisi.txt
+Kalimat ke-12: " Saya kira memang kerja , tidak tahunya bahkan selingkuh  .
+Relasi: kerja(kira, tahunya)
+Class: false
+
+Source: D:\openIE\data\preprocess\http-regional-kompas-com-read-2017-11-30-12395061-video-selingkuh-tak-sengaja-ditonton-anak-istri-lapor-suami-ke-polisi.txt
+Kalimat ke-15: Berita ini telah tayang di Tribunnews.com , Rabu ( 29/11/2017) , dengan judul : Begini Jadinya Jika Istri Pegang Video Mesum Suami dan WIL - nya  .
+Relasi: telah tayang di(Berita, Rabu)
+Class: false
+
+

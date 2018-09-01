@@ -1,0 +1,141 @@
+Source: D:\openIE\data\preprocess\https-sport-detik-com-sepakbola-liga-inggris-d-3749597-tak-salah-liverpool-rekrut-salah.txt
+Kalimat ke-1: Mohamed Salah kembali mempertunjukkan penampilan yang bagus  .
+Relasi: mempertunjukkan(Mohamed, penampilan)
+Class: true
+
+Source: D:\openIE\data\preprocess\https-sport-detik-com-sepakbola-liga-inggris-d-3749597-tak-salah-liverpool-rekrut-salah.txt
+Kalimat ke-2: Memang tak salah Liverpool mau merekrut salah dengan harga yang mahal  .
+Relasi: merekrut salah dengan(salah Liverpool, harga)
+Class: true
+
+Source: D:\openIE\data\preprocess\https-sport-detik-com-sepakbola-liga-inggris-d-3749597-tak-salah-liverpool-rekrut-salah.txt
+Kalimat ke-3: Liverpool memetik kemenangan dengan skor akhir tiga gol tanpa balas saat melawan Stoke City  .
+Relasi: memetik kemenangan dengan(Liverpool, skor)
+Class: false
+
+Source: D:\openIE\data\preprocess\https-sport-detik-com-sepakbola-liga-inggris-d-3749597-tak-salah-liverpool-rekrut-salah.txt
+Kalimat ke-3: Liverpool memetik kemenangan dengan skor akhir tiga gol tanpa balas saat melawan Stoke City  .
+Relasi: melawan(balas, Stoke City)
+Class: false
+
+Source: D:\openIE\data\preprocess\https-sport-detik-com-sepakbola-liga-inggris-d-3749597-tak-salah-liverpool-rekrut-salah.txt
+Kalimat ke-4: Di pertandingan yang berlangsung di Betegs Stadium , Kamis ( 30/11/2017 ) dinihari WIB , Sadio Mane dan Salah , yang menjadi penentu kemenangan Liverpool  .
+Relasi: berlangsung di(pertandingan, Betegs Stadium)
+Class: true
+
+Source: D:\openIE\data\preprocess\https-sport-detik-com-sepakbola-liga-inggris-d-3749597-tak-salah-liverpool-rekrut-salah.txt
+Kalimat ke-4: Di pertandingan yang berlangsung di Betegs Stadium , Kamis ( 30/11/2017 ) dinihari WIB , Sadio Mane dan Salah , yang menjadi penentu kemenangan Liverpool  .
+Relasi: dinihari(Kamis, WIB)
+Class: false
+
+Source: D:\openIE\data\preprocess\https-sport-detik-com-sepakbola-liga-inggris-d-3749597-tak-salah-liverpool-rekrut-salah.txt
+Kalimat ke-4: Di pertandingan yang berlangsung di Betegs Stadium , Kamis ( 30/11/2017 ) dinihari WIB , Sadio Mane dan Salah , yang menjadi penentu kemenangan Liverpool  .
+Relasi: menjadi(Sadio Mane, penentu kemenangan Liverpool)
+Class: true
+
+Source: D:\openIE\data\preprocess\https-sport-detik-com-sepakbola-liga-inggris-d-3749597-tak-salah-liverpool-rekrut-salah.txt
+Kalimat ke-5: Mane mencetak gol pada menit ke - 17 , yang membuat Liverpool unggul 1 - 0 di paruh pertama pertandingan  .
+Relasi: mencetak gol pada(Mane, menit)
+Class: false
+
+Source: D:\openIE\data\preprocess\https-sport-detik-com-sepakbola-liga-inggris-d-3749597-tak-salah-liverpool-rekrut-salah.txt
+Kalimat ke-5: Mane mencetak gol pada menit ke - 17 , yang membuat Liverpool unggul 1 - 0 di paruh pertama pertandingan  .
+Relasi: membuat(17, Liverpool unggul 1)
+Class: true
+
+Source: D:\openIE\data\preprocess\https-sport-detik-com-sepakbola-liga-inggris-d-3749597-tak-salah-liverpool-rekrut-salah.txt
+Kalimat ke-6: Salah baru bermain di babak kedua , masuk di menit ke - 67 menggantikan Dominic Solanke  .
+Relasi: masuk di(babak kedua, menit)
+Class: true
+
+Source: D:\openIE\data\preprocess\https-sport-detik-com-sepakbola-liga-inggris-d-3749597-tak-salah-liverpool-rekrut-salah.txt
+Kalimat ke-6: Salah baru bermain di babak kedua , masuk di menit ke - 67 menggantikan Dominic Solanke  .
+Relasi: menggantikan(67, Dominic Solanke)
+Class: false
+
+Source: D:\openIE\data\preprocess\https-sport-detik-com-sepakbola-liga-inggris-d-3749597-tak-salah-liverpool-rekrut-salah.txt
+Kalimat ke-7: Salah cuma butuh 10 menit di lapangan untuk mencetak golnya yang ke - 11 di musim ini  .
+Relasi: mencetak(lapangan, golnya)
+Class: true
+
+Source: D:\openIE\data\preprocess\https-sport-detik-com-sepakbola-liga-inggris-d-3749597-tak-salah-liverpool-rekrut-salah.txt
+Kalimat ke-8: Umpan silang Mane diselesaikan dengan manis oleh pemain asal Mesir itu via tendangan voli kaki kiri  .
+Relasi: diselesaikan dengan(Umpan silang Mane, pemain asal Mesir)
+Class: false
+
+Source: D:\openIE\data\preprocess\https-sport-detik-com-sepakbola-liga-inggris-d-3749597-tak-salah-liverpool-rekrut-salah.txt
+Kalimat ke-9: Enam menit berselang , gol kedua pun dibukukan Salah  .
+Relasi: berselang(Enam menit, gol kedua)
+Class: false
+
+Source: D:\openIE\data\preprocess\https-sport-detik-com-sepakbola-liga-inggris-d-3749597-tak-salah-liverpool-rekrut-salah.txt
+Kalimat ke-10: Pemain seharga sekitar 37 juta pound sterling itu memenangi perebutan bola dengan salah satu pemain Stoke  .
+Relasi: seharga(Pemain, sekitar 37 juta pound sterling)
+Class: false
+
+Source: D:\openIE\data\preprocess\https-sport-detik-com-sepakbola-liga-inggris-d-3749597-tak-salah-liverpool-rekrut-salah.txt
+Kalimat ke-10: Pemain seharga sekitar 37 juta pound sterling itu memenangi perebutan bola dengan salah satu pemain Stoke  .
+Relasi: memenangi perebutan bola dengan(sekitar 37 juta pound sterling, satu pemain Stoke)
+Class: false
+
+Source: D:\openIE\data\preprocess\https-sport-detik-com-sepakbola-liga-inggris-d-3749597-tak-salah-liverpool-rekrut-salah.txt
+Kalimat ke-11: Berhadapan satu lawan satu dengan kiper , dia bisa menceploskan bola dengan tendangan terarah  .
+Relasi: bisa menceploskan bola dengan(kiper, tendangan)
+Class: true
+
+Source: D:\openIE\data\preprocess\https-sport-detik-com-sepakbola-liga-inggris-d-3749597-tak-salah-liverpool-rekrut-salah.txt
+Kalimat ke-12: Baca juga : Salah Dua Gol , Liverpool Hantam Stoke 3 - 0 Salah pun mencatatkan diri selalu terlibat 14 gol Liverpool dalam 14 pertandingan di Liga Inggris  .
+Relasi: mencatatkan(0, diri)
+Class: true
+
+Source: D:\openIE\data\preprocess\https-sport-detik-com-sepakbola-liga-inggris-d-3749597-tak-salah-liverpool-rekrut-salah.txt
+Kalimat ke-12: Baca juga : Salah Dua Gol , Liverpool Hantam Stoke 3 - 0 Salah pun mencatatkan diri selalu terlibat 14 gol Liverpool dalam 14 pertandingan di Liga Inggris  .
+Relasi: terlibat 14 gol Liverpool dalam(diri, 14 pertandingan)
+Class: true
+
+Source: D:\openIE\data\preprocess\https-sport-detik-com-sepakbola-liga-inggris-d-3749597-tak-salah-liverpool-rekrut-salah.txt
+Kalimat ke-14: Dengan jumlah gol itu , untuk sementara Salah memimpin daftar pencetak gol terbanyak di Liga Inggris  .
+Relasi: memimpin daftar pencetak gol terbanyak di(jumlah gol, Liga Inggris)
+Class: true
+
+Source: D:\openIE\data\preprocess\https-sport-detik-com-sepakbola-liga-inggris-d-3749597-tak-salah-liverpool-rekrut-salah.txt
+Kalimat ke-16: Rata - rata golnya ada di angka 0,86 di setiap pertandingan  .
+Relasi: ada di(rata golnya, angka 0,86)
+Class: true
+
+Source: D:\openIE\data\preprocess\https-sport-detik-com-sepakbola-liga-inggris-d-3749597-tak-salah-liverpool-rekrut-salah.txt
+Kalimat ke-17: Dengan catatan shot on target 30 kali , Salah ada di posisi pertama sebagai pemain tembakan tepat sasaran tertinggi  .
+Relasi: ada di(catatan shot on target 30 kali, posisi pertama)
+Class: true
+
+Source: D:\openIE\data\preprocess\https-sport-detik-com-sepakbola-liga-inggris-d-3749597-tak-salah-liverpool-rekrut-salah.txt
+Kalimat ke-19: " Terima kasih Tuhan ( Salah tak bisa berhenti mencetak gol), " kata manajer Liverpool , Juergen Klopp , seperti dilansir oleh Liverpool Echo  .
+Relasi: bisa berhenti mencetak(Terima kasih Tuhan, manajer Liverpool)
+Class: true
+
+Source: D:\openIE\data\preprocess\https-sport-detik-com-sepakbola-liga-inggris-d-3749597-tak-salah-liverpool-rekrut-salah.txt
+Kalimat ke-19: " Terima kasih Tuhan ( Salah tak bisa berhenti mencetak gol), " kata manajer Liverpool , Juergen Klopp , seperti dilansir oleh Liverpool Echo  .
+Relasi: kata(Terima kasih Tuhan, manajer Liverpool)
+Class: false
+
+Source: D:\openIE\data\preprocess\https-sport-detik-com-sepakbola-liga-inggris-d-3749597-tak-salah-liverpool-rekrut-salah.txt
+Kalimat ke-19: " Terima kasih Tuhan ( Salah tak bisa berhenti mencetak gol), " kata manajer Liverpool , Juergen Klopp , seperti dilansir oleh Liverpool Echo  .
+Relasi: dilansir oleh(Juergen Klopp, Liverpool Echo)
+Class: false
+
+Source: D:\openIE\data\preprocess\https-sport-detik-com-sepakbola-liga-inggris-d-3749597-tak-salah-liverpool-rekrut-salah.txt
+Kalimat ke-21: Sungguh sulit untuk para pemain bertanding di temperatur seperti ini  .
+Relasi: bertanding di(pemain, temperatur)
+Class: true
+
+Source: D:\openIE\data\preprocess\https-sport-detik-com-sepakbola-liga-inggris-d-3749597-tak-salah-liverpool-rekrut-salah.txt
+Kalimat ke-22: Duduk di bangku cadangan tak terlalu menyenangkan , itu bekerja dengan baik , dua gol fantastis, " dia menambahkan  .
+Relasi: menyenangkan(bangku cadangan, dua gol)
+Class: false
+
+Source: D:\openIE\data\preprocess\https-sport-detik-com-sepakbola-liga-inggris-d-3749597-tak-salah-liverpool-rekrut-salah.txt
+Kalimat ke-22: Duduk di bangku cadangan tak terlalu menyenangkan , itu bekerja dengan baik , dua gol fantastis, " dia menambahkan  .
+Relasi: bekerja dengan(bangku cadangan, dua gol)
+Class: true
+
+

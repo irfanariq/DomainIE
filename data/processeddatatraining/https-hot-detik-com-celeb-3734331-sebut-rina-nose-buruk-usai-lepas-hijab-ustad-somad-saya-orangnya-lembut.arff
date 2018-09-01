@@ -1,0 +1,94 @@
+@relation 'Textrunner Dataprocessor'
+
+@attribute Right_Arg2_POStag {VBI,VBT,CDP,NULL,CC,CD,OD,DT,FW,IN,JJ,MD,NEG,NN,NNP,NND,PR,PRP,RB,RP,SC,SYM,UH,VB,WH,X,Z}
+@attribute Is_Arg2_Proper_Noun {yes,no}
+@attribute number_stopwords numeric
+@attribute Is_Arg1_Proper_Noun {yes,no}
+@attribute Left_Arg1_POStag {VBI,VBT,CDP,NULL,CC,CD,OD,DT,FW,IN,JJ,MD,NEG,NN,NNP,NND,PR,PRP,RB,RP,SC,SYM,UH,VB,WH,X,Z}
+@attribute number_token numeric
+@attribute classtarget {yes,no}
+
+@data
+SC,no,1,no,NULL,2,no
+VBT,no,0,no,VBT,1,no
+SC,no,0,no,VBT,1,yes
+NULL,no,0,no,VBT,1,yes
+NULL,yes,1,no,IN,2,yes
+JJ,no,0,yes,IN,1,no
+NULL,no,0,no,NULL,1,no
+VBI,no,0,no,NULL,1,no
+NULL,no,0,no,VBT,1,no
+CC,no,3,no,RP,4,no
+NULL,no,1,no,IN,1,no
+NULL,no,0,no,DT,1,no
+NULL,no,0,no,JJ,1,no
+PRP,no,1,no,NULL,1,no
+PRP,no,0,no,NULL,1,no
+NULL,yes,1,no,CC,1,yes
+SC,no,0,yes,NULL,1,yes
+NULL,no,0,no,IN,1,yes
+VBT,no,2,no,RP,2,no
+SC,no,2,no,NULL,4,no
+VBT,no,1,yes,NULL,1,yes
+SC,no,1,no,NULL,1,no
+NULL,no,0,no,NEG,2,no
+NULL,no,1,yes,VBT,1,no
+RB,no,0,no,NULL,1,yes
+RB,no,1,no,VBI,1,no
+RB,no,1,no,VBI,1,no
+RB,no,1,no,VBI,1,no
+RB,no,1,no,VBI,1,yes
+RB,no,1,no,VBI,1,yes
+RB,no,1,no,VBI,1,yes
+RB,no,1,no,VBI,1,no
+NN,no,0,no,NULL,1,yes
+NN,no,0,no,NULL,1,yes
+NN,no,0,no,NULL,1,no
+NN,no,0,no,NULL,1,yes
+NN,no,0,no,NULL,1,no
+NN,no,0,no,NULL,1,no
+NNP,no,1,no,NN,2,no
+NNP,no,1,no,NN,2,no
+NNP,no,1,no,NN,2,yes
+NNP,no,1,no,NN,2,no
+NNP,no,1,no,NN,2,no
+NNP,no,1,no,NN,2,yes
+NNP,no,1,no,NN,2,no
+NN,no,0,no,NULL,1,yes
+NN,no,0,no,NULL,1,no
+NN,no,0,no,NULL,1,no
+NN,no,0,no,NULL,1,no
+NN,no,0,no,NULL,1,yes
+NN,no,0,no,NULL,1,yes
+NN,no,0,no,NULL,1,no
+NN,no,0,no,NULL,1,no
+NN,no,0,no,NULL,1,no
+NN,no,0,no,NULL,1,yes
+NN,no,0,no,NULL,1,no
+NN,no,0,no,NULL,1,yes
+NN,no,0,no,NULL,1,yes
+NN,no,0,no,NULL,1,yes
+NN,no,0,no,NULL,1,no
+NN,no,0,no,NULL,1,yes
+NN,no,0,no,NULL,1,no
+NN,no,0,no,NULL,1,no
+NN,no,0,no,NULL,1,yes
+NN,no,0,no,NULL,1,no
+NN,no,1,no,NULL,1,no
+NN,no,0,no,NULL,1,yes
+NN,no,1,no,NULL,1,yes
+NN,no,0,no,NULL,1,no
+NN,no,1,no,NULL,1,yes
+NN,no,0,no,NULL,1,no
+NN,no,1,no,NULL,1,no
+NN,no,0,no,NULL,1,no
+NN,no,1,no,NULL,1,no
+NN,no,0,no,NULL,1,no
+NN,no,1,no,NULL,1,no
+NN,no,0,no,NULL,1,yes
+NN,no,1,no,NULL,1,no
+NN,no,0,no,NULL,1,no
+NN,no,1,no,NULL,1,no
+NN,no,0,no,NULL,1,no
+NN,no,1,no,NULL,1,no
+NN,no,0,no,NULL,1,yes

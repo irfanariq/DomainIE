@@ -1,0 +1,8 @@
+Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-4192764-jokowi-prabowo-lewat-hebohnya-pelukan-maia-dan-ahmad-dhani-di-hut-al.txt
+Kalimat ke-1: Al Ghazali merayakan ultahnya yang ke - 21  .
+Relasi: merayakan(Al Ghazali, ultahnya)
+
+Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-4192764-jokowi-prabowo-lewat-hebohnya-pelukan-maia-dan-ahmad-dhani-di-hut-al.txt
+Kalimat ke-2: Momen ulang tahun itu mengabadikan kebersamaan antara Ahmad Dhani dan Maia Estianty  .
+Relasi: mengabadikan(Momen ulang tahun itu, kebersamaan)
+

@@ -1,0 +1,16 @@
+Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749353-penampilan-baru-bjah-usai-hijrah-bondan-winarno-meninggal-dunia.txt
+Kalimat ke-1: Bjah kembali hadir di dunia hiburan Tanah Air  .
+Relasi: hadir di(Bjah, dunia hiburan Tanah Air)
+Class: true
+
+Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749353-penampilan-baru-bjah-usai-hijrah-bondan-winarno-meninggal-dunia.txt
+Kalimat ke-3: Selain itu ada Bondan Winarno yang meninggal dunia  .
+Relasi: ada(Selain, Bondan Winarno)
+Class: false
+
+Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749353-penampilan-baru-bjah-usai-hijrah-bondan-winarno-meninggal-dunia.txt
+Kalimat ke-3: Selain itu ada Bondan Winarno yang meninggal dunia  .
+Relasi: meninggal(Bondan Winarno, dunia)
+Class: true
+
+

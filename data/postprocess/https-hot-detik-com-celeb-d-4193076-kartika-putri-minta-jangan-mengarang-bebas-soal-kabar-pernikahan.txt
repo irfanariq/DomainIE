@@ -1,0 +1,96 @@
+Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-4193076-kartika-putri-minta-jangan-mengarang-bebas-soal-kabar-pernikahan.txt
+Kalimat ke-1: Sampai sekarang , Kartika Putri belum juga klarifikasi soal kabar bahagianya  .
+Relasi: juga(Kartika Putri, klarifikasi soal kabar bahagianya)
+
+Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-4193076-kartika-putri-minta-jangan-mengarang-bebas-soal-kabar-pernikahan.txt
+Kalimat ke-2: Pulang menunaikan ibadah haji , Kartika kembali membuat tanya soal statusnya  .
+Relasi: kembali membuat tanya(Kartika, soal statusnya)
+
+Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-4193076-kartika-putri-minta-jangan-mengarang-bebas-soal-kabar-pernikahan.txt
+Kalimat ke-3: Setelah pulang ke Tanah Air , Kartika Putri tetap belum membuat klarifikasi  .
+Relasi: belum membuat(Kartika Putri tetap, klarifikasi)
+
+Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-4193076-kartika-putri-minta-jangan-mengarang-bebas-soal-kabar-pernikahan.txt
+Kalimat ke-5: " Karena kondisi aku masih belum sehat banget , jadi aku memilih untuk skip dulu iya pertanyaannya  .
+Relasi: dulu(skip, iya pertanyaannya)
+
+Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-4193076-kartika-putri-minta-jangan-mengarang-bebas-soal-kabar-pernikahan.txt
+Kalimat ke-6: Tapi tenang saja InsyaAllah akan aku jawab Jadi sabar dulu yaahh., " tulis Kartika Putri seperti dikutip detikHOT , Sabtu ( 1/9/2018 )  .
+Relasi: jawab Jadi(aku, sabar dulu yaahh.,)
+
+Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-4193076-kartika-putri-minta-jangan-mengarang-bebas-soal-kabar-pernikahan.txt
+Kalimat ke-6: Tapi tenang saja InsyaAllah akan aku jawab Jadi sabar dulu yaahh., " tulis Kartika Putri seperti dikutip detikHOT , Sabtu ( 1/9/2018 )  .
+Relasi: tulis(sabar dulu yaahh.,, Kartika Putri)
+
+Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-4193076-kartika-putri-minta-jangan-mengarang-bebas-soal-kabar-pernikahan.txt
+Kalimat ke-7: Baca juga : Mengingat Lagi Kata Kartika Putri tentang Isu Nikah Siri dengan Habib Usman Kartika Putri pun berharap tak ada lagi yang berpikiran aneh tentang statusnya  .
+Relasi: berharap tak ada lagi berpikiran aneh(Habib Usman Kartika Putri, statusnya)
+
+Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-4193076-kartika-putri-minta-jangan-mengarang-bebas-soal-kabar-pernikahan.txt
+Kalimat ke-10: Baca juga : Kartika Putri Kepergok Bareng Pria Bergamis saat Tiba di Indonesia ( pus/doc ) kartika putri Photo Gallery 1 celeb Komen di Instagram Kartika Putri , Mulan Jameela Dibully celeb Komen di Instagram Kartika Putri , Mulan Jameela Dibully celeb Komen di Instagram Kartika Putri , Mulan Jameela Dibully celeb Komen di Instagram Kartika Putri , Mulan Jameela Dibully celeb Komen di Instagram Kartika Putri , Mulan Jameela Dibully celeb Komen di Instagram Kartika Putri , Mulan Jameela Dibully 1 celeb Pagi - pagi Lihat Kartika Putri Bikin Seger !
+Relasi: Lihat(pagi, Kartika Putri Bikin Seger)
+
+Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-4193076-kartika-putri-minta-jangan-mengarang-bebas-soal-kabar-pernikahan.txt
+Kalimat ke-11: celeb Pagi - pagi Lihat Kartika Putri Bikin Seger !
+Relasi: Lihat(pagi, Kartika Putri Bikin Seger)
+
+Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-4193076-kartika-putri-minta-jangan-mengarang-bebas-soal-kabar-pernikahan.txt
+Kalimat ke-12: celeb Pagi - pagi Lihat Kartika Putri Bikin Seger !
+Relasi: Lihat(pagi, Kartika Putri Bikin Seger)
+
+Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-4193076-kartika-putri-minta-jangan-mengarang-bebas-soal-kabar-pernikahan.txt
+Kalimat ke-13: celeb Pagi - pagi Lihat Kartika Putri Bikin Seger !
+Relasi: Lihat(pagi, Kartika Putri Bikin Seger)
+
+Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-4193076-kartika-putri-minta-jangan-mengarang-bebas-soal-kabar-pernikahan.txt
+Kalimat ke-14: celeb Pagi - pagi Lihat Kartika Putri Bikin Seger !
+Relasi: Lihat(pagi, Kartika Putri Bikin Seger)
+
+Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-4193076-kartika-putri-minta-jangan-mengarang-bebas-soal-kabar-pernikahan.txt
+Kalimat ke-31: 7 celeb Duh Makin Manis Saja Kartika Putri celeb Duh Makin Manis Saja Kartika Putri celeb Duh Makin Manis Saja Kartika Putri celeb Duh Makin Manis Saja Kartika Putri celeb Duh Makin Manis Saja Kartika Putri celeb Duh Makin Manis Saja Kartika Putri celeb Duh Makin Manis Saja Kartika Putri celeb Duh Makin Manis Saja Kartika Putri 8 celeb Kartika Putri Ngaku Jomblo karena Banyak Cowok Lebih Suka Gym di Gading celeb Kartika Putri Ngaku Jomblo karena Banyak Cowok Lebih Suka Gym di Gading celeb Kartika Putri Ngaku Jomblo karena Banyak Cowok Lebih Suka Gym di Gading celeb Kartika Putri Ngaku Jomblo karena Banyak Cowok Lebih Suka Gym di Gading celeb Kartika Putri Ngaku Jomblo karena Banyak Cowok Lebih Suka Gym di Gading celeb Kartika Putri Ngaku Jomblo karena Banyak Cowok Lebih Suka Gym di Gading celeb Kartika Putri Ngaku Jomblo karena Banyak Cowok Lebih Suka Gym di Gading 9 celeb Kartika Putri Makin Seksi Aja , Nih !
+Relasi: Lebih Suka(Cowok, Gym)
+
+Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-4193076-kartika-putri-minta-jangan-mengarang-bebas-soal-kabar-pernikahan.txt
+Kalimat ke-31: 7 celeb Duh Makin Manis Saja Kartika Putri celeb Duh Makin Manis Saja Kartika Putri celeb Duh Makin Manis Saja Kartika Putri celeb Duh Makin Manis Saja Kartika Putri celeb Duh Makin Manis Saja Kartika Putri celeb Duh Makin Manis Saja Kartika Putri celeb Duh Makin Manis Saja Kartika Putri celeb Duh Makin Manis Saja Kartika Putri 8 celeb Kartika Putri Ngaku Jomblo karena Banyak Cowok Lebih Suka Gym di Gading celeb Kartika Putri Ngaku Jomblo karena Banyak Cowok Lebih Suka Gym di Gading celeb Kartika Putri Ngaku Jomblo karena Banyak Cowok Lebih Suka Gym di Gading celeb Kartika Putri Ngaku Jomblo karena Banyak Cowok Lebih Suka Gym di Gading celeb Kartika Putri Ngaku Jomblo karena Banyak Cowok Lebih Suka Gym di Gading celeb Kartika Putri Ngaku Jomblo karena Banyak Cowok Lebih Suka Gym di Gading celeb Kartika Putri Ngaku Jomblo karena Banyak Cowok Lebih Suka Gym di Gading 9 celeb Kartika Putri Makin Seksi Aja , Nih !
+Relasi: Lebih Suka(Cowok, Gym)
+
+Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-4193076-kartika-putri-minta-jangan-mengarang-bebas-soal-kabar-pernikahan.txt
+Kalimat ke-31: 7 celeb Duh Makin Manis Saja Kartika Putri celeb Duh Makin Manis Saja Kartika Putri celeb Duh Makin Manis Saja Kartika Putri celeb Duh Makin Manis Saja Kartika Putri celeb Duh Makin Manis Saja Kartika Putri celeb Duh Makin Manis Saja Kartika Putri celeb Duh Makin Manis Saja Kartika Putri celeb Duh Makin Manis Saja Kartika Putri 8 celeb Kartika Putri Ngaku Jomblo karena Banyak Cowok Lebih Suka Gym di Gading celeb Kartika Putri Ngaku Jomblo karena Banyak Cowok Lebih Suka Gym di Gading celeb Kartika Putri Ngaku Jomblo karena Banyak Cowok Lebih Suka Gym di Gading celeb Kartika Putri Ngaku Jomblo karena Banyak Cowok Lebih Suka Gym di Gading celeb Kartika Putri Ngaku Jomblo karena Banyak Cowok Lebih Suka Gym di Gading celeb Kartika Putri Ngaku Jomblo karena Banyak Cowok Lebih Suka Gym di Gading celeb Kartika Putri Ngaku Jomblo karena Banyak Cowok Lebih Suka Gym di Gading 9 celeb Kartika Putri Makin Seksi Aja , Nih !
+Relasi: Lebih Suka(Cowok, Gym)
+
+Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-4193076-kartika-putri-minta-jangan-mengarang-bebas-soal-kabar-pernikahan.txt
+Kalimat ke-31: 7 celeb Duh Makin Manis Saja Kartika Putri celeb Duh Makin Manis Saja Kartika Putri celeb Duh Makin Manis Saja Kartika Putri celeb Duh Makin Manis Saja Kartika Putri celeb Duh Makin Manis Saja Kartika Putri celeb Duh Makin Manis Saja Kartika Putri celeb Duh Makin Manis Saja Kartika Putri celeb Duh Makin Manis Saja Kartika Putri 8 celeb Kartika Putri Ngaku Jomblo karena Banyak Cowok Lebih Suka Gym di Gading celeb Kartika Putri Ngaku Jomblo karena Banyak Cowok Lebih Suka Gym di Gading celeb Kartika Putri Ngaku Jomblo karena Banyak Cowok Lebih Suka Gym di Gading celeb Kartika Putri Ngaku Jomblo karena Banyak Cowok Lebih Suka Gym di Gading celeb Kartika Putri Ngaku Jomblo karena Banyak Cowok Lebih Suka Gym di Gading celeb Kartika Putri Ngaku Jomblo karena Banyak Cowok Lebih Suka Gym di Gading celeb Kartika Putri Ngaku Jomblo karena Banyak Cowok Lebih Suka Gym di Gading 9 celeb Kartika Putri Makin Seksi Aja , Nih !
+Relasi: Lebih Suka(Cowok, Gym)
+
+Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-4193076-kartika-putri-minta-jangan-mengarang-bebas-soal-kabar-pernikahan.txt
+Kalimat ke-31: 7 celeb Duh Makin Manis Saja Kartika Putri celeb Duh Makin Manis Saja Kartika Putri celeb Duh Makin Manis Saja Kartika Putri celeb Duh Makin Manis Saja Kartika Putri celeb Duh Makin Manis Saja Kartika Putri celeb Duh Makin Manis Saja Kartika Putri celeb Duh Makin Manis Saja Kartika Putri celeb Duh Makin Manis Saja Kartika Putri 8 celeb Kartika Putri Ngaku Jomblo karena Banyak Cowok Lebih Suka Gym di Gading celeb Kartika Putri Ngaku Jomblo karena Banyak Cowok Lebih Suka Gym di Gading celeb Kartika Putri Ngaku Jomblo karena Banyak Cowok Lebih Suka Gym di Gading celeb Kartika Putri Ngaku Jomblo karena Banyak Cowok Lebih Suka Gym di Gading celeb Kartika Putri Ngaku Jomblo karena Banyak Cowok Lebih Suka Gym di Gading celeb Kartika Putri Ngaku Jomblo karena Banyak Cowok Lebih Suka Gym di Gading celeb Kartika Putri Ngaku Jomblo karena Banyak Cowok Lebih Suka Gym di Gading 9 celeb Kartika Putri Makin Seksi Aja , Nih !
+Relasi: Lebih Suka(Cowok, Gym)
+
+Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-4193076-kartika-putri-minta-jangan-mengarang-bebas-soal-kabar-pernikahan.txt
+Kalimat ke-31: 7 celeb Duh Makin Manis Saja Kartika Putri celeb Duh Makin Manis Saja Kartika Putri celeb Duh Makin Manis Saja Kartika Putri celeb Duh Makin Manis Saja Kartika Putri celeb Duh Makin Manis Saja Kartika Putri celeb Duh Makin Manis Saja Kartika Putri celeb Duh Makin Manis Saja Kartika Putri celeb Duh Makin Manis Saja Kartika Putri 8 celeb Kartika Putri Ngaku Jomblo karena Banyak Cowok Lebih Suka Gym di Gading celeb Kartika Putri Ngaku Jomblo karena Banyak Cowok Lebih Suka Gym di Gading celeb Kartika Putri Ngaku Jomblo karena Banyak Cowok Lebih Suka Gym di Gading celeb Kartika Putri Ngaku Jomblo karena Banyak Cowok Lebih Suka Gym di Gading celeb Kartika Putri Ngaku Jomblo karena Banyak Cowok Lebih Suka Gym di Gading celeb Kartika Putri Ngaku Jomblo karena Banyak Cowok Lebih Suka Gym di Gading celeb Kartika Putri Ngaku Jomblo karena Banyak Cowok Lebih Suka Gym di Gading 9 celeb Kartika Putri Makin Seksi Aja , Nih !
+Relasi: Lebih Suka(Cowok, Gym)
+
+Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-4193076-kartika-putri-minta-jangan-mengarang-bebas-soal-kabar-pernikahan.txt
+Kalimat ke-31: 7 celeb Duh Makin Manis Saja Kartika Putri celeb Duh Makin Manis Saja Kartika Putri celeb Duh Makin Manis Saja Kartika Putri celeb Duh Makin Manis Saja Kartika Putri celeb Duh Makin Manis Saja Kartika Putri celeb Duh Makin Manis Saja Kartika Putri celeb Duh Makin Manis Saja Kartika Putri celeb Duh Makin Manis Saja Kartika Putri 8 celeb Kartika Putri Ngaku Jomblo karena Banyak Cowok Lebih Suka Gym di Gading celeb Kartika Putri Ngaku Jomblo karena Banyak Cowok Lebih Suka Gym di Gading celeb Kartika Putri Ngaku Jomblo karena Banyak Cowok Lebih Suka Gym di Gading celeb Kartika Putri Ngaku Jomblo karena Banyak Cowok Lebih Suka Gym di Gading celeb Kartika Putri Ngaku Jomblo karena Banyak Cowok Lebih Suka Gym di Gading celeb Kartika Putri Ngaku Jomblo karena Banyak Cowok Lebih Suka Gym di Gading celeb Kartika Putri Ngaku Jomblo karena Banyak Cowok Lebih Suka Gym di Gading 9 celeb Kartika Putri Makin Seksi Aja , Nih !
+Relasi: Lebih Suka(Cowok, Gym)
+
+Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-4193076-kartika-putri-minta-jangan-mengarang-bebas-soal-kabar-pernikahan.txt
+Kalimat ke-31: 7 celeb Duh Makin Manis Saja Kartika Putri celeb Duh Makin Manis Saja Kartika Putri celeb Duh Makin Manis Saja Kartika Putri celeb Duh Makin Manis Saja Kartika Putri celeb Duh Makin Manis Saja Kartika Putri celeb Duh Makin Manis Saja Kartika Putri celeb Duh Makin Manis Saja Kartika Putri celeb Duh Makin Manis Saja Kartika Putri 8 celeb Kartika Putri Ngaku Jomblo karena Banyak Cowok Lebih Suka Gym di Gading celeb Kartika Putri Ngaku Jomblo karena Banyak Cowok Lebih Suka Gym di Gading celeb Kartika Putri Ngaku Jomblo karena Banyak Cowok Lebih Suka Gym di Gading celeb Kartika Putri Ngaku Jomblo karena Banyak Cowok Lebih Suka Gym di Gading celeb Kartika Putri Ngaku Jomblo karena Banyak Cowok Lebih Suka Gym di Gading celeb Kartika Putri Ngaku Jomblo karena Banyak Cowok Lebih Suka Gym di Gading celeb Kartika Putri Ngaku Jomblo karena Banyak Cowok Lebih Suka Gym di Gading 9 celeb Kartika Putri Makin Seksi Aja , Nih !
+Relasi: Makin(Gading 9 celeb Kartika Putri, Seksi Aja)
+
+Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-4193076-kartika-putri-minta-jangan-mengarang-bebas-soal-kabar-pernikahan.txt
+Kalimat ke-32: celeb Kartika Putri Makin Seksi Aja , Nih !
+Relasi: Makin(celeb Kartika Putri, Seksi Aja)
+
+Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-4193076-kartika-putri-minta-jangan-mengarang-bebas-soal-kabar-pernikahan.txt
+Kalimat ke-33: celeb Kartika Putri Makin Seksi Aja , Nih !
+Relasi: Makin(celeb Kartika Putri, Seksi Aja)
+
+Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-4193076-kartika-putri-minta-jangan-mengarang-bebas-soal-kabar-pernikahan.txt
+Kalimat ke-34: celeb Kartika Putri Makin Seksi Aja , Nih !
+Relasi: Makin(celeb Kartika Putri, Seksi Aja)
+
+Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-4193076-kartika-putri-minta-jangan-mengarang-bebas-soal-kabar-pernikahan.txt
+Kalimat ke-35: celeb Kartika Putri Makin Seksi Aja , Nih !
+Relasi: Makin(celeb Kartika Putri, Seksi Aja)
+
