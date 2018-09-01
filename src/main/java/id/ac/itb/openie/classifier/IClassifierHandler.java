@@ -40,34 +40,25 @@ public interface IClassifierHandler extends ExtensionPoint, Serializable{
 
     /**
      *
-     * @param document String containing original preprocessed file content
-     * @param extracted List of relation extracted from previous extractor
-     * @return extracted relations
+     * @param dataset datatest in Instances representation which want to be classified
+     * @param datatraining data training in Instances representation
+     * @return new Instances with class target value
      * @throws Exception
      */
-    public Instances classify(File file, Instances dataset, Instances datatraining) throws Exception;
+    public Instances classify(Instances dataset, Instances datatraining) throws Exception;
 
     /**
      *
-     * @return List of file and its content
+     * @return List of file and its content(in instances representation)
      * @throws Exception
      */
     public HashMap<File, Instances> read() throws Exception;
 
     /**
      *
-     * @param extracted String containing original crawled content
+     * @param file file where instances will be written (in arff format)
+     * @param instances instances of labeled data test )
      * @throws Exception
      */
     public void write(File file, Instances instances) throws Exception;
-
-    /**
-     * Hook to be called before extractor will run
-     */
-    public void classifierWillRun();
-
-    /**
-     * Hook to be called before extractor have run
-     */
-    public void classifierDidRun();
 }

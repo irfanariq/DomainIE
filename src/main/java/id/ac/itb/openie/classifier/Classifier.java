@@ -48,7 +48,7 @@ public class Classifier implements IClassifierPipelineElement {
     @Override
     public HashMap<File, Instances> execute(File file, Instances dataset, Instances datatraining) throws Exception {
         HashMap<File, Instances> out = new HashMap<>();
-        out.put(file, this.getClassifierHandler().classify(file, dataset, datatraining));
+        out.put(file, this.getClassifierHandler().classify(dataset, datatraining));
         return out;
     }
 

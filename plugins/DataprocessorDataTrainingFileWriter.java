@@ -55,15 +55,5 @@ public class DataprocessorDataTrainingFileWriter extends Plugin {
                 Utilities.saveInstancesToArffFile(instances, availableConfigurations.get("Output Directory")+File.separator+Utilities.nameFile(file.getName())+".arff");   
             }
         }
-
-        @Override
-        public void dataprocessorWillRun() {
-
-        }
-
-        @Override
-        public void dataprocessorDidRun() {
-
-        }
     }
 }

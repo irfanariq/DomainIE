@@ -45,7 +45,7 @@ public class KnnClassifier extends Plugin {
         }
 
         @Override
-        public Instances classify(File file, Instances dataset, Instances datatraining) throws Exception{
+        public Instances classify(Instances dataset, Instances datatraining) throws Exception{
             int k = Integer.parseInt(availableConfigurations.get("n"));
             dataset.setClassIndex(dataset.numAttributes() - 1);
             datatraining.setClassIndex(datatraining.numAttributes() - 1);
@@ -58,14 +58,6 @@ public class KnnClassifier extends Plugin {
             }
             return dataset;
 
-        }
-
-        public void classifierWillRun() {
-            /* TODO: before extractor start crawling */
-        }
-
-        public void classifierDidRun() {
-            /* TODO: after extractor finish crawling */
         }
 
 

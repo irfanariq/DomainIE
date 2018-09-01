@@ -43,7 +43,7 @@ public class NaiveBayesClassifier extends Plugin {
         }
 
         @Override
-        public Instances classify(File file, Instances dataset, Instances datatraining) throws Exception{
+        public Instances classify(Instances dataset, Instances datatraining) throws Exception{
             dataset.setClassIndex(dataset.numAttributes() - 1);
             datatraining.setClassIndex(datatraining.numAttributes() - 1);
             NaiveBayes nb= new NaiveBayes();
@@ -56,15 +56,5 @@ public class NaiveBayesClassifier extends Plugin {
             return dataset;
 
         }
-
-        public void classifierWillRun() {
-            /* TODO: before extractor start crawling */
-        }
-
-        public void classifierDidRun() {
-            /* TODO: after extractor finish crawling */
-        }
-
-
     }
 }

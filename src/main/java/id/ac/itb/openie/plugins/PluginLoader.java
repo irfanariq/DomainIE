@@ -3,7 +3,7 @@ package id.ac.itb.openie.plugins;
 import id.ac.itb.openie.classifier.IClassifierHandler;
 import id.ac.itb.openie.crawler.ICrawlerHandler;
 import id.ac.itb.openie.dataprocessor.IDataprocessorHandler;
-import id.ac.itb.openie.extractor.IExtractorExtensionHandler;
+import id.ac.itb.openie.extractor.IExtractorExtensionRuleHandler;
 import id.ac.itb.openie.extractor.IExtractorHandler;
 import id.ac.itb.openie.postprocess.IPostprocessorHandler;
 import id.ac.itb.openie.preprocess.IPreprocessorHandler;

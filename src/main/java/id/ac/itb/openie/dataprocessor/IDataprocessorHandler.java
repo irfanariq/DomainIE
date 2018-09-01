@@ -40,18 +40,14 @@ public interface IDataprocessorHandler extends ExtensionPoint, Serializable{
 
     /**
      *
-     * @param document String containing original preprocessed file content
-     * @param instances List of features extracted from data
-     * @return extracted relations
-     * @throws Exception
+     * @param s String of corpus text
+     * @return representation relations from corpus text that may be incomplete
      */
-    public Instances dataprocess( Relations relations, ArrayList<IFeatureHandler> listFeatures) throws Exception;
-
-    public Relations documentToRelations(File f) throws Exception;
+    public Relations documentToRelations(String s) throws Exception;
     
     /**
      *
-     * @return List of file and its content
+     * @return List of file and its content in pair of Relations and Instances(Empty)
      * @throws Exception
      */
     public HashMap<File, Pair<Relations,Instances>> read() throws Exception;
@@ -59,20 +55,10 @@ public interface IDataprocessorHandler extends ExtensionPoint, Serializable{
     /**
      *
      * @param file output title
-     * @param instances output 
+     * @param relation relation that have been processed
+     * @param instances representation of featured relation, can be ? target value
      * @throws Exception
      */
     public void write(File file, Relations relation, Instances instances) throws Exception;
-
-    /**
-     * Hook to be called before extractor will run
-     */
-    public void dataprocessorWillRun();
-
-    /**
-     * Hook to be called before extractor have run
-     */
-    public void dataprocessorDidRun();
-    
 
 }

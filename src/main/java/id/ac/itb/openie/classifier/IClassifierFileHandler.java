@@ -15,7 +15,7 @@ import weka.core.Instances;
  * @author yoga
  */
 public abstract class IClassifierFileHandler implements IClassifierHandler{
-    public Instances classify(File file, Instances dataset, Instances datatraining) throws Exception {
+    public Instances classify(Instances dataset, Instances datatraining) throws Exception {
         return null;
     }
 }

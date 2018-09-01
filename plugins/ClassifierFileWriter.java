@@ -60,14 +60,5 @@ public class ClassifierFileWriter extends Plugin {
             }
         }
 
-        @Override
-        public void classifierWillRun() {
-
-        }
-
-        @Override
-        public void classifierDidRun() {
-
-        }
     }
 }

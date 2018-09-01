@@ -72,6 +72,12 @@ public class Relations {
         }
         return out;
     }
+     
+     public void setFileRelations(String s){
+         for(Relation rel:this.getRelations()){
+             rel.setOriginFile(s);
+         }
+     }
 
     
     

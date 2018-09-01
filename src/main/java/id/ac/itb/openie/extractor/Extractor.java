@@ -47,7 +47,7 @@ public class Extractor implements IExtractorPipelineElement {
     
     public HashMap<File, Pair<Instances, Relations>> execute(File file, Instances instances, Relations relations) throws Exception{
         HashMap<File, Pair<Instances, Relations>> output =  new HashMap<>();
-        output.put(file,Pair.of(instances, this.getExtractorHandler().extract(file, instances, relations)));
+        output.put(file,Pair.of(instances, this.getExtractorHandler().extract(instances, relations)));
 
         return output;
     }

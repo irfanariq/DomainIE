@@ -1,6 +1,6 @@
 package classes;
 
-import id.ac.itb.openie.extractor.IExtractorExtensionHandler;
+import id.ac.itb.openie.extractor.IExtractorExtensionLearningHandler;
 import id.ac.itb.openie.relation.Relations;
 import ro.fortsoft.pf4j.Extension;
 import ro.fortsoft.pf4j.Plugin;
@@ -24,14 +24,15 @@ public class TextrunnerExtractor extends Plugin {
     }
 
     @Extension
-    public static class TextrunnerExtractorHandler extends IExtractorExtensionHandler {
+    public static class TextrunnerExtractorHandler extends IExtractorExtensionLearningHandler {
 
         HashMap<String, String> availableConfigurations = new HashMap<>();
 
         public String getPluginName() {
             String name = "Textrunner Extractor";
 
-            return name;        }
+            return name + " ML";        
+        }
 
         @Override
         public HashMap<String, String> getAvailableConfigurations() {
@@ -44,7 +45,7 @@ public class TextrunnerExtractor extends Plugin {
         }
 
         @Override
-        public Relations extract(File file, Instances instances, Relations extracted) throws Exception {
+        public Relations extract(Instances instances, Relations extracted) throws Exception {
             Enumeration<Instance> enumIns = instances.enumerateInstances();
             ArrayList<Integer> listindex= new ArrayList();
             int i=0;
@@ -62,16 +63,5 @@ public class TextrunnerExtractor extends Plugin {
             return extracted;
         }
 
-        public void extractorWillRun() {
-            System.out.println(this.getPluginName() + " will run..");
-        }
-
-        public void extractorDidRun() {
-            System.out.println(this.getPluginName() + " did run..");
-        }
-
-        public int getExtractorType(){
-            return 1;
-        }
     }
 }

@@ -55,10 +55,15 @@ public class Relation {
     public String getOriginFile() {
         return this.originFile;
     }
+    
+    public void setOriginFile(String s){
+        this.originFile=s;
+    }
 
     public String getOriginSentence() {
         return this.originSentence;
     }
+ 
 
     public int getSentenceIndex() {
         return this.idxSentence;

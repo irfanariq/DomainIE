@@ -1,6 +1,6 @@
 package classes;
 
-import id.ac.itb.openie.extractor.IExtractorExtensionHandler;
+import id.ac.itb.openie.extractor.IExtractorExtensionRuleHandler;
 import id.ac.itb.openie.relation.Relations;
 import ro.fortsoft.pf4j.Extension;
 import ro.fortsoft.pf4j.Plugin;
@@ -19,18 +19,14 @@ public class ReverbExtractor extends Plugin {
     }
 
     @Extension
-    public static class ReverbExtractorHandler extends IExtractorExtensionHandler {
+    public static class ReverbExtractorHandler extends IExtractorExtensionRuleHandler {
 
         HashMap<String, String> availableConfigurations = new HashMap<>();
 
         public String getPluginName() {
 
             String name = "Reverb Extractor";
-
-            if (this.getExtractorType()==1)
-                return name+" (Machine Learning)";
-            else
-                return name;
+            return name;
         }
 
         @Override
@@ -47,18 +43,5 @@ public class ReverbExtractor extends Plugin {
         public Relations extract(File file, String document, Relations extracted) throws Exception {
             return new ReverbExtraction().extract(file, document, extracted);
         }
-
-        public void extractorWillRun() {
-            System.out.println(this.getPluginName() + " will run..");
-        }
-
-        public void extractorDidRun() {
-            System.out.println(this.getPluginName() + " did run..");
-        }
-
-        public int getExtractorType(){
-            return 0;
-        }
-
     }
 }

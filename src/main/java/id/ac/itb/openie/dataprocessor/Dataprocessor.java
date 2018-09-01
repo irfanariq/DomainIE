@@ -5,13 +5,20 @@
  */
 package id.ac.itb.openie.dataprocessor;
 
+import id.ac.itb.openie.relation.Relation;
 import id.ac.itb.openie.relation.Relations;
+import id.ac.itb.openie.utils.Utilities;
 import java.io.File;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.HashMap;
+import java.util.List;
 import org.apache.commons.lang3.tuple.Pair;
 import ro.fortsoft.pf4j.DefaultPluginManager;
 import ro.fortsoft.pf4j.PluginManager;
+import weka.core.Attribute;
+import weka.core.DenseInstance;
+import weka.core.Instance;
 import weka.core.Instances;
 
 /**
@@ -60,13 +67,79 @@ public class Dataprocessor implements IDataprocessorPipelineElement {
         return this.getDataprocessorHandler().getPluginName();
     }
     
+    public Instances dataprocess(Relations relations, ArrayList<IFeatureHandler> listFeatures) throws Exception{
+        //Relations rels = new Relations(documentToRelations(file));
+        Instances out= getInstances(listFeatures);
+        for(Relation rel:relations.getRelations()){
+            Instance instance=featureRelation(rel,out,listFeatures);
+            out.add(instance);
+        }
+        return out;
+    }
+    
+    public Instances getInstances(ArrayList<IFeatureHandler> listFeatures){
+        
+        ArrayList<Attribute> listatt = new ArrayList<>();
+        for(IFeatureHandler feature:listFeatures){
+            Pair<String,Object> typeval = feature.getAttributeType();
+            Attribute att;
+            if(typeval.getLeft().equalsIgnoreCase("numeric")){
+                att=new Attribute(feature.getFeatureName());
+                listatt.add(att);
+            } else if(typeval.getLeft().equalsIgnoreCase("nominal")){
+                List<String> val=(List<String>) typeval.getRight();
+                att=new Attribute(feature.getFeatureName(),val);
+                listatt.add(att);
+            } else if(typeval.getLeft().equalsIgnoreCase("string")){
+                att=new Attribute(feature.getFeatureName(),(List<String>)null);
+                listatt.add(att);
+            }
+            
+        }
+        List<String> yesnovalues = Arrays.asList("yes","no");
+        //put classtarget last in the list
+        Attribute classtarget = new Attribute("classtarget", yesnovalues);
+        listatt.add(classtarget);
+        
+        Instances instances = new Instances(dataprocessorHandler.getPluginName(),listatt,0);
+        instances.setClass(classtarget);
+        return instances;
+    }
+    
+    public Instance featureRelation(Relation rel, Instances instances,ArrayList<IFeatureHandler> listFeatures){
+        Instance newins=new DenseInstance(listFeatures.size()+1);
+        newins.setDataset(instances);
+        int x=0;
+        for(IFeatureHandler feature:listFeatures){
+            Pair<String,Object> typeval = feature.getAttributeType();
+            if(typeval.getLeft().equalsIgnoreCase("numeric")){
+                newins.setValue(x,(Double)feature.calculate(rel));
+            } else if(typeval.getLeft().equalsIgnoreCase("nominal")){
+                newins.setValue(x,(String)feature.calculate(rel));
+            } else if(typeval.getLeft().equalsIgnoreCase("string")){
+                newins.setValue(x,(String)feature.calculate(rel));
+            }
+            x=x+1;
+        }
+        
+        if (rel.getClassTarget()!= null){
+            if (rel.getClassTarget()) newins.setValue(x,"yes");
+            else newins.setValue(x,"no");
+        }
+        
+        return newins;
+    }
+    
     @Override
     public HashMap<File, Pair<Relations, Instances>> execute(File file, Relations relations, Instances instances) throws Exception {
         HashMap<File, Pair<Relations,Instances>> out = new HashMap<>();
+        String filecontent= Utilities.getFileContent(file);
         if(relations == null){
-            out.put(file, Pair.of(this.getDataprocessorHandler().documentToRelations(file),this.getDataprocessorHandler().dataprocess(this.getDataprocessorHandler().documentToRelations(file), arrayFeature)));           
+            Relations rels=this.getDataprocessorHandler().documentToRelations(filecontent);
+            rels.setFileRelations(file.getAbsolutePath());
+            out.put(file, Pair.of(rels,dataprocess(this.getDataprocessorHandler().documentToRelations(filecontent), arrayFeature)));           
         }else{
-            out.put(file, Pair.of(relations,this.getDataprocessorHandler().dataprocess(relations, arrayFeature)));
+            out.put(file, Pair.of(relations,dataprocess(relations, arrayFeature)));
         }
         return out;
     }

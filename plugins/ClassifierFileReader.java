@@ -66,14 +66,5 @@ public class ClassifierFileReader extends Plugin {
         @Override
         public void write(File file, Instances instances) throws Exception {}
 
-        @Override
-        public void classifierWillRun() {
-
-        }
-
-        @Override
-        public void classifierDidRun() {
-
-        }
     }
 }

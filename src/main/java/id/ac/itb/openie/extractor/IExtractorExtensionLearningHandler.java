@@ -8,23 +8,19 @@ import java.util.HashMap;
 import weka.core.Instances;
 
 
-public abstract class IExtractorExtensionHandler implements IExtractorHandler {
+public abstract class IExtractorExtensionLearningHandler implements IExtractorHandler {
 
     private int extractorType;
-    
-    public HashMap<File, Pair<String, Relations>> read() throws Exception {
-        return null;
-    }
     
     public Relations extract(File file, String document, Relations extracted) throws Exception{
         return null;
     }
     
     
-    public Relations extract(File file, Instances instance, Relations extracted) throws Exception{
+    public HashMap<File, Pair<String, Relations>> read() throws Exception {
         return null;
     }
-
+    
     public void write(File file, Relations extracted) throws Exception {}
     
     public HashMap<File, Pair<Instances, Relations>> readML() throws Exception{
@@ -36,8 +32,15 @@ public abstract class IExtractorExtensionHandler implements IExtractorHandler {
     }
         
     public int getExtractorType(){
-        return -1;
+        return 1;
     }
 
-
+    public void extractorWillRun() {
+        System.out.println(this.getPluginName() + " will run..");
+    }
+    
+    public void extractorDidRun() {
+        System.out.println(this.getPluginName() + " did run..");
+    }
+    
 }

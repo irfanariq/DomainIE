@@ -14,7 +14,7 @@ public abstract class IExtractorFileHandler implements IExtractorHandler {
         return null;
     }
     
-    public Relations extract(File file, Instances instance, Relations extracted) throws Exception{
+    public Relations extract(Instances instance, Relations extracted) throws Exception{
         return null;
     }
 

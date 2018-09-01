@@ -64,14 +64,5 @@ public class DataprocessorDataTrainingFileReader extends Plugin {
         @Override
         public void write(File file, Relations relations, Instances instances) throws Exception {}
 
-        @Override
-        public void dataprocessorWillRun() {
-
-        }
-
-        @Override
-        public void dataprocessorDidRun() {
-
-        }
     }
 }

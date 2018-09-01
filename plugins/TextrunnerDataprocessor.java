@@ -55,21 +55,9 @@ public class TextrunnerDataprocessor extends Plugin {
         }
 
         @Override
-        public Instances dataprocess(Relations relations, ArrayList<IFeatureHandler> listFeatures) throws Exception{
-            //Relations rels = new Relations(documentToRelations(file));
-            Instances out= getInstances(listFeatures);
-            for(Relation rel:relations.getRelations()){
-                Instance instance=featureRelation(rel,out,listFeatures);
-                out.add(instance);
-            }
-            return out;
-        }
-
-        @Override
-        public Relations documentToRelations(File f){
+        public Relations documentToRelations(String document){
             Relations relations= new Relations();
             SentenceTokenizer sentenceTokenizer = new SentenceTokenizer();
-            String document= Utilities.getFileContent(f);
 
             ArrayList<String> sentences = sentenceTokenizer.tokenizeSentence(document);
             PhraseChunker phraseChunker = new PhraseChunker();
@@ -80,7 +68,7 @@ public class TextrunnerDataprocessor extends Plugin {
                         for(int k=i+1;k<tags.size();k++){
                              if(tags.get(k)[1].equalsIgnoreCase("NP")){
                                  if(k==i+1) break;
-                                 Relation rel = new Relation(tags.get(i)[0].trim(),makeString(tags,i,k).trim(),tags.get(k)[0].trim(),f.getAbsolutePath(),b,sentences.get(b));
+                                 Relation rel = new Relation(tags.get(i)[0].trim(),makeString(tags,i,k).trim(),tags.get(k)[0].trim(),"",b,sentences.get(b));
                                  relations.addRelation(rel);
                                  break;
                              }
@@ -99,69 +87,6 @@ public class TextrunnerDataprocessor extends Plugin {
             }
             return s.replaceAll(",","");
         }
-
-        public Instance featureRelation(Relation rel, Instances instances,ArrayList<IFeatureHandler> listFeatures){
-            Instance newins=new DenseInstance(listFeatures.size()+1);
-            newins.setDataset(instances);
-            int x=0;
-            for(IFeatureHandler feature:listFeatures){
-                Pair<String,Object> typeval = feature.getAttributeType();
-                if(typeval.getLeft().equalsIgnoreCase("numeric")){
-                    newins.setValue(x,(Double)feature.calculate(rel));   
-                } else if(typeval.getLeft().equalsIgnoreCase("nominal")){
-                    newins.setValue(x,(String)feature.calculate(rel));  
-                } else if(typeval.getLeft().equalsIgnoreCase("string")){
-                	newins.setValue(x,(String)feature.calculate(rel)); 
-                }
-                x=x+1;
-            }
-
-            if (rel.getClassTarget()!= null){
-                if (rel.getClassTarget()) newins.setValue(x,"yes");
-                else newins.setValue(x,"no");
-            }
-        
-            return newins;
-        }
- 
-    public Instances getInstances(ArrayList<IFeatureHandler> listFeatures){
-
-            ArrayList<Attribute> listatt = new ArrayList<>();
-            for(IFeatureHandler feature:listFeatures){
-                Pair<String,Object> typeval = feature.getAttributeType();
-                Attribute att;
-                if(typeval.getLeft().equalsIgnoreCase("numeric")){
-                    att=new Attribute(feature.getFeatureName());
-                    listatt.add(att);
-                } else if(typeval.getLeft().equalsIgnoreCase("nominal")){
-                    List<String> val=(List<String>) typeval.getRight();
-                    att=new Attribute(feature.getFeatureName(),val);
-                    listatt.add(att);
-                } else if(typeval.getLeft().equalsIgnoreCase("string")){
-                	att=new Attribute(feature.getFeatureName(),(List<String>)null);
-                    listatt.add(att);
-                }
-                
-            }
-            List<String> yesnovalues = Arrays.asList("yes","no");            
-            //put classtarget last in the list
-            Attribute classtarget = new Attribute("classtarget", yesnovalues);
-            listatt.add(classtarget);     
-
-            Instances instances = new Instances(getPluginName(),listatt,0);
-            instances.setClass(classtarget);
-            return instances;
-        }
-
-
-        public void dataprocessorWillRun() {
-            System.out.println(this.getPluginName() + " will run..");
-        }
-
-        public void dataprocessorDidRun() {
-            System.out.println(this.getPluginName() + " did run..");
-        }
-
 
     }
 }

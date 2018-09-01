@@ -38,14 +38,26 @@ public interface IExtractorHandler extends ExtensionPoint, Serializable {
      * @throws Exception
      */
     public Relations extract(File file, String document, Relations extracted) throws Exception;
-    public Relations extract(File file, Instances instance, Relations extracted) throws Exception;
+    
+    /**
+     *
+     * @param instance data test that has been classified
+     * @param extracted List of incomplete relation from preprocessor
+     * @return extracted relations
+     * @throws Exception
+     */
+    public Relations extract(Instances instance, Relations extracted) throws Exception;
     /**
      *
      * @return List of file and its content
      * @throws Exception
      */
     public HashMap<File, Pair<String, Relations>> read() throws Exception;
-
+     /**
+     *
+     * @return List of file and its content
+     * @throws Exception
+     */
     public HashMap<File, Pair<Instances, Relations>> readML() throws Exception;
     /**
      *
@@ -53,6 +65,11 @@ public interface IExtractorHandler extends ExtensionPoint, Serializable {
      * @throws Exception
      */
     public void write(File file, Relations extracted) throws Exception;
+    /**
+     *
+     * @return type of extractor
+     * @throws Exception
+     */
     public int getExtractorType();
     /**
      * Hook to be called before extractor will run

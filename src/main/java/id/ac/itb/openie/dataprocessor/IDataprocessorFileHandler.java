@@ -15,11 +15,8 @@ import weka.core.Instances;
  * @author yoga
  */
 public abstract class IDataprocessorFileHandler implements IDataprocessorHandler {
-    public Instances dataprocess( Relations relation, ArrayList<IFeatureHandler> listFeatures) throws Exception {
-        return null;
-    }
-    
-    public Relations documentToRelations(File f) throws Exception{
+
+    public Relations documentToRelations(String s) throws Exception{
         return null;
     }
 
