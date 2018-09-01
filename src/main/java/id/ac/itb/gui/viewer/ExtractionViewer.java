@@ -22,10 +22,6 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.HashSet;
 
-/**
- *
- * @author elvanowen
- */
 public class ExtractionViewer extends javax.swing.JFrame {
 
     private File extractDirectory;
@@ -83,38 +79,12 @@ public class ExtractionViewer extends javax.swing.JFrame {
             highlighter.removeHighlight(highlight);
         }
 
-        // Highlight each word in relation separately
-        String relSentence = sentence;
-        int offsetRelSentence = fileContent.indexOf(sentence);
-        int startIdxRel = -1, endIdxRel = -1;
-        for (String word: rel.split("\\s")) {
-            int pointerRelStart = relSentence.indexOf(" " + word + " ") + 1;
-            int pointerRelEnd = pointerRelStart + word.length();
-
-            if (startIdxRel == -1) startIdxRel = pointerRelStart;
-
-            try {
-                if (pointerRelStart >= 0) {
-                    relSentence = relSentence.substring(pointerRelEnd);
-
-                    // Add offset
-                    currentHighlights.add(highlighter.addHighlight(offsetRelSentence + pointerRelStart, offsetRelSentence + pointerRelEnd, relationPainter));
-
-                    offsetRelSentence += pointerRelEnd;
-                    endIdxRel = offsetRelSentence;
-                }
-            } catch (BadLocationException e1) {
-                e1.printStackTrace();
-            }
-        }
-
         // Highlight each word in 1st argument separately
-        String arg1Sentence = sentence;//.substring(0, startIdxRel);
+        String arg1Sentence = sentence;
         int offsetArg1Sentence = fileContent.indexOf(sentence);
         for (String word: arg1.split("\\s")) {
             int pointerArg1Start = arg1Sentence.indexOf(" " + word + " ") + 1;
             int pointerArg1End = pointerArg1Start + word.length();
-
             try {
                 System.out.println(pointerArg1Start + " "+ pointerArg1End);
                 if (pointerArg1Start >= 0) {
@@ -130,10 +100,31 @@ public class ExtractionViewer extends javax.swing.JFrame {
                 e1.printStackTrace();
             }
         }
+        
+        // Highlight each word in relation separately
+        String relSentence = arg1Sentence;
+        int offsetRelSentence = offsetArg1Sentence;
+        for (String word: rel.split("\\s")) {
+            int pointerRelStart = relSentence.indexOf(" " + word + " ") + 1;
+            int pointerRelEnd = pointerRelStart + word.length();
+
+            try {
+                if (pointerRelStart >= 0) {
+                    relSentence = relSentence.substring(pointerRelEnd);
+
+                    // Add offset
+                    currentHighlights.add(highlighter.addHighlight(offsetRelSentence + pointerRelStart, offsetRelSentence + pointerRelEnd, relationPainter));
+
+                    offsetRelSentence += pointerRelEnd;
+                }
+            } catch (BadLocationException e1) {
+                e1.printStackTrace();
+            }
+        }
 
         // Highlight each word in 2nd argument separately
-        String arg2Sentence = sentence.substring(startIdxRel + rel.length());
-        int offsetArg2Sentence = fileContent.indexOf(sentence) + startIdxRel + rel.length();
+        String arg2Sentence = relSentence;
+        int offsetArg2Sentence = offsetRelSentence;
         for (String word: arg2.split("\\s")) {
             int pointerArg2Start = arg2Sentence.indexOf(" " + word) + 1;
             int pointerArg2End = pointerArg2Start + word.length();
