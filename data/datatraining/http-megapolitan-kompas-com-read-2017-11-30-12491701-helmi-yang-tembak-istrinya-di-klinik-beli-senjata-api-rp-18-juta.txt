@@ -1,166 +1,166 @@
 Source: D:\openIE\data\preprocess\http-megapolitan-kompas-com-read-2017-11-30-12491701-helmi-yang-tembak-istrinya-di-klinik-beli-senjata-api-rp-18-juta.txt
 Kalimat ke-1: Dokter Ryan Helmi yang menembak istrinya sendiri , dokter Lety Sultri di Klinik Az - Zahra , Cawang , Jakarta Timur , 9 November silam membeli senjata api seharga Rp 18 juta  .
-Relasi: menembak(Dokter Ryan Helmi, istrinya)
-Class: false
-
-Source: D:\openIE\data\preprocess\http-megapolitan-kompas-com-read-2017-11-30-12491701-helmi-yang-tembak-istrinya-di-klinik-beli-senjata-api-rp-18-juta.txt
-Kalimat ke-1: Dokter Ryan Helmi yang menembak istrinya sendiri , dokter Lety Sultri di Klinik Az - Zahra , Cawang , Jakarta Timur , 9 November silam membeli senjata api seharga Rp 18 juta  .
-Relasi: membeli(9 November, senjata api)
+Relasi: menembak(Dokter Ryan Helmi# istrinya)
 Class: true
 
 Source: D:\openIE\data\preprocess\http-megapolitan-kompas-com-read-2017-11-30-12491701-helmi-yang-tembak-istrinya-di-klinik-beli-senjata-api-rp-18-juta.txt
 Kalimat ke-1: Dokter Ryan Helmi yang menembak istrinya sendiri , dokter Lety Sultri di Klinik Az - Zahra , Cawang , Jakarta Timur , 9 November silam membeli senjata api seharga Rp 18 juta  .
-Relasi: seharga(senjata api, Rp 18 juta)
+Relasi: membeli(9 November# senjata api)
+Class: false
+
+Source: D:\openIE\data\preprocess\http-megapolitan-kompas-com-read-2017-11-30-12491701-helmi-yang-tembak-istrinya-di-klinik-beli-senjata-api-rp-18-juta.txt
+Kalimat ke-1: Dokter Ryan Helmi yang menembak istrinya sendiri , dokter Lety Sultri di Klinik Az - Zahra , Cawang , Jakarta Timur , 9 November silam membeli senjata api seharga Rp 18 juta  .
+Relasi: seharga(senjata api# Rp 18 juta)
 Class: false
 
 Source: D:\openIE\data\preprocess\http-megapolitan-kompas-com-read-2017-11-30-12491701-helmi-yang-tembak-istrinya-di-klinik-beli-senjata-api-rp-18-juta.txt
 Kalimat ke-2: Senjata jenis Colt Cobra tersebut dibeli Helmi dari seseorang bernama Roby Yogianto yang berdomisili di Banyuwangi , Jawa Timur  .
-Relasi: dibeli Helmi dari(Senjata jenis Colt Cobra, Roby Yogianto)
+Relasi: dibeli Helmi dari(Senjata jenis Colt Cobra# Roby Yogianto)
 Class: true
 
 Source: D:\openIE\data\preprocess\http-megapolitan-kompas-com-read-2017-11-30-12491701-helmi-yang-tembak-istrinya-di-klinik-beli-senjata-api-rp-18-juta.txt
 Kalimat ke-2: Senjata jenis Colt Cobra tersebut dibeli Helmi dari seseorang bernama Roby Yogianto yang berdomisili di Banyuwangi , Jawa Timur  .
-Relasi: bernama(Helmi, Roby Yogianto)
+Relasi: bernama(Helmi# Roby Yogianto)
 Class: true
 
 Source: D:\openIE\data\preprocess\http-megapolitan-kompas-com-read-2017-11-30-12491701-helmi-yang-tembak-istrinya-di-klinik-beli-senjata-api-rp-18-juta.txt
 Kalimat ke-2: Senjata jenis Colt Cobra tersebut dibeli Helmi dari seseorang bernama Roby Yogianto yang berdomisili di Banyuwangi , Jawa Timur  .
-Relasi: berdomisili di(Roby Yogianto, Banyuwangi)
+Relasi: berdomisili di(Roby Yogianto# Banyuwangi)
 Class: true
 
 Source: D:\openIE\data\preprocess\http-megapolitan-kompas-com-read-2017-11-30-12491701-helmi-yang-tembak-istrinya-di-klinik-beli-senjata-api-rp-18-juta.txt
 Kalimat ke-3: Sementara itu , Roby membelinya dari dokter Sonya  .
-Relasi: membelinya dari(Roby, dokter Sonya)
+Relasi: membelinya dari(Roby# dokter Sonya)
 Class: true
 
 Source: D:\openIE\data\preprocess\http-megapolitan-kompas-com-read-2017-11-30-12491701-helmi-yang-tembak-istrinya-di-klinik-beli-senjata-api-rp-18-juta.txt
 Kalimat ke-4: " Mereka kemudian melakukan pertemuan dan bertransaksi di Klinik Medica Center Cawang atau tempat dokter Helmi bekerja  .
-Relasi: bertransaksi di(pertemuan, Klinik Medica Center Cawang)
+Relasi: bertransaksi di(pertemuan# Klinik Medica Center Cawang)
 Class: true
 
 Source: D:\openIE\data\preprocess\http-megapolitan-kompas-com-read-2017-11-30-12491701-helmi-yang-tembak-istrinya-di-klinik-beli-senjata-api-rp-18-juta.txt
 Kalimat ke-5: Setelah serah terima 1 unit senpi Revolver Colt Cobra beserta 18 butir amunisi , dokter Helmi mentransfer sejumlah Rp 18 juta sebagai biaya pembelian senpi tersebut, " ungkap Kasubdit Jatanras Ditreskrimum Polda Metro Jaya AKBP Hendy F Kurniawan dalam keterangan tertulis yang diterima Kompas.com , Kamis ( 30/11/2017 )  .
-Relasi: terima(serah, 1 unit senpi Revolver Colt Cobra)
+Relasi: terima(serah# 1 unit senpi Revolver Colt Cobra)
 Class: true
 
 Source: D:\openIE\data\preprocess\http-megapolitan-kompas-com-read-2017-11-30-12491701-helmi-yang-tembak-istrinya-di-klinik-beli-senjata-api-rp-18-juta.txt
 Kalimat ke-5: Setelah serah terima 1 unit senpi Revolver Colt Cobra beserta 18 butir amunisi , dokter Helmi mentransfer sejumlah Rp 18 juta sebagai biaya pembelian senpi tersebut, " ungkap Kasubdit Jatanras Ditreskrimum Polda Metro Jaya AKBP Hendy F Kurniawan dalam keterangan tertulis yang diterima Kompas.com , Kamis ( 30/11/2017 )  .
-Relasi: butir(18, amunisi)
+Relasi: butir(18# amunisi)
 Class: true
 
 Source: D:\openIE\data\preprocess\http-megapolitan-kompas-com-read-2017-11-30-12491701-helmi-yang-tembak-istrinya-di-klinik-beli-senjata-api-rp-18-juta.txt
 Kalimat ke-5: Setelah serah terima 1 unit senpi Revolver Colt Cobra beserta 18 butir amunisi , dokter Helmi mentransfer sejumlah Rp 18 juta sebagai biaya pembelian senpi tersebut, " ungkap Kasubdit Jatanras Ditreskrimum Polda Metro Jaya AKBP Hendy F Kurniawan dalam keterangan tertulis yang diterima Kompas.com , Kamis ( 30/11/2017 )  .
-Relasi: mentransfer(dokter Helmi, sejumlah Rp 18 juta)
+Relasi: mentransfer(dokter Helmi# sejumlah Rp 18 juta)
 Class: false
 
 Source: D:\openIE\data\preprocess\http-megapolitan-kompas-com-read-2017-11-30-12491701-helmi-yang-tembak-istrinya-di-klinik-beli-senjata-api-rp-18-juta.txt
 Kalimat ke-5: Setelah serah terima 1 unit senpi Revolver Colt Cobra beserta 18 butir amunisi , dokter Helmi mentransfer sejumlah Rp 18 juta sebagai biaya pembelian senpi tersebut, " ungkap Kasubdit Jatanras Ditreskrimum Polda Metro Jaya AKBP Hendy F Kurniawan dalam keterangan tertulis yang diterima Kompas.com , Kamis ( 30/11/2017 )  .
-Relasi: ungkap Kasubdit Jatanras Ditreskrimum Polda Metro Jaya AKBP Hendy F Kurniawan dalam(biaya pembelian senpi, keterangan)
-Class: false
-
-Source: D:\openIE\data\preprocess\http-megapolitan-kompas-com-read-2017-11-30-12491701-helmi-yang-tembak-istrinya-di-klinik-beli-senjata-api-rp-18-juta.txt
-Kalimat ke-5: Setelah serah terima 1 unit senpi Revolver Colt Cobra beserta 18 butir amunisi , dokter Helmi mentransfer sejumlah Rp 18 juta sebagai biaya pembelian senpi tersebut, " ungkap Kasubdit Jatanras Ditreskrimum Polda Metro Jaya AKBP Hendy F Kurniawan dalam keterangan tertulis yang diterima Kompas.com , Kamis ( 30/11/2017 )  .
-Relasi: tertulis(keterangan, Kamis)
-Class: false
-
-Source: D:\openIE\data\preprocess\http-megapolitan-kompas-com-read-2017-11-30-12491701-helmi-yang-tembak-istrinya-di-klinik-beli-senjata-api-rp-18-juta.txt
-Kalimat ke-5: Setelah serah terima 1 unit senpi Revolver Colt Cobra beserta 18 butir amunisi , dokter Helmi mentransfer sejumlah Rp 18 juta sebagai biaya pembelian senpi tersebut, " ungkap Kasubdit Jatanras Ditreskrimum Polda Metro Jaya AKBP Hendy F Kurniawan dalam keterangan tertulis yang diterima Kompas.com , Kamis ( 30/11/2017 )  .
-Relasi: diterima(keterangan, Kamis)
+Relasi: ungkap Kasubdit Jatanras Ditreskrimum Polda Metro Jaya AKBP Hendy F Kurniawan dalam(biaya pembelian senpi# keterangan)
 Class: true
 
 Source: D:\openIE\data\preprocess\http-megapolitan-kompas-com-read-2017-11-30-12491701-helmi-yang-tembak-istrinya-di-klinik-beli-senjata-api-rp-18-juta.txt
-Kalimat ke-6: Adapun sebelum pertemuan itu , lanjut Hendy , Helmi terlebih dahulu menyepakati harga senjata api tersebut melalui Facebook pada 16 Oktober 2017  .
-Relasi: lanjut(pertemuan, Hendy)
+Kalimat ke-5: Setelah serah terima 1 unit senpi Revolver Colt Cobra beserta 18 butir amunisi , dokter Helmi mentransfer sejumlah Rp 18 juta sebagai biaya pembelian senpi tersebut, " ungkap Kasubdit Jatanras Ditreskrimum Polda Metro Jaya AKBP Hendy F Kurniawan dalam keterangan tertulis yang diterima Kompas.com , Kamis ( 30/11/2017 )  .
+Relasi: tertulis(keterangan# Kamis)
+Class: true
+
+Source: D:\openIE\data\preprocess\http-megapolitan-kompas-com-read-2017-11-30-12491701-helmi-yang-tembak-istrinya-di-klinik-beli-senjata-api-rp-18-juta.txt
+Kalimat ke-5: Setelah serah terima 1 unit senpi Revolver Colt Cobra beserta 18 butir amunisi , dokter Helmi mentransfer sejumlah Rp 18 juta sebagai biaya pembelian senpi tersebut, " ungkap Kasubdit Jatanras Ditreskrimum Polda Metro Jaya AKBP Hendy F Kurniawan dalam keterangan tertulis yang diterima Kompas.com , Kamis ( 30/11/2017 )  .
+Relasi: diterima(keterangan# Kamis)
 Class: true
 
 Source: D:\openIE\data\preprocess\http-megapolitan-kompas-com-read-2017-11-30-12491701-helmi-yang-tembak-istrinya-di-klinik-beli-senjata-api-rp-18-juta.txt
 Kalimat ke-6: Adapun sebelum pertemuan itu , lanjut Hendy , Helmi terlebih dahulu menyepakati harga senjata api tersebut melalui Facebook pada 16 Oktober 2017  .
-Relasi: menyepakati(Helmi, harga senjata api)
+Relasi: lanjut(pertemuan# Hendy)
+Class: true
+
+Source: D:\openIE\data\preprocess\http-megapolitan-kompas-com-read-2017-11-30-12491701-helmi-yang-tembak-istrinya-di-klinik-beli-senjata-api-rp-18-juta.txt
+Kalimat ke-6: Adapun sebelum pertemuan itu , lanjut Hendy , Helmi terlebih dahulu menyepakati harga senjata api tersebut melalui Facebook pada 16 Oktober 2017  .
+Relasi: menyepakati(Helmi# harga senjata api)
 Class: false
 
 Source: D:\openIE\data\preprocess\http-megapolitan-kompas-com-read-2017-11-30-12491701-helmi-yang-tembak-istrinya-di-klinik-beli-senjata-api-rp-18-juta.txt
 Kalimat ke-6: Adapun sebelum pertemuan itu , lanjut Hendy , Helmi terlebih dahulu menyepakati harga senjata api tersebut melalui Facebook pada 16 Oktober 2017  .
-Relasi: melalui Facebook pada(harga senjata api, 16 Oktober 2017)
-Class: false
-
-Source: D:\openIE\data\preprocess\http-megapolitan-kompas-com-read-2017-11-30-12491701-helmi-yang-tembak-istrinya-di-klinik-beli-senjata-api-rp-18-juta.txt
-Kalimat ke-7: Baca juga : Helmi yang Tembak Istrinya di Klinik Beli Senjata Milik Seorang Dokter Pada saat itu juga Roby meminta Helmi agar mentransfer uang sebesar Rp 2 juta sebagai biaya transportasi dirinya dari Surabaya ke Jakarta  .
-Relasi: meminta(Roby, uang)
+Relasi: melalui Facebook pada(harga senjata api# 16 Oktober 2017)
 Class: true
 
 Source: D:\openIE\data\preprocess\http-megapolitan-kompas-com-read-2017-11-30-12491701-helmi-yang-tembak-istrinya-di-klinik-beli-senjata-api-rp-18-juta.txt
 Kalimat ke-7: Baca juga : Helmi yang Tembak Istrinya di Klinik Beli Senjata Milik Seorang Dokter Pada saat itu juga Roby meminta Helmi agar mentransfer uang sebesar Rp 2 juta sebagai biaya transportasi dirinya dari Surabaya ke Jakarta  .
-Relasi: mentransfer uang sebesar Rp 2 juta sebagai(Roby, biaya transportasi dirinya)
+Relasi: meminta(Roby# uang)
+Class: true
+
+Source: D:\openIE\data\preprocess\http-megapolitan-kompas-com-read-2017-11-30-12491701-helmi-yang-tembak-istrinya-di-klinik-beli-senjata-api-rp-18-juta.txt
+Kalimat ke-7: Baca juga : Helmi yang Tembak Istrinya di Klinik Beli Senjata Milik Seorang Dokter Pada saat itu juga Roby meminta Helmi agar mentransfer uang sebesar Rp 2 juta sebagai biaya transportasi dirinya dari Surabaya ke Jakarta  .
+Relasi: mentransfer uang sebesar Rp 2 juta sebagai(Roby# biaya transportasi dirinya)
 Class: true
 
 Source: D:\openIE\data\preprocess\http-megapolitan-kompas-com-read-2017-11-30-12491701-helmi-yang-tembak-istrinya-di-klinik-beli-senjata-api-rp-18-juta.txt
 Kalimat ke-8: Hendy menambahkan , uang Rp 18 juta tersebut tak serta merta dinikmati semua oleh Roby  .
-Relasi: menambahkan(Hendy, uang Rp 18 juta)
-Class: true
+Relasi: menambahkan(Hendy# uang Rp 18 juta)
+Class: false
 
 Source: D:\openIE\data\preprocess\http-megapolitan-kompas-com-read-2017-11-30-12491701-helmi-yang-tembak-istrinya-di-klinik-beli-senjata-api-rp-18-juta.txt
 Kalimat ke-8: Hendy menambahkan , uang Rp 18 juta tersebut tak serta merta dinikmati semua oleh Roby  .
-Relasi: dinikmati(uang Rp 18 juta, semua)
-Class: false
+Relasi: dinikmati(uang Rp 18 juta# semua)
+Class: true
 
 Source: D:\openIE\data\preprocess\http-megapolitan-kompas-com-read-2017-11-30-12491701-helmi-yang-tembak-istrinya-di-klinik-beli-senjata-api-rp-18-juta.txt
 Kalimat ke-9: Sebanyak Rp 10,5 juta diberikan Roby ke dokter Sonnya Sujatno selaku pemilik resmi senjata Colt Cobra yang dibeli oleh Helmi  .
-Relasi: diberikan Roby ke(Sebanyak Rp 10,5 juta, dokter Sonnya Sujatno)
-Class: false
+Relasi: diberikan Roby ke(Sebanyak Rp 10,5 juta# dokter Sonnya Sujatno)
+Class: true
 
 Source: D:\openIE\data\preprocess\http-megapolitan-kompas-com-read-2017-11-30-12491701-helmi-yang-tembak-istrinya-di-klinik-beli-senjata-api-rp-18-juta.txt
 Kalimat ke-9: Sebanyak Rp 10,5 juta diberikan Roby ke dokter Sonnya Sujatno selaku pemilik resmi senjata Colt Cobra yang dibeli oleh Helmi  .
-Relasi: dibeli oleh(pemilik resmi senjata Colt Cobra, Helmi)
+Relasi: dibeli oleh(pemilik resmi senjata Colt Cobra# Helmi)
 Class: false
 
 Source: D:\openIE\data\preprocess\http-megapolitan-kompas-com-read-2017-11-30-12491701-helmi-yang-tembak-istrinya-di-klinik-beli-senjata-api-rp-18-juta.txt
 Kalimat ke-10: Sedangkan sisanya sebesar Rp 7,5 juta diambil sendiri oleh Roby  .
-Relasi: diambil sendiri oleh(Rp 7,5 juta, Roby)
-Class: true
-
-Source: D:\openIE\data\preprocess\http-megapolitan-kompas-com-read-2017-11-30-12491701-helmi-yang-tembak-istrinya-di-klinik-beli-senjata-api-rp-18-juta.txt
-Kalimat ke-11: Setelah itu , Helmi kembali menghubungi Roby pada 30 Oktober 2017 dengan maksud meminta beberapa butir amunisi  .
-Relasi: menghubungi Roby pada(Helmi, 30 Oktober 2017)
-Class: true
-
-Source: D:\openIE\data\preprocess\http-megapolitan-kompas-com-read-2017-11-30-12491701-helmi-yang-tembak-istrinya-di-klinik-beli-senjata-api-rp-18-juta.txt
-Kalimat ke-11: Setelah itu , Helmi kembali menghubungi Roby pada 30 Oktober 2017 dengan maksud meminta beberapa butir amunisi  .
-Relasi: meminta(maksud, beberapa)
+Relasi: diambil sendiri oleh(Rp 7,5 juta# Roby)
 Class: false
 
 Source: D:\openIE\data\preprocess\http-megapolitan-kompas-com-read-2017-11-30-12491701-helmi-yang-tembak-istrinya-di-klinik-beli-senjata-api-rp-18-juta.txt
 Kalimat ke-11: Setelah itu , Helmi kembali menghubungi Roby pada 30 Oktober 2017 dengan maksud meminta beberapa butir amunisi  .
-Relasi: butir(beberapa, amunisi)
+Relasi: menghubungi Roby pada(Helmi# 30 Oktober 2017)
+Class: false
+
+Source: D:\openIE\data\preprocess\http-megapolitan-kompas-com-read-2017-11-30-12491701-helmi-yang-tembak-istrinya-di-klinik-beli-senjata-api-rp-18-juta.txt
+Kalimat ke-11: Setelah itu , Helmi kembali menghubungi Roby pada 30 Oktober 2017 dengan maksud meminta beberapa butir amunisi  .
+Relasi: meminta(maksud# beberapa)
+Class: false
+
+Source: D:\openIE\data\preprocess\http-megapolitan-kompas-com-read-2017-11-30-12491701-helmi-yang-tembak-istrinya-di-klinik-beli-senjata-api-rp-18-juta.txt
+Kalimat ke-11: Setelah itu , Helmi kembali menghubungi Roby pada 30 Oktober 2017 dengan maksud meminta beberapa butir amunisi  .
+Relasi: butir(beberapa# amunisi)
 Class: false
 
 Source: D:\openIE\data\preprocess\http-megapolitan-kompas-com-read-2017-11-30-12491701-helmi-yang-tembak-istrinya-di-klinik-beli-senjata-api-rp-18-juta.txt
 Kalimat ke-12: " Selanjutnya dokter Helmi mentransfer uang sejumlah Rp 1.250.000 kepada dokter Sonnya dan akhirnya Roby kembali mengirim melalui paket JNE sejumlah 1-1 butir amunisi yang didapatkan dari dokter Sonny, " pungkas Hendy  .
-Relasi: mentransfer(dokter, uang sejumlah Rp 1.250.000)
+Relasi: mentransfer(dokter# uang sejumlah Rp 1.250.000)
 Class: true
 
 Source: D:\openIE\data\preprocess\http-megapolitan-kompas-com-read-2017-11-30-12491701-helmi-yang-tembak-istrinya-di-klinik-beli-senjata-api-rp-18-juta.txt
 Kalimat ke-12: " Selanjutnya dokter Helmi mentransfer uang sejumlah Rp 1.250.000 kepada dokter Sonnya dan akhirnya Roby kembali mengirim melalui paket JNE sejumlah 1-1 butir amunisi yang didapatkan dari dokter Sonny, " pungkas Hendy  .
-Relasi: mengirim melalui(Roby, paket JNE sejumlah 1-1)
+Relasi: mengirim melalui(Roby# paket JNE sejumlah 1-1)
 Class: false
 
 Source: D:\openIE\data\preprocess\http-megapolitan-kompas-com-read-2017-11-30-12491701-helmi-yang-tembak-istrinya-di-klinik-beli-senjata-api-rp-18-juta.txt
 Kalimat ke-12: " Selanjutnya dokter Helmi mentransfer uang sejumlah Rp 1.250.000 kepada dokter Sonnya dan akhirnya Roby kembali mengirim melalui paket JNE sejumlah 1-1 butir amunisi yang didapatkan dari dokter Sonny, " pungkas Hendy  .
-Relasi: butir(paket JNE sejumlah 1-1, amunisi)
-Class: true
+Relasi: butir(paket JNE sejumlah 1-1# amunisi)
+Class: false
 
 Source: D:\openIE\data\preprocess\http-megapolitan-kompas-com-read-2017-11-30-12491701-helmi-yang-tembak-istrinya-di-klinik-beli-senjata-api-rp-18-juta.txt
 Kalimat ke-12: " Selanjutnya dokter Helmi mentransfer uang sejumlah Rp 1.250.000 kepada dokter Sonnya dan akhirnya Roby kembali mengirim melalui paket JNE sejumlah 1-1 butir amunisi yang didapatkan dari dokter Sonny, " pungkas Hendy  .
-Relasi: didapatkan dari(amunisi, Hendy)
+Relasi: didapatkan dari(amunisi# Hendy)
 Class: true
 
 Source: D:\openIE\data\preprocess\http-megapolitan-kompas-com-read-2017-11-30-12491701-helmi-yang-tembak-istrinya-di-klinik-beli-senjata-api-rp-18-juta.txt
 Kalimat ke-13: Baca juga : Pengacara Dokter Lety : Informasinya , Helmi Belajar Menembak Dulu Sebelum Eksekusi Istrinya Kompas TV Polisi berencana melakukan tes kejiwaan terhadap pelaku penembakan dr.Lety  .
-Relasi: Belajar(Helmi, Menembak)
-Class: true
+Relasi: Belajar(Helmi# Menembak)
+Class: false
 
 Source: D:\openIE\data\preprocess\http-megapolitan-kompas-com-read-2017-11-30-12491701-helmi-yang-tembak-istrinya-di-klinik-beli-senjata-api-rp-18-juta.txt
 Kalimat ke-13: Baca juga : Pengacara Dokter Lety : Informasinya , Helmi Belajar Menembak Dulu Sebelum Eksekusi Istrinya Kompas TV Polisi berencana melakukan tes kejiwaan terhadap pelaku penembakan dr.Lety  .
-Relasi: berencana melakukan tes kejiwaan terhadap(Eksekusi Istrinya Kompas TV Polisi, pelaku)
+Relasi: berencana melakukan tes kejiwaan terhadap(Eksekusi Istrinya Kompas TV Polisi# pelaku)
 Class: true
 
 

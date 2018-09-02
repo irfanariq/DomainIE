@@ -95,11 +95,12 @@ public class ExtractionsEvaluationResult {
         int counter = 0;
 
         for(Relation relation: extractionsEvaluationModel.getExtractedRelations().getRelations()) {
-            String item = String.format("%s - %d", relation.getOriginSentence(), relation.getSentenceIndex());
+            String item = String.format("%s", relation.getOriginFile());
 
             if (!visited.contains(item)) {
                 ArrayList<String> sentences = sentenceTokenizer.tokenizeSentence(Utilities.getFileContent(new File(relation.getOriginFile())));
                 counter += sentences.size();
+                System.out.println("item "+item);
             }
 
             visited.add(item);

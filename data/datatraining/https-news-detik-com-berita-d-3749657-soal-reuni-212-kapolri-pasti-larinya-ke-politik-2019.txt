@@ -1,66 +1,66 @@
 Source: D:\openIE\data\preprocess\https-news-detik-com-berita-d-3749657-soal-reuni-212-kapolri-pasti-larinya-ke-politik-2019.txt
 Kalimat ke-1: Kapolri Jenderal Tito Karnavian menyebut rencana reuni 21-21 pada Sabtu ( 2/1-1 ) mendatang bermuatan politis  .
-Relasi: menyebut(Kapolri Jenderal Tito Karnavian, rencana reuni)
-Class: true
+Relasi: menyebut(Kapolri Jenderal Tito Karnavian# rencana reuni)
+Class: false
 
 Source: D:\openIE\data\preprocess\https-news-detik-com-berita-d-3749657-soal-reuni-212-kapolri-pasti-larinya-ke-politik-2019.txt
 Kalimat ke-1: Kapolri Jenderal Tito Karnavian menyebut rencana reuni 21-21 pada Sabtu ( 2/1-1 ) mendatang bermuatan politis  .
-Relasi: bermuatan(mendatang, politis)
+Relasi: bermuatan(mendatang# politis)
 Class: true
 
 Source: D:\openIE\data\preprocess\https-news-detik-com-berita-d-3749657-soal-reuni-212-kapolri-pasti-larinya-ke-politik-2019.txt
 Kalimat ke-2: Jenderal Tito menduga arah acara reuni itu adalah pemilihan kepala daerah dan pemilihan umum mendatang  .
-Relasi: menduga(Jenderal, arah acara reuni)
-Class: true
+Relasi: menduga(Jenderal# arah acara reuni)
+Class: false
 
 Source: D:\openIE\data\preprocess\https-news-detik-com-berita-d-3749657-soal-reuni-212-kapolri-pasti-larinya-ke-politik-2019.txt
 Kalimat ke-2: Jenderal Tito menduga arah acara reuni itu adalah pemilihan kepala daerah dan pemilihan umum mendatang  .
-Relasi: adalah(arah acara reuni, pemilihan kepala daerah)
-Class: false
+Relasi: adalah(arah acara reuni# pemilihan kepala daerah)
+Class: true
 
 Source: D:\openIE\data\preprocess\https-news-detik-com-berita-d-3749657-soal-reuni-212-kapolri-pasti-larinya-ke-politik-2019.txt
 Kalimat ke-4: Sudahlah , ini pasti larinya ke arah politik 2018 - 2019, " kata Tito di Hotel Bidakara , Jalan Gatot Subroto , Jakarta Selatan , Kamis ( 30/11/2017 )  .
-Relasi: larinya ke(Sudahlah, arah politik 2018)
-Class: false
+Relasi: larinya ke(Sudahlah# arah politik 2018)
+Class: true
 
 Source: D:\openIE\data\preprocess\https-news-detik-com-berita-d-3749657-soal-reuni-212-kapolri-pasti-larinya-ke-politik-2019.txt
 Kalimat ke-4: Sudahlah , ini pasti larinya ke arah politik 2018 - 2019, " kata Tito di Hotel Bidakara , Jalan Gatot Subroto , Jakarta Selatan , Kamis ( 30/11/2017 )  .
-Relasi: kata Tito di(arah politik 2018, Hotel Bidakara)
+Relasi: kata Tito di(arah politik 2018# Hotel Bidakara)
 Class: true
 
 Source: D:\openIE\data\preprocess\https-news-detik-com-berita-d-3749657-soal-reuni-212-kapolri-pasti-larinya-ke-politik-2019.txt
 Kalimat ke-5: Baca juga : Panitia Kongres 21-21 : Tidak Ada Makar , Tidak Ada Melawan Presiden Tito menjamin pelaksanaan reuni alumni 21-21 akan berlangsung dengan aman  .
-Relasi: Ada(Panitia Kongres 21-21, Makar)
-Class: true
+Relasi: Ada(Panitia Kongres 21-21# Makar)
+Class: false
 
 Source: D:\openIE\data\preprocess\https-news-detik-com-berita-d-3749657-soal-reuni-212-kapolri-pasti-larinya-ke-politik-2019.txt
 Kalimat ke-5: Baca juga : Panitia Kongres 21-21 : Tidak Ada Makar , Tidak Ada Melawan Presiden Tito menjamin pelaksanaan reuni alumni 21-21 akan berlangsung dengan aman  .
-Relasi: Ada(Panitia Kongres 21-21, Makar)
-Class: true
+Relasi: Ada(Panitia Kongres 21-21# Makar)
+Class: false
 
 Source: D:\openIE\data\preprocess\https-news-detik-com-berita-d-3749657-soal-reuni-212-kapolri-pasti-larinya-ke-politik-2019.txt
 Kalimat ke-5: Baca juga : Panitia Kongres 21-21 : Tidak Ada Makar , Tidak Ada Melawan Presiden Tito menjamin pelaksanaan reuni alumni 21-21 akan berlangsung dengan aman  .
-Relasi: menjamin(Melawan Presiden, pelaksanaan reuni alumni 21-21)
-Class: true
+Relasi: menjamin(Melawan Presiden# pelaksanaan reuni alumni 21-21)
+Class: false
 
 Source: D:\openIE\data\preprocess\https-news-detik-com-berita-d-3749657-soal-reuni-212-kapolri-pasti-larinya-ke-politik-2019.txt
 Kalimat ke-5: Baca juga : Panitia Kongres 21-21 : Tidak Ada Makar , Tidak Ada Melawan Presiden Tito menjamin pelaksanaan reuni alumni 21-21 akan berlangsung dengan aman  .
-Relasi: akan berlangsung dengan(pelaksanaan reuni alumni 21-21, aman)
+Relasi: akan berlangsung dengan(pelaksanaan reuni alumni 21-21# aman)
 Class: true
 
 Source: D:\openIE\data\preprocess\https-news-detik-com-berita-d-3749657-soal-reuni-212-kapolri-pasti-larinya-ke-politik-2019.txt
 Kalimat ke-6: Namun Tito menyarankan pelaksanaan acara ini cukup mengambil tempat di Masjid Istiqlal  .
-Relasi: mengambil tempat di(pelaksanaan acara, Masjid Istiqlal)
+Relasi: mengambil tempat di(pelaksanaan acara# Masjid Istiqlal)
 Class: false
 
 Source: D:\openIE\data\preprocess\https-news-detik-com-berita-d-3749657-soal-reuni-212-kapolri-pasti-larinya-ke-politik-2019.txt
 Kalimat ke-9: Massa yang akan ikut acara reuni alumni 21-21 diperkirakan tidak sebanyak dulu  .
-Relasi: akan ikut(Massa, acara reuni alumni 21-21)
-Class: false
+Relasi: akan ikut(Massa# acara reuni alumni 21-21)
+Class: true
 
 Source: D:\openIE\data\preprocess\https-news-detik-com-berita-d-3749657-soal-reuni-212-kapolri-pasti-larinya-ke-politik-2019.txt
 Kalimat ke-9: Massa yang akan ikut acara reuni alumni 21-21 diperkirakan tidak sebanyak dulu  .
-Relasi: diperkirakan(acara reuni alumni 21-21, sebanyak)
-Class: false
+Relasi: diperkirakan(acara reuni alumni 21-21# sebanyak)
+Class: true
 
 

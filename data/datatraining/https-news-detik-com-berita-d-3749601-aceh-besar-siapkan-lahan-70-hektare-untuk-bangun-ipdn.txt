@@ -1,131 +1,131 @@
 Source: D:\openIE\data\preprocess\https-news-detik-com-berita-d-3749601-aceh-besar-siapkan-lahan-70-hektare-untuk-bangun-ipdn.txt
 Kalimat ke-1: Institut Pemerintahan Dalam Negeri ( IPDN ) berencana membuka kampus di Aceh Besar  .
-Relasi: berencana membuka kampus di(IPDN, Aceh)
-Class: false
+Relasi: berencana membuka kampus di(IPDN# Aceh)
+Class: true
 
 Source: D:\openIE\data\preprocess\https-news-detik-com-berita-d-3749601-aceh-besar-siapkan-lahan-70-hektare-untuk-bangun-ipdn.txt
 Kalimat ke-3: Di sana , ada lahan seluas 70 hektare yang siap dibangun kampus  .
-Relasi: dibangun(lahan seluas 70 hektare, kampus)
-Class: true
+Relasi: dibangun(lahan seluas 70 hektare# kampus)
+Class: false
 
 Source: D:\openIE\data\preprocess\https-news-detik-com-berita-d-3749601-aceh-besar-siapkan-lahan-70-hektare-untuk-bangun-ipdn.txt
 Kalimat ke-4: Bupati Aceh Besar Mawardi Ali , mengatakan , Kabupaten Aceh Besar dengan lahan yang tergolong luas di Aceh sudah siap menjadi kota pendidikan  .
-Relasi: mengatakan(Aceh, Kabupaten Aceh)
-Class: true
+Relasi: mengatakan(Aceh# Kabupaten Aceh)
+Class: false
 
 Source: D:\openIE\data\preprocess\https-news-detik-com-berita-d-3749601-aceh-besar-siapkan-lahan-70-hektare-untuk-bangun-ipdn.txt
 Kalimat ke-4: Bupati Aceh Besar Mawardi Ali , mengatakan , Kabupaten Aceh Besar dengan lahan yang tergolong luas di Aceh sudah siap menjadi kota pendidikan  .
-Relasi: tergolong luas di(lahan, kota pendidikan)
-Class: true
+Relasi: tergolong luas di(lahan# kota pendidikan)
+Class: false
 
 Source: D:\openIE\data\preprocess\https-news-detik-com-berita-d-3749601-aceh-besar-siapkan-lahan-70-hektare-untuk-bangun-ipdn.txt
 Kalimat ke-4: Bupati Aceh Besar Mawardi Ali , mengatakan , Kabupaten Aceh Besar dengan lahan yang tergolong luas di Aceh sudah siap menjadi kota pendidikan  .
-Relasi: menjadi(lahan, kota pendidikan)
+Relasi: menjadi(lahan# kota pendidikan)
 Class: true
 
 Source: D:\openIE\data\preprocess\https-news-detik-com-berita-d-3749601-aceh-besar-siapkan-lahan-70-hektare-untuk-bangun-ipdn.txt
 Kalimat ke-5: Untuk pembangunan kampus birokrasi IPDN , lahan tersedia di kawasan Blang Bintang  .
-Relasi: tersedia di(lahan, kawasan Blang Bintang)
+Relasi: tersedia di(lahan# kawasan Blang Bintang)
 Class: false
 
 Source: D:\openIE\data\preprocess\https-news-detik-com-berita-d-3749601-aceh-besar-siapkan-lahan-70-hektare-untuk-bangun-ipdn.txt
 Kalimat ke-6: " Aceh Besar siap untuk menjadi kota pendidikan  .
-Relasi: menjadi(Aceh, kota pendidikan)
+Relasi: menjadi(Aceh# kota pendidikan)
 Class: false
 
 Source: D:\openIE\data\preprocess\https-news-detik-com-berita-d-3749601-aceh-besar-siapkan-lahan-70-hektare-untuk-bangun-ipdn.txt
 Kalimat ke-7: Ini tentunya tidak lepas dari dukungan IPDN, " kata Mawardi dalam keterangan tertulis kepada detikcom , Kamis ( 30/11/2017 )  .
-Relasi: kata Mawardi dalam(dukungan, keterangan)
-Class: false
-
-Source: D:\openIE\data\preprocess\https-news-detik-com-berita-d-3749601-aceh-besar-siapkan-lahan-70-hektare-untuk-bangun-ipdn.txt
-Kalimat ke-7: Ini tentunya tidak lepas dari dukungan IPDN, " kata Mawardi dalam keterangan tertulis kepada detikcom , Kamis ( 30/11/2017 )  .
-Relasi: tertulis kepada(keterangan, detikcom)
-Class: false
-
-Source: D:\openIE\data\preprocess\https-news-detik-com-berita-d-3749601-aceh-besar-siapkan-lahan-70-hektare-untuk-bangun-ipdn.txt
-Kalimat ke-8: Menurut Mawardi , jarak tempuh lokasi kampus di Jantho yang dekat dengan provinsi menjadi pertimbangan sehingga kota Jantho layak menjadi lokasi pembangunan kampus IPDN  .
-Relasi: menjadi(provinsi, pertimbangan)
-Class: false
-
-Source: D:\openIE\data\preprocess\https-news-detik-com-berita-d-3749601-aceh-besar-siapkan-lahan-70-hektare-untuk-bangun-ipdn.txt
-Kalimat ke-8: Menurut Mawardi , jarak tempuh lokasi kampus di Jantho yang dekat dengan provinsi menjadi pertimbangan sehingga kota Jantho layak menjadi lokasi pembangunan kampus IPDN  .
-Relasi: menjadi(provinsi, pertimbangan)
+Relasi: kata Mawardi dalam(dukungan# keterangan)
 Class: true
 
 Source: D:\openIE\data\preprocess\https-news-detik-com-berita-d-3749601-aceh-besar-siapkan-lahan-70-hektare-untuk-bangun-ipdn.txt
+Kalimat ke-7: Ini tentunya tidak lepas dari dukungan IPDN, " kata Mawardi dalam keterangan tertulis kepada detikcom , Kamis ( 30/11/2017 )  .
+Relasi: tertulis kepada(keterangan# detikcom)
+Class: true
+
+Source: D:\openIE\data\preprocess\https-news-detik-com-berita-d-3749601-aceh-besar-siapkan-lahan-70-hektare-untuk-bangun-ipdn.txt
+Kalimat ke-8: Menurut Mawardi , jarak tempuh lokasi kampus di Jantho yang dekat dengan provinsi menjadi pertimbangan sehingga kota Jantho layak menjadi lokasi pembangunan kampus IPDN  .
+Relasi: menjadi(provinsi# pertimbangan)
+Class: false
+
+Source: D:\openIE\data\preprocess\https-news-detik-com-berita-d-3749601-aceh-besar-siapkan-lahan-70-hektare-untuk-bangun-ipdn.txt
+Kalimat ke-8: Menurut Mawardi , jarak tempuh lokasi kampus di Jantho yang dekat dengan provinsi menjadi pertimbangan sehingga kota Jantho layak menjadi lokasi pembangunan kampus IPDN  .
+Relasi: menjadi(provinsi# pertimbangan)
+Class: false
+
+Source: D:\openIE\data\preprocess\https-news-detik-com-berita-d-3749601-aceh-besar-siapkan-lahan-70-hektare-untuk-bangun-ipdn.txt
 Kalimat ke-9: " Lokasi sangat dekat dengan bandara SIM yang terletak di Aceh Besar sekitar 60 menit apalagi nanti setelah pembangunan tol selesai , dosen atau wali praja hanya menghabiskan waktu 20 menit untuk mencapai lokasi, " jelasnya  .
-Relasi: terletak di(bandara SIM, Aceh)
+Relasi: terletak di(bandara SIM# Aceh)
 Class: false
 
 Source: D:\openIE\data\preprocess\https-news-detik-com-berita-d-3749601-aceh-besar-siapkan-lahan-70-hektare-untuk-bangun-ipdn.txt
 Kalimat ke-10: Untuk fasilitas , bupati menjamin air bersih di sana sangat bagus  .
-Relasi: menjamin air bersih di(bupati, bagus)
+Relasi: menjamin air bersih di(bupati# bagus)
 Class: false
 
 Source: D:\openIE\data\preprocess\https-news-detik-com-berita-d-3749601-aceh-besar-siapkan-lahan-70-hektare-untuk-bangun-ipdn.txt
 Kalimat ke-11: Hal itu karena Jantho merupakan penyuplai air bersih hingga ke Banda Aceh  .
-Relasi: merupakan(Jantho, penyuplai air)
-Class: false
-
-Source: D:\openIE\data\preprocess\https-news-detik-com-berita-d-3749601-aceh-besar-siapkan-lahan-70-hektare-untuk-bangun-ipdn.txt
-Kalimat ke-12: Sementara untuk listrik juga sudah masuk kelokasi  .
-Relasi: sudah masuk(listrik, kelokasi)
-Class: false
-
-Source: D:\openIE\data\preprocess\https-news-detik-com-berita-d-3749601-aceh-besar-siapkan-lahan-70-hektare-untuk-bangun-ipdn.txt
-Kalimat ke-13: Untuk keamanan , jelas Mawardi , di wilayah tersebut terdapat markas Yonkav dan Raider  .
-Relasi: terdapat(wilayah, markas Yonkav)
+Relasi: merupakan(Jantho# penyuplai air)
 Class: true
 
 Source: D:\openIE\data\preprocess\https-news-detik-com-berita-d-3749601-aceh-besar-siapkan-lahan-70-hektare-untuk-bangun-ipdn.txt
-Kalimat ke-14: " Masyarakat Aceh Besar sangat berharap agar Jantho menjadi kota masa depan dan rencana pembangunan kampus IPDN bisa terealisasi, " jelas mawardi  .
-Relasi: berharap agar(Masyarakat Aceh, Jantho)
+Kalimat ke-12: Sementara untuk listrik juga sudah masuk kelokasi  .
+Relasi: sudah masuk(listrik# kelokasi)
+Class: true
+
+Source: D:\openIE\data\preprocess\https-news-detik-com-berita-d-3749601-aceh-besar-siapkan-lahan-70-hektare-untuk-bangun-ipdn.txt
+Kalimat ke-13: Untuk keamanan , jelas Mawardi , di wilayah tersebut terdapat markas Yonkav dan Raider  .
+Relasi: terdapat(wilayah# markas Yonkav)
 Class: false
 
 Source: D:\openIE\data\preprocess\https-news-detik-com-berita-d-3749601-aceh-besar-siapkan-lahan-70-hektare-untuk-bangun-ipdn.txt
 Kalimat ke-14: " Masyarakat Aceh Besar sangat berharap agar Jantho menjadi kota masa depan dan rencana pembangunan kampus IPDN bisa terealisasi, " jelas mawardi  .
-Relasi: menjadi(Jantho, kota masa depan)
+Relasi: berharap agar(Masyarakat Aceh# Jantho)
+Class: false
+
+Source: D:\openIE\data\preprocess\https-news-detik-com-berita-d-3749601-aceh-besar-siapkan-lahan-70-hektare-untuk-bangun-ipdn.txt
+Kalimat ke-14: " Masyarakat Aceh Besar sangat berharap agar Jantho menjadi kota masa depan dan rencana pembangunan kampus IPDN bisa terealisasi, " jelas mawardi  .
+Relasi: menjadi(Jantho# kota masa depan)
 Class: true
 
 Source: D:\openIE\data\preprocess\https-news-detik-com-berita-d-3749601-aceh-besar-siapkan-lahan-70-hektare-untuk-bangun-ipdn.txt
 Kalimat ke-15: Pada Rabu ( 29/11 ) kemarin , tim IPDN/STPDN meninjau ke lokasi pembangunan kampus di Aceh  .
-Relasi: meninjau ke(tim, lokasi pembangunan kampus)
+Relasi: meninjau ke(tim# lokasi pembangunan kampus)
 Class: true
 
 Source: D:\openIE\data\preprocess\https-news-detik-com-berita-d-3749601-aceh-besar-siapkan-lahan-70-hektare-untuk-bangun-ipdn.txt
 Kalimat ke-16: Tim yang hadir di antaranya yaitu Zulkarnaen Ilyas , Teuku Syahrul Johan , Baharudin Pabba , dan Sutiyo  .
-Relasi: hadir di(Tim, antaranya)
+Relasi: hadir di(Tim# antaranya)
 Class: false
 
 Source: D:\openIE\data\preprocess\https-news-detik-com-berita-d-3749601-aceh-besar-siapkan-lahan-70-hektare-untuk-bangun-ipdn.txt
 Kalimat ke-17: Ketua tim survei pembangunan kampus IPDN , Teuku Syahrul Johan , mengatakan , tujuan kedatangan tim IPDN untuk melihat langsung kondisi lapangan yang akan dibangun kampus IPDN  .
-Relasi: mengatakan(Teuku Syahrul Johan, tujuan kedatangan tim IPDN)
+Relasi: mengatakan(Teuku Syahrul Johan# tujuan kedatangan tim IPDN)
 Class: false
 
 Source: D:\openIE\data\preprocess\https-news-detik-com-berita-d-3749601-aceh-besar-siapkan-lahan-70-hektare-untuk-bangun-ipdn.txt
 Kalimat ke-17: Ketua tim survei pembangunan kampus IPDN , Teuku Syahrul Johan , mengatakan , tujuan kedatangan tim IPDN untuk melihat langsung kondisi lapangan yang akan dibangun kampus IPDN  .
-Relasi: melihat(tujuan kedatangan tim IPDN, langsung kondisi lapangan)
+Relasi: melihat(tujuan kedatangan tim IPDN# langsung kondisi lapangan)
 Class: true
 
 Source: D:\openIE\data\preprocess\https-news-detik-com-berita-d-3749601-aceh-besar-siapkan-lahan-70-hektare-untuk-bangun-ipdn.txt
 Kalimat ke-18: " Pembangunan IPDN di Aceh ini menjadi regional IPDN ke - 9  .
-Relasi: menjadi regional IPDN ke(Aceh, 9)
-Class: true
-
-Source: D:\openIE\data\preprocess\https-news-detik-com-berita-d-3749601-aceh-besar-siapkan-lahan-70-hektare-untuk-bangun-ipdn.txt
-Kalimat ke-19: Di Aceh ada 2 lokasi di Aceh Besar dan di Bireuen , setelah meninjau lokasi insya Allah sudah mencukupi syarat, " jelas Syahrul  .
-Relasi: ada 2 lokasi di(Aceh, Bireuen)
-Class: true
-
-Source: D:\openIE\data\preprocess\https-news-detik-com-berita-d-3749601-aceh-besar-siapkan-lahan-70-hektare-untuk-bangun-ipdn.txt
-Kalimat ke-19: Di Aceh ada 2 lokasi di Aceh Besar dan di Bireuen , setelah meninjau lokasi insya Allah sudah mencukupi syarat, " jelas Syahrul  .
-Relasi: meninjau(Bireuen, lokasi insya Allah)
+Relasi: menjadi regional IPDN ke(Aceh# 9)
 Class: false
 
 Source: D:\openIE\data\preprocess\https-news-detik-com-berita-d-3749601-aceh-besar-siapkan-lahan-70-hektare-untuk-bangun-ipdn.txt
 Kalimat ke-19: Di Aceh ada 2 lokasi di Aceh Besar dan di Bireuen , setelah meninjau lokasi insya Allah sudah mencukupi syarat, " jelas Syahrul  .
-Relasi: sudah mencukupi(lokasi insya Allah, jelas Syahrul)
+Relasi: ada 2 lokasi di(Aceh# Bireuen)
+Class: false
+
+Source: D:\openIE\data\preprocess\https-news-detik-com-berita-d-3749601-aceh-besar-siapkan-lahan-70-hektare-untuk-bangun-ipdn.txt
+Kalimat ke-19: Di Aceh ada 2 lokasi di Aceh Besar dan di Bireuen , setelah meninjau lokasi insya Allah sudah mencukupi syarat, " jelas Syahrul  .
+Relasi: meninjau(Bireuen# lokasi insya Allah)
+Class: false
+
+Source: D:\openIE\data\preprocess\https-news-detik-com-berita-d-3749601-aceh-besar-siapkan-lahan-70-hektare-untuk-bangun-ipdn.txt
+Kalimat ke-19: Di Aceh ada 2 lokasi di Aceh Besar dan di Bireuen , setelah meninjau lokasi insya Allah sudah mencukupi syarat, " jelas Syahrul  .
+Relasi: sudah mencukupi(lokasi insya Allah# jelas Syahrul)
 Class: false
 
 

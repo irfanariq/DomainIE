@@ -1,151 +1,151 @@
 Source: D:\openIE\data\preprocess\https-sport-detik-com-sepakbola-liga-inggris-d-3749617-lampaui-start-musim-20112012-city-ikuti-jejak-ke-tangga-juara.txt
 Kalimat ke-1: Manchester City meraih gelar Premier League pertama di musim 2011/201-201 , dengan membukukan start terbaik dalam 14 pekan awal  .
-Relasi: meraih(Manchester City, gelar Premier League pertama)
-Class: false
+Relasi: meraih(Manchester City# gelar Premier League pertama)
+Class: true
 
 Source: D:\openIE\data\preprocess\https-sport-detik-com-sepakbola-liga-inggris-d-3749617-lampaui-start-musim-20112012-city-ikuti-jejak-ke-tangga-juara.txt
 Kalimat ke-1: Manchester City meraih gelar Premier League pertama di musim 2011/201-201 , dengan membukukan start terbaik dalam 14 pekan awal  .
-Relasi: membukukan start terbaik dalam(musim, 14 pekan)
-Class: true
+Relasi: membukukan start terbaik dalam(musim# 14 pekan)
+Class: false
 
 Source: D:\openIE\data\preprocess\https-sport-detik-com-sepakbola-liga-inggris-d-3749617-lampaui-start-musim-20112012-city-ikuti-jejak-ke-tangga-juara.txt
 Kalimat ke-3: Musim 2011/201-201 menjadi salah satu momen terpenting untuk Manchester City  .
-Relasi: menjadi(Musim, satu momen)
-Class: true
+Relasi: menjadi(Musim# satu momen)
+Class: false
 
 Source: D:\openIE\data\preprocess\https-sport-detik-com-sepakbola-liga-inggris-d-3749617-lampaui-start-musim-20112012-city-ikuti-jejak-ke-tangga-juara.txt
 Kalimat ke-3: Musim 2011/201-201 menjadi salah satu momen terpenting untuk Manchester City  .
-Relasi: terpenting untuk(satu momen, Manchester City)
+Relasi: terpenting untuk(satu momen# Manchester City)
 Class: false
 
 Source: D:\openIE\data\preprocess\https-sport-detik-com-sepakbola-liga-inggris-d-3749617-lampaui-start-musim-20112012-city-ikuti-jejak-ke-tangga-juara.txt
 Kalimat ke-4: Pada musim ini The Citizens mengakhiri penantian 44 tahun akan gelar Liga Inggris , menandai kebangkitan besar mereka di kompetisi usai kedatangan investor Abu Dhabi  .
-Relasi: mengakhiri(The Citizens, penantian 44 tahun)
+Relasi: mengakhiri(The Citizens# penantian 44 tahun)
+Class: true
+
+Source: D:\openIE\data\preprocess\https-sport-detik-com-sepakbola-liga-inggris-d-3749617-lampaui-start-musim-20112012-city-ikuti-jejak-ke-tangga-juara.txt
+Kalimat ke-4: Pada musim ini The Citizens mengakhiri penantian 44 tahun akan gelar Liga Inggris , menandai kebangkitan besar mereka di kompetisi usai kedatangan investor Abu Dhabi  .
+Relasi: menandai kebangkitan besar mereka di(gelar Liga Inggris# kompetisi)
 Class: false
 
 Source: D:\openIE\data\preprocess\https-sport-detik-com-sepakbola-liga-inggris-d-3749617-lampaui-start-musim-20112012-city-ikuti-jejak-ke-tangga-juara.txt
 Kalimat ke-4: Pada musim ini The Citizens mengakhiri penantian 44 tahun akan gelar Liga Inggris , menandai kebangkitan besar mereka di kompetisi usai kedatangan investor Abu Dhabi  .
-Relasi: menandai kebangkitan besar mereka di(gelar Liga Inggris, kompetisi)
-Class: true
-
-Source: D:\openIE\data\preprocess\https-sport-detik-com-sepakbola-liga-inggris-d-3749617-lampaui-start-musim-20112012-city-ikuti-jejak-ke-tangga-juara.txt
-Kalimat ke-4: Pada musim ini The Citizens mengakhiri penantian 44 tahun akan gelar Liga Inggris , menandai kebangkitan besar mereka di kompetisi usai kedatangan investor Abu Dhabi  .
-Relasi: usai(kompetisi, kedatangan investor Abu Dhabi)
-Class: true
+Relasi: usai(kompetisi# kedatangan investor Abu Dhabi)
+Class: false
 
 Source: D:\openIE\data\preprocess\https-sport-detik-com-sepakbola-liga-inggris-d-3749617-lampaui-start-musim-20112012-city-ikuti-jejak-ke-tangga-juara.txt
 Kalimat ke-6: Dua titel liga lainnya didapatkan pada musim 1936/1937 dan 1967/1968 alias era sebelum Premier League bergulir  .
-Relasi: didapatkan pada(Dua titel liga lainnya, musim)
-Class: true
+Relasi: didapatkan pada(Dua titel liga lainnya# musim)
+Class: false
 
 Source: D:\openIE\data\preprocess\https-sport-detik-com-sepakbola-liga-inggris-d-3749617-lampaui-start-musim-20112012-city-ikuti-jejak-ke-tangga-juara.txt
 Kalimat ke-7: Trofi Premier League 2011/201-201 menjadi momentum besar untuk City kembali di persaingan teratas kompetisi tersebut hingga kini  .
-Relasi: menjadi momentum besar untuk(Trofi Premier League, City)
+Relasi: menjadi momentum besar untuk(Trofi Premier League# City)
 Class: true
 
 Source: D:\openIE\data\preprocess\https-sport-detik-com-sepakbola-liga-inggris-d-3749617-lampaui-start-musim-20112012-city-ikuti-jejak-ke-tangga-juara.txt
 Kalimat ke-8: Di musim itu , City tampil bagus di bawah arahan Roberto Mancini di bawah tekanan besar Manchester United  .
-Relasi: tampil bagus di(City, bawah arahan Roberto Mancini)
+Relasi: tampil bagus di(City# bawah arahan Roberto Mancini)
 Class: true
 
 Source: D:\openIE\data\preprocess\https-sport-detik-com-sepakbola-liga-inggris-d-3749617-lampaui-start-musim-20112012-city-ikuti-jejak-ke-tangga-juara.txt
 Kalimat ke-9: Seperti diketahui , City memenangi musim 2011/201-201 dengan hanya keunggulan selisih gol  .
-Relasi: memenangi(City, musim)
-Class: true
-
-Source: D:\openIE\data\preprocess\https-sport-detik-com-sepakbola-liga-inggris-d-3749617-lampaui-start-musim-20112012-city-ikuti-jejak-ke-tangga-juara.txt
-Kalimat ke-10: City dan MU sama - sama mengoleksi nilai 89 dalam 38 pekan , mencatatkan rekor menang , imbang , kalah yang identik : 28 menang , 5 imbang , 5 kalah  .
-Relasi: mengoleksi nilai 89 dalam(MU, 38 pekan)
-Class: true
-
-Source: D:\openIE\data\preprocess\https-sport-detik-com-sepakbola-liga-inggris-d-3749617-lampaui-start-musim-20112012-city-ikuti-jejak-ke-tangga-juara.txt
-Kalimat ke-10: City dan MU sama - sama mengoleksi nilai 89 dalam 38 pekan , mencatatkan rekor menang , imbang , kalah yang identik : 28 menang , 5 imbang , 5 kalah  .
-Relasi: mencatatkan(38 pekan, rekor)
-Class: true
-
-Source: D:\openIE\data\preprocess\https-sport-detik-com-sepakbola-liga-inggris-d-3749617-lampaui-start-musim-20112012-city-ikuti-jejak-ke-tangga-juara.txt
-Kalimat ke-10: City dan MU sama - sama mengoleksi nilai 89 dalam 38 pekan , mencatatkan rekor menang , imbang , kalah yang identik : 28 menang , 5 imbang , 5 kalah  .
-Relasi: menang(rekor, imbang)
+Relasi: memenangi(City# musim)
 Class: false
 
 Source: D:\openIE\data\preprocess\https-sport-detik-com-sepakbola-liga-inggris-d-3749617-lampaui-start-musim-20112012-city-ikuti-jejak-ke-tangga-juara.txt
 Kalimat ke-10: City dan MU sama - sama mengoleksi nilai 89 dalam 38 pekan , mencatatkan rekor menang , imbang , kalah yang identik : 28 menang , 5 imbang , 5 kalah  .
-Relasi: menang(rekor, imbang)
+Relasi: mengoleksi nilai 89 dalam(MU# 38 pekan)
+Class: false
+
+Source: D:\openIE\data\preprocess\https-sport-detik-com-sepakbola-liga-inggris-d-3749617-lampaui-start-musim-20112012-city-ikuti-jejak-ke-tangga-juara.txt
+Kalimat ke-10: City dan MU sama - sama mengoleksi nilai 89 dalam 38 pekan , mencatatkan rekor menang , imbang , kalah yang identik : 28 menang , 5 imbang , 5 kalah  .
+Relasi: mencatatkan(38 pekan# rekor)
+Class: false
+
+Source: D:\openIE\data\preprocess\https-sport-detik-com-sepakbola-liga-inggris-d-3749617-lampaui-start-musim-20112012-city-ikuti-jejak-ke-tangga-juara.txt
+Kalimat ke-10: City dan MU sama - sama mengoleksi nilai 89 dalam 38 pekan , mencatatkan rekor menang , imbang , kalah yang identik : 28 menang , 5 imbang , 5 kalah  .
+Relasi: menang(rekor# imbang)
+Class: true
+
+Source: D:\openIE\data\preprocess\https-sport-detik-com-sepakbola-liga-inggris-d-3749617-lampaui-start-musim-20112012-city-ikuti-jejak-ke-tangga-juara.txt
+Kalimat ke-10: City dan MU sama - sama mengoleksi nilai 89 dalam 38 pekan , mencatatkan rekor menang , imbang , kalah yang identik : 28 menang , 5 imbang , 5 kalah  .
+Relasi: menang(rekor# imbang)
 Class: false
 
 Source: D:\openIE\data\preprocess\https-sport-detik-com-sepakbola-liga-inggris-d-3749617-lampaui-start-musim-20112012-city-ikuti-jejak-ke-tangga-juara.txt
 Kalimat ke-11: Tapi City unggul selisih gol dengan + 64 berbanding + 56  .
-Relasi: berbanding(64, 56)
+Relasi: berbanding(64# 56)
 Class: true
 
 Source: D:\openIE\data\preprocess\https-sport-detik-com-sepakbola-liga-inggris-d-3749617-lampaui-start-musim-20112012-city-ikuti-jejak-ke-tangga-juara.txt
 Kalimat ke-12: Membandingkan dengan waktu itu , City musim ini berada di jalur yang serupa untuk mengulang kesuksesan merebut gelar juara  .
-Relasi: berada di(City musim, jalur)
+Relasi: berada di(City musim# jalur)
+Class: false
+
+Source: D:\openIE\data\preprocess\https-sport-detik-com-sepakbola-liga-inggris-d-3749617-lampaui-start-musim-20112012-city-ikuti-jejak-ke-tangga-juara.txt
+Kalimat ke-12: Membandingkan dengan waktu itu , City musim ini berada di jalur yang serupa untuk mengulang kesuksesan merebut gelar juara  .
+Relasi: mengulang(jalur# kesuksesan)
 Class: true
 
 Source: D:\openIE\data\preprocess\https-sport-detik-com-sepakbola-liga-inggris-d-3749617-lampaui-start-musim-20112012-city-ikuti-jejak-ke-tangga-juara.txt
 Kalimat ke-12: Membandingkan dengan waktu itu , City musim ini berada di jalur yang serupa untuk mengulang kesuksesan merebut gelar juara  .
-Relasi: mengulang(jalur, kesuksesan)
-Class: false
-
-Source: D:\openIE\data\preprocess\https-sport-detik-com-sepakbola-liga-inggris-d-3749617-lampaui-start-musim-20112012-city-ikuti-jejak-ke-tangga-juara.txt
-Kalimat ke-12: Membandingkan dengan waktu itu , City musim ini berada di jalur yang serupa untuk mengulang kesuksesan merebut gelar juara  .
-Relasi: merebut(kesuksesan, gelar juara)
-Class: false
+Relasi: merebut(kesuksesan# gelar juara)
+Class: true
 
 Source: D:\openIE\data\preprocess\https-sport-detik-com-sepakbola-liga-inggris-d-3749617-lampaui-start-musim-20112012-city-ikuti-jejak-ke-tangga-juara.txt
 Kalimat ke-14: Bersama Mancini , City musim 2011/201-201 melalui 14 pekan pertama dengan 1-1 kemenangan dan dua hasil imbang  .
-Relasi: melalui(City musim, 14 pekan pertama)
+Relasi: melalui(City musim# 14 pekan pertama)
 Class: true
 
 Source: D:\openIE\data\preprocess\https-sport-detik-com-sepakbola-liga-inggris-d-3749617-lampaui-start-musim-20112012-city-ikuti-jejak-ke-tangga-juara.txt
 Kalimat ke-16: Jumlah itu juga mengantarkan City menjadi tim dengan start terbaik - - dalam 14 pekan - - sejak era baru kompetisi Liga Inggris tersebut dimulai  .
-Relasi: mengantarkan(Jumlah, City)
+Relasi: mengantarkan(Jumlah# City)
 Class: true
 
 Source: D:\openIE\data\preprocess\https-sport-detik-com-sepakbola-liga-inggris-d-3749617-lampaui-start-musim-20112012-city-ikuti-jejak-ke-tangga-juara.txt
 Kalimat ke-16: Jumlah itu juga mengantarkan City menjadi tim dengan start terbaik - - dalam 14 pekan - - sejak era baru kompetisi Liga Inggris tersebut dimulai  .
-Relasi: menjadi tim dengan(City, start)
-Class: true
-
-Source: D:\openIE\data\preprocess\https-sport-detik-com-sepakbola-liga-inggris-d-3749617-lampaui-start-musim-20112012-city-ikuti-jejak-ke-tangga-juara.txt
-Kalimat ke-19: Dalam 14 pekan pertama di musim ini , City mengoleksi 13 kemenangan dan satu hasil imbang , sehingga meraih 40 poin  .
-Relasi: mengoleksi(City, 13 kemenangan)
+Relasi: menjadi tim dengan(City# start)
 Class: false
 
 Source: D:\openIE\data\preprocess\https-sport-detik-com-sepakbola-liga-inggris-d-3749617-lampaui-start-musim-20112012-city-ikuti-jejak-ke-tangga-juara.txt
 Kalimat ke-19: Dalam 14 pekan pertama di musim ini , City mengoleksi 13 kemenangan dan satu hasil imbang , sehingga meraih 40 poin  .
-Relasi: meraih(satu hasil imbang, 40 poin)
+Relasi: mengoleksi(City# 13 kemenangan)
+Class: false
+
+Source: D:\openIE\data\preprocess\https-sport-detik-com-sepakbola-liga-inggris-d-3749617-lampaui-start-musim-20112012-city-ikuti-jejak-ke-tangga-juara.txt
+Kalimat ke-19: Dalam 14 pekan pertama di musim ini , City mengoleksi 13 kemenangan dan satu hasil imbang , sehingga meraih 40 poin  .
+Relasi: meraih(satu hasil imbang# 40 poin)
 Class: false
 
 Source: D:\openIE\data\preprocess\https-sport-detik-com-sepakbola-liga-inggris-d-3749617-lampaui-start-musim-20112012-city-ikuti-jejak-ke-tangga-juara.txt
 Kalimat ke-20: City - nya Guardiola pun menggusur rekor City - nya Mancini kala itu , menjadi tim dengan start terbaik dalam 14 pekan  .
-Relasi: menggusur(nya Guardiola, rekor City)
+Relasi: menggusur(nya Guardiola# rekor City)
 Class: false
 
 Source: D:\openIE\data\preprocess\https-sport-detik-com-sepakbola-liga-inggris-d-3749617-lampaui-start-musim-20112012-city-ikuti-jejak-ke-tangga-juara.txt
 Kalimat ke-20: City - nya Guardiola pun menggusur rekor City - nya Mancini kala itu , menjadi tim dengan start terbaik dalam 14 pekan  .
-Relasi: menjadi tim dengan(nya Mancini kala, start)
+Relasi: menjadi tim dengan(nya Mancini kala# start)
 Class: true
 
 Source: D:\openIE\data\preprocess\https-sport-detik-com-sepakbola-liga-inggris-d-3749617-lampaui-start-musim-20112012-city-ikuti-jejak-ke-tangga-juara.txt
 Kalimat ke-21: Hal ini juga bisa menjadi pertanda bagus untuk City musim ini , mengingat mereka sudah melampaui laju tim juara polesan Mancini lima tahun silam  .
-Relasi: bisa menjadi pertanda bagus untuk(Hal, City musim)
+Relasi: bisa menjadi pertanda bagus untuk(Hal# City musim)
 Class: false
 
 Source: D:\openIE\data\preprocess\https-sport-detik-com-sepakbola-liga-inggris-d-3749617-lampaui-start-musim-20112012-city-ikuti-jejak-ke-tangga-juara.txt
 Kalimat ke-21: Hal ini juga bisa menjadi pertanda bagus untuk City musim ini , mengingat mereka sudah melampaui laju tim juara polesan Mancini lima tahun silam  .
-Relasi: mengingat(City musim, laju tim juara polesan Mancini lima tahun)
-Class: false
+Relasi: mengingat(City musim# laju tim juara polesan Mancini lima tahun)
+Class: true
 
 Source: D:\openIE\data\preprocess\https-sport-detik-com-sepakbola-liga-inggris-d-3749617-lampaui-start-musim-20112012-city-ikuti-jejak-ke-tangga-juara.txt
 Kalimat ke-21: Hal ini juga bisa menjadi pertanda bagus untuk City musim ini , mengingat mereka sudah melampaui laju tim juara polesan Mancini lima tahun silam  .
-Relasi: sudah melampaui(City musim, laju tim juara polesan Mancini lima tahun)
+Relasi: sudah melampaui(City musim# laju tim juara polesan Mancini lima tahun)
 Class: true
 
 Source: D:\openIE\data\preprocess\https-sport-detik-com-sepakbola-liga-inggris-d-3749617-lampaui-start-musim-20112012-city-ikuti-jejak-ke-tangga-juara.txt
 Kalimat ke-22: Apakah City musim ini bakal berhasil mengikuti jejak timnya Mancini di 2011/201-201 untuk jadi juara ?
-Relasi: mengikuti jejak timnya Mancini di(City musim, jadi juara)
+Relasi: mengikuti jejak timnya Mancini di(City musim# jadi juara)
 Class: true
 
 

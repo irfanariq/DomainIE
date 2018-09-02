@@ -1,231 +1,231 @@
 Source: D:\openIE\data\preprocess\http-otomotif-kompas-com-read-2017-11-30-080200915-menjajal-suv-sokon-glory-580-produksi-serang-video.txt
 Kalimat ke-1: Serang , KompasOtomotif Saat kunjungan ke peresmian pabrik Sokonindo Automobile di Serang , Banten , mereka juga memajang produk perdana model SUV yang akan diproduksi dan dipasarkan di dalam negeri pada awal 2018  .
-Relasi: memajang(Banten, produk perdana model SUV)
-Class: true
-
-Source: D:\openIE\data\preprocess\http-otomotif-kompas-com-read-2017-11-30-080200915-menjajal-suv-sokon-glory-580-produksi-serang-video.txt
-Kalimat ke-1: Serang , KompasOtomotif Saat kunjungan ke peresmian pabrik Sokonindo Automobile di Serang , Banten , mereka juga memajang produk perdana model SUV yang akan diproduksi dan dipasarkan di dalam negeri pada awal 2018  .
-Relasi: akan diproduksi(produk perdana model SUV, negeri)
+Relasi: memajang(Banten# produk perdana model SUV)
 Class: false
 
 Source: D:\openIE\data\preprocess\http-otomotif-kompas-com-read-2017-11-30-080200915-menjajal-suv-sokon-glory-580-produksi-serang-video.txt
 Kalimat ke-1: Serang , KompasOtomotif Saat kunjungan ke peresmian pabrik Sokonindo Automobile di Serang , Banten , mereka juga memajang produk perdana model SUV yang akan diproduksi dan dipasarkan di dalam negeri pada awal 2018  .
-Relasi: dipasarkan di(produk perdana model SUV, negeri)
+Relasi: akan diproduksi(produk perdana model SUV# negeri)
+Class: true
+
+Source: D:\openIE\data\preprocess\http-otomotif-kompas-com-read-2017-11-30-080200915-menjajal-suv-sokon-glory-580-produksi-serang-video.txt
+Kalimat ke-1: Serang , KompasOtomotif Saat kunjungan ke peresmian pabrik Sokonindo Automobile di Serang , Banten , mereka juga memajang produk perdana model SUV yang akan diproduksi dan dipasarkan di dalam negeri pada awal 2018  .
+Relasi: dipasarkan di(produk perdana model SUV# negeri)
 Class: true
 
 Source: D:\openIE\data\preprocess\http-otomotif-kompas-com-read-2017-11-30-080200915-menjajal-suv-sokon-glory-580-produksi-serang-video.txt
 Kalimat ke-2: Merek asal China ini memang secara resmi belum meluncurkan model tersebut , tapi sudah mengizinkan saya media untuk menjajalnya  .
-Relasi: meluncurkan(Merek asal China, model)
+Relasi: meluncurkan(Merek asal China# model)
 Class: true
 
 Source: D:\openIE\data\preprocess\http-otomotif-kompas-com-read-2017-11-30-080200915-menjajal-suv-sokon-glory-580-produksi-serang-video.txt
 Kalimat ke-2: Merek asal China ini memang secara resmi belum meluncurkan model tersebut , tapi sudah mengizinkan saya media untuk menjajalnya  .
-Relasi: sudah mengizinkan saya media untuk(model, menjajalnya)
+Relasi: sudah mengizinkan saya media untuk(model# menjajalnya)
 Class: false
 
 Source: D:\openIE\data\preprocess\http-otomotif-kompas-com-read-2017-11-30-080200915-menjajal-suv-sokon-glory-580-produksi-serang-video.txt
 Kalimat ke-3: Namun , memang sangat singkat dan jaraknya cukup pendek hanya berkeliling pabriknya saja  .
-Relasi: berkeliling(jaraknya, pabriknya)
-Class: false
-
-Source: D:\openIE\data\preprocess\http-otomotif-kompas-com-read-2017-11-30-080200915-menjajal-suv-sokon-glory-580-produksi-serang-video.txt
-Kalimat ke-4: Bahkan , tak lebih dari lima menit nampaknya mengendarai produk baru yang punya nama Glory 580 ini  .
-Relasi: mengendarai(lima menit, produk)
+Relasi: berkeliling(jaraknya# pabriknya)
 Class: true
 
 Source: D:\openIE\data\preprocess\http-otomotif-kompas-com-read-2017-11-30-080200915-menjajal-suv-sokon-glory-580-produksi-serang-video.txt
 Kalimat ke-4: Bahkan , tak lebih dari lima menit nampaknya mengendarai produk baru yang punya nama Glory 580 ini  .
-Relasi: punya(produk, nama Glory 580)
+Relasi: mengendarai(lima menit# produk)
+Class: false
+
+Source: D:\openIE\data\preprocess\http-otomotif-kompas-com-read-2017-11-30-080200915-menjajal-suv-sokon-glory-580-produksi-serang-video.txt
+Kalimat ke-4: Bahkan , tak lebih dari lima menit nampaknya mengendarai produk baru yang punya nama Glory 580 ini  .
+Relasi: punya(produk# nama Glory 580)
+Class: true
+
+Source: D:\openIE\data\preprocess\http-otomotif-kompas-com-read-2017-11-30-080200915-menjajal-suv-sokon-glory-580-produksi-serang-video.txt
+Kalimat ke-5: Meski begitu , cukup beruntung dapat jatah mencobanya sebelum dijual dipasaran  .
+Relasi: mencobanya(jatah# dipasaran)
 Class: false
 
 Source: D:\openIE\data\preprocess\http-otomotif-kompas-com-read-2017-11-30-080200915-menjajal-suv-sokon-glory-580-produksi-serang-video.txt
 Kalimat ke-5: Meski begitu , cukup beruntung dapat jatah mencobanya sebelum dijual dipasaran  .
-Relasi: mencobanya(jatah, dipasaran)
-Class: true
-
-Source: D:\openIE\data\preprocess\http-otomotif-kompas-com-read-2017-11-30-080200915-menjajal-suv-sokon-glory-580-produksi-serang-video.txt
-Kalimat ke-5: Meski begitu , cukup beruntung dapat jatah mencobanya sebelum dijual dipasaran  .
-Relasi: dijual(jatah, dipasaran)
+Relasi: dijual(jatah# dipasaran)
 Class: true
 
 Source: D:\openIE\data\preprocess\http-otomotif-kompas-com-read-2017-11-30-080200915-menjajal-suv-sokon-glory-580-produksi-serang-video.txt
 Kalimat ke-6: Posisi Bekendara Jok berlapis kulit dengan desain semi - bucketseat , ditambah dengan ketebalan busa yang pas , membuat pinggul dan tubuh pewe ketika pertama kali duduk  .
-Relasi: berlapis kulit dengan(Posisi Bekendara Jok, desain semi)
+Relasi: berlapis kulit dengan(Posisi Bekendara Jok# desain semi)
 Class: true
 
 Source: D:\openIE\data\preprocess\http-otomotif-kompas-com-read-2017-11-30-080200915-menjajal-suv-sokon-glory-580-produksi-serang-video.txt
 Kalimat ke-6: Posisi Bekendara Jok berlapis kulit dengan desain semi - bucketseat , ditambah dengan ketebalan busa yang pas , membuat pinggul dan tubuh pewe ketika pertama kali duduk  .
-Relasi: ditambah dengan(bucketseat, ketebalan busa)
-Class: false
+Relasi: ditambah dengan(bucketseat# ketebalan busa)
+Class: true
 
 Source: D:\openIE\data\preprocess\http-otomotif-kompas-com-read-2017-11-30-080200915-menjajal-suv-sokon-glory-580-produksi-serang-video.txt
 Kalimat ke-6: Posisi Bekendara Jok berlapis kulit dengan desain semi - bucketseat , ditambah dengan ketebalan busa yang pas , membuat pinggul dan tubuh pewe ketika pertama kali duduk  .
-Relasi: membuat(ketebalan busa, pinggul)
+Relasi: membuat(ketebalan busa# pinggul)
 Class: true
 
 Source: D:\openIE\data\preprocess\http-otomotif-kompas-com-read-2017-11-30-080200915-menjajal-suv-sokon-glory-580-produksi-serang-video.txt
 Kalimat ke-7: Pengemudi bisa menyesuaikan posisi berkendara dengan menyetel kursi maju - mundur , maupun sudut sandar ( reclining seat ) serta kemudi yang bisa diatur up and down  .
-Relasi: bisa menyesuaikan(Pengemudi, posisi)
-Class: true
-
-Source: D:\openIE\data\preprocess\http-otomotif-kompas-com-read-2017-11-30-080200915-menjajal-suv-sokon-glory-580-produksi-serang-video.txt
-Kalimat ke-7: Pengemudi bisa menyesuaikan posisi berkendara dengan menyetel kursi maju - mundur , maupun sudut sandar ( reclining seat ) serta kemudi yang bisa diatur up and down  .
-Relasi: berkendara dengan menyetel(posisi, kursi)
-Class: true
-
-Source: D:\openIE\data\preprocess\http-otomotif-kompas-com-read-2017-11-30-080200915-menjajal-suv-sokon-glory-580-produksi-serang-video.txt
-Kalimat ke-7: Pengemudi bisa menyesuaikan posisi berkendara dengan menyetel kursi maju - mundur , maupun sudut sandar ( reclining seat ) serta kemudi yang bisa diatur up and down  .
-Relasi: mundur(kursi, sudut)
+Relasi: bisa menyesuaikan(Pengemudi# posisi)
 Class: false
 
 Source: D:\openIE\data\preprocess\http-otomotif-kompas-com-read-2017-11-30-080200915-menjajal-suv-sokon-glory-580-produksi-serang-video.txt
 Kalimat ke-7: Pengemudi bisa menyesuaikan posisi berkendara dengan menyetel kursi maju - mundur , maupun sudut sandar ( reclining seat ) serta kemudi yang bisa diatur up and down  .
-Relasi: sandar(sudut, reclining seat)
+Relasi: berkendara dengan menyetel(posisi# kursi)
+Class: false
+
+Source: D:\openIE\data\preprocess\http-otomotif-kompas-com-read-2017-11-30-080200915-menjajal-suv-sokon-glory-580-produksi-serang-video.txt
+Kalimat ke-7: Pengemudi bisa menyesuaikan posisi berkendara dengan menyetel kursi maju - mundur , maupun sudut sandar ( reclining seat ) serta kemudi yang bisa diatur up and down  .
+Relasi: mundur(kursi# sudut)
+Class: false
+
+Source: D:\openIE\data\preprocess\http-otomotif-kompas-com-read-2017-11-30-080200915-menjajal-suv-sokon-glory-580-produksi-serang-video.txt
+Kalimat ke-7: Pengemudi bisa menyesuaikan posisi berkendara dengan menyetel kursi maju - mundur , maupun sudut sandar ( reclining seat ) serta kemudi yang bisa diatur up and down  .
+Relasi: sandar(sudut# reclining seat)
 Class: true
 
 Source: D:\openIE\data\preprocess\http-otomotif-kompas-com-read-2017-11-30-080200915-menjajal-suv-sokon-glory-580-produksi-serang-video.txt
 Kalimat ke-7: Pengemudi bisa menyesuaikan posisi berkendara dengan menyetel kursi maju - mundur , maupun sudut sandar ( reclining seat ) serta kemudi yang bisa diatur up and down  .
-Relasi: bisa diatur(kemudi, up and down)
+Relasi: bisa diatur(kemudi# up and down)
 Class: true
 
 Source: D:\openIE\data\preprocess\http-otomotif-kompas-com-read-2017-11-30-080200915-menjajal-suv-sokon-glory-580-produksi-serang-video.txt
 Kalimat ke-8: Baca juga : Mobil China Sokon Glory 580 Dijual Awal 2018 Menggenggam lingkar kemudi juga terasa nyaman , yang juga berlapis kulit  .
-Relasi: terasa(2018 Menggenggam lingkar kemudi, kulit)
-Class: true
+Relasi: terasa(2018 Menggenggam lingkar kemudi# kulit)
+Class: false
 
 Source: D:\openIE\data\preprocess\http-otomotif-kompas-com-read-2017-11-30-080200915-menjajal-suv-sokon-glory-580-produksi-serang-video.txt
 Kalimat ke-8: Baca juga : Mobil China Sokon Glory 580 Dijual Awal 2018 Menggenggam lingkar kemudi juga terasa nyaman , yang juga berlapis kulit  .
-Relasi: berlapis(2018 Menggenggam lingkar kemudi, kulit)
-Class: true
-
-Source: D:\openIE\data\preprocess\http-otomotif-kompas-com-read-2017-11-30-080200915-menjajal-suv-sokon-glory-580-produksi-serang-video.txt
-Kalimat ke-9: Pada sisi mukanya sudah terdapat tombol - tombol pengatur head unit di sisi kiri setir , sementara sebelah kanan untuk mengangkat telepon  .
-Relasi: sudah terdapat(sisi mukanya, tombol)
+Relasi: berlapis(2018 Menggenggam lingkar kemudi# kulit)
 Class: false
 
 Source: D:\openIE\data\preprocess\http-otomotif-kompas-com-read-2017-11-30-080200915-menjajal-suv-sokon-glory-580-produksi-serang-video.txt
 Kalimat ke-9: Pada sisi mukanya sudah terdapat tombol - tombol pengatur head unit di sisi kiri setir , sementara sebelah kanan untuk mengangkat telepon  .
-Relasi: mengangkat(sebelah kanan, telepon)
-Class: true
+Relasi: sudah terdapat(sisi mukanya# tombol)
+Class: false
+
+Source: D:\openIE\data\preprocess\http-otomotif-kompas-com-read-2017-11-30-080200915-menjajal-suv-sokon-glory-580-produksi-serang-video.txt
+Kalimat ke-9: Pada sisi mukanya sudah terdapat tombol - tombol pengatur head unit di sisi kiri setir , sementara sebelah kanan untuk mengangkat telepon  .
+Relasi: mengangkat(sebelah kanan# telepon)
+Class: false
 
 Source: D:\openIE\data\preprocess\http-otomotif-kompas-com-read-2017-11-30-080200915-menjajal-suv-sokon-glory-580-produksi-serang-video.txt
 Kalimat ke-10: Ghulam/KompasOtomotif Baris depan SUV Sokon Glory 580 setir kanan pertama yang diproduksi di Indonesia  .
-Relasi: diproduksi di(Baris depan SUV Sokon Glory 580 setir kanan pertama, Indonesia)
-Class: false
-
-Source: D:\openIE\data\preprocess\http-otomotif-kompas-com-read-2017-11-30-080200915-menjajal-suv-sokon-glory-580-produksi-serang-video.txt
-Kalimat ke-11: Duduk di kursi sopir , tidak sulit untuk beradaptasi dan menjangkau tombol - tombol pengatur kendaran  .
-Relasi: beradaptasi(kursi sopir, tombol)
-Class: false
-
-Source: D:\openIE\data\preprocess\http-otomotif-kompas-com-read-2017-11-30-080200915-menjajal-suv-sokon-glory-580-produksi-serang-video.txt
-Kalimat ke-11: Duduk di kursi sopir , tidak sulit untuk beradaptasi dan menjangkau tombol - tombol pengatur kendaran  .
-Relasi: menjangkau(kursi sopir, tombol)
+Relasi: diproduksi di(Baris depan SUV Sokon Glory 580 setir kanan pertama# Indonesia)
 Class: true
+
+Source: D:\openIE\data\preprocess\http-otomotif-kompas-com-read-2017-11-30-080200915-menjajal-suv-sokon-glory-580-produksi-serang-video.txt
+Kalimat ke-11: Duduk di kursi sopir , tidak sulit untuk beradaptasi dan menjangkau tombol - tombol pengatur kendaran  .
+Relasi: beradaptasi(kursi sopir# tombol)
+Class: false
+
+Source: D:\openIE\data\preprocess\http-otomotif-kompas-com-read-2017-11-30-080200915-menjajal-suv-sokon-glory-580-produksi-serang-video.txt
+Kalimat ke-11: Duduk di kursi sopir , tidak sulit untuk beradaptasi dan menjangkau tombol - tombol pengatur kendaran  .
+Relasi: menjangkau(kursi sopir# tombol)
+Class: false
 
 Source: D:\openIE\data\preprocess\http-otomotif-kompas-com-read-2017-11-30-080200915-menjajal-suv-sokon-glory-580-produksi-serang-video.txt
 Kalimat ke-12: Hanya saja , redaksi KompasOtomotif sedikit tidak nyaman dengan posisi tombol pengaturan spion yang ada di belakang kemudi di atas lutut kaki kanan  .
-Relasi: ada di(posisi tombol pengaturan spion, belakang kemudi)
+Relasi: ada di(posisi tombol pengaturan spion# belakang kemudi)
 Class: false
 
 Source: D:\openIE\data\preprocess\http-otomotif-kompas-com-read-2017-11-30-080200915-menjajal-suv-sokon-glory-580-produksi-serang-video.txt
 Kalimat ke-14: Performa Setelah rampung kutak - kutik posisi berkendara , mulai nyalakan mobil dengan injak kopling dan tekan tombol push - start di belakang kemudi sebelah kiri ( bukan kanan )  .
-Relasi: berkendara(kutik posisi, nyalakan mobil)
-Class: false
+Relasi: berkendara(kutik posisi# nyalakan mobil)
+Class: true
 
 Source: D:\openIE\data\preprocess\http-otomotif-kompas-com-read-2017-11-30-080200915-menjajal-suv-sokon-glory-580-produksi-serang-video.txt
 Kalimat ke-14: Performa Setelah rampung kutak - kutik posisi berkendara , mulai nyalakan mobil dengan injak kopling dan tekan tombol push - start di belakang kemudi sebelah kiri ( bukan kanan )  .
-Relasi: mulai nyalakan mobil dengan(kutik posisi, injak kopling)
+Relasi: mulai nyalakan mobil dengan(kutik posisi# injak kopling)
+Class: false
+
+Source: D:\openIE\data\preprocess\http-otomotif-kompas-com-read-2017-11-30-080200915-menjajal-suv-sokon-glory-580-produksi-serang-video.txt
+Kalimat ke-16: Dalam kondisi pintu dan kaca tertutup rapat , suara mesin hampir tak terdengar sampai bagian dalam mobil alias cukup kedap  .
+Relasi: tertutup(kaca# suara mesin)
 Class: true
 
 Source: D:\openIE\data\preprocess\http-otomotif-kompas-com-read-2017-11-30-080200915-menjajal-suv-sokon-glory-580-produksi-serang-video.txt
 Kalimat ke-16: Dalam kondisi pintu dan kaca tertutup rapat , suara mesin hampir tak terdengar sampai bagian dalam mobil alias cukup kedap  .
-Relasi: tertutup(kaca, suara mesin)
-Class: false
-
-Source: D:\openIE\data\preprocess\http-otomotif-kompas-com-read-2017-11-30-080200915-menjajal-suv-sokon-glory-580-produksi-serang-video.txt
-Kalimat ke-16: Dalam kondisi pintu dan kaca tertutup rapat , suara mesin hampir tak terdengar sampai bagian dalam mobil alias cukup kedap  .
-Relasi: terdengar sampai bagian dalam(suara mesin, mobil alias)
-Class: false
+Relasi: terdengar sampai bagian dalam(suara mesin# mobil alias)
+Class: true
 
 Source: D:\openIE\data\preprocess\http-otomotif-kompas-com-read-2017-11-30-080200915-menjajal-suv-sokon-glory-580-produksi-serang-video.txt
 Kalimat ke-17: Ini tentu positif ketika orientasinya adalah memberikan kenyamanan kabin  .
-Relasi: adalah memberikan(orientasinya, kenyamanan kabin)
+Relasi: adalah memberikan(orientasinya# kenyamanan kabin)
 Class: false
 
 Source: D:\openIE\data\preprocess\http-otomotif-kompas-com-read-2017-11-30-080200915-menjajal-suv-sokon-glory-580-produksi-serang-video.txt
 Kalimat ke-18: Jangan terkecoh , transmisi manual 6 - percepatan yang disematkan ini punya gigi - mundur ada di samping kiri gigi - satu  .
-Relasi: disematkan(percepatan, gigi)
+Relasi: disematkan(percepatan# gigi)
 Class: false
 
 Source: D:\openIE\data\preprocess\http-otomotif-kompas-com-read-2017-11-30-080200915-menjajal-suv-sokon-glory-580-produksi-serang-video.txt
 Kalimat ke-18: Jangan terkecoh , transmisi manual 6 - percepatan yang disematkan ini punya gigi - mundur ada di samping kiri gigi - satu  .
-Relasi: punya(percepatan, gigi)
+Relasi: punya(percepatan# gigi)
 Class: false
 
 Source: D:\openIE\data\preprocess\http-otomotif-kompas-com-read-2017-11-30-080200915-menjajal-suv-sokon-glory-580-produksi-serang-video.txt
 Kalimat ke-18: Jangan terkecoh , transmisi manual 6 - percepatan yang disematkan ini punya gigi - mundur ada di samping kiri gigi - satu  .
-Relasi: mundur ada di(gigi, samping kiri gigi)
+Relasi: mundur ada di(gigi# samping kiri gigi)
 Class: false
 
 Source: D:\openIE\data\preprocess\http-otomotif-kompas-com-read-2017-11-30-080200915-menjajal-suv-sokon-glory-580-produksi-serang-video.txt
 Kalimat ke-19: Caranya , dari posisi netral angkat tuas pada gagang persenling terlebih dahulu , kemudian geser mentok ke kiri kemudian ke arah atas  .
-Relasi: mentok ke(geser, kiri)
+Relasi: mentok ke(geser# kiri)
 Class: true
 
 Source: D:\openIE\data\preprocess\http-otomotif-kompas-com-read-2017-11-30-080200915-menjajal-suv-sokon-glory-580-produksi-serang-video.txt
 Kalimat ke-21: Masuk gigi satu dan mulai berjalan dan kopling tidak terasa keras maupun terlalu empuk , serta perpindahan ke posisi gigi dua maupun tiga juga tidak kasar dan sulit  .
-Relasi: mulai berjalan(gigi satu, kopling)
-Class: true
+Relasi: mulai berjalan(gigi satu# kopling)
+Class: false
 
 Source: D:\openIE\data\preprocess\http-otomotif-kompas-com-read-2017-11-30-080200915-menjajal-suv-sokon-glory-580-produksi-serang-video.txt
 Kalimat ke-21: Masuk gigi satu dan mulai berjalan dan kopling tidak terasa keras maupun terlalu empuk , serta perpindahan ke posisi gigi dua maupun tiga juga tidak kasar dan sulit  .
-Relasi: terasa(kopling, empuk)
+Relasi: terasa(kopling# empuk)
 Class: true
 
 Source: D:\openIE\data\preprocess\http-otomotif-kompas-com-read-2017-11-30-080200915-menjajal-suv-sokon-glory-580-produksi-serang-video.txt
 Kalimat ke-22: Saat ada di posisi gigi kedua , menjajal menekan pedal gas sedikit dan ternyata tenaganya cepat terasa naiknya  .
-Relasi: menjajal menekan(posisi gigi kedua, pedal gas)
+Relasi: menjajal menekan(posisi gigi kedua# pedal gas)
 Class: true
 
 Source: D:\openIE\data\preprocess\http-otomotif-kompas-com-read-2017-11-30-080200915-menjajal-suv-sokon-glory-580-produksi-serang-video.txt
 Kalimat ke-23: Sempak meliuk - liukkan mobil pada trek lurus , mobil bisa dikontrol baik tidak teralu boyo  .
-Relasi: meliuk(Sempak, liukkan mobil)
+Relasi: meliuk(Sempak# liukkan mobil)
 Class: true
 
 Source: D:\openIE\data\preprocess\http-otomotif-kompas-com-read-2017-11-30-080200915-menjajal-suv-sokon-glory-580-produksi-serang-video.txt
 Kalimat ke-23: Sempak meliuk - liukkan mobil pada trek lurus , mobil bisa dikontrol baik tidak teralu boyo  .
-Relasi: bisa dikontrol(trek, boyo)
-Class: true
+Relasi: bisa dikontrol(trek# boyo)
+Class: false
 
 Source: D:\openIE\data\preprocess\http-otomotif-kompas-com-read-2017-11-30-080200915-menjajal-suv-sokon-glory-580-produksi-serang-video.txt
 Kalimat ke-23: Sempak meliuk - liukkan mobil pada trek lurus , mobil bisa dikontrol baik tidak teralu boyo  .
-Relasi: teralu(trek, boyo)
+Relasi: teralu(trek# boyo)
 Class: true
 
 Source: D:\openIE\data\preprocess\http-otomotif-kompas-com-read-2017-11-30-080200915-menjajal-suv-sokon-glory-580-produksi-serang-video.txt
 Kalimat ke-24: Handling - nya tidak menyulitkan untuk bermanuver atau tetap terjaga ketika melaju lurus dalam kecepatan tinggi  .
-Relasi: menyulitkan untuk bermanuver(Handling, kecepatan)
+Relasi: menyulitkan untuk bermanuver(Handling# kecepatan)
 Class: true
 
 Source: D:\openIE\data\preprocess\http-otomotif-kompas-com-read-2017-11-30-080200915-menjajal-suv-sokon-glory-580-produksi-serang-video.txt
 Kalimat ke-24: Handling - nya tidak menyulitkan untuk bermanuver atau tetap terjaga ketika melaju lurus dalam kecepatan tinggi  .
-Relasi: melaju lurus dalam(Handling, kecepatan)
+Relasi: melaju lurus dalam(Handling# kecepatan)
 Class: true
 
 Source: D:\openIE\data\preprocess\http-otomotif-kompas-com-read-2017-11-30-080200915-menjajal-suv-sokon-glory-580-produksi-serang-video.txt
 Kalimat ke-25: Memang belum sepantasnya mengambil kesimpulan soal SUV terbaru Glory 580 ini , tapi kencan singkat pertama bersamanya ini cukup berhasil menyedot daya tarik , walaupun belum sampai membuat jatuh hati  .
-Relasi: bersamanya(pertama, daya tarik)
+Relasi: bersamanya(pertama# daya tarik)
 Class: true
 
 Source: D:\openIE\data\preprocess\http-otomotif-kompas-com-read-2017-11-30-080200915-menjajal-suv-sokon-glory-580-produksi-serang-video.txt
 Kalimat ke-25: Memang belum sepantasnya mengambil kesimpulan soal SUV terbaru Glory 580 ini , tapi kencan singkat pertama bersamanya ini cukup berhasil menyedot daya tarik , walaupun belum sampai membuat jatuh hati  .
-Relasi: menyedot(pertama, daya tarik)
+Relasi: menyedot(pertama# daya tarik)
 Class: true
 
 Source: D:\openIE\data\preprocess\http-otomotif-kompas-com-read-2017-11-30-080200915-menjajal-suv-sokon-glory-580-produksi-serang-video.txt
 Kalimat ke-25: Memang belum sepantasnya mengambil kesimpulan soal SUV terbaru Glory 580 ini , tapi kencan singkat pertama bersamanya ini cukup berhasil menyedot daya tarik , walaupun belum sampai membuat jatuh hati  .
-Relasi: sampai membuat jatuh(daya tarik, hati)
+Relasi: sampai membuat jatuh(daya tarik# hati)
 Class: true
 
 

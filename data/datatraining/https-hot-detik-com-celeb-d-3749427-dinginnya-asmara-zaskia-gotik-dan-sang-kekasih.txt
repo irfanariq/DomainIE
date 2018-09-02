@@ -1,126 +1,126 @@
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749427-dinginnya-asmara-zaskia-gotik-dan-sang-kekasih.txt
 Kalimat ke-1: Zaskia Gotik dan kekasih , Arief Fitryansah atau yang akrab disapa dengan panggilan Ryan jarang terlihat berdua  .
-Relasi: disapa dengan(Arief Fitryansah, panggilan Ryan jarang)
-Class: false
-
-Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749427-dinginnya-asmara-zaskia-gotik-dan-sang-kekasih.txt
-Kalimat ke-1: Zaskia Gotik dan kekasih , Arief Fitryansah atau yang akrab disapa dengan panggilan Ryan jarang terlihat berdua  .
-Relasi: terlihat(panggilan Ryan jarang, berdua)
+Relasi: disapa dengan(Arief Fitryansah# panggilan Ryan jarang)
 Class: true
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749427-dinginnya-asmara-zaskia-gotik-dan-sang-kekasih.txt
-Kalimat ke-2: Zaskia kini sering disibukan dengan jadwal off air dan on air sebagai pedangdut  .
-Relasi: disibukan dengan(Zaskia, jadwal off air)
+Kalimat ke-1: Zaskia Gotik dan kekasih , Arief Fitryansah atau yang akrab disapa dengan panggilan Ryan jarang terlihat berdua  .
+Relasi: terlihat(panggilan Ryan jarang# berdua)
 Class: false
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749427-dinginnya-asmara-zaskia-gotik-dan-sang-kekasih.txt
+Kalimat ke-2: Zaskia kini sering disibukan dengan jadwal off air dan on air sebagai pedangdut  .
+Relasi: disibukan dengan(Zaskia# jadwal off air)
+Class: true
+
+Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749427-dinginnya-asmara-zaskia-gotik-dan-sang-kekasih.txt
 Kalimat ke-4: Padahal Zaskia dan Ryan sudah sering ditanyakan perihal rencana pernikahan mereka  .
-Relasi: ditanyakan(Ryan, perihal rencana pernikahan)
+Relasi: ditanyakan(Ryan# perihal rencana pernikahan)
 Class: true
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749427-dinginnya-asmara-zaskia-gotik-dan-sang-kekasih.txt
 Kalimat ke-5: Baca juga : Operasi Benjolan Lemak Mata , Zaskia Gotik Libur Syuting Ketika ditanya soal asmara , Zaskia lebih dingin  .
-Relasi: ditanya(Zaskia Gotik Libur Syuting, soal asmara)
-Class: false
+Relasi: ditanya(Zaskia Gotik Libur Syuting# soal asmara)
+Class: true
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749427-dinginnya-asmara-zaskia-gotik-dan-sang-kekasih.txt
 Kalimat ke-6: Pelantun ' Bang Jono ' itu mengaku asamranya biasa - biasa saja  .
-Relasi: mengaku(Bang Jono, asamranya)
+Relasi: mengaku(Bang Jono# asamranya)
 Class: true
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749427-dinginnya-asmara-zaskia-gotik-dan-sang-kekasih.txt
 Kalimat ke-7: " Pacar biasa aja, " jawab Zaskia Gotik seadanya ditemui di kawasan Daan Mogot , Jakarta Barat , Rabu ( 29/11/2017 ) malam  .
-Relasi: jawab(Pacar, Zaskia Gotik seadanya)
-Class: false
+Relasi: jawab(Pacar# Zaskia Gotik seadanya)
+Class: true
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749427-dinginnya-asmara-zaskia-gotik-dan-sang-kekasih.txt
 Kalimat ke-7: " Pacar biasa aja, " jawab Zaskia Gotik seadanya ditemui di kawasan Daan Mogot , Jakarta Barat , Rabu ( 29/11/2017 ) malam  .
-Relasi: ditemui di(Zaskia Gotik seadanya, kawasan Daan Mogot)
-Class: true
-
-Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749427-dinginnya-asmara-zaskia-gotik-dan-sang-kekasih.txt
-Kalimat ke-9: Belakangan , Zaskia sering kali dikaitkan oleh artis Bollywood yang sedang berada di Indonesia , Shakti Arora  .
-Relasi: dikaitkan oleh(Zaskia sering kali, artis Bollywood)
+Relasi: ditemui di(Zaskia Gotik seadanya# kawasan Daan Mogot)
 Class: false
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749427-dinginnya-asmara-zaskia-gotik-dan-sang-kekasih.txt
 Kalimat ke-9: Belakangan , Zaskia sering kali dikaitkan oleh artis Bollywood yang sedang berada di Indonesia , Shakti Arora  .
-Relasi: berada di(artis Bollywood, Indonesia)
-Class: true
+Relasi: dikaitkan oleh(Zaskia sering kali# artis Bollywood)
+Class: false
+
+Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749427-dinginnya-asmara-zaskia-gotik-dan-sang-kekasih.txt
+Kalimat ke-9: Belakangan , Zaskia sering kali dikaitkan oleh artis Bollywood yang sedang berada di Indonesia , Shakti Arora  .
+Relasi: berada di(artis Bollywood# Indonesia)
+Class: false
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749427-dinginnya-asmara-zaskia-gotik-dan-sang-kekasih.txt
 Kalimat ke-11: Bertemu di Pesbukers , kabarnya kedekatan Zaskia dengan Shakti membuat Ryan cemburu  .
-Relasi: membuat(Shakti, Ryan)
-Class: false
-
-Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749427-dinginnya-asmara-zaskia-gotik-dan-sang-kekasih.txt
-Kalimat ke-12: Soal itu , Zaskia memilih tak berkomentar dan melanjutkan berbicara soal kesehatan mata kirinya yang baru saja dioperasi  .
-Relasi: memilih(Zaskia, soal kesehatan mata kirinya)
+Relasi: membuat(Shakti# Ryan)
 Class: true
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749427-dinginnya-asmara-zaskia-gotik-dan-sang-kekasih.txt
 Kalimat ke-12: Soal itu , Zaskia memilih tak berkomentar dan melanjutkan berbicara soal kesehatan mata kirinya yang baru saja dioperasi  .
-Relasi: berkomentar(Zaskia, soal kesehatan mata kirinya)
+Relasi: memilih(Zaskia# soal kesehatan mata kirinya)
 Class: true
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749427-dinginnya-asmara-zaskia-gotik-dan-sang-kekasih.txt
 Kalimat ke-12: Soal itu , Zaskia memilih tak berkomentar dan melanjutkan berbicara soal kesehatan mata kirinya yang baru saja dioperasi  .
-Relasi: melanjutkan berbicara(Zaskia, soal kesehatan mata kirinya)
+Relasi: berkomentar(Zaskia# soal kesehatan mata kirinya)
+Class: true
+
+Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749427-dinginnya-asmara-zaskia-gotik-dan-sang-kekasih.txt
+Kalimat ke-12: Soal itu , Zaskia memilih tak berkomentar dan melanjutkan berbicara soal kesehatan mata kirinya yang baru saja dioperasi  .
+Relasi: melanjutkan berbicara(Zaskia# soal kesehatan mata kirinya)
 Class: false
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749427-dinginnya-asmara-zaskia-gotik-dan-sang-kekasih.txt
 Kalimat ke-28: 2 celeb Aksi Panggung Zaskia Gotik Bikin Dangdut Makin Menarik celeb Aksi Panggung Zaskia Gotik Bikin Dangdut Makin Menarik celeb Aksi Panggung Zaskia Gotik Bikin Dangdut Makin Menarik celeb Aksi Panggung Zaskia Gotik Bikin Dangdut Makin Menarik celeb Aksi Panggung Zaskia Gotik Bikin Dangdut Makin Menarik 3 celeb Goyangan Aduhai Zaskia Gotik celeb Goyangan Aduhai Zaskia Gotik celeb Goyangan Aduhai Zaskia Gotik celeb Goyangan Aduhai Zaskia Gotik celeb Goyangan Aduhai Zaskia Gotik celeb Goyangan Aduhai Zaskia Gotik 4 celeb Lekuk Tubuh Zaskia Gotik celeb Lekuk Tubuh Zaskia Gotik celeb Lekuk Tubuh Zaskia Gotik celeb Lekuk Tubuh Zaskia Gotik celeb Lekuk Tubuh Zaskia Gotik celeb Lekuk Tubuh Zaskia Gotik 5 celeb Zaskia Gotik Kok Baper ?
-Relasi: Menarik(celeb Aksi Panggung Zaskia Gotik Bikin Dangdut, 3 celeb Goyangan Aduhai Zaskia Gotik celeb Goyangan Aduhai Zaskia Gotik celeb Goyangan Aduhai Zaskia Gotik celeb Goyangan Aduhai Zaskia Gotik celeb Goyangan Aduhai Zaskia Gotik celeb Goyangan Aduhai Zaskia Gotik 4 celeb Lekuk Tubuh Zaskia Gotik celeb Lekuk Tubuh Zaskia Gotik celeb Lekuk Tubuh Zaskia Gotik celeb Lekuk Tubuh Zaskia Gotik celeb Lekuk Tubuh Zaskia Gotik celeb Lekuk Tubuh Zaskia Gotik 5 celeb Zaskia Gotik Kok Baper)
+Relasi: Menarik(celeb Aksi Panggung Zaskia Gotik Bikin Dangdut# 3 celeb Goyangan Aduhai Zaskia Gotik celeb Goyangan Aduhai Zaskia Gotik celeb Goyangan Aduhai Zaskia Gotik celeb Goyangan Aduhai Zaskia Gotik celeb Goyangan Aduhai Zaskia Gotik celeb Goyangan Aduhai Zaskia Gotik 4 celeb Lekuk Tubuh Zaskia Gotik celeb Lekuk Tubuh Zaskia Gotik celeb Lekuk Tubuh Zaskia Gotik celeb Lekuk Tubuh Zaskia Gotik celeb Lekuk Tubuh Zaskia Gotik celeb Lekuk Tubuh Zaskia Gotik 5 celeb Zaskia Gotik Kok Baper)
+Class: true
+
+Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749427-dinginnya-asmara-zaskia-gotik-dan-sang-kekasih.txt
+Kalimat ke-28: 2 celeb Aksi Panggung Zaskia Gotik Bikin Dangdut Makin Menarik celeb Aksi Panggung Zaskia Gotik Bikin Dangdut Makin Menarik celeb Aksi Panggung Zaskia Gotik Bikin Dangdut Makin Menarik celeb Aksi Panggung Zaskia Gotik Bikin Dangdut Makin Menarik celeb Aksi Panggung Zaskia Gotik Bikin Dangdut Makin Menarik 3 celeb Goyangan Aduhai Zaskia Gotik celeb Goyangan Aduhai Zaskia Gotik celeb Goyangan Aduhai Zaskia Gotik celeb Goyangan Aduhai Zaskia Gotik celeb Goyangan Aduhai Zaskia Gotik celeb Goyangan Aduhai Zaskia Gotik 4 celeb Lekuk Tubuh Zaskia Gotik celeb Lekuk Tubuh Zaskia Gotik celeb Lekuk Tubuh Zaskia Gotik celeb Lekuk Tubuh Zaskia Gotik celeb Lekuk Tubuh Zaskia Gotik celeb Lekuk Tubuh Zaskia Gotik 5 celeb Zaskia Gotik Kok Baper ?
+Relasi: Menarik(celeb Aksi Panggung Zaskia Gotik Bikin Dangdut# 3 celeb Goyangan Aduhai Zaskia Gotik celeb Goyangan Aduhai Zaskia Gotik celeb Goyangan Aduhai Zaskia Gotik celeb Goyangan Aduhai Zaskia Gotik celeb Goyangan Aduhai Zaskia Gotik celeb Goyangan Aduhai Zaskia Gotik 4 celeb Lekuk Tubuh Zaskia Gotik celeb Lekuk Tubuh Zaskia Gotik celeb Lekuk Tubuh Zaskia Gotik celeb Lekuk Tubuh Zaskia Gotik celeb Lekuk Tubuh Zaskia Gotik celeb Lekuk Tubuh Zaskia Gotik 5 celeb Zaskia Gotik Kok Baper)
+Class: true
+
+Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749427-dinginnya-asmara-zaskia-gotik-dan-sang-kekasih.txt
+Kalimat ke-28: 2 celeb Aksi Panggung Zaskia Gotik Bikin Dangdut Makin Menarik celeb Aksi Panggung Zaskia Gotik Bikin Dangdut Makin Menarik celeb Aksi Panggung Zaskia Gotik Bikin Dangdut Makin Menarik celeb Aksi Panggung Zaskia Gotik Bikin Dangdut Makin Menarik celeb Aksi Panggung Zaskia Gotik Bikin Dangdut Makin Menarik 3 celeb Goyangan Aduhai Zaskia Gotik celeb Goyangan Aduhai Zaskia Gotik celeb Goyangan Aduhai Zaskia Gotik celeb Goyangan Aduhai Zaskia Gotik celeb Goyangan Aduhai Zaskia Gotik celeb Goyangan Aduhai Zaskia Gotik 4 celeb Lekuk Tubuh Zaskia Gotik celeb Lekuk Tubuh Zaskia Gotik celeb Lekuk Tubuh Zaskia Gotik celeb Lekuk Tubuh Zaskia Gotik celeb Lekuk Tubuh Zaskia Gotik celeb Lekuk Tubuh Zaskia Gotik 5 celeb Zaskia Gotik Kok Baper ?
+Relasi: Menarik(celeb Aksi Panggung Zaskia Gotik Bikin Dangdut# 3 celeb Goyangan Aduhai Zaskia Gotik celeb Goyangan Aduhai Zaskia Gotik celeb Goyangan Aduhai Zaskia Gotik celeb Goyangan Aduhai Zaskia Gotik celeb Goyangan Aduhai Zaskia Gotik celeb Goyangan Aduhai Zaskia Gotik 4 celeb Lekuk Tubuh Zaskia Gotik celeb Lekuk Tubuh Zaskia Gotik celeb Lekuk Tubuh Zaskia Gotik celeb Lekuk Tubuh Zaskia Gotik celeb Lekuk Tubuh Zaskia Gotik celeb Lekuk Tubuh Zaskia Gotik 5 celeb Zaskia Gotik Kok Baper)
+Class: true
+
+Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749427-dinginnya-asmara-zaskia-gotik-dan-sang-kekasih.txt
+Kalimat ke-28: 2 celeb Aksi Panggung Zaskia Gotik Bikin Dangdut Makin Menarik celeb Aksi Panggung Zaskia Gotik Bikin Dangdut Makin Menarik celeb Aksi Panggung Zaskia Gotik Bikin Dangdut Makin Menarik celeb Aksi Panggung Zaskia Gotik Bikin Dangdut Makin Menarik celeb Aksi Panggung Zaskia Gotik Bikin Dangdut Makin Menarik 3 celeb Goyangan Aduhai Zaskia Gotik celeb Goyangan Aduhai Zaskia Gotik celeb Goyangan Aduhai Zaskia Gotik celeb Goyangan Aduhai Zaskia Gotik celeb Goyangan Aduhai Zaskia Gotik celeb Goyangan Aduhai Zaskia Gotik 4 celeb Lekuk Tubuh Zaskia Gotik celeb Lekuk Tubuh Zaskia Gotik celeb Lekuk Tubuh Zaskia Gotik celeb Lekuk Tubuh Zaskia Gotik celeb Lekuk Tubuh Zaskia Gotik celeb Lekuk Tubuh Zaskia Gotik 5 celeb Zaskia Gotik Kok Baper ?
+Relasi: Menarik(celeb Aksi Panggung Zaskia Gotik Bikin Dangdut# 3 celeb Goyangan Aduhai Zaskia Gotik celeb Goyangan Aduhai Zaskia Gotik celeb Goyangan Aduhai Zaskia Gotik celeb Goyangan Aduhai Zaskia Gotik celeb Goyangan Aduhai Zaskia Gotik celeb Goyangan Aduhai Zaskia Gotik 4 celeb Lekuk Tubuh Zaskia Gotik celeb Lekuk Tubuh Zaskia Gotik celeb Lekuk Tubuh Zaskia Gotik celeb Lekuk Tubuh Zaskia Gotik celeb Lekuk Tubuh Zaskia Gotik celeb Lekuk Tubuh Zaskia Gotik 5 celeb Zaskia Gotik Kok Baper)
 Class: false
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749427-dinginnya-asmara-zaskia-gotik-dan-sang-kekasih.txt
 Kalimat ke-28: 2 celeb Aksi Panggung Zaskia Gotik Bikin Dangdut Makin Menarik celeb Aksi Panggung Zaskia Gotik Bikin Dangdut Makin Menarik celeb Aksi Panggung Zaskia Gotik Bikin Dangdut Makin Menarik celeb Aksi Panggung Zaskia Gotik Bikin Dangdut Makin Menarik celeb Aksi Panggung Zaskia Gotik Bikin Dangdut Makin Menarik 3 celeb Goyangan Aduhai Zaskia Gotik celeb Goyangan Aduhai Zaskia Gotik celeb Goyangan Aduhai Zaskia Gotik celeb Goyangan Aduhai Zaskia Gotik celeb Goyangan Aduhai Zaskia Gotik celeb Goyangan Aduhai Zaskia Gotik 4 celeb Lekuk Tubuh Zaskia Gotik celeb Lekuk Tubuh Zaskia Gotik celeb Lekuk Tubuh Zaskia Gotik celeb Lekuk Tubuh Zaskia Gotik celeb Lekuk Tubuh Zaskia Gotik celeb Lekuk Tubuh Zaskia Gotik 5 celeb Zaskia Gotik Kok Baper ?
-Relasi: Menarik(celeb Aksi Panggung Zaskia Gotik Bikin Dangdut, 3 celeb Goyangan Aduhai Zaskia Gotik celeb Goyangan Aduhai Zaskia Gotik celeb Goyangan Aduhai Zaskia Gotik celeb Goyangan Aduhai Zaskia Gotik celeb Goyangan Aduhai Zaskia Gotik celeb Goyangan Aduhai Zaskia Gotik 4 celeb Lekuk Tubuh Zaskia Gotik celeb Lekuk Tubuh Zaskia Gotik celeb Lekuk Tubuh Zaskia Gotik celeb Lekuk Tubuh Zaskia Gotik celeb Lekuk Tubuh Zaskia Gotik celeb Lekuk Tubuh Zaskia Gotik 5 celeb Zaskia Gotik Kok Baper)
-Class: false
-
-Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749427-dinginnya-asmara-zaskia-gotik-dan-sang-kekasih.txt
-Kalimat ke-28: 2 celeb Aksi Panggung Zaskia Gotik Bikin Dangdut Makin Menarik celeb Aksi Panggung Zaskia Gotik Bikin Dangdut Makin Menarik celeb Aksi Panggung Zaskia Gotik Bikin Dangdut Makin Menarik celeb Aksi Panggung Zaskia Gotik Bikin Dangdut Makin Menarik celeb Aksi Panggung Zaskia Gotik Bikin Dangdut Makin Menarik 3 celeb Goyangan Aduhai Zaskia Gotik celeb Goyangan Aduhai Zaskia Gotik celeb Goyangan Aduhai Zaskia Gotik celeb Goyangan Aduhai Zaskia Gotik celeb Goyangan Aduhai Zaskia Gotik celeb Goyangan Aduhai Zaskia Gotik 4 celeb Lekuk Tubuh Zaskia Gotik celeb Lekuk Tubuh Zaskia Gotik celeb Lekuk Tubuh Zaskia Gotik celeb Lekuk Tubuh Zaskia Gotik celeb Lekuk Tubuh Zaskia Gotik celeb Lekuk Tubuh Zaskia Gotik 5 celeb Zaskia Gotik Kok Baper ?
-Relasi: Menarik(celeb Aksi Panggung Zaskia Gotik Bikin Dangdut, 3 celeb Goyangan Aduhai Zaskia Gotik celeb Goyangan Aduhai Zaskia Gotik celeb Goyangan Aduhai Zaskia Gotik celeb Goyangan Aduhai Zaskia Gotik celeb Goyangan Aduhai Zaskia Gotik celeb Goyangan Aduhai Zaskia Gotik 4 celeb Lekuk Tubuh Zaskia Gotik celeb Lekuk Tubuh Zaskia Gotik celeb Lekuk Tubuh Zaskia Gotik celeb Lekuk Tubuh Zaskia Gotik celeb Lekuk Tubuh Zaskia Gotik celeb Lekuk Tubuh Zaskia Gotik 5 celeb Zaskia Gotik Kok Baper)
-Class: false
-
-Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749427-dinginnya-asmara-zaskia-gotik-dan-sang-kekasih.txt
-Kalimat ke-28: 2 celeb Aksi Panggung Zaskia Gotik Bikin Dangdut Makin Menarik celeb Aksi Panggung Zaskia Gotik Bikin Dangdut Makin Menarik celeb Aksi Panggung Zaskia Gotik Bikin Dangdut Makin Menarik celeb Aksi Panggung Zaskia Gotik Bikin Dangdut Makin Menarik celeb Aksi Panggung Zaskia Gotik Bikin Dangdut Makin Menarik 3 celeb Goyangan Aduhai Zaskia Gotik celeb Goyangan Aduhai Zaskia Gotik celeb Goyangan Aduhai Zaskia Gotik celeb Goyangan Aduhai Zaskia Gotik celeb Goyangan Aduhai Zaskia Gotik celeb Goyangan Aduhai Zaskia Gotik 4 celeb Lekuk Tubuh Zaskia Gotik celeb Lekuk Tubuh Zaskia Gotik celeb Lekuk Tubuh Zaskia Gotik celeb Lekuk Tubuh Zaskia Gotik celeb Lekuk Tubuh Zaskia Gotik celeb Lekuk Tubuh Zaskia Gotik 5 celeb Zaskia Gotik Kok Baper ?
-Relasi: Menarik(celeb Aksi Panggung Zaskia Gotik Bikin Dangdut, 3 celeb Goyangan Aduhai Zaskia Gotik celeb Goyangan Aduhai Zaskia Gotik celeb Goyangan Aduhai Zaskia Gotik celeb Goyangan Aduhai Zaskia Gotik celeb Goyangan Aduhai Zaskia Gotik celeb Goyangan Aduhai Zaskia Gotik 4 celeb Lekuk Tubuh Zaskia Gotik celeb Lekuk Tubuh Zaskia Gotik celeb Lekuk Tubuh Zaskia Gotik celeb Lekuk Tubuh Zaskia Gotik celeb Lekuk Tubuh Zaskia Gotik celeb Lekuk Tubuh Zaskia Gotik 5 celeb Zaskia Gotik Kok Baper)
-Class: false
-
-Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749427-dinginnya-asmara-zaskia-gotik-dan-sang-kekasih.txt
-Kalimat ke-28: 2 celeb Aksi Panggung Zaskia Gotik Bikin Dangdut Makin Menarik celeb Aksi Panggung Zaskia Gotik Bikin Dangdut Makin Menarik celeb Aksi Panggung Zaskia Gotik Bikin Dangdut Makin Menarik celeb Aksi Panggung Zaskia Gotik Bikin Dangdut Makin Menarik celeb Aksi Panggung Zaskia Gotik Bikin Dangdut Makin Menarik 3 celeb Goyangan Aduhai Zaskia Gotik celeb Goyangan Aduhai Zaskia Gotik celeb Goyangan Aduhai Zaskia Gotik celeb Goyangan Aduhai Zaskia Gotik celeb Goyangan Aduhai Zaskia Gotik celeb Goyangan Aduhai Zaskia Gotik 4 celeb Lekuk Tubuh Zaskia Gotik celeb Lekuk Tubuh Zaskia Gotik celeb Lekuk Tubuh Zaskia Gotik celeb Lekuk Tubuh Zaskia Gotik celeb Lekuk Tubuh Zaskia Gotik celeb Lekuk Tubuh Zaskia Gotik 5 celeb Zaskia Gotik Kok Baper ?
-Relasi: Menarik(celeb Aksi Panggung Zaskia Gotik Bikin Dangdut, 3 celeb Goyangan Aduhai Zaskia Gotik celeb Goyangan Aduhai Zaskia Gotik celeb Goyangan Aduhai Zaskia Gotik celeb Goyangan Aduhai Zaskia Gotik celeb Goyangan Aduhai Zaskia Gotik celeb Goyangan Aduhai Zaskia Gotik 4 celeb Lekuk Tubuh Zaskia Gotik celeb Lekuk Tubuh Zaskia Gotik celeb Lekuk Tubuh Zaskia Gotik celeb Lekuk Tubuh Zaskia Gotik celeb Lekuk Tubuh Zaskia Gotik celeb Lekuk Tubuh Zaskia Gotik 5 celeb Zaskia Gotik Kok Baper)
+Relasi: Menarik(celeb Aksi Panggung Zaskia Gotik Bikin Dangdut# 3 celeb Goyangan Aduhai Zaskia Gotik celeb Goyangan Aduhai Zaskia Gotik celeb Goyangan Aduhai Zaskia Gotik celeb Goyangan Aduhai Zaskia Gotik celeb Goyangan Aduhai Zaskia Gotik celeb Goyangan Aduhai Zaskia Gotik 4 celeb Lekuk Tubuh Zaskia Gotik celeb Lekuk Tubuh Zaskia Gotik celeb Lekuk Tubuh Zaskia Gotik celeb Lekuk Tubuh Zaskia Gotik celeb Lekuk Tubuh Zaskia Gotik celeb Lekuk Tubuh Zaskia Gotik 5 celeb Zaskia Gotik Kok Baper)
 Class: false
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749427-dinginnya-asmara-zaskia-gotik-dan-sang-kekasih.txt
 Kalimat ke-34: 6 celeb Aksi ' Kucing - kucingan ' Ruben , Zaskia dan Ayu Ting Ting di RSCM celeb Aksi ' Kucing - kucingan ' Ruben , Zaskia dan Ayu Ting Ting di RSCM celeb Aksi ' Kucing - kucingan ' Ruben , Zaskia dan Ayu Ting Ting di RSCM celeb Aksi ' Kucing - kucingan ' Ruben , Zaskia dan Ayu Ting Ting di RSCM celeb Aksi ' Kucing - kucingan ' Ruben , Zaskia dan Ayu Ting Ting di RSCM celeb Aksi ' Kucing - kucingan ' Ruben , Zaskia dan Ayu Ting Ting di RSCM celeb Aksi ' Kucing - kucingan ' Ruben , Zaskia dan Ayu Ting Ting di RSCM 7 celeb Zaskia Gotik Kembali Ceria Usai Ditipu Ratusan Juta celeb Zaskia Gotik Kembali Ceria Usai Ditipu Ratusan Juta celeb Zaskia Gotik Kembali Ceria Usai Ditipu Ratusan Juta celeb Zaskia Gotik Kembali Ceria Usai Ditipu Ratusan Juta celeb Zaskia Gotik Kembali Ceria Usai Ditipu Ratusan Juta celeb Zaskia Gotik Kembali Ceria Usai Ditipu Ratusan Juta 8 celeb Jenguk Julia Perez , Zaskia ' Gotik ' Kok Bergaya Seperti Nikita Mirzani ?
-Relasi: Usai(Ceria, Ditipu Ratusan Juta celeb Zaskia Gotik)
+Relasi: Usai(Ceria# Ditipu Ratusan Juta celeb Zaskia Gotik)
 Class: true
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749427-dinginnya-asmara-zaskia-gotik-dan-sang-kekasih.txt
 Kalimat ke-34: 6 celeb Aksi ' Kucing - kucingan ' Ruben , Zaskia dan Ayu Ting Ting di RSCM celeb Aksi ' Kucing - kucingan ' Ruben , Zaskia dan Ayu Ting Ting di RSCM celeb Aksi ' Kucing - kucingan ' Ruben , Zaskia dan Ayu Ting Ting di RSCM celeb Aksi ' Kucing - kucingan ' Ruben , Zaskia dan Ayu Ting Ting di RSCM celeb Aksi ' Kucing - kucingan ' Ruben , Zaskia dan Ayu Ting Ting di RSCM celeb Aksi ' Kucing - kucingan ' Ruben , Zaskia dan Ayu Ting Ting di RSCM celeb Aksi ' Kucing - kucingan ' Ruben , Zaskia dan Ayu Ting Ting di RSCM 7 celeb Zaskia Gotik Kembali Ceria Usai Ditipu Ratusan Juta celeb Zaskia Gotik Kembali Ceria Usai Ditipu Ratusan Juta celeb Zaskia Gotik Kembali Ceria Usai Ditipu Ratusan Juta celeb Zaskia Gotik Kembali Ceria Usai Ditipu Ratusan Juta celeb Zaskia Gotik Kembali Ceria Usai Ditipu Ratusan Juta celeb Zaskia Gotik Kembali Ceria Usai Ditipu Ratusan Juta 8 celeb Jenguk Julia Perez , Zaskia ' Gotik ' Kok Bergaya Seperti Nikita Mirzani ?
-Relasi: Usai(Ceria, Ditipu Ratusan Juta celeb Zaskia Gotik)
+Relasi: Usai(Ceria# Ditipu Ratusan Juta celeb Zaskia Gotik)
+Class: false
+
+Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749427-dinginnya-asmara-zaskia-gotik-dan-sang-kekasih.txt
+Kalimat ke-34: 6 celeb Aksi ' Kucing - kucingan ' Ruben , Zaskia dan Ayu Ting Ting di RSCM celeb Aksi ' Kucing - kucingan ' Ruben , Zaskia dan Ayu Ting Ting di RSCM celeb Aksi ' Kucing - kucingan ' Ruben , Zaskia dan Ayu Ting Ting di RSCM celeb Aksi ' Kucing - kucingan ' Ruben , Zaskia dan Ayu Ting Ting di RSCM celeb Aksi ' Kucing - kucingan ' Ruben , Zaskia dan Ayu Ting Ting di RSCM celeb Aksi ' Kucing - kucingan ' Ruben , Zaskia dan Ayu Ting Ting di RSCM celeb Aksi ' Kucing - kucingan ' Ruben , Zaskia dan Ayu Ting Ting di RSCM 7 celeb Zaskia Gotik Kembali Ceria Usai Ditipu Ratusan Juta celeb Zaskia Gotik Kembali Ceria Usai Ditipu Ratusan Juta celeb Zaskia Gotik Kembali Ceria Usai Ditipu Ratusan Juta celeb Zaskia Gotik Kembali Ceria Usai Ditipu Ratusan Juta celeb Zaskia Gotik Kembali Ceria Usai Ditipu Ratusan Juta celeb Zaskia Gotik Kembali Ceria Usai Ditipu Ratusan Juta 8 celeb Jenguk Julia Perez , Zaskia ' Gotik ' Kok Bergaya Seperti Nikita Mirzani ?
+Relasi: Usai(Ceria# Ditipu Ratusan Juta celeb Zaskia Gotik)
 Class: true
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749427-dinginnya-asmara-zaskia-gotik-dan-sang-kekasih.txt
 Kalimat ke-34: 6 celeb Aksi ' Kucing - kucingan ' Ruben , Zaskia dan Ayu Ting Ting di RSCM celeb Aksi ' Kucing - kucingan ' Ruben , Zaskia dan Ayu Ting Ting di RSCM celeb Aksi ' Kucing - kucingan ' Ruben , Zaskia dan Ayu Ting Ting di RSCM celeb Aksi ' Kucing - kucingan ' Ruben , Zaskia dan Ayu Ting Ting di RSCM celeb Aksi ' Kucing - kucingan ' Ruben , Zaskia dan Ayu Ting Ting di RSCM celeb Aksi ' Kucing - kucingan ' Ruben , Zaskia dan Ayu Ting Ting di RSCM celeb Aksi ' Kucing - kucingan ' Ruben , Zaskia dan Ayu Ting Ting di RSCM 7 celeb Zaskia Gotik Kembali Ceria Usai Ditipu Ratusan Juta celeb Zaskia Gotik Kembali Ceria Usai Ditipu Ratusan Juta celeb Zaskia Gotik Kembali Ceria Usai Ditipu Ratusan Juta celeb Zaskia Gotik Kembali Ceria Usai Ditipu Ratusan Juta celeb Zaskia Gotik Kembali Ceria Usai Ditipu Ratusan Juta celeb Zaskia Gotik Kembali Ceria Usai Ditipu Ratusan Juta 8 celeb Jenguk Julia Perez , Zaskia ' Gotik ' Kok Bergaya Seperti Nikita Mirzani ?
-Relasi: Usai(Ceria, Ditipu Ratusan Juta celeb Zaskia Gotik)
+Relasi: Usai(Ceria# Ditipu Ratusan Juta celeb Zaskia Gotik)
 Class: false
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749427-dinginnya-asmara-zaskia-gotik-dan-sang-kekasih.txt
 Kalimat ke-34: 6 celeb Aksi ' Kucing - kucingan ' Ruben , Zaskia dan Ayu Ting Ting di RSCM celeb Aksi ' Kucing - kucingan ' Ruben , Zaskia dan Ayu Ting Ting di RSCM celeb Aksi ' Kucing - kucingan ' Ruben , Zaskia dan Ayu Ting Ting di RSCM celeb Aksi ' Kucing - kucingan ' Ruben , Zaskia dan Ayu Ting Ting di RSCM celeb Aksi ' Kucing - kucingan ' Ruben , Zaskia dan Ayu Ting Ting di RSCM celeb Aksi ' Kucing - kucingan ' Ruben , Zaskia dan Ayu Ting Ting di RSCM celeb Aksi ' Kucing - kucingan ' Ruben , Zaskia dan Ayu Ting Ting di RSCM 7 celeb Zaskia Gotik Kembali Ceria Usai Ditipu Ratusan Juta celeb Zaskia Gotik Kembali Ceria Usai Ditipu Ratusan Juta celeb Zaskia Gotik Kembali Ceria Usai Ditipu Ratusan Juta celeb Zaskia Gotik Kembali Ceria Usai Ditipu Ratusan Juta celeb Zaskia Gotik Kembali Ceria Usai Ditipu Ratusan Juta celeb Zaskia Gotik Kembali Ceria Usai Ditipu Ratusan Juta 8 celeb Jenguk Julia Perez , Zaskia ' Gotik ' Kok Bergaya Seperti Nikita Mirzani ?
-Relasi: Usai(Ceria, Ditipu Ratusan Juta celeb Zaskia Gotik)
+Relasi: Usai(Ceria# Ditipu Ratusan Juta celeb Zaskia Gotik)
 Class: true
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749427-dinginnya-asmara-zaskia-gotik-dan-sang-kekasih.txt
 Kalimat ke-34: 6 celeb Aksi ' Kucing - kucingan ' Ruben , Zaskia dan Ayu Ting Ting di RSCM celeb Aksi ' Kucing - kucingan ' Ruben , Zaskia dan Ayu Ting Ting di RSCM celeb Aksi ' Kucing - kucingan ' Ruben , Zaskia dan Ayu Ting Ting di RSCM celeb Aksi ' Kucing - kucingan ' Ruben , Zaskia dan Ayu Ting Ting di RSCM celeb Aksi ' Kucing - kucingan ' Ruben , Zaskia dan Ayu Ting Ting di RSCM celeb Aksi ' Kucing - kucingan ' Ruben , Zaskia dan Ayu Ting Ting di RSCM celeb Aksi ' Kucing - kucingan ' Ruben , Zaskia dan Ayu Ting Ting di RSCM 7 celeb Zaskia Gotik Kembali Ceria Usai Ditipu Ratusan Juta celeb Zaskia Gotik Kembali Ceria Usai Ditipu Ratusan Juta celeb Zaskia Gotik Kembali Ceria Usai Ditipu Ratusan Juta celeb Zaskia Gotik Kembali Ceria Usai Ditipu Ratusan Juta celeb Zaskia Gotik Kembali Ceria Usai Ditipu Ratusan Juta celeb Zaskia Gotik Kembali Ceria Usai Ditipu Ratusan Juta 8 celeb Jenguk Julia Perez , Zaskia ' Gotik ' Kok Bergaya Seperti Nikita Mirzani ?
-Relasi: Usai(Ceria, Ditipu Ratusan Juta celeb Zaskia Gotik)
-Class: false
-
-Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749427-dinginnya-asmara-zaskia-gotik-dan-sang-kekasih.txt
-Kalimat ke-34: 6 celeb Aksi ' Kucing - kucingan ' Ruben , Zaskia dan Ayu Ting Ting di RSCM celeb Aksi ' Kucing - kucingan ' Ruben , Zaskia dan Ayu Ting Ting di RSCM celeb Aksi ' Kucing - kucingan ' Ruben , Zaskia dan Ayu Ting Ting di RSCM celeb Aksi ' Kucing - kucingan ' Ruben , Zaskia dan Ayu Ting Ting di RSCM celeb Aksi ' Kucing - kucingan ' Ruben , Zaskia dan Ayu Ting Ting di RSCM celeb Aksi ' Kucing - kucingan ' Ruben , Zaskia dan Ayu Ting Ting di RSCM celeb Aksi ' Kucing - kucingan ' Ruben , Zaskia dan Ayu Ting Ting di RSCM 7 celeb Zaskia Gotik Kembali Ceria Usai Ditipu Ratusan Juta celeb Zaskia Gotik Kembali Ceria Usai Ditipu Ratusan Juta celeb Zaskia Gotik Kembali Ceria Usai Ditipu Ratusan Juta celeb Zaskia Gotik Kembali Ceria Usai Ditipu Ratusan Juta celeb Zaskia Gotik Kembali Ceria Usai Ditipu Ratusan Juta celeb Zaskia Gotik Kembali Ceria Usai Ditipu Ratusan Juta 8 celeb Jenguk Julia Perez , Zaskia ' Gotik ' Kok Bergaya Seperti Nikita Mirzani ?
-Relasi: Usai(Ceria, Ditipu Ratusan Juta celeb Zaskia Gotik)
-Class: false
+Relasi: Usai(Ceria# Ditipu Ratusan Juta celeb Zaskia Gotik)
+Class: true
 
 

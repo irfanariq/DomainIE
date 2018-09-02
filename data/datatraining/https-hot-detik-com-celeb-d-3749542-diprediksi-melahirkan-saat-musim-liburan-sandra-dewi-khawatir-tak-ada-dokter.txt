@@ -1,166 +1,166 @@
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749542-diprediksi-melahirkan-saat-musim-liburan-sandra-dewi-khawatir-tak-ada-dokter.txt
 Kalimat ke-1: Sandra Dewi tinggal menunggu kelahiran calon anak yang di kandungnya  .
-Relasi: tinggal menunggu(Sandra Dewi, kelahiran calon anak)
+Relasi: tinggal menunggu(Sandra Dewi# kelahiran calon anak)
 Class: true
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749542-diprediksi-melahirkan-saat-musim-liburan-sandra-dewi-khawatir-tak-ada-dokter.txt
 Kalimat ke-2: Dokter memprediksi , Sandra Dewi akan melahirkan di pertengahan Desember  .
-Relasi: memprediksi(Dokter, Sandra Dewi)
+Relasi: memprediksi(Dokter# Sandra Dewi)
 Class: true
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749542-diprediksi-melahirkan-saat-musim-liburan-sandra-dewi-khawatir-tak-ada-dokter.txt
 Kalimat ke-2: Dokter memprediksi , Sandra Dewi akan melahirkan di pertengahan Desember  .
-Relasi: akan melahirkan di(Sandra Dewi, pertengahan Desember)
-Class: true
+Relasi: akan melahirkan di(Sandra Dewi# pertengahan Desember)
+Class: false
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749542-diprediksi-melahirkan-saat-musim-liburan-sandra-dewi-khawatir-tak-ada-dokter.txt
 Kalimat ke-4: Dia melihat tak semua orang melahirkan dengan usia kandungan yang sama  .
-Relasi: melahirkan dengan(semua orang, usia kandungan)
+Relasi: melahirkan dengan(semua orang# usia kandungan)
 Class: true
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749542-diprediksi-melahirkan-saat-musim-liburan-sandra-dewi-khawatir-tak-ada-dokter.txt
 Kalimat ke-5: " Karena setiap teman beda lahirannya , ada yang 38 minggu , ada 39 minggu , 40 minggu  .
-Relasi: ada(teman beda lahirannya, 38 minggu)
+Relasi: ada(teman beda lahirannya# 38 minggu)
 Class: false
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749542-diprediksi-melahirkan-saat-musim-liburan-sandra-dewi-khawatir-tak-ada-dokter.txt
 Kalimat ke-5: " Karena setiap teman beda lahirannya , ada yang 38 minggu , ada 39 minggu , 40 minggu  .
-Relasi: ada(teman beda lahirannya, 38 minggu)
-Class: true
+Relasi: ada(teman beda lahirannya# 38 minggu)
+Class: false
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749542-diprediksi-melahirkan-saat-musim-liburan-sandra-dewi-khawatir-tak-ada-dokter.txt
 Kalimat ke-7: Due date saya akhir tahun , jadi dari pertengahan Desember sampai maksimal 2 Januari harus sudah lahir, " ucap Sandra Dewi ditemui dipeluncuran aplikasi ' Teman Bumil ' di Hotel Grand Haytt , M.H Thamrin , Jakarta Pusat , Rabu ( 29/11/2017 ) malam  .
-Relasi: ditemui dipeluncuran(ucap Sandra Dewi, aplikasi)
+Relasi: ditemui dipeluncuran(ucap Sandra Dewi# aplikasi)
+Class: false
+
+Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749542-diprediksi-melahirkan-saat-musim-liburan-sandra-dewi-khawatir-tak-ada-dokter.txt
+Kalimat ke-8: Baca juga : Masih di Kandungan , Anak Sandra Dewi Sudah Punya Barang - barang Mahal " Jadi deg - degan karena semua dokter saat itu semua sedang pergi tertawa liburan  .
+Relasi: Sudah Punya(Anak Sandra Dewi# Barang)
 Class: true
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749542-diprediksi-melahirkan-saat-musim-liburan-sandra-dewi-khawatir-tak-ada-dokter.txt
 Kalimat ke-8: Baca juga : Masih di Kandungan , Anak Sandra Dewi Sudah Punya Barang - barang Mahal " Jadi deg - degan karena semua dokter saat itu semua sedang pergi tertawa liburan  .
-Relasi: Sudah Punya(Anak Sandra Dewi, Barang)
-Class: true
-
-Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749542-diprediksi-melahirkan-saat-musim-liburan-sandra-dewi-khawatir-tak-ada-dokter.txt
-Kalimat ke-8: Baca juga : Masih di Kandungan , Anak Sandra Dewi Sudah Punya Barang - barang Mahal " Jadi deg - degan karena semua dokter saat itu semua sedang pergi tertawa liburan  .
-Relasi: pergi tertawa(semua dokter saat, liburan)
-Class: true
+Relasi: pergi tertawa(semua dokter saat# liburan)
+Class: false
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749542-diprediksi-melahirkan-saat-musim-liburan-sandra-dewi-khawatir-tak-ada-dokter.txt
 Kalimat ke-9: Senang karena sebentar lagi anaknya keluar , deg - degan karena due date saya liburan, " tambahnya seraya tertawa  .
-Relasi: keluar(anaknya, deg)
-Class: true
+Relasi: keluar(anaknya# deg)
+Class: false
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749542-diprediksi-melahirkan-saat-musim-liburan-sandra-dewi-khawatir-tak-ada-dokter.txt
 Kalimat ke-9: Senang karena sebentar lagi anaknya keluar , deg - degan karena due date saya liburan, " tambahnya seraya tertawa  .
-Relasi: tambahnya(due date, seraya)
+Relasi: tambahnya(due date# seraya)
 Class: false
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749542-diprediksi-melahirkan-saat-musim-liburan-sandra-dewi-khawatir-tak-ada-dokter.txt
 Kalimat ke-10: Sampai saat ini , dia pun belum tahu akan melahirkan secara normal atau caesar  .
-Relasi: tahu akan melahirkan secara(saat, normal)
+Relasi: tahu akan melahirkan secara(saat# normal)
+Class: false
+
+Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749542-diprediksi-melahirkan-saat-musim-liburan-sandra-dewi-khawatir-tak-ada-dokter.txt
+Kalimat ke-12: Satu minggu ini , bobot calon bayinya naik satu kilogram dan panjangnya bertambah 6 senti meter  .
+Relasi: naik(bobot calon bayinya# satu kilogram)
 Class: true
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749542-diprediksi-melahirkan-saat-musim-liburan-sandra-dewi-khawatir-tak-ada-dokter.txt
 Kalimat ke-12: Satu minggu ini , bobot calon bayinya naik satu kilogram dan panjangnya bertambah 6 senti meter  .
-Relasi: naik(bobot calon bayinya, satu kilogram)
-Class: true
-
-Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749542-diprediksi-melahirkan-saat-musim-liburan-sandra-dewi-khawatir-tak-ada-dokter.txt
-Kalimat ke-12: Satu minggu ini , bobot calon bayinya naik satu kilogram dan panjangnya bertambah 6 senti meter  .
-Relasi: bertambah(panjangnya, 6 senti meter)
+Relasi: bertambah(panjangnya# 6 senti meter)
 Class: false
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749542-diprediksi-melahirkan-saat-musim-liburan-sandra-dewi-khawatir-tak-ada-dokter.txt
 Kalimat ke-13: Sedangkan dirinya masih bekerja sampai kandungannya berusia 38 minggu  .
-Relasi: berusia(kandungannya, 38 minggu)
+Relasi: berusia(kandungannya# 38 minggu)
 Class: true
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749542-diprediksi-melahirkan-saat-musim-liburan-sandra-dewi-khawatir-tak-ada-dokter.txt
 Kalimat ke-14: Baca juga : Cerita Sandra Dewi Takjub dengan Janin di Rahimnya " Nanti diukur lebar panggul , panjang leher rahim , dan kepala anak  .
-Relasi: diukur(Nanti, lebar panggul)
+Relasi: diukur(Nanti# lebar panggul)
 Class: true
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749542-diprediksi-melahirkan-saat-musim-liburan-sandra-dewi-khawatir-tak-ada-dokter.txt
 Kalimat ke-18: Saat ini Sandra Dewi sudah mengalami yang namanya susah bergerak  .
-Relasi: sudah mengalami(Sandra Dewi, namanya)
+Relasi: sudah mengalami(Sandra Dewi# namanya)
 Class: false
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749542-diprediksi-melahirkan-saat-musim-liburan-sandra-dewi-khawatir-tak-ada-dokter.txt
 Kalimat ke-19: Dia sudah tak bisa menunduk melihat kedua kakinya , dan sulit untuk membersihkan bagian kaki saat mandi  .
-Relasi: membersihkan(kedua kakinya, bagian kaki saat mandi)
+Relasi: membersihkan(kedua kakinya# bagian kaki saat mandi)
 Class: false
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749542-diprediksi-melahirkan-saat-musim-liburan-sandra-dewi-khawatir-tak-ada-dokter.txt
 Kalimat ke-21: Karena due date liburan dokter tidak ada semua  .
-Relasi: ada(due date liburan dokter, semua)
-Class: true
+Relasi: ada(due date liburan dokter# semua)
+Class: false
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749542-diprediksi-melahirkan-saat-musim-liburan-sandra-dewi-khawatir-tak-ada-dokter.txt
 Kalimat ke-24: ( pus/wes ) sandra dewi Photo Gallery 1 celeb Hamil Tua , Sandra Dewi Makin Cantik Aja celeb Hamil Tua , Sandra Dewi Makin Cantik Aja celeb Hamil Tua , Sandra Dewi Makin Cantik Aja celeb Hamil Tua , Sandra Dewi Makin Cantik Aja celeb Hamil Tua , Sandra Dewi Makin Cantik Aja celeb Hamil Tua , Sandra Dewi Makin Cantik Aja celeb Hamil Tua , Sandra Dewi Makin Cantik Aja celeb Hamil Tua , Sandra Dewi Makin Cantik Aja 1 celeb Sandra Dewi Si Bumil Cantik celeb Sandra Dewi Si Bumil Cantik celeb Sandra Dewi Si Bumil Cantik celeb Sandra Dewi Si Bumil Cantik celeb Sandra Dewi Si Bumil Cantik celeb Sandra Dewi Si Bumil Cantik celeb Sandra Dewi Si Bumil Cantik 2 celeb Tante Sandra Dewi yang Cantik dan Awet Muda Banget di Usia 50 Tahun celeb Tante Sandra Dewi yang Cantik dan Awet Muda Banget di Usia 50 Tahun celeb Tante Sandra Dewi yang Cantik dan Awet Muda Banget di Usia 50 Tahun celeb Tante Sandra Dewi yang Cantik dan Awet Muda Banget di Usia 50 Tahun celeb Tante Sandra Dewi yang Cantik dan Awet Muda Banget di Usia 50 Tahun celeb Tante Sandra Dewi yang Cantik dan Awet Muda Banget di Usia 50 Tahun celeb Tante Sandra Dewi yang Cantik dan Awet Muda Banget di Usia 50 Tahun celeb Tante Sandra Dewi yang Cantik dan Awet Muda Banget di Usia 50 Tahun 3 celeb Hamil Tujuh Bulan , Sandra Dewi Beri Ini Untuk Sang Suami celeb Hamil Tujuh Bulan , Sandra Dewi Beri Ini Untuk Sang Suami celeb Hamil Tujuh Bulan , Sandra Dewi Beri Ini Untuk Sang Suami celeb Hamil Tujuh Bulan , Sandra Dewi Beri Ini Untuk Sang Suami celeb Hamil Tujuh Bulan , Sandra Dewi Beri Ini Untuk Sang Suami celeb Hamil Tujuh Bulan , Sandra Dewi Beri Ini Untuk Sang Suami 4 celeb Manisnya Sandra Dewi saat Hamil celeb Manisnya Sandra Dewi saat Hamil celeb Manisnya Sandra Dewi saat Hamil celeb Manisnya Sandra Dewi saat Hamil celeb Manisnya Sandra Dewi saat Hamil celeb Manisnya Sandra Dewi saat Hamil celeb Manisnya Sandra Dewi saat Hamil 5 celeb Senyum Semringah Sandra Dewi celeb Senyum Semringah Sandra Dewi celeb Senyum Semringah Sandra Dewi celeb Senyum Semringah Sandra Dewi celeb Senyum Semringah Sandra Dewi celeb Senyum Semringah Sandra Dewi 6 celeb Bibir Merah Merekah Sandra Dewi celeb Bibir Merah Merekah Sandra Dewi celeb Bibir Merah Merekah Sandra Dewi celeb Bibir Merah Merekah Sandra Dewi celeb Bibir Merah Merekah Sandra Dewi 7 celeb Usai Nikah , Sandra Dewi Makin Cantik Nih !
-Relasi: Usai(Suami 4 celeb Manisnya Sandra Dewi saat Hamil celeb Manisnya Sandra Dewi saat Hamil celeb Manisnya Sandra Dewi saat Hamil celeb Manisnya Sandra Dewi saat Hamil celeb Manisnya Sandra Dewi saat Hamil celeb Manisnya Sandra Dewi saat Hamil celeb Manisnya Sandra Dewi saat Hamil 5 celeb Senyum Semringah Sandra Dewi celeb Senyum Semringah Sandra Dewi celeb Senyum Semringah Sandra Dewi celeb Senyum Semringah Sandra Dewi celeb Senyum Semringah Sandra Dewi celeb Senyum Semringah Sandra Dewi 6 celeb Bibir Merah Merekah Sandra Dewi celeb Bibir Merah Merekah Sandra Dewi celeb Bibir Merah Merekah Sandra Dewi celeb Bibir Merah Merekah Sandra Dewi celeb Bibir Merah Merekah Sandra Dewi 7 celeb, Nikah)
+Relasi: Usai(Suami 4 celeb Manisnya Sandra Dewi saat Hamil celeb Manisnya Sandra Dewi saat Hamil celeb Manisnya Sandra Dewi saat Hamil celeb Manisnya Sandra Dewi saat Hamil celeb Manisnya Sandra Dewi saat Hamil celeb Manisnya Sandra Dewi saat Hamil celeb Manisnya Sandra Dewi saat Hamil 5 celeb Senyum Semringah Sandra Dewi celeb Senyum Semringah Sandra Dewi celeb Senyum Semringah Sandra Dewi celeb Senyum Semringah Sandra Dewi celeb Senyum Semringah Sandra Dewi celeb Senyum Semringah Sandra Dewi 6 celeb Bibir Merah Merekah Sandra Dewi celeb Bibir Merah Merekah Sandra Dewi celeb Bibir Merah Merekah Sandra Dewi celeb Bibir Merah Merekah Sandra Dewi celeb Bibir Merah Merekah Sandra Dewi 7 celeb# Nikah)
 Class: false
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749542-diprediksi-melahirkan-saat-musim-liburan-sandra-dewi-khawatir-tak-ada-dokter.txt
 Kalimat ke-25: celeb Usai Nikah , Sandra Dewi Makin Cantik Nih !
-Relasi: Usai(celeb, Nikah)
+Relasi: Usai(celeb# Nikah)
 Class: false
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749542-diprediksi-melahirkan-saat-musim-liburan-sandra-dewi-khawatir-tak-ada-dokter.txt
 Kalimat ke-26: celeb Usai Nikah , Sandra Dewi Makin Cantik Nih !
-Relasi: Usai(celeb, Nikah)
-Class: false
+Relasi: Usai(celeb# Nikah)
+Class: true
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749542-diprediksi-melahirkan-saat-musim-liburan-sandra-dewi-khawatir-tak-ada-dokter.txt
 Kalimat ke-27: celeb Usai Nikah , Sandra Dewi Makin Cantik Nih !
-Relasi: Usai(celeb, Nikah)
+Relasi: Usai(celeb# Nikah)
 Class: true
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749542-diprediksi-melahirkan-saat-musim-liburan-sandra-dewi-khawatir-tak-ada-dokter.txt
 Kalimat ke-28: celeb Usai Nikah , Sandra Dewi Makin Cantik Nih !
-Relasi: Usai(celeb, Nikah)
+Relasi: Usai(celeb# Nikah)
 Class: false
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749542-diprediksi-melahirkan-saat-musim-liburan-sandra-dewi-khawatir-tak-ada-dokter.txt
 Kalimat ke-29: celeb Usai Nikah , Sandra Dewi Makin Cantik Nih !
-Relasi: Usai(celeb, Nikah)
+Relasi: Usai(celeb# Nikah)
 Class: true
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749542-diprediksi-melahirkan-saat-musim-liburan-sandra-dewi-khawatir-tak-ada-dokter.txt
 Kalimat ke-30: 8 celeb Awas Terpikat Bibir Merah Sandra Dewi celeb Awas Terpikat Bibir Merah Sandra Dewi celeb Awas Terpikat Bibir Merah Sandra Dewi celeb Awas Terpikat Bibir Merah Sandra Dewi celeb Awas Terpikat Bibir Merah Sandra Dewi celeb Awas Terpikat Bibir Merah Sandra Dewi 9 celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans 10 photo Anggunnya Sandra Dewi di Red Carpet photo Anggunnya Sandra Dewi di Red Carpet photo Anggunnya Sandra Dewi di Red Carpet photo Anggunnya Sandra Dewi di Red Carpet photo Anggunnya Sandra Dewi di Red Carpet photo Anggunnya Sandra Dewi di Red Carpet 11 celeb Sandra Dewi Berseri - seri Sambut Natal Tahun Ini celeb Sandra Dewi Berseri - seri Sambut Natal Tahun Ini celeb Sandra Dewi Berseri - seri Sambut Natal Tahun Ini celeb Sandra Dewi Berseri - seri Sambut Natal Tahun Ini celeb Sandra Dewi Berseri - seri Sambut Natal Tahun Ini 1-1 celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul 13 celeb November In Love !
-Relasi: Berkumpul(Indonesia, 13 celeb November In Love)
-Class: false
-
-Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749542-diprediksi-melahirkan-saat-musim-liburan-sandra-dewi-khawatir-tak-ada-dokter.txt
-Kalimat ke-30: 8 celeb Awas Terpikat Bibir Merah Sandra Dewi celeb Awas Terpikat Bibir Merah Sandra Dewi celeb Awas Terpikat Bibir Merah Sandra Dewi celeb Awas Terpikat Bibir Merah Sandra Dewi celeb Awas Terpikat Bibir Merah Sandra Dewi celeb Awas Terpikat Bibir Merah Sandra Dewi 9 celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans 10 photo Anggunnya Sandra Dewi di Red Carpet photo Anggunnya Sandra Dewi di Red Carpet photo Anggunnya Sandra Dewi di Red Carpet photo Anggunnya Sandra Dewi di Red Carpet photo Anggunnya Sandra Dewi di Red Carpet photo Anggunnya Sandra Dewi di Red Carpet 11 celeb Sandra Dewi Berseri - seri Sambut Natal Tahun Ini celeb Sandra Dewi Berseri - seri Sambut Natal Tahun Ini celeb Sandra Dewi Berseri - seri Sambut Natal Tahun Ini celeb Sandra Dewi Berseri - seri Sambut Natal Tahun Ini celeb Sandra Dewi Berseri - seri Sambut Natal Tahun Ini 1-1 celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul 13 celeb November In Love !
-Relasi: Berkumpul(Indonesia, 13 celeb November In Love)
-Class: false
-
-Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749542-diprediksi-melahirkan-saat-musim-liburan-sandra-dewi-khawatir-tak-ada-dokter.txt
-Kalimat ke-30: 8 celeb Awas Terpikat Bibir Merah Sandra Dewi celeb Awas Terpikat Bibir Merah Sandra Dewi celeb Awas Terpikat Bibir Merah Sandra Dewi celeb Awas Terpikat Bibir Merah Sandra Dewi celeb Awas Terpikat Bibir Merah Sandra Dewi celeb Awas Terpikat Bibir Merah Sandra Dewi 9 celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans 10 photo Anggunnya Sandra Dewi di Red Carpet photo Anggunnya Sandra Dewi di Red Carpet photo Anggunnya Sandra Dewi di Red Carpet photo Anggunnya Sandra Dewi di Red Carpet photo Anggunnya Sandra Dewi di Red Carpet photo Anggunnya Sandra Dewi di Red Carpet 11 celeb Sandra Dewi Berseri - seri Sambut Natal Tahun Ini celeb Sandra Dewi Berseri - seri Sambut Natal Tahun Ini celeb Sandra Dewi Berseri - seri Sambut Natal Tahun Ini celeb Sandra Dewi Berseri - seri Sambut Natal Tahun Ini celeb Sandra Dewi Berseri - seri Sambut Natal Tahun Ini 1-1 celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul 13 celeb November In Love !
-Relasi: Berkumpul(Indonesia, 13 celeb November In Love)
-Class: false
-
-Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749542-diprediksi-melahirkan-saat-musim-liburan-sandra-dewi-khawatir-tak-ada-dokter.txt
-Kalimat ke-30: 8 celeb Awas Terpikat Bibir Merah Sandra Dewi celeb Awas Terpikat Bibir Merah Sandra Dewi celeb Awas Terpikat Bibir Merah Sandra Dewi celeb Awas Terpikat Bibir Merah Sandra Dewi celeb Awas Terpikat Bibir Merah Sandra Dewi celeb Awas Terpikat Bibir Merah Sandra Dewi 9 celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans 10 photo Anggunnya Sandra Dewi di Red Carpet photo Anggunnya Sandra Dewi di Red Carpet photo Anggunnya Sandra Dewi di Red Carpet photo Anggunnya Sandra Dewi di Red Carpet photo Anggunnya Sandra Dewi di Red Carpet photo Anggunnya Sandra Dewi di Red Carpet 11 celeb Sandra Dewi Berseri - seri Sambut Natal Tahun Ini celeb Sandra Dewi Berseri - seri Sambut Natal Tahun Ini celeb Sandra Dewi Berseri - seri Sambut Natal Tahun Ini celeb Sandra Dewi Berseri - seri Sambut Natal Tahun Ini celeb Sandra Dewi Berseri - seri Sambut Natal Tahun Ini 1-1 celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul 13 celeb November In Love !
-Relasi: Berkumpul(Indonesia, 13 celeb November In Love)
-Class: false
-
-Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749542-diprediksi-melahirkan-saat-musim-liburan-sandra-dewi-khawatir-tak-ada-dokter.txt
-Kalimat ke-30: 8 celeb Awas Terpikat Bibir Merah Sandra Dewi celeb Awas Terpikat Bibir Merah Sandra Dewi celeb Awas Terpikat Bibir Merah Sandra Dewi celeb Awas Terpikat Bibir Merah Sandra Dewi celeb Awas Terpikat Bibir Merah Sandra Dewi celeb Awas Terpikat Bibir Merah Sandra Dewi 9 celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans 10 photo Anggunnya Sandra Dewi di Red Carpet photo Anggunnya Sandra Dewi di Red Carpet photo Anggunnya Sandra Dewi di Red Carpet photo Anggunnya Sandra Dewi di Red Carpet photo Anggunnya Sandra Dewi di Red Carpet photo Anggunnya Sandra Dewi di Red Carpet 11 celeb Sandra Dewi Berseri - seri Sambut Natal Tahun Ini celeb Sandra Dewi Berseri - seri Sambut Natal Tahun Ini celeb Sandra Dewi Berseri - seri Sambut Natal Tahun Ini celeb Sandra Dewi Berseri - seri Sambut Natal Tahun Ini celeb Sandra Dewi Berseri - seri Sambut Natal Tahun Ini 1-1 celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul 13 celeb November In Love !
-Relasi: Berkumpul(Indonesia, 13 celeb November In Love)
-Class: false
-
-Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749542-diprediksi-melahirkan-saat-musim-liburan-sandra-dewi-khawatir-tak-ada-dokter.txt
-Kalimat ke-30: 8 celeb Awas Terpikat Bibir Merah Sandra Dewi celeb Awas Terpikat Bibir Merah Sandra Dewi celeb Awas Terpikat Bibir Merah Sandra Dewi celeb Awas Terpikat Bibir Merah Sandra Dewi celeb Awas Terpikat Bibir Merah Sandra Dewi celeb Awas Terpikat Bibir Merah Sandra Dewi 9 celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans 10 photo Anggunnya Sandra Dewi di Red Carpet photo Anggunnya Sandra Dewi di Red Carpet photo Anggunnya Sandra Dewi di Red Carpet photo Anggunnya Sandra Dewi di Red Carpet photo Anggunnya Sandra Dewi di Red Carpet photo Anggunnya Sandra Dewi di Red Carpet 11 celeb Sandra Dewi Berseri - seri Sambut Natal Tahun Ini celeb Sandra Dewi Berseri - seri Sambut Natal Tahun Ini celeb Sandra Dewi Berseri - seri Sambut Natal Tahun Ini celeb Sandra Dewi Berseri - seri Sambut Natal Tahun Ini celeb Sandra Dewi Berseri - seri Sambut Natal Tahun Ini 1-1 celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul 13 celeb November In Love !
-Relasi: Berkumpul(Indonesia, 13 celeb November In Love)
-Class: false
-
-Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749542-diprediksi-melahirkan-saat-musim-liburan-sandra-dewi-khawatir-tak-ada-dokter.txt
-Kalimat ke-30: 8 celeb Awas Terpikat Bibir Merah Sandra Dewi celeb Awas Terpikat Bibir Merah Sandra Dewi celeb Awas Terpikat Bibir Merah Sandra Dewi celeb Awas Terpikat Bibir Merah Sandra Dewi celeb Awas Terpikat Bibir Merah Sandra Dewi celeb Awas Terpikat Bibir Merah Sandra Dewi 9 celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans 10 photo Anggunnya Sandra Dewi di Red Carpet photo Anggunnya Sandra Dewi di Red Carpet photo Anggunnya Sandra Dewi di Red Carpet photo Anggunnya Sandra Dewi di Red Carpet photo Anggunnya Sandra Dewi di Red Carpet photo Anggunnya Sandra Dewi di Red Carpet 11 celeb Sandra Dewi Berseri - seri Sambut Natal Tahun Ini celeb Sandra Dewi Berseri - seri Sambut Natal Tahun Ini celeb Sandra Dewi Berseri - seri Sambut Natal Tahun Ini celeb Sandra Dewi Berseri - seri Sambut Natal Tahun Ini celeb Sandra Dewi Berseri - seri Sambut Natal Tahun Ini 1-1 celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul 13 celeb November In Love !
-Relasi: Berkumpul(Indonesia, 13 celeb November In Love)
+Relasi: Berkumpul(Indonesia# 13 celeb November In Love)
 Class: true
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749542-diprediksi-melahirkan-saat-musim-liburan-sandra-dewi-khawatir-tak-ada-dokter.txt
 Kalimat ke-30: 8 celeb Awas Terpikat Bibir Merah Sandra Dewi celeb Awas Terpikat Bibir Merah Sandra Dewi celeb Awas Terpikat Bibir Merah Sandra Dewi celeb Awas Terpikat Bibir Merah Sandra Dewi celeb Awas Terpikat Bibir Merah Sandra Dewi celeb Awas Terpikat Bibir Merah Sandra Dewi 9 celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans 10 photo Anggunnya Sandra Dewi di Red Carpet photo Anggunnya Sandra Dewi di Red Carpet photo Anggunnya Sandra Dewi di Red Carpet photo Anggunnya Sandra Dewi di Red Carpet photo Anggunnya Sandra Dewi di Red Carpet photo Anggunnya Sandra Dewi di Red Carpet 11 celeb Sandra Dewi Berseri - seri Sambut Natal Tahun Ini celeb Sandra Dewi Berseri - seri Sambut Natal Tahun Ini celeb Sandra Dewi Berseri - seri Sambut Natal Tahun Ini celeb Sandra Dewi Berseri - seri Sambut Natal Tahun Ini celeb Sandra Dewi Berseri - seri Sambut Natal Tahun Ini 1-1 celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul 13 celeb November In Love !
-Relasi: Berkumpul(Indonesia, 13 celeb November In Love)
+Relasi: Berkumpul(Indonesia# 13 celeb November In Love)
+Class: false
+
+Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749542-diprediksi-melahirkan-saat-musim-liburan-sandra-dewi-khawatir-tak-ada-dokter.txt
+Kalimat ke-30: 8 celeb Awas Terpikat Bibir Merah Sandra Dewi celeb Awas Terpikat Bibir Merah Sandra Dewi celeb Awas Terpikat Bibir Merah Sandra Dewi celeb Awas Terpikat Bibir Merah Sandra Dewi celeb Awas Terpikat Bibir Merah Sandra Dewi celeb Awas Terpikat Bibir Merah Sandra Dewi 9 celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans 10 photo Anggunnya Sandra Dewi di Red Carpet photo Anggunnya Sandra Dewi di Red Carpet photo Anggunnya Sandra Dewi di Red Carpet photo Anggunnya Sandra Dewi di Red Carpet photo Anggunnya Sandra Dewi di Red Carpet photo Anggunnya Sandra Dewi di Red Carpet 11 celeb Sandra Dewi Berseri - seri Sambut Natal Tahun Ini celeb Sandra Dewi Berseri - seri Sambut Natal Tahun Ini celeb Sandra Dewi Berseri - seri Sambut Natal Tahun Ini celeb Sandra Dewi Berseri - seri Sambut Natal Tahun Ini celeb Sandra Dewi Berseri - seri Sambut Natal Tahun Ini 1-1 celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul 13 celeb November In Love !
+Relasi: Berkumpul(Indonesia# 13 celeb November In Love)
+Class: false
+
+Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749542-diprediksi-melahirkan-saat-musim-liburan-sandra-dewi-khawatir-tak-ada-dokter.txt
+Kalimat ke-30: 8 celeb Awas Terpikat Bibir Merah Sandra Dewi celeb Awas Terpikat Bibir Merah Sandra Dewi celeb Awas Terpikat Bibir Merah Sandra Dewi celeb Awas Terpikat Bibir Merah Sandra Dewi celeb Awas Terpikat Bibir Merah Sandra Dewi celeb Awas Terpikat Bibir Merah Sandra Dewi 9 celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans 10 photo Anggunnya Sandra Dewi di Red Carpet photo Anggunnya Sandra Dewi di Red Carpet photo Anggunnya Sandra Dewi di Red Carpet photo Anggunnya Sandra Dewi di Red Carpet photo Anggunnya Sandra Dewi di Red Carpet photo Anggunnya Sandra Dewi di Red Carpet 11 celeb Sandra Dewi Berseri - seri Sambut Natal Tahun Ini celeb Sandra Dewi Berseri - seri Sambut Natal Tahun Ini celeb Sandra Dewi Berseri - seri Sambut Natal Tahun Ini celeb Sandra Dewi Berseri - seri Sambut Natal Tahun Ini celeb Sandra Dewi Berseri - seri Sambut Natal Tahun Ini 1-1 celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul 13 celeb November In Love !
+Relasi: Berkumpul(Indonesia# 13 celeb November In Love)
+Class: false
+
+Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749542-diprediksi-melahirkan-saat-musim-liburan-sandra-dewi-khawatir-tak-ada-dokter.txt
+Kalimat ke-30: 8 celeb Awas Terpikat Bibir Merah Sandra Dewi celeb Awas Terpikat Bibir Merah Sandra Dewi celeb Awas Terpikat Bibir Merah Sandra Dewi celeb Awas Terpikat Bibir Merah Sandra Dewi celeb Awas Terpikat Bibir Merah Sandra Dewi celeb Awas Terpikat Bibir Merah Sandra Dewi 9 celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans 10 photo Anggunnya Sandra Dewi di Red Carpet photo Anggunnya Sandra Dewi di Red Carpet photo Anggunnya Sandra Dewi di Red Carpet photo Anggunnya Sandra Dewi di Red Carpet photo Anggunnya Sandra Dewi di Red Carpet photo Anggunnya Sandra Dewi di Red Carpet 11 celeb Sandra Dewi Berseri - seri Sambut Natal Tahun Ini celeb Sandra Dewi Berseri - seri Sambut Natal Tahun Ini celeb Sandra Dewi Berseri - seri Sambut Natal Tahun Ini celeb Sandra Dewi Berseri - seri Sambut Natal Tahun Ini celeb Sandra Dewi Berseri - seri Sambut Natal Tahun Ini 1-1 celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul 13 celeb November In Love !
+Relasi: Berkumpul(Indonesia# 13 celeb November In Love)
 Class: true
+
+Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749542-diprediksi-melahirkan-saat-musim-liburan-sandra-dewi-khawatir-tak-ada-dokter.txt
+Kalimat ke-30: 8 celeb Awas Terpikat Bibir Merah Sandra Dewi celeb Awas Terpikat Bibir Merah Sandra Dewi celeb Awas Terpikat Bibir Merah Sandra Dewi celeb Awas Terpikat Bibir Merah Sandra Dewi celeb Awas Terpikat Bibir Merah Sandra Dewi celeb Awas Terpikat Bibir Merah Sandra Dewi 9 celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans 10 photo Anggunnya Sandra Dewi di Red Carpet photo Anggunnya Sandra Dewi di Red Carpet photo Anggunnya Sandra Dewi di Red Carpet photo Anggunnya Sandra Dewi di Red Carpet photo Anggunnya Sandra Dewi di Red Carpet photo Anggunnya Sandra Dewi di Red Carpet 11 celeb Sandra Dewi Berseri - seri Sambut Natal Tahun Ini celeb Sandra Dewi Berseri - seri Sambut Natal Tahun Ini celeb Sandra Dewi Berseri - seri Sambut Natal Tahun Ini celeb Sandra Dewi Berseri - seri Sambut Natal Tahun Ini celeb Sandra Dewi Berseri - seri Sambut Natal Tahun Ini 1-1 celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul 13 celeb November In Love !
+Relasi: Berkumpul(Indonesia# 13 celeb November In Love)
+Class: false
+
+Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749542-diprediksi-melahirkan-saat-musim-liburan-sandra-dewi-khawatir-tak-ada-dokter.txt
+Kalimat ke-30: 8 celeb Awas Terpikat Bibir Merah Sandra Dewi celeb Awas Terpikat Bibir Merah Sandra Dewi celeb Awas Terpikat Bibir Merah Sandra Dewi celeb Awas Terpikat Bibir Merah Sandra Dewi celeb Awas Terpikat Bibir Merah Sandra Dewi celeb Awas Terpikat Bibir Merah Sandra Dewi 9 celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans 10 photo Anggunnya Sandra Dewi di Red Carpet photo Anggunnya Sandra Dewi di Red Carpet photo Anggunnya Sandra Dewi di Red Carpet photo Anggunnya Sandra Dewi di Red Carpet photo Anggunnya Sandra Dewi di Red Carpet photo Anggunnya Sandra Dewi di Red Carpet 11 celeb Sandra Dewi Berseri - seri Sambut Natal Tahun Ini celeb Sandra Dewi Berseri - seri Sambut Natal Tahun Ini celeb Sandra Dewi Berseri - seri Sambut Natal Tahun Ini celeb Sandra Dewi Berseri - seri Sambut Natal Tahun Ini celeb Sandra Dewi Berseri - seri Sambut Natal Tahun Ini 1-1 celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul 13 celeb November In Love !
+Relasi: Berkumpul(Indonesia# 13 celeb November In Love)
+Class: true
+
+Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749542-diprediksi-melahirkan-saat-musim-liburan-sandra-dewi-khawatir-tak-ada-dokter.txt
+Kalimat ke-30: 8 celeb Awas Terpikat Bibir Merah Sandra Dewi celeb Awas Terpikat Bibir Merah Sandra Dewi celeb Awas Terpikat Bibir Merah Sandra Dewi celeb Awas Terpikat Bibir Merah Sandra Dewi celeb Awas Terpikat Bibir Merah Sandra Dewi celeb Awas Terpikat Bibir Merah Sandra Dewi 9 celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans 10 photo Anggunnya Sandra Dewi di Red Carpet photo Anggunnya Sandra Dewi di Red Carpet photo Anggunnya Sandra Dewi di Red Carpet photo Anggunnya Sandra Dewi di Red Carpet photo Anggunnya Sandra Dewi di Red Carpet photo Anggunnya Sandra Dewi di Red Carpet 11 celeb Sandra Dewi Berseri - seri Sambut Natal Tahun Ini celeb Sandra Dewi Berseri - seri Sambut Natal Tahun Ini celeb Sandra Dewi Berseri - seri Sambut Natal Tahun Ini celeb Sandra Dewi Berseri - seri Sambut Natal Tahun Ini celeb Sandra Dewi Berseri - seri Sambut Natal Tahun Ini 1-1 celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul 13 celeb November In Love !
+Relasi: Berkumpul(Indonesia# 13 celeb November In Love)
+Class: false
 
 

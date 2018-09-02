@@ -1,66 +1,66 @@
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749045-masih-jomblo-tina-toon-tantang-bawa-gandengan-saat-natal.txt
 Kalimat ke-1: Setiap momen Natal , Tina Toon kerap kali ditanya gandengan oleh keluarga  .
-Relasi: ditanya gandengan oleh(Tina Toon kerap kali, keluarga)
+Relasi: ditanya gandengan oleh(Tina Toon kerap kali# keluarga)
 Class: true
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749045-masih-jomblo-tina-toon-tantang-bawa-gandengan-saat-natal.txt
 Kalimat ke-2: Jelang hari raya , ia pun menantang dirinya selama 20 hari ini untuk membawa gandengan  .
-Relasi: menantang dirinya selama(Jelang hari, 20 hari)
+Relasi: menantang dirinya selama(Jelang hari# 20 hari)
 Class: true
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749045-masih-jomblo-tina-toon-tantang-bawa-gandengan-saat-natal.txt
 Kalimat ke-2: Jelang hari raya , ia pun menantang dirinya selama 20 hari ini untuk membawa gandengan  .
-Relasi: membawa(20 hari, gandengan)
-Class: false
+Relasi: membawa(20 hari# gandengan)
+Class: true
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749045-masih-jomblo-tina-toon-tantang-bawa-gandengan-saat-natal.txt
 Kalimat ke-4: Ini tanggal berapa ini sekarang , berarti Gue punya waktu 20 hari  .
-Relasi: berapa(tanggal, sekarang)
-Class: false
+Relasi: berapa(tanggal# sekarang)
+Class: true
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749045-masih-jomblo-tina-toon-tantang-bawa-gandengan-saat-natal.txt
 Kalimat ke-4: Ini tanggal berapa ini sekarang , berarti Gue punya waktu 20 hari  .
-Relasi: berarti(sekarang, Gue)
-Class: false
+Relasi: berarti(sekarang# Gue)
+Class: true
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749045-masih-jomblo-tina-toon-tantang-bawa-gandengan-saat-natal.txt
 Kalimat ke-4: Ini tanggal berapa ini sekarang , berarti Gue punya waktu 20 hari  .
-Relasi: punya(Gue, waktu 20 hari)
+Relasi: punya(Gue# waktu 20 hari)
 Class: true
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749045-masih-jomblo-tina-toon-tantang-bawa-gandengan-saat-natal.txt
 Kalimat ke-5: Mudah - mudahan dalam 20 hari itu saya sudah bisa bawa seseorang lah ke rumah  .
-Relasi: lah ke(bawa, rumah)
+Relasi: lah ke(bawa# rumah)
 Class: true
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749045-masih-jomblo-tina-toon-tantang-bawa-gandengan-saat-natal.txt
 Kalimat ke-6: Karena itu sudah jadi pertanyaan yang sangat rutin, " ujar Tina di Harlequen Bistro , Kemang , Jakarta Selatan , Rabu ( 29/11/2017 )  .
-Relasi: ujar Tina di(jadi pertanyaan, Harlequen Bistro)
+Relasi: ujar Tina di(jadi pertanyaan# Harlequen Bistro)
 Class: true
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749045-masih-jomblo-tina-toon-tantang-bawa-gandengan-saat-natal.txt
 Kalimat ke-9: Ya yang penting kira - kira bisa diterima oleh keluarga lah  .
-Relasi: bisa diterima oleh(kira, keluarga lah)
+Relasi: bisa diterima oleh(kira# keluarga lah)
 Class: true
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749045-masih-jomblo-tina-toon-tantang-bawa-gandengan-saat-natal.txt
 Kalimat ke-10: Kan kita bawa kenalin ke keluarga yang kira - kira diterima keluarga dong  .
-Relasi: diterima(kira, keluarga dong)
+Relasi: diterima(kira# keluarga dong)
 Class: false
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749045-masih-jomblo-tina-toon-tantang-bawa-gandengan-saat-natal.txt
 Kalimat ke-14: " Ada teman - teman saja lah semua  .
-Relasi: lah(teman, semua)
+Relasi: lah(teman# semua)
 Class: true
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749045-masih-jomblo-tina-toon-tantang-bawa-gandengan-saat-natal.txt
 Kalimat ke-19: ( fbr/nu-nu ) tina toon Photo Gallery 1 celeb Tina Toon Wisuda Sr Magister Ilmu Hukum celeb Tina Toon Wisuda Sr Magister Ilmu Hukum celeb Tina Toon Wisuda Sr Magister Ilmu Hukum celeb Tina Toon Wisuda Sr Magister Ilmu Hukum celeb Tina Toon Wisuda Sr Magister Ilmu Hukum celeb Tina Toon Wisuda Sr Magister Ilmu Hukum 1 photo Tina Toon Berkaftan Ping photo Tina Toon Berkaftan Ping photo Tina Toon Berkaftan Ping photo Tina Toon Berkaftan Ping photo Tina Toon Berkaftan Ping 2 photo Tina Toon Berbunga - bunga di Hari Kartini photo Tina Toon Berbunga - bunga di Hari Kartini photo Tina Toon Berbunga - bunga di Hari Kartini photo Tina Toon Berbunga - bunga di Hari Kartini photo Tina Toon Berbunga - bunga di Hari Kartini 3 photo Begini Wajah Tina Toon Tanpa Make - up photo Begini Wajah Tina Toon Tanpa Make - up photo Begini Wajah Tina Toon Tanpa Make - up photo Begini Wajah Tina Toon Tanpa Make - up photo Begini Wajah Tina Toon Tanpa Make - up photo Begini Wajah Tina Toon Tanpa Make - up 4 photo Ekspresi Kocak Tina Toon 5 photo Gaya Centil Tina Toon Jelang Natal 6 photo Lulus Kuliah , Tina Toon Sumringah 7 photo Wisuda , Tina Toon Berkebaya Merah 8 photo Celana Batik Tina Toon 9 photo Ultah ke - 21 , Tina Toonita Rilis Buku 10 photo Tina Toonita Heboh Berkalung Emas 11 photo Rambut Brokoli Tina Toonita 1-1 photo Gaya Tina Toonita dengan Hot Pants 13 photo Kasual dengan Hot Pants ala Tina Toonita 14 photo Warna - warni Rambut Tina Toonita 15 photo Gaya Tina Toonita yang Semakin Dewasa 16 photo Ingin Nikah Muda , Tina Toonita Masih Jomblo 17 photo Makin Dewasa , Wajah Tina Toon Berubah 18 photo Tina Toon di Panggung ' Arjuna Galau ' 19 photo Ketika Tina Toon Jadi Wayang 20 1  .
-Relasi: Ingin(16 photo, Nikah)
-Class: false
+Relasi: Ingin(16 photo# Nikah)
+Class: true
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749045-masih-jomblo-tina-toon-tantang-bawa-gandengan-saat-natal.txt
 Kalimat ke-19: ( fbr/nu-nu ) tina toon Photo Gallery 1 celeb Tina Toon Wisuda Sr Magister Ilmu Hukum celeb Tina Toon Wisuda Sr Magister Ilmu Hukum celeb Tina Toon Wisuda Sr Magister Ilmu Hukum celeb Tina Toon Wisuda Sr Magister Ilmu Hukum celeb Tina Toon Wisuda Sr Magister Ilmu Hukum celeb Tina Toon Wisuda Sr Magister Ilmu Hukum 1 photo Tina Toon Berkaftan Ping photo Tina Toon Berkaftan Ping photo Tina Toon Berkaftan Ping photo Tina Toon Berkaftan Ping photo Tina Toon Berkaftan Ping 2 photo Tina Toon Berbunga - bunga di Hari Kartini photo Tina Toon Berbunga - bunga di Hari Kartini photo Tina Toon Berbunga - bunga di Hari Kartini photo Tina Toon Berbunga - bunga di Hari Kartini photo Tina Toon Berbunga - bunga di Hari Kartini 3 photo Begini Wajah Tina Toon Tanpa Make - up photo Begini Wajah Tina Toon Tanpa Make - up photo Begini Wajah Tina Toon Tanpa Make - up photo Begini Wajah Tina Toon Tanpa Make - up photo Begini Wajah Tina Toon Tanpa Make - up photo Begini Wajah Tina Toon Tanpa Make - up 4 photo Ekspresi Kocak Tina Toon 5 photo Gaya Centil Tina Toon Jelang Natal 6 photo Lulus Kuliah , Tina Toon Sumringah 7 photo Wisuda , Tina Toon Berkebaya Merah 8 photo Celana Batik Tina Toon 9 photo Ultah ke - 21 , Tina Toonita Rilis Buku 10 photo Tina Toonita Heboh Berkalung Emas 11 photo Rambut Brokoli Tina Toonita 1-1 photo Gaya Tina Toonita dengan Hot Pants 13 photo Kasual dengan Hot Pants ala Tina Toonita 14 photo Warna - warni Rambut Tina Toonita 15 photo Gaya Tina Toonita yang Semakin Dewasa 16 photo Ingin Nikah Muda , Tina Toonita Masih Jomblo 17 photo Makin Dewasa , Wajah Tina Toon Berubah 18 photo Tina Toon di Panggung ' Arjuna Galau ' 19 photo Ketika Tina Toon Jadi Wayang 20 1  .
-Relasi: Berubah 18 photo Tina Toon di(Jomblo 17 photo, Panggung)
+Relasi: Berubah 18 photo Tina Toon di(Jomblo 17 photo# Panggung)
 Class: false
 
 

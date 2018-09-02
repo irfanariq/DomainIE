@@ -1,191 +1,191 @@
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749478-masih-di-kandungan-anak-sandra-dewi-sudah-punya-barang-barang-mahal.txt
 Kalimat ke-1: Usia kehamilan Sandra Dewi sudah memasuki sembilan bulan  .
-Relasi: sudah memasuki(Usia kehamilan Sandra Dewi, sembilan bulan)
-Class: true
+Relasi: sudah memasuki(Usia kehamilan Sandra Dewi# sembilan bulan)
+Class: false
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749478-masih-di-kandungan-anak-sandra-dewi-sudah-punya-barang-barang-mahal.txt
 Kalimat ke-2: Dia dan suami , Harvey Muis sudah mulai persiapkan perlengkapan bayi  .
-Relasi: sudah mulai(Harvey Muis, persiapkan perlengkapan bayi)
+Relasi: sudah mulai(Harvey Muis# persiapkan perlengkapan bayi)
 Class: true
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749478-masih-di-kandungan-anak-sandra-dewi-sudah-punya-barang-barang-mahal.txt
 Kalimat ke-3: Mempersiapkan kehadiran sang anak , dikatakan Sandra Dewi , justru sang suami yang sangat antusias  .
-Relasi: dikatakan(anak, Sandra Dewi)
-Class: true
+Relasi: dikatakan(anak# Sandra Dewi)
+Class: false
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749478-masih-di-kandungan-anak-sandra-dewi-sudah-punya-barang-barang-mahal.txt
 Kalimat ke-4: Bahkan barang - barang mahal , seperti tas Hermes pun sudah dibelikan oleh Harvey  .
-Relasi: sudah dibelikan oleh(tas Hermes, Harvey)
+Relasi: sudah dibelikan oleh(tas Hermes# Harvey)
 Class: false
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749478-masih-di-kandungan-anak-sandra-dewi-sudah-punya-barang-barang-mahal.txt
 Kalimat ke-5: Namun saat ditanya lebih lanjut selain tas apa saja barang mahal yang dibelikan , Sandra enggan menjelaskannya  .
-Relasi: ditanya(saat, selain tas)
+Relasi: ditanya(saat# selain tas)
 Class: false
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749478-masih-di-kandungan-anak-sandra-dewi-sudah-punya-barang-barang-mahal.txt
 Kalimat ke-5: Namun saat ditanya lebih lanjut selain tas apa saja barang mahal yang dibelikan , Sandra enggan menjelaskannya  .
-Relasi: lanjut(saat, selain tas)
+Relasi: lanjut(saat# selain tas)
 Class: false
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749478-masih-di-kandungan-anak-sandra-dewi-sudah-punya-barang-barang-mahal.txt
 Kalimat ke-5: Namun saat ditanya lebih lanjut selain tas apa saja barang mahal yang dibelikan , Sandra enggan menjelaskannya  .
-Relasi: dibelikan(barang mahal, Sandra)
-Class: false
+Relasi: dibelikan(barang mahal# Sandra)
+Class: true
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749478-masih-di-kandungan-anak-sandra-dewi-sudah-punya-barang-barang-mahal.txt
 Kalimat ke-6: Baca juga : Cerita Sandra Dewi Takjub dengan Janin di Rahimnya " Oh tertawa itu papanya  .
-Relasi: tertawa(Oh, papanya)
+Relasi: tertawa(Oh# papanya)
 Class: false
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749478-masih-di-kandungan-anak-sandra-dewi-sudah-punya-barang-barang-mahal.txt
 Kalimat ke-9: Kalau suami saya kan suka shopping  .
-Relasi: suka(suami, shopping)
-Class: true
-
-Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749478-masih-di-kandungan-anak-sandra-dewi-sudah-punya-barang-barang-mahal.txt
-Kalimat ke-11: Saya kalau ke toko , saya yang duduk , suami saya yang belanja  .
-Relasi: duduk(toko, suami)
-Class: true
-
-Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749478-masih-di-kandungan-anak-sandra-dewi-sudah-punya-barang-barang-mahal.txt
-Kalimat ke-12: Karena dia itu ingin sekali punya anak, " cerita Sandra Dewi saat ditemui di peluncuran aplikasi ' Teman Bumil ' di Hotel Grand Haytt , M.H Thamrin , Jakarta Pusat , Rabu ( 29/11/2017 ) malam  .
-Relasi: ditemui di(cerita Sandra Dewi, peluncuran aplikasi)
+Relasi: suka(suami# shopping)
 Class: false
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749478-masih-di-kandungan-anak-sandra-dewi-sudah-punya-barang-barang-mahal.txt
-Kalimat ke-14: Kehadiran seorang anak memang sudah sangat ditunggu oleh Harvey Muis  .
-Relasi: ditunggu oleh(Kehadiran seorang anak, Harvey Muis)
+Kalimat ke-11: Saya kalau ke toko , saya yang duduk , suami saya yang belanja  .
+Relasi: duduk(toko# suami)
+Class: false
+
+Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749478-masih-di-kandungan-anak-sandra-dewi-sudah-punya-barang-barang-mahal.txt
+Kalimat ke-12: Karena dia itu ingin sekali punya anak, " cerita Sandra Dewi saat ditemui di peluncuran aplikasi ' Teman Bumil ' di Hotel Grand Haytt , M.H Thamrin , Jakarta Pusat , Rabu ( 29/11/2017 ) malam  .
+Relasi: ditemui di(cerita Sandra Dewi# peluncuran aplikasi)
 Class: true
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749478-masih-di-kandungan-anak-sandra-dewi-sudah-punya-barang-barang-mahal.txt
+Kalimat ke-14: Kehadiran seorang anak memang sudah sangat ditunggu oleh Harvey Muis  .
+Relasi: ditunggu oleh(Kehadiran seorang anak# Harvey Muis)
+Class: false
+
+Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749478-masih-di-kandungan-anak-sandra-dewi-sudah-punya-barang-barang-mahal.txt
 Kalimat ke-16: Menurut Sandra Dewi , bayi yang baru lahir perkembangannya sangat cepat dan barang - barang tersebut hanya akan dipakai sebentar  .
-Relasi: lahir(bayi, perkembangannya)
+Relasi: lahir(bayi# perkembangannya)
 Class: true
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749478-masih-di-kandungan-anak-sandra-dewi-sudah-punya-barang-barang-mahal.txt
 Kalimat ke-17: " Saya bilang ' Sayang kayaknya terlalu berebihan belanjanya '  .
-Relasi: berebihan(Sayang kayaknya, belanjanya)
-Class: false
-
-Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749478-masih-di-kandungan-anak-sandra-dewi-sudah-punya-barang-barang-mahal.txt
-Kalimat ke-20: " Dia ( suami ) cuma jawab sesuatu yang tidak bisa saya lawan , ' Jangan menghalangi saya untuk mempersiapkan semuanya untuk anak saya', " lanjut perempuan yang juga hobi berbisnis itu  .
-Relasi: cuma jawab(suami, sesuatu)
+Relasi: berebihan(Sayang kayaknya# belanjanya)
 Class: true
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749478-masih-di-kandungan-anak-sandra-dewi-sudah-punya-barang-barang-mahal.txt
 Kalimat ke-20: " Dia ( suami ) cuma jawab sesuatu yang tidak bisa saya lawan , ' Jangan menghalangi saya untuk mempersiapkan semuanya untuk anak saya', " lanjut perempuan yang juga hobi berbisnis itu  .
-Relasi: menghalangi saya untuk mempersiapkan semuanya untuk(lawan, anak)
+Relasi: cuma jawab(suami# sesuatu)
 Class: true
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749478-masih-di-kandungan-anak-sandra-dewi-sudah-punya-barang-barang-mahal.txt
 Kalimat ke-20: " Dia ( suami ) cuma jawab sesuatu yang tidak bisa saya lawan , ' Jangan menghalangi saya untuk mempersiapkan semuanya untuk anak saya', " lanjut perempuan yang juga hobi berbisnis itu  .
-Relasi: lanjut(anak, perempuan)
-Class: false
+Relasi: menghalangi saya untuk mempersiapkan semuanya untuk(lawan# anak)
+Class: true
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749478-masih-di-kandungan-anak-sandra-dewi-sudah-punya-barang-barang-mahal.txt
-Kalimat ke-21: Baca juga : Setahun Menikah , Sandra Dewi Cerita Momen Suami Ucapkan Cinta Sandra melihat sang suami sudah sangat bekerja keras untuk mendapatkan keturunan  .
-Relasi: melihat(Sandra Dewi Cerita Momen Suami Ucapkan Cinta Sandra, suami)
+Kalimat ke-20: " Dia ( suami ) cuma jawab sesuatu yang tidak bisa saya lawan , ' Jangan menghalangi saya untuk mempersiapkan semuanya untuk anak saya', " lanjut perempuan yang juga hobi berbisnis itu  .
+Relasi: lanjut(anak# perempuan)
 Class: true
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749478-masih-di-kandungan-anak-sandra-dewi-sudah-punya-barang-barang-mahal.txt
 Kalimat ke-21: Baca juga : Setahun Menikah , Sandra Dewi Cerita Momen Suami Ucapkan Cinta Sandra melihat sang suami sudah sangat bekerja keras untuk mendapatkan keturunan  .
-Relasi: bekerja keras untuk mendapatkan(suami, keturunan)
+Relasi: melihat(Sandra Dewi Cerita Momen Suami Ucapkan Cinta Sandra# suami)
+Class: true
+
+Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749478-masih-di-kandungan-anak-sandra-dewi-sudah-punya-barang-barang-mahal.txt
+Kalimat ke-21: Baca juga : Setahun Menikah , Sandra Dewi Cerita Momen Suami Ucapkan Cinta Sandra melihat sang suami sudah sangat bekerja keras untuk mendapatkan keturunan  .
+Relasi: bekerja keras untuk mendapatkan(suami# keturunan)
 Class: false
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749478-masih-di-kandungan-anak-sandra-dewi-sudah-punya-barang-barang-mahal.txt
 Kalimat ke-22: Setiap hari , sang suami tak pernah absen mengelus perut Sandra dan mendoakan sang anak  .
-Relasi: absen mengelus(suami, perut Sandra)
+Relasi: absen mengelus(suami# perut Sandra)
 Class: true
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749478-masih-di-kandungan-anak-sandra-dewi-sudah-punya-barang-barang-mahal.txt
 Kalimat ke-22: Setiap hari , sang suami tak pernah absen mengelus perut Sandra dan mendoakan sang anak  .
-Relasi: mendoakan(perut Sandra, anak)
-Class: false
-
-Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749478-masih-di-kandungan-anak-sandra-dewi-sudah-punya-barang-barang-mahal.txt
-Kalimat ke-23: Melihat kebahagiaan itu , Sandra Dewi hanya bisa mengikuti apa yang diinginkan suaminya  .
-Relasi: bisa mengikuti(Sandra Dewi, suaminya)
-Class: false
-
-Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749478-masih-di-kandungan-anak-sandra-dewi-sudah-punya-barang-barang-mahal.txt
-Kalimat ke-23: Melihat kebahagiaan itu , Sandra Dewi hanya bisa mengikuti apa yang diinginkan suaminya  .
-Relasi: diinginkan(Sandra Dewi, suaminya)
+Relasi: mendoakan(perut Sandra# anak)
 Class: true
+
+Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749478-masih-di-kandungan-anak-sandra-dewi-sudah-punya-barang-barang-mahal.txt
+Kalimat ke-23: Melihat kebahagiaan itu , Sandra Dewi hanya bisa mengikuti apa yang diinginkan suaminya  .
+Relasi: bisa mengikuti(Sandra Dewi# suaminya)
+Class: true
+
+Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749478-masih-di-kandungan-anak-sandra-dewi-sudah-punya-barang-barang-mahal.txt
+Kalimat ke-23: Melihat kebahagiaan itu , Sandra Dewi hanya bisa mengikuti apa yang diinginkan suaminya  .
+Relasi: diinginkan(Sandra Dewi# suaminya)
+Class: false
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749478-masih-di-kandungan-anak-sandra-dewi-sudah-punya-barang-barang-mahal.txt
 Kalimat ke-24: Sesekali Harvey menggoda Sandra yang memang masih sangat aktif bekerja  .
-Relasi: menggoda(Sesekali Harvey, Sandra)
-Class: true
+Relasi: menggoda(Sesekali Harvey# Sandra)
+Class: false
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749478-masih-di-kandungan-anak-sandra-dewi-sudah-punya-barang-barang-mahal.txt
 Kalimat ke-28: ( pus/wes ) sandra dewi Photo Gallery 1 celeb Hamil Tua , Sandra Dewi Makin Cantik Aja celeb Hamil Tua , Sandra Dewi Makin Cantik Aja celeb Hamil Tua , Sandra Dewi Makin Cantik Aja celeb Hamil Tua , Sandra Dewi Makin Cantik Aja celeb Hamil Tua , Sandra Dewi Makin Cantik Aja celeb Hamil Tua , Sandra Dewi Makin Cantik Aja celeb Hamil Tua , Sandra Dewi Makin Cantik Aja celeb Hamil Tua , Sandra Dewi Makin Cantik Aja 1 celeb Sandra Dewi Si Bumil Cantik celeb Sandra Dewi Si Bumil Cantik celeb Sandra Dewi Si Bumil Cantik celeb Sandra Dewi Si Bumil Cantik celeb Sandra Dewi Si Bumil Cantik celeb Sandra Dewi Si Bumil Cantik celeb Sandra Dewi Si Bumil Cantik 2 celeb Tante Sandra Dewi yang Cantik dan Awet Muda Banget di Usia 50 Tahun celeb Tante Sandra Dewi yang Cantik dan Awet Muda Banget di Usia 50 Tahun celeb Tante Sandra Dewi yang Cantik dan Awet Muda Banget di Usia 50 Tahun celeb Tante Sandra Dewi yang Cantik dan Awet Muda Banget di Usia 50 Tahun celeb Tante Sandra Dewi yang Cantik dan Awet Muda Banget di Usia 50 Tahun celeb Tante Sandra Dewi yang Cantik dan Awet Muda Banget di Usia 50 Tahun celeb Tante Sandra Dewi yang Cantik dan Awet Muda Banget di Usia 50 Tahun celeb Tante Sandra Dewi yang Cantik dan Awet Muda Banget di Usia 50 Tahun 3 celeb Hamil Tujuh Bulan , Sandra Dewi Beri Ini Untuk Sang Suami celeb Hamil Tujuh Bulan , Sandra Dewi Beri Ini Untuk Sang Suami celeb Hamil Tujuh Bulan , Sandra Dewi Beri Ini Untuk Sang Suami celeb Hamil Tujuh Bulan , Sandra Dewi Beri Ini Untuk Sang Suami celeb Hamil Tujuh Bulan , Sandra Dewi Beri Ini Untuk Sang Suami celeb Hamil Tujuh Bulan , Sandra Dewi Beri Ini Untuk Sang Suami 4 celeb Manisnya Sandra Dewi saat Hamil celeb Manisnya Sandra Dewi saat Hamil celeb Manisnya Sandra Dewi saat Hamil celeb Manisnya Sandra Dewi saat Hamil celeb Manisnya Sandra Dewi saat Hamil celeb Manisnya Sandra Dewi saat Hamil celeb Manisnya Sandra Dewi saat Hamil 5 celeb Senyum Semringah Sandra Dewi celeb Senyum Semringah Sandra Dewi celeb Senyum Semringah Sandra Dewi celeb Senyum Semringah Sandra Dewi celeb Senyum Semringah Sandra Dewi celeb Senyum Semringah Sandra Dewi 6 celeb Bibir Merah Merekah Sandra Dewi celeb Bibir Merah Merekah Sandra Dewi celeb Bibir Merah Merekah Sandra Dewi celeb Bibir Merah Merekah Sandra Dewi celeb Bibir Merah Merekah Sandra Dewi 7 celeb Usai Nikah , Sandra Dewi Makin Cantik Nih !
-Relasi: Usai(Suami 4 celeb Manisnya Sandra Dewi saat Hamil celeb Manisnya Sandra Dewi saat Hamil celeb Manisnya Sandra Dewi saat Hamil celeb Manisnya Sandra Dewi saat Hamil celeb Manisnya Sandra Dewi saat Hamil celeb Manisnya Sandra Dewi saat Hamil celeb Manisnya Sandra Dewi saat Hamil 5 celeb Senyum Semringah Sandra Dewi celeb Senyum Semringah Sandra Dewi celeb Senyum Semringah Sandra Dewi celeb Senyum Semringah Sandra Dewi celeb Senyum Semringah Sandra Dewi celeb Senyum Semringah Sandra Dewi 6 celeb Bibir Merah Merekah Sandra Dewi celeb Bibir Merah Merekah Sandra Dewi celeb Bibir Merah Merekah Sandra Dewi celeb Bibir Merah Merekah Sandra Dewi celeb Bibir Merah Merekah Sandra Dewi 7 celeb, Nikah)
+Relasi: Usai(Suami 4 celeb Manisnya Sandra Dewi saat Hamil celeb Manisnya Sandra Dewi saat Hamil celeb Manisnya Sandra Dewi saat Hamil celeb Manisnya Sandra Dewi saat Hamil celeb Manisnya Sandra Dewi saat Hamil celeb Manisnya Sandra Dewi saat Hamil celeb Manisnya Sandra Dewi saat Hamil 5 celeb Senyum Semringah Sandra Dewi celeb Senyum Semringah Sandra Dewi celeb Senyum Semringah Sandra Dewi celeb Senyum Semringah Sandra Dewi celeb Senyum Semringah Sandra Dewi celeb Senyum Semringah Sandra Dewi 6 celeb Bibir Merah Merekah Sandra Dewi celeb Bibir Merah Merekah Sandra Dewi celeb Bibir Merah Merekah Sandra Dewi celeb Bibir Merah Merekah Sandra Dewi celeb Bibir Merah Merekah Sandra Dewi 7 celeb# Nikah)
 Class: false
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749478-masih-di-kandungan-anak-sandra-dewi-sudah-punya-barang-barang-mahal.txt
 Kalimat ke-29: celeb Usai Nikah , Sandra Dewi Makin Cantik Nih !
-Relasi: Usai(celeb, Nikah)
+Relasi: Usai(celeb# Nikah)
 Class: false
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749478-masih-di-kandungan-anak-sandra-dewi-sudah-punya-barang-barang-mahal.txt
 Kalimat ke-30: celeb Usai Nikah , Sandra Dewi Makin Cantik Nih !
-Relasi: Usai(celeb, Nikah)
+Relasi: Usai(celeb# Nikah)
 Class: false
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749478-masih-di-kandungan-anak-sandra-dewi-sudah-punya-barang-barang-mahal.txt
 Kalimat ke-31: celeb Usai Nikah , Sandra Dewi Makin Cantik Nih !
-Relasi: Usai(celeb, Nikah)
+Relasi: Usai(celeb# Nikah)
 Class: true
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749478-masih-di-kandungan-anak-sandra-dewi-sudah-punya-barang-barang-mahal.txt
 Kalimat ke-32: celeb Usai Nikah , Sandra Dewi Makin Cantik Nih !
-Relasi: Usai(celeb, Nikah)
+Relasi: Usai(celeb# Nikah)
 Class: false
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749478-masih-di-kandungan-anak-sandra-dewi-sudah-punya-barang-barang-mahal.txt
 Kalimat ke-33: celeb Usai Nikah , Sandra Dewi Makin Cantik Nih !
-Relasi: Usai(celeb, Nikah)
+Relasi: Usai(celeb# Nikah)
 Class: true
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749478-masih-di-kandungan-anak-sandra-dewi-sudah-punya-barang-barang-mahal.txt
 Kalimat ke-34: 8 celeb Awas Terpikat Bibir Merah Sandra Dewi celeb Awas Terpikat Bibir Merah Sandra Dewi celeb Awas Terpikat Bibir Merah Sandra Dewi celeb Awas Terpikat Bibir Merah Sandra Dewi celeb Awas Terpikat Bibir Merah Sandra Dewi celeb Awas Terpikat Bibir Merah Sandra Dewi 9 celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans 10 photo Anggunnya Sandra Dewi di Red Carpet photo Anggunnya Sandra Dewi di Red Carpet photo Anggunnya Sandra Dewi di Red Carpet photo Anggunnya Sandra Dewi di Red Carpet photo Anggunnya Sandra Dewi di Red Carpet photo Anggunnya Sandra Dewi di Red Carpet 11 celeb Sandra Dewi Berseri - seri Sambut Natal Tahun Ini celeb Sandra Dewi Berseri - seri Sambut Natal Tahun Ini celeb Sandra Dewi Berseri - seri Sambut Natal Tahun Ini celeb Sandra Dewi Berseri - seri Sambut Natal Tahun Ini celeb Sandra Dewi Berseri - seri Sambut Natal Tahun Ini 1-1 celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul 13 celeb November In Love !
-Relasi: Berkumpul(Indonesia, 13 celeb November In Love)
-Class: false
-
-Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749478-masih-di-kandungan-anak-sandra-dewi-sudah-punya-barang-barang-mahal.txt
-Kalimat ke-34: 8 celeb Awas Terpikat Bibir Merah Sandra Dewi celeb Awas Terpikat Bibir Merah Sandra Dewi celeb Awas Terpikat Bibir Merah Sandra Dewi celeb Awas Terpikat Bibir Merah Sandra Dewi celeb Awas Terpikat Bibir Merah Sandra Dewi celeb Awas Terpikat Bibir Merah Sandra Dewi 9 celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans 10 photo Anggunnya Sandra Dewi di Red Carpet photo Anggunnya Sandra Dewi di Red Carpet photo Anggunnya Sandra Dewi di Red Carpet photo Anggunnya Sandra Dewi di Red Carpet photo Anggunnya Sandra Dewi di Red Carpet photo Anggunnya Sandra Dewi di Red Carpet 11 celeb Sandra Dewi Berseri - seri Sambut Natal Tahun Ini celeb Sandra Dewi Berseri - seri Sambut Natal Tahun Ini celeb Sandra Dewi Berseri - seri Sambut Natal Tahun Ini celeb Sandra Dewi Berseri - seri Sambut Natal Tahun Ini celeb Sandra Dewi Berseri - seri Sambut Natal Tahun Ini 1-1 celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul 13 celeb November In Love !
-Relasi: Berkumpul(Indonesia, 13 celeb November In Love)
+Relasi: Berkumpul(Indonesia# 13 celeb November In Love)
 Class: true
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749478-masih-di-kandungan-anak-sandra-dewi-sudah-punya-barang-barang-mahal.txt
 Kalimat ke-34: 8 celeb Awas Terpikat Bibir Merah Sandra Dewi celeb Awas Terpikat Bibir Merah Sandra Dewi celeb Awas Terpikat Bibir Merah Sandra Dewi celeb Awas Terpikat Bibir Merah Sandra Dewi celeb Awas Terpikat Bibir Merah Sandra Dewi celeb Awas Terpikat Bibir Merah Sandra Dewi 9 celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans 10 photo Anggunnya Sandra Dewi di Red Carpet photo Anggunnya Sandra Dewi di Red Carpet photo Anggunnya Sandra Dewi di Red Carpet photo Anggunnya Sandra Dewi di Red Carpet photo Anggunnya Sandra Dewi di Red Carpet photo Anggunnya Sandra Dewi di Red Carpet 11 celeb Sandra Dewi Berseri - seri Sambut Natal Tahun Ini celeb Sandra Dewi Berseri - seri Sambut Natal Tahun Ini celeb Sandra Dewi Berseri - seri Sambut Natal Tahun Ini celeb Sandra Dewi Berseri - seri Sambut Natal Tahun Ini celeb Sandra Dewi Berseri - seri Sambut Natal Tahun Ini 1-1 celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul 13 celeb November In Love !
-Relasi: Berkumpul(Indonesia, 13 celeb November In Love)
+Relasi: Berkumpul(Indonesia# 13 celeb November In Love)
 Class: false
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749478-masih-di-kandungan-anak-sandra-dewi-sudah-punya-barang-barang-mahal.txt
 Kalimat ke-34: 8 celeb Awas Terpikat Bibir Merah Sandra Dewi celeb Awas Terpikat Bibir Merah Sandra Dewi celeb Awas Terpikat Bibir Merah Sandra Dewi celeb Awas Terpikat Bibir Merah Sandra Dewi celeb Awas Terpikat Bibir Merah Sandra Dewi celeb Awas Terpikat Bibir Merah Sandra Dewi 9 celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans 10 photo Anggunnya Sandra Dewi di Red Carpet photo Anggunnya Sandra Dewi di Red Carpet photo Anggunnya Sandra Dewi di Red Carpet photo Anggunnya Sandra Dewi di Red Carpet photo Anggunnya Sandra Dewi di Red Carpet photo Anggunnya Sandra Dewi di Red Carpet 11 celeb Sandra Dewi Berseri - seri Sambut Natal Tahun Ini celeb Sandra Dewi Berseri - seri Sambut Natal Tahun Ini celeb Sandra Dewi Berseri - seri Sambut Natal Tahun Ini celeb Sandra Dewi Berseri - seri Sambut Natal Tahun Ini celeb Sandra Dewi Berseri - seri Sambut Natal Tahun Ini 1-1 celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul 13 celeb November In Love !
-Relasi: Berkumpul(Indonesia, 13 celeb November In Love)
-Class: false
-
-Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749478-masih-di-kandungan-anak-sandra-dewi-sudah-punya-barang-barang-mahal.txt
-Kalimat ke-34: 8 celeb Awas Terpikat Bibir Merah Sandra Dewi celeb Awas Terpikat Bibir Merah Sandra Dewi celeb Awas Terpikat Bibir Merah Sandra Dewi celeb Awas Terpikat Bibir Merah Sandra Dewi celeb Awas Terpikat Bibir Merah Sandra Dewi celeb Awas Terpikat Bibir Merah Sandra Dewi 9 celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans 10 photo Anggunnya Sandra Dewi di Red Carpet photo Anggunnya Sandra Dewi di Red Carpet photo Anggunnya Sandra Dewi di Red Carpet photo Anggunnya Sandra Dewi di Red Carpet photo Anggunnya Sandra Dewi di Red Carpet photo Anggunnya Sandra Dewi di Red Carpet 11 celeb Sandra Dewi Berseri - seri Sambut Natal Tahun Ini celeb Sandra Dewi Berseri - seri Sambut Natal Tahun Ini celeb Sandra Dewi Berseri - seri Sambut Natal Tahun Ini celeb Sandra Dewi Berseri - seri Sambut Natal Tahun Ini celeb Sandra Dewi Berseri - seri Sambut Natal Tahun Ini 1-1 celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul 13 celeb November In Love !
-Relasi: Berkumpul(Indonesia, 13 celeb November In Love)
-Class: false
-
-Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749478-masih-di-kandungan-anak-sandra-dewi-sudah-punya-barang-barang-mahal.txt
-Kalimat ke-34: 8 celeb Awas Terpikat Bibir Merah Sandra Dewi celeb Awas Terpikat Bibir Merah Sandra Dewi celeb Awas Terpikat Bibir Merah Sandra Dewi celeb Awas Terpikat Bibir Merah Sandra Dewi celeb Awas Terpikat Bibir Merah Sandra Dewi celeb Awas Terpikat Bibir Merah Sandra Dewi 9 celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans 10 photo Anggunnya Sandra Dewi di Red Carpet photo Anggunnya Sandra Dewi di Red Carpet photo Anggunnya Sandra Dewi di Red Carpet photo Anggunnya Sandra Dewi di Red Carpet photo Anggunnya Sandra Dewi di Red Carpet photo Anggunnya Sandra Dewi di Red Carpet 11 celeb Sandra Dewi Berseri - seri Sambut Natal Tahun Ini celeb Sandra Dewi Berseri - seri Sambut Natal Tahun Ini celeb Sandra Dewi Berseri - seri Sambut Natal Tahun Ini celeb Sandra Dewi Berseri - seri Sambut Natal Tahun Ini celeb Sandra Dewi Berseri - seri Sambut Natal Tahun Ini 1-1 celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul 13 celeb November In Love !
-Relasi: Berkumpul(Indonesia, 13 celeb November In Love)
-Class: false
-
-Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749478-masih-di-kandungan-anak-sandra-dewi-sudah-punya-barang-barang-mahal.txt
-Kalimat ke-34: 8 celeb Awas Terpikat Bibir Merah Sandra Dewi celeb Awas Terpikat Bibir Merah Sandra Dewi celeb Awas Terpikat Bibir Merah Sandra Dewi celeb Awas Terpikat Bibir Merah Sandra Dewi celeb Awas Terpikat Bibir Merah Sandra Dewi celeb Awas Terpikat Bibir Merah Sandra Dewi 9 celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans 10 photo Anggunnya Sandra Dewi di Red Carpet photo Anggunnya Sandra Dewi di Red Carpet photo Anggunnya Sandra Dewi di Red Carpet photo Anggunnya Sandra Dewi di Red Carpet photo Anggunnya Sandra Dewi di Red Carpet photo Anggunnya Sandra Dewi di Red Carpet 11 celeb Sandra Dewi Berseri - seri Sambut Natal Tahun Ini celeb Sandra Dewi Berseri - seri Sambut Natal Tahun Ini celeb Sandra Dewi Berseri - seri Sambut Natal Tahun Ini celeb Sandra Dewi Berseri - seri Sambut Natal Tahun Ini celeb Sandra Dewi Berseri - seri Sambut Natal Tahun Ini 1-1 celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul 13 celeb November In Love !
-Relasi: Berkumpul(Indonesia, 13 celeb November In Love)
+Relasi: Berkumpul(Indonesia# 13 celeb November In Love)
 Class: true
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749478-masih-di-kandungan-anak-sandra-dewi-sudah-punya-barang-barang-mahal.txt
 Kalimat ke-34: 8 celeb Awas Terpikat Bibir Merah Sandra Dewi celeb Awas Terpikat Bibir Merah Sandra Dewi celeb Awas Terpikat Bibir Merah Sandra Dewi celeb Awas Terpikat Bibir Merah Sandra Dewi celeb Awas Terpikat Bibir Merah Sandra Dewi celeb Awas Terpikat Bibir Merah Sandra Dewi 9 celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans 10 photo Anggunnya Sandra Dewi di Red Carpet photo Anggunnya Sandra Dewi di Red Carpet photo Anggunnya Sandra Dewi di Red Carpet photo Anggunnya Sandra Dewi di Red Carpet photo Anggunnya Sandra Dewi di Red Carpet photo Anggunnya Sandra Dewi di Red Carpet 11 celeb Sandra Dewi Berseri - seri Sambut Natal Tahun Ini celeb Sandra Dewi Berseri - seri Sambut Natal Tahun Ini celeb Sandra Dewi Berseri - seri Sambut Natal Tahun Ini celeb Sandra Dewi Berseri - seri Sambut Natal Tahun Ini celeb Sandra Dewi Berseri - seri Sambut Natal Tahun Ini 1-1 celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul 13 celeb November In Love !
-Relasi: Berkumpul(Indonesia, 13 celeb November In Love)
+Relasi: Berkumpul(Indonesia# 13 celeb November In Love)
+Class: false
+
+Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749478-masih-di-kandungan-anak-sandra-dewi-sudah-punya-barang-barang-mahal.txt
+Kalimat ke-34: 8 celeb Awas Terpikat Bibir Merah Sandra Dewi celeb Awas Terpikat Bibir Merah Sandra Dewi celeb Awas Terpikat Bibir Merah Sandra Dewi celeb Awas Terpikat Bibir Merah Sandra Dewi celeb Awas Terpikat Bibir Merah Sandra Dewi celeb Awas Terpikat Bibir Merah Sandra Dewi 9 celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans 10 photo Anggunnya Sandra Dewi di Red Carpet photo Anggunnya Sandra Dewi di Red Carpet photo Anggunnya Sandra Dewi di Red Carpet photo Anggunnya Sandra Dewi di Red Carpet photo Anggunnya Sandra Dewi di Red Carpet photo Anggunnya Sandra Dewi di Red Carpet 11 celeb Sandra Dewi Berseri - seri Sambut Natal Tahun Ini celeb Sandra Dewi Berseri - seri Sambut Natal Tahun Ini celeb Sandra Dewi Berseri - seri Sambut Natal Tahun Ini celeb Sandra Dewi Berseri - seri Sambut Natal Tahun Ini celeb Sandra Dewi Berseri - seri Sambut Natal Tahun Ini 1-1 celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul 13 celeb November In Love !
+Relasi: Berkumpul(Indonesia# 13 celeb November In Love)
+Class: true
+
+Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749478-masih-di-kandungan-anak-sandra-dewi-sudah-punya-barang-barang-mahal.txt
+Kalimat ke-34: 8 celeb Awas Terpikat Bibir Merah Sandra Dewi celeb Awas Terpikat Bibir Merah Sandra Dewi celeb Awas Terpikat Bibir Merah Sandra Dewi celeb Awas Terpikat Bibir Merah Sandra Dewi celeb Awas Terpikat Bibir Merah Sandra Dewi celeb Awas Terpikat Bibir Merah Sandra Dewi 9 celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans 10 photo Anggunnya Sandra Dewi di Red Carpet photo Anggunnya Sandra Dewi di Red Carpet photo Anggunnya Sandra Dewi di Red Carpet photo Anggunnya Sandra Dewi di Red Carpet photo Anggunnya Sandra Dewi di Red Carpet photo Anggunnya Sandra Dewi di Red Carpet 11 celeb Sandra Dewi Berseri - seri Sambut Natal Tahun Ini celeb Sandra Dewi Berseri - seri Sambut Natal Tahun Ini celeb Sandra Dewi Berseri - seri Sambut Natal Tahun Ini celeb Sandra Dewi Berseri - seri Sambut Natal Tahun Ini celeb Sandra Dewi Berseri - seri Sambut Natal Tahun Ini 1-1 celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul 13 celeb November In Love !
+Relasi: Berkumpul(Indonesia# 13 celeb November In Love)
+Class: false
+
+Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749478-masih-di-kandungan-anak-sandra-dewi-sudah-punya-barang-barang-mahal.txt
+Kalimat ke-34: 8 celeb Awas Terpikat Bibir Merah Sandra Dewi celeb Awas Terpikat Bibir Merah Sandra Dewi celeb Awas Terpikat Bibir Merah Sandra Dewi celeb Awas Terpikat Bibir Merah Sandra Dewi celeb Awas Terpikat Bibir Merah Sandra Dewi celeb Awas Terpikat Bibir Merah Sandra Dewi 9 celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans 10 photo Anggunnya Sandra Dewi di Red Carpet photo Anggunnya Sandra Dewi di Red Carpet photo Anggunnya Sandra Dewi di Red Carpet photo Anggunnya Sandra Dewi di Red Carpet photo Anggunnya Sandra Dewi di Red Carpet photo Anggunnya Sandra Dewi di Red Carpet 11 celeb Sandra Dewi Berseri - seri Sambut Natal Tahun Ini celeb Sandra Dewi Berseri - seri Sambut Natal Tahun Ini celeb Sandra Dewi Berseri - seri Sambut Natal Tahun Ini celeb Sandra Dewi Berseri - seri Sambut Natal Tahun Ini celeb Sandra Dewi Berseri - seri Sambut Natal Tahun Ini 1-1 celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul 13 celeb November In Love !
+Relasi: Berkumpul(Indonesia# 13 celeb November In Love)
+Class: true
+
+Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749478-masih-di-kandungan-anak-sandra-dewi-sudah-punya-barang-barang-mahal.txt
+Kalimat ke-34: 8 celeb Awas Terpikat Bibir Merah Sandra Dewi celeb Awas Terpikat Bibir Merah Sandra Dewi celeb Awas Terpikat Bibir Merah Sandra Dewi celeb Awas Terpikat Bibir Merah Sandra Dewi celeb Awas Terpikat Bibir Merah Sandra Dewi celeb Awas Terpikat Bibir Merah Sandra Dewi 9 celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans celeb Foto Candid Para Selebriti di Acara Sinetrans 10 photo Anggunnya Sandra Dewi di Red Carpet photo Anggunnya Sandra Dewi di Red Carpet photo Anggunnya Sandra Dewi di Red Carpet photo Anggunnya Sandra Dewi di Red Carpet photo Anggunnya Sandra Dewi di Red Carpet photo Anggunnya Sandra Dewi di Red Carpet 11 celeb Sandra Dewi Berseri - seri Sambut Natal Tahun Ini celeb Sandra Dewi Berseri - seri Sambut Natal Tahun Ini celeb Sandra Dewi Berseri - seri Sambut Natal Tahun Ini celeb Sandra Dewi Berseri - seri Sambut Natal Tahun Ini celeb Sandra Dewi Berseri - seri Sambut Natal Tahun Ini 1-1 celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul celeb Ini Jadinya Jika Para Wanita Cantik di Indonesia Berkumpul 13 celeb November In Love !
+Relasi: Berkumpul(Indonesia# 13 celeb November In Love)
 Class: true
 
 

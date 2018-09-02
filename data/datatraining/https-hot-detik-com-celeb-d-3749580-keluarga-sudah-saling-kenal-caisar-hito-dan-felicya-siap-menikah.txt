@@ -1,86 +1,86 @@
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749580-keluarga-sudah-saling-kenal-caisar-hito-dan-felicya-siap-menikah.txt
 Kalimat ke-1: Percintaan Caisar Hito dengan Felicya Angelista tak banyak diperlihatkan di depan layar  .
-Relasi: diperlihatkan di(Felicya Angelista, depan layar)
-Class: false
+Relasi: diperlihatkan di(Felicya Angelista# depan layar)
+Class: true
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749580-keluarga-sudah-saling-kenal-caisar-hito-dan-felicya-siap-menikah.txt
 Kalimat ke-2: Tapi pasangan muda itu ternyata sudah sering melakukan pertemuan keluarga  .
-Relasi: melakukan(pasangan, pertemuan keluarga)
+Relasi: melakukan(pasangan# pertemuan keluarga)
 Class: false
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749580-keluarga-sudah-saling-kenal-caisar-hito-dan-felicya-siap-menikah.txt
 Kalimat ke-3: Sudah sering melakukan acara keluarga bersama - sama , Caisar Hito pun ditanya soal keseriusannya dengan Felicya  .
-Relasi: ditanya soal keseriusannya dengan(Caisar Hito, Felicya)
+Relasi: ditanya soal keseriusannya dengan(Caisar Hito# Felicya)
 Class: false
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749580-keluarga-sudah-saling-kenal-caisar-hito-dan-felicya-siap-menikah.txt
 Kalimat ke-4: Benarkan Natal tahun ini , Caisar akan melamar Felicya ?
-Relasi: akan melamar(Caisar, Felicya)
+Relasi: akan melamar(Caisar# Felicya)
 Class: false
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749580-keluarga-sudah-saling-kenal-caisar-hito-dan-felicya-siap-menikah.txt
 Kalimat ke-6: Nantilah ada waktunya, " jawab Caisar ditemui di kawasan Daan Mogot , Jakarta Barat , Kamis ( 29/11/2017 ) malam  .
-Relasi: ada(Nantilah, Caisar)
-Class: false
-
-Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749580-keluarga-sudah-saling-kenal-caisar-hito-dan-felicya-siap-menikah.txt
-Kalimat ke-6: Nantilah ada waktunya, " jawab Caisar ditemui di kawasan Daan Mogot , Jakarta Barat , Kamis ( 29/11/2017 ) malam  .
-Relasi: jawab(Nantilah, Caisar)
-Class: false
-
-Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749580-keluarga-sudah-saling-kenal-caisar-hito-dan-felicya-siap-menikah.txt
-Kalimat ke-6: Nantilah ada waktunya, " jawab Caisar ditemui di kawasan Daan Mogot , Jakarta Barat , Kamis ( 29/11/2017 ) malam  .
-Relasi: ditemui di(Caisar, kawasan Daan Mogot)
-Class: false
-
-Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749580-keluarga-sudah-saling-kenal-caisar-hito-dan-felicya-siap-menikah.txt
-Kalimat ke-7: Baca juga : Felicya Angelista Mau Dinikahi Caisar Hito 1 atau 2 Tahun Lagi Tapi Caisar tak menampik dirinya sering berlibur bersama dengan keluarga sang kekasih  .
-Relasi: menampik(2 Tahun, dirinya)
-Class: false
-
-Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749580-keluarga-sudah-saling-kenal-caisar-hito-dan-felicya-siap-menikah.txt
-Kalimat ke-7: Baca juga : Felicya Angelista Mau Dinikahi Caisar Hito 1 atau 2 Tahun Lagi Tapi Caisar tak menampik dirinya sering berlibur bersama dengan keluarga sang kekasih  .
-Relasi: berlibur bersama dengan(dirinya, keluarga)
+Relasi: ada(Nantilah# Caisar)
 Class: true
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749580-keluarga-sudah-saling-kenal-caisar-hito-dan-felicya-siap-menikah.txt
-Kalimat ke-8: Begitu juga sebaliknya , Felicya sudah sering bergabung dan ikut liburan bareng keluarga Caisar  .
-Relasi: bergabung(Felicya, liburan bareng keluarga Caisar)
+Kalimat ke-6: Nantilah ada waktunya, " jawab Caisar ditemui di kawasan Daan Mogot , Jakarta Barat , Kamis ( 29/11/2017 ) malam  .
+Relasi: jawab(Nantilah# Caisar)
+Class: false
+
+Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749580-keluarga-sudah-saling-kenal-caisar-hito-dan-felicya-siap-menikah.txt
+Kalimat ke-6: Nantilah ada waktunya, " jawab Caisar ditemui di kawasan Daan Mogot , Jakarta Barat , Kamis ( 29/11/2017 ) malam  .
+Relasi: ditemui di(Caisar# kawasan Daan Mogot)
+Class: true
+
+Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749580-keluarga-sudah-saling-kenal-caisar-hito-dan-felicya-siap-menikah.txt
+Kalimat ke-7: Baca juga : Felicya Angelista Mau Dinikahi Caisar Hito 1 atau 2 Tahun Lagi Tapi Caisar tak menampik dirinya sering berlibur bersama dengan keluarga sang kekasih  .
+Relasi: menampik(2 Tahun# dirinya)
+Class: true
+
+Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749580-keluarga-sudah-saling-kenal-caisar-hito-dan-felicya-siap-menikah.txt
+Kalimat ke-7: Baca juga : Felicya Angelista Mau Dinikahi Caisar Hito 1 atau 2 Tahun Lagi Tapi Caisar tak menampik dirinya sering berlibur bersama dengan keluarga sang kekasih  .
+Relasi: berlibur bersama dengan(dirinya# keluarga)
 Class: false
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749580-keluarga-sudah-saling-kenal-caisar-hito-dan-felicya-siap-menikah.txt
 Kalimat ke-8: Begitu juga sebaliknya , Felicya sudah sering bergabung dan ikut liburan bareng keluarga Caisar  .
-Relasi: ikut(Felicya, liburan bareng keluarga Caisar)
-Class: true
-
-Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749580-keluarga-sudah-saling-kenal-caisar-hito-dan-felicya-siap-menikah.txt
-Kalimat ke-9: Akan tetapi , Caisar membantah liburan natalnya kali ini bersama Feli sengaja dilakukan untuk pertemuan keluaga formal  .
-Relasi: membantah liburan natalnya kali ini bersama(Caisar, Feli)
-Class: true
-
-Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749580-keluarga-sudah-saling-kenal-caisar-hito-dan-felicya-siap-menikah.txt
-Kalimat ke-9: Akan tetapi , Caisar membantah liburan natalnya kali ini bersama Feli sengaja dilakukan untuk pertemuan keluaga formal  .
-Relasi: sengaja dilakukan untuk(Feli, pertemuan keluaga formal)
+Relasi: bergabung(Felicya# liburan bareng keluarga Caisar)
 Class: false
+
+Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749580-keluarga-sudah-saling-kenal-caisar-hito-dan-felicya-siap-menikah.txt
+Kalimat ke-8: Begitu juga sebaliknya , Felicya sudah sering bergabung dan ikut liburan bareng keluarga Caisar  .
+Relasi: ikut(Felicya# liburan bareng keluarga Caisar)
+Class: true
+
+Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749580-keluarga-sudah-saling-kenal-caisar-hito-dan-felicya-siap-menikah.txt
+Kalimat ke-9: Akan tetapi , Caisar membantah liburan natalnya kali ini bersama Feli sengaja dilakukan untuk pertemuan keluaga formal  .
+Relasi: membantah liburan natalnya kali ini bersama(Caisar# Feli)
+Class: false
+
+Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749580-keluarga-sudah-saling-kenal-caisar-hito-dan-felicya-siap-menikah.txt
+Kalimat ke-9: Akan tetapi , Caisar membantah liburan natalnya kali ini bersama Feli sengaja dilakukan untuk pertemuan keluaga formal  .
+Relasi: sengaja dilakukan untuk(Feli# pertemuan keluaga formal)
+Class: true
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749580-keluarga-sudah-saling-kenal-caisar-hito-dan-felicya-siap-menikah.txt
 Kalimat ke-10: Sudah pacaran selama lima tahun , menurut Caisar wajar bila kedua keluarga sudah saling kenal  .
-Relasi: menurut(lima tahun, Caisar wajar)
-Class: false
+Relasi: menurut(lima tahun# Caisar wajar)
+Class: true
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749580-keluarga-sudah-saling-kenal-caisar-hito-dan-felicya-siap-menikah.txt
 Kalimat ke-14: Pokoknya ada acara apa pasti dirayain bareng  .
-Relasi: ada(Pokoknya, acara)
-Class: false
+Relasi: ada(Pokoknya# acara)
+Class: true
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749580-keluarga-sudah-saling-kenal-caisar-hito-dan-felicya-siap-menikah.txt
 Kalimat ke-14: Pokoknya ada acara apa pasti dirayain bareng  .
-Relasi: dirayain(acara, bareng)
+Relasi: dirayain(acara# bareng)
 Class: true
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749580-keluarga-sudah-saling-kenal-caisar-hito-dan-felicya-siap-menikah.txt
 Kalimat ke-17: Ya pokoknya lihat saja nanti, " pungkas bintang sinema elektronik ' Anak Jalanan ' itu  .
-Relasi: lihat(pokoknya, bintang sinema elektronik)
+Relasi: lihat(pokoknya# bintang sinema elektronik)
 Class: false
 
 

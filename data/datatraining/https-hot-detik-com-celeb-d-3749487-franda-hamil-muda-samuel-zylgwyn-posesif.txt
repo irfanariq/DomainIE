@@ -1,121 +1,121 @@
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749487-franda-hamil-muda-samuel-zylgwyn-posesif.txt
 Kalimat ke-1: Franda dan Samuel Zylgwyn tak menyangka mendapat karunia kehamilan  .
-Relasi: menyangka mendapat(Samuel Zylgwyn, karunia kehamilan)
+Relasi: menyangka mendapat(Samuel Zylgwyn# karunia kehamilan)
 Class: false
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749487-franda-hamil-muda-samuel-zylgwyn-posesif.txt
 Kalimat ke-2: Padahal keduanya tak pernah merencanakan program kehamilan  .
-Relasi: merencanakan(Padahal, program kehamilan)
-Class: true
-
-Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749487-franda-hamil-muda-samuel-zylgwyn-posesif.txt
-Kalimat ke-6: Selama ini juga aku terbang ke mana - mana , terus pas awal hamil aku bahkan ke Singapura karena tidak tahu kalau aku hamil  .
-Relasi: terbang ke(aku, mana)
+Relasi: merencanakan(Padahal# program kehamilan)
 Class: false
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749487-franda-hamil-muda-samuel-zylgwyn-posesif.txt
 Kalimat ke-6: Selama ini juga aku terbang ke mana - mana , terus pas awal hamil aku bahkan ke Singapura karena tidak tahu kalau aku hamil  .
-Relasi: hamil aku bahkan ke(mana, Singapura)
-Class: true
+Relasi: terbang ke(aku# mana)
+Class: false
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749487-franda-hamil-muda-samuel-zylgwyn-posesif.txt
 Kalimat ke-6: Selama ini juga aku terbang ke mana - mana , terus pas awal hamil aku bahkan ke Singapura karena tidak tahu kalau aku hamil  .
-Relasi: hamil(mana, Singapura)
+Relasi: hamil aku bahkan ke(mana# Singapura)
+Class: false
+
+Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749487-franda-hamil-muda-samuel-zylgwyn-posesif.txt
+Kalimat ke-6: Selama ini juga aku terbang ke mana - mana , terus pas awal hamil aku bahkan ke Singapura karena tidak tahu kalau aku hamil  .
+Relasi: hamil(mana# Singapura)
+Class: false
+
+Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749487-franda-hamil-muda-samuel-zylgwyn-posesif.txt
+Kalimat ke-7: Malah sudah disuruh olahraga sama dokter di minggu - minggu awal, " kata Franda ditemui di Hotel Grand Haytt , M.H Thamrin , Jakarta Pusat , Rabu ( 29/11/2017 ) malam  .
+Relasi: sudah disuruh olahraga sama dokter di(Malah# minggu)
 Class: true
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749487-franda-hamil-muda-samuel-zylgwyn-posesif.txt
 Kalimat ke-7: Malah sudah disuruh olahraga sama dokter di minggu - minggu awal, " kata Franda ditemui di Hotel Grand Haytt , M.H Thamrin , Jakarta Pusat , Rabu ( 29/11/2017 ) malam  .
-Relasi: sudah disuruh olahraga sama dokter di(Malah, minggu)
+Relasi: kata(minggu# Franda)
 Class: true
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749487-franda-hamil-muda-samuel-zylgwyn-posesif.txt
 Kalimat ke-7: Malah sudah disuruh olahraga sama dokter di minggu - minggu awal, " kata Franda ditemui di Hotel Grand Haytt , M.H Thamrin , Jakarta Pusat , Rabu ( 29/11/2017 ) malam  .
-Relasi: kata(minggu, Franda)
-Class: true
-
-Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749487-franda-hamil-muda-samuel-zylgwyn-posesif.txt
-Kalimat ke-7: Malah sudah disuruh olahraga sama dokter di minggu - minggu awal, " kata Franda ditemui di Hotel Grand Haytt , M.H Thamrin , Jakarta Pusat , Rabu ( 29/11/2017 ) malam  .
-Relasi: ditemui di(Franda, Hotel Grand Haytt)
-Class: true
+Relasi: ditemui di(Franda# Hotel Grand Haytt)
+Class: false
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749487-franda-hamil-muda-samuel-zylgwyn-posesif.txt
 Kalimat ke-8: Baca juga : Hamil Muda , Franda Kurang Nafsu Makan dan Cengeng Melihat sang istri yang sangat aktif , Samuel pun cukup posesif  .
-Relasi: Makan(Nafsu, Cengeng)
-Class: true
+Relasi: Makan(Nafsu# Cengeng)
+Class: false
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749487-franda-hamil-muda-samuel-zylgwyn-posesif.txt
 Kalimat ke-8: Baca juga : Hamil Muda , Franda Kurang Nafsu Makan dan Cengeng Melihat sang istri yang sangat aktif , Samuel pun cukup posesif  .
-Relasi: Melihat(Cengeng, istri)
-Class: true
+Relasi: Melihat(Cengeng# istri)
+Class: false
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749487-franda-hamil-muda-samuel-zylgwyn-posesif.txt
 Kalimat ke-9: Terlebih dengan pola makan Franda yang menurun selama hamil  .
-Relasi: makan(pola, Franda)
-Class: true
+Relasi: makan(pola# Franda)
+Class: false
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749487-franda-hamil-muda-samuel-zylgwyn-posesif.txt
 Kalimat ke-11: Ada saja lah , mau cemilan yang tidak sehat dikit , dia yang kaya ini bukan makanan kamu nih, " celetuknya  .
-Relasi: dikit(cemilan, makanan)
-Class: true
+Relasi: dikit(cemilan# makanan)
+Class: false
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749487-franda-hamil-muda-samuel-zylgwyn-posesif.txt
 Kalimat ke-12: " Untungnya aku tidak ada ngidam  .
-Relasi: ada(Untungnya aku, ngidam)
-Class: true
-
-Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749487-franda-hamil-muda-samuel-zylgwyn-posesif.txt
-Kalimat ke-13: Waktu itu saja ngidam ingin ke Malang , terus berasa manja ingin ketemu keluarga , ingin diurusin mama  .
-Relasi: ingin ke(ngidam, Malang)
-Class: true
-
-Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749487-franda-hamil-muda-samuel-zylgwyn-posesif.txt
-Kalimat ke-13: Waktu itu saja ngidam ingin ke Malang , terus berasa manja ingin ketemu keluarga , ingin diurusin mama  .
-Relasi: berasa(Malang, ketemu keluarga)
-Class: true
-
-Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749487-franda-hamil-muda-samuel-zylgwyn-posesif.txt
-Kalimat ke-13: Waktu itu saja ngidam ingin ke Malang , terus berasa manja ingin ketemu keluarga , ingin diurusin mama  .
-Relasi: ingin(ngidam, Malang)
+Relasi: ada(Untungnya aku# ngidam)
 Class: false
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749487-franda-hamil-muda-samuel-zylgwyn-posesif.txt
 Kalimat ke-13: Waktu itu saja ngidam ingin ke Malang , terus berasa manja ingin ketemu keluarga , ingin diurusin mama  .
-Relasi: ingin diurusin(ketemu keluarga, mama)
+Relasi: ingin ke(ngidam# Malang)
+Class: true
+
+Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749487-franda-hamil-muda-samuel-zylgwyn-posesif.txt
+Kalimat ke-13: Waktu itu saja ngidam ingin ke Malang , terus berasa manja ingin ketemu keluarga , ingin diurusin mama  .
+Relasi: berasa(Malang# ketemu keluarga)
+Class: false
+
+Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749487-franda-hamil-muda-samuel-zylgwyn-posesif.txt
+Kalimat ke-13: Waktu itu saja ngidam ingin ke Malang , terus berasa manja ingin ketemu keluarga , ingin diurusin mama  .
+Relasi: ingin(ngidam# Malang)
+Class: false
+
+Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749487-franda-hamil-muda-samuel-zylgwyn-posesif.txt
+Kalimat ke-13: Waktu itu saja ngidam ingin ke Malang , terus berasa manja ingin ketemu keluarga , ingin diurusin mama  .
+Relasi: ingin diurusin(ketemu keluarga# mama)
 Class: false
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749487-franda-hamil-muda-samuel-zylgwyn-posesif.txt
 Kalimat ke-15: Baca juga : Hamil Anak Pertama , Nafsu Makan Franda Berkurang Hamil pertama kali nyatanya cukup membuat Franda cemas  .
-Relasi: Makan(Nafsu, Franda Berkurang Hamil pertama kali nyatanya)
+Relasi: Makan(Nafsu# Franda Berkurang Hamil pertama kali nyatanya)
+Class: false
+
+Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749487-franda-hamil-muda-samuel-zylgwyn-posesif.txt
+Kalimat ke-16: Meski tidak merencanakan hamil Franda dan Samuel menganggap ini adalah sebuah karunia  .
+Relasi: menganggap(Samuel# sebuah karunia)
 Class: true
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749487-franda-hamil-muda-samuel-zylgwyn-posesif.txt
 Kalimat ke-16: Meski tidak merencanakan hamil Franda dan Samuel menganggap ini adalah sebuah karunia  .
-Relasi: menganggap(Samuel, sebuah karunia)
-Class: true
-
-Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749487-franda-hamil-muda-samuel-zylgwyn-posesif.txt
-Kalimat ke-16: Meski tidak merencanakan hamil Franda dan Samuel menganggap ini adalah sebuah karunia  .
-Relasi: adalah(Samuel, sebuah karunia)
-Class: false
-
-Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749487-franda-hamil-muda-samuel-zylgwyn-posesif.txt
-Kalimat ke-18: Ya namanya juga pertama , aku sama Samuel juga tidak planning , tiba - tiba dikasih berkat , jadi agak takut karena belum planning  .
-Relasi: tiba(planning, berkat)
+Relasi: adalah(Samuel# sebuah karunia)
 Class: true
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749487-franda-hamil-muda-samuel-zylgwyn-posesif.txt
 Kalimat ke-18: Ya namanya juga pertama , aku sama Samuel juga tidak planning , tiba - tiba dikasih berkat , jadi agak takut karena belum planning  .
-Relasi: tiba dikasih(planning, berkat)
+Relasi: tiba(planning# berkat)
+Class: false
+
+Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749487-franda-hamil-muda-samuel-zylgwyn-posesif.txt
+Kalimat ke-18: Ya namanya juga pertama , aku sama Samuel juga tidak planning , tiba - tiba dikasih berkat , jadi agak takut karena belum planning  .
+Relasi: tiba dikasih(planning# berkat)
 Class: false
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749487-franda-hamil-muda-samuel-zylgwyn-posesif.txt
 Kalimat ke-19: Kerjaan masih ada , kaya begitu - begitu , bisa tidak iya saya jadi ibu, " ungkap Franda  .
-Relasi: ada(Kerjaan, iya)
-Class: false
+Relasi: ada(Kerjaan# iya)
+Class: true
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749487-franda-hamil-muda-samuel-zylgwyn-posesif.txt
 Kalimat ke-19: Kerjaan masih ada , kaya begitu - begitu , bisa tidak iya saya jadi ibu, " ungkap Franda  .
-Relasi: ungkap(iya, Franda)
+Relasi: ungkap(iya# Franda)
 Class: true
 
 

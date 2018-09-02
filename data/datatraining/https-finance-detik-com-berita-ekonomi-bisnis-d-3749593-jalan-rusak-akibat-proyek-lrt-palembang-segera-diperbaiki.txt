@@ -1,151 +1,151 @@
 Source: D:\openIE\data\preprocess\https-finance-detik-com-berita-ekonomi-bisnis-d-3749593-jalan-rusak-akibat-proyek-lrt-palembang-segera-diperbaiki.txt
 Kalimat ke-1: Banyak jalan berlubang dan rusak akibat pembangunan Light Rail Transit ( LRT) , ternyata menjadi perhatian Waskita Karya selaku pemegang proyek  .
-Relasi: berlubang(Banyak jalan, rusak akibat pembangunan Light Rail Transit)
+Relasi: berlubang(Banyak jalan# rusak akibat pembangunan Light Rail Transit)
 Class: true
 
 Source: D:\openIE\data\preprocess\https-finance-detik-com-berita-ekonomi-bisnis-d-3749593-jalan-rusak-akibat-proyek-lrt-palembang-segera-diperbaiki.txt
 Kalimat ke-1: Banyak jalan berlubang dan rusak akibat pembangunan Light Rail Transit ( LRT) , ternyata menjadi perhatian Waskita Karya selaku pemegang proyek  .
-Relasi: menjadi perhatian Waskita Karya selaku(LRT), pemegang proyek)
+Relasi: menjadi perhatian Waskita Karya selaku(LRT)# pemegang proyek)
 Class: true
 
 Source: D:\openIE\data\preprocess\https-finance-detik-com-berita-ekonomi-bisnis-d-3749593-jalan-rusak-akibat-proyek-lrt-palembang-segera-diperbaiki.txt
 Kalimat ke-2: Akhir tahun ini , 11 ruas jalan yang terkena dampak pembangunan akan diperbaiki  .
-Relasi: terkena(11 ruas jalan, dampak pembangunan)
+Relasi: terkena(11 ruas jalan# dampak pembangunan)
 Class: false
 
 Source: D:\openIE\data\preprocess\https-finance-detik-com-berita-ekonomi-bisnis-d-3749593-jalan-rusak-akibat-proyek-lrt-palembang-segera-diperbaiki.txt
 Kalimat ke-3: " Total ada 11 ruas jalan dengan panjang 23 kilometer lebih yang akan diperbaiki , mudah - mudahan pada pertengahan Desember nanti sudah mulai  .
-Relasi: ada 11 ruas jalan dengan(Total, 23 kilometer)
-Class: false
+Relasi: ada 11 ruas jalan dengan(Total# 23 kilometer)
+Class: true
 
 Source: D:\openIE\data\preprocess\https-finance-detik-com-berita-ekonomi-bisnis-d-3749593-jalan-rusak-akibat-proyek-lrt-palembang-segera-diperbaiki.txt
 Kalimat ke-3: " Total ada 11 ruas jalan dengan panjang 23 kilometer lebih yang akan diperbaiki , mudah - mudahan pada pertengahan Desember nanti sudah mulai  .
-Relasi: akan diperbaiki(23 kilometer, pertengahan Desember nanti)
+Relasi: akan diperbaiki(23 kilometer# pertengahan Desember nanti)
 Class: false
 
 Source: D:\openIE\data\preprocess\https-finance-detik-com-berita-ekonomi-bisnis-d-3749593-jalan-rusak-akibat-proyek-lrt-palembang-segera-diperbaiki.txt
 Kalimat ke-4: Bahkan , semua yang terkena dampak pembangunan kita akan tanggung jawab dan perbaiki ( termasuk trotoar dan taman), " terang Masudi Jauhari selaku Kepala Proyek LRT Palembang , Kamis ( 30/11/2017 )  .
-Relasi: terkena(semua, dampak pembangunan)
+Relasi: terkena(semua# dampak pembangunan)
 Class: false
 
 Source: D:\openIE\data\preprocess\https-finance-detik-com-berita-ekonomi-bisnis-d-3749593-jalan-rusak-akibat-proyek-lrt-palembang-segera-diperbaiki.txt
 Kalimat ke-4: Bahkan , semua yang terkena dampak pembangunan kita akan tanggung jawab dan perbaiki ( termasuk trotoar dan taman), " terang Masudi Jauhari selaku Kepala Proyek LRT Palembang , Kamis ( 30/11/2017 )  .
-Relasi: akan tanggung jawab(dampak pembangunan, perbaiki)
-Class: true
+Relasi: akan tanggung jawab(dampak pembangunan# perbaiki)
+Class: false
 
 Source: D:\openIE\data\preprocess\https-finance-detik-com-berita-ekonomi-bisnis-d-3749593-jalan-rusak-akibat-proyek-lrt-palembang-segera-diperbaiki.txt
 Kalimat ke-4: Bahkan , semua yang terkena dampak pembangunan kita akan tanggung jawab dan perbaiki ( termasuk trotoar dan taman), " terang Masudi Jauhari selaku Kepala Proyek LRT Palembang , Kamis ( 30/11/2017 )  .
-Relasi: termasuk(perbaiki, trotoar)
+Relasi: termasuk(perbaiki# trotoar)
 Class: true
 
 Source: D:\openIE\data\preprocess\https-finance-detik-com-berita-ekonomi-bisnis-d-3749593-jalan-rusak-akibat-proyek-lrt-palembang-segera-diperbaiki.txt
 Kalimat ke-5: Menurut Masudi , pengerjaan mulai dilakukan setelah pihaknya menyelesaikan desain jalan dengan melibatkan konsultan sejak April lalu  .
-Relasi: mulai dilakukan(pengerjaan, pihaknya)
+Relasi: mulai dilakukan(pengerjaan# pihaknya)
 Class: false
 
 Source: D:\openIE\data\preprocess\https-finance-detik-com-berita-ekonomi-bisnis-d-3749593-jalan-rusak-akibat-proyek-lrt-palembang-segera-diperbaiki.txt
 Kalimat ke-5: Menurut Masudi , pengerjaan mulai dilakukan setelah pihaknya menyelesaikan desain jalan dengan melibatkan konsultan sejak April lalu  .
-Relasi: menyelesaikan desain jalan dengan melibatkan konsultan sejak(pihaknya, April)
+Relasi: menyelesaikan desain jalan dengan melibatkan konsultan sejak(pihaknya# April)
 Class: false
 
 Source: D:\openIE\data\preprocess\https-finance-detik-com-berita-ekonomi-bisnis-d-3749593-jalan-rusak-akibat-proyek-lrt-palembang-segera-diperbaiki.txt
 Kalimat ke-6: Saat ini Waskita Karya hanya tinggal menunggu persetujuan oleh Balai Besar Pelaksana Jalan Nasional ( BBPJN ) V Palembang , mengenai dua ruas jalan yang masih dalam evaluasi  .
-Relasi: tinggal menunggu persetujuan oleh(Waskita Karya, Balai Besar Pelaksana Jalan)
-Class: false
-
-Source: D:\openIE\data\preprocess\https-finance-detik-com-berita-ekonomi-bisnis-d-3749593-jalan-rusak-akibat-proyek-lrt-palembang-segera-diperbaiki.txt
-Kalimat ke-6: Saat ini Waskita Karya hanya tinggal menunggu persetujuan oleh Balai Besar Pelaksana Jalan Nasional ( BBPJN ) V Palembang , mengenai dua ruas jalan yang masih dalam evaluasi  .
-Relasi: mengenai(V Palembang, dua ruas jalan)
+Relasi: tinggal menunggu persetujuan oleh(Waskita Karya# Balai Besar Pelaksana Jalan)
 Class: true
+
+Source: D:\openIE\data\preprocess\https-finance-detik-com-berita-ekonomi-bisnis-d-3749593-jalan-rusak-akibat-proyek-lrt-palembang-segera-diperbaiki.txt
+Kalimat ke-6: Saat ini Waskita Karya hanya tinggal menunggu persetujuan oleh Balai Besar Pelaksana Jalan Nasional ( BBPJN ) V Palembang , mengenai dua ruas jalan yang masih dalam evaluasi  .
+Relasi: mengenai(V Palembang# dua ruas jalan)
+Class: false
 
 Source: D:\openIE\data\preprocess\https-finance-detik-com-berita-ekonomi-bisnis-d-3749593-jalan-rusak-akibat-proyek-lrt-palembang-segera-diperbaiki.txt
 Kalimat ke-7: Baca juga : Foto : Mantap , Pembangunan LRT Palembang Lebih Cepat dari Target Sedangkan untuk ruas jalan yang mengalami kerusakan tidak terlalu berat , pihaknya mengaku sudah mulai melakukan perbaikan secara bertahap  .
-Relasi: mengalami(ruas jalan, kerusakan)
+Relasi: mengalami(ruas jalan# kerusakan)
 Class: false
 
 Source: D:\openIE\data\preprocess\https-finance-detik-com-berita-ekonomi-bisnis-d-3749593-jalan-rusak-akibat-proyek-lrt-palembang-segera-diperbaiki.txt
 Kalimat ke-9: " Sebenarnya kami juga sudah mulai , setiap kerusakan yang kecil - kecil sudah kita perbaiki , hanya saja untuk yang besar atau keseluruhan harus ada persetujuan BBPJN  .
-Relasi: harus ada(keseluruhan, persetujuan BBPJN)
+Relasi: harus ada(keseluruhan# persetujuan BBPJN)
 Class: true
 
 Source: D:\openIE\data\preprocess\https-finance-detik-com-berita-ekonomi-bisnis-d-3749593-jalan-rusak-akibat-proyek-lrt-palembang-segera-diperbaiki.txt
 Kalimat ke-10: Sebelum Asian Games perbaikan ruas jalan sudah selesai , termasuk pengerjaan LRT juga sudah selesai semua pada Februari atau Maret, " sambungnya  .
-Relasi: termasuk(selesai, pengerjaan LRT)
+Relasi: termasuk(selesai# pengerjaan LRT)
 Class: false
 
 Source: D:\openIE\data\preprocess\https-finance-detik-com-berita-ekonomi-bisnis-d-3749593-jalan-rusak-akibat-proyek-lrt-palembang-segera-diperbaiki.txt
 Kalimat ke-11: Dilanjutkan Masudi , perbaikan 11 ruas jalan di Palembang sudah termasuk kontrak yang diatur dalam Peraturan Presiden Nomor 116 tahun 2015 tentang Percepatan Penyelenggaraan Kereta Ringan di Sumatera Selatan  .
-Relasi: sudah termasuk(Palembang, kontrak)
+Relasi: sudah termasuk(Palembang# kontrak)
+Class: false
+
+Source: D:\openIE\data\preprocess\https-finance-detik-com-berita-ekonomi-bisnis-d-3749593-jalan-rusak-akibat-proyek-lrt-palembang-segera-diperbaiki.txt
+Kalimat ke-11: Dilanjutkan Masudi , perbaikan 11 ruas jalan di Palembang sudah termasuk kontrak yang diatur dalam Peraturan Presiden Nomor 116 tahun 2015 tentang Percepatan Penyelenggaraan Kereta Ringan di Sumatera Selatan  .
+Relasi: diatur dalam(kontrak# Peraturan Presiden Nomor 116 tahun)
 Class: true
 
 Source: D:\openIE\data\preprocess\https-finance-detik-com-berita-ekonomi-bisnis-d-3749593-jalan-rusak-akibat-proyek-lrt-palembang-segera-diperbaiki.txt
-Kalimat ke-11: Dilanjutkan Masudi , perbaikan 11 ruas jalan di Palembang sudah termasuk kontrak yang diatur dalam Peraturan Presiden Nomor 116 tahun 2015 tentang Percepatan Penyelenggaraan Kereta Ringan di Sumatera Selatan  .
-Relasi: diatur dalam(kontrak, Peraturan Presiden Nomor 116 tahun)
-Class: false
+Kalimat ke-13: Sementara itu , Kepala BBPJN V Palembang Zamharir Basuni menjelaskan , dalam proses perbaikan jalan pihaknya akan melakukan koordinasi dan pengawasan  .
+Relasi: menjelaskan(Kepala BBPJN V Palembang Zamharir Basuni# proses perbaikan jalan pihaknya)
+Class: true
 
 Source: D:\openIE\data\preprocess\https-finance-detik-com-berita-ekonomi-bisnis-d-3749593-jalan-rusak-akibat-proyek-lrt-palembang-segera-diperbaiki.txt
 Kalimat ke-13: Sementara itu , Kepala BBPJN V Palembang Zamharir Basuni menjelaskan , dalam proses perbaikan jalan pihaknya akan melakukan koordinasi dan pengawasan  .
-Relasi: menjelaskan(Kepala BBPJN V Palembang Zamharir Basuni, proses perbaikan jalan pihaknya)
-Class: false
-
-Source: D:\openIE\data\preprocess\https-finance-detik-com-berita-ekonomi-bisnis-d-3749593-jalan-rusak-akibat-proyek-lrt-palembang-segera-diperbaiki.txt
-Kalimat ke-13: Sementara itu , Kepala BBPJN V Palembang Zamharir Basuni menjelaskan , dalam proses perbaikan jalan pihaknya akan melakukan koordinasi dan pengawasan  .
-Relasi: akan melakukan(proses perbaikan jalan pihaknya, koordinasi)
+Relasi: akan melakukan(proses perbaikan jalan pihaknya# koordinasi)
 Class: true
 
 Source: D:\openIE\data\preprocess\https-finance-detik-com-berita-ekonomi-bisnis-d-3749593-jalan-rusak-akibat-proyek-lrt-palembang-segera-diperbaiki.txt
 Kalimat ke-15: " Kita selalu koordinasi agar biaya perbaikan itu tidak timpang tindih atau ganda dan sesuai dengan standar  .
-Relasi: tindih(timpang, standar)
-Class: false
+Relasi: tindih(timpang# standar)
+Class: true
 
 Source: D:\openIE\data\preprocess\https-finance-detik-com-berita-ekonomi-bisnis-d-3749593-jalan-rusak-akibat-proyek-lrt-palembang-segera-diperbaiki.txt
 Kalimat ke-16: Alasan itulah mengapa kita ikut terlibat langsung baik proses awal sampai selesai proyek dikerjakan, " ujarnya singkat  .
-Relasi: ikut terlibat(Alasan, langsung baik proses)
-Class: false
+Relasi: ikut terlibat(Alasan# langsung baik proses)
+Class: true
 
 Source: D:\openIE\data\preprocess\https-finance-detik-com-berita-ekonomi-bisnis-d-3749593-jalan-rusak-akibat-proyek-lrt-palembang-segera-diperbaiki.txt
 Kalimat ke-16: Alasan itulah mengapa kita ikut terlibat langsung baik proses awal sampai selesai proyek dikerjakan, " ujarnya singkat  .
-Relasi: sampai(langsung baik proses, selesai proyek)
+Relasi: sampai(langsung baik proses# selesai proyek)
 Class: false
 
 Source: D:\openIE\data\preprocess\https-finance-detik-com-berita-ekonomi-bisnis-d-3749593-jalan-rusak-akibat-proyek-lrt-palembang-segera-diperbaiki.txt
 Kalimat ke-17: Diberitakan sebelumnya , banyak jalanan rusak akibat pembangunan proyek LRT sepanjang 23,4 KM , yang membentang dari Bandara Sultan Mahmud Badaruddin sampai ke Ogan Permata Indah Mal  .
-Relasi: membentang dari(23,4 KM, Bandara Sultan Mahmud Badaruddin)
+Relasi: membentang dari(23,4 KM# Bandara Sultan Mahmud Badaruddin)
 Class: true
 
 Source: D:\openIE\data\preprocess\https-finance-detik-com-berita-ekonomi-bisnis-d-3749593-jalan-rusak-akibat-proyek-lrt-palembang-segera-diperbaiki.txt
 Kalimat ke-17: Diberitakan sebelumnya , banyak jalanan rusak akibat pembangunan proyek LRT sepanjang 23,4 KM , yang membentang dari Bandara Sultan Mahmud Badaruddin sampai ke Ogan Permata Indah Mal  .
-Relasi: sampai ke(Bandara Sultan Mahmud Badaruddin, Ogan Permata Indah Mal)
-Class: false
-
-Source: D:\openIE\data\preprocess\https-finance-detik-com-berita-ekonomi-bisnis-d-3749593-jalan-rusak-akibat-proyek-lrt-palembang-segera-diperbaiki.txt
-Kalimat ke-18: Kondisi ini sangat membahayakan pengendara saat melintas di bawah lintasan LRT karena jalan berlubang dan berdebu pada siang dan malam hari  .
-Relasi: membahayakan(Kondisi, pengendara)
+Relasi: sampai ke(Bandara Sultan Mahmud Badaruddin# Ogan Permata Indah Mal)
 Class: true
 
 Source: D:\openIE\data\preprocess\https-finance-detik-com-berita-ekonomi-bisnis-d-3749593-jalan-rusak-akibat-proyek-lrt-palembang-segera-diperbaiki.txt
 Kalimat ke-18: Kondisi ini sangat membahayakan pengendara saat melintas di bawah lintasan LRT karena jalan berlubang dan berdebu pada siang dan malam hari  .
-Relasi: melintas di(pengendara, bawah lintasan LRT)
+Relasi: membahayakan(Kondisi# pengendara)
 Class: false
 
 Source: D:\openIE\data\preprocess\https-finance-detik-com-berita-ekonomi-bisnis-d-3749593-jalan-rusak-akibat-proyek-lrt-palembang-segera-diperbaiki.txt
 Kalimat ke-18: Kondisi ini sangat membahayakan pengendara saat melintas di bawah lintasan LRT karena jalan berlubang dan berdebu pada siang dan malam hari  .
-Relasi: berlubang(jalan, siang)
+Relasi: melintas di(pengendara# bawah lintasan LRT)
 Class: true
 
 Source: D:\openIE\data\preprocess\https-finance-detik-com-berita-ekonomi-bisnis-d-3749593-jalan-rusak-akibat-proyek-lrt-palembang-segera-diperbaiki.txt
 Kalimat ke-18: Kondisi ini sangat membahayakan pengendara saat melintas di bawah lintasan LRT karena jalan berlubang dan berdebu pada siang dan malam hari  .
-Relasi: berdebu pada(jalan, siang)
+Relasi: berlubang(jalan# siang)
+Class: true
+
+Source: D:\openIE\data\preprocess\https-finance-detik-com-berita-ekonomi-bisnis-d-3749593-jalan-rusak-akibat-proyek-lrt-palembang-segera-diperbaiki.txt
+Kalimat ke-18: Kondisi ini sangat membahayakan pengendara saat melintas di bawah lintasan LRT karena jalan berlubang dan berdebu pada siang dan malam hari  .
+Relasi: berdebu pada(jalan# siang)
 Class: true
 
 Source: D:\openIE\data\preprocess\https-finance-detik-com-berita-ekonomi-bisnis-d-3749593-jalan-rusak-akibat-proyek-lrt-palembang-segera-diperbaiki.txt
 Kalimat ke-20: Kerusakan yang diakibatkan pembangunan inilah yang akan segera diperbaiki oleh Waskita Karya  .
-Relasi: diakibatkan(Kerusakan, pembangunan)
+Relasi: diakibatkan(Kerusakan# pembangunan)
 Class: true
 
 Source: D:\openIE\data\preprocess\https-finance-detik-com-berita-ekonomi-bisnis-d-3749593-jalan-rusak-akibat-proyek-lrt-palembang-segera-diperbaiki.txt
 Kalimat ke-20: Kerusakan yang diakibatkan pembangunan inilah yang akan segera diperbaiki oleh Waskita Karya  .
-Relasi: diperbaiki oleh(pembangunan, Waskita Karya)
-Class: false
+Relasi: diperbaiki oleh(pembangunan# Waskita Karya)
+Class: true
 
 

@@ -1,111 +1,111 @@
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-4190947-niat-nikah-muda-dul-jaelani-tengah-fokus-cari-modal.txt
 Kalimat ke-1: Dul Jaelani sudah berusia 18 tahun .
-Relasi: sudah berusia(Dul Jaelani, 18 tahun)
+Relasi: sudah berusia(Dul Jaelani# 18 tahun)
 Class: true
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-4190947-niat-nikah-muda-dul-jaelani-tengah-fokus-cari-modal.txt
 Kalimat ke-3: "Ya memang taaruf menikah muda memang impian saya .
-Relasi: menikah(taaruf, impian)
-Class: false
-
-Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-4190947-niat-nikah-muda-dul-jaelani-tengah-fokus-cari-modal.txt
-Kalimat ke-5: Prioritas saya musik-musik dan mungkin saya sudah mencapai mimpi saya dan menjadi imam muda," ujar Dul saat ditemui di kawasan Thamrin, Jakarta Pusat, Kamis (30/8/2018) malam .
-Relasi: sudah mencapai(Prioritas, mimpi)
-Class: false
-
-Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-4190947-niat-nikah-muda-dul-jaelani-tengah-fokus-cari-modal.txt
-Kalimat ke-5: Prioritas saya musik-musik dan mungkin saya sudah mencapai mimpi saya dan menjadi imam muda," ujar Dul saat ditemui di kawasan Thamrin, Jakarta Pusat, Kamis (30/8/2018) malam .
-Relasi: menjadi(mimpi, imam)
-Class: false
-
-Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-4190947-niat-nikah-muda-dul-jaelani-tengah-fokus-cari-modal.txt
-Kalimat ke-5: Prioritas saya musik-musik dan mungkin saya sudah mencapai mimpi saya dan menjadi imam muda," ujar Dul saat ditemui di kawasan Thamrin, Jakarta Pusat, Kamis (30/8/2018) malam .
-Relasi: ujar(imam, Dul)
+Relasi: menikah(taaruf# impian)
 Class: true
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-4190947-niat-nikah-muda-dul-jaelani-tengah-fokus-cari-modal.txt
 Kalimat ke-5: Prioritas saya musik-musik dan mungkin saya sudah mencapai mimpi saya dan menjadi imam muda," ujar Dul saat ditemui di kawasan Thamrin, Jakarta Pusat, Kamis (30/8/2018) malam .
-Relasi: ditemui di(Dul, kawasan)
+Relasi: sudah mencapai(Prioritas# mimpi)
+Class: false
+
+Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-4190947-niat-nikah-muda-dul-jaelani-tengah-fokus-cari-modal.txt
+Kalimat ke-5: Prioritas saya musik-musik dan mungkin saya sudah mencapai mimpi saya dan menjadi imam muda," ujar Dul saat ditemui di kawasan Thamrin, Jakarta Pusat, Kamis (30/8/2018) malam .
+Relasi: menjadi(mimpi# imam)
+Class: false
+
+Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-4190947-niat-nikah-muda-dul-jaelani-tengah-fokus-cari-modal.txt
+Kalimat ke-5: Prioritas saya musik-musik dan mungkin saya sudah mencapai mimpi saya dan menjadi imam muda," ujar Dul saat ditemui di kawasan Thamrin, Jakarta Pusat, Kamis (30/8/2018) malam .
+Relasi: ujar(imam# Dul)
+Class: false
+
+Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-4190947-niat-nikah-muda-dul-jaelani-tengah-fokus-cari-modal.txt
+Kalimat ke-5: Prioritas saya musik-musik dan mungkin saya sudah mencapai mimpi saya dan menjadi imam muda," ujar Dul saat ditemui di kawasan Thamrin, Jakarta Pusat, Kamis (30/8/2018) malam .
+Relasi: ditemui di(Dul# kawasan)
 Class: false
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-4190947-niat-nikah-muda-dul-jaelani-tengah-fokus-cari-modal.txt
 Kalimat ke-6: Untuk mewujudkan impiannya itu, adik Al Ghazali dan El Rumi tersebut sedang fokus mencari modal menikah .
-Relasi: mencari(fokus, modal)
-Class: false
+Relasi: mencari(fokus# modal)
+Class: true
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-4190947-niat-nikah-muda-dul-jaelani-tengah-fokus-cari-modal.txt
 Kalimat ke-7: Salah satunya mengeluarkan beberapa lagu yang bakal dijual ke pasaran .
-Relasi: bakal dijual ke(beberapa lagu, pasaran)
-Class: true
+Relasi: bakal dijual ke(beberapa lagu# pasaran)
+Class: false
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-4190947-niat-nikah-muda-dul-jaelani-tengah-fokus-cari-modal.txt
 Kalimat ke-8: "Mana ada wanita ingin dinikahi dengan suami tak bermodal .
-Relasi: ingin dinikahi dengan(wanita, suami)
+Relasi: ingin dinikahi dengan(wanita# suami)
 Class: true
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-4190947-niat-nikah-muda-dul-jaelani-tengah-fokus-cari-modal.txt
 Kalimat ke-9: Sebenarnya rilis ini start awal saya cari modal untuk melanjutkan usaha selanjutnya dan setelah itu saya akan menikah muda," tutur Dul Jaelani .
-Relasi: melanjutkan(cari modal, usaha selanjutnya)
+Relasi: melanjutkan(cari modal# usaha selanjutnya)
 Class: false
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-4190947-niat-nikah-muda-dul-jaelani-tengah-fokus-cari-modal.txt
 Kalimat ke-9: Sebenarnya rilis ini start awal saya cari modal untuk melanjutkan usaha selanjutnya dan setelah itu saya akan menikah muda," tutur Dul Jaelani .
-Relasi: akan menikah(usaha selanjutnya, tutur Dul Jaelani)
+Relasi: akan menikah(usaha selanjutnya# tutur Dul Jaelani)
 Class: false
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-4190947-niat-nikah-muda-dul-jaelani-tengah-fokus-cari-modal.txt
 Kalimat ke-11: Maia Estianty Tolak Dul Jaelani Masuk Manajemennya Dul punya keinginan menikah muda lantaran suka melihat anak kecil .
-Relasi: Masuk(Maia Estianty Tolak Dul Jaelani, Manajemennya Dul)
+Relasi: Masuk(Maia Estianty Tolak Dul Jaelani# Manajemennya Dul)
 Class: true
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-4190947-niat-nikah-muda-dul-jaelani-tengah-fokus-cari-modal.txt
 Kalimat ke-11: Maia Estianty Tolak Dul Jaelani Masuk Manajemennya Dul punya keinginan menikah muda lantaran suka melihat anak kecil .
-Relasi: punya(Manajemennya Dul, keinginan)
+Relasi: punya(Manajemennya Dul# keinginan)
 Class: false
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-4190947-niat-nikah-muda-dul-jaelani-tengah-fokus-cari-modal.txt
 Kalimat ke-11: Maia Estianty Tolak Dul Jaelani Masuk Manajemennya Dul punya keinginan menikah muda lantaran suka melihat anak kecil .
-Relasi: menikah(keinginan, muda lantaran)
-Class: false
+Relasi: menikah(keinginan# muda lantaran)
+Class: true
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-4190947-niat-nikah-muda-dul-jaelani-tengah-fokus-cari-modal.txt
 Kalimat ke-11: Maia Estianty Tolak Dul Jaelani Masuk Manajemennya Dul punya keinginan menikah muda lantaran suka melihat anak kecil .
-Relasi: suka melihat(muda lantaran, anak)
-Class: false
+Relasi: suka melihat(muda lantaran# anak)
+Class: true
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-4190947-niat-nikah-muda-dul-jaelani-tengah-fokus-cari-modal.txt
 Kalimat ke-14: Dul Jaelani menyerahkan kepada Tuhan soal waktu yang tepat untuk menikah .
-Relasi: menyerahkan kepada(Dul Jaelani, Tuhan soal waktu)
-Class: true
+Relasi: menyerahkan kepada(Dul Jaelani# Tuhan soal waktu)
+Class: false
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-4190947-niat-nikah-muda-dul-jaelani-tengah-fokus-cari-modal.txt
 Kalimat ke-15: Tapi dia menargetkan maksimal lima tahun lagi sudah bisa membina rumah tangga dengan wanita pujaan .
-Relasi: sudah bisa membina rumah tangga dengan(lima tahun, wanita pujaan)
-Class: true
+Relasi: sudah bisa membina rumah tangga dengan(lima tahun# wanita pujaan)
+Class: false
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-4190947-niat-nikah-muda-dul-jaelani-tengah-fokus-cari-modal.txt
 Kalimat ke-24: 2 celeb Maia Estianty Bicara Kemiripan Dul dan Ahmad Dhani celeb Maia Estianty Bicara Kemiripan Dul dan Ahmad Dhani celeb Maia Estianty Bicara Kemiripan Dul dan Ahmad Dhani celeb Maia Estianty Bicara Kemiripan Dul dan Ahmad Dhani celeb Maia Estianty Bicara Kemiripan Dul dan Ahmad Dhani celeb Maia Estianty Bicara Kemiripan Dul dan Ahmad Dhani celeb Maia Estianty Bicara Kemiripan Dul dan Ahmad Dhani 3 celeb Dul Jaelani Langsung Nikah Usai Lulus Sekolah?
-Relasi: Usai(Ahmad Dhani 3 celeb Dul Jaelani Langsung Nikah, Lulus)
-Class: true
+Relasi: Usai(Ahmad Dhani 3 celeb Dul Jaelani Langsung Nikah# Lulus)
+Class: false
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-4190947-niat-nikah-muda-dul-jaelani-tengah-fokus-cari-modal.txt
 Kalimat ke-25: celeb Dul Jaelani Langsung Nikah Usai Lulus Sekolah?
-Relasi: Usai(celeb Dul Jaelani Langsung Nikah, Lulus)
+Relasi: Usai(celeb Dul Jaelani Langsung Nikah# Lulus)
 Class: false
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-4190947-niat-nikah-muda-dul-jaelani-tengah-fokus-cari-modal.txt
 Kalimat ke-26: celeb Dul Jaelani Langsung Nikah Usai Lulus Sekolah?
-Relasi: Usai(celeb Dul Jaelani Langsung Nikah, Lulus)
+Relasi: Usai(celeb Dul Jaelani Langsung Nikah# Lulus)
 Class: false
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-4190947-niat-nikah-muda-dul-jaelani-tengah-fokus-cari-modal.txt
 Kalimat ke-27: celeb Dul Jaelani Langsung Nikah Usai Lulus Sekolah?
-Relasi: Usai(celeb Dul Jaelani Langsung Nikah, Lulus)
-Class: true
+Relasi: Usai(celeb Dul Jaelani Langsung Nikah# Lulus)
+Class: false
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-4190947-niat-nikah-muda-dul-jaelani-tengah-fokus-cari-modal.txt
 Kalimat ke-28: celeb Dul Jaelani Langsung Nikah Usai Lulus Sekolah?
-Relasi: Usai(celeb Dul Jaelani Langsung Nikah, Lulus)
+Relasi: Usai(celeb Dul Jaelani Langsung Nikah# Lulus)
 Class: true
 
 

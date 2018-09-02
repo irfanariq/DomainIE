@@ -1,141 +1,141 @@
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-3745848-dewi-persik-siap-jadi-duta-tertib-busway-usulan-wagub-dki.txt
 Kalimat ke-1: Setelah berseteru dengan petugas portal busway saat menerobos jalur TransJakarta , beberapa hari lalu , pedangdut Dewi Persik bakal dijadikan sebagai Duta Tertib Busway oleh Sandiaga Uno , Wakil Gubernur DKI Jakarta  .
-Relasi: menerobos(petugas portal busway, jalur TransJakarta)
-Class: false
+Relasi: menerobos(petugas portal busway# jalur TransJakarta)
+Class: true
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-3745848-dewi-persik-siap-jadi-duta-tertib-busway-usulan-wagub-dki.txt
 Kalimat ke-1: Setelah berseteru dengan petugas portal busway saat menerobos jalur TransJakarta , beberapa hari lalu , pedangdut Dewi Persik bakal dijadikan sebagai Duta Tertib Busway oleh Sandiaga Uno , Wakil Gubernur DKI Jakarta  .
-Relasi: bakal dijadikan sebagai(pedangdut Dewi Persik, Duta Tertib Busway)
+Relasi: bakal dijadikan sebagai(pedangdut Dewi Persik# Duta Tertib Busway)
 Class: false
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-3745848-dewi-persik-siap-jadi-duta-tertib-busway-usulan-wagub-dki.txt
 Kalimat ke-2: Ternyata , rencana itu belum sampai ke Dewi Persik  .
-Relasi: sampai ke(rencana, Dewi Persik)
-Class: false
+Relasi: sampai ke(rencana# Dewi Persik)
+Class: true
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-3745848-dewi-persik-siap-jadi-duta-tertib-busway-usulan-wagub-dki.txt
 Kalimat ke-3: Pihaknya menyambut baik usulan itu  .
-Relasi: menyambut(Pihaknya, baik usulan)
-Class: false
+Relasi: menyambut(Pihaknya# baik usulan)
+Class: true
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-3745848-dewi-persik-siap-jadi-duta-tertib-busway-usulan-wagub-dki.txt
 Kalimat ke-4: " Alhamdulillah , Puji Tuhan kalau ditunjuk , oke bagus  .
-Relasi: ditunjuk(Puji Tuhan, oke bagus)
-Class: true
-
-Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-3745848-dewi-persik-siap-jadi-duta-tertib-busway-usulan-wagub-dki.txt
-Kalimat ke-5: Semua ada hikmahnya, " ujar Maha Awan Buana , kuasa hukum Dewi Persik saat dihubungi via telepon , Senin ( 27/11/2017 )  .
-Relasi: ada(Semua, Maha Awan Buana)
+Relasi: ditunjuk(Puji Tuhan# oke bagus)
 Class: false
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-3745848-dewi-persik-siap-jadi-duta-tertib-busway-usulan-wagub-dki.txt
 Kalimat ke-5: Semua ada hikmahnya, " ujar Maha Awan Buana , kuasa hukum Dewi Persik saat dihubungi via telepon , Senin ( 27/11/2017 )  .
-Relasi: ujar(Semua, Maha Awan Buana)
+Relasi: ada(Semua# Maha Awan Buana)
 Class: false
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-3745848-dewi-persik-siap-jadi-duta-tertib-busway-usulan-wagub-dki.txt
 Kalimat ke-5: Semua ada hikmahnya, " ujar Maha Awan Buana , kuasa hukum Dewi Persik saat dihubungi via telepon , Senin ( 27/11/2017 )  .
-Relasi: dihubungi(kuasa hukum Dewi Persik, via telepon)
-Class: true
+Relasi: ujar(Semua# Maha Awan Buana)
+Class: false
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-3745848-dewi-persik-siap-jadi-duta-tertib-busway-usulan-wagub-dki.txt
-Kalimat ke-6: Baca juga : Sandiaga Berniat Jadikan Dewi Persik Duta Tertib Busway Menurutnya ini dapat menjadi pembelajaran bagi beberapa pihak , baik Dewi Persik maupun penjaga portal tersebut  .
-Relasi: Berniat(Sandiaga, Jadikan Dewi Persik Duta Tertib Busway)
-Class: true
-
-Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-3745848-dewi-persik-siap-jadi-duta-tertib-busway-usulan-wagub-dki.txt
-Kalimat ke-6: Baca juga : Sandiaga Berniat Jadikan Dewi Persik Duta Tertib Busway Menurutnya ini dapat menjadi pembelajaran bagi beberapa pihak , baik Dewi Persik maupun penjaga portal tersebut  .
-Relasi: Menurutnya(Jadikan Dewi Persik Duta Tertib Busway, pembelajaran)
+Kalimat ke-5: Semua ada hikmahnya, " ujar Maha Awan Buana , kuasa hukum Dewi Persik saat dihubungi via telepon , Senin ( 27/11/2017 )  .
+Relasi: dihubungi(kuasa hukum Dewi Persik# via telepon)
 Class: false
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-3745848-dewi-persik-siap-jadi-duta-tertib-busway-usulan-wagub-dki.txt
 Kalimat ke-6: Baca juga : Sandiaga Berniat Jadikan Dewi Persik Duta Tertib Busway Menurutnya ini dapat menjadi pembelajaran bagi beberapa pihak , baik Dewi Persik maupun penjaga portal tersebut  .
-Relasi: dapat menjadi pembelajaran bagi(Jadikan Dewi Persik Duta Tertib Busway, beberapa pihak)
+Relasi: Berniat(Sandiaga# Jadikan Dewi Persik Duta Tertib Busway)
+Class: false
+
+Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-3745848-dewi-persik-siap-jadi-duta-tertib-busway-usulan-wagub-dki.txt
+Kalimat ke-6: Baca juga : Sandiaga Berniat Jadikan Dewi Persik Duta Tertib Busway Menurutnya ini dapat menjadi pembelajaran bagi beberapa pihak , baik Dewi Persik maupun penjaga portal tersebut  .
+Relasi: Menurutnya(Jadikan Dewi Persik Duta Tertib Busway# pembelajaran)
+Class: true
+
+Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-3745848-dewi-persik-siap-jadi-duta-tertib-busway-usulan-wagub-dki.txt
+Kalimat ke-6: Baca juga : Sandiaga Berniat Jadikan Dewi Persik Duta Tertib Busway Menurutnya ini dapat menjadi pembelajaran bagi beberapa pihak , baik Dewi Persik maupun penjaga portal tersebut  .
+Relasi: dapat menjadi pembelajaran bagi(Jadikan Dewi Persik Duta Tertib Busway# beberapa pihak)
 Class: false
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-3745848-dewi-persik-siap-jadi-duta-tertib-busway-usulan-wagub-dki.txt
 Kalimat ke-9: Ada orang yang meninggal kalau tidak ditolong , dipenjara orang yang tidak nolong, " tukasnya  .
-Relasi: meninggal(orang, tukasnya)
+Relasi: meninggal(orang# tukasnya)
+Class: true
+
+Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-3745848-dewi-persik-siap-jadi-duta-tertib-busway-usulan-wagub-dki.txt
+Kalimat ke-9: Ada orang yang meninggal kalau tidak ditolong , dipenjara orang yang tidak nolong, " tukasnya  .
+Relasi: ditolong(orang# tukasnya)
 Class: false
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-3745848-dewi-persik-siap-jadi-duta-tertib-busway-usulan-wagub-dki.txt
 Kalimat ke-9: Ada orang yang meninggal kalau tidak ditolong , dipenjara orang yang tidak nolong, " tukasnya  .
-Relasi: ditolong(orang, tukasnya)
-Class: true
-
-Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-3745848-dewi-persik-siap-jadi-duta-tertib-busway-usulan-wagub-dki.txt
-Kalimat ke-9: Ada orang yang meninggal kalau tidak ditolong , dipenjara orang yang tidak nolong, " tukasnya  .
-Relasi: dipenjara(orang, tukasnya)
-Class: true
+Relasi: dipenjara(orang# tukasnya)
+Class: false
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-3745848-dewi-persik-siap-jadi-duta-tertib-busway-usulan-wagub-dki.txt
 Kalimat ke-10: ( vep/dar ) dewi persik sandiaga uno transjakarta Photo Gallery 1 celeb So Sweet !
-Relasi: uno(dewi persik, transjakarta Photo Gallery 1 celeb So Sweet)
-Class: true
+Relasi: uno(dewi persik# transjakarta Photo Gallery 1 celeb So Sweet)
+Class: false
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-3745848-dewi-persik-siap-jadi-duta-tertib-busway-usulan-wagub-dki.txt
 Kalimat ke-18: Saat Sang Suami Bantu Dewi Persik Lewati Genangan 1 celeb Yang Baju Merah Jangan Sampai Lolos !
-Relasi: Sampai(Baju, Lolos)
-Class: true
+Relasi: Sampai(Baju# Lolos)
+Class: false
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-3745848-dewi-persik-siap-jadi-duta-tertib-busway-usulan-wagub-dki.txt
 Kalimat ke-19: Seksinya Dewi Persik celeb Yang Baju Merah Jangan Sampai Lolos !
-Relasi: Sampai(Baju, Lolos)
+Relasi: Sampai(Baju# Lolos)
 Class: false
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-3745848-dewi-persik-siap-jadi-duta-tertib-busway-usulan-wagub-dki.txt
 Kalimat ke-20: Seksinya Dewi Persik celeb Yang Baju Merah Jangan Sampai Lolos !
-Relasi: Sampai(Baju, Lolos)
-Class: false
+Relasi: Sampai(Baju# Lolos)
+Class: true
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-3745848-dewi-persik-siap-jadi-duta-tertib-busway-usulan-wagub-dki.txt
 Kalimat ke-21: Seksinya Dewi Persik celeb Yang Baju Merah Jangan Sampai Lolos !
-Relasi: Sampai(Baju, Lolos)
+Relasi: Sampai(Baju# Lolos)
 Class: false
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-3745848-dewi-persik-siap-jadi-duta-tertib-busway-usulan-wagub-dki.txt
 Kalimat ke-22: Seksinya Dewi Persik celeb Yang Baju Merah Jangan Sampai Lolos !
-Relasi: Sampai(Baju, Lolos)
+Relasi: Sampai(Baju# Lolos)
 Class: false
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-3745848-dewi-persik-siap-jadi-duta-tertib-busway-usulan-wagub-dki.txt
 Kalimat ke-23: Seksinya Dewi Persik celeb Yang Baju Merah Jangan Sampai Lolos !
-Relasi: Sampai(Baju, Lolos)
+Relasi: Sampai(Baju# Lolos)
 Class: true
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-3745848-dewi-persik-siap-jadi-duta-tertib-busway-usulan-wagub-dki.txt
 Kalimat ke-24: Seksinya Dewi Persik 2 celeb Disebut Sudah Menikah , Ini Kemesraan Dewi Persik dan Angga Wijaya celeb Disebut Sudah Menikah , Ini Kemesraan Dewi Persik dan Angga Wijaya celeb Disebut Sudah Menikah , Ini Kemesraan Dewi Persik dan Angga Wijaya celeb Disebut Sudah Menikah , Ini Kemesraan Dewi Persik dan Angga Wijaya celeb Disebut Sudah Menikah , Ini Kemesraan Dewi Persik dan Angga Wijaya celeb Disebut Sudah Menikah , Ini Kemesraan Dewi Persik dan Angga Wijaya celeb Disebut Sudah Menikah , Ini Kemesraan Dewi Persik dan Angga Wijaya 3 celeb Mikha Tambayong Tampil Seksi , Dewi Persik Sebut Arab Gede - gede celeb Mikha Tambayong Tampil Seksi , Dewi Persik Sebut Arab Gede - gede celeb Mikha Tambayong Tampil Seksi , Dewi Persik Sebut Arab Gede - gede celeb Mikha Tambayong Tampil Seksi , Dewi Persik Sebut Arab Gede - gede celeb Mikha Tambayong Tampil Seksi , Dewi Persik Sebut Arab Gede - gede celeb Mikha Tambayong Tampil Seksi , Dewi Persik Sebut Arab Gede - gede 4 celeb Dewi Persik Takut karena Orang Arab Gede - gede , Apanya ?
-Relasi: Disebut(Seksinya Dewi Persik 2 celeb, Menikah)
-Class: true
-
-Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-3745848-dewi-persik-siap-jadi-duta-tertib-busway-usulan-wagub-dki.txt
-Kalimat ke-24: Seksinya Dewi Persik 2 celeb Disebut Sudah Menikah , Ini Kemesraan Dewi Persik dan Angga Wijaya celeb Disebut Sudah Menikah , Ini Kemesraan Dewi Persik dan Angga Wijaya celeb Disebut Sudah Menikah , Ini Kemesraan Dewi Persik dan Angga Wijaya celeb Disebut Sudah Menikah , Ini Kemesraan Dewi Persik dan Angga Wijaya celeb Disebut Sudah Menikah , Ini Kemesraan Dewi Persik dan Angga Wijaya celeb Disebut Sudah Menikah , Ini Kemesraan Dewi Persik dan Angga Wijaya celeb Disebut Sudah Menikah , Ini Kemesraan Dewi Persik dan Angga Wijaya 3 celeb Mikha Tambayong Tampil Seksi , Dewi Persik Sebut Arab Gede - gede celeb Mikha Tambayong Tampil Seksi , Dewi Persik Sebut Arab Gede - gede celeb Mikha Tambayong Tampil Seksi , Dewi Persik Sebut Arab Gede - gede celeb Mikha Tambayong Tampil Seksi , Dewi Persik Sebut Arab Gede - gede celeb Mikha Tambayong Tampil Seksi , Dewi Persik Sebut Arab Gede - gede celeb Mikha Tambayong Tampil Seksi , Dewi Persik Sebut Arab Gede - gede 4 celeb Dewi Persik Takut karena Orang Arab Gede - gede , Apanya ?
-Relasi: Disebut(Seksinya Dewi Persik 2 celeb, Menikah)
-Class: true
-
-Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-3745848-dewi-persik-siap-jadi-duta-tertib-busway-usulan-wagub-dki.txt
-Kalimat ke-24: Seksinya Dewi Persik 2 celeb Disebut Sudah Menikah , Ini Kemesraan Dewi Persik dan Angga Wijaya celeb Disebut Sudah Menikah , Ini Kemesraan Dewi Persik dan Angga Wijaya celeb Disebut Sudah Menikah , Ini Kemesraan Dewi Persik dan Angga Wijaya celeb Disebut Sudah Menikah , Ini Kemesraan Dewi Persik dan Angga Wijaya celeb Disebut Sudah Menikah , Ini Kemesraan Dewi Persik dan Angga Wijaya celeb Disebut Sudah Menikah , Ini Kemesraan Dewi Persik dan Angga Wijaya celeb Disebut Sudah Menikah , Ini Kemesraan Dewi Persik dan Angga Wijaya 3 celeb Mikha Tambayong Tampil Seksi , Dewi Persik Sebut Arab Gede - gede celeb Mikha Tambayong Tampil Seksi , Dewi Persik Sebut Arab Gede - gede celeb Mikha Tambayong Tampil Seksi , Dewi Persik Sebut Arab Gede - gede celeb Mikha Tambayong Tampil Seksi , Dewi Persik Sebut Arab Gede - gede celeb Mikha Tambayong Tampil Seksi , Dewi Persik Sebut Arab Gede - gede celeb Mikha Tambayong Tampil Seksi , Dewi Persik Sebut Arab Gede - gede 4 celeb Dewi Persik Takut karena Orang Arab Gede - gede , Apanya ?
-Relasi: Disebut(Seksinya Dewi Persik 2 celeb, Menikah)
+Relasi: Disebut(Seksinya Dewi Persik 2 celeb# Menikah)
 Class: false
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-3745848-dewi-persik-siap-jadi-duta-tertib-busway-usulan-wagub-dki.txt
 Kalimat ke-24: Seksinya Dewi Persik 2 celeb Disebut Sudah Menikah , Ini Kemesraan Dewi Persik dan Angga Wijaya celeb Disebut Sudah Menikah , Ini Kemesraan Dewi Persik dan Angga Wijaya celeb Disebut Sudah Menikah , Ini Kemesraan Dewi Persik dan Angga Wijaya celeb Disebut Sudah Menikah , Ini Kemesraan Dewi Persik dan Angga Wijaya celeb Disebut Sudah Menikah , Ini Kemesraan Dewi Persik dan Angga Wijaya celeb Disebut Sudah Menikah , Ini Kemesraan Dewi Persik dan Angga Wijaya celeb Disebut Sudah Menikah , Ini Kemesraan Dewi Persik dan Angga Wijaya 3 celeb Mikha Tambayong Tampil Seksi , Dewi Persik Sebut Arab Gede - gede celeb Mikha Tambayong Tampil Seksi , Dewi Persik Sebut Arab Gede - gede celeb Mikha Tambayong Tampil Seksi , Dewi Persik Sebut Arab Gede - gede celeb Mikha Tambayong Tampil Seksi , Dewi Persik Sebut Arab Gede - gede celeb Mikha Tambayong Tampil Seksi , Dewi Persik Sebut Arab Gede - gede celeb Mikha Tambayong Tampil Seksi , Dewi Persik Sebut Arab Gede - gede 4 celeb Dewi Persik Takut karena Orang Arab Gede - gede , Apanya ?
-Relasi: Disebut(Seksinya Dewi Persik 2 celeb, Menikah)
+Relasi: Disebut(Seksinya Dewi Persik 2 celeb# Menikah)
+Class: false
+
+Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-3745848-dewi-persik-siap-jadi-duta-tertib-busway-usulan-wagub-dki.txt
+Kalimat ke-24: Seksinya Dewi Persik 2 celeb Disebut Sudah Menikah , Ini Kemesraan Dewi Persik dan Angga Wijaya celeb Disebut Sudah Menikah , Ini Kemesraan Dewi Persik dan Angga Wijaya celeb Disebut Sudah Menikah , Ini Kemesraan Dewi Persik dan Angga Wijaya celeb Disebut Sudah Menikah , Ini Kemesraan Dewi Persik dan Angga Wijaya celeb Disebut Sudah Menikah , Ini Kemesraan Dewi Persik dan Angga Wijaya celeb Disebut Sudah Menikah , Ini Kemesraan Dewi Persik dan Angga Wijaya celeb Disebut Sudah Menikah , Ini Kemesraan Dewi Persik dan Angga Wijaya 3 celeb Mikha Tambayong Tampil Seksi , Dewi Persik Sebut Arab Gede - gede celeb Mikha Tambayong Tampil Seksi , Dewi Persik Sebut Arab Gede - gede celeb Mikha Tambayong Tampil Seksi , Dewi Persik Sebut Arab Gede - gede celeb Mikha Tambayong Tampil Seksi , Dewi Persik Sebut Arab Gede - gede celeb Mikha Tambayong Tampil Seksi , Dewi Persik Sebut Arab Gede - gede celeb Mikha Tambayong Tampil Seksi , Dewi Persik Sebut Arab Gede - gede 4 celeb Dewi Persik Takut karena Orang Arab Gede - gede , Apanya ?
+Relasi: Disebut(Seksinya Dewi Persik 2 celeb# Menikah)
 Class: true
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-3745848-dewi-persik-siap-jadi-duta-tertib-busway-usulan-wagub-dki.txt
 Kalimat ke-24: Seksinya Dewi Persik 2 celeb Disebut Sudah Menikah , Ini Kemesraan Dewi Persik dan Angga Wijaya celeb Disebut Sudah Menikah , Ini Kemesraan Dewi Persik dan Angga Wijaya celeb Disebut Sudah Menikah , Ini Kemesraan Dewi Persik dan Angga Wijaya celeb Disebut Sudah Menikah , Ini Kemesraan Dewi Persik dan Angga Wijaya celeb Disebut Sudah Menikah , Ini Kemesraan Dewi Persik dan Angga Wijaya celeb Disebut Sudah Menikah , Ini Kemesraan Dewi Persik dan Angga Wijaya celeb Disebut Sudah Menikah , Ini Kemesraan Dewi Persik dan Angga Wijaya 3 celeb Mikha Tambayong Tampil Seksi , Dewi Persik Sebut Arab Gede - gede celeb Mikha Tambayong Tampil Seksi , Dewi Persik Sebut Arab Gede - gede celeb Mikha Tambayong Tampil Seksi , Dewi Persik Sebut Arab Gede - gede celeb Mikha Tambayong Tampil Seksi , Dewi Persik Sebut Arab Gede - gede celeb Mikha Tambayong Tampil Seksi , Dewi Persik Sebut Arab Gede - gede celeb Mikha Tambayong Tampil Seksi , Dewi Persik Sebut Arab Gede - gede 4 celeb Dewi Persik Takut karena Orang Arab Gede - gede , Apanya ?
-Relasi: Disebut(Seksinya Dewi Persik 2 celeb, Menikah)
+Relasi: Disebut(Seksinya Dewi Persik 2 celeb# Menikah)
 Class: true
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-3745848-dewi-persik-siap-jadi-duta-tertib-busway-usulan-wagub-dki.txt
 Kalimat ke-24: Seksinya Dewi Persik 2 celeb Disebut Sudah Menikah , Ini Kemesraan Dewi Persik dan Angga Wijaya celeb Disebut Sudah Menikah , Ini Kemesraan Dewi Persik dan Angga Wijaya celeb Disebut Sudah Menikah , Ini Kemesraan Dewi Persik dan Angga Wijaya celeb Disebut Sudah Menikah , Ini Kemesraan Dewi Persik dan Angga Wijaya celeb Disebut Sudah Menikah , Ini Kemesraan Dewi Persik dan Angga Wijaya celeb Disebut Sudah Menikah , Ini Kemesraan Dewi Persik dan Angga Wijaya celeb Disebut Sudah Menikah , Ini Kemesraan Dewi Persik dan Angga Wijaya 3 celeb Mikha Tambayong Tampil Seksi , Dewi Persik Sebut Arab Gede - gede celeb Mikha Tambayong Tampil Seksi , Dewi Persik Sebut Arab Gede - gede celeb Mikha Tambayong Tampil Seksi , Dewi Persik Sebut Arab Gede - gede celeb Mikha Tambayong Tampil Seksi , Dewi Persik Sebut Arab Gede - gede celeb Mikha Tambayong Tampil Seksi , Dewi Persik Sebut Arab Gede - gede celeb Mikha Tambayong Tampil Seksi , Dewi Persik Sebut Arab Gede - gede 4 celeb Dewi Persik Takut karena Orang Arab Gede - gede , Apanya ?
-Relasi: Disebut(Seksinya Dewi Persik 2 celeb, Menikah)
+Relasi: Disebut(Seksinya Dewi Persik 2 celeb# Menikah)
 Class: true
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-3745848-dewi-persik-siap-jadi-duta-tertib-busway-usulan-wagub-dki.txt
 Kalimat ke-24: Seksinya Dewi Persik 2 celeb Disebut Sudah Menikah , Ini Kemesraan Dewi Persik dan Angga Wijaya celeb Disebut Sudah Menikah , Ini Kemesraan Dewi Persik dan Angga Wijaya celeb Disebut Sudah Menikah , Ini Kemesraan Dewi Persik dan Angga Wijaya celeb Disebut Sudah Menikah , Ini Kemesraan Dewi Persik dan Angga Wijaya celeb Disebut Sudah Menikah , Ini Kemesraan Dewi Persik dan Angga Wijaya celeb Disebut Sudah Menikah , Ini Kemesraan Dewi Persik dan Angga Wijaya celeb Disebut Sudah Menikah , Ini Kemesraan Dewi Persik dan Angga Wijaya 3 celeb Mikha Tambayong Tampil Seksi , Dewi Persik Sebut Arab Gede - gede celeb Mikha Tambayong Tampil Seksi , Dewi Persik Sebut Arab Gede - gede celeb Mikha Tambayong Tampil Seksi , Dewi Persik Sebut Arab Gede - gede celeb Mikha Tambayong Tampil Seksi , Dewi Persik Sebut Arab Gede - gede celeb Mikha Tambayong Tampil Seksi , Dewi Persik Sebut Arab Gede - gede celeb Mikha Tambayong Tampil Seksi , Dewi Persik Sebut Arab Gede - gede 4 celeb Dewi Persik Takut karena Orang Arab Gede - gede , Apanya ?
-Relasi: Disebut(Seksinya Dewi Persik 2 celeb, Menikah)
+Relasi: Disebut(Seksinya Dewi Persik 2 celeb# Menikah)
+Class: false
+
+Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-3745848-dewi-persik-siap-jadi-duta-tertib-busway-usulan-wagub-dki.txt
+Kalimat ke-24: Seksinya Dewi Persik 2 celeb Disebut Sudah Menikah , Ini Kemesraan Dewi Persik dan Angga Wijaya celeb Disebut Sudah Menikah , Ini Kemesraan Dewi Persik dan Angga Wijaya celeb Disebut Sudah Menikah , Ini Kemesraan Dewi Persik dan Angga Wijaya celeb Disebut Sudah Menikah , Ini Kemesraan Dewi Persik dan Angga Wijaya celeb Disebut Sudah Menikah , Ini Kemesraan Dewi Persik dan Angga Wijaya celeb Disebut Sudah Menikah , Ini Kemesraan Dewi Persik dan Angga Wijaya celeb Disebut Sudah Menikah , Ini Kemesraan Dewi Persik dan Angga Wijaya 3 celeb Mikha Tambayong Tampil Seksi , Dewi Persik Sebut Arab Gede - gede celeb Mikha Tambayong Tampil Seksi , Dewi Persik Sebut Arab Gede - gede celeb Mikha Tambayong Tampil Seksi , Dewi Persik Sebut Arab Gede - gede celeb Mikha Tambayong Tampil Seksi , Dewi Persik Sebut Arab Gede - gede celeb Mikha Tambayong Tampil Seksi , Dewi Persik Sebut Arab Gede - gede celeb Mikha Tambayong Tampil Seksi , Dewi Persik Sebut Arab Gede - gede 4 celeb Dewi Persik Takut karena Orang Arab Gede - gede , Apanya ?
+Relasi: Disebut(Seksinya Dewi Persik 2 celeb# Menikah)
 Class: true
 
 

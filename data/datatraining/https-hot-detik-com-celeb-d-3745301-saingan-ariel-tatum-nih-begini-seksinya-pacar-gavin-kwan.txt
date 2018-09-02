@@ -1,6 +1,6 @@
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3745301-saingan-ariel-tatum-nih-begini-seksinya-pacar-gavin-kwan.txt
 Kalimat ke-1: Daftar WAGs lokal dari jagat hiburan semakin bertambah dengan adanya pacar baru pemain timnas Indonesia , Gavin Kwan  .
-Relasi: bertambah dengan(jagat hiburan, adanya pacar baru pemain timnas Indonesia)
+Relasi: bertambah dengan(jagat hiburan# adanya pacar baru pemain timnas Indonesia)
 Class: true
 
 

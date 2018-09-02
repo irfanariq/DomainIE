@@ -43,7 +43,7 @@ public class Relations {
     public Relations(File file) {
         String relationsString = Utilities.getFileContent(file);
 
-        Pattern p = Pattern.compile("Source:\\s(.*)\\nKalimat ke-(\\d*?):\\s(.*)\\nRelasi:\\s(.*?)\\((.*),\\s(.*)\\)\\n");
+        Pattern p = Pattern.compile("Source:\\s(.*)\\nKalimat ke-(\\d*?):\\s(.*)\\nRelasi:\\s(.*?)\\((.*)#\\s(.*)\\)\\n");
         Matcher m = p.matcher(relationsString);
 
         while (m.find()) relations.add(new Relation(m.group(5), m.group(4), m.group(6), m.group(1), Integer.valueOf(m.group(2)) - 1, m.group(3)));
@@ -53,7 +53,7 @@ public class Relations {
         Relations rel= new Relations();
         String relationsString = Utilities.getFileContent(file);
 
-        Pattern p = Pattern.compile("Source:\\s(.*)\\nKalimat ke-(\\d*?):\\s(.*)\\nRelasi:\\s(.*?)\\((.*),\\s(.*)\\)\\nClass:\\s(.*)\\n");
+        Pattern p = Pattern.compile("Source:\\s(.*)\\nKalimat ke-(\\d*?):\\s(.*)\\nRelasi:\\s(.*?)\\((.*)#\\s(.*)\\)\\nClass:\\s(.*)\\n");
         Matcher m = p.matcher(relationsString);
 
         while (m.find()) rel.addRelation(new Relation(m.group(5), m.group(4), m.group(6), m.group(1), Integer.valueOf(m.group(2)) - 1, m.group(3),Boolean.parseBoolean(m.group(7))));

@@ -41,11 +41,11 @@ public class Relation {
     }
 
     public String toString() {
-        return String.format("Source: %s\nKalimat ke-%s: %s\nRelasi: %s(%s, %s)\n", originFile, (idxSentence + 1), originSentence, relation, firstEntity, secondEntity);
+        return String.format("Source: %s\nKalimat ke-%s: %s\nRelasi: %s(%s# %s)\n", originFile, (idxSentence + 1), originSentence, relation, firstEntity, secondEntity);
     }
     
     public String toStringWithClassTarget() {
-        return String.format("Source: %s\nKalimat ke-%s: %s\nRelasi: %s(%s, %s)\nClass: %s", originFile, (idxSentence + 1), originSentence, relation, firstEntity, secondEntity,classTarget.toString());
+        return String.format("Source: %s\nKalimat ke-%s: %s\nRelasi: %s(%s# %s)\nClass: %s", originFile, (idxSentence + 1), originSentence, relation, firstEntity, secondEntity,classTarget.toString());
     }
 
     public Triple<String, String, String> getRelationTriple() {
