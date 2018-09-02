@@ -11,22 +11,22 @@ Class: true
 Source: D:\openIE\data\preprocess\https-finance-detik-com-berita-ekonomi-bisnis-d-3749593-jalan-rusak-akibat-proyek-lrt-palembang-segera-diperbaiki.txt
 Kalimat ke-2: Akhir tahun ini , 11 ruas jalan yang terkena dampak pembangunan akan diperbaiki  .
 Relasi: terkena(11 ruas jalan# dampak pembangunan)
-Class: false
-
-Source: D:\openIE\data\preprocess\https-finance-detik-com-berita-ekonomi-bisnis-d-3749593-jalan-rusak-akibat-proyek-lrt-palembang-segera-diperbaiki.txt
-Kalimat ke-3: " Total ada 11 ruas jalan dengan panjang 23 kilometer lebih yang akan diperbaiki , mudah - mudahan pada pertengahan Desember nanti sudah mulai  .
-Relasi: ada 11 ruas jalan dengan(Total# 23 kilometer)
 Class: true
 
 Source: D:\openIE\data\preprocess\https-finance-detik-com-berita-ekonomi-bisnis-d-3749593-jalan-rusak-akibat-proyek-lrt-palembang-segera-diperbaiki.txt
 Kalimat ke-3: " Total ada 11 ruas jalan dengan panjang 23 kilometer lebih yang akan diperbaiki , mudah - mudahan pada pertengahan Desember nanti sudah mulai  .
-Relasi: akan diperbaiki(23 kilometer# pertengahan Desember nanti)
+Relasi: ada 11 ruas jalan dengan(Total# 23 kilometer)
 Class: false
+
+Source: D:\openIE\data\preprocess\https-finance-detik-com-berita-ekonomi-bisnis-d-3749593-jalan-rusak-akibat-proyek-lrt-palembang-segera-diperbaiki.txt
+Kalimat ke-3: " Total ada 11 ruas jalan dengan panjang 23 kilometer lebih yang akan diperbaiki , mudah - mudahan pada pertengahan Desember nanti sudah mulai  .
+Relasi: akan diperbaiki(23 kilometer# pertengahan Desember nanti)
+Class: true
 
 Source: D:\openIE\data\preprocess\https-finance-detik-com-berita-ekonomi-bisnis-d-3749593-jalan-rusak-akibat-proyek-lrt-palembang-segera-diperbaiki.txt
 Kalimat ke-4: Bahkan , semua yang terkena dampak pembangunan kita akan tanggung jawab dan perbaiki ( termasuk trotoar dan taman), " terang Masudi Jauhari selaku Kepala Proyek LRT Palembang , Kamis ( 30/11/2017 )  .
 Relasi: terkena(semua# dampak pembangunan)
-Class: false
+Class: true
 
 Source: D:\openIE\data\preprocess\https-finance-detik-com-berita-ekonomi-bisnis-d-3749593-jalan-rusak-akibat-proyek-lrt-palembang-segera-diperbaiki.txt
 Kalimat ke-4: Bahkan , semua yang terkena dampak pembangunan kita akan tanggung jawab dan perbaiki ( termasuk trotoar dan taman), " terang Masudi Jauhari selaku Kepala Proyek LRT Palembang , Kamis ( 30/11/2017 )  .
@@ -41,12 +41,12 @@ Class: true
 Source: D:\openIE\data\preprocess\https-finance-detik-com-berita-ekonomi-bisnis-d-3749593-jalan-rusak-akibat-proyek-lrt-palembang-segera-diperbaiki.txt
 Kalimat ke-5: Menurut Masudi , pengerjaan mulai dilakukan setelah pihaknya menyelesaikan desain jalan dengan melibatkan konsultan sejak April lalu  .
 Relasi: mulai dilakukan(pengerjaan# pihaknya)
-Class: false
+Class: true
 
 Source: D:\openIE\data\preprocess\https-finance-detik-com-berita-ekonomi-bisnis-d-3749593-jalan-rusak-akibat-proyek-lrt-palembang-segera-diperbaiki.txt
 Kalimat ke-5: Menurut Masudi , pengerjaan mulai dilakukan setelah pihaknya menyelesaikan desain jalan dengan melibatkan konsultan sejak April lalu  .
 Relasi: menyelesaikan desain jalan dengan melibatkan konsultan sejak(pihaknya# April)
-Class: false
+Class: true
 
 Source: D:\openIE\data\preprocess\https-finance-detik-com-berita-ekonomi-bisnis-d-3749593-jalan-rusak-akibat-proyek-lrt-palembang-segera-diperbaiki.txt
 Kalimat ke-6: Saat ini Waskita Karya hanya tinggal menunggu persetujuan oleh Balai Besar Pelaksana Jalan Nasional ( BBPJN ) V Palembang , mengenai dua ruas jalan yang masih dalam evaluasi  .
@@ -56,12 +56,12 @@ Class: true
 Source: D:\openIE\data\preprocess\https-finance-detik-com-berita-ekonomi-bisnis-d-3749593-jalan-rusak-akibat-proyek-lrt-palembang-segera-diperbaiki.txt
 Kalimat ke-6: Saat ini Waskita Karya hanya tinggal menunggu persetujuan oleh Balai Besar Pelaksana Jalan Nasional ( BBPJN ) V Palembang , mengenai dua ruas jalan yang masih dalam evaluasi  .
 Relasi: mengenai(V Palembang# dua ruas jalan)
-Class: false
+Class: true
 
 Source: D:\openIE\data\preprocess\https-finance-detik-com-berita-ekonomi-bisnis-d-3749593-jalan-rusak-akibat-proyek-lrt-palembang-segera-diperbaiki.txt
 Kalimat ke-7: Baca juga : Foto : Mantap , Pembangunan LRT Palembang Lebih Cepat dari Target Sedangkan untuk ruas jalan yang mengalami kerusakan tidak terlalu berat , pihaknya mengaku sudah mulai melakukan perbaikan secara bertahap  .
 Relasi: mengalami(ruas jalan# kerusakan)
-Class: false
+Class: true
 
 Source: D:\openIE\data\preprocess\https-finance-detik-com-berita-ekonomi-bisnis-d-3749593-jalan-rusak-akibat-proyek-lrt-palembang-segera-diperbaiki.txt
 Kalimat ke-9: " Sebenarnya kami juga sudah mulai , setiap kerusakan yang kecil - kecil sudah kita perbaiki , hanya saja untuk yang besar atau keseluruhan harus ada persetujuan BBPJN  .
@@ -76,7 +76,7 @@ Class: false
 Source: D:\openIE\data\preprocess\https-finance-detik-com-berita-ekonomi-bisnis-d-3749593-jalan-rusak-akibat-proyek-lrt-palembang-segera-diperbaiki.txt
 Kalimat ke-11: Dilanjutkan Masudi , perbaikan 11 ruas jalan di Palembang sudah termasuk kontrak yang diatur dalam Peraturan Presiden Nomor 116 tahun 2015 tentang Percepatan Penyelenggaraan Kereta Ringan di Sumatera Selatan  .
 Relasi: sudah termasuk(Palembang# kontrak)
-Class: false
+Class: true
 
 Source: D:\openIE\data\preprocess\https-finance-detik-com-berita-ekonomi-bisnis-d-3749593-jalan-rusak-akibat-proyek-lrt-palembang-segera-diperbaiki.txt
 Kalimat ke-11: Dilanjutkan Masudi , perbaikan 11 ruas jalan di Palembang sudah termasuk kontrak yang diatur dalam Peraturan Presiden Nomor 116 tahun 2015 tentang Percepatan Penyelenggaraan Kereta Ringan di Sumatera Selatan  .
@@ -121,7 +121,7 @@ Class: true
 Source: D:\openIE\data\preprocess\https-finance-detik-com-berita-ekonomi-bisnis-d-3749593-jalan-rusak-akibat-proyek-lrt-palembang-segera-diperbaiki.txt
 Kalimat ke-18: Kondisi ini sangat membahayakan pengendara saat melintas di bawah lintasan LRT karena jalan berlubang dan berdebu pada siang dan malam hari  .
 Relasi: membahayakan(Kondisi# pengendara)
-Class: false
+Class: true
 
 Source: D:\openIE\data\preprocess\https-finance-detik-com-berita-ekonomi-bisnis-d-3749593-jalan-rusak-akibat-proyek-lrt-palembang-segera-diperbaiki.txt
 Kalimat ke-18: Kondisi ini sangat membahayakan pengendara saat melintas di bawah lintasan LRT karena jalan berlubang dan berdebu pada siang dan malam hari  .
@@ -141,7 +141,7 @@ Class: true
 Source: D:\openIE\data\preprocess\https-finance-detik-com-berita-ekonomi-bisnis-d-3749593-jalan-rusak-akibat-proyek-lrt-palembang-segera-diperbaiki.txt
 Kalimat ke-20: Kerusakan yang diakibatkan pembangunan inilah yang akan segera diperbaiki oleh Waskita Karya  .
 Relasi: diakibatkan(Kerusakan# pembangunan)
-Class: true
+Class: false
 
 Source: D:\openIE\data\preprocess\https-finance-detik-com-berita-ekonomi-bisnis-d-3749593-jalan-rusak-akibat-proyek-lrt-palembang-segera-diperbaiki.txt
 Kalimat ke-20: Kerusakan yang diakibatkan pembangunan inilah yang akan segera diperbaiki oleh Waskita Karya  .

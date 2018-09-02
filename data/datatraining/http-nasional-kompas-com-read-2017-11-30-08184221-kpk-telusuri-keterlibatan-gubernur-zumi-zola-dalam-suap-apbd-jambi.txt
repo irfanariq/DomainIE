@@ -1,22 +1,22 @@
 Source: D:\openIE\data\preprocess\http-nasional-kompas-com-read-2017-11-30-08184221-kpk-telusuri-keterlibatan-gubernur-zumi-zola-dalam-suap-apbd-jambi.txt
 Kalimat ke-1: Komisi Pemberantasan Korupsi ( KPK ) menelusuri keterlibatan Gubernur Jambi Zumi Zola dalam kasus dugaan suap terkait pembahasan Rancangan Anggaran Pendapatan dan Belanja Daerah ( R - APBD ) Jambi tahun 2018  .
 Relasi: menelusuri keterlibatan Gubernur Jambi Zumi Zola dalam(KPK# kasus dugaan suap)
-Class: false
+Class: true
 
 Source: D:\openIE\data\preprocess\http-nasional-kompas-com-read-2017-11-30-08184221-kpk-telusuri-keterlibatan-gubernur-zumi-zola-dalam-suap-apbd-jambi.txt
 Kalimat ke-1: Komisi Pemberantasan Korupsi ( KPK ) menelusuri keterlibatan Gubernur Jambi Zumi Zola dalam kasus dugaan suap terkait pembahasan Rancangan Anggaran Pendapatan dan Belanja Daerah ( R - APBD ) Jambi tahun 2018  .
 Relasi: terkait(kasus dugaan suap# pembahasan Rancangan Anggaran Pendapatan)
-Class: false
+Class: true
 
 Source: D:\openIE\data\preprocess\http-nasional-kompas-com-read-2017-11-30-08184221-kpk-telusuri-keterlibatan-gubernur-zumi-zola-dalam-suap-apbd-jambi.txt
 Kalimat ke-2: Hal itu disampaikan Wakil Ketua KPK Basaria Panjaitan di Gedung KPK , Jakarta , Rabu ( 29/11/2017 )  .
 Relasi: disampaikan Wakil Ketua KPK Basaria Panjaitan di(Hal# Gedung KPK)
-Class: false
+Class: true
 
 Source: D:\openIE\data\preprocess\http-nasional-kompas-com-read-2017-11-30-08184221-kpk-telusuri-keterlibatan-gubernur-zumi-zola-dalam-suap-apbd-jambi.txt
 Kalimat ke-3: " Apakah kasus ini ada perintah gubernur , masih dalam pengembangan apa ada perintah khusus atau tidak  .
 Relasi: ada(kasus# perintah gubernur)
-Class: false
+Class: true
 
 Source: D:\openIE\data\preprocess\http-nasional-kompas-com-read-2017-11-30-08184221-kpk-telusuri-keterlibatan-gubernur-zumi-zola-dalam-suap-apbd-jambi.txt
 Kalimat ke-3: " Apakah kasus ini ada perintah gubernur , masih dalam pengembangan apa ada perintah khusus atau tidak  .
@@ -26,7 +26,7 @@ Class: false
 Source: D:\openIE\data\preprocess\http-nasional-kompas-com-read-2017-11-30-08184221-kpk-telusuri-keterlibatan-gubernur-zumi-zola-dalam-suap-apbd-jambi.txt
 Kalimat ke-4: Tapi segera mungkin akan ada kepastian ada perintah atau tidak, " ujar Basaria  .
 Relasi: ujar(perintah# Basaria)
-Class: false
+Class: true
 
 Source: D:\openIE\data\preprocess\http-nasional-kompas-com-read-2017-11-30-08184221-kpk-telusuri-keterlibatan-gubernur-zumi-zola-dalam-suap-apbd-jambi.txt
 Kalimat ke-5: Baca:KPK Tetapkan Sekda , Kadis PU , dan Anggota DPRD Jambi sebagai Tersangka Kasus suap yang terjadi di Jambi terjadi antara eksekutif dan legislatif  .
@@ -36,12 +36,12 @@ Class: true
 Source: D:\openIE\data\preprocess\http-nasional-kompas-com-read-2017-11-30-08184221-kpk-telusuri-keterlibatan-gubernur-zumi-zola-dalam-suap-apbd-jambi.txt
 Kalimat ke-5: Baca:KPK Tetapkan Sekda , Kadis PU , dan Anggota DPRD Jambi sebagai Tersangka Kasus suap yang terjadi di Jambi terjadi antara eksekutif dan legislatif  .
 Relasi: terjadi antara(Tersangka Kasus suap# eksekutif)
-Class: false
+Class: true
 
 Source: D:\openIE\data\preprocess\http-nasional-kompas-com-read-2017-11-30-08184221-kpk-telusuri-keterlibatan-gubernur-zumi-zola-dalam-suap-apbd-jambi.txt
 Kalimat ke-6: KOMPAS.com/KURNIA SARI AZIZA Gubernur Jambi Zumi Zola.Pihak eksekutif selaku yang diduga sebagai pemberi suap dalam kasus ini adalah pelaksana tugas Sekretaris Daerah Provinsi Jambi , Erwan Malik ; Asisten Daerah III Provinsi Jambi , Saipudin ; [ elaksana tugas Kepala Dinas Pekerjaan Umum Provinsi Jambi , Arfan , dan satu tersangka penerima suap yakni Supriono selaku anggota DPRD Jambi  .
 Relasi: diduga sebagai(eksekutif# pemberi suap)
-Class: false
+Class: true
 
 Source: D:\openIE\data\preprocess\http-nasional-kompas-com-read-2017-11-30-08184221-kpk-telusuri-keterlibatan-gubernur-zumi-zola-dalam-suap-apbd-jambi.txt
 Kalimat ke-6: KOMPAS.com/KURNIA SARI AZIZA Gubernur Jambi Zumi Zola.Pihak eksekutif selaku yang diduga sebagai pemberi suap dalam kasus ini adalah pelaksana tugas Sekretaris Daerah Provinsi Jambi , Erwan Malik ; Asisten Daerah III Provinsi Jambi , Saipudin ; [ elaksana tugas Kepala Dinas Pekerjaan Umum Provinsi Jambi , Arfan , dan satu tersangka penerima suap yakni Supriono selaku anggota DPRD Jambi  .
@@ -86,7 +86,7 @@ Class: false
 Source: D:\openIE\data\preprocess\http-nasional-kompas-com-read-2017-11-30-08184221-kpk-telusuri-keterlibatan-gubernur-zumi-zola-dalam-suap-apbd-jambi.txt
 Kalimat ke-8: Baca:Dari Kasus Jambi , KPK Ingatkan Daerah Lain Tak Gunakan Modus " Uang Pelicin " APBD Menurut Basaria , uang diberikan agar anggota DPRD bersedia menghadiri rapat pembahasan R - APBD  .
 Relasi: diberikan agar(uang# anggota DPRD)
-Class: false
+Class: true
 
 Source: D:\openIE\data\preprocess\http-nasional-kompas-com-read-2017-11-30-08184221-kpk-telusuri-keterlibatan-gubernur-zumi-zola-dalam-suap-apbd-jambi.txt
 Kalimat ke-8: Baca:Dari Kasus Jambi , KPK Ingatkan Daerah Lain Tak Gunakan Modus " Uang Pelicin " APBD Menurut Basaria , uang diberikan agar anggota DPRD bersedia menghadiri rapat pembahasan R - APBD  .
@@ -96,7 +96,7 @@ Class: true
 Source: D:\openIE\data\preprocess\http-nasional-kompas-com-read-2017-11-30-08184221-kpk-telusuri-keterlibatan-gubernur-zumi-zola-dalam-suap-apbd-jambi.txt
 Kalimat ke-9: Basaria mengatakan , pihak eksekutif berkepentingan agar anggaran yang diajukan Pemprov Jambi dapat disetujui DPRD Jambi  .
 Relasi: mengatakan(Basaria# pihak eksekutif)
-Class: false
+Class: true
 
 Source: D:\openIE\data\preprocess\http-nasional-kompas-com-read-2017-11-30-08184221-kpk-telusuri-keterlibatan-gubernur-zumi-zola-dalam-suap-apbd-jambi.txt
 Kalimat ke-9: Basaria mengatakan , pihak eksekutif berkepentingan agar anggaran yang diajukan Pemprov Jambi dapat disetujui DPRD Jambi  .
@@ -106,22 +106,22 @@ Class: true
 Source: D:\openIE\data\preprocess\http-nasional-kompas-com-read-2017-11-30-08184221-kpk-telusuri-keterlibatan-gubernur-zumi-zola-dalam-suap-apbd-jambi.txt
 Kalimat ke-9: Basaria mengatakan , pihak eksekutif berkepentingan agar anggaran yang diajukan Pemprov Jambi dapat disetujui DPRD Jambi  .
 Relasi: diajukan(anggaran# Pemprov Jambi)
-Class: true
+Class: false
 
 Source: D:\openIE\data\preprocess\http-nasional-kompas-com-read-2017-11-30-08184221-kpk-telusuri-keterlibatan-gubernur-zumi-zola-dalam-suap-apbd-jambi.txt
 Kalimat ke-9: Basaria mengatakan , pihak eksekutif berkepentingan agar anggaran yang diajukan Pemprov Jambi dapat disetujui DPRD Jambi  .
 Relasi: dapat disetujui(Pemprov Jambi# DPRD Jambi)
-Class: false
+Class: true
 
 Source: D:\openIE\data\preprocess\http-nasional-kompas-com-read-2017-11-30-08184221-kpk-telusuri-keterlibatan-gubernur-zumi-zola-dalam-suap-apbd-jambi.txt
 Kalimat ke-10: Menurut KPK , uang suap disiapkan untuk semua fraksi di DPRD Jambi  .
 Relasi: disiapkan untuk(uang suap# semua fraksi)
-Class: false
+Class: true
 
 Source: D:\openIE\data\preprocess\http-nasional-kompas-com-read-2017-11-30-08184221-kpk-telusuri-keterlibatan-gubernur-zumi-zola-dalam-suap-apbd-jambi.txt
 Kalimat ke-11: " Sebelumnya , diduga sejumlah anggota DPRD berencana tidak hadir dalam rapat pengesahan R - APBD , karena tidak jaminan dari pihak Pemprov Jambi, " kata Basaria  .
 Relasi: diduga(Sebelumnya# sejumlah anggota DPRD)
-Class: false
+Class: true
 
 Source: D:\openIE\data\preprocess\http-nasional-kompas-com-read-2017-11-30-08184221-kpk-telusuri-keterlibatan-gubernur-zumi-zola-dalam-suap-apbd-jambi.txt
 Kalimat ke-11: " Sebelumnya , diduga sejumlah anggota DPRD berencana tidak hadir dalam rapat pengesahan R - APBD , karena tidak jaminan dari pihak Pemprov Jambi, " kata Basaria  .
@@ -131,7 +131,7 @@ Class: true
 Source: D:\openIE\data\preprocess\http-nasional-kompas-com-read-2017-11-30-08184221-kpk-telusuri-keterlibatan-gubernur-zumi-zola-dalam-suap-apbd-jambi.txt
 Kalimat ke-11: " Sebelumnya , diduga sejumlah anggota DPRD berencana tidak hadir dalam rapat pengesahan R - APBD , karena tidak jaminan dari pihak Pemprov Jambi, " kata Basaria  .
 Relasi: hadir dalam(sejumlah anggota DPRD# rapat pengesahan R)
-Class: false
+Class: true
 
 Source: D:\openIE\data\preprocess\http-nasional-kompas-com-read-2017-11-30-08184221-kpk-telusuri-keterlibatan-gubernur-zumi-zola-dalam-suap-apbd-jambi.txt
 Kalimat ke-11: " Sebelumnya , diduga sejumlah anggota DPRD berencana tidak hadir dalam rapat pengesahan R - APBD , karena tidak jaminan dari pihak Pemprov Jambi, " kata Basaria  .
@@ -151,12 +151,12 @@ Class: false
 Source: D:\openIE\data\preprocess\http-nasional-kompas-com-read-2017-11-30-08184221-kpk-telusuri-keterlibatan-gubernur-zumi-zola-dalam-suap-apbd-jambi.txt
 Kalimat ke-12: Baca:Suap Pejabat Pemprov dan Anggota DPRD Jambi Gunakan Kode Undangan Basaria menyebutkan , jaminan yang dimaksud adalah uang suap , atau yang sering disebut sebagai " uang ketok "  .
 Relasi: dimaksud adalah(jaminan# uang suap)
-Class: true
+Class: false
 
 Source: D:\openIE\data\preprocess\http-nasional-kompas-com-read-2017-11-30-08184221-kpk-telusuri-keterlibatan-gubernur-zumi-zola-dalam-suap-apbd-jambi.txt
 Kalimat ke-12: Baca:Suap Pejabat Pemprov dan Anggota DPRD Jambi Gunakan Kode Undangan Basaria menyebutkan , jaminan yang dimaksud adalah uang suap , atau yang sering disebut sebagai " uang ketok "  .
 Relasi: disebut sebagai(uang suap# uang ketok)
-Class: false
+Class: true
 
 Source: D:\openIE\data\preprocess\http-nasional-kompas-com-read-2017-11-30-08184221-kpk-telusuri-keterlibatan-gubernur-zumi-zola-dalam-suap-apbd-jambi.txt
 Kalimat ke-13: Kompas TV Komisi Pemberantasan Korupsi membawa 4 dari 10 orang yang ditangkap dalam operasi tangkap tangan di Jambi  .
@@ -166,7 +166,7 @@ Class: true
 Source: D:\openIE\data\preprocess\http-nasional-kompas-com-read-2017-11-30-08184221-kpk-telusuri-keterlibatan-gubernur-zumi-zola-dalam-suap-apbd-jambi.txt
 Kalimat ke-13: Kompas TV Komisi Pemberantasan Korupsi membawa 4 dari 10 orang yang ditangkap dalam operasi tangkap tangan di Jambi  .
 Relasi: ditangkap dalam(10 orang# operasi)
-Class: false
+Class: true
 
 Source: D:\openIE\data\preprocess\http-nasional-kompas-com-read-2017-11-30-08184221-kpk-telusuri-keterlibatan-gubernur-zumi-zola-dalam-suap-apbd-jambi.txt
 Kalimat ke-13: Kompas TV Komisi Pemberantasan Korupsi membawa 4 dari 10 orang yang ditangkap dalam operasi tangkap tangan di Jambi  .

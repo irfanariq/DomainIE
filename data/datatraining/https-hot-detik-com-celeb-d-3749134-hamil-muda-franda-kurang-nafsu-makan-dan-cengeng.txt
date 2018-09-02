@@ -1,22 +1,22 @@
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749134-hamil-muda-franda-kurang-nafsu-makan-dan-cengeng.txt
 Kalimat ke-1: Franda sedang menikmati masa - masa kehamilan  .
 Relasi: menikmati(Franda# masa)
-Class: false
+Class: true
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749134-hamil-muda-franda-kurang-nafsu-makan-dan-cengeng.txt
 Kalimat ke-2: Kini usia kandungannya sudah memasuki 18 minggu  .
 Relasi: sudah memasuki(usia kandungannya# 18 minggu)
-Class: false
+Class: true
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749134-hamil-muda-franda-kurang-nafsu-makan-dan-cengeng.txt
 Kalimat ke-3: Berbagai perubahan pun mulai dirasakan istri Samuel Zilgwyn itu  .
 Relasi: mulai dirasakan(Berbagai perubahan# istri Samuel Zilgwyn)
-Class: false
+Class: true
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749134-hamil-muda-franda-kurang-nafsu-makan-dan-cengeng.txt
 Kalimat ke-4: Meski tidak mengalami muntah - muntah yang berlebihan , Franda justru merasakan tidak nafsu makan dan membuat berat badannya hanya bertambah sedikit  .
 Relasi: merasakan(Franda justru# nafsu)
-Class: true
+Class: false
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749134-hamil-muda-franda-kurang-nafsu-makan-dan-cengeng.txt
 Kalimat ke-4: Meski tidak mengalami muntah - muntah yang berlebihan , Franda justru merasakan tidak nafsu makan dan membuat berat badannya hanya bertambah sedikit  .
@@ -26,7 +26,7 @@ Class: true
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749134-hamil-muda-franda-kurang-nafsu-makan-dan-cengeng.txt
 Kalimat ke-4: Meski tidak mengalami muntah - muntah yang berlebihan , Franda justru merasakan tidak nafsu makan dan membuat berat badannya hanya bertambah sedikit  .
 Relasi: membuat(nafsu# berat badannya)
-Class: false
+Class: true
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749134-hamil-muda-franda-kurang-nafsu-makan-dan-cengeng.txt
 Kalimat ke-5: " Mual dikit - dikit sih ada kalau lagi di mobil , gosok gigi , tapi tidak yang parah  .
@@ -36,27 +36,27 @@ Class: true
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749134-hamil-muda-franda-kurang-nafsu-makan-dan-cengeng.txt
 Kalimat ke-5: " Mual dikit - dikit sih ada kalau lagi di mobil , gosok gigi , tapi tidak yang parah  .
 Relasi: dikit(Mual# sih)
-Class: false
+Class: true
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749134-hamil-muda-franda-kurang-nafsu-makan-dan-cengeng.txt
 Kalimat ke-5: " Mual dikit - dikit sih ada kalau lagi di mobil , gosok gigi , tapi tidak yang parah  .
 Relasi: ada(sih# mobil)
-Class: false
+Class: true
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749134-hamil-muda-franda-kurang-nafsu-makan-dan-cengeng.txt
 Kalimat ke-6: Terus yang lebih dirasain agak kurang nafsu makan , sekarang itu pas 16 minggu cek up ke dokter , aku baru naik 0,8 kilogram , seharusnya aku naik 4 kilogram  .
 Relasi: makan(nafsu# sekarang)
-Class: false
+Class: true
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749134-hamil-muda-franda-kurang-nafsu-makan-dan-cengeng.txt
 Kalimat ke-6: Terus yang lebih dirasain agak kurang nafsu makan , sekarang itu pas 16 minggu cek up ke dokter , aku baru naik 0,8 kilogram , seharusnya aku naik 4 kilogram  .
 Relasi: naik(aku# 0,8 kilogram)
-Class: false
+Class: true
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749134-hamil-muda-franda-kurang-nafsu-makan-dan-cengeng.txt
 Kalimat ke-6: Terus yang lebih dirasain agak kurang nafsu makan , sekarang itu pas 16 minggu cek up ke dokter , aku baru naik 0,8 kilogram , seharusnya aku naik 4 kilogram  .
 Relasi: naik(aku# 0,8 kilogram)
-Class: false
+Class: true
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749134-hamil-muda-franda-kurang-nafsu-makan-dan-cengeng.txt
 Kalimat ke-7: Padahal sudah memaksa makan , cuma tidak tahu tidak nafsu makan, " jelas Franda ditemui saat peluncuran aplikasi ' Teman Bumil ' di Hotel Grand Haytt , Jakarta Pusat , Rabu ( 29/11/2017 )  .
@@ -76,7 +76,7 @@ Class: false
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749134-hamil-muda-franda-kurang-nafsu-makan-dan-cengeng.txt
 Kalimat ke-8: Foto : Gus Mun/detikHOT Franda yang biasanya doyan ngemil , ini sama sekali tidak tertarik melihat makanan  .
 Relasi: tertarik melihat(doyan ngemil# makanan)
-Class: true
+Class: false
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749134-hamil-muda-franda-kurang-nafsu-makan-dan-cengeng.txt
 Kalimat ke-12: Biasanya aku doyan banget ngemil , kayak coklat , ice cream , tapi pas hamil jadi tidak doyan, " tuturnya  .
@@ -86,7 +86,7 @@ Class: true
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749134-hamil-muda-franda-kurang-nafsu-makan-dan-cengeng.txt
 Kalimat ke-13: Selain nafsu makan yang berkurang , emosi Franda juga jadi lebih mudah terbawa perasaan  .
 Relasi: makan(Selain nafsu# emosi Franda)
-Class: false
+Class: true
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749134-hamil-muda-franda-kurang-nafsu-makan-dan-cengeng.txt
 Kalimat ke-13: Selain nafsu makan yang berkurang , emosi Franda juga jadi lebih mudah terbawa perasaan  .

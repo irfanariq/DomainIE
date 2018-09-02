@@ -21,7 +21,7 @@ Class: true
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749045-masih-jomblo-tina-toon-tantang-bawa-gandengan-saat-natal.txt
 Kalimat ke-4: Ini tanggal berapa ini sekarang , berarti Gue punya waktu 20 hari  .
 Relasi: berarti(sekarang# Gue)
-Class: true
+Class: false
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749045-masih-jomblo-tina-toon-tantang-bawa-gandengan-saat-natal.txt
 Kalimat ke-4: Ini tanggal berapa ini sekarang , berarti Gue punya waktu 20 hari  .
@@ -41,7 +41,7 @@ Class: true
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749045-masih-jomblo-tina-toon-tantang-bawa-gandengan-saat-natal.txt
 Kalimat ke-9: Ya yang penting kira - kira bisa diterima oleh keluarga lah  .
 Relasi: bisa diterima oleh(kira# keluarga lah)
-Class: true
+Class: false
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749045-masih-jomblo-tina-toon-tantang-bawa-gandengan-saat-natal.txt
 Kalimat ke-10: Kan kita bawa kenalin ke keluarga yang kira - kira diterima keluarga dong  .

@@ -1,7 +1,7 @@
 Source: D:\openIE\data\preprocess\https-news-detik-com-berita-d-3749611-fraksi-pd-pan-belum-setujui-rapbd-dki-2018.txt
 Kalimat ke-1: Fraksi Partai Demokrat dan PAN belum menyepakati Rancangan APBD DKI 2018  .
 Relasi: menyepakati(PAN# Rancangan APBD DKI 2018)
-Class: true
+Class: false
 
 Source: D:\openIE\data\preprocess\https-news-detik-com-berita-d-3749611-fraksi-pd-pan-belum-setujui-rapbd-dki-2018.txt
 Kalimat ke-2: Pemprov DKI diminta meninjau kembali RAPBD tersebut  .
@@ -11,7 +11,7 @@ Class: false
 Source: D:\openIE\data\preprocess\https-news-detik-com-berita-d-3749611-fraksi-pd-pan-belum-setujui-rapbd-dki-2018.txt
 Kalimat ke-3: " Belum dapat menyetujui RAPBD 2018 dan meminta dilakukan peninjauan kembali  .
 Relasi: meminta dilakukan(RAPBD 2018# peninjauan)
-Class: false
+Class: true
 
 Source: D:\openIE\data\preprocess\https-news-detik-com-berita-d-3749611-fraksi-pd-pan-belum-setujui-rapbd-dki-2018.txt
 Kalimat ke-4: Khususnya terkait penambahan belanja daerah yang berasal dari optimalisasi pajak daerah, " ujar Ketua Fraksi Demokrat - PAN DPRD DKI Jakarta Taufiqurrahman dalam keterangannya , Kamis ( 30/11/2017 )  .
@@ -31,7 +31,7 @@ Class: true
 Source: D:\openIE\data\preprocess\https-news-detik-com-berita-d-3749611-fraksi-pd-pan-belum-setujui-rapbd-dki-2018.txt
 Kalimat ke-5: Menurutnya , proyeksi target penerimaan pajak daerah yang direncanakan sebesar Rp 38,1-1 triliun , di mana terjadi peningkatan Rp 2,76 triliun atau 7,8-8 persen dari APBD 2017  .
 Relasi: terjadi(mana# peningkatan Rp 2,76 triliun)
-Class: false
+Class: true
 
 Source: D:\openIE\data\preprocess\https-news-detik-com-berita-d-3749611-fraksi-pd-pan-belum-setujui-rapbd-dki-2018.txt
 Kalimat ke-6: Dirinya menilai peningkatan itu tidak wajar dan terlampau optimistis , terlebih saat kondisi ekonomi yang sedang lesu  .
@@ -61,12 +61,12 @@ Class: true
 Source: D:\openIE\data\preprocess\https-news-detik-com-berita-d-3749611-fraksi-pd-pan-belum-setujui-rapbd-dki-2018.txt
 Kalimat ke-10: " Usulan dari Fraksi Demokrat - PAN untuk dilakukannya pemutihan tunggakan dan denda bagi 528.91-91 peserta BPJS kategori peserta bukan penerima upah ( PBPU ) kelas 1 , 2 , 3 dengan total tunggakan Rp 252,4 miliar belum terakomodasi di RAPBD 2018, " paparnya  .
 Relasi: dilakukannya(PAN# pemutihan tunggakan)
-Class: true
+Class: false
 
 Source: D:\openIE\data\preprocess\https-news-detik-com-berita-d-3749611-fraksi-pd-pan-belum-setujui-rapbd-dki-2018.txt
 Kalimat ke-10: " Usulan dari Fraksi Demokrat - PAN untuk dilakukannya pemutihan tunggakan dan denda bagi 528.91-91 peserta BPJS kategori peserta bukan penerima upah ( PBPU ) kelas 1 , 2 , 3 dengan total tunggakan Rp 252,4 miliar belum terakomodasi di RAPBD 2018, " paparnya  .
 Relasi: penerima(2# upah)
-Class: true
+Class: false
 
 Source: D:\openIE\data\preprocess\https-news-detik-com-berita-d-3749611-fraksi-pd-pan-belum-setujui-rapbd-dki-2018.txt
 Kalimat ke-10: " Usulan dari Fraksi Demokrat - PAN untuk dilakukannya pemutihan tunggakan dan denda bagi 528.91-91 peserta BPJS kategori peserta bukan penerima upah ( PBPU ) kelas 1 , 2 , 3 dengan total tunggakan Rp 252,4 miliar belum terakomodasi di RAPBD 2018, " paparnya  .
@@ -76,22 +76,22 @@ Class: true
 Source: D:\openIE\data\preprocess\https-news-detik-com-berita-d-3749611-fraksi-pd-pan-belum-setujui-rapbd-dki-2018.txt
 Kalimat ke-12: Baca juga : Rapat Banggar Usai , RAPBD DKI 2018 Ditetapkan Rp 77,117 Triliun Sebelumnya , pembahasan RAPBD DKI 2018 ditetapkan dari Rp 77,110 triliun menjadi Rp 77,117 triliun  .
 Relasi: Usai(Rapat Banggar# RAPBD DKI 2018)
-Class: false
+Class: true
 
 Source: D:\openIE\data\preprocess\https-news-detik-com-berita-d-3749611-fraksi-pd-pan-belum-setujui-rapbd-dki-2018.txt
 Kalimat ke-12: Baca juga : Rapat Banggar Usai , RAPBD DKI 2018 Ditetapkan Rp 77,117 Triliun Sebelumnya , pembahasan RAPBD DKI 2018 ditetapkan dari Rp 77,110 triliun menjadi Rp 77,117 triliun  .
 Relasi: Ditetapkan(RAPBD DKI 2018# Rp 77,117 Triliun Sebelumnya)
-Class: true
+Class: false
 
 Source: D:\openIE\data\preprocess\https-news-detik-com-berita-d-3749611-fraksi-pd-pan-belum-setujui-rapbd-dki-2018.txt
 Kalimat ke-12: Baca juga : Rapat Banggar Usai , RAPBD DKI 2018 Ditetapkan Rp 77,117 Triliun Sebelumnya , pembahasan RAPBD DKI 2018 ditetapkan dari Rp 77,110 triliun menjadi Rp 77,117 triliun  .
 Relasi: ditetapkan dari(pembahasan RAPBD DKI 2018# Rp 77,110 triliun)
-Class: true
+Class: false
 
 Source: D:\openIE\data\preprocess\https-news-detik-com-berita-d-3749611-fraksi-pd-pan-belum-setujui-rapbd-dki-2018.txt
 Kalimat ke-12: Baca juga : Rapat Banggar Usai , RAPBD DKI 2018 Ditetapkan Rp 77,117 Triliun Sebelumnya , pembahasan RAPBD DKI 2018 ditetapkan dari Rp 77,110 triliun menjadi Rp 77,117 triliun  .
 Relasi: menjadi(Rp 77,110 triliun# Rp 77,117 triliun)
-Class: false
+Class: true
 
 Source: D:\openIE\data\preprocess\https-news-detik-com-berita-d-3749611-fraksi-pd-pan-belum-setujui-rapbd-dki-2018.txt
 Kalimat ke-13: Beberapa pos yang dinilai tidak wajar telah dihapus dari anggaran , termasuk anggaran kolam air mancur di DPRD DKI sebesar Rp 6-60 juta  .
@@ -106,17 +106,17 @@ Class: true
 Source: D:\openIE\data\preprocess\https-news-detik-com-berita-d-3749611-fraksi-pd-pan-belum-setujui-rapbd-dki-2018.txt
 Kalimat ke-13: Beberapa pos yang dinilai tidak wajar telah dihapus dari anggaran , termasuk anggaran kolam air mancur di DPRD DKI sebesar Rp 6-60 juta  .
 Relasi: termasuk anggaran kolam air mancur di(anggaran# DPRD DKI)
-Class: false
+Class: true
 
 Source: D:\openIE\data\preprocess\https-news-detik-com-berita-d-3749611-fraksi-pd-pan-belum-setujui-rapbd-dki-2018.txt
 Kalimat ke-16: Dari RAPBD awalnya adalah 77,110 triliun  .
 Relasi: adalah(RAPBD# 77,110 triliun)
-Class: false
+Class: true
 
 Source: D:\openIE\data\preprocess\https-news-detik-com-berita-d-3749611-fraksi-pd-pan-belum-setujui-rapbd-dki-2018.txt
 Kalimat ke-17: Setelah pembahasan bersama antara Banggar dan TAPD menjadi Rp 77,117 triliun , termasuk program multiyears, " kata pimpinan Banggar Triwisaksana di DPRD DKI , Jalan Kebon Sirih , Jakarta Pusat , Selasa ( 28/11 )  .
 Relasi: menjadi(TAPD# Rp 77,117 triliun)
-Class: false
+Class: true
 
 Source: D:\openIE\data\preprocess\https-news-detik-com-berita-d-3749611-fraksi-pd-pan-belum-setujui-rapbd-dki-2018.txt
 Kalimat ke-17: Setelah pembahasan bersama antara Banggar dan TAPD menjadi Rp 77,117 triliun , termasuk program multiyears, " kata pimpinan Banggar Triwisaksana di DPRD DKI , Jalan Kebon Sirih , Jakarta Pusat , Selasa ( 28/11 )  .
@@ -126,6 +126,6 @@ Class: true
 Source: D:\openIE\data\preprocess\https-news-detik-com-berita-d-3749611-fraksi-pd-pan-belum-setujui-rapbd-dki-2018.txt
 Kalimat ke-17: Setelah pembahasan bersama antara Banggar dan TAPD menjadi Rp 77,117 triliun , termasuk program multiyears, " kata pimpinan Banggar Triwisaksana di DPRD DKI , Jalan Kebon Sirih , Jakarta Pusat , Selasa ( 28/11 )  .
 Relasi: kata pimpinan Banggar Triwisaksana di(program# DPRD DKI)
-Class: false
+Class: true
 
 

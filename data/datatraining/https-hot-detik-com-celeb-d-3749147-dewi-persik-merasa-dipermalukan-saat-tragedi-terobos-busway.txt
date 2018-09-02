@@ -6,7 +6,7 @@ Class: true
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749147-dewi-persik-merasa-dipermalukan-saat-tragedi-terobos-busway.txt
 Kalimat ke-1: Dewi Persik menjadi perbincangan setelah beredar video masuk busway dan dikerubuti warga  .
 Relasi: beredar(perbincangan# video)
-Class: false
+Class: true
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749147-dewi-persik-merasa-dipermalukan-saat-tragedi-terobos-busway.txt
 Kalimat ke-1: Dewi Persik menjadi perbincangan setelah beredar video masuk busway dan dikerubuti warga  .
@@ -16,12 +16,12 @@ Class: false
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749147-dewi-persik-merasa-dipermalukan-saat-tragedi-terobos-busway.txt
 Kalimat ke-1: Dewi Persik menjadi perbincangan setelah beredar video masuk busway dan dikerubuti warga  .
 Relasi: dikerubuti(busway# warga)
-Class: false
+Class: true
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749147-dewi-persik-merasa-dipermalukan-saat-tragedi-terobos-busway.txt
 Kalimat ke-3: " Dampaknya saya dipermalukan dalam video itu , di situ saya dikatain monyet , padahal kan saya di sini masuk busway atas perintah polisi , bukan asal - asalan, " ungkapnya saat ditemui di Gedung Trans TV , Jalan Kapten Tendean , Jakarta Selatan , Rabu ( 29/11/2017 )  .
 Relasi: dipermalukan dalam(Dampaknya# video)
-Class: true
+Class: false
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749147-dewi-persik-merasa-dipermalukan-saat-tragedi-terobos-busway.txt
 Kalimat ke-3: " Dampaknya saya dipermalukan dalam video itu , di situ saya dikatain monyet , padahal kan saya di sini masuk busway atas perintah polisi , bukan asal - asalan, " ungkapnya saat ditemui di Gedung Trans TV , Jalan Kapten Tendean , Jakarta Selatan , Rabu ( 29/11/2017 )  .
@@ -31,7 +31,7 @@ Class: true
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749147-dewi-persik-merasa-dipermalukan-saat-tragedi-terobos-busway.txt
 Kalimat ke-3: " Dampaknya saya dipermalukan dalam video itu , di situ saya dikatain monyet , padahal kan saya di sini masuk busway atas perintah polisi , bukan asal - asalan, " ungkapnya saat ditemui di Gedung Trans TV , Jalan Kapten Tendean , Jakarta Selatan , Rabu ( 29/11/2017 )  .
 Relasi: masuk busway atas(monyet# perintah polisi)
-Class: false
+Class: true
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749147-dewi-persik-merasa-dipermalukan-saat-tragedi-terobos-busway.txt
 Kalimat ke-3: " Dampaknya saya dipermalukan dalam video itu , di situ saya dikatain monyet , padahal kan saya di sini masuk busway atas perintah polisi , bukan asal - asalan, " ungkapnya saat ditemui di Gedung Trans TV , Jalan Kapten Tendean , Jakarta Selatan , Rabu ( 29/11/2017 )  .
@@ -46,22 +46,22 @@ Class: false
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749147-dewi-persik-merasa-dipermalukan-saat-tragedi-terobos-busway.txt
 Kalimat ke-4: Dewi Persik bersama suaminya memang nekad masuk jalur TransJakarta karena tengah membawa orang sakit  .
 Relasi: membawa(tengah# orang)
-Class: false
-
-Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749147-dewi-persik-merasa-dipermalukan-saat-tragedi-terobos-busway.txt
-Kalimat ke-6: Dewi Persik Foto : Palevi S/detikHOT Ketika hendak masuk busway , petugas ternyata tidak membuka palang penghalang  .
-Relasi: hendak masuk(Palevi# busway)
 Class: true
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749147-dewi-persik-merasa-dipermalukan-saat-tragedi-terobos-busway.txt
 Kalimat ke-6: Dewi Persik Foto : Palevi S/detikHOT Ketika hendak masuk busway , petugas ternyata tidak membuka palang penghalang  .
-Relasi: membuka(petugas# palang penghalang)
+Relasi: hendak masuk(Palevi# busway)
 Class: false
+
+Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749147-dewi-persik-merasa-dipermalukan-saat-tragedi-terobos-busway.txt
+Kalimat ke-6: Dewi Persik Foto : Palevi S/detikHOT Ketika hendak masuk busway , petugas ternyata tidak membuka palang penghalang  .
+Relasi: membuka(petugas# palang penghalang)
+Class: true
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749147-dewi-persik-merasa-dipermalukan-saat-tragedi-terobos-busway.txt
 Kalimat ke-8: Warga langsung menghampiri mobil Depe , ia pun terpaksa turun karena berniat menolong suaminya yang tengah terlibat adu mulut  .
 Relasi: menghampiri(Warga# mobil Depe)
-Class: false
+Class: true
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749147-dewi-persik-merasa-dipermalukan-saat-tragedi-terobos-busway.txt
 Kalimat ke-8: Warga langsung menghampiri mobil Depe , ia pun terpaksa turun karena berniat menolong suaminya yang tengah terlibat adu mulut  .
@@ -71,17 +71,17 @@ Class: false
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749147-dewi-persik-merasa-dipermalukan-saat-tragedi-terobos-busway.txt
 Kalimat ke-8: Warga langsung menghampiri mobil Depe , ia pun terpaksa turun karena berniat menolong suaminya yang tengah terlibat adu mulut  .
 Relasi: berniat menolong(mobil Depe# suaminya)
-Class: false
+Class: true
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749147-dewi-persik-merasa-dipermalukan-saat-tragedi-terobos-busway.txt
 Kalimat ke-8: Warga langsung menghampiri mobil Depe , ia pun terpaksa turun karena berniat menolong suaminya yang tengah terlibat adu mulut  .
 Relasi: terlibat(tengah# adu mulut)
-Class: false
+Class: true
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749147-dewi-persik-merasa-dipermalukan-saat-tragedi-terobos-busway.txt
 Kalimat ke-9: Dalam video itu , terdengar kata - kata yang menyakiti hati Depe , termasuk menghardiknya dengan ucapan publik figur yang tak tahu aturan  .
 Relasi: terdengar kata(video# hati Depe)
-Class: true
+Class: false
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749147-dewi-persik-merasa-dipermalukan-saat-tragedi-terobos-busway.txt
 Kalimat ke-9: Dalam video itu , terdengar kata - kata yang menyakiti hati Depe , termasuk menghardiknya dengan ucapan publik figur yang tak tahu aturan  .
@@ -96,22 +96,22 @@ Class: false
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749147-dewi-persik-merasa-dipermalukan-saat-tragedi-terobos-busway.txt
 Kalimat ke-9: Dalam video itu , terdengar kata - kata yang menyakiti hati Depe , termasuk menghardiknya dengan ucapan publik figur yang tak tahu aturan  .
 Relasi: termasuk menghardiknya dengan(hati Depe# ucapan publik figur)
-Class: false
+Class: true
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749147-dewi-persik-merasa-dipermalukan-saat-tragedi-terobos-busway.txt
 Kalimat ke-9: Dalam video itu , terdengar kata - kata yang menyakiti hati Depe , termasuk menghardiknya dengan ucapan publik figur yang tak tahu aturan  .
 Relasi: tahu(ucapan publik figur# aturan)
-Class: true
+Class: false
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749147-dewi-persik-merasa-dipermalukan-saat-tragedi-terobos-busway.txt
 Kalimat ke-11: Jangan bilang wong cilik atau apa , tidak ingin saya jadi publik figur , status itu kan dibuat masyarakat untuk saya  .
 Relasi: ingin(wong cilik# jadi publik figur)
-Class: true
+Class: false
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749147-dewi-persik-merasa-dipermalukan-saat-tragedi-terobos-busway.txt
 Kalimat ke-13: Saksikan video rodetik untuk melihat tanggapan Dewi Persik untuk melaporkan petugas patroli Transjakarta ke polisi di sini : [ Gambas:Video rodetik ] ( nu2/nu-nu ) dewi persik dewi persik terobos busway Photo Gallery 1 celeb So Sweet !
 Relasi: melihat tanggapan Dewi Persik untuk melaporkan petugas patroli Transjakarta ke(rodetik# polisi)
-Class: false
+Class: true
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749147-dewi-persik-merasa-dipermalukan-saat-tragedi-terobos-busway.txt
 Kalimat ke-13: Saksikan video rodetik untuk melihat tanggapan Dewi Persik untuk melaporkan petugas patroli Transjakarta ke polisi di sini : [ Gambas:Video rodetik ] ( nu2/nu-nu ) dewi persik dewi persik terobos busway Photo Gallery 1 celeb So Sweet !
@@ -121,7 +121,7 @@ Class: true
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749147-dewi-persik-merasa-dipermalukan-saat-tragedi-terobos-busway.txt
 Kalimat ke-21: Saat Sang Suami Bantu Dewi Persik Lewati Genangan 1 celeb Yang Baju Merah Jangan Sampai Lolos !
 Relasi: Sampai(Baju# Lolos)
-Class: false
+Class: true
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749147-dewi-persik-merasa-dipermalukan-saat-tragedi-terobos-busway.txt
 Kalimat ke-22: Seksinya Dewi Persik celeb Yang Baju Merah Jangan Sampai Lolos !
@@ -131,12 +131,12 @@ Class: true
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749147-dewi-persik-merasa-dipermalukan-saat-tragedi-terobos-busway.txt
 Kalimat ke-23: Seksinya Dewi Persik celeb Yang Baju Merah Jangan Sampai Lolos !
 Relasi: Sampai(Baju# Lolos)
-Class: true
+Class: false
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749147-dewi-persik-merasa-dipermalukan-saat-tragedi-terobos-busway.txt
 Kalimat ke-24: Seksinya Dewi Persik celeb Yang Baju Merah Jangan Sampai Lolos !
 Relasi: Sampai(Baju# Lolos)
-Class: true
+Class: false
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749147-dewi-persik-merasa-dipermalukan-saat-tragedi-terobos-busway.txt
 Kalimat ke-25: Seksinya Dewi Persik celeb Yang Baju Merah Jangan Sampai Lolos !
@@ -146,7 +146,7 @@ Class: true
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749147-dewi-persik-merasa-dipermalukan-saat-tragedi-terobos-busway.txt
 Kalimat ke-26: Seksinya Dewi Persik celeb Yang Baju Merah Jangan Sampai Lolos !
 Relasi: Sampai(Baju# Lolos)
-Class: false
+Class: true
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749147-dewi-persik-merasa-dipermalukan-saat-tragedi-terobos-busway.txt
 Kalimat ke-27: Seksinya Dewi Persik 2 celeb Disebut Sudah Menikah , Ini Kemesraan Dewi Persik dan Angga Wijaya celeb Disebut Sudah Menikah , Ini Kemesraan Dewi Persik dan Angga Wijaya celeb Disebut Sudah Menikah , Ini Kemesraan Dewi Persik dan Angga Wijaya celeb Disebut Sudah Menikah , Ini Kemesraan Dewi Persik dan Angga Wijaya celeb Disebut Sudah Menikah , Ini Kemesraan Dewi Persik dan Angga Wijaya celeb Disebut Sudah Menikah , Ini Kemesraan Dewi Persik dan Angga Wijaya celeb Disebut Sudah Menikah , Ini Kemesraan Dewi Persik dan Angga Wijaya 3 celeb Mikha Tambayong Tampil Seksi , Dewi Persik Sebut Arab Gede - gede celeb Mikha Tambayong Tampil Seksi , Dewi Persik Sebut Arab Gede - gede celeb Mikha Tambayong Tampil Seksi , Dewi Persik Sebut Arab Gede - gede celeb Mikha Tambayong Tampil Seksi , Dewi Persik Sebut Arab Gede - gede celeb Mikha Tambayong Tampil Seksi , Dewi Persik Sebut Arab Gede - gede celeb Mikha Tambayong Tampil Seksi , Dewi Persik Sebut Arab Gede - gede 4 celeb Dewi Persik Takut karena Orang Arab Gede - gede , Apanya ?
@@ -176,11 +176,11 @@ Class: false
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749147-dewi-persik-merasa-dipermalukan-saat-tragedi-terobos-busway.txt
 Kalimat ke-27: Seksinya Dewi Persik 2 celeb Disebut Sudah Menikah , Ini Kemesraan Dewi Persik dan Angga Wijaya celeb Disebut Sudah Menikah , Ini Kemesraan Dewi Persik dan Angga Wijaya celeb Disebut Sudah Menikah , Ini Kemesraan Dewi Persik dan Angga Wijaya celeb Disebut Sudah Menikah , Ini Kemesraan Dewi Persik dan Angga Wijaya celeb Disebut Sudah Menikah , Ini Kemesraan Dewi Persik dan Angga Wijaya celeb Disebut Sudah Menikah , Ini Kemesraan Dewi Persik dan Angga Wijaya celeb Disebut Sudah Menikah , Ini Kemesraan Dewi Persik dan Angga Wijaya 3 celeb Mikha Tambayong Tampil Seksi , Dewi Persik Sebut Arab Gede - gede celeb Mikha Tambayong Tampil Seksi , Dewi Persik Sebut Arab Gede - gede celeb Mikha Tambayong Tampil Seksi , Dewi Persik Sebut Arab Gede - gede celeb Mikha Tambayong Tampil Seksi , Dewi Persik Sebut Arab Gede - gede celeb Mikha Tambayong Tampil Seksi , Dewi Persik Sebut Arab Gede - gede celeb Mikha Tambayong Tampil Seksi , Dewi Persik Sebut Arab Gede - gede 4 celeb Dewi Persik Takut karena Orang Arab Gede - gede , Apanya ?
 Relasi: Disebut(Seksinya Dewi Persik 2 celeb# Menikah)
-Class: false
+Class: true
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749147-dewi-persik-merasa-dipermalukan-saat-tragedi-terobos-busway.txt
 Kalimat ke-27: Seksinya Dewi Persik 2 celeb Disebut Sudah Menikah , Ini Kemesraan Dewi Persik dan Angga Wijaya celeb Disebut Sudah Menikah , Ini Kemesraan Dewi Persik dan Angga Wijaya celeb Disebut Sudah Menikah , Ini Kemesraan Dewi Persik dan Angga Wijaya celeb Disebut Sudah Menikah , Ini Kemesraan Dewi Persik dan Angga Wijaya celeb Disebut Sudah Menikah , Ini Kemesraan Dewi Persik dan Angga Wijaya celeb Disebut Sudah Menikah , Ini Kemesraan Dewi Persik dan Angga Wijaya celeb Disebut Sudah Menikah , Ini Kemesraan Dewi Persik dan Angga Wijaya 3 celeb Mikha Tambayong Tampil Seksi , Dewi Persik Sebut Arab Gede - gede celeb Mikha Tambayong Tampil Seksi , Dewi Persik Sebut Arab Gede - gede celeb Mikha Tambayong Tampil Seksi , Dewi Persik Sebut Arab Gede - gede celeb Mikha Tambayong Tampil Seksi , Dewi Persik Sebut Arab Gede - gede celeb Mikha Tambayong Tampil Seksi , Dewi Persik Sebut Arab Gede - gede celeb Mikha Tambayong Tampil Seksi , Dewi Persik Sebut Arab Gede - gede 4 celeb Dewi Persik Takut karena Orang Arab Gede - gede , Apanya ?
 Relasi: Disebut(Seksinya Dewi Persik 2 celeb# Menikah)
-Class: false
+Class: true
 
 

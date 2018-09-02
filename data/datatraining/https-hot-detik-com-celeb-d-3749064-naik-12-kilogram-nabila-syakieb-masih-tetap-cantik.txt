@@ -31,7 +31,7 @@ Class: true
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749064-naik-12-kilogram-nabila-syakieb-masih-tetap-cantik.txt
 Kalimat ke-11: Makeup kalau lagi ada acara saja , kayak hari ini, " ucapnya tersipu  .
 Relasi: ada(Makeup# acara)
-Class: true
+Class: false
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749064-naik-12-kilogram-nabila-syakieb-masih-tetap-cantik.txt
 Kalimat ke-12: " Berat badan naik banget , sampai hari ini sudah sampai 1-1 kilogram lebih , iya udah, " imbuh Nabila  .
@@ -46,37 +46,22 @@ Class: false
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749064-naik-12-kilogram-nabila-syakieb-masih-tetap-cantik.txt
 Kalimat ke-12: " Berat badan naik banget , sampai hari ini sudah sampai 1-1 kilogram lebih , iya udah, " imbuh Nabila  .
 Relasi: sudah sampai(hari# 1-1 kilogram)
-Class: false
+Class: true
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749064-naik-12-kilogram-nabila-syakieb-masih-tetap-cantik.txt
 Kalimat ke-13: Beruntung sang suami membebaskan dirinya untuk menyesuaikan gaya penampilan sehari - harinya  .
 Relasi: membebaskan dirinya untuk menyesuaikan(suami# gaya penampilan)
-Class: false
+Class: true
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749064-naik-12-kilogram-nabila-syakieb-masih-tetap-cantik.txt
 Kalimat ke-15: " Beberapa kali pakai heels cuma beberapa kali  .
 Relasi: heels cuma(Beberapa kali pakai# beberapa kali)
-Class: false
+Class: true
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749064-naik-12-kilogram-nabila-syakieb-masih-tetap-cantik.txt
 Kalimat ke-17: Ngerasa lebih nyaman dan aman aja, " pungkas Nabila Syakieb  .
 Relasi: pungkas(aman# Nabila Syakieb)
-Class: false
-
-Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749064-naik-12-kilogram-nabila-syakieb-masih-tetap-cantik.txt
-Kalimat ke-31: Bahagianya Nabila Syakieb Menikah dengan Reshwara Argya 3 photo Kecantikan Alami Nabila Syakieb photo Kecantikan Alami Nabila Syakieb photo Kecantikan Alami Nabila Syakieb photo Kecantikan Alami Nabila Syakieb photo Kecantikan Alami Nabila Syakieb 4 photo Lihat Nabila Syakieb Berhijab Bikin Hati Jadi Sejuk photo Lihat Nabila Syakieb Berhijab Bikin Hati Jadi Sejuk photo Lihat Nabila Syakieb Berhijab Bikin Hati Jadi Sejuk photo Lihat Nabila Syakieb Berhijab Bikin Hati Jadi Sejuk photo Lihat Nabila Syakieb Berhijab Bikin Hati Jadi Sejuk photo Lihat Nabila Syakieb Berhijab Bikin Hati Jadi Sejuk 5 photo Ngintip Nabila Syakieb yang Sangat Cantik Nggak Bikin Batal Puasa Kok photo Ngintip Nabila Syakieb yang Sangat Cantik Nggak Bikin Batal Puasa Kok photo Ngintip Nabila Syakieb yang Sangat Cantik Nggak Bikin Batal Puasa Kok photo Ngintip Nabila Syakieb yang Sangat Cantik Nggak Bikin Batal Puasa Kok photo Ngintip Nabila Syakieb yang Sangat Cantik Nggak Bikin Batal Puasa Kok photo Ngintip Nabila Syakieb yang Sangat Cantik Nggak Bikin Batal Puasa Kok 6 photo Nabila Syakieb Sayang Kuda 7 photo Nabila Syakieb Sayang Kuda 8 1  .
-Relasi: Lihat(Reshwara Argya 3 photo Kecantikan Alami Nabila Syakieb photo Kecantikan Alami Nabila Syakieb photo Kecantikan Alami Nabila Syakieb photo Kecantikan Alami Nabila Syakieb photo Kecantikan Alami Nabila Syakieb 4 photo# Nabila Syakieb Berhijab Bikin Hati Jadi Sejuk photo)
-Class: false
-
-Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749064-naik-12-kilogram-nabila-syakieb-masih-tetap-cantik.txt
-Kalimat ke-31: Bahagianya Nabila Syakieb Menikah dengan Reshwara Argya 3 photo Kecantikan Alami Nabila Syakieb photo Kecantikan Alami Nabila Syakieb photo Kecantikan Alami Nabila Syakieb photo Kecantikan Alami Nabila Syakieb photo Kecantikan Alami Nabila Syakieb 4 photo Lihat Nabila Syakieb Berhijab Bikin Hati Jadi Sejuk photo Lihat Nabila Syakieb Berhijab Bikin Hati Jadi Sejuk photo Lihat Nabila Syakieb Berhijab Bikin Hati Jadi Sejuk photo Lihat Nabila Syakieb Berhijab Bikin Hati Jadi Sejuk photo Lihat Nabila Syakieb Berhijab Bikin Hati Jadi Sejuk photo Lihat Nabila Syakieb Berhijab Bikin Hati Jadi Sejuk 5 photo Ngintip Nabila Syakieb yang Sangat Cantik Nggak Bikin Batal Puasa Kok photo Ngintip Nabila Syakieb yang Sangat Cantik Nggak Bikin Batal Puasa Kok photo Ngintip Nabila Syakieb yang Sangat Cantik Nggak Bikin Batal Puasa Kok photo Ngintip Nabila Syakieb yang Sangat Cantik Nggak Bikin Batal Puasa Kok photo Ngintip Nabila Syakieb yang Sangat Cantik Nggak Bikin Batal Puasa Kok photo Ngintip Nabila Syakieb yang Sangat Cantik Nggak Bikin Batal Puasa Kok 6 photo Nabila Syakieb Sayang Kuda 7 photo Nabila Syakieb Sayang Kuda 8 1  .
-Relasi: Lihat(Reshwara Argya 3 photo Kecantikan Alami Nabila Syakieb photo Kecantikan Alami Nabila Syakieb photo Kecantikan Alami Nabila Syakieb photo Kecantikan Alami Nabila Syakieb photo Kecantikan Alami Nabila Syakieb 4 photo# Nabila Syakieb Berhijab Bikin Hati Jadi Sejuk photo)
-Class: false
-
-Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749064-naik-12-kilogram-nabila-syakieb-masih-tetap-cantik.txt
-Kalimat ke-31: Bahagianya Nabila Syakieb Menikah dengan Reshwara Argya 3 photo Kecantikan Alami Nabila Syakieb photo Kecantikan Alami Nabila Syakieb photo Kecantikan Alami Nabila Syakieb photo Kecantikan Alami Nabila Syakieb photo Kecantikan Alami Nabila Syakieb 4 photo Lihat Nabila Syakieb Berhijab Bikin Hati Jadi Sejuk photo Lihat Nabila Syakieb Berhijab Bikin Hati Jadi Sejuk photo Lihat Nabila Syakieb Berhijab Bikin Hati Jadi Sejuk photo Lihat Nabila Syakieb Berhijab Bikin Hati Jadi Sejuk photo Lihat Nabila Syakieb Berhijab Bikin Hati Jadi Sejuk photo Lihat Nabila Syakieb Berhijab Bikin Hati Jadi Sejuk 5 photo Ngintip Nabila Syakieb yang Sangat Cantik Nggak Bikin Batal Puasa Kok photo Ngintip Nabila Syakieb yang Sangat Cantik Nggak Bikin Batal Puasa Kok photo Ngintip Nabila Syakieb yang Sangat Cantik Nggak Bikin Batal Puasa Kok photo Ngintip Nabila Syakieb yang Sangat Cantik Nggak Bikin Batal Puasa Kok photo Ngintip Nabila Syakieb yang Sangat Cantik Nggak Bikin Batal Puasa Kok photo Ngintip Nabila Syakieb yang Sangat Cantik Nggak Bikin Batal Puasa Kok 6 photo Nabila Syakieb Sayang Kuda 7 photo Nabila Syakieb Sayang Kuda 8 1  .
-Relasi: Lihat(Reshwara Argya 3 photo Kecantikan Alami Nabila Syakieb photo Kecantikan Alami Nabila Syakieb photo Kecantikan Alami Nabila Syakieb photo Kecantikan Alami Nabila Syakieb photo Kecantikan Alami Nabila Syakieb 4 photo# Nabila Syakieb Berhijab Bikin Hati Jadi Sejuk photo)
-Class: false
+Class: true
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749064-naik-12-kilogram-nabila-syakieb-masih-tetap-cantik.txt
 Kalimat ke-31: Bahagianya Nabila Syakieb Menikah dengan Reshwara Argya 3 photo Kecantikan Alami Nabila Syakieb photo Kecantikan Alami Nabila Syakieb photo Kecantikan Alami Nabila Syakieb photo Kecantikan Alami Nabila Syakieb photo Kecantikan Alami Nabila Syakieb 4 photo Lihat Nabila Syakieb Berhijab Bikin Hati Jadi Sejuk photo Lihat Nabila Syakieb Berhijab Bikin Hati Jadi Sejuk photo Lihat Nabila Syakieb Berhijab Bikin Hati Jadi Sejuk photo Lihat Nabila Syakieb Berhijab Bikin Hati Jadi Sejuk photo Lihat Nabila Syakieb Berhijab Bikin Hati Jadi Sejuk photo Lihat Nabila Syakieb Berhijab Bikin Hati Jadi Sejuk 5 photo Ngintip Nabila Syakieb yang Sangat Cantik Nggak Bikin Batal Puasa Kok photo Ngintip Nabila Syakieb yang Sangat Cantik Nggak Bikin Batal Puasa Kok photo Ngintip Nabila Syakieb yang Sangat Cantik Nggak Bikin Batal Puasa Kok photo Ngintip Nabila Syakieb yang Sangat Cantik Nggak Bikin Batal Puasa Kok photo Ngintip Nabila Syakieb yang Sangat Cantik Nggak Bikin Batal Puasa Kok photo Ngintip Nabila Syakieb yang Sangat Cantik Nggak Bikin Batal Puasa Kok 6 photo Nabila Syakieb Sayang Kuda 7 photo Nabila Syakieb Sayang Kuda 8 1  .
@@ -91,6 +76,21 @@ Class: true
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749064-naik-12-kilogram-nabila-syakieb-masih-tetap-cantik.txt
 Kalimat ke-31: Bahagianya Nabila Syakieb Menikah dengan Reshwara Argya 3 photo Kecantikan Alami Nabila Syakieb photo Kecantikan Alami Nabila Syakieb photo Kecantikan Alami Nabila Syakieb photo Kecantikan Alami Nabila Syakieb photo Kecantikan Alami Nabila Syakieb 4 photo Lihat Nabila Syakieb Berhijab Bikin Hati Jadi Sejuk photo Lihat Nabila Syakieb Berhijab Bikin Hati Jadi Sejuk photo Lihat Nabila Syakieb Berhijab Bikin Hati Jadi Sejuk photo Lihat Nabila Syakieb Berhijab Bikin Hati Jadi Sejuk photo Lihat Nabila Syakieb Berhijab Bikin Hati Jadi Sejuk photo Lihat Nabila Syakieb Berhijab Bikin Hati Jadi Sejuk 5 photo Ngintip Nabila Syakieb yang Sangat Cantik Nggak Bikin Batal Puasa Kok photo Ngintip Nabila Syakieb yang Sangat Cantik Nggak Bikin Batal Puasa Kok photo Ngintip Nabila Syakieb yang Sangat Cantik Nggak Bikin Batal Puasa Kok photo Ngintip Nabila Syakieb yang Sangat Cantik Nggak Bikin Batal Puasa Kok photo Ngintip Nabila Syakieb yang Sangat Cantik Nggak Bikin Batal Puasa Kok photo Ngintip Nabila Syakieb yang Sangat Cantik Nggak Bikin Batal Puasa Kok 6 photo Nabila Syakieb Sayang Kuda 7 photo Nabila Syakieb Sayang Kuda 8 1  .
 Relasi: Lihat(Reshwara Argya 3 photo Kecantikan Alami Nabila Syakieb photo Kecantikan Alami Nabila Syakieb photo Kecantikan Alami Nabila Syakieb photo Kecantikan Alami Nabila Syakieb photo Kecantikan Alami Nabila Syakieb 4 photo# Nabila Syakieb Berhijab Bikin Hati Jadi Sejuk photo)
+Class: true
+
+Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749064-naik-12-kilogram-nabila-syakieb-masih-tetap-cantik.txt
+Kalimat ke-31: Bahagianya Nabila Syakieb Menikah dengan Reshwara Argya 3 photo Kecantikan Alami Nabila Syakieb photo Kecantikan Alami Nabila Syakieb photo Kecantikan Alami Nabila Syakieb photo Kecantikan Alami Nabila Syakieb photo Kecantikan Alami Nabila Syakieb 4 photo Lihat Nabila Syakieb Berhijab Bikin Hati Jadi Sejuk photo Lihat Nabila Syakieb Berhijab Bikin Hati Jadi Sejuk photo Lihat Nabila Syakieb Berhijab Bikin Hati Jadi Sejuk photo Lihat Nabila Syakieb Berhijab Bikin Hati Jadi Sejuk photo Lihat Nabila Syakieb Berhijab Bikin Hati Jadi Sejuk photo Lihat Nabila Syakieb Berhijab Bikin Hati Jadi Sejuk 5 photo Ngintip Nabila Syakieb yang Sangat Cantik Nggak Bikin Batal Puasa Kok photo Ngintip Nabila Syakieb yang Sangat Cantik Nggak Bikin Batal Puasa Kok photo Ngintip Nabila Syakieb yang Sangat Cantik Nggak Bikin Batal Puasa Kok photo Ngintip Nabila Syakieb yang Sangat Cantik Nggak Bikin Batal Puasa Kok photo Ngintip Nabila Syakieb yang Sangat Cantik Nggak Bikin Batal Puasa Kok photo Ngintip Nabila Syakieb yang Sangat Cantik Nggak Bikin Batal Puasa Kok 6 photo Nabila Syakieb Sayang Kuda 7 photo Nabila Syakieb Sayang Kuda 8 1  .
+Relasi: Lihat(Reshwara Argya 3 photo Kecantikan Alami Nabila Syakieb photo Kecantikan Alami Nabila Syakieb photo Kecantikan Alami Nabila Syakieb photo Kecantikan Alami Nabila Syakieb photo Kecantikan Alami Nabila Syakieb 4 photo# Nabila Syakieb Berhijab Bikin Hati Jadi Sejuk photo)
 Class: false
+
+Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749064-naik-12-kilogram-nabila-syakieb-masih-tetap-cantik.txt
+Kalimat ke-31: Bahagianya Nabila Syakieb Menikah dengan Reshwara Argya 3 photo Kecantikan Alami Nabila Syakieb photo Kecantikan Alami Nabila Syakieb photo Kecantikan Alami Nabila Syakieb photo Kecantikan Alami Nabila Syakieb photo Kecantikan Alami Nabila Syakieb 4 photo Lihat Nabila Syakieb Berhijab Bikin Hati Jadi Sejuk photo Lihat Nabila Syakieb Berhijab Bikin Hati Jadi Sejuk photo Lihat Nabila Syakieb Berhijab Bikin Hati Jadi Sejuk photo Lihat Nabila Syakieb Berhijab Bikin Hati Jadi Sejuk photo Lihat Nabila Syakieb Berhijab Bikin Hati Jadi Sejuk photo Lihat Nabila Syakieb Berhijab Bikin Hati Jadi Sejuk 5 photo Ngintip Nabila Syakieb yang Sangat Cantik Nggak Bikin Batal Puasa Kok photo Ngintip Nabila Syakieb yang Sangat Cantik Nggak Bikin Batal Puasa Kok photo Ngintip Nabila Syakieb yang Sangat Cantik Nggak Bikin Batal Puasa Kok photo Ngintip Nabila Syakieb yang Sangat Cantik Nggak Bikin Batal Puasa Kok photo Ngintip Nabila Syakieb yang Sangat Cantik Nggak Bikin Batal Puasa Kok photo Ngintip Nabila Syakieb yang Sangat Cantik Nggak Bikin Batal Puasa Kok 6 photo Nabila Syakieb Sayang Kuda 7 photo Nabila Syakieb Sayang Kuda 8 1  .
+Relasi: Lihat(Reshwara Argya 3 photo Kecantikan Alami Nabila Syakieb photo Kecantikan Alami Nabila Syakieb photo Kecantikan Alami Nabila Syakieb photo Kecantikan Alami Nabila Syakieb photo Kecantikan Alami Nabila Syakieb 4 photo# Nabila Syakieb Berhijab Bikin Hati Jadi Sejuk photo)
+Class: true
+
+Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749064-naik-12-kilogram-nabila-syakieb-masih-tetap-cantik.txt
+Kalimat ke-31: Bahagianya Nabila Syakieb Menikah dengan Reshwara Argya 3 photo Kecantikan Alami Nabila Syakieb photo Kecantikan Alami Nabila Syakieb photo Kecantikan Alami Nabila Syakieb photo Kecantikan Alami Nabila Syakieb photo Kecantikan Alami Nabila Syakieb 4 photo Lihat Nabila Syakieb Berhijab Bikin Hati Jadi Sejuk photo Lihat Nabila Syakieb Berhijab Bikin Hati Jadi Sejuk photo Lihat Nabila Syakieb Berhijab Bikin Hati Jadi Sejuk photo Lihat Nabila Syakieb Berhijab Bikin Hati Jadi Sejuk photo Lihat Nabila Syakieb Berhijab Bikin Hati Jadi Sejuk photo Lihat Nabila Syakieb Berhijab Bikin Hati Jadi Sejuk 5 photo Ngintip Nabila Syakieb yang Sangat Cantik Nggak Bikin Batal Puasa Kok photo Ngintip Nabila Syakieb yang Sangat Cantik Nggak Bikin Batal Puasa Kok photo Ngintip Nabila Syakieb yang Sangat Cantik Nggak Bikin Batal Puasa Kok photo Ngintip Nabila Syakieb yang Sangat Cantik Nggak Bikin Batal Puasa Kok photo Ngintip Nabila Syakieb yang Sangat Cantik Nggak Bikin Batal Puasa Kok photo Ngintip Nabila Syakieb yang Sangat Cantik Nggak Bikin Batal Puasa Kok 6 photo Nabila Syakieb Sayang Kuda 7 photo Nabila Syakieb Sayang Kuda 8 1  .
+Relasi: Lihat(Reshwara Argya 3 photo Kecantikan Alami Nabila Syakieb photo Kecantikan Alami Nabila Syakieb photo Kecantikan Alami Nabila Syakieb photo Kecantikan Alami Nabila Syakieb photo Kecantikan Alami Nabila Syakieb 4 photo# Nabila Syakieb Berhijab Bikin Hati Jadi Sejuk photo)
+Class: true
 
 

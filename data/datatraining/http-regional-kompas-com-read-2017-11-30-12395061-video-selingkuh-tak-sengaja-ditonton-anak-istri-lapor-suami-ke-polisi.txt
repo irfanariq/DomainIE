@@ -26,7 +26,7 @@ Class: true
 Source: D:\openIE\data\preprocess\http-regional-kompas-com-read-2017-11-30-12395061-video-selingkuh-tak-sengaja-ditonton-anak-istri-lapor-suami-ke-polisi.txt
 Kalimat ke-4: " Pertama , anak saya yang melihat video itu  .
 Relasi: melihat(anak# video)
-Class: false
+Class: true
 
 Source: D:\openIE\data\preprocess\http-regional-kompas-com-read-2017-11-30-12395061-video-selingkuh-tak-sengaja-ditonton-anak-istri-lapor-suami-ke-polisi.txt
 Kalimat ke-6: Sebagai istri tentu saya tidak terima suami saya selingkuh, " ungkap Martini saat melapor ke SPKT Polresta Palembang , Rabu ( 30/11/2017 )  .
@@ -51,7 +51,7 @@ Class: true
 Source: D:\openIE\data\preprocess\http-regional-kompas-com-read-2017-11-30-12395061-video-selingkuh-tak-sengaja-ditonton-anak-istri-lapor-suami-ke-polisi.txt
 Kalimat ke-7: Menurut Martini , dalam video yang berdurasi sekitar 3 menit itu , suaminya dan DP sedang berhubungan badan di sebuah hotel yang diduga ada di Kota Palembang  .
 Relasi: berhubungan badan di(DP# sebuah hotel)
-Class: false
+Class: true
 
 Source: D:\openIE\data\preprocess\http-regional-kompas-com-read-2017-11-30-12395061-video-selingkuh-tak-sengaja-ditonton-anak-istri-lapor-suami-ke-polisi.txt
 Kalimat ke-7: Menurut Martini , dalam video yang berdurasi sekitar 3 menit itu , suaminya dan DP sedang berhubungan badan di sebuah hotel yang diduga ada di Kota Palembang  .
@@ -86,7 +86,7 @@ Class: true
 Source: D:\openIE\data\preprocess\http-regional-kompas-com-read-2017-11-30-12395061-video-selingkuh-tak-sengaja-ditonton-anak-istri-lapor-suami-ke-polisi.txt
 Kalimat ke-11: Namun saat ditanya , suaminya yang juga menjabat sebagai Ketua RT itu selalu beralasan datang ke kelurahan untuk mengurus berkas warganya  .
 Relasi: menjabat sebagai(suaminya# Ketua RT)
-Class: true
+Class: false
 
 Source: D:\openIE\data\preprocess\http-regional-kompas-com-read-2017-11-30-12395061-video-selingkuh-tak-sengaja-ditonton-anak-istri-lapor-suami-ke-polisi.txt
 Kalimat ke-11: Namun saat ditanya , suaminya yang juga menjabat sebagai Ketua RT itu selalu beralasan datang ke kelurahan untuk mengurus berkas warganya  .
@@ -96,12 +96,12 @@ Class: true
 Source: D:\openIE\data\preprocess\http-regional-kompas-com-read-2017-11-30-12395061-video-selingkuh-tak-sengaja-ditonton-anak-istri-lapor-suami-ke-polisi.txt
 Kalimat ke-11: Namun saat ditanya , suaminya yang juga menjabat sebagai Ketua RT itu selalu beralasan datang ke kelurahan untuk mengurus berkas warganya  .
 Relasi: mengurus(kelurahan# berkas warganya)
-Class: false
+Class: true
 
 Source: D:\openIE\data\preprocess\http-regional-kompas-com-read-2017-11-30-12395061-video-selingkuh-tak-sengaja-ditonton-anak-istri-lapor-suami-ke-polisi.txt
 Kalimat ke-12: " Saya kira memang kerja , tidak tahunya bahkan selingkuh  .
 Relasi: kerja(kira# tahunya)
-Class: true
+Class: false
 
 Source: D:\openIE\data\preprocess\http-regional-kompas-com-read-2017-11-30-12395061-video-selingkuh-tak-sengaja-ditonton-anak-istri-lapor-suami-ke-polisi.txt
 Kalimat ke-15: Berita ini telah tayang di Tribunnews.com , Rabu ( 29/11/2017) , dengan judul : Begini Jadinya Jika Istri Pegang Video Mesum Suami dan WIL - nya  .

@@ -6,17 +6,17 @@ Class: true
 Source: D:\openIE\data\preprocess\http-tekno-kompas-com-read-2017-11-30-12290047-laptop-google-bakal-pakai-engsel-bermotor-bisa-membuka-sendiri.txt
 Kalimat ke-2: Pengguna selalu membuka layar secara manual dengan tangan lalu menyalakan laptop  .
 Relasi: membuka layar secara(Pengguna# tangan)
-Class: false
+Class: true
 
 Source: D:\openIE\data\preprocess\http-tekno-kompas-com-read-2017-11-30-12290047-laptop-google-bakal-pakai-engsel-bermotor-bisa-membuka-sendiri.txt
 Kalimat ke-2: Pengguna selalu membuka layar secara manual dengan tangan lalu menyalakan laptop  .
 Relasi: menyalakan(tangan# laptop)
-Class: false
+Class: true
 
 Source: D:\openIE\data\preprocess\http-tekno-kompas-com-read-2017-11-30-12290047-laptop-google-bakal-pakai-engsel-bermotor-bisa-membuka-sendiri.txt
 Kalimat ke-3: Bagaimana kalau engsel laptop ditambahi motor agar bisa membuka sendiri ?
 Relasi: ditambahi(engsel laptop# motor)
-Class: false
+Class: true
 
 Source: D:\openIE\data\preprocess\http-tekno-kompas-com-read-2017-11-30-12290047-laptop-google-bakal-pakai-engsel-bermotor-bisa-membuka-sendiri.txt
 Kalimat ke-4: Itulah yang dideskripsikan oleh Google dalam sebuah dokumen paten yang diajukannya ke Kantor Paten dan Merek Dagang Amerika Serikat ( USPTO )  .
@@ -26,22 +26,22 @@ Class: true
 Source: D:\openIE\data\preprocess\http-tekno-kompas-com-read-2017-11-30-12290047-laptop-google-bakal-pakai-engsel-bermotor-bisa-membuka-sendiri.txt
 Kalimat ke-5: Paten tersebut menjelaskan bahwa layar laptop Google bisa terbuka secara otomatis dengan bantuan motor  .
 Relasi: menjelaskan(Paten# layar laptop Google)
-Class: true
+Class: false
 
 Source: D:\openIE\data\preprocess\http-tekno-kompas-com-read-2017-11-30-12290047-laptop-google-bakal-pakai-engsel-bermotor-bisa-membuka-sendiri.txt
 Kalimat ke-6: Pengguna cukup mengetuk bagian punggung layar ketika laptop dalam keadaan tertutup  .
 Relasi: mengetuk(Pengguna# bagian punggung layar)
-Class: false
+Class: true
 
 Source: D:\openIE\data\preprocess\http-tekno-kompas-com-read-2017-11-30-12290047-laptop-google-bakal-pakai-engsel-bermotor-bisa-membuka-sendiri.txt
 Kalimat ke-7: Kemampuan membuka layar secara otomatis mungkin dimaksudkan agar kalangan pengguna tertentu , misalnya penyandang disabilitas , bisa lebih mudah menggunakan laptop  .
 Relasi: membuka layar secara(Kemampuan# kalangan pengguna)
-Class: false
+Class: true
 
 Source: D:\openIE\data\preprocess\http-tekno-kompas-com-read-2017-11-30-12290047-laptop-google-bakal-pakai-engsel-bermotor-bisa-membuka-sendiri.txt
 Kalimat ke-7: Kemampuan membuka layar secara otomatis mungkin dimaksudkan agar kalangan pengguna tertentu , misalnya penyandang disabilitas , bisa lebih mudah menggunakan laptop  .
 Relasi: dimaksudkan agar(layar# kalangan pengguna)
-Class: false
+Class: true
 
 Source: D:\openIE\data\preprocess\http-tekno-kompas-com-read-2017-11-30-12290047-laptop-google-bakal-pakai-engsel-bermotor-bisa-membuka-sendiri.txt
 Kalimat ke-7: Kemampuan membuka layar secara otomatis mungkin dimaksudkan agar kalangan pengguna tertentu , misalnya penyandang disabilitas , bisa lebih mudah menggunakan laptop  .
@@ -61,27 +61,27 @@ Class: true
 Source: D:\openIE\data\preprocess\http-tekno-kompas-com-read-2017-11-30-12290047-laptop-google-bakal-pakai-engsel-bermotor-bisa-membuka-sendiri.txt
 Kalimat ke-8: Bukan hanya membuka layar sendiri , laptop Google dalam paten berjudul Notebook Computer with Motorized Display Positioning itu pun dibekali serangkaian sensor yang bisa mendeteksi jarak dan posisi wajah pengguna  .
 Relasi: bisa mendeteksi(serangkaian sensor# jarak)
-Class: false
+Class: true
 
 Source: D:\openIE\data\preprocess\http-tekno-kompas-com-read-2017-11-30-12290047-laptop-google-bakal-pakai-engsel-bermotor-bisa-membuka-sendiri.txt
 Kalimat ke-9: Sebagaimana dirangkum KompasTekno dari Engadget , Kamis ( 30/11/2017) , dengan bantuan motor di engselnya , sang laptop pun bisa meyesuaikan sudut bukaan layar lagar senantiasa optimal untuk pandangan pengguna  .
 Relasi: bisa meyesuaikan sudut bukaan layar lagar senantiasa optimal untuk(laptop# pandangan pengguna)
-Class: false
-
-Source: D:\openIE\data\preprocess\http-tekno-kompas-com-read-2017-11-30-12290047-laptop-google-bakal-pakai-engsel-bermotor-bisa-membuka-sendiri.txt
-Kalimat ke-10: Ketika laptop mendeteksi pengguna sedang tak berada di depannya , layar akan menutup sendiri secara otomatis supaya tak dipakai oleh orang lain  .
-Relasi: mendeteksi(laptop# pengguna)
 Class: true
 
 Source: D:\openIE\data\preprocess\http-tekno-kompas-com-read-2017-11-30-12290047-laptop-google-bakal-pakai-engsel-bermotor-bisa-membuka-sendiri.txt
 Kalimat ke-10: Ketika laptop mendeteksi pengguna sedang tak berada di depannya , layar akan menutup sendiri secara otomatis supaya tak dipakai oleh orang lain  .
-Relasi: berada di(pengguna# depannya)
+Relasi: mendeteksi(laptop# pengguna)
 Class: false
 
 Source: D:\openIE\data\preprocess\http-tekno-kompas-com-read-2017-11-30-12290047-laptop-google-bakal-pakai-engsel-bermotor-bisa-membuka-sendiri.txt
 Kalimat ke-10: Ketika laptop mendeteksi pengguna sedang tak berada di depannya , layar akan menutup sendiri secara otomatis supaya tak dipakai oleh orang lain  .
+Relasi: berada di(pengguna# depannya)
+Class: true
+
+Source: D:\openIE\data\preprocess\http-tekno-kompas-com-read-2017-11-30-12290047-laptop-google-bakal-pakai-engsel-bermotor-bisa-membuka-sendiri.txt
+Kalimat ke-10: Ketika laptop mendeteksi pengguna sedang tak berada di depannya , layar akan menutup sendiri secara otomatis supaya tak dipakai oleh orang lain  .
 Relasi: akan menutup sendiri secara(layar# otomatis supaya)
-Class: false
+Class: true
 
 Source: D:\openIE\data\preprocess\http-tekno-kompas-com-read-2017-11-30-12290047-laptop-google-bakal-pakai-engsel-bermotor-bisa-membuka-sendiri.txt
 Kalimat ke-10: Ketika laptop mendeteksi pengguna sedang tak berada di depannya , layar akan menutup sendiri secara otomatis supaya tak dipakai oleh orang lain  .
@@ -96,7 +96,7 @@ Class: true
 Source: D:\openIE\data\preprocess\http-tekno-kompas-com-read-2017-11-30-12290047-laptop-google-bakal-pakai-engsel-bermotor-bisa-membuka-sendiri.txt
 Kalimat ke-11: Sayang , meski mungkin terdengar menarik , sejauh ini sang laptop masih berupa sekadar paten yang sudah diajukan oleh Google sejak Oktober 2013 lalu  .
 Relasi: berupa(laptop# paten)
-Class: false
+Class: true
 
 Source: D:\openIE\data\preprocess\http-tekno-kompas-com-read-2017-11-30-12290047-laptop-google-bakal-pakai-engsel-bermotor-bisa-membuka-sendiri.txt
 Kalimat ke-11: Sayang , meski mungkin terdengar menarik , sejauh ini sang laptop masih berupa sekadar paten yang sudah diajukan oleh Google sejak Oktober 2013 lalu  .

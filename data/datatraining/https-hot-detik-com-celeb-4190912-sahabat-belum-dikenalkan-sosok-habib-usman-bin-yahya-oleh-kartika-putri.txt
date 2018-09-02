@@ -6,7 +6,7 @@ Class: true
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-4190912-sahabat-belum-dikenalkan-sosok-habib-usman-bin-yahya-oleh-kartika-putri.txt
 Kalimat ke-2: Apalagi setelah Kartika Putri kepergok bareng dengan pria bergamis usai pulang naik haji .
 Relasi: usai pulang naik(pria# haji)
-Class: true
+Class: false
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-4190912-sahabat-belum-dikenalkan-sosok-habib-usman-bin-yahya-oleh-kartika-putri.txt
 Kalimat ke-3: Dari sekian banyak sahabat yang mengucapkan selamat, ada Arie Untung juga .
@@ -31,7 +31,7 @@ Class: false
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-4190912-sahabat-belum-dikenalkan-sosok-habib-usman-bin-yahya-oleh-kartika-putri.txt
 Kalimat ke-7: semoga Samawa ya, langgeng Dunia Surga Aamiin ya rabb," tulis Arie Untung berkomentar di foto Kartika Putri .
 Relasi: tulis(langgeng Dunia Surga Aamiin# Arie Untung)
-Class: false
+Class: true
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-4190912-sahabat-belum-dikenalkan-sosok-habib-usman-bin-yahya-oleh-kartika-putri.txt
 Kalimat ke-7: semoga Samawa ya, langgeng Dunia Surga Aamiin ya rabb," tulis Arie Untung berkomentar di foto Kartika Putri .
@@ -46,7 +46,7 @@ Class: false
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-4190912-sahabat-belum-dikenalkan-sosok-habib-usman-bin-yahya-oleh-kartika-putri.txt
 Kalimat ke-9: Tonton videonya di sini: [Gambas:Video 20detik] Arie Untung yang juga dikenal rajin mengikuti kajian Islam, mengaku tidak pernah diperkenalkan dengan Habib Usman bin Yahya .
 Relasi: mengikuti(rajin# kajian)
-Class: true
+Class: false
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-4190912-sahabat-belum-dikenalkan-sosok-habib-usman-bin-yahya-oleh-kartika-putri.txt
 Kalimat ke-9: Tonton videonya di sini: [Gambas:Video 20detik] Arie Untung yang juga dikenal rajin mengikuti kajian Islam, mengaku tidak pernah diperkenalkan dengan Habib Usman bin Yahya .
@@ -56,12 +56,12 @@ Class: true
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-4190912-sahabat-belum-dikenalkan-sosok-habib-usman-bin-yahya-oleh-kartika-putri.txt
 Kalimat ke-9: Tonton videonya di sini: [Gambas:Video 20detik] Arie Untung yang juga dikenal rajin mengikuti kajian Islam, mengaku tidak pernah diperkenalkan dengan Habib Usman bin Yahya .
 Relasi: diperkenalkan dengan(kajian# Habib Usman bin Yahya)
-Class: false
+Class: true
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-4190912-sahabat-belum-dikenalkan-sosok-habib-usman-bin-yahya-oleh-kartika-putri.txt
 Kalimat ke-10: "Saya sih belum pernah ketemu ya," kata Arie Untung saat dihubungi melalui telepon .
 Relasi: kata(ketemu# Arie Untung)
-Class: false
+Class: true
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-4190912-sahabat-belum-dikenalkan-sosok-habib-usman-bin-yahya-oleh-kartika-putri.txt
 Kalimat ke-10: "Saya sih belum pernah ketemu ya," kata Arie Untung saat dihubungi melalui telepon .
@@ -81,7 +81,7 @@ Class: true
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-4190912-sahabat-belum-dikenalkan-sosok-habib-usman-bin-yahya-oleh-kartika-putri.txt
 Kalimat ke-11: Baca juga: Ikut Ucapkan Selamat, Arie Untung Sulit Bicara soal Pernikahan Kartika Putri Sebagai teman, Arie memilih diam dan hanya menunggu Kartika Putri memberikan penjelasan .
 Relasi: menunggu(Kartika Putri# penjelasan)
-Class: false
+Class: true
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-4190912-sahabat-belum-dikenalkan-sosok-habib-usman-bin-yahya-oleh-kartika-putri.txt
 Kalimat ke-11: Baca juga: Ikut Ucapkan Selamat, Arie Untung Sulit Bicara soal Pernikahan Kartika Putri Sebagai teman, Arie memilih diam dan hanya menunggu Kartika Putri memberikan penjelasan .
@@ -101,7 +101,7 @@ Class: true
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-4190912-sahabat-belum-dikenalkan-sosok-habib-usman-bin-yahya-oleh-kartika-putri.txt
 Kalimat ke-15: Baca juga: Kartika Putri Kepergok Bareng Pria Bergamis saat Tiba di Indonesia (pus/wes) kartika putri isu kartika putri menikah dengan habib usman Photo Gallery 1 celeb Komen di Instagram Kartika Putri, Mulan Jameela Dibully celeb Komen di Instagram Kartika Putri, Mulan Jameela Dibully celeb Komen di Instagram Kartika Putri, Mulan Jameela Dibully celeb Komen di Instagram Kartika Putri, Mulan Jameela Dibully celeb Komen di Instagram Kartika Putri, Mulan Jameela Dibully celeb Komen di Instagram Kartika Putri, Mulan Jameela Dibully 1 celeb Pagi-pagi Lihat Kartika Putri Bikin Seger!
 Relasi: menikah dengan(kartika putri isu kartika putri# habib usman Photo Gallery 1 celeb Komen)
-Class: false
+Class: true
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-4190912-sahabat-belum-dikenalkan-sosok-habib-usman-bin-yahya-oleh-kartika-putri.txt
 Kalimat ke-15: Baca juga: Kartika Putri Kepergok Bareng Pria Bergamis saat Tiba di Indonesia (pus/wes) kartika putri isu kartika putri menikah dengan habib usman Photo Gallery 1 celeb Komen di Instagram Kartika Putri, Mulan Jameela Dibully celeb Komen di Instagram Kartika Putri, Mulan Jameela Dibully celeb Komen di Instagram Kartika Putri, Mulan Jameela Dibully celeb Komen di Instagram Kartika Putri, Mulan Jameela Dibully celeb Komen di Instagram Kartika Putri, Mulan Jameela Dibully celeb Komen di Instagram Kartika Putri, Mulan Jameela Dibully 1 celeb Pagi-pagi Lihat Kartika Putri Bikin Seger!
@@ -111,7 +111,7 @@ Class: false
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-4190912-sahabat-belum-dikenalkan-sosok-habib-usman-bin-yahya-oleh-kartika-putri.txt
 Kalimat ke-16: celeb Pagi-pagi Lihat Kartika Putri Bikin Seger!
 Relasi: Lihat(celeb# Kartika Putri Bikin)
-Class: false
+Class: true
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-4190912-sahabat-belum-dikenalkan-sosok-habib-usman-bin-yahya-oleh-kartika-putri.txt
 Kalimat ke-17: celeb Pagi-pagi Lihat Kartika Putri Bikin Seger!
@@ -121,7 +121,7 @@ Class: false
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-4190912-sahabat-belum-dikenalkan-sosok-habib-usman-bin-yahya-oleh-kartika-putri.txt
 Kalimat ke-18: celeb Pagi-pagi Lihat Kartika Putri Bikin Seger!
 Relasi: Lihat(celeb# Kartika Putri Bikin)
-Class: false
+Class: true
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-4190912-sahabat-belum-dikenalkan-sosok-habib-usman-bin-yahya-oleh-kartika-putri.txt
 Kalimat ke-19: celeb Pagi-pagi Lihat Kartika Putri Bikin Seger!
@@ -131,6 +131,11 @@ Class: true
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-4190912-sahabat-belum-dikenalkan-sosok-habib-usman-bin-yahya-oleh-kartika-putri.txt
 Kalimat ke-36: 7 celeb Duh Makin Manis Saja Kartika Putri celeb Duh Makin Manis Saja Kartika Putri celeb Duh Makin Manis Saja Kartika Putri celeb Duh Makin Manis Saja Kartika Putri celeb Duh Makin Manis Saja Kartika Putri celeb Duh Makin Manis Saja Kartika Putri celeb Duh Makin Manis Saja Kartika Putri celeb Duh Makin Manis Saja Kartika Putri 8 celeb Kartika Putri Ngaku Jomblo karena Banyak Cowok Lebih Suka Gym di Gading celeb Kartika Putri Ngaku Jomblo karena Banyak Cowok Lebih Suka Gym di Gading celeb Kartika Putri Ngaku Jomblo karena Banyak Cowok Lebih Suka Gym di Gading celeb Kartika Putri Ngaku Jomblo karena Banyak Cowok Lebih Suka Gym di Gading celeb Kartika Putri Ngaku Jomblo karena Banyak Cowok Lebih Suka Gym di Gading celeb Kartika Putri Ngaku Jomblo karena Banyak Cowok Lebih Suka Gym di Gading celeb Kartika Putri Ngaku Jomblo karena Banyak Cowok Lebih Suka Gym di Gading 9 celeb Kartika Putri Makin Seksi Aja, Nih!
 Relasi: Suka Gym di(Banyak Cowok# Gading celeb Kartika Putri Ngaku Jomblo)
+Class: true
+
+Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-4190912-sahabat-belum-dikenalkan-sosok-habib-usman-bin-yahya-oleh-kartika-putri.txt
+Kalimat ke-36: 7 celeb Duh Makin Manis Saja Kartika Putri celeb Duh Makin Manis Saja Kartika Putri celeb Duh Makin Manis Saja Kartika Putri celeb Duh Makin Manis Saja Kartika Putri celeb Duh Makin Manis Saja Kartika Putri celeb Duh Makin Manis Saja Kartika Putri celeb Duh Makin Manis Saja Kartika Putri celeb Duh Makin Manis Saja Kartika Putri 8 celeb Kartika Putri Ngaku Jomblo karena Banyak Cowok Lebih Suka Gym di Gading celeb Kartika Putri Ngaku Jomblo karena Banyak Cowok Lebih Suka Gym di Gading celeb Kartika Putri Ngaku Jomblo karena Banyak Cowok Lebih Suka Gym di Gading celeb Kartika Putri Ngaku Jomblo karena Banyak Cowok Lebih Suka Gym di Gading celeb Kartika Putri Ngaku Jomblo karena Banyak Cowok Lebih Suka Gym di Gading celeb Kartika Putri Ngaku Jomblo karena Banyak Cowok Lebih Suka Gym di Gading celeb Kartika Putri Ngaku Jomblo karena Banyak Cowok Lebih Suka Gym di Gading 9 celeb Kartika Putri Makin Seksi Aja, Nih!
+Relasi: Suka Gym di(Banyak Cowok# Gading celeb Kartika Putri Ngaku Jomblo)
 Class: false
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-4190912-sahabat-belum-dikenalkan-sosok-habib-usman-bin-yahya-oleh-kartika-putri.txt
@@ -146,12 +151,7 @@ Class: true
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-4190912-sahabat-belum-dikenalkan-sosok-habib-usman-bin-yahya-oleh-kartika-putri.txt
 Kalimat ke-36: 7 celeb Duh Makin Manis Saja Kartika Putri celeb Duh Makin Manis Saja Kartika Putri celeb Duh Makin Manis Saja Kartika Putri celeb Duh Makin Manis Saja Kartika Putri celeb Duh Makin Manis Saja Kartika Putri celeb Duh Makin Manis Saja Kartika Putri celeb Duh Makin Manis Saja Kartika Putri celeb Duh Makin Manis Saja Kartika Putri 8 celeb Kartika Putri Ngaku Jomblo karena Banyak Cowok Lebih Suka Gym di Gading celeb Kartika Putri Ngaku Jomblo karena Banyak Cowok Lebih Suka Gym di Gading celeb Kartika Putri Ngaku Jomblo karena Banyak Cowok Lebih Suka Gym di Gading celeb Kartika Putri Ngaku Jomblo karena Banyak Cowok Lebih Suka Gym di Gading celeb Kartika Putri Ngaku Jomblo karena Banyak Cowok Lebih Suka Gym di Gading celeb Kartika Putri Ngaku Jomblo karena Banyak Cowok Lebih Suka Gym di Gading celeb Kartika Putri Ngaku Jomblo karena Banyak Cowok Lebih Suka Gym di Gading 9 celeb Kartika Putri Makin Seksi Aja, Nih!
 Relasi: Suka Gym di(Banyak Cowok# Gading celeb Kartika Putri Ngaku Jomblo)
-Class: false
-
-Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-4190912-sahabat-belum-dikenalkan-sosok-habib-usman-bin-yahya-oleh-kartika-putri.txt
-Kalimat ke-36: 7 celeb Duh Makin Manis Saja Kartika Putri celeb Duh Makin Manis Saja Kartika Putri celeb Duh Makin Manis Saja Kartika Putri celeb Duh Makin Manis Saja Kartika Putri celeb Duh Makin Manis Saja Kartika Putri celeb Duh Makin Manis Saja Kartika Putri celeb Duh Makin Manis Saja Kartika Putri celeb Duh Makin Manis Saja Kartika Putri 8 celeb Kartika Putri Ngaku Jomblo karena Banyak Cowok Lebih Suka Gym di Gading celeb Kartika Putri Ngaku Jomblo karena Banyak Cowok Lebih Suka Gym di Gading celeb Kartika Putri Ngaku Jomblo karena Banyak Cowok Lebih Suka Gym di Gading celeb Kartika Putri Ngaku Jomblo karena Banyak Cowok Lebih Suka Gym di Gading celeb Kartika Putri Ngaku Jomblo karena Banyak Cowok Lebih Suka Gym di Gading celeb Kartika Putri Ngaku Jomblo karena Banyak Cowok Lebih Suka Gym di Gading celeb Kartika Putri Ngaku Jomblo karena Banyak Cowok Lebih Suka Gym di Gading 9 celeb Kartika Putri Makin Seksi Aja, Nih!
-Relasi: Suka Gym di(Banyak Cowok# Gading celeb Kartika Putri Ngaku Jomblo)
-Class: false
+Class: true
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-4190912-sahabat-belum-dikenalkan-sosok-habib-usman-bin-yahya-oleh-kartika-putri.txt
 Kalimat ke-36: 7 celeb Duh Makin Manis Saja Kartika Putri celeb Duh Makin Manis Saja Kartika Putri celeb Duh Makin Manis Saja Kartika Putri celeb Duh Makin Manis Saja Kartika Putri celeb Duh Makin Manis Saja Kartika Putri celeb Duh Makin Manis Saja Kartika Putri celeb Duh Makin Manis Saja Kartika Putri celeb Duh Makin Manis Saja Kartika Putri 8 celeb Kartika Putri Ngaku Jomblo karena Banyak Cowok Lebih Suka Gym di Gading celeb Kartika Putri Ngaku Jomblo karena Banyak Cowok Lebih Suka Gym di Gading celeb Kartika Putri Ngaku Jomblo karena Banyak Cowok Lebih Suka Gym di Gading celeb Kartika Putri Ngaku Jomblo karena Banyak Cowok Lebih Suka Gym di Gading celeb Kartika Putri Ngaku Jomblo karena Banyak Cowok Lebih Suka Gym di Gading celeb Kartika Putri Ngaku Jomblo karena Banyak Cowok Lebih Suka Gym di Gading celeb Kartika Putri Ngaku Jomblo karena Banyak Cowok Lebih Suka Gym di Gading 9 celeb Kartika Putri Makin Seksi Aja, Nih!

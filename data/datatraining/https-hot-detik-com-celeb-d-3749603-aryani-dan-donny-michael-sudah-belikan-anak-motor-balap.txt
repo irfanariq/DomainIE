@@ -11,17 +11,17 @@ Class: false
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749603-aryani-dan-donny-michael-sudah-belikan-anak-motor-balap.txt
 Kalimat ke-3: Donnya dan Aryani memang sama - sama menyukai balap motor  .
 Relasi: menyukai(Aryani# balap motor)
-Class: false
+Class: true
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749603-aryani-dan-donny-michael-sudah-belikan-anak-motor-balap.txt
 Kalimat ke-5: " Ya motor sudah ada , mobil juga sudah disiapin, " aku Donnya ditemui di kawasan Daan Mogot , Jakarta Barat , Rabu ( 29/11/2017 ) malam  .
 Relasi: sudah ada(motor# mobil)
-Class: false
+Class: true
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749603-aryani-dan-donny-michael-sudah-belikan-anak-motor-balap.txt
 Kalimat ke-5: " Ya motor sudah ada , mobil juga sudah disiapin, " aku Donnya ditemui di kawasan Daan Mogot , Jakarta Barat , Rabu ( 29/11/2017 ) malam  .
 Relasi: ditemui di(aku Donnya# kawasan Daan Mogot)
-Class: false
+Class: true
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749603-aryani-dan-donny-michael-sudah-belikan-anak-motor-balap.txt
 Kalimat ke-6: Baca juga : Masih Lima Bulan , Anak Aryani Fitriana akan Disunat Meski begitu , Aryani dan Donnya tak mau terlalu memaksakan keinginannya  .
@@ -51,27 +51,27 @@ Class: true
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749603-aryani-dan-donny-michael-sudah-belikan-anak-motor-balap.txt
 Kalimat ke-13: Baca juga : Sakit Hati Isco Disebut Anak Haram , Aryani Fitriana Polisikan Netizen ?
 Relasi: Disebut(Sakit Hati Isco# Anak Haram)
-Class: false
+Class: true
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749603-aryani-dan-donny-michael-sudah-belikan-anak-motor-balap.txt
 Kalimat ke-14: Isco yang lahir 4 April 2017 kini memang sudah bisa diajak oleh Aryani dan Donnya untuk hadir di depan kamera  .
 Relasi: lahir(Isco# 4 April 2017)
-Class: false
+Class: true
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749603-aryani-dan-donny-michael-sudah-belikan-anak-motor-balap.txt
 Kalimat ke-14: Isco yang lahir 4 April 2017 kini memang sudah bisa diajak oleh Aryani dan Donnya untuk hadir di depan kamera  .
 Relasi: sudah bisa diajak oleh(4 April 2017# Aryani)
-Class: false
+Class: true
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749603-aryani-dan-donny-michael-sudah-belikan-anak-motor-balap.txt
 Kalimat ke-14: Isco yang lahir 4 April 2017 kini memang sudah bisa diajak oleh Aryani dan Donnya untuk hadir di depan kamera  .
 Relasi: hadir di(Donnya# depan kamera)
-Class: false
+Class: true
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749603-aryani-dan-donny-michael-sudah-belikan-anak-motor-balap.txt
 Kalimat ke-15: Aryani pun masih sangat menikmati perkembangan Isco yang masih bayi dan lucu  .
 Relasi: menikmati(Aryani# perkembangan Isco)
-Class: false
+Class: true
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749603-aryani-dan-donny-michael-sudah-belikan-anak-motor-balap.txt
 Kalimat ke-17: Baik Aryani ataupun Donnya yang paling penting sang anak tumbuh jadi orang yan tidak sombong  .
@@ -86,7 +86,7 @@ Class: false
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749603-aryani-dan-donny-michael-sudah-belikan-anak-motor-balap.txt
 Kalimat ke-19: Terus kalau kita lagi mau pergi naik mobil pasti dia langsung ngintip mau ikut, " ungkap Donnya sambil menggendong Isco  .
 Relasi: ungkap(langsung ngintip# Donnya)
-Class: false
+Class: true
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749603-aryani-dan-donny-michael-sudah-belikan-anak-motor-balap.txt
 Kalimat ke-19: Terus kalau kita lagi mau pergi naik mobil pasti dia langsung ngintip mau ikut, " ungkap Donnya sambil menggendong Isco  .

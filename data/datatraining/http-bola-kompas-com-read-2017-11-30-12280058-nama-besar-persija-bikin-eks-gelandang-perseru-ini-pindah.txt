@@ -21,7 +21,7 @@ Class: true
 Source: D:\openIE\data\preprocess\http-bola-kompas-com-read-2017-11-30-12280058-nama-besar-persija-bikin-eks-gelandang-perseru-ini-pindah.txt
 Kalimat ke-7: Banyak pemain yang mau main di sini, " tutur pemain berusia 28 tahun itu  .
 Relasi: main di(Banyak pemain# tutur pemain)
-Class: true
+Class: false
 
 Source: D:\openIE\data\preprocess\http-bola-kompas-com-read-2017-11-30-12280058-nama-besar-persija-bikin-eks-gelandang-perseru-ini-pindah.txt
 Kalimat ke-7: Banyak pemain yang mau main di sini, " tutur pemain berusia 28 tahun itu  .

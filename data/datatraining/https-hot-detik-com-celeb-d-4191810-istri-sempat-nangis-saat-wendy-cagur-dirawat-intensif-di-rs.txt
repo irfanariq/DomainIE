@@ -1,12 +1,12 @@
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-4191810-istri-sempat-nangis-saat-wendy-cagur-dirawat-intensif-di-rs.txt
 Kalimat ke-1: Wendy 'Cagur' sempat dirawat di rumah sakit selama kurang lebih seminggu .
 Relasi: dirawat di(Wendy# rumah)
-Class: false
+Class: true
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-4191810-istri-sempat-nangis-saat-wendy-cagur-dirawat-intensif-di-rs.txt
 Kalimat ke-2: Saat itu, sang istri Ayu Natasya menangis saat menyusul suaminya di sana .
 Relasi: menangis(istri Ayu Natasya# suaminya)
-Class: false
+Class: true
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-4191810-istri-sempat-nangis-saat-wendy-cagur-dirawat-intensif-di-rs.txt
 Kalimat ke-3: "Istri nangis pas waktu terpaksa nyusul gue ke rumah sakit daerah Puri Indah sendiri .
@@ -21,12 +21,12 @@ Class: true
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-4191810-istri-sempat-nangis-saat-wendy-cagur-dirawat-intensif-di-rs.txt
 Kalimat ke-4: Sampai ruangan gue diinfus ya matanya berkaca-kaca," kata Wendy 'Cagur' usai mengisi acara di 'Brownis', Trans TV, Kapten Tendean, Jakarta Selatan, Jumat (31/8/2018) .
 Relasi: kata(matanya# Wendy)
-Class: false
+Class: true
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-4191810-istri-sempat-nangis-saat-wendy-cagur-dirawat-intensif-di-rs.txt
 Kalimat ke-4: Sampai ruangan gue diinfus ya matanya berkaca-kaca," kata Wendy 'Cagur' usai mengisi acara di 'Brownis', Trans TV, Kapten Tendean, Jakarta Selatan, Jumat (31/8/2018) .
 Relasi: usai mengisi acara di(Wendy# Trans)
-Class: false
+Class: true
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-4191810-istri-sempat-nangis-saat-wendy-cagur-dirawat-intensif-di-rs.txt
 Kalimat ke-5: "Tapi feeling gue bukan karena sedih gue diinfus, tapi lihat tagihan infusannya, ha ha ha," candanya .
@@ -36,7 +36,7 @@ Class: false
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-4191810-istri-sempat-nangis-saat-wendy-cagur-dirawat-intensif-di-rs.txt
 Kalimat ke-6: Baca juga: Sejak Masuk UGD, Wendy 'Cagur' Makin Diproteksi Istri dan Anak Tak hanya sang istri, salah satu anak Wendy 'Cagur' juga sempat ingin menangis .
 Relasi: Masuk(Baca# Wendy)
-Class: true
+Class: false
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-4191810-istri-sempat-nangis-saat-wendy-cagur-dirawat-intensif-di-rs.txt
 Kalimat ke-7: Namun, sang anak malu untuk mengungkapkan kalau dirinya sedih melihat ayahnya sakit .
@@ -51,12 +51,12 @@ Class: true
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-4191810-istri-sempat-nangis-saat-wendy-cagur-dirawat-intensif-di-rs.txt
 Kalimat ke-9: Tapi dia nggak berani ngomong ke gue, dia malu untuk ngungkapin ke gue tapi ya gue bersyukurlah, anak-anak gue, istri gue mereka sangat khawatir," pungkas Wendy 'Cagur' .
 Relasi: gue(nggak berani ngomong# malu)
-Class: false
+Class: true
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-4191810-istri-sempat-nangis-saat-wendy-cagur-dirawat-intensif-di-rs.txt
 Kalimat ke-10: Wendy sempat sakit kepala hebat sampai harus dilarikan ke rumah sakit untuk mendapat perawatan .
 Relasi: sampai harus dilarikan ke(sakit kepala# rumah)
-Class: true
+Class: false
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-4191810-istri-sempat-nangis-saat-wendy-cagur-dirawat-intensif-di-rs.txt
 Kalimat ke-10: Wendy sempat sakit kepala hebat sampai harus dilarikan ke rumah sakit untuk mendapat perawatan .

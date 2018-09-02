@@ -6,11 +6,11 @@ Class: true
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749353-penampilan-baru-bjah-usai-hijrah-bondan-winarno-meninggal-dunia.txt
 Kalimat ke-3: Selain itu ada Bondan Winarno yang meninggal dunia  .
 Relasi: ada(Selain# Bondan Winarno)
-Class: false
+Class: true
 
 Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-3749353-penampilan-baru-bjah-usai-hijrah-bondan-winarno-meninggal-dunia.txt
 Kalimat ke-3: Selain itu ada Bondan Winarno yang meninggal dunia  .
 Relasi: meninggal(Bondan Winarno# dunia)
-Class: false
+Class: true
 
 
