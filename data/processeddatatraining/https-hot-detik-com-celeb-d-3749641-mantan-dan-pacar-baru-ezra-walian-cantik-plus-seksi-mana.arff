@@ -2,14 +2,12 @@
 
 @attribute Right_Arg2_POStag {VBI,VBT,CDP,NULL,CC,CD,OD,DT,FW,IN,JJ,MD,NEG,NN,NNP,NND,PR,PRP,RB,RP,SC,SYM,UH,VB,WH,X,Z}
 @attribute Is_Arg2_Proper_Noun {yes,no}
-@attribute number_stopwords numeric
-@attribute Is_Arg1_Proper_Noun {yes,no}
 @attribute Left_Arg1_POStag {VBI,VBT,CDP,NULL,CC,CD,OD,DT,FW,IN,JJ,MD,NEG,NN,NNP,NND,PR,PRP,RB,RP,SC,SYM,UH,VB,WH,X,Z}
 @attribute number_token numeric
 @attribute classtarget {yes,no}
 
 @data
-JJ,no,1,no,NULL,1,yes
-NULL,no,2,no,VBT,3,no
-NULL,no,0,no,VBT,1,yes
-NULL,no,1,no,CC,1,yes
+JJ,no,NULL,1,yes
+NULL,no,VBT,3,no
+NULL,no,VBT,1,yes
+NULL,no,CC,1,yes

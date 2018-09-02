@@ -2,51 +2,49 @@
 
 @attribute Right_Arg2_POStag {VBI,VBT,CDP,NULL,CC,CD,OD,DT,FW,IN,JJ,MD,NEG,NN,NNP,NND,PR,PRP,RB,RP,SC,SYM,UH,VB,WH,X,Z}
 @attribute Is_Arg2_Proper_Noun {yes,no}
-@attribute number_stopwords numeric
-@attribute Is_Arg1_Proper_Noun {yes,no}
 @attribute Left_Arg1_POStag {VBI,VBT,CDP,NULL,CC,CD,OD,DT,FW,IN,JJ,MD,NEG,NN,NNP,NND,PR,PRP,RB,RP,SC,SYM,UH,VB,WH,X,Z}
 @attribute number_token numeric
 @attribute classtarget {yes,no}
 
 @data
-VBT,no,1,no,NULL,2,no
-NULL,no,0,no,VBT,1,no
-SC,no,1,no,NULL,1,yes
-NULL,no,1,no,VBT,2,yes
-DT,no,1,no,NULL,2,no
-NULL,no,0,no,DT,1,no
-CC,no,0,no,NULL,1,no
-CC,no,0,no,NULL,2,yes
-SC,no,0,no,CC,1,yes
-JJ,no,0,no,RP,1,no
-SC,no,0,no,VBT,1,yes
-CC,no,1,yes,NULL,1,yes
-NULL,no,1,no,CC,2,yes
-NULL,no,1,no,NULL,4,no
-NULL,no,0,no,NULL,1,no
-NULL,no,1,no,NULL,1,yes
-SC,no,1,no,NULL,2,yes
-DT,no,0,no,VBI,1,no
-NULL,yes,0,no,NULL,1,yes
-NULL,yes,0,no,NULL,1,no
-NULL,no,1,yes,VBT,2,no
-NULL,no,2,no,JJ,2,no
-NULL,no,0,no,IN,1,yes
-NULL,no,1,no,PRP,2,yes
-NULL,no,1,no,PRP,2,no
-NULL,no,1,no,PRP,1,yes
-IN,no,3,no,NN,10,yes
-NULL,no,0,no,NN,1,yes
-NULL,yes,1,no,SC,1,yes
-NULL,yes,1,no,SC,1,no
-NULL,yes,1,no,SC,1,yes
-NULL,yes,1,no,SC,1,no
-NULL,yes,1,no,SC,1,yes
-NULL,yes,1,no,SC,1,no
-NULL,no,1,no,NULL,1,yes
-NULL,no,1,no,NULL,1,yes
-NULL,no,1,no,NULL,1,no
-NULL,no,1,no,NULL,1,yes
-NULL,no,1,no,NULL,1,yes
-NULL,no,1,no,NULL,1,yes
-NULL,no,1,no,NULL,1,yes
+VBT,no,NULL,2,no
+NULL,no,VBT,1,no
+SC,no,NULL,1,yes
+NULL,no,VBT,2,yes
+DT,no,NULL,2,no
+NULL,no,DT,1,no
+CC,no,NULL,1,no
+CC,no,NULL,2,yes
+SC,no,CC,1,yes
+JJ,no,RP,1,no
+SC,no,VBT,1,yes
+CC,no,NULL,1,yes
+NULL,no,CC,2,yes
+NULL,no,NULL,4,no
+NULL,no,NULL,1,no
+NULL,no,NULL,1,yes
+SC,no,NULL,2,yes
+DT,no,VBI,1,no
+NULL,yes,NULL,1,yes
+NULL,yes,NULL,1,no
+NULL,no,VBT,2,no
+NULL,no,JJ,2,no
+NULL,no,IN,1,yes
+NULL,no,PRP,2,yes
+NULL,no,PRP,2,no
+NULL,no,PRP,1,yes
+IN,no,NN,10,yes
+NULL,no,NN,1,yes
+NULL,yes,SC,1,yes
+NULL,yes,SC,1,no
+NULL,yes,SC,1,yes
+NULL,yes,SC,1,no
+NULL,yes,SC,1,yes
+NULL,yes,SC,1,no
+NULL,no,NULL,1,yes
+NULL,no,NULL,1,yes
+NULL,no,NULL,1,no
+NULL,no,NULL,1,yes
+NULL,no,NULL,1,yes
+NULL,no,NULL,1,yes
+NULL,no,NULL,1,yes

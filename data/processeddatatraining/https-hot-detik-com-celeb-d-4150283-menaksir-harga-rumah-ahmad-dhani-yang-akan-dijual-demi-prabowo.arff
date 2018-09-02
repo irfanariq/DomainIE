@@ -2,37 +2,35 @@
 
 @attribute Right_Arg2_POStag {VBI,VBT,CDP,NULL,CC,CD,OD,DT,FW,IN,JJ,MD,NEG,NN,NNP,NND,PR,PRP,RB,RP,SC,SYM,UH,VB,WH,X,Z}
 @attribute Is_Arg2_Proper_Noun {yes,no}
-@attribute number_stopwords numeric
-@attribute Is_Arg1_Proper_Noun {yes,no}
 @attribute Left_Arg1_POStag {VBI,VBT,CDP,NULL,CC,CD,OD,DT,FW,IN,JJ,MD,NEG,NN,NNP,NND,PR,PRP,RB,RP,SC,SYM,UH,VB,WH,X,Z}
 @attribute number_token numeric
 @attribute classtarget {yes,no}
 
 @data
-NULL,no,1,no,NULL,4,no
-CC,no,0,no,NULL,1,no
-NN,no,1,no,SC,2,yes
-NULL,no,0,no,DT,2,yes
-NULL,no,1,no,NULL,1,no
-DT,no,0,no,RB,1,yes
-NULL,no,0,no,SC,1,no
-NULL,no,0,no,NULL,1,yes
-SC,no,0,no,NULL,1,yes
-VBT,no,1,no,VBT,1,no
-DT,yes,0,no,NULL,1,yes
-JJ,no,0,yes,VBI,1,no
-NNP,no,0,no,NULL,1,yes
-CC,no,1,no,IN,2,yes
-NULL,no,2,no,CDP,3,yes
-NULL,no,1,no,DT,3,yes
-NULL,no,2,no,DT,6,yes
-NULL,no,1,no,CC,2,no
-SC,no,1,no,IN,1,yes
-NN,yes,1,no,NN,2,no
-NULL,no,0,no,CC,1,yes
-SC,no,0,yes,NULL,1,no
-NULL,no,1,no,NULL,1,yes
-NULL,no,1,no,NULL,1,yes
-NULL,no,1,no,NULL,1,no
-NULL,no,1,no,NULL,1,no
-NULL,no,1,no,NULL,1,no
+NULL,no,NULL,4,no
+CC,no,NULL,1,no
+NN,no,SC,2,yes
+NULL,no,DT,2,yes
+NULL,no,NULL,1,no
+DT,no,RB,1,yes
+NULL,no,SC,1,no
+NULL,no,NULL,1,yes
+SC,no,NULL,1,yes
+VBT,no,VBT,1,no
+DT,yes,NULL,1,yes
+JJ,no,VBI,1,no
+NNP,no,NULL,1,yes
+CC,no,IN,2,yes
+NULL,no,CDP,3,yes
+NULL,no,DT,3,yes
+NULL,no,DT,6,yes
+NULL,no,CC,2,no
+SC,no,IN,1,yes
+NN,yes,NN,2,no
+NULL,no,CC,1,yes
+SC,no,NULL,1,no
+NULL,no,NULL,1,yes
+NULL,no,NULL,1,yes
+NULL,no,NULL,1,no
+NULL,no,NULL,1,no
+NULL,no,NULL,1,no

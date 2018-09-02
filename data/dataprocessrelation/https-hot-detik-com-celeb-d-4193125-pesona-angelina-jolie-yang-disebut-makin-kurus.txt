@@ -1,8 +1,0 @@
-Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-4193125-pesona-angelina-jolie-yang-disebut-makin-kurus.txt
-Kalimat ke-1: Penampilan Angelina Jolie menuai kritik belakangan  .
-Relasi: menuai(Penampilan Angelina Jolie, kritik belakangan)
-
-Source: D:\openIE\data\preprocess\https-hot-detik-com-celeb-d-4193125-pesona-angelina-jolie-yang-disebut-makin-kurus.txt
-Kalimat ke-2: Banyak yang menilai , tubuh sang aktris terlihat semakin kurus  .
-Relasi: terlihat semakin(aktris, kurus)
-

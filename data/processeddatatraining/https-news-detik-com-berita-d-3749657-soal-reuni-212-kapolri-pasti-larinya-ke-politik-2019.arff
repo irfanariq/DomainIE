@@ -2,23 +2,21 @@
 
 @attribute Right_Arg2_POStag {VBI,VBT,CDP,NULL,CC,CD,OD,DT,FW,IN,JJ,MD,NEG,NN,NNP,NND,PR,PRP,RB,RP,SC,SYM,UH,VB,WH,X,Z}
 @attribute Is_Arg2_Proper_Noun {yes,no}
-@attribute number_stopwords numeric
-@attribute Is_Arg1_Proper_Noun {yes,no}
 @attribute Left_Arg1_POStag {VBI,VBT,CDP,NULL,CC,CD,OD,DT,FW,IN,JJ,MD,NEG,NN,NNP,NND,PR,PRP,RB,RP,SC,SYM,UH,VB,WH,X,Z}
 @attribute number_token numeric
 @attribute classtarget {yes,no}
 
 @data
-JJ,no,0,no,NULL,1,yes
-NULL,no,0,no,NULL,1,yes
-DT,no,0,no,NULL,1,yes
-CC,no,1,no,VBT,1,no
-NULL,no,1,yes,NULL,2,no
-NULL,no,2,no,IN,3,yes
-NULL,yes,1,no,NULL,1,yes
-NULL,yes,1,no,NULL,1,yes
-NULL,no,0,no,VBI,1,yes
-NULL,no,3,no,VBT,3,yes
-NULL,no,2,no,VBT,3,no
-VBT,no,2,no,NULL,2,no
-RB,no,1,no,VBI,1,no
+JJ,no,NULL,1,yes
+NULL,no,NULL,1,yes
+DT,no,NULL,1,yes
+CC,no,VBT,1,no
+NULL,no,NULL,2,no
+NULL,no,IN,3,yes
+NULL,yes,NULL,1,yes
+NULL,yes,NULL,1,yes
+NULL,no,VBI,1,yes
+NULL,no,VBT,3,yes
+NULL,no,VBT,3,no
+VBT,no,NULL,2,no
+RB,no,VBI,1,no
