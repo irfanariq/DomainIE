@@ -45,9 +45,9 @@
             <version>3.5</version>
         </dependency>
         <dependency>
-            <groupId>ro.fortsoft.pf4j</groupId>
+            <groupId>org.pf4j</groupId>
             <artifactId>pf4j</artifactId>
-            <version>1.1.1</version>
+            <version>2.4.0</version>
         </dependency>
         <dependency>
             <groupId>org.slf4j</groupId>

@@ -20,8 +20,8 @@ import org.apache.commons.lang3.tuple.Pair;
 import javax.swing.*;
 import java.util.HashMap;
 import java.util.Map;
-import ro.fortsoft.pf4j.DefaultPluginManager;
-import ro.fortsoft.pf4j.PluginManager;
+import org.pf4j.DefaultPluginManager;
+import org.pf4j.PluginManager;
 
 
 public class ConfigFeatureDialog extends JFrame {

@@ -7,8 +7,8 @@ import id.ac.itb.openie.extractor.IExtractorExtensionRuleHandler;
 import id.ac.itb.openie.extractor.IExtractorHandler;
 import id.ac.itb.openie.postprocess.IPostprocessorHandler;
 import id.ac.itb.openie.preprocess.IPreprocessorHandler;
-import ro.fortsoft.pf4j.DefaultPluginManager;
-import ro.fortsoft.pf4j.PluginManager;
+import org.pf4j.DefaultPluginManager;
+import org.pf4j.PluginManager;
 
 import java.util.*;
 

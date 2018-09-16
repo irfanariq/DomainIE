@@ -5,9 +5,9 @@ import org.apache.commons.lang3.StringUtils;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
-import ro.fortsoft.pf4j.Extension;
-import ro.fortsoft.pf4j.Plugin;
-import ro.fortsoft.pf4j.PluginWrapper;
+import org.pf4j.Extension;
+import org.pf4j.Plugin;
+import org.pf4j.PluginWrapper;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -53,7 +53,7 @@ public class DetikCrawler extends Plugin {
             urls.add("https://finance.detik.com");
             urls.add("https://news.detik.com");
             urls.add("https://health.detik.com");
-            urls.add("https://hot.detik.com");
+            //urls.add("https://hot.detik.com");
             urls.add("http://travel.detik.com");
 
             return urls;

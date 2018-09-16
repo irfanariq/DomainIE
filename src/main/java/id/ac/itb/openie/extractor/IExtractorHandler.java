@@ -2,7 +2,7 @@ package id.ac.itb.openie.extractor;
 
 import id.ac.itb.openie.relation.Relations;
 import org.apache.commons.lang3.tuple.Pair;
-import ro.fortsoft.pf4j.ExtensionPoint;
+import org.pf4j.ExtensionPoint;
 
 import java.io.File;
 import java.io.Serializable;

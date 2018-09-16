@@ -7,7 +7,7 @@ package id.ac.itb.openie.dataprocessor;
 import id.ac.itb.openie.relation.Relation;
 import java.io.Serializable;
 import org.apache.commons.lang3.tuple.Pair;
-import ro.fortsoft.pf4j.ExtensionPoint;
+import org.pf4j.ExtensionPoint;
 /**
  *
  * @author yoga

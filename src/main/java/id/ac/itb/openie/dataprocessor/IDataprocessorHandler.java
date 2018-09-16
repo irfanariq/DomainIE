@@ -11,7 +11,7 @@ import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.HashMap;
 import org.apache.commons.lang3.tuple.Pair;
-import ro.fortsoft.pf4j.ExtensionPoint;
+import org.pf4j.ExtensionPoint;
 import weka.core.Instances;
 
 /**

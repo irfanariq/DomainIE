@@ -3,9 +3,9 @@ package classes;
 import id.ac.itb.openie.config.Config;
 import id.ac.itb.openie.preprocess.IPreprocessorFileHandler;
 import id.ac.itb.openie.utils.Utilities;
-import ro.fortsoft.pf4j.Extension;
-import ro.fortsoft.pf4j.Plugin;
-import ro.fortsoft.pf4j.PluginWrapper;
+import org.pf4j.Extension;
+import org.pf4j.Plugin;
+import org.pf4j.PluginWrapper;
 
 import java.io.File;
 import java.util.HashMap;

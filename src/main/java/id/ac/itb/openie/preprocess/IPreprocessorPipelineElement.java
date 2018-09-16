@@ -1,6 +1,6 @@
 package id.ac.itb.openie.preprocess;
 
-import ro.fortsoft.pf4j.ExtensionPoint;
+import org.pf4j.ExtensionPoint;
 
 import java.io.File;
 import java.util.HashMap;

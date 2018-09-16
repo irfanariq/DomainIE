@@ -1,6 +1,6 @@
 package id.ac.itb.openie.crawler;
 
-import ro.fortsoft.pf4j.ExtensionPoint;
+import org.pf4j.ExtensionPoint;
 
 import java.io.Serializable;
 import java.util.HashMap;

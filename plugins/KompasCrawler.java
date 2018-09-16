@@ -4,9 +4,9 @@ import id.ac.itb.openie.crawler.ICrawlerExtensionHandler;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.select.Elements;
-import ro.fortsoft.pf4j.Extension;
-import ro.fortsoft.pf4j.Plugin;
-import ro.fortsoft.pf4j.PluginWrapper;
+import org.pf4j.Extension;
+import org.pf4j.Plugin;
+import org.pf4j.PluginWrapper;
 
 import java.util.HashMap;
 import java.util.HashSet;
@@ -48,12 +48,14 @@ public class KompasCrawler extends Plugin {
             HashSet<String> urls = new HashSet<String>();
 
             urls.add("http://www.kompas.com");
+            urls.add("http://regional.kompas.com");
+            urls.add("http://lipsus.kompas.com");
 
             return urls;
         }
 
         public Boolean shouldCrawlerFollowLink(String link) {
-            return link.contains("kompas.com/read");
+            return link.contains("kompas.com/read") || link.contains("kompas.com/pestaasia");
         }
 
         public String extract(String url, String response) {

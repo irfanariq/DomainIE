@@ -30,7 +30,7 @@ $ java -cp .:out/artifacts/OpenIE_jar/*:jars/*:target/classes id.ac.itb.gui.Open
 
 ## Windows
 ```
-$ java -cp .;out/artifacts/OpenIE_jar/*;jars/*;target/classes id.ac.itb.gui.OpenIeJFrame
+$ java -cp '.;out/artifacts/OpenIE_jar/*;jars/*;target/classes' id.ac.itb.gui.OpenIeJFrame
 ```
 
 # Creating a plugin

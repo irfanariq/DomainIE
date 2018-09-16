@@ -58,8 +58,8 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Properties;
 import java.util.regex.Matcher;
-import ro.fortsoft.pf4j.DefaultPluginManager;
-import ro.fortsoft.pf4j.PluginManager;
+import org.pf4j.DefaultPluginManager;
+import org.pf4j.PluginManager;
 
 public class OpenIeJFrame extends javax.swing.JFrame {
 
