@@ -101,12 +101,12 @@ public class OpenIeJFrame extends javax.swing.JFrame {
         if (!dataprocessRelationDirectory.exists()) dataprocessRelationDirectory.mkdir();
         
     }
-
+    
     private void initPlugins() {
         Properties props = System.getProperties();
         props.setProperty("pf4j.mode", "development");
         props.setProperty("pf4j.pluginsDir", "plugins");
-
+        
         pluginLoader = new PluginLoader();
         
         
@@ -118,68 +118,81 @@ public class OpenIeJFrame extends javax.swing.JFrame {
                 .registerAvailableExtensions(IExtractorHandler.class)
                 .registerAvailableExtensions(IPostprocessorHandler.class);
     }
-
+    
     private void loadPlugin() {
         JFileChooser fileChooser = new JFileChooser();
         int returnValue = fileChooser.showOpenDialog(null);
         if (returnValue == JFileChooser.APPROVE_OPTION) {
             File selectedFile = fileChooser.getSelectedFile();
-
-            try {
-                String target = System.getProperty("pf4j.pluginsDir", "plugins") + File.separator + selectedFile.getName();
-                File targetZip = new File(target);
-                String UnzipTarget = target.replaceFirst("[.][^.]+$", "");
-                Files.copy(selectedFile.toPath(), targetZip.toPath(), StandardCopyOption.REPLACE_EXISTING);
-
-                UnzipUtility unzipUtility = new UnzipUtility();
-                unzipUtility.unzip(target, System.getProperty("pf4j.pluginsDir", "plugins"));
-                targetZip.delete();
-                
-                try {
-                    
-
-                    String[] cmd = new String[3];
-                    cmd[0]="cmd.exe";
-                    cmd[1]="/C";
-                    cmd[2]="ant";
-                    Runtime rt = Runtime.getRuntime();
-
-                    Process pr = rt.exec(cmd);
-
-                    BufferedReader input = new BufferedReader(new InputStreamReader(pr.getInputStream()));
-
-                    String line=null;
-
-                    System.out.println("Rebuilding app using ant.");
-
-                    while((line=input.readLine()) != null) {
-                        System.out.println(line);
-                    }
-                    int exitVal = pr.waitFor();
-                    
-                    initPlugins();
-                    openIESectionCrawlerComboBox.setModel(new javax.swing.DefaultComboBoxModel<>(pluginLoader.getImplementedExtensions(ICrawlerHandler.class).toArray()));
-                    openIESectionPreprocessComboBox.setModel(new javax.swing.DefaultComboBoxModel<>(pluginLoader.getImplementedExtensions(IPreprocessorHandler.class).toArray()));
-                    openIESectionDataprocessComboBox.setModel(new javax.swing.DefaultComboBoxModel<>(pluginLoader.getImplementedExtensions(IDataprocessorHandler.class).toArray()));
-                    openIESectionClassifierComboBox.setModel(new javax.swing.DefaultComboBoxModel<>(pluginLoader.getImplementedExtensions(IClassifierHandler.class).toArray()));
-                    openIESectionExtractionComboBox.setModel(new javax.swing.DefaultComboBoxModel<>(pluginLoader.getImplementedExtensions(IExtractorHandler.class).toArray()));
-                    openIESectionPostprocessComboBox.setModel(new javax.swing.DefaultComboBoxModel<>(pluginLoader.getImplementedExtensions(IPostprocessorHandler.class).toArray()));
-        
-                    //alert.dispose();
-                    if (exitVal == 0) {
+            Alert loading = new Alert("loading");
+            loading.setVisible(true);
+            SwingWorker worker = new SwingWorker() {
+                @Override
+                protected Object doInBackground() throws Exception {
+                    try {
+                        String target = System.getProperty("pf4j.pluginsDir", "plugins") + File.separator + selectedFile.getName();
+                        File targetZip = new File(target);
+                        String UnzipTarget = target.replaceFirst("[.][^.]+$", "");
+                        Files.copy(selectedFile.toPath(), targetZip.toPath(), StandardCopyOption.REPLACE_EXISTING);
                         
-                        new Alert("Plugins loaded successfully.").setVisible(true);
-                    } else {
-                        throw new Error("Error loading plugin.");
-                    }
-                } catch(Exception e) {
-                    System.out.println(e.toString());
-                    new Alert(e.getMessage()).setVisible(true);
-                }
+                        UnzipUtility unzipUtility = new UnzipUtility();
+                        unzipUtility.unzip(target, System.getProperty("pf4j.pluginsDir", "plugins"));
+                        targetZip.delete();
+                        
+                        try {
+//                    Alert loading = new Alert("load plugin into system");
+//                    loading.setVisible(true);
 
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
+                            String[] cmd = new String[3];
+                            cmd[0]="cmd.exe";
+                            cmd[1]="/C";
+                            cmd[2]="ant";
+                            Runtime rt = Runtime.getRuntime();
+
+                            Process pr = rt.exec(cmd);
+
+                            BufferedReader input = new BufferedReader(new InputStreamReader(pr.getInputStream()));
+
+                            String line=null;
+
+                            System.out.println("Rebuilding app using ant.");
+
+                            while((line=input.readLine()) != null) {
+                                System.out.println(line);
+                            }
+                            int exitVal = pr.waitFor();
+
+                            initPlugins();
+                            openIESectionCrawlerComboBox.setModel(new javax.swing.DefaultComboBoxModel<>(pluginLoader.getImplementedExtensions(ICrawlerHandler.class).toArray()));
+                            openIESectionPreprocessComboBox.setModel(new javax.swing.DefaultComboBoxModel<>(pluginLoader.getImplementedExtensions(IPreprocessorHandler.class).toArray()));
+                            openIESectionDataprocessComboBox.setModel(new javax.swing.DefaultComboBoxModel<>(pluginLoader.getImplementedExtensions(IDataprocessorHandler.class).toArray()));
+                            openIESectionClassifierComboBox.setModel(new javax.swing.DefaultComboBoxModel<>(pluginLoader.getImplementedExtensions(IClassifierHandler.class).toArray()));
+                            openIESectionExtractionComboBox.setModel(new javax.swing.DefaultComboBoxModel<>(pluginLoader.getImplementedExtensions(IExtractorHandler.class).toArray()));
+                            openIESectionPostprocessComboBox.setModel(new javax.swing.DefaultComboBoxModel<>(pluginLoader.getImplementedExtensions(IPostprocessorHandler.class).toArray()));
+
+                            //loading.dispose();
+                            //alert.dispose();
+                            if (exitVal == 0) {
+                            //                        new Alert("Plugins loaded successfully.").setVisible(true);
+                            loading.dispose();
+                             new Alert("Plugins loaded successfully.").setVisible(true);
+                            } else {
+                                throw new Error("Error loading plugin.");
+                            }
+                        } catch(Exception e) {
+                            System.out.println(e.toString());
+                            new Alert(e.getMessage()).setVisible(true);
+                        }
+                        
+                    } catch (IOException e) {
+                        e.printStackTrace();
+                    }
+                    return null;
+                }
+                
+            };
+            worker.execute();
+            
         }
     }
 
@@ -1278,11 +1291,12 @@ public class OpenIeJFrame extends javax.swing.JFrame {
             }
         });
 
-        SwingWorker<String, Void> worker = new SwingWorker<String, Void>() {
+        SwingWorker<String, Void> worker2 = new SwingWorker<String, Void>() {
             @Override
             protected String doInBackground() throws InterruptedException {
                 try {
                     openIePipeline.execute();
+                    Alert.main("Execution succeed");
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
@@ -1291,7 +1305,8 @@ public class OpenIeJFrame extends javax.swing.JFrame {
             }
         };
 
-        worker.execute();
+        worker2.execute();
+        
 
     }//GEN-LAST:event_openIESectionExecutePipelineElementButtonActionPerformed
 

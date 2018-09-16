@@ -54,49 +54,66 @@ public class ConfigFeatureDialog extends JFrame {
         int returnValue = fileChooser.showOpenDialog(null);
         if (returnValue == JFileChooser.APPROVE_OPTION) {
             File selectedFile = fileChooser.getSelectedFile();
+Alert loading = new Alert("loading");
+            loading.setVisible(true);
+            SwingWorker worker = new SwingWorker() {
+                @Override
+                protected Object doInBackground() throws Exception {
+                    try {
+                        String target = System.getProperty("pf4j.pluginsDir", "plugins") + File.separator + selectedFile.getName();
+                        File targetZip = new File(target);
+                        String UnzipTarget = target.replaceFirst("[.][^.]+$", "");
+                        Files.copy(selectedFile.toPath(), targetZip.toPath(), StandardCopyOption.REPLACE_EXISTING);
+                        
+                        UnzipUtility unzipUtility = new UnzipUtility();
+                        unzipUtility.unzip(target, System.getProperty("pf4j.pluginsDir", "plugins"));
+                        targetZip.delete();
+                        
+                        try {
+//                    Alert loading = new Alert("load plugin into system");
+//                    loading.setVisible(true);
 
-            try {
-                String target = System.getProperty("pf4j.pluginsDir", "plugins") + File.separator + selectedFile.getName();
-                File targetZip = new File(target);
-                String UnzipTarget = target.replaceFirst("[.][^.]+$", "");
-                Files.copy(selectedFile.toPath(), targetZip.toPath(), StandardCopyOption.REPLACE_EXISTING);
+                            String[] cmd = new String[3];
+                            cmd[0]="cmd.exe";
+                            cmd[1]="/C";
+                            cmd[2]="ant";
+                            Runtime rt = Runtime.getRuntime();
 
-                UnzipUtility unzipUtility = new UnzipUtility();
-                unzipUtility.unzip(target, System.getProperty("pf4j.pluginsDir", "plugins"));
-                targetZip.delete();
+                            Process pr = rt.exec(cmd);
 
-                try {
-                    Runtime rt = Runtime.getRuntime();
-                    String[] cmd = new String[3];
-                    cmd[0]="cmd.exe";
-                    cmd[1]="/C";
-                    cmd[2]="ant";
-                    Process pr = rt.exec(cmd);
+                            BufferedReader input = new BufferedReader(new InputStreamReader(pr.getInputStream()));
 
-                    BufferedReader input = new BufferedReader(new InputStreamReader(pr.getInputStream()));
+                            String line=null;
 
-                    String line=null;
+                            System.out.println("Rebuilding app using ant.");
 
-                    System.out.println("Rebuilding app using ant.");
-
-                    while((line=input.readLine()) != null) {
-                        System.out.println(line);
+                            while((line=input.readLine()) != null) {
+                                System.out.println(line);
+                            }
+                            int exitVal = pr.waitFor();
+                            
+                            //loading.dispose();
+                            //alert.dispose();
+                            if (exitVal == 0) {
+                            //                        new Alert("Plugins loaded successfully.").setVisible(true);
+                            loading.dispose();
+                             new Alert("Plugins loaded successfully.").setVisible(true);
+                            } else {
+                                throw new Error("Error loading plugin.");
+                            }
+                        } catch(Exception e) {
+                            System.out.println(e.toString());
+                            new Alert(e.getMessage()).setVisible(true);
+                        }
+                        
+                    } catch (IOException e) {
+                        e.printStackTrace();
                     }
-
-                    int exitVal = pr.waitFor();
-
-                    if (exitVal == 0) {
-                        new Alert("Plugins loaded successfully.").setVisible(true);
-                    } else {
-                        throw new Error("Error loading plugin.");
-                    }
-                } catch(Exception e) {
-                    new Alert(e.getMessage()).setVisible(true);
+                    return null;
                 }
-
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
+                
+            };
+            worker.execute();
         }
     }
     /**

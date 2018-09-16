@@ -23,6 +23,11 @@ public class PluginLoader {
         pluginManager.loadPlugins();
         pluginManager.startPlugins();
     }
+    
+    public void updatePlugins(){
+        pluginManager.loadPlugins();
+        pluginManager.startPlugins();
+    }
 
     public PluginLoader registerAvailableExtensions(Class type) {
         implementedExtensions.put(type, new ArrayList<>());

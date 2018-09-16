@@ -22,6 +22,11 @@ public class Alert extends javax.swing.JFrame {
 
         this.alert = alert;
         initComponents();
+        
+    }
+    
+    public void setText(String text){
+        this.alert=text;
     }
 
     /**
