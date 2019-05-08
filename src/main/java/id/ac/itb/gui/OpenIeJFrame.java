@@ -355,6 +355,7 @@ public class OpenIeJFrame extends javax.swing.JFrame {
         openIESectionClassifierComboBox = new javax.swing.JComboBox<>();
         openIESectionAddClassifierButton = new javax.swing.JButton();
         jPanel6 = new javax.swing.JPanel();
+        jPanel7 = new javax.swing.JPanel();
         jScrollPane2 = new javax.swing.JScrollPane();
         evaluationSectionFilesjList = new javax.swing.JList<>();
         jScrollPane7 = new javax.swing.JScrollPane();
@@ -781,6 +782,8 @@ public class OpenIeJFrame extends javax.swing.JFrame {
 
         jTabbedPane1.addTab("Open IE", jPanel5);
 
+        // TODO ========================================================================================================
+
         jScrollPane2.setViewportView(evaluationSectionFilesjList);
 
         evaluationSectionFilesjList.setModel(new javax.swing.AbstractListModel<String>() {
@@ -1019,8 +1022,12 @@ public class OpenIeJFrame extends javax.swing.JFrame {
             }
         } );
 
-        
+
         jTabbedPane1.addTab("Evaluation", jPanel6);
+
+        // TODO ========================================================================================================
+
+        jTabbedPane1.addTab("Domain IE", jPanel7);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -1429,6 +1436,7 @@ public class OpenIeJFrame extends javax.swing.JFrame {
     private javax.swing.JList<String> evaluationSectionRelationsjList;
     private javax.swing.JPanel jPanel5;
     private javax.swing.JPanel jPanel6;
+    private javax.swing.JPanel jPanel7;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JScrollPane jScrollPane2;
     private javax.swing.JScrollPane jScrollPane6;
