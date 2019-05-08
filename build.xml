@@ -239,7 +239,7 @@
   </target>
   
   <target name="clean.artifact.openie:jar" description="clean OpenIE:jar artifact output">
-    <delete dir="${artifact.output.openie:jar}"/>
+    <delete dir="${artifact.output.openie}"/>
   </target>
   
   <target name="artifact.openie:jar" depends="init.artifacts, compile.module.openie" description="Build &#39;OpenIE:jar&#39; artifact">
