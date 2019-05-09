@@ -8,6 +8,7 @@ package id.ac.itb.gui;
 import id.ac.itb.gui.alert.Alert;
 import id.ac.itb.gui.config.ConfigDialog;
 import id.ac.itb.gui.config.ConfigFeatureDialog;
+import id.ac.itb.gui.dragdroplist.DragDropList;
 import id.ac.itb.gui.progressbar.ClassifierProgress;
 import id.ac.itb.gui.progressbar.CrawlerProgress;
 import id.ac.itb.gui.progressbar.DataprocessorProgress;
@@ -64,6 +65,7 @@ import org.pf4j.PluginManager;
 public class OpenIeJFrame extends javax.swing.JFrame {
 
     private DefaultListModel openIePipelineListModel;
+    private DefaultListModel domainIePipelineListModel;
     private PluginLoader pluginLoader;
     private ExtractionsEvaluationLabeller extractionsEvaluationLabeller;
 
@@ -309,6 +311,7 @@ public class OpenIeJFrame extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
         openIePipelineListModel = new DefaultListModel();
+        domainIePipelineListModel = new DefaultListModel();
         extractionsEvaluationLabeller = new ExtractionsEvaluationLabeller();
         openIePipelineDragDropList = new id.ac.itb.gui.dragdroplist.DragDropList(openIePipelineListModel);
         jSeparator1 = new javax.swing.JSeparator();
@@ -355,7 +358,6 @@ public class OpenIeJFrame extends javax.swing.JFrame {
         openIESectionClassifierComboBox = new javax.swing.JComboBox<>();
         openIESectionAddClassifierButton = new javax.swing.JButton();
         jPanel6 = new javax.swing.JPanel();
-        jPanel7 = new javax.swing.JPanel();
         jScrollPane2 = new javax.swing.JScrollPane();
         evaluationSectionFilesjList = new javax.swing.JList<>();
         jScrollPane7 = new javax.swing.JScrollPane();
@@ -374,6 +376,26 @@ public class OpenIeJFrame extends javax.swing.JFrame {
         saveEvaluationButton = new javax.swing.JButton();
         evaluationFilesLabel = new javax.swing.JLabel();
         jSeparator4 = new javax.swing.JSeparator();
+        jPanel7 = new javax.swing.JPanel();
+        loadPluginsDomainLabel = new javax.swing.JLabel();
+        loadPluginsDomainButton = new javax.swing.JButton();
+        domainIEClassRecognizerLabel = new javax.swing.JLabel();
+        domainIEClassRecognizerComboBox = new javax.swing.JComboBox<>();
+        domainIEClassRecognizerAddButton = new javax.swing.JButton();
+        jdomseparator1 = new javax.swing.JSeparator();
+        jdomseparator2 = new javax.swing.JSeparator();
+        jdomseparator3 = new javax.swing.JSeparator();
+        domainIEDomainMapperLabel = new javax.swing.JLabel();
+        domainIEDomainMapperComboBox = new javax.swing.JComboBox();
+        domainIEDomainMapperAddButton = new javax.swing.JButton();
+        domainIEDomainDataLabel = new javax.swing.JLabel();
+        domainIEDomainDataButton = new javax.swing.JButton();
+        domainIePipelineDragDropList = new DragDropList(domainIePipelineListModel);
+        jDomScrollPane1 = new javax.swing.JScrollPane();
+        domainIePipelineElementLabel = new javax.swing.JLabel();
+        domainIEExecutePipelineButton = new javax.swing.JButton();
+        domainIERemovePipelineButton = new javax.swing.JButton();
+        domainIEConfigurePipelineButton = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -1025,7 +1047,173 @@ public class OpenIeJFrame extends javax.swing.JFrame {
 
         jTabbedPane1.addTab("Evaluation", jPanel6);
 
-        // TODO ========================================================================================================
+        // TODO BIKIN GUI ==============================================================================================
+
+        loadPluginsDomainLabel.setText("Load Plugins");
+        loadPluginsDomainButton.setText("Browse");
+        domainIEClassRecognizerLabel.setText("Class Recognizer");
+//        domainIEClassRecognizerComboBox;
+//        domainIEDomainMapperComboBox;
+        domainIEClassRecognizerAddButton.setText("+");
+        jdomseparator1.setOrientation(javax.swing.SwingConstants.VERTICAL);
+        domainIEDomainMapperLabel.setText("Domain Relation Mapper");
+        domainIEDomainMapperAddButton.setText("+");
+        domainIEDomainDataLabel.setText("Domain Data Directory");
+        domainIEDomainDataButton.setText("Browse");
+        jDomScrollPane1.setViewportView(domainIePipelineDragDropList);
+        domainIePipelineElementLabel.setText("Execution Pipeline");
+        domainIEExecutePipelineButton.setText("Execute");
+        domainIERemovePipelineButton.setText("Remove");
+        domainIEConfigurePipelineButton.setText("Configure");
+
+        javax.swing.GroupLayout jPanel7Layout = new javax.swing.GroupLayout(jPanel7);
+        jPanel7.setLayout(jPanel7Layout);
+
+        jPanel7Layout.setAutoCreateGaps(true);
+        jPanel7Layout.setAutoCreateContainerGaps(true);
+
+        jPanel7Layout.setHorizontalGroup(
+                jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGroup(jPanel7Layout.createSequentialGroup()
+//                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addGroup(jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                        .addComponent(loadPluginsDomainLabel)
+                                        .addComponent(loadPluginsDomainButton, javax.swing.GroupLayout.PREFERRED_SIZE, 104, javax.swing.GroupLayout.PREFERRED_SIZE))
+//                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(jdomseparator1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+//                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addGroup(jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                        .addGroup(jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                                        .addComponent(domainIEClassRecognizerLabel)
+                                                        .addGroup(jPanel7Layout.createSequentialGroup()
+//                                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                                                .addComponent(domainIEClassRecognizerComboBox)
+//                                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                                                .addComponent(domainIEClassRecognizerAddButton)
+//                                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                                        )
+                                        )
+                                        .addComponent(jdomseparator3)
+                                        .addGroup(jPanel7Layout.createSequentialGroup()
+//                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                                .addGroup(jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                                                .addComponent(domainIEDomainMapperLabel)
+                                                                .addGroup(jPanel7Layout.createSequentialGroup()
+//                                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                                                                .addComponent(domainIEDomainMapperComboBox)
+//                                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                                                                .addComponent(domainIEDomainMapperAddButton)
+//                                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                                                )
+                                                )
+//                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                                .addGroup(jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                                        .addComponent(domainIEDomainDataLabel)
+                                                        .addComponent(domainIEDomainDataButton, javax.swing.GroupLayout.PREFERRED_SIZE, 104, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                                )
+
+                                        )
+                                )
+//                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        )
+                        .addComponent(jdomseparator2)
+                        .addGroup(jPanel7Layout.createSequentialGroup()
+//                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addGroup(jPanel7Layout.createParallelGroup()
+                                        .addComponent(domainIePipelineElementLabel)
+                                        .addComponent(jDomScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 399, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                )
+//                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addGroup(jPanel7Layout.createParallelGroup()
+                                        .addComponent(domainIERemovePipelineButton, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                        .addComponent(domainIEConfigurePipelineButton, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                        .addComponent(domainIEExecutePipelineButton, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                )
+//                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        )
+        );
+        jPanel7Layout.setVerticalGroup(
+                jPanel7Layout.createParallelGroup(GroupLayout.Alignment.LEADING)
+                .addGroup(jPanel7Layout.createSequentialGroup()
+//                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(jPanel7Layout.createParallelGroup(GroupLayout.Alignment.LEADING)
+                                .addGroup(jPanel7Layout.createSequentialGroup()
+//                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                        .addComponent(loadPluginsDomainLabel)
+//                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                        .addComponent(loadPluginsDomainButton)
+//                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                )
+                                .addComponent(jdomseparator1, javax.swing.GroupLayout.DEFAULT_SIZE, 60, Short.MAX_VALUE)
+                                .addGap(10, 10 ,10)
+                                .addGroup(jPanel7Layout.createSequentialGroup()
+//                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                        .addGroup(jPanel7Layout.createSequentialGroup()
+//                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                                .addComponent(domainIEClassRecognizerLabel)
+//                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                                .addGroup(jPanel7Layout.createParallelGroup(GroupLayout.Alignment.BASELINE)
+                                                        .addComponent(domainIEClassRecognizerComboBox)
+                                                        .addComponent(domainIEClassRecognizerAddButton)
+                                                )
+//                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                        )
+//                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                        .addComponent(jdomseparator3)
+//                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                        .addGroup(jPanel7Layout.createParallelGroup(GroupLayout.Alignment.BASELINE)
+                                                .addGroup(jPanel7Layout.createSequentialGroup()
+//                                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                                        .addComponent(domainIEDomainMapperLabel)
+//                                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                                        .addGroup(jPanel7Layout.createParallelGroup(GroupLayout.Alignment.BASELINE)
+                                                                .addComponent(domainIEDomainMapperComboBox)
+                                                                .addComponent(domainIEDomainMapperAddButton)
+                                                        )
+//                                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                                )
+                                                .addGroup(jPanel7Layout.createSequentialGroup()
+//                                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                                        .addComponent(domainIEDomainDataLabel)
+//                                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                                        .addComponent(domainIEDomainDataButton)
+//                                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                                )
+                                        )
+                                )
+                        )
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jdomseparator2)
+                        .addComponent(domainIePipelineElementLabel)
+//                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(jPanel7Layout.createParallelGroup()
+                                .addGroup(jPanel7Layout.createSequentialGroup()
+//                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                        .addComponent(jDomScrollPane1)
+//                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                )
+                                .addGroup(jPanel7Layout.createSequentialGroup()
+                                        .addGroup(jPanel7Layout.createParallelGroup(GroupLayout.Alignment.LEADING)
+                                                .addGroup(jPanel7Layout.createSequentialGroup()
+//                                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                                        .addComponent(domainIERemovePipelineButton)
+//                                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                                        .addComponent(domainIEConfigurePipelineButton)
+//                                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                                )
+                                        )
+                                        .addGroup(jPanel7Layout.createParallelGroup(GroupLayout.Alignment.TRAILING)
+                                                .addGroup(jPanel7Layout.createSequentialGroup()
+//                                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                                        .addComponent(domainIEExecutePipelineButton)
+//                                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                                )
+                                        )
+                                )
+                        )
+//                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                )
+        );
 
         jTabbedPane1.addTab("Domain IE", jPanel7);
 
@@ -1422,6 +1610,7 @@ public class OpenIeJFrame extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private id.ac.itb.gui.dragdroplist.DragDropList openIePipelineDragDropList;
+    private id.ac.itb.gui.dragdroplist.DragDropList domainIePipelineDragDropList;
     private javax.swing.JLabel DataTrainingDirectoryLabel;
     private javax.swing.JButton addEvaluationRelationButton;
     private javax.swing.JLabel addNewRelationsLabel;
@@ -1485,5 +1674,24 @@ public class OpenIeJFrame extends javax.swing.JFrame {
     private javax.swing.JButton saveEvaluationButton;
     private javax.swing.JLabel sentencesLabel;
     private javax.swing.JLabel startingDirectoryLabel;
+    // TODO =============== added variable
+    private javax.swing.JLabel loadPluginsDomainLabel;
+    private javax.swing.JButton loadPluginsDomainButton;
+    private javax.swing.JLabel domainIEClassRecognizerLabel;
+    private javax.swing.JComboBox<Object> domainIEClassRecognizerComboBox;
+    private javax.swing.JButton domainIEClassRecognizerAddButton;
+    private javax.swing.JSeparator jdomseparator1;
+    private javax.swing.JSeparator jdomseparator2;
+    private javax.swing.JSeparator jdomseparator3;
+    private javax.swing.JLabel domainIEDomainMapperLabel;
+    private javax.swing.JComboBox<Object> domainIEDomainMapperComboBox;
+    private javax.swing.JButton domainIEDomainMapperAddButton;
+    private javax.swing.JLabel domainIEDomainDataLabel;
+    private javax.swing.JButton domainIEDomainDataButton;
+    private javax.swing.JScrollPane jDomScrollPane1;
+    private javax.swing.JLabel domainIePipelineElementLabel;
+    private javax.swing.JButton domainIEExecutePipelineButton;
+    private javax.swing.JButton domainIERemovePipelineButton;
+    private javax.swing.JButton domainIEConfigurePipelineButton;
     // End of variables declaration//GEN-END:variables
 }
