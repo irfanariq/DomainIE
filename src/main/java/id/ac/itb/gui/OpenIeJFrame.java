@@ -29,7 +29,6 @@ import id.ac.itb.openie.dataprocessor.DataprocessorPipeline;
 import id.ac.itb.openie.dataprocessor.IDataprocessorHandler;
 import id.ac.itb.openie.dataprocessor.IDataprocessorPipelineElement;
 import id.ac.itb.openie.dataprocessor.IDataprocessorPipelineHook;
-import id.ac.itb.openie.dataprocessor.IFeatureHandler;
 import id.ac.itb.openie.evaluation.ExtractionsEvaluation;
 import id.ac.itb.openie.evaluation.ExtractionsEvaluationLabeller;
 import id.ac.itb.openie.evaluation.ExtractionsEvaluationModel;
@@ -39,8 +38,8 @@ import id.ac.itb.openie.pipeline.OpenIePipeline;
 import id.ac.itb.openie.plugins.PluginLoader;
 import id.ac.itb.openie.postprocess.*;
 import id.ac.itb.openie.preprocess.*;
-import id.ac.itb.openie.relation.Relation;
-import id.ac.itb.openie.relation.Relations;
+import id.ac.itb.openie.models.Relation;
+import id.ac.itb.openie.models.Relations;
 import id.ac.itb.util.UnzipUtility;
 import org.apache.commons.lang3.SerializationUtils;
 
@@ -59,8 +58,6 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Properties;
 import java.util.regex.Matcher;
-import org.pf4j.DefaultPluginManager;
-import org.pf4j.PluginManager;
 
 public class OpenIeJFrame extends javax.swing.JFrame {
 

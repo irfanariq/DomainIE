@@ -5,10 +5,9 @@
  */
 package id.ac.itb.openie.dataprocessor;
 
-import id.ac.itb.openie.relation.Relations;
+import id.ac.itb.openie.models.Relations;
 import java.io.File;
 import java.io.Serializable;
-import java.util.ArrayList;
 import java.util.HashMap;
 import org.apache.commons.lang3.tuple.Pair;
 import org.pf4j.ExtensionPoint;
@@ -55,8 +54,8 @@ public interface IDataprocessorHandler extends ExtensionPoint, Serializable{
     /**
      *
      * @param file output title
-     * @param relation relation that have been processed
-     * @param instances representation of featured relation, can be ? target value
+     * @param relation models that have been processed
+     * @param instances representation of featured models, can be ? target value
      * @throws Exception
      */
     public void write(File file, Relations relation, Instances instances) throws Exception;

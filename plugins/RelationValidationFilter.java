@@ -3,8 +3,8 @@ package classes;
 import id.ac.itb.nlp.NamedEntityTagger;
 import id.ac.itb.nlp.PhraseChunker;
 import id.ac.itb.openie.postprocess.IPostprocessorExtensionHandler;
-import id.ac.itb.openie.relation.Relation;
-import id.ac.itb.openie.relation.Relations;
+import id.ac.itb.openie.models.Relation;
+import id.ac.itb.openie.models.Relations;
 import org.pf4j.Extension;
 import org.pf4j.Plugin;
 import org.pf4j.PluginWrapper;
@@ -44,8 +44,8 @@ public class RelationValidationFilter extends Plugin {
             PhraseChunker phraseChunker = new PhraseChunker();
             NamedEntityTagger namedEntityTagger = new NamedEntityTagger();
 
-            // for (Relation relation: relations.getRelations()) {
-            //     System.out.println(namedEntityTagger.tag(relation.getOriginSentence()));
+            // for (Relation models: relations.getRelations()) {
+            //     System.out.println(namedEntityTagger.tag(models.getOriginSentence()));
             // }
 
             return relations;

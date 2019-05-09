@@ -3,7 +3,7 @@ package classes;
 import ro.fortsoft.pf4j.Extension;
 import ro.fortsoft.pf4j.Plugin;
 import ro.fortsoft.pf4j.PluginWrapper;
-import id.ac.itb.openie.relation.Relation;
+import id.ac.itb.openie.models.Relation;
 import org.apache.commons.lang3.tuple.Triple;
 import org.apache.commons.lang3.tuple.Pair;
 import id.ac.itb.openie.dataprocessor.*;

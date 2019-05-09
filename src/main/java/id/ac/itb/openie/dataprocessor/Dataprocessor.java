@@ -5,8 +5,8 @@
  */
 package id.ac.itb.openie.dataprocessor;
 
-import id.ac.itb.openie.relation.Relation;
-import id.ac.itb.openie.relation.Relations;
+import id.ac.itb.openie.models.Relation;
+import id.ac.itb.openie.models.Relations;
 import id.ac.itb.openie.utils.Utilities;
 import java.io.File;
 import java.util.ArrayList;

@@ -5,9 +5,8 @@
  */
 package id.ac.itb.openie.dataprocessor;
 
-import id.ac.itb.openie.relation.Relations;
+import id.ac.itb.openie.models.Relations;
 import java.io.File;
-import java.util.ArrayList;
 import java.util.HashMap;
 import org.apache.commons.lang3.tuple.Pair;
 import weka.core.Instances;

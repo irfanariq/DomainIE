@@ -5,8 +5,8 @@
  */
 package id.ac.itb.gui.viewer;
 
-import id.ac.itb.openie.relation.Relation;
-import id.ac.itb.openie.relation.Relations;
+import id.ac.itb.openie.models.Relation;
+import id.ac.itb.openie.models.Relations;
 import id.ac.itb.openie.utils.Utilities;
 import org.apache.commons.lang3.StringUtils;
 
@@ -101,7 +101,7 @@ public class ExtractionViewer extends javax.swing.JFrame {
             }
         }
         
-        // Highlight each word in relation separately
+        // Highlight each word in models separately
         String relSentence = arg1Sentence;
         int offsetRelSentence = offsetArg1Sentence;
         for (String word: rel.split("\\s")) {
@@ -148,9 +148,9 @@ public class ExtractionViewer extends javax.swing.JFrame {
         int totalRelations = relationsByFilename.get(currentlySelectedFile.getName()).getRelations().size();
 
         if (totalRelations > 0) {
-            additionalInformationLabel.setText(totalRelations + " relation extracted." + " Pointer : " + (currentRelationPointerIndex+1) + "/" + totalRelations);
+            additionalInformationLabel.setText(totalRelations + " models extracted." + " Pointer : " + (currentRelationPointerIndex+1) + "/" + totalRelations);
         } else {
-            additionalInformationLabel.setText("No relation extracted.");
+            additionalInformationLabel.setText("No models extracted.");
         }
     }
 

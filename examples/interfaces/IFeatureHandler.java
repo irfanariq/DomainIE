@@ -13,7 +13,7 @@ public interface IFeatureHandler extends ExtensionPoint, Serializable{
     public String getDescription();
     /**
      *
-     * @param relation relation as preprocess result
+     * @param relation models as preprocess result
      * @return feature value
      */
     public Object calculate(Relation relation);

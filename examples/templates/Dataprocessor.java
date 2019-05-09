@@ -4,8 +4,8 @@ import id.ac.itb.openie.dataprocessor.*;
 import ro.fortsoft.pf4j.Extension;
 import ro.fortsoft.pf4j.Plugin;
 import ro.fortsoft.pf4j.PluginWrapper;
-import id.ac.itb.openie.relation.Relation;
-import id.ac.itb.openie.relation.Relations;
+import id.ac.itb.openie.models.Relation;
+import id.ac.itb.openie.models.Relations;
 import java.io.File;
 import java.util.HashMap;
 import java.util.ArrayList;
@@ -39,7 +39,7 @@ public class Dataprocessor extends Plugin {
 
         @Override
         public Relations documentToRelations(String document){
-            /* TODO: change document(corpus text) into Relations(set of relation) that may be incomplete as classifier input*/
+            /* TODO: change document(corpus text) into Relations(set of models) that may be incomplete as classifier input*/
         }
 
     }

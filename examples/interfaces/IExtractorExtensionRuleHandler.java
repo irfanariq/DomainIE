@@ -24,7 +24,7 @@ public abstract class IExtractorExtensionRuleHandler implements IExtractorHandle
     /**
      *
      * @param document String containing original preprocessed file content
-     * @param extracted List of relation extracted from previous extractor
+     * @param extracted List of models extracted from previous extractor
      * @return extracted relations
      * @throws Exception
      */

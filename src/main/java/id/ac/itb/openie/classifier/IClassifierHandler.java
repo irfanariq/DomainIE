@@ -5,12 +5,10 @@
  */
 package id.ac.itb.openie.classifier;
 
-import id.ac.itb.openie.relation.Relations;
 import java.io.File;
 import java.io.Serializable;
-import java.util.ArrayList;
 import java.util.HashMap;
-import org.apache.commons.lang3.tuple.Pair;
+
 import org.pf4j.ExtensionPoint;
 import weka.core.Instances;
 

@@ -2,7 +2,7 @@ package classes;
 
 import id.ac.itb.openie.config.Config;
 import id.ac.itb.openie.postprocess.IPostprocessorFileHandler;
-import id.ac.itb.openie.relation.Relations;
+import id.ac.itb.openie.models.Relations;
 import id.ac.itb.openie.utils.Utilities;
 import org.pf4j.Extension;
 import org.pf4j.Plugin;

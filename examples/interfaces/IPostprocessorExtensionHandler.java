@@ -23,8 +23,8 @@ public abstract class IPostprocessorExtensionHandler implements IPostprocessorHa
 
     /**
      *
-     * @param relations List of originally extracted relation from extractor
-     * @param postprocessed List of relation postprocessed from previous postprocessor
+     * @param relations List of originally extracted models from extractor
+     * @param postprocessed List of models postprocessed from previous postprocessor
      * @return postprocessed relations
      * @throws Exception
      */
