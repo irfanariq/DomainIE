@@ -75,4 +75,16 @@ public class Relation {
     public Boolean getClassTarget(){
         return this.classTarget;
     }
+
+    public String getFirstEntity() {
+        return firstEntity;
+    }
+
+    public String getRelation() {
+        return relation;
+    }
+
+    public String getSecondEntity() {
+        return secondEntity;
+    }
 }
