@@ -22,6 +22,7 @@ import id.ac.itb.openie.classifier.ClassifierPipeline;
 import id.ac.itb.openie.classifier.IClassifierHandler;
 import id.ac.itb.openie.classifier.IClassifierPipelineElement;
 import id.ac.itb.openie.classifier.IClassifierPipelineHook;
+import id.ac.itb.openie.classrecognizer.*;
 import id.ac.itb.openie.config.Config;
 import id.ac.itb.openie.crawler.*;
 import id.ac.itb.openie.dataprocessor.Dataprocessor;
@@ -34,6 +35,7 @@ import id.ac.itb.openie.evaluation.ExtractionsEvaluationLabeller;
 import id.ac.itb.openie.evaluation.ExtractionsEvaluationModel;
 import id.ac.itb.openie.evaluation.ExtractionsEvaluationResult;
 import id.ac.itb.openie.extractor.*;
+import id.ac.itb.openie.pipeline.DomainIePipeline;
 import id.ac.itb.openie.pipeline.OpenIePipeline;
 import id.ac.itb.openie.plugins.PluginLoader;
 import id.ac.itb.openie.postprocess.*;
@@ -86,6 +88,11 @@ public class OpenIeJFrame extends javax.swing.JFrame {
         File datatrainingDirectory = new File(System.getProperty("user.dir") + File.separator + new Config().getProperty("DATATRAINING_OUTPUT_RELATIVE_PATH").replaceAll("\\.", Matcher.quoteReplacement(System.getProperty("file.separator"))));
         File processedDatatrainingDirectory = new File(System.getProperty("user.dir") + File.separator + new Config().getProperty("DATATRAININGPROCESSED_OUTPUT_RELATIVE_PATH").replaceAll("\\.", Matcher.quoteReplacement(System.getProperty("file.separator"))));
         File dataprocessRelationDirectory = new File(System.getProperty("user.dir") + File.separator + new Config().getProperty("DATAPROCESSRELATION_OUTPUT_RELATIVE_PATH").replaceAll("\\.", Matcher.quoteReplacement(System.getProperty("file.separator"))));
+        //
+        File domainDataDirectory = new File(System.getProperty("user.dir") + File.separator + new Config().getProperty("DOMAIN_DATA_RELATIVE_PATH").replaceAll("\\.", Matcher.quoteReplacement(System.getProperty("file.separator"))));
+        File recognizedRelationDirectory = new File(System.getProperty("user.dir") + File.separator + new Config().getProperty("RECOGNIZED_RELATION_OUPUT_RELATIVE_PATH").replaceAll("\\.", Matcher.quoteReplacement(System.getProperty("file.separator"))));
+        File recognizedDomainDataDirectory = new File(System.getProperty("user.dir") + File.separator + new Config().getProperty("RECOGNIZED_DOMAIN_DATA_RELATIVE_PATH").replaceAll("\\.", Matcher.quoteReplacement(System.getProperty("file.separator"))));
+        File domainRelationDirectory = new File(System.getProperty("user.dir") + File.separator + new Config().getProperty("DOMAIN_RELATION_OUPUT_DATA").replaceAll("\\.", Matcher.quoteReplacement(System.getProperty("file.separator"))));
 
         
         if (!crawlerDirectory.exists()) crawlerDirectory.mkdir();
@@ -98,7 +105,10 @@ public class OpenIeJFrame extends javax.swing.JFrame {
         if (!datatrainingDirectory.exists()) datatrainingDirectory.mkdir();
         if (!processedDatatrainingDirectory.exists()) processedDatatrainingDirectory.mkdir();
         if (!dataprocessRelationDirectory.exists()) dataprocessRelationDirectory.mkdir();
-        
+        if (!domainDataDirectory.exists()) domainDataDirectory.mkdir();
+        if (!recognizedRelationDirectory.exists()) recognizedRelationDirectory.mkdir();
+        if (!recognizedDomainDataDirectory.exists()) recognizedDomainDataDirectory.mkdir();
+        if (!domainRelationDirectory .exists()) domainRelationDirectory .mkdir();
     }
     
     private void initPlugins() {
@@ -107,15 +117,15 @@ public class OpenIeJFrame extends javax.swing.JFrame {
         props.setProperty("pf4j.pluginsDir", "plugins");
         
         pluginLoader = new PluginLoader();
-        
-        
+
         pluginLoader
                 .registerAvailableExtensions(ICrawlerHandler.class)
                 .registerAvailableExtensions(IPreprocessorHandler.class)
                 .registerAvailableExtensions(IDataprocessorHandler.class)
                 .registerAvailableExtensions(IClassifierHandler.class)
                 .registerAvailableExtensions(IExtractorHandler.class)
-                .registerAvailableExtensions(IPostprocessorHandler.class);
+                .registerAvailableExtensions(IPostprocessorHandler.class)
+                .registerAvailableExtensions(IClassRecognizerHandler.class);
     }
     
     private void loadPlugin() {
@@ -168,6 +178,7 @@ public class OpenIeJFrame extends javax.swing.JFrame {
                             openIESectionClassifierComboBox.setModel(new javax.swing.DefaultComboBoxModel<>(pluginLoader.getImplementedExtensions(IClassifierHandler.class).toArray()));
                             openIESectionExtractionComboBox.setModel(new javax.swing.DefaultComboBoxModel<>(pluginLoader.getImplementedExtensions(IExtractorHandler.class).toArray()));
                             openIESectionPostprocessComboBox.setModel(new javax.swing.DefaultComboBoxModel<>(pluginLoader.getImplementedExtensions(IPostprocessorHandler.class).toArray()));
+                            domainIEClassRecognizerComboBox.setModel(new javax.swing.DefaultComboBoxModel<>(pluginLoader.getImplementedExtensions(IClassRecognizerHandler.class).toArray()));
 
                             //loading.dispose();
                             //alert.dispose();
@@ -1047,21 +1058,84 @@ public class OpenIeJFrame extends javax.swing.JFrame {
         // TODO BIKIN GUI ==============================================================================================
 
         loadPluginsDomainLabel.setText("Load Plugins");
+
         loadPluginsDomainButton.setText("Browse");
+        loadPluginsDomainButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                loadPluginsButtonActionPerformed(e);
+            }
+        });
+
         domainIEClassRecognizerLabel.setText("Class Recognizer");
-//        domainIEClassRecognizerComboBox;
-//        domainIEDomainMapperComboBox;
+        domainIEClassRecognizerComboBox.setModel(new javax.swing.DefaultComboBoxModel<>(pluginLoader.getImplementedExtensions(IClassRecognizerHandler.class).toArray()));
         domainIEClassRecognizerAddButton.setText("+");
+        domainIEClassRecognizerAddButton.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                domainIESectionAddClassRecognizerButtonActionPerformed(evt);
+            }
+        });
         jdomseparator1.setOrientation(javax.swing.SwingConstants.VERTICAL);
+
         domainIEDomainMapperLabel.setText("Domain Relation Mapper");
+//        domainIEDomainMapperComboBox;
         domainIEDomainMapperAddButton.setText("+");
         domainIEDomainDataLabel.setText("Domain Data Directory");
         domainIEDomainDataButton.setText("Browse");
+
         jDomScrollPane1.setViewportView(domainIePipelineDragDropList);
+        domainIePipelineDragDropList.addListSelectionListener(new ListSelectionListener() {
+            public void valueChanged(ListSelectionEvent ev) {
+
+                Object selectedPipelineElement = domainIePipelineDragDropList.getSelectedValue();
+                HashMap<String, String> availableConfigurations = null;
+
+                if (selectedPipelineElement != null) {
+                    if (selectedPipelineElement instanceof ClassRecognizer) {
+                        availableConfigurations = ((ClassRecognizer)selectedPipelineElement).getClassRecognizerHandler().getAvailableConfigurations();
+                    }
+//                    else if (selectedPipelineElement instanceof Preprocessor) {
+//                        availableConfigurations = ((Preprocessor)selectedPipelineElement).getPreprocessorHandler().getAvailableConfigurations();
+//                    }
+
+                    if (availableConfigurations != null && availableConfigurations.size() > 0) {
+                        domainIEConfigurePipelineButton.setEnabled(true);
+                    } else {
+                        domainIEConfigurePipelineButton.setEnabled(false);
+                    }
+
+                    domainIERemovePipelineButton.setEnabled(true);
+                }
+            }
+        });
+
+
         domainIePipelineElementLabel.setText("Execution Pipeline");
         domainIEExecutePipelineButton.setText("Execute");
+        domainIEExecutePipelineButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                domainIESectionExecutePipelineElementButtonActionPerformed(e);
+            }
+        });
+
         domainIERemovePipelineButton.setText("Remove");
+        domainIERemovePipelineButton.setEnabled(false);
+        domainIERemovePipelineButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                domainIESectionRemovePipelineElementButtonActionPerformed(e);
+            }
+        });
         domainIEConfigurePipelineButton.setText("Configure");
+        domainIEConfigurePipelineButton.setEnabled(false);
+        domainIEConfigurePipelineButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                domainIESectionConfigurePipelineElementButton1ActionPerformed(e);
+            }
+        });
+
 
         javax.swing.GroupLayout jPanel7Layout = new javax.swing.GroupLayout(jPanel7);
         jPanel7.setLayout(jPanel7Layout);
@@ -1084,7 +1158,7 @@ public class OpenIeJFrame extends javax.swing.JFrame {
                                                         .addComponent(domainIEClassRecognizerLabel)
                                                         .addGroup(jPanel7Layout.createSequentialGroup()
 //                                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                                                .addComponent(domainIEClassRecognizerComboBox)
+                                                                .addComponent(domainIEClassRecognizerComboBox, javax.swing.GroupLayout.PREFERRED_SIZE, 365, javax.swing.GroupLayout.PREFERRED_SIZE)
 //                                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                                                 .addComponent(domainIEClassRecognizerAddButton)
 //                                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
@@ -1232,6 +1306,117 @@ public class OpenIeJFrame extends javax.swing.JFrame {
         setLocationRelativeTo(null);
         setTitle("Sistem Open IE Bahasa Indonesia");
     }// </editor-fold>//GEN-END:initComponents
+
+    private void domainIESectionExecutePipelineElementButtonActionPerformed(ActionEvent e) {
+        // TODO add your handling code here:
+
+        ClassRecognizerPipeline classRecognizerPipeline = new ClassRecognizerPipeline();
+//        PreprocessorPipeline preprocessorPipeline = new PreprocessorPipeline();
+        DomainIePipeline domainIePipeline = new DomainIePipeline();
+
+        for (int i = 0; i< domainIePipelineListModel.size(); i++) {
+            Object selectedPipelineElement = domainIePipelineListModel.get(i);
+
+            if (selectedPipelineElement instanceof IClassRecognizerPipelineElement) {
+                ClassRecognizer cr = (ClassRecognizer) selectedPipelineElement;
+                if(cr.getClassRecognizerHandler().getPluginName().equalsIgnoreCase("Class Recognizer File Reader")){
+                    classRecognizerPipeline.addPipelineElementInput(cr);
+                }else{
+                    IClassRecognizerPipelineElement classRecognizerPipelineElement = (IClassRecognizerPipelineElement) selectedPipelineElement;
+                    classRecognizerPipeline.addPipelineElement(classRecognizerPipelineElement);
+                }
+            }
+//            else if (selectedPipelineElement instanceof ICrawlerPipelineElement) {
+//                ICrawlerPipelineElement crawlerPipelineElement = (ICrawlerPipelineElement) selectedPipelineElement;
+//                crawlerPipeline.addPipelineElement(crawlerPipelineElement);
+//            }
+        }
+
+        domainIePipeline.addPipelineElement(classRecognizerPipeline);
+        classRecognizerPipeline.setClassRecognizerPipelineHook(new IClassRecognizerPipelineHook() {
+
+//            JFrame dataprocessorProgress = new DataprocessorProgress(dataprocessorPipeline);
+
+            @Override
+            public void willExecute() {
+                System.out.println("Class recognizer mulai");
+//                dataprocessorProgress.setVisible(true);
+            }
+
+            @Override
+            public void didExecute() {
+                System.out.println("Class recognizer selesai");
+//                ((DataprocessorProgress) dataprocessorProgress).stopTimer();
+//                dataprocessorProgress.dispose();
+            }
+        });
+
+//        postprocessorPipeline.setPostprocessorPipelineHook(new IPostprocessorPipelineHook() {
+//
+//            JFrame postprocessorProgress = new PostprocessorProgress(postprocessorPipeline);
+//
+//            @Override
+//            public void willExecute() {
+//                postprocessorProgress.setVisible(true);
+//            }
+//
+//            @Override
+//            public void didExecute() {
+//                ((PostprocessorProgress) postprocessorProgress).stopTimer();
+//                postprocessorProgress.dispose();
+//
+//                if (postprocessorPipeline.getNumberOfPostprocessors() > 0) {
+//                    JFrame extractionViewer = new ExtractionViewer(new File(System.getProperty("user.dir") + File.separator + new Config().getProperty("POSTPROCESSES_OUTPUT_RELATIVE_PATH").replaceAll("\\.", Matcher.quoteReplacement(System.getProperty("file.separator")))));
+//                    extractionViewer.setVisible(true);
+//                }
+//            }
+//        });
+
+        SwingWorker<String, Void> worker3 = new SwingWorker<String, Void>() {
+            @Override
+            protected String doInBackground() throws InterruptedException {
+                try {
+                    domainIePipeline.execute();
+                    Alert.main("Execution succeed");
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
+
+                return "";
+            }
+        };
+
+        worker3.execute();
+
+    }
+
+    private void domainIESectionConfigurePipelineElementButton1ActionPerformed(ActionEvent e) {
+        // TODO
+        Object selectedPipelineElement = openIePipelineDragDropList.getSelectedValue();
+
+        if (selectedPipelineElement != null) {
+            if (selectedPipelineElement instanceof ClassRecognizer) {
+                new ConfigDialog(((ClassRecognizer)selectedPipelineElement).getClassRecognizerHandler().getAvailableConfigurations()).setVisible(true);
+            }
+//            else if (selectedPipelineElement instanceof Preprocessor) {
+//                new ConfigDialog(((Preprocessor)selectedPipelineElement).getPreprocessorHandler().getAvailableConfigurations()).setVisible(true);
+//            }
+        }
+    }
+
+    private void domainIESectionRemovePipelineElementButtonActionPerformed(ActionEvent e) {
+        // TODO
+        domainIePipelineListModel.removeElement(domainIePipelineDragDropList.getSelectedValue());
+    }
+
+    private void domainIESectionAddClassRecognizerButtonActionPerformed(ActionEvent evt) {
+        // TODO
+        IClassRecognizerHandler classRecognizerHandler = (IClassRecognizerHandler) pluginLoader.getImplementedExtensions(IClassRecognizerHandler.class).get(domainIEClassRecognizerComboBox.getSelectedIndex());
+        ClassRecognizer classRecognizer = new ClassRecognizer().setClassRecognizerHandler(SerializationUtils.clone(classRecognizerHandler));
+
+        domainIePipelineListModel.addElement(classRecognizer);
+        domainIePipelineDragDropList.printItems();
+    }
 
     private void loadPluginsButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_loadPluginsButtonActionPerformed
         // TODO add your handling code here:
