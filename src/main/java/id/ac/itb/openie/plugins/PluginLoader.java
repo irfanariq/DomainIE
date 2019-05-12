@@ -1,6 +1,7 @@
 package id.ac.itb.openie.plugins;
 
 import id.ac.itb.openie.classifier.IClassifierHandler;
+import id.ac.itb.openie.classrecognizer.IClassRecognizerHandler;
 import id.ac.itb.openie.crawler.ICrawlerHandler;
 import id.ac.itb.openie.dataprocessor.IDataprocessorHandler;
 import id.ac.itb.openie.extractor.IExtractorExtensionRuleHandler;
@@ -87,6 +88,15 @@ public class PluginLoader {
 
                 if (!pluginName.equalsIgnoreCase("Postprocessor File Reader") && !pluginName.equalsIgnoreCase("Postprocessor File Writer")) {
                     implementedExtensions.get(type).add(postprocessorHandler);
+                }
+            }else if (iHandler instanceof IClassRecognizerHandler) {
+                IClassRecognizerHandler iClassRecognizerHandler = (IClassRecognizerHandler) iHandler;
+                String pluginName = iClassRecognizerHandler.getPluginName();
+
+                allAvailableExtensions.get(type).add(iClassRecognizerHandler);
+
+                if (!pluginName.equalsIgnoreCase("Class Recognizer File Reader") && !pluginName.equalsIgnoreCase("Class Recognizer File Writer") && !pluginName.equalsIgnoreCase("Class Recognizer Domain Data File Reader") && !pluginName.equalsIgnoreCase("Class Recognizer Domain Data File Writer")) {
+                    implementedExtensions.get(type).add(iClassRecognizerHandler);
                 }
             }
         }
