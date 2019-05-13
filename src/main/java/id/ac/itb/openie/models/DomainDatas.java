@@ -1,13 +1,13 @@
 package id.ac.itb.openie.models;
 
 import id.ac.itb.openie.utils.Utilities;
-import javafx.util.Pair;
+import org.apache.commons.lang3.tuple.Pair;
+
 
 import java.io.File;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
-import java.util.Map;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -79,39 +79,44 @@ public class DomainDatas {
             classStr.add(m.group(7));
             classStr.add(m.group(8));
             classStr.add(m.group(9));
-            ArrayList<Map<String, Pair<Boolean, String>>> classList = new ArrayList<>(3);
+            ArrayList<HashMap<String, Pair<Boolean, String>>> classList = new ArrayList<>(3);
             for (int i = 0; i < classStr.size(); i++){
                 String currentStr = classStr.get(i);
                 classList.add(extractStrToClassMap(currentStr));
             }
 
-            ArrayList<Map<String, Pair<Boolean, String>>> recDomArgClass= new ArrayList<>();
+            ArrayList<HashMap<String, Pair<Boolean, String>>> recDomArgClass= new ArrayList<>();
 
             ArrayList<String> recDomArgClassStr = new ArrayList<>(Arrays.asList(m.group(12).split("<~.~>")));
             for (String recDomArg :recDomArgClassStr) {
                 recDomArgClass.add(extractStrToClassMap(recDomArg));
             }
 
-            ret.add(new DomainData(openIERelation, classList.get(2), classList.get(0), classList.get(1), domainRelation, recDomArgClass));
+            ret.add(new DomainData(openIERelation,
+                    classList.get(2),
+                    classList.get(0),
+                    classList.get(1),
+                    domainRelation,
+                    recDomArgClass));
         }
 
         return ret;
     }
 
-    private static Map<String, Pair<Boolean, String>> extractStrToClassMap(String classStr) {
+    private static HashMap<String, Pair<Boolean, String>> extractStrToClassMap(String classStr) {
         /**
          * input    : kata-timsepakbola->true#bayern munchen<*>
          * output   : Map
          *
          */
-        Map<String, Pair<Boolean, String>> ret = new HashMap<>();
+        HashMap<String, Pair<Boolean, String>> ret = new HashMap<>();
         Pattern polaKelas = Pattern.compile("(.*)\\-\\>(\\w*)\\#(.*)");
 
         for (String entryMap: classStr.split("<\\*>")) {
             Matcher matcher = polaKelas.matcher(entryMap);
             if (matcher.find()) {
                 String key = matcher.group(1);
-                Pair value = new Pair(Boolean.parseBoolean(matcher.group(2)), matcher.group(3));
+                Pair value = Pair.of(Boolean.parseBoolean(matcher.group(2)), matcher.group(3));
                 ret.putIfAbsent(key, value);
             }
         }

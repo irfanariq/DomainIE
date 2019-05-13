@@ -1,6 +1,8 @@
 package id.ac.itb.openie.models;
 
-import javafx.util.Pair;
+
+
+import org.apache.commons.lang3.tuple.Pair;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -10,11 +12,14 @@ import java.util.regex.Pattern;
 
 public class RecognizedRelation {
     private Relation openIERelation;
-    private Map<String, Pair<Boolean, String>> recognizedRelation = new HashMap<>();;
-    private Map<String, Pair<Boolean, String>> recognizedArg1 = new HashMap<>();;
-    private Map<String, Pair<Boolean, String>> recognizedArg2 = new HashMap<>();;
+    private HashMap<String, Pair<Boolean, String>> recognizedRelation = new HashMap<>();;
+    private HashMap<String, Pair<Boolean, String>> recognizedArg1 = new HashMap<>();;
+    private HashMap<String, Pair<Boolean, String>> recognizedArg2 = new HashMap<>();;
 
-    public RecognizedRelation(Relation openIERelation, Map<String, Pair<Boolean, String>> recognizedRelation, Map<String, Pair<Boolean, String>> recognizedArg1, Map<String, Pair<Boolean, String>> recognizedArg2) {
+    public RecognizedRelation(Relation openIERelation,
+                              HashMap<String, Pair<Boolean, String>> recognizedRelation,
+                              HashMap<String, Pair<Boolean, String>> recognizedArg1,
+                              HashMap<String, Pair<Boolean, String>> recognizedArg2) {
         this.openIERelation = openIERelation;
         this.recognizedRelation = recognizedRelation;
         this.recognizedArg1 = recognizedArg1;
@@ -33,13 +38,13 @@ public class RecognizedRelation {
             ArrayList<String> words = entry.getValue();
             for (String kata : words) {
                 if (openIERelation.getFirstEntity().toLowerCase().contains(kata.toLowerCase())) {
-                    recognizedArg1.putIfAbsent(currKey, new Pair<>(true, kata));
+                    recognizedArg1.putIfAbsent(currKey, Pair.of(true, kata));
                 }
                 if (openIERelation.getRelation().toLowerCase().contains(kata.toLowerCase())) {
-                    recognizedRelation.putIfAbsent(currKey, new Pair<>(true, kata));
+                    recognizedRelation.putIfAbsent(currKey, Pair.of(true, kata));
                 }
                 if (openIERelation.getSecondEntity().toLowerCase().contains(kata.toLowerCase())) {
-                    recognizedArg2.putIfAbsent(currKey, new Pair<>(true, kata));
+                    recognizedArg2.putIfAbsent(currKey, Pair.of(true, kata));
                 }
             }
         }
@@ -55,13 +60,13 @@ public class RecognizedRelation {
                 Matcher arg2Match = patt.matcher(openIERelation.getSecondEntity());
 
                 if (relMatch.find()) {
-                    recognizedRelation.putIfAbsent(currKey, new Pair<>(true, relMatch.group(0)));
+                    recognizedRelation.putIfAbsent(currKey, Pair.of(true, relMatch.group(0)));
                 }
                 if (arg1Match.find()) {
-                    recognizedArg1.putIfAbsent(currKey, new Pair<>(true, arg1Match.group(0)));
+                    recognizedArg1.putIfAbsent(currKey, Pair.of(true, arg1Match.group(0)));
                 }
                 if (arg2Match.find()) {
-                    recognizedArg2.putIfAbsent(currKey, new Pair<>(true, arg2Match.group(0)));
+                    recognizedArg2.putIfAbsent(currKey, Pair.of(true, arg2Match.group(0)));
                 }
             }
         }
@@ -71,15 +76,15 @@ public class RecognizedRelation {
         return openIERelation;
     }
 
-    public Map<String, Pair<Boolean, String>> getRecognizedRelation() {
+    public HashMap<String, Pair<Boolean, String>> getRecognizedRelation() {
         return recognizedRelation;
     }
 
-    public Map<String, Pair<Boolean, String>> getRecognizedArg1() {
+    public HashMap<String, Pair<Boolean, String>> getRecognizedArg1() {
         return recognizedArg1;
     }
 
-    public Map<String, Pair<Boolean, String>> getRecognizedArg2() {
+    public HashMap<String, Pair<Boolean, String>> getRecognizedArg2() {
         return recognizedArg2;
     }
 
@@ -90,7 +95,7 @@ public class RecognizedRelation {
                 "relClass(" + toStringMap(recognizedRelation) + ") \n";
     }
 
-    private String toStringMap(Map<String, Pair<Boolean, String>> peta){
+    private String toStringMap(HashMap<String, Pair<Boolean, String>> peta){
         String ret = "";
 
         for (Map.Entry entry : peta.entrySet()) {

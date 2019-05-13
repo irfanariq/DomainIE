@@ -1,6 +1,7 @@
 package id.ac.itb.openie.models;
 
-import javafx.util.Pair;
+
+import org.apache.commons.lang3.tuple.Pair;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -10,18 +11,23 @@ import java.util.regex.Pattern;
 
 public class DomainData {
     private Relation openIERelation;
-    private Map<String, Pair<Boolean, String>> recognizedRelation = new HashMap<>();
-    private Map<String, Pair<Boolean, String>> recognizedArg1 = new HashMap<>();
-    private Map<String, Pair<Boolean, String>> recognizedArg2 = new HashMap<>();
+    private HashMap<String, Pair<Boolean, String>> recognizedRelation = new HashMap<>();
+    private HashMap<String, Pair<Boolean, String>> recognizedArg1 = new HashMap<>();
+    private HashMap<String, Pair<Boolean, String>> recognizedArg2 = new HashMap<>();
     private DomainRelation domainRelation;
-    private ArrayList<Map<String, Pair<Boolean, String>>> recognizedDomainArg = new ArrayList<>();
+    private ArrayList<HashMap<String, Pair<Boolean, String>>> recognizedDomainArg = new ArrayList<>();
 
     public DomainData(Relation openIERelation, DomainRelation domainRelation) {
         this.openIERelation = openIERelation;
         this.domainRelation = domainRelation;
     }
 
-    public DomainData(Relation openIERelation, Map<String, Pair<Boolean, String>> recognizedRelation, Map<String, Pair<Boolean, String>> recognizedArg1, Map<String, Pair<Boolean, String>> recognizedArg2, DomainRelation domainRelation, ArrayList<Map<String, Pair<Boolean, String>>> recognizedDomainArg) {
+    public DomainData(Relation openIERelation,
+                      HashMap<String, Pair<Boolean, String>> recognizedRelation,
+                      HashMap<String, Pair<Boolean, String>> recognizedArg1,
+                      HashMap<String, Pair<Boolean, String>> recognizedArg2,
+                      DomainRelation domainRelation,
+                      ArrayList<HashMap<String,Pair<Boolean, String>>> recognizedDomainArg) {
         this.openIERelation = openIERelation;
         this.recognizedRelation = recognizedRelation;
         this.recognizedArg1 = recognizedArg1;
@@ -42,17 +48,17 @@ public class DomainData {
             ArrayList<String> words = entry.getValue();
             for (String kata : words) {
                 if (openIERelation.getFirstEntity().toLowerCase().contains(kata.toLowerCase())) {
-                    recognizedArg1.putIfAbsent(currKey, new Pair<>(true, kata));
+                    recognizedArg1.putIfAbsent(currKey, Pair.of(true, kata));
                 }
                 if (openIERelation.getRelation().toLowerCase().contains(kata.toLowerCase())) {
-                    recognizedRelation.putIfAbsent(currKey, new Pair<>(true, kata));
+                    recognizedRelation.putIfAbsent(currKey, Pair.of(true, kata));
                 }
                 if (openIERelation.getSecondEntity().toLowerCase().contains(kata.toLowerCase())) {
-                    recognizedArg2.putIfAbsent(currKey, new Pair<>(true, kata));
+                    recognizedArg2.putIfAbsent(currKey, Pair.of(true, kata));
                 }
                 for (int i = 0; i < domainRelation.getArgumen().size(); i++) {
                     if (domainRelation.getArgumen().get(i).toLowerCase().contains(kata.toLowerCase())) {
-                        recognizedDomainArg.get(i).putIfAbsent(currKey, new Pair<>(true, kata));
+                        recognizedDomainArg.get(i).putIfAbsent(currKey, Pair.of(true, kata));
                     }
                 }
             }
@@ -69,19 +75,19 @@ public class DomainData {
                 Matcher arg2Match = patt.matcher(openIERelation.getSecondEntity());
 
                 if (relMatch.find()) {
-                    recognizedRelation.putIfAbsent(currKey, new Pair<>(true, relMatch.group(0)));
+                    recognizedRelation.putIfAbsent(currKey, Pair.of(true, relMatch.group(0)));
                 }
                 if (arg1Match.find()) {
-                    recognizedArg1.putIfAbsent(currKey, new Pair<>(true, arg1Match.group(0)));
+                    recognizedArg1.putIfAbsent(currKey, Pair.of(true, arg1Match.group(0)));
                 }
                 if (arg2Match.find()) {
-                    recognizedArg2.putIfAbsent(currKey, new Pair<>(true, arg2Match.group(0)));
+                    recognizedArg2.putIfAbsent(currKey, Pair.of(true, arg2Match.group(0)));
                 }
 
                 for (int i = 0; i < domainRelation.getArgumen().size(); i++) {
                     Matcher argDom = patt.matcher(domainRelation.getArgumen().get(i));
                     if (argDom.find()) {
-                        recognizedDomainArg.get(i).putIfAbsent(currKey, new Pair<>(true, argDom.group(0)));
+                        recognizedDomainArg.get(i).putIfAbsent(currKey, Pair.of(true, argDom.group(0)));
 
                     }
                 }
@@ -105,7 +111,7 @@ public class DomainData {
                 "recognizedDomainArg(" + toStringDomainRec(recognizedDomainArg) + ") \n";
     }
 
-    private String toStringMapClass(Map<String, Pair<Boolean, String>> peta){
+    private String toStringMapClass(HashMap<String, Pair<Boolean, String>> peta){
         String ret = "";
 
         for (Map.Entry entry : peta.entrySet()) {
@@ -117,10 +123,10 @@ public class DomainData {
         return ret;
     }
 
-    private String toStringDomainRec(ArrayList<Map<String, Pair<Boolean, String>>>  array) {
+    private String toStringDomainRec(ArrayList<HashMap<String, Pair<Boolean, String>>>  array) {
         String ret = "";
 
-        for (Map<String, Pair<Boolean, String>> map : array) {
+        for (HashMap<String, Pair<Boolean, String>> map : array) {
             ret += toStringMapClass(map);
             ret += "<~.~>";
         }
@@ -139,15 +145,15 @@ public class DomainData {
         return openIERelation;
     }
 
-    public Map<String, Pair<Boolean, String>> getRecognizedRelation() {
+    public HashMap<String, Pair<Boolean, String>> getRecognizedRelation() {
         return recognizedRelation;
     }
 
-    public Map<String, Pair<Boolean, String>> getRecognizedArg1() {
+    public HashMap<String, Pair<Boolean, String>> getRecognizedArg1() {
         return recognizedArg1;
     }
 
-    public Map<String, Pair<Boolean, String>> getRecognizedArg2() {
+    public HashMap<String, Pair<Boolean, String>> getRecognizedArg2() {
         return recognizedArg2;
     }
 
@@ -155,7 +161,7 @@ public class DomainData {
         return domainRelation;
     }
 
-    public ArrayList<Map<String, Pair<Boolean, String>>> getRecognizedDomainArg() {
+    public ArrayList<HashMap<String, Pair<Boolean, String>>> getRecognizedDomainArg() {
         return recognizedDomainArg;
     }
 }

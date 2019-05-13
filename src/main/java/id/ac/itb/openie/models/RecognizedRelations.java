@@ -1,13 +1,12 @@
 package id.ac.itb.openie.models;
 
 import id.ac.itb.openie.utils.Utilities;
-import javafx.util.Pair;
 import org.apache.commons.lang3.StringUtils;
+import org.apache.commons.lang3.tuple.Pair;
 
 import java.io.File;
 import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.Map;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -37,7 +36,7 @@ public class RecognizedRelations {
             classStr.add(m.group(7));
             classStr.add(m.group(8));
             classStr.add(m.group(9));
-            ArrayList<Map<String, Pair<Boolean, String>>> classList = new ArrayList<>(3);
+            ArrayList<HashMap<String, Pair<Boolean, String>>> classList = new ArrayList<>(3);
             for (int i = 0; i < classStr.size(); i++){
                 String currentStr = classStr.get(i);
                 classList.add(new HashMap<>());
@@ -45,7 +44,7 @@ public class RecognizedRelations {
                     Matcher matcher = polaKelas.matcher(entryMap);
                     if (matcher.find()) {
                         String key = matcher.group(1);
-                        Pair value = new Pair(Boolean.parseBoolean(matcher.group(2)), matcher.group(3));
+                        Pair value = Pair.of(Boolean.parseBoolean(matcher.group(2)), matcher.group(3));
                         classList.get(i).putIfAbsent(key, value);
                     }
                 }
