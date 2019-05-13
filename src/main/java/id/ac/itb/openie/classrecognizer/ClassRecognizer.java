@@ -29,6 +29,16 @@ public class ClassRecognizer implements IClassRecognizerPipelineElement{
     }
 
     @Override
+    public HashMap<String, ArrayList<String>> getWordList() throws Exception {
+        return this.classRecognizerHandler.getWordList();
+    }
+
+    @Override
+    public HashMap<String, ArrayList<String>> getPatternList() throws Exception {
+        return this.classRecognizerHandler.getPatternList();
+    }
+
+    @Override
     public HashMap<File, Pair<Relations, RecognizedRelations>> execute(File file, Relations dataset) throws Exception {
         HashMap<String, ArrayList<String>> listKata = this.getClassRecognizerHandler().getWordList();
         HashMap<String, ArrayList<String>> listPola = this.getClassRecognizerHandler().getPatternList();

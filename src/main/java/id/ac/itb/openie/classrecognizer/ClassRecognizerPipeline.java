@@ -101,11 +101,7 @@ public class ClassRecognizerPipeline implements IDomainIePipelineElement {
     public void execute() throws Exception {
         System.out.println("Class Recognizer pipelinse is running ... ");
 
-        System.out.println(iClassRecognizerPipelineElements.size());
-        System.out.println(iClassRecognizerDomainDataPipelineElements.size());
         addDefaultReaderAndWriter();
-        System.out.println(iClassRecognizerPipelineElements.size());
-        System.out.println(iClassRecognizerDomainDataPipelineElements.size());
 
         HashMap<File, Pair<Relations, RecognizedRelations>> pipeQueue = new HashMap<>();
         HashMap<File, Pair<Relations, RecognizedRelations>> nextPipeQueue = new HashMap<>();
@@ -117,24 +113,39 @@ public class ClassRecognizerPipeline implements IDomainIePipelineElement {
                 this.currentlyRunningClassRecognizer = classRecognizerPipelineElement;
 
                 if (((ClassRecognizer) classRecognizerPipelineElement).getClassRecognizerHandler().getPluginName().equalsIgnoreCase("Class Recognizer File Reader")) {
-                    System.out.println("cr pipeline - read relation");
+                    //System.out.println("cr pipeline - read relation");
                     HashMap<File, Pair<Relations, RecognizedRelations>> extractedRelations = classRecognizerPipelineElement.read();
                     nextPipeQueue.putAll(extractedRelations);
                     totalRelationToBeRecognized = extractedRelations.size();
                 } else if (((ClassRecognizer) classRecognizerPipelineElement).getClassRecognizerHandler().getPluginName().equalsIgnoreCase("Class Recognizer File Writer")) {
-                    System.out.println("cr pipeline - write recognized relation");
+                    //System.out.println("cr pipeline - write recognized relation");
                     for (Map.Entry<File, Pair<Relations, RecognizedRelations>> pair : pipeQueue.entrySet()) {
                         classRecognizerPipelineElement.write(pair.getKey(), pair.getValue().getValue());
                     }
                 } else {
-                    System.out.println("cr pipeline - recognize relation");
-                    System.out.println(((ClassRecognizer) classRecognizerPipelineElement).getClassRecognizerHandler().getPluginName());
+                    //System.out.println("cr pipeline - recognize relation");
+                    //System.out.println(((ClassRecognizer) classRecognizerPipelineElement).getClassRecognizerHandler().getRuleName());
                     this.totalProcessedClassRecognizer++;
+
+                    HashMap<String, ArrayList<String>> listKata = classRecognizerPipelineElement.getWordList();
+                    HashMap<String, ArrayList<String>> listPola = classRecognizerPipelineElement.getPatternList();
 
                     currentlyRecognizedRelation = 0;
 
                     for (Map.Entry<File, Pair<Relations, RecognizedRelations>> pair : pipeQueue.entrySet()) {
-                        nextPipeQueue.putAll(classRecognizerPipelineElement.execute(pair.getKey(), pair.getValue().getKey()));
+                        RecognizedRelations recRelatioins = new RecognizedRelations();
+
+                        System.out.println(listKata);
+
+                        for (Relation relasi: pair.getValue().getKey().getRelations()) {
+                            RecognizedRelation recrel = new RecognizedRelation(relasi, listKata, listPola);
+                            recRelatioins.addRecogRelation(recrel);
+                        }
+
+                        nextPipeQueue.put(pair.getKey(), Pair.of(pair.getValue().getLeft(), recRelatioins));
+
+                        // OLD
+                        //nextPipeQueue.putAll(classRecognizerPipelineElement.execute(pair.getKey(), pair.getValue().getKey()));
                         currentlyRecognizedRelation++;
                     }
                 }
@@ -169,8 +180,20 @@ public class ClassRecognizerPipeline implements IDomainIePipelineElement {
 
                     currentlyRecognizedDomainData = 0;
 
+                    HashMap<String, ArrayList<String>> listKata = classRecognizerPipelineElement.getWordList();
+                    HashMap<String, ArrayList<String>> listPola = classRecognizerPipelineElement.getPatternList();
+
                     for (Map.Entry<File, DomainDatas> pair : pipeQueueDomainData.entrySet()) {
-                        nextPipeQueueDomainData.putAll(classRecognizerPipelineElement.executeDomainData(pair.getKey(), pair.getValue()));
+
+                        System.out.println(listPola);
+
+                        for (DomainData domainData: pair.getValue().getDomainDatas()) {
+                            domainData.recognize(listKata, listPola);
+                        }
+                        nextPipeQueueDomainData.putIfAbsent(pair.getKey(), pair.getValue());
+
+                        // OLD
+                        // nextPipeQueueDomainData.putAll(classRecognizerPipelineElement.executeDomainData(pair.getKey(), pair.getValue()));
                         currentlyRecognizedDomainData++;
                     }
                 }
