@@ -30,6 +30,7 @@ import id.ac.itb.openie.dataprocessor.DataprocessorPipeline;
 import id.ac.itb.openie.dataprocessor.IDataprocessorHandler;
 import id.ac.itb.openie.dataprocessor.IDataprocessorPipelineElement;
 import id.ac.itb.openie.dataprocessor.IDataprocessorPipelineHook;
+import id.ac.itb.openie.domainmapper.*;
 import id.ac.itb.openie.evaluation.ExtractionsEvaluation;
 import id.ac.itb.openie.evaluation.ExtractionsEvaluationLabeller;
 import id.ac.itb.openie.evaluation.ExtractionsEvaluationModel;
@@ -88,11 +89,13 @@ public class OpenIeJFrame extends javax.swing.JFrame {
         File datatrainingDirectory = new File(System.getProperty("user.dir") + File.separator + new Config().getProperty("DATATRAINING_OUTPUT_RELATIVE_PATH").replaceAll("\\.", Matcher.quoteReplacement(System.getProperty("file.separator"))));
         File processedDatatrainingDirectory = new File(System.getProperty("user.dir") + File.separator + new Config().getProperty("DATATRAININGPROCESSED_OUTPUT_RELATIVE_PATH").replaceAll("\\.", Matcher.quoteReplacement(System.getProperty("file.separator"))));
         File dataprocessRelationDirectory = new File(System.getProperty("user.dir") + File.separator + new Config().getProperty("DATAPROCESSRELATION_OUTPUT_RELATIVE_PATH").replaceAll("\\.", Matcher.quoteReplacement(System.getProperty("file.separator"))));
-        //
+
+        //Domain
         File domainDataDirectory = new File(System.getProperty("user.dir") + File.separator + new Config().getProperty("DOMAIN_DATA_RELATIVE_PATH").replaceAll("\\.", Matcher.quoteReplacement(System.getProperty("file.separator"))));
         File recognizedRelationDirectory = new File(System.getProperty("user.dir") + File.separator + new Config().getProperty("RECOGNIZED_RELATION_OUPUT_RELATIVE_PATH").replaceAll("\\.", Matcher.quoteReplacement(System.getProperty("file.separator"))));
         File recognizedDomainDataDirectory = new File(System.getProperty("user.dir") + File.separator + new Config().getProperty("RECOGNIZED_DOMAIN_DATA_RELATIVE_PATH").replaceAll("\\.", Matcher.quoteReplacement(System.getProperty("file.separator"))));
         File domainRelationDirectory = new File(System.getProperty("user.dir") + File.separator + new Config().getProperty("DOMAIN_RELATION_OUPUT_DATA").replaceAll("\\.", Matcher.quoteReplacement(System.getProperty("file.separator"))));
+        File rulesDirectory = new File(System.getProperty("user.dir") + File.separator + new Config().getProperty("RULES_OUPUT_DATA").replaceAll("\\.", Matcher.quoteReplacement(System.getProperty("file.separator"))));
 
         
         if (!crawlerDirectory.exists()) crawlerDirectory.mkdir();
@@ -109,6 +112,7 @@ public class OpenIeJFrame extends javax.swing.JFrame {
         if (!recognizedRelationDirectory.exists()) recognizedRelationDirectory.mkdir();
         if (!recognizedDomainDataDirectory.exists()) recognizedDomainDataDirectory.mkdir();
         if (!domainRelationDirectory .exists()) domainRelationDirectory .mkdir();
+        if (!rulesDirectory.exists()) rulesDirectory.mkdir();
     }
     
     private void initPlugins() {
@@ -125,7 +129,8 @@ public class OpenIeJFrame extends javax.swing.JFrame {
                 .registerAvailableExtensions(IClassifierHandler.class)
                 .registerAvailableExtensions(IExtractorHandler.class)
                 .registerAvailableExtensions(IPostprocessorHandler.class)
-                .registerAvailableExtensions(IClassRecognizerHandler.class);
+                .registerAvailableExtensions(IClassRecognizerHandler.class)
+                .registerAvailableExtensions(IDomainMapperHandler.class);
     }
     
     private void loadPlugin() {
@@ -179,6 +184,7 @@ public class OpenIeJFrame extends javax.swing.JFrame {
                             openIESectionExtractionComboBox.setModel(new javax.swing.DefaultComboBoxModel<>(pluginLoader.getImplementedExtensions(IExtractorHandler.class).toArray()));
                             openIESectionPostprocessComboBox.setModel(new javax.swing.DefaultComboBoxModel<>(pluginLoader.getImplementedExtensions(IPostprocessorHandler.class).toArray()));
                             domainIEClassRecognizerComboBox.setModel(new javax.swing.DefaultComboBoxModel<>(pluginLoader.getImplementedExtensions(IClassRecognizerHandler.class).toArray()));
+                            domainIEDomainMapperComboBox.setModel(new javax.swing.DefaultComboBoxModel<>(pluginLoader.getImplementedExtensions(IDomainMapperHandler.class).toArray()));
 
                             //loading.dispose();
                             //alert.dispose();
@@ -1068,8 +1074,8 @@ public class OpenIeJFrame extends javax.swing.JFrame {
         });
 
         domainIEClassRecognizerLabel.setText("Class Recognizer");
-        domainIEClassRecognizerComboBox.setModel(new javax.swing.DefaultComboBoxModel<>(pluginLoader.getImplementedExtensions(IClassRecognizerHandler.class).toArray()));
         domainIEClassRecognizerAddButton.setText("+");
+        domainIEClassRecognizerComboBox.setModel(new javax.swing.DefaultComboBoxModel<>(pluginLoader.getImplementedExtensions(IClassRecognizerHandler.class).toArray()));
         domainIEClassRecognizerAddButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 domainIESectionAddClassRecognizerButtonActionPerformed(evt);
@@ -1078,8 +1084,14 @@ public class OpenIeJFrame extends javax.swing.JFrame {
         jdomseparator1.setOrientation(javax.swing.SwingConstants.VERTICAL);
 
         domainIEDomainMapperLabel.setText("Domain Relation Mapper");
-//        domainIEDomainMapperComboBox;
+        domainIEDomainMapperComboBox.setModel(new javax.swing.DefaultComboBoxModel<>(pluginLoader.getImplementedExtensions(IDomainMapperHandler.class).toArray()));
         domainIEDomainMapperAddButton.setText("+");
+        domainIEDomainMapperAddButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                domainIESectionAddDomainMapperButtonActionPerformed(e);
+            }
+        });
         domainIEDomainDataLabel.setText("Domain Data Directory");
         domainIEDomainDataButton.setText("Browse");
 
@@ -1094,9 +1106,9 @@ public class OpenIeJFrame extends javax.swing.JFrame {
                     if (selectedPipelineElement instanceof ClassRecognizer) {
                         availableConfigurations = ((ClassRecognizer)selectedPipelineElement).getClassRecognizerHandler().getAvailableConfigurations();
                     }
-//                    else if (selectedPipelineElement instanceof Preprocessor) {
-//                        availableConfigurations = ((Preprocessor)selectedPipelineElement).getPreprocessorHandler().getAvailableConfigurations();
-//                    }
+                    else if (selectedPipelineElement instanceof DomainMapper) {
+                        availableConfigurations = ((DomainMapper)selectedPipelineElement).getDomainMapperHandler().getAvailableConfigurations();
+                    }
 
                     if (availableConfigurations != null && availableConfigurations.size() > 0) {
                         domainIEConfigurePipelineButton.setEnabled(true);
@@ -1207,7 +1219,7 @@ public class OpenIeJFrame extends javax.swing.JFrame {
                 jPanel7Layout.createParallelGroup(GroupLayout.Alignment.LEADING)
                 .addGroup(jPanel7Layout.createSequentialGroup()
 //                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(jPanel7Layout.createParallelGroup(GroupLayout.Alignment.LEADING)
+                        .addGroup(jPanel7Layout.createParallelGroup(GroupLayout.Alignment.BASELINE)
                                 .addGroup(jPanel7Layout.createSequentialGroup()
 //                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                         .addComponent(loadPluginsDomainLabel)
@@ -1216,7 +1228,7 @@ public class OpenIeJFrame extends javax.swing.JFrame {
 //                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                 )
                                 .addComponent(jdomseparator1, javax.swing.GroupLayout.DEFAULT_SIZE, 60, Short.MAX_VALUE)
-                                .addGap(10, 10 ,10)
+//                                .addGap(10, 10 ,10)
                                 .addGroup(jPanel7Layout.createSequentialGroup()
 //                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                         .addGroup(jPanel7Layout.createSequentialGroup()
@@ -1253,7 +1265,7 @@ public class OpenIeJFrame extends javax.swing.JFrame {
                                         )
                                 )
                         )
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+//                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(jdomseparator2)
                         .addComponent(domainIePipelineElementLabel)
 //                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
@@ -1311,7 +1323,7 @@ public class OpenIeJFrame extends javax.swing.JFrame {
         // TODO add your handling code here:
 
         ClassRecognizerPipeline classRecognizerPipeline = new ClassRecognizerPipeline();
-//        PreprocessorPipeline preprocessorPipeline = new PreprocessorPipeline();
+        DomainMapperPipeline domainMapperPipeline = new DomainMapperPipeline();
         DomainIePipeline domainIePipeline = new DomainIePipeline();
 
         for (int i = 0; i< domainIePipelineListModel.size(); i++) {
@@ -1326,13 +1338,15 @@ public class OpenIeJFrame extends javax.swing.JFrame {
                     classRecognizerPipeline.addPipelineElement(classRecognizerPipelineElement);
                 }
             }
-//            else if (selectedPipelineElement instanceof ICrawlerPipelineElement) {
-//                ICrawlerPipelineElement crawlerPipelineElement = (ICrawlerPipelineElement) selectedPipelineElement;
-//                crawlerPipeline.addPipelineElement(crawlerPipelineElement);
-//            }
+            else if (selectedPipelineElement instanceof IDomainMapperPipelineElement) {
+                IDomainMapperPipelineElement domainMapperPipelineElement = (IDomainMapperPipelineElement) selectedPipelineElement;
+                domainMapperPipeline.addPipelineElement(domainMapperPipelineElement);
+            }
         }
 
         domainIePipeline.addPipelineElement(classRecognizerPipeline);
+        domainIePipeline.addPipelineElement(domainMapperPipeline);
+
         classRecognizerPipeline.setClassRecognizerPipelineHook(new IClassRecognizerPipelineHook() {
 
 //            JFrame dataprocessorProgress = new DataprocessorProgress(dataprocessorPipeline);
@@ -1351,17 +1365,20 @@ public class OpenIeJFrame extends javax.swing.JFrame {
             }
         });
 
-//        postprocessorPipeline.setPostprocessorPipelineHook(new IPostprocessorPipelineHook() {
-//
+        domainMapperPipeline.setDomainMapperPipelineHook(new IDomainMapperPipelineHook() {
+
 //            JFrame postprocessorProgress = new PostprocessorProgress(postprocessorPipeline);
-//
-//            @Override
-//            public void willExecute() {
+
+            @Override
+            public void willExecute() {
 //                postprocessorProgress.setVisible(true);
-//            }
-//
-//            @Override
-//            public void didExecute() {
+                System.out.println("Domain Mapper will Run ... ");
+            }
+
+            @Override
+            public void didExecute() {
+                System.out.println("Domain Mapper did Run ... ");
+
 //                ((PostprocessorProgress) postprocessorProgress).stopTimer();
 //                postprocessorProgress.dispose();
 //
@@ -1369,8 +1386,8 @@ public class OpenIeJFrame extends javax.swing.JFrame {
 //                    JFrame extractionViewer = new ExtractionViewer(new File(System.getProperty("user.dir") + File.separator + new Config().getProperty("POSTPROCESSES_OUTPUT_RELATIVE_PATH").replaceAll("\\.", Matcher.quoteReplacement(System.getProperty("file.separator")))));
 //                    extractionViewer.setVisible(true);
 //                }
-//            }
-//        });
+            }
+        });
 
         SwingWorker<String, Void> worker3 = new SwingWorker<String, Void>() {
             @Override
@@ -1415,6 +1432,14 @@ public class OpenIeJFrame extends javax.swing.JFrame {
         ClassRecognizer classRecognizer = new ClassRecognizer().setClassRecognizerHandler(SerializationUtils.clone(classRecognizerHandler));
 
         domainIePipelineListModel.addElement(classRecognizer);
+        domainIePipelineDragDropList.printItems();
+    }
+
+    private void domainIESectionAddDomainMapperButtonActionPerformed(ActionEvent e) {
+        IDomainMapperHandler domainMapperHandler = (IDomainMapperHandler) pluginLoader.getImplementedExtensions(IDomainMapperHandler.class).get(domainIEDomainMapperComboBox.getSelectedIndex());
+        DomainMapper domainMapper = new DomainMapper().setDomainMapperHandler(SerializationUtils.clone(domainMapperHandler));
+
+        domainIePipelineListModel.addElement(domainMapper);
         domainIePipelineDragDropList.printItems();
     }
 
