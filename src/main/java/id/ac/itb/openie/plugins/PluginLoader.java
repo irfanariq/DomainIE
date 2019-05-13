@@ -4,6 +4,7 @@ import id.ac.itb.openie.classifier.IClassifierHandler;
 import id.ac.itb.openie.classrecognizer.IClassRecognizerHandler;
 import id.ac.itb.openie.crawler.ICrawlerHandler;
 import id.ac.itb.openie.dataprocessor.IDataprocessorHandler;
+import id.ac.itb.openie.domainmapper.IDomainMapperHandler;
 import id.ac.itb.openie.extractor.IExtractorExtensionRuleHandler;
 import id.ac.itb.openie.extractor.IExtractorHandler;
 import id.ac.itb.openie.postprocess.IPostprocessorHandler;
@@ -97,6 +98,18 @@ public class PluginLoader {
 
                 if (!pluginName.equalsIgnoreCase("Class Recognizer File Reader") && !pluginName.equalsIgnoreCase("Class Recognizer File Writer") && !pluginName.equalsIgnoreCase("Class Recognizer Domain Data File Reader") && !pluginName.equalsIgnoreCase("Class Recognizer Domain Data File Writer")) {
                     implementedExtensions.get(type).add(iClassRecognizerHandler);
+                }
+            }else if (iHandler instanceof IDomainMapperHandler) {
+                IDomainMapperHandler iDomainMapperHandler = (IDomainMapperHandler) iHandler;
+                String pluginName = iDomainMapperHandler.getPluginName();
+
+                allAvailableExtensions.get(type).add(iDomainMapperHandler);
+
+                if (!pluginName.equalsIgnoreCase("Domain Mapper Domain Data File Reader") &&
+                        !pluginName.equalsIgnoreCase("Domain Mapper Rules File Writer") &&
+                        !pluginName.equalsIgnoreCase("Domain Mapper Recognized Relation File Reader") &&
+                        !pluginName.equalsIgnoreCase("Domain Mapper Domain Relation File Writer")) {
+                    implementedExtensions.get(type).add(iDomainMapperHandler);
                 }
             }
         }
