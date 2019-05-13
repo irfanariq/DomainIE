@@ -113,18 +113,14 @@ public class ClassRecognizerPipeline implements IDomainIePipelineElement {
                 this.currentlyRunningClassRecognizer = classRecognizerPipelineElement;
 
                 if (((ClassRecognizer) classRecognizerPipelineElement).getClassRecognizerHandler().getPluginName().equalsIgnoreCase("Class Recognizer File Reader")) {
-                    //System.out.println("cr pipeline - read relation");
                     HashMap<File, Pair<Relations, RecognizedRelations>> extractedRelations = classRecognizerPipelineElement.read();
                     nextPipeQueue.putAll(extractedRelations);
                     totalRelationToBeRecognized = extractedRelations.size();
                 } else if (((ClassRecognizer) classRecognizerPipelineElement).getClassRecognizerHandler().getPluginName().equalsIgnoreCase("Class Recognizer File Writer")) {
-                    //System.out.println("cr pipeline - write recognized relation");
                     for (Map.Entry<File, Pair<Relations, RecognizedRelations>> pair : pipeQueue.entrySet()) {
                         classRecognizerPipelineElement.write(pair.getKey(), pair.getValue().getValue());
                     }
                 } else {
-                    //System.out.println("cr pipeline - recognize relation");
-                    //System.out.println(((ClassRecognizer) classRecognizerPipelineElement).getClassRecognizerHandler().getRuleName());
                     this.totalProcessedClassRecognizer++;
 
                     HashMap<String, ArrayList<String>> listKata = classRecognizerPipelineElement.getWordList();
@@ -135,17 +131,12 @@ public class ClassRecognizerPipeline implements IDomainIePipelineElement {
                     for (Map.Entry<File, Pair<Relations, RecognizedRelations>> pair : pipeQueue.entrySet()) {
                         RecognizedRelations recRelatioins = new RecognizedRelations();
 
-                        System.out.println(listKata);
-
                         for (Relation relasi: pair.getValue().getKey().getRelations()) {
                             RecognizedRelation recrel = new RecognizedRelation(relasi, listKata, listPola);
                             recRelatioins.addRecogRelation(recrel);
                         }
 
                         nextPipeQueue.put(pair.getKey(), Pair.of(pair.getValue().getLeft(), recRelatioins));
-
-                        // OLD
-                        //nextPipeQueue.putAll(classRecognizerPipelineElement.execute(pair.getKey(), pair.getValue().getKey()));
                         currentlyRecognizedRelation++;
                     }
                 }
@@ -163,19 +154,14 @@ public class ClassRecognizerPipeline implements IDomainIePipelineElement {
                 this.currentlyRunningClassRecognizer = classRecognizerPipelineElement;
 
                 if (((ClassRecognizer) classRecognizerPipelineElement).getClassRecognizerHandler().getPluginName().equalsIgnoreCase("Class Recognizer Domain Data File Reader")) {
-                    System.out.println("cr pipeline - read domain data");
                     HashMap<File, DomainDatas> extractedRelations = classRecognizerPipelineElement.readDomainData();
-                    System.out.println("cr pipeline - read domain data done - " + extractedRelations.size());
                     nextPipeQueueDomainData.putAll(extractedRelations);
                     totalDomainDataToBeRecognized  = extractedRelations.size();
                 } else if (((ClassRecognizer) classRecognizerPipelineElement).getClassRecognizerHandler().getPluginName().equalsIgnoreCase("Class Recognizer Domain Data File Writer")) {
-                    System.out.println("cr pipeline - write recognized domain data " + pipeQueueDomainData.size());
                     for (Map.Entry<File, DomainDatas> pair : pipeQueueDomainData.entrySet()) {
                         classRecognizerPipelineElement.writeDomainData(pair.getKey(), pair.getValue());
                     }
                 } else {
-                    System.out.println("cr pipeline - recognize domain data");
-                    System.out.println(((ClassRecognizer) classRecognizerPipelineElement).getClassRecognizerHandler().getPluginName());
                     this.totalProcessedClassRecognizer++;
 
                     currentlyRecognizedDomainData = 0;
@@ -185,15 +171,10 @@ public class ClassRecognizerPipeline implements IDomainIePipelineElement {
 
                     for (Map.Entry<File, DomainDatas> pair : pipeQueueDomainData.entrySet()) {
 
-                        System.out.println(listPola);
-
                         for (DomainData domainData: pair.getValue().getDomainDatas()) {
                             domainData.recognize(listKata, listPola);
                         }
                         nextPipeQueueDomainData.putIfAbsent(pair.getKey(), pair.getValue());
-
-                        // OLD
-                        // nextPipeQueueDomainData.putAll(classRecognizerPipelineElement.executeDomainData(pair.getKey(), pair.getValue()));
                         currentlyRecognizedDomainData++;
                     }
                 }
@@ -204,6 +185,7 @@ public class ClassRecognizerPipeline implements IDomainIePipelineElement {
             System.out.println("cr pipeline catch exception");
             System.out.println(e);
             // TODO exception ketangkep tapi gabisa nampilin alert disini
+            // throw e;
             // new Alert(e.toString());
         }
     }

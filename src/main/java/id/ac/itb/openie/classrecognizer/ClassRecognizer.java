@@ -39,44 +39,6 @@ public class ClassRecognizer implements IClassRecognizerPipelineElement{
     }
 
     @Override
-    public HashMap<File, Pair<Relations, RecognizedRelations>> execute(File file, Relations dataset) throws Exception {
-        HashMap<String, ArrayList<String>> listKata = this.getClassRecognizerHandler().getWordList();
-        HashMap<String, ArrayList<String>> listPola = this.getClassRecognizerHandler().getPatternList();
-        System.out.println(listKata);
-
-        HashMap<File, Pair<Relations, RecognizedRelations>> ret = new HashMap<>();
-
-        // TODO recognize domain class in relation here
-
-        Pair<Relations, RecognizedRelations> recRelatioins = Pair.of(dataset, new RecognizedRelations());
-
-        for (Relation relasi: dataset.getRelations()) {
-            RecognizedRelation recrel = new RecognizedRelation(relasi, listKata, listPola);
-            recRelatioins.getValue().addRecogRelation(recrel);
-        }
-        ret.putIfAbsent(file, recRelatioins);
-
-        return ret;
-    }
-
-    @Override
-    public HashMap<File, DomainDatas> executeDomainData(File file, DomainDatas dataset) throws Exception {
-        HashMap<String, ArrayList<String>> listKata = this.getClassRecognizerHandler().getWordList();
-        HashMap<String, ArrayList<String>> listPola = this.getClassRecognizerHandler().getPatternList();
-        System.out.println(listPola);
-
-        HashMap<File,DomainDatas> ret = new HashMap<>();
-
-        // TODO recognize domain class in relation here
-        for (DomainData domainData: dataset.getDomainDatas()) {
-            domainData.recognize(listKata, listPola);
-        }
-        ret.putIfAbsent(file, dataset);
-
-        return ret;
-    }
-
-    @Override
     public HashMap<File, Pair<Relations, RecognizedRelations>> read() throws Exception {
         HashMap<File, Pair<Relations, RecognizedRelations>> ret = this.getClassRecognizerHandler().read();
         return ret;
