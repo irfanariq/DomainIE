@@ -50,14 +50,14 @@ public class DomainMapperFileReader extends Plugin {
 
         @Override
         public HashMap<File, RecognizedRelations> read() throws Exception {
-            System.out.println("Inside domain mapper reader 0 - read recognized relation");
+//            System.out.println("Inside domain mapper reader 0 - read recognized relation");
 
             if (getAvailableConfigurations().get("Input Recognized Relation Directory") == null) {
                 throw new Exception("Read (recognized relation) directory path must be specified");
             } else {
                 HashMap<File, RecognizedRelations> pipelineItems = new HashMap<>();
 
-                System.out.println("reading recognized relation ... ");
+//                System.out.println("reading recognized relation ... ");
 
                 ArrayList<File> files = Utilities.getDirectoryFiles(new File(availableConfigurations.get("Input Recognized Relation Directory")));
 

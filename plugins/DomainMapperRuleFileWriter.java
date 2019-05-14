@@ -63,12 +63,12 @@ public class DomainMapperRuleFileWriter extends Plugin {
 
         @Override
         public void writeRule(String fileName, HashSet<Rule> rules) throws Exception {
-            System.out.println("Inside domain mapper writer 0 - write rules ");
+//            System.out.println("Inside domain mapper writer 0 - write rules ");
 
             if (getAvailableConfigurations().get("Output Rules Directory") == null) {
                 throw new Exception("Write (Rules) directory path must be specified");
             } else {
-                System.out.println("Writing rules ... ");
+//                System.out.println("Writing rules ... ");
                 if (rules != null) {
                     // LOG
                     //System.out.println(" ============== >> FINAL RULE " + rules.size() + " << ================= ");

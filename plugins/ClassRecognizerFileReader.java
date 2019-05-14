@@ -49,14 +49,14 @@ public class ClassRecognizerFileReader extends Plugin {
 
         @Override
         public HashMap<File, Pair<Relations, RecognizedRelations>> read() throws Exception {
-            System.out.println("Inside class recognizer reader 0 - read relation");
+//            System.out.println("Inside class recognizer reader 0 - read relation");
 
             if (getAvailableConfigurations().get("Input Directory") == null) {
                 throw new Exception("Read (relation) directory path must be specified");
             } else {
                 HashMap<File, Pair<Relations, RecognizedRelations>> pipelineItems = new HashMap<>();
 
-                System.out.println("reading relation ... ");
+//                System.out.println("reading relation ... ");
 
                 ArrayList<File> files = Utilities.getDirectoryFiles(new File(availableConfigurations.get("Input Directory")));
 

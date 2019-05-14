@@ -53,14 +53,14 @@ public class ClassRecognizerDomainDataFileReader extends Plugin {
 
         @Override
         public HashMap<File, DomainDatas> readDomainData() throws Exception {
-            System.out.println("Inside class recognizer reader 0 - read domain data");
+//            System.out.println("Inside class recognizer reader 0 - read domain data");
 
             if (getAvailableConfigurations().get("Input Domain Data Directory") == null) {
                 throw new Exception("Read (domain data) directory path must be specified");
             }else {
                 HashMap<File, DomainDatas> pipelineItems = new HashMap<>();
 
-                System.out.println("reading domain data ... ");
+//                System.out.println("reading domain data ... ");
 
                 ArrayList<File> files = Utilities.getDirectoryFiles(new File(availableConfigurations.get("Input Domain Data Directory")));
 

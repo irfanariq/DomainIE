@@ -54,7 +54,7 @@ public class DomainMapperFileWriter extends Plugin {
 
         @Override
         public void write(File file, DomainRelations domainRelations) throws Exception {
-            System.out.println("Inside domain mapper writer 0 - write domain relation");
+//            System.out.println("Inside domain mapper writer 0 - write domain relation");
 
             if (getAvailableConfigurations().get("Output Domain Relation Directory") == null) {
                 throw new Exception("Write (domain relation) directory path must be specified");

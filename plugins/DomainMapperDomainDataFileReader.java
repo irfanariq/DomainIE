@@ -50,14 +50,14 @@ public class DomainMapperDomainDataFileReader extends Plugin {
 
         @Override
         public HashMap<File, DomainDatas> readDomainData() throws Exception {
-            System.out.println("Inside domain mapper reader 0 - read rec domain data");
+//            System.out.println("Inside domain mapper reader 0 - read rec domain data");
 
             if (getAvailableConfigurations().get("Input Domain Data Directory") == null) {
                 throw new Exception("Read (rec domain data) directory path must be specified");
             } else {
                 HashMap<File, DomainDatas> pipelineItems = new HashMap<>();
 
-                System.out.println("reading rec domain data ... ");
+//                System.out.println("reading rec domain data ... ");
 
                 ArrayList<File> files = Utilities.getDirectoryFiles(new File(availableConfigurations.get("Input Domain Data Directory")));
 
