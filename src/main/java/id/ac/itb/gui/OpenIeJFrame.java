@@ -9,12 +9,7 @@ import id.ac.itb.gui.alert.Alert;
 import id.ac.itb.gui.config.ConfigDialog;
 import id.ac.itb.gui.config.ConfigFeatureDialog;
 import id.ac.itb.gui.dragdroplist.DragDropList;
-import id.ac.itb.gui.progressbar.ClassifierProgress;
-import id.ac.itb.gui.progressbar.CrawlerProgress;
-import id.ac.itb.gui.progressbar.DataprocessorProgress;
-import id.ac.itb.gui.progressbar.ExtractorProgress;
-import id.ac.itb.gui.progressbar.PostprocessorProgress;
-import id.ac.itb.gui.progressbar.PreprocessorProgress;
+import id.ac.itb.gui.progressbar.*;
 import id.ac.itb.gui.viewer.EvaluationViewer;
 import id.ac.itb.gui.viewer.ExtractionViewer;
 import id.ac.itb.openie.classifier.Classifier;
@@ -1349,29 +1344,29 @@ public class OpenIeJFrame extends javax.swing.JFrame {
 
         classRecognizerPipeline.setClassRecognizerPipelineHook(new IClassRecognizerPipelineHook() {
 
-//            JFrame dataprocessorProgress = new DataprocessorProgress(dataprocessorPipeline);
+            JFrame classRecognizerProgress = new ClassRecognizerProgress(classRecognizerPipeline);
 
             @Override
             public void willExecute() {
                 System.out.println("Class recognizer mulai");
-//                dataprocessorProgress.setVisible(true);
+                classRecognizerProgress.setVisible(true);
             }
 
             @Override
             public void didExecute() {
                 System.out.println("Class recognizer selesai");
-//                ((DataprocessorProgress) dataprocessorProgress).stopTimer();
-//                dataprocessorProgress.dispose();
+                ((ClassRecognizerProgress) classRecognizerProgress).stopTimer();
+                classRecognizerProgress.dispose();
             }
         });
 
         domainMapperPipeline.setDomainMapperPipelineHook(new IDomainMapperPipelineHook() {
 
-//            JFrame postprocessorProgress = new PostprocessorProgress(postprocessorPipeline);
+            JFrame domainMapperProgress = new DomainMapperProgress(domainMapperPipeline);
 
             @Override
             public void willExecute() {
-//                postprocessorProgress.setVisible(true);
+                domainMapperProgress.setVisible(true);
                 System.out.println("Domain Mapper will Run ... ");
             }
 
@@ -1379,9 +1374,9 @@ public class OpenIeJFrame extends javax.swing.JFrame {
             public void didExecute() {
                 System.out.println("Domain Mapper did Run ... ");
 
-//                ((PostprocessorProgress) postprocessorProgress).stopTimer();
-//                postprocessorProgress.dispose();
-//
+                ((DomainMapperProgress) domainMapperProgress).stopTimer();
+                domainMapperProgress.dispose();
+
 //                if (postprocessorPipeline.getNumberOfPostprocessors() > 0) {
 //                    JFrame extractionViewer = new ExtractionViewer(new File(System.getProperty("user.dir") + File.separator + new Config().getProperty("POSTPROCESSES_OUTPUT_RELATIVE_PATH").replaceAll("\\.", Matcher.quoteReplacement(System.getProperty("file.separator")))));
 //                    extractionViewer.setVisible(true);

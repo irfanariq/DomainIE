@@ -67,6 +67,8 @@ public class DomainMapperPipeline implements IDomainIePipelineElement {
                 }
             }
 
+            isGeneratingRules = false;
+
             HashMap<File, RecognizedRelations> recognizedRelationsHashMap = new HashMap<>();
             // READ RECOGNIZED RELATION HERE
             for (Object iDomainMapperHandler : pluginLoader.getAllExtensions(IDomainMapperHandler.class)) {
@@ -151,5 +153,17 @@ public class DomainMapperPipeline implements IDomainIePipelineElement {
     public DomainMapperPipeline addPipelineElement(IDomainMapperPipelineElement domainMapperPipelineElement) {
         domainMapperPipelineElements.add(domainMapperPipelineElement);
         return this;
+    }
+
+    public IDomainMapperPipelineElement getCurrentlyDomainMapperProcess() {
+        return currentlyDomainMapperProcess;
+    }
+
+    public int getNumberOfDomainMapper() {
+        return totalDomainMapperProcessed;
+    }
+
+    public int getCurrentDomainMapperProcessed() {
+        return currentDomainMapperProcessed;
     }
 }

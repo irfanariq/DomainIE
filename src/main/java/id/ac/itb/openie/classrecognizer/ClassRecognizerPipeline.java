@@ -17,12 +17,13 @@ public class ClassRecognizerPipeline implements IDomainIePipelineElement {
     private List<IClassRecognizerPipelineElement> iClassRecognizerPipelineElements = new ArrayList<>();
     private List<IClassRecognizerPipelineElement> iClassRecognizerDomainDataPipelineElements = new ArrayList<>();
     private int totalProcessedClassRecognizer = 0;
-    private int totalRelationToBeRecognized = 0;
-    private int currentlyRecognizedRelation = 0;
-    private int totalDomainDataToBeRecognized = 0;
-    private int currentlyRecognizedDomainData = 0;
+    private int totalFileRelationToBeRecognized = 0;
+    private int currentlyRecognizedRelationFile = 0;
+    private int totalDomainDataFileToBeRecognized = 0;
+    private int currentlyRecognizedDomainDataFile = 0;
     private IClassRecognizerPipelineElement currentlyRunningClassRecognizer = null;
     private IClassRecognizerPipelineHook iClassRecognizerPipelineHook= null;
+    private boolean isRecognizeRelatioin = true;
 
     private void addDefaultReaderAndWriter() {
         if (iClassRecognizerPipelineElements.size() > 0) {
@@ -82,7 +83,7 @@ public class ClassRecognizerPipeline implements IDomainIePipelineElement {
         }
     }
 
-    private int getNumberOfClassRecognizer() {
+    public int getNumberOfClassRecognizer() {
         int ret = 0;
         for (IClassRecognizerPipelineElement extractorPipelineElement: iClassRecognizerPipelineElements) {
             if (((ClassRecognizer)extractorPipelineElement).getClassRecognizerHandler().getPluginName().equalsIgnoreCase("Class Recognizer File Reader")) {
@@ -115,7 +116,7 @@ public class ClassRecognizerPipeline implements IDomainIePipelineElement {
                 if (((ClassRecognizer) classRecognizerPipelineElement).getClassRecognizerHandler().getPluginName().equalsIgnoreCase("Class Recognizer File Reader")) {
                     HashMap<File, Pair<Relations, RecognizedRelations>> extractedRelations = classRecognizerPipelineElement.read();
                     nextPipeQueue.putAll(extractedRelations);
-                    totalRelationToBeRecognized = extractedRelations.size();
+                    totalFileRelationToBeRecognized = extractedRelations.size();
                 } else if (((ClassRecognizer) classRecognizerPipelineElement).getClassRecognizerHandler().getPluginName().equalsIgnoreCase("Class Recognizer File Writer")) {
                     for (Map.Entry<File, Pair<Relations, RecognizedRelations>> pair : pipeQueue.entrySet()) {
                         classRecognizerPipelineElement.write(pair.getKey(), pair.getValue().getValue());
@@ -126,7 +127,7 @@ public class ClassRecognizerPipeline implements IDomainIePipelineElement {
                     HashMap<String, ArrayList<String>> listKata = classRecognizerPipelineElement.getWordList();
                     HashMap<String, ArrayList<String>> listPola = classRecognizerPipelineElement.getPatternList();
 
-                    currentlyRecognizedRelation = 0;
+                    currentlyRecognizedRelationFile = 0;
 
                     for (Map.Entry<File, Pair<Relations, RecognizedRelations>> pair : pipeQueue.entrySet()) {
                         RecognizedRelations recRelatioins = new RecognizedRelations();
@@ -137,7 +138,7 @@ public class ClassRecognizerPipeline implements IDomainIePipelineElement {
                         }
 
                         nextPipeQueue.put(pair.getKey(), Pair.of(pair.getValue().getLeft(), recRelatioins));
-                        currentlyRecognizedRelation++;
+                        currentlyRecognizedRelationFile++;
                     }
                 }
 
@@ -145,8 +146,9 @@ public class ClassRecognizerPipeline implements IDomainIePipelineElement {
                 nextPipeQueue = new HashMap<>();
             }
 
+            isRecognizeRelatioin = false;
             totalProcessedClassRecognizer = 0;
-            currentlyRecognizedDomainData = 0;
+            currentlyRecognizedDomainDataFile = 0;
             HashMap<File, DomainDatas> pipeQueueDomainData = new HashMap<>();
             HashMap<File, DomainDatas> nextPipeQueueDomainData = new HashMap<>();
             // recognize domain data
@@ -156,7 +158,7 @@ public class ClassRecognizerPipeline implements IDomainIePipelineElement {
                 if (((ClassRecognizer) classRecognizerPipelineElement).getClassRecognizerHandler().getPluginName().equalsIgnoreCase("Class Recognizer Domain Data File Reader")) {
                     HashMap<File, DomainDatas> extractedRelations = classRecognizerPipelineElement.readDomainData();
                     nextPipeQueueDomainData.putAll(extractedRelations);
-                    totalDomainDataToBeRecognized  = extractedRelations.size();
+                    totalDomainDataFileToBeRecognized = extractedRelations.size();
                 } else if (((ClassRecognizer) classRecognizerPipelineElement).getClassRecognizerHandler().getPluginName().equalsIgnoreCase("Class Recognizer Domain Data File Writer")) {
                     for (Map.Entry<File, DomainDatas> pair : pipeQueueDomainData.entrySet()) {
                         classRecognizerPipelineElement.writeDomainData(pair.getKey(), pair.getValue());
@@ -164,7 +166,7 @@ public class ClassRecognizerPipeline implements IDomainIePipelineElement {
                 } else {
                     this.totalProcessedClassRecognizer++;
 
-                    currentlyRecognizedDomainData = 0;
+                    currentlyRecognizedDomainDataFile = 0;
 
                     HashMap<String, ArrayList<String>> listKata = classRecognizerPipelineElement.getWordList();
                     HashMap<String, ArrayList<String>> listPola = classRecognizerPipelineElement.getPatternList();
@@ -175,7 +177,7 @@ public class ClassRecognizerPipeline implements IDomainIePipelineElement {
                             domainData.recognize(listKata, listPola);
                         }
                         nextPipeQueueDomainData.putIfAbsent(pair.getKey(), pair.getValue());
-                        currentlyRecognizedDomainData++;
+                        currentlyRecognizedDomainDataFile++;
                     }
                 }
                 pipeQueueDomainData = nextPipeQueueDomainData;
@@ -211,5 +213,33 @@ public class ClassRecognizerPipeline implements IDomainIePipelineElement {
     public ClassRecognizerPipeline setClassRecognizerPipelineHook(IClassRecognizerPipelineHook iClassRecognizerPipelineHook) {
         this.iClassRecognizerPipelineHook = iClassRecognizerPipelineHook;
         return this;
+    }
+
+    public int getTotalProcessedClassRecognizer() {
+        return totalProcessedClassRecognizer;
+    }
+
+    public int getTotalFileRelationToBeRecognized() {
+        return totalFileRelationToBeRecognized;
+    }
+
+    public int getCurrentlyRecognizedRelationFile() {
+        return currentlyRecognizedRelationFile;
+    }
+
+    public int getTotalDomainDataFileToBeRecognized() {
+        return totalDomainDataFileToBeRecognized;
+    }
+
+    public int getCurrentlyRecognizedDomainDataFile() {
+        return currentlyRecognizedDomainDataFile;
+    }
+
+    public boolean isRecognizeRelatioin() {
+        return isRecognizeRelatioin;
+    }
+
+    public IClassRecognizerPipelineElement getCurrentlyRunningClassRecognizer() {
+        return currentlyRunningClassRecognizer;
     }
 }
