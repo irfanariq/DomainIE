@@ -50,7 +50,7 @@ public class SepakBolaMatchClassRecognizer extends Plugin {
             String timSepakBolaStr = "Barcelona,Arsenal,Liverpool,Chelsea,Southampton,Tottenham,Ajax,Juventus,Bayern Munchen,Watford," +
                     "Manchester United,Real Madrid,Eibar,Genoa,AS Roma,Manchester City,Real Sociaded,Deportivo Alaves,Burnley,Dynamo Kiev," +
                     "Valencia,Fiorentiona,Torino,Villareal,Videoton,Napoli,Eintracht Frankfurt,Udinese,Inter Milan,Getafe,Rayo Vallecano" +
-                    "Huddersfield,Lazio,Leicester,Athletic Bilbao";
+                    "Huddersfield,Lazio,Leicester,Athletic Bilbao","Porto";
             ArrayList<String> timSepakBola = new ArrayList<String>(Arrays.asList(timSepakBolaStr.split(",")));
 
             String winIndicatorStr = "menang,mengalahkan,menumbangkan,memenangkan,menjinakkan,taklukkan,menaklukkan,kemenangan,menggilas";
