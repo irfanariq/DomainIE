@@ -10,8 +10,10 @@ import id.ac.itb.gui.config.ConfigDialog;
 import id.ac.itb.gui.config.ConfigFeatureDialog;
 import id.ac.itb.gui.dragdroplist.DragDropList;
 import id.ac.itb.gui.progressbar.*;
+import id.ac.itb.gui.viewer.DomainRelationViewer;
 import id.ac.itb.gui.viewer.EvaluationViewer;
 import id.ac.itb.gui.viewer.ExtractionViewer;
+import id.ac.itb.gui.viewer.RulesViewer;
 import id.ac.itb.openie.classifier.Classifier;
 import id.ac.itb.openie.classifier.ClassifierPipeline;
 import id.ac.itb.openie.classifier.IClassifierHandler;
@@ -405,6 +407,8 @@ public class OpenIeJFrame extends javax.swing.JFrame {
         domainIEExecutePipelineButton = new javax.swing.JButton();
         domainIERemovePipelineButton = new javax.swing.JButton();
         domainIEConfigurePipelineButton = new javax.swing.JButton();
+        openDomainRelationDomainMapperViewerLabel = new javax.swing.JLabel();
+        openRulesDomainMapperViewerLabel = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -1089,7 +1093,29 @@ public class OpenIeJFrame extends javax.swing.JFrame {
         });
         domainIEDomainDataLabel.setText("Domain Data Directory");
         domainIEDomainDataButton.setText("Browse");
+        openDomainRelationDomainMapperViewerLabel.setForeground(new java.awt.Color(0, 102, 255));
+        openDomainRelationDomainMapperViewerLabel.setText("(Domain Relation Viewer)");
+        openDomainRelationDomainMapperViewerLabel.setCursor(new Cursor(Cursor.HAND_CURSOR));
+        openDomainRelationDomainMapperViewerLabel.addMouseListener(new MouseAdapter() {
+            public void mouseClicked(MouseEvent e) {
+                JFrame extractionViewer = new DomainRelationViewer(
+                        new File(System.getProperty("user.dir") + File.separator + new Config().getProperty("POSTPROCESSES_OUTPUT_RELATIVE_PATH").replaceAll("\\.", Matcher.quoteReplacement(System.getProperty("file.separator")))),
+                        new File(System.getProperty("user.dir") + File.separator + new Config().getProperty("DOMAIN_RELATION_OUPUT_DATA").replaceAll("\\.", Matcher.quoteReplacement(System.getProperty("file.separator")))));
+//                JFrame extractionViewer = new DomainRelationViewer();
+                extractionViewer.setVisible(true);
+            }
+        });
 
+        openRulesDomainMapperViewerLabel.setForeground(new java.awt.Color(0, 102, 255));
+        openRulesDomainMapperViewerLabel.setText("(Rules Viewer)");
+        openRulesDomainMapperViewerLabel.setCursor(new Cursor(Cursor.HAND_CURSOR));
+        openRulesDomainMapperViewerLabel.addMouseListener(new MouseAdapter() {
+            public void mouseClicked(MouseEvent e) {
+//                JFrame extractionViewer = new DomainRelationViewer(new File(System.getProperty("user.dir") + File.separator + new Config().getProperty("DOMAIN_RELATION_OUPUT_DATA").replaceAll("\\.", Matcher.quoteReplacement(System.getProperty("file.separator")))));
+                JFrame rulesViewer = new RulesViewer(new File(System.getProperty("user.dir") + File.separator + new Config().getProperty("RULES_OUPUT_DATA").replaceAll("\\.", Matcher.quoteReplacement(System.getProperty("file.separator")))));
+                rulesViewer.setVisible(true);
+            }
+        });
         jDomScrollPane1.setViewportView(domainIePipelineDragDropList);
         domainIePipelineDragDropList.addListSelectionListener(new ListSelectionListener() {
             public void valueChanged(ListSelectionEvent ev) {
@@ -1165,7 +1191,7 @@ public class OpenIeJFrame extends javax.swing.JFrame {
                                                         .addComponent(domainIEClassRecognizerLabel)
                                                         .addGroup(jPanel7Layout.createSequentialGroup()
 //                                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                                                .addComponent(domainIEClassRecognizerComboBox, javax.swing.GroupLayout.PREFERRED_SIZE, 365, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                                                .addComponent(domainIEClassRecognizerComboBox)
 //                                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                                                 .addComponent(domainIEClassRecognizerAddButton)
 //                                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
@@ -1175,7 +1201,11 @@ public class OpenIeJFrame extends javax.swing.JFrame {
                                         .addGroup(jPanel7Layout.createSequentialGroup()
 //                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                                 .addGroup(jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                                                .addComponent(domainIEDomainMapperLabel)
+                                                                .addGroup(jPanel7Layout.createSequentialGroup()
+                                                                    .addComponent(domainIEDomainMapperLabel)
+                                                                    .addComponent(openDomainRelationDomainMapperViewerLabel)
+                                                                    .addComponent(openRulesDomainMapperViewerLabel)
+                                                                )
                                                                 .addGroup(jPanel7Layout.createSequentialGroup()
 //                                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                                                                 .addComponent(domainIEDomainMapperComboBox)
@@ -1242,7 +1272,11 @@ public class OpenIeJFrame extends javax.swing.JFrame {
                                         .addGroup(jPanel7Layout.createParallelGroup(GroupLayout.Alignment.BASELINE)
                                                 .addGroup(jPanel7Layout.createSequentialGroup()
 //                                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                                        .addComponent(domainIEDomainMapperLabel)
+                                                        .addGroup(jPanel7Layout.createParallelGroup(GroupLayout.Alignment.LEADING)
+                                                            .addComponent(domainIEDomainMapperLabel)
+                                                            .addComponent(openDomainRelationDomainMapperViewerLabel)
+                                                            .addComponent(openRulesDomainMapperViewerLabel)
+                                                        )
 //                                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                                         .addGroup(jPanel7Layout.createParallelGroup(GroupLayout.Alignment.BASELINE)
                                                                 .addComponent(domainIEDomainMapperComboBox)
@@ -1281,7 +1315,7 @@ public class OpenIeJFrame extends javax.swing.JFrame {
                                                 )
                                         )
                                         .addGroup(jPanel7Layout.createParallelGroup(GroupLayout.Alignment.TRAILING)
-                                                .addGroup(jPanel7Layout.createSequentialGroup()
+                                                .addGroup(GroupLayout.Alignment.TRAILING, jPanel7Layout.createSequentialGroup()
 //                                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                                         .addComponent(domainIEExecutePipelineButton)
 //                                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
@@ -1895,5 +1929,7 @@ public class OpenIeJFrame extends javax.swing.JFrame {
     private javax.swing.JButton domainIEExecutePipelineButton;
     private javax.swing.JButton domainIERemovePipelineButton;
     private javax.swing.JButton domainIEConfigurePipelineButton;
+    private javax.swing.JLabel openDomainRelationDomainMapperViewerLabel;
+    private javax.swing.JLabel openRulesDomainMapperViewerLabel;
     // End of variables declaration//GEN-END:variables
 }
