@@ -187,6 +187,8 @@ public class DomainRelationViewer extends javax.swing.JFrame {
 
         closeButton = new javax.swing.JButton();
         additionalInformationLabel = new javax.swing.JLabel();
+        domainIERelationLabel = new javax.swing.JLabel();
+        openIERelatioonLabel = new javax.swing.JLabel();
         jScrollPane2 = new javax.swing.JScrollPane();
         jTextArea1 = new javax.swing.JTextArea();
         jScrollPane3 = new javax.swing.JScrollPane();
@@ -282,6 +284,9 @@ public class DomainRelationViewer extends javax.swing.JFrame {
             }
         });
 
+        domainIERelationLabel.setText("DomainIE Relations");
+        openIERelatioonLabel.setText("OpenIE Relations");
+
         jSeparator1.setOrientation(javax.swing.SwingConstants.VERTICAL);
 
         jScrollPane4.setViewportView(jList2);
@@ -313,9 +318,18 @@ public class DomainRelationViewer extends javax.swing.JFrame {
                                                 .addGap(2, 2, 2)
                                                 .addComponent(closeButton))
                                         .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                                                .addComponent(jScrollPane5)
+                                                .addGroup(layout.createParallelGroup()
+                                                        .addComponent(openIERelatioonLabel)
+                                                        .addComponent(jScrollPane5)
+                                                )
                                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                                .addComponent(jScrollPane4)))
+                                                .addGroup(layout.createParallelGroup()
+                                                        .addComponent(domainIERelationLabel)
+                                                        .addComponent(jScrollPane4)
+                                                )
+                                        )
+
+                                )
                                 .addContainerGap())
         );
         layout.setVerticalGroup(
@@ -327,8 +341,16 @@ public class DomainRelationViewer extends javax.swing.JFrame {
                                                 .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 293, javax.swing.GroupLayout.PREFERRED_SIZE)
                                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                                        .addComponent(jScrollPane5)
-                                                        .addComponent(jScrollPane4)))
+                                                        .addGroup(layout.createSequentialGroup()
+                                                                .addComponent(openIERelatioonLabel)
+                                                                .addComponent(jScrollPane5)
+                                                        )
+                                                        .addGroup(layout.createSequentialGroup()
+                                                                .addComponent(domainIERelationLabel)
+                                                                .addComponent(jScrollPane4)
+                                                        )
+                                                )
+                                        )
                                         .addComponent(jScrollPane3, javax.swing.GroupLayout.DEFAULT_SIZE, 577, Short.MAX_VALUE))
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
@@ -413,6 +435,8 @@ public class DomainRelationViewer extends javax.swing.JFrame {
 
     // Variables declaration - do not modify
     private javax.swing.JLabel additionalInformationLabel;
+    private javax.swing.JLabel domainIERelationLabel;
+    private javax.swing.JLabel openIERelatioonLabel;
     private javax.swing.JButton closeButton;
     private javax.swing.JList<String> jList1;
     private javax.swing.JList<String> jList2;
