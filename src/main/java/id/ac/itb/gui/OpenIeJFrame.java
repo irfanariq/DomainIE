@@ -256,6 +256,30 @@ public class OpenIeJFrame extends javax.swing.JFrame {
             openIePipelineListModel.addElement(fileReaderDataprocessorDT);
         }
     }
+
+    private void browseDomainDataDirectory() {
+        JFileChooser fileChooser = new JFileChooser();
+        fileChooser.setFileSelectionMode(JFileChooser.DIRECTORIES_ONLY);
+
+        ClassRecognizer fileReaderDomainMapperDD = new ClassRecognizer();
+
+        for (Object iClassRecognizerHandler : pluginLoader.getAllExtensions(IClassRecognizerHandler.class)) {
+            IClassRecognizerHandler classRecognizerHandler = (IClassRecognizerHandler) iClassRecognizerHandler;
+            String pluginName = classRecognizerHandler.getPluginName();
+
+            if (pluginName.equalsIgnoreCase("Class Recognizer Domain Data File Reader")) {
+                fileReaderDomainMapperDD = new ClassRecognizer().setClassRecognizerHandler(SerializationUtils.clone(classRecognizerHandler));
+            }
+        }
+
+        int returnValue = fileChooser.showOpenDialog(null);
+        if (returnValue == JFileChooser.APPROVE_OPTION) {
+            File selectedFile = fileChooser.getSelectedFile();
+
+            fileReaderDomainMapperDD.getClassRecognizerHandler().setAvailableConfigurations("Input Domain Data Directory", selectedFile.getAbsolutePath());
+            domainIePipelineListModel.addElement(fileReaderDomainMapperDD);
+        }
+    }
     
     private void refreshEvaluationFilesList() {
         extractionsEvaluationLabeller = new ExtractionsEvaluationLabeller();
@@ -399,8 +423,8 @@ public class OpenIeJFrame extends javax.swing.JFrame {
         domainIEDomainMapperLabel = new javax.swing.JLabel();
         domainIEDomainMapperComboBox = new javax.swing.JComboBox();
         domainIEDomainMapperAddButton = new javax.swing.JButton();
-        domainIEDomainDataLabel = new javax.swing.JLabel();
-        domainIEDomainDataButton = new javax.swing.JButton();
+        domainIEBrowseDomainDataLabel = new javax.swing.JLabel();
+        domainIEBrowseDomainDataButton = new javax.swing.JButton();
         domainIePipelineDragDropList = new DragDropList(domainIePipelineListModel);
         jDomScrollPane1 = new javax.swing.JScrollPane();
         domainIePipelineElementLabel = new javax.swing.JLabel();
@@ -1091,8 +1115,15 @@ public class OpenIeJFrame extends javax.swing.JFrame {
                 domainIESectionAddDomainMapperButtonActionPerformed(e);
             }
         });
-        domainIEDomainDataLabel.setText("Domain Data Directory");
-        domainIEDomainDataButton.setText("Browse");
+        domainIEBrowseDomainDataLabel.setText("Domain Data Directory");
+        domainIEBrowseDomainDataButton.setText("Browse");
+        domainIEBrowseDomainDataButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                browseDomainDataDirectoryButton1ActionPerformed(e);
+            }
+        });
+
         openDomainRelationDomainMapperViewerLabel.setForeground(new java.awt.Color(0, 102, 255));
         openDomainRelationDomainMapperViewerLabel.setText("(Domain Relation Viewer)");
         openDomainRelationDomainMapperViewerLabel.setCursor(new Cursor(Cursor.HAND_CURSOR));
@@ -1101,7 +1132,6 @@ public class OpenIeJFrame extends javax.swing.JFrame {
                 JFrame extractionViewer = new DomainRelationViewer(
                         new File(System.getProperty("user.dir") + File.separator + new Config().getProperty("POSTPROCESSES_OUTPUT_RELATIVE_PATH").replaceAll("\\.", Matcher.quoteReplacement(System.getProperty("file.separator")))),
                         new File(System.getProperty("user.dir") + File.separator + new Config().getProperty("DOMAIN_RELATION_OUPUT_DATA").replaceAll("\\.", Matcher.quoteReplacement(System.getProperty("file.separator")))));
-//                JFrame extractionViewer = new DomainRelationViewer();
                 extractionViewer.setVisible(true);
             }
         });
@@ -1216,8 +1246,8 @@ public class OpenIeJFrame extends javax.swing.JFrame {
                                                 )
 //                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                                 .addGroup(jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                                        .addComponent(domainIEDomainDataLabel)
-                                                        .addComponent(domainIEDomainDataButton, javax.swing.GroupLayout.PREFERRED_SIZE, 104, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                                        .addComponent(domainIEBrowseDomainDataLabel)
+                                                        .addComponent(domainIEBrowseDomainDataButton, javax.swing.GroupLayout.PREFERRED_SIZE, 104, javax.swing.GroupLayout.PREFERRED_SIZE)
                                                 )
 
                                         )
@@ -1286,9 +1316,9 @@ public class OpenIeJFrame extends javax.swing.JFrame {
                                                 )
                                                 .addGroup(jPanel7Layout.createSequentialGroup()
 //                                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                                        .addComponent(domainIEDomainDataLabel)
+                                                        .addComponent(domainIEBrowseDomainDataLabel)
 //                                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                                        .addComponent(domainIEDomainDataButton)
+                                                        .addComponent(domainIEBrowseDomainDataButton)
 //                                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                                 )
                                         )
@@ -1347,6 +1377,10 @@ public class OpenIeJFrame extends javax.swing.JFrame {
         setLocationRelativeTo(null);
         setTitle("Sistem Open IE Bahasa Indonesia");
     }// </editor-fold>//GEN-END:initComponents
+
+    private void browseDomainDataDirectoryButton1ActionPerformed(ActionEvent e) {
+        browseDomainDataDirectory();
+    }
 
     private void domainIESectionExecutePipelineElementButtonActionPerformed(ActionEvent e) {
         // TODO add your handling code here:
@@ -1411,10 +1445,11 @@ public class OpenIeJFrame extends javax.swing.JFrame {
                 ((DomainMapperProgress) domainMapperProgress).stopTimer();
                 domainMapperProgress.dispose();
 
-//                if (postprocessorPipeline.getNumberOfPostprocessors() > 0) {
-//                    JFrame extractionViewer = new ExtractionViewer(new File(System.getProperty("user.dir") + File.separator + new Config().getProperty("POSTPROCESSES_OUTPUT_RELATIVE_PATH").replaceAll("\\.", Matcher.quoteReplacement(System.getProperty("file.separator")))));
-//                    extractionViewer.setVisible(true);
-//                }
+                JFrame extractionViewer = new DomainRelationViewer(
+                        new File(System.getProperty("user.dir") + File.separator + new Config().getProperty("POSTPROCESSES_OUTPUT_RELATIVE_PATH").replaceAll("\\.", Matcher.quoteReplacement(System.getProperty("file.separator")))),
+                        new File(System.getProperty("user.dir") + File.separator + new Config().getProperty("DOMAIN_RELATION_OUPUT_DATA").replaceAll("\\.", Matcher.quoteReplacement(System.getProperty("file.separator")))));
+                extractionViewer.setVisible(true);
+
             }
         });
 
@@ -1438,15 +1473,15 @@ public class OpenIeJFrame extends javax.swing.JFrame {
 
     private void domainIESectionConfigurePipelineElementButton1ActionPerformed(ActionEvent e) {
         // TODO
-        Object selectedPipelineElement = openIePipelineDragDropList.getSelectedValue();
+        Object selectedPipelineElement = domainIePipelineDragDropList.getSelectedValue();
 
         if (selectedPipelineElement != null) {
             if (selectedPipelineElement instanceof ClassRecognizer) {
                 new ConfigDialog(((ClassRecognizer)selectedPipelineElement).getClassRecognizerHandler().getAvailableConfigurations()).setVisible(true);
             }
-//            else if (selectedPipelineElement instanceof Preprocessor) {
-//                new ConfigDialog(((Preprocessor)selectedPipelineElement).getPreprocessorHandler().getAvailableConfigurations()).setVisible(true);
-//            }
+            else if (selectedPipelineElement instanceof DomainMapper) {
+                new ConfigDialog(((DomainMapper)selectedPipelineElement).getDomainMapperHandler().getAvailableConfigurations()).setVisible(true);
+            }
         }
     }
 
@@ -1922,8 +1957,8 @@ public class OpenIeJFrame extends javax.swing.JFrame {
     private javax.swing.JLabel domainIEDomainMapperLabel;
     private javax.swing.JComboBox<Object> domainIEDomainMapperComboBox;
     private javax.swing.JButton domainIEDomainMapperAddButton;
-    private javax.swing.JLabel domainIEDomainDataLabel;
-    private javax.swing.JButton domainIEDomainDataButton;
+    private javax.swing.JLabel domainIEBrowseDomainDataLabel;
+    private javax.swing.JButton domainIEBrowseDomainDataButton;
     private javax.swing.JScrollPane jDomScrollPane1;
     private javax.swing.JLabel domainIePipelineElementLabel;
     private javax.swing.JButton domainIEExecutePipelineButton;
