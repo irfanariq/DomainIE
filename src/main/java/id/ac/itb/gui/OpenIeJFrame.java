@@ -1394,7 +1394,7 @@ public class OpenIeJFrame extends javax.swing.JFrame {
 
             if (selectedPipelineElement instanceof IClassRecognizerPipelineElement) {
                 ClassRecognizer cr = (ClassRecognizer) selectedPipelineElement;
-                if(cr.getClassRecognizerHandler().getPluginName().equalsIgnoreCase("Class Recognizer File Reader")){
+                if(cr.getClassRecognizerHandler().getPluginName().equalsIgnoreCase("Class Recognizer Domain Data File Reader")){
                     classRecognizerPipeline.addPipelineElementInput(cr);
                 }else{
                     IClassRecognizerPipelineElement classRecognizerPipelineElement = (IClassRecognizerPipelineElement) selectedPipelineElement;
