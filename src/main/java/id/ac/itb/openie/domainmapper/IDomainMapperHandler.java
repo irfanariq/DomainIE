@@ -33,7 +33,8 @@ public interface IDomainMapperHandler extends ExtensionPoint, Serializable {
 
     /**
      *
-     * @return listpattern to recognize class domain
+     * @param fileDomainDatasHashMap domain data file to generate rule
+     * @return set of rule to mapping Relation to DomainRelation
      * @throws Exception
      */
     public HashSet<Rule> generateRule(HashMap<File, DomainDatas> fileDomainDatasHashMap) throws Exception;

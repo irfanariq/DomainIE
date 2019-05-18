@@ -12,7 +12,7 @@ import java.util.HashMap;
 import java.util.Arrays;
 
 /**
- * Created by elvanowen on 2/24/17.
+ * Created by irfan ariq on 08/05/19.
  */
 public class SepakBolaMatchClassRecognizer extends Plugin {
 
