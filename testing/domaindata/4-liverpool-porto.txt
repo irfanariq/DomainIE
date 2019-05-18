@@ -1,0 +1,22 @@
+openIERelation(Source: C:\Users\user\Documents\TA\Code\openie\data\preprocess\4-liverpool-porto.txt
+Kalimat ke-1: Satu kaki Liverpool berada di semi-final Liga Champions setelah menang 2-0 atas Porto di Anfield .
+Relasi: menang 2-0 atas(Liverpool# Porto)
+) 
+domainRelation(relasi(TimMenang) 
+argumen(Liverpool#) 
+) 
+openIERelation(Source: C:\Users\user\Documents\TA\Code\openie\data\preprocess\4-liverpool-porto.txt
+Kalimat ke-1: Satu kaki Liverpool berada di semi-final Liga Champions setelah menang 2-0 atas Porto di Anfield .
+Relasi: menang 2-0 atas(Liverpool# Porto)
+) 
+domainRelation(relasi(TimKalah) 
+argumen(Porto#) 
+) 
+openIERelation(Source: C:\Users\user\Documents\TA\Code\openie\data\preprocess\4-liverpool-porto.txt
+Kalimat ke-1: Satu kaki Liverpool berada di semi-final Liga Champions setelah menang 2-0 atas Porto di Anfield .
+Relasi: menang 2-0 atas(Liverpool# Porto)
+) 
+domainRelation(relasi(SkorPertandingan) 
+argumen(2-0#) 
+) 
+

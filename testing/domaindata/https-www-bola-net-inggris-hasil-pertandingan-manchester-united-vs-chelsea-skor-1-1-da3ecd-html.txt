@@ -1,0 +1,15 @@
+openIERelation(Source: C:\Users\user\Documents\TA\Code\openie\data\preprocess\https-www-bola-net-inggris-hasil-pertandingan-manchester-united-vs-chelsea-skor-1-1-da3ecd-html.txt
+Kalimat ke-1: Duel Sengit MU vs Chelsea Menghasilkan Skor Imbang .
+Relasi: Menghasilkan(Duel Sengit MU vs Chelsea# Skor Imbang)
+) 
+domainRelation(relasi(TimImbang) 
+argumen(MU#) 
+) 
+openIERelation(Source: C:\Users\user\Documents\TA\Code\openie\data\preprocess\https-www-bola-net-inggris-hasil-pertandingan-manchester-united-vs-chelsea-skor-1-1-da3ecd-html.txt
+Kalimat ke-1: Duel Sengit MU vs Chelsea Menghasilkan Skor Imbang .
+Relasi: Menghasilkan(Duel Sengit MU vs Chelsea# Skor Imbang)
+) 
+domainRelation(relasi(TimImbang) 
+argumen(chelsea#) 
+) 
+

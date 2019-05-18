@@ -1,0 +1,22 @@
+openIERelation(Source: C:\Users\user\Documents\TA\Code\openie\data\preprocess\https-www-bola-net-inggris-hasil-pertandingan-huddersfield-town-vs-manchester-united-skor-1-1-186c59-html.txt
+Kalimat ke-2: Manchester United hanya bisa bermain imbang 1-1 lawan Huddersfield Town di matchday 37 Premier League di John Smith's Stadium .
+Relasi: hanya bermain(Manchester United# imbang 1-1 lawan Huddersfield Town)
+) 
+domainRelation(relasi(TimImbang) 
+argumen(Manchester United#) 
+) 
+openIERelation(Source: C:\Users\user\Documents\TA\Code\openie\data\preprocess\https-www-bola-net-inggris-hasil-pertandingan-huddersfield-town-vs-manchester-united-skor-1-1-186c59-html.txt
+Kalimat ke-2: Manchester United hanya bisa bermain imbang 1-1 lawan Huddersfield Town di matchday 37 Premier League di John Smith's Stadium .
+Relasi: hanya bermain(Manchester United# imbang 1-1 lawan Huddersfield Town)
+) 
+domainRelation(relasi(TimImbang) 
+argumen(Huddersfield Town#) 
+) 
+openIERelation(Source: C:\Users\user\Documents\TA\Code\openie\data\preprocess\https-www-bola-net-inggris-hasil-pertandingan-huddersfield-town-vs-manchester-united-skor-1-1-186c59-html.txt
+Kalimat ke-2: Manchester United hanya bisa bermain imbang 1-1 lawan Huddersfield Town di matchday 37 Premier League di John Smith's Stadium .
+Relasi: hanya bermain(Manchester United# imbang 1-1 lawan Huddersfield Town)
+) 
+domainRelation(relasi(SkorPertandingan) 
+argumen(1-1#) 
+) 
+

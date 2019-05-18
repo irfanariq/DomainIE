@@ -1,0 +1,22 @@
+openIERelation(Source: C:\Users\user\Documents\TA\Code\openie\data\preprocess\https-www-bola-net-spanyol-hasil-pertandingan-getafe-vs-real-madrid-skor-0-0-cf01ab-html.txt
+Kalimat ke-1: Real Madrid Tertahan di Markas Getafe .
+Relasi: Tertahan(Real Madrid# Markas Getafe)
+) 
+domainRelation(relasi(TimImbang) 
+argumen(real madrid#) 
+) 
+openIERelation(Source: C:\Users\user\Documents\TA\Code\openie\data\preprocess\https-www-bola-net-spanyol-hasil-pertandingan-getafe-vs-real-madrid-skor-0-0-cf01ab-html.txt
+Kalimat ke-1: Real Madrid Tertahan di Markas Getafe .
+Relasi: Tertahan(Real Madrid# Markas Getafe)
+) 
+domainRelation(relasi(TimImbang) 
+argumen(getafe#) 
+) 
+openIERelation(Source: C:\Users\user\Documents\TA\Code\openie\data\preprocess\https-www-bola-net-spanyol-hasil-pertandingan-getafe-vs-real-madrid-skor-0-0-cf01ab-html.txt
+Kalimat ke-2: Real Madrid hanya mampu bermain imbang tanpa gol ketika bertandang ke markas tim ibukota lainnya, Getafe dalam laga lanjutan La Liga 2018-19 jornada 34 yang digelar di Coliseum Alfonso Perez .
+Relasi: hanya bermain(Real Madrid# imbang)
+) 
+domainRelation(relasi(TimImbang) 
+argumen(real madrid#) 
+) 
+

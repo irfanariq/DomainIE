@@ -1,0 +1,15 @@
+openIERelation(Source: C:\Users\user\Documents\TA\Code\openie\data\preprocess\https-www-bola-net-spanyol-hasil-pertandingan-real-madrid-vs-eibar-skor-2-1-aaf2df-html.txt
+Kalimat ke-1: Real Madrid berhasil mengalahkan Eibar dengan skor 2-1 pada jornada ke-31 La Liga 2018 .
+Relasi: berhasil mengalahkan(Real Madrid# Eibar)
+) 
+domainRelation(relasi(TimMenang) 
+argumen(real madrid#) 
+) 
+openIERelation(Source: C:\Users\user\Documents\TA\Code\openie\data\preprocess\https-www-bola-net-spanyol-hasil-pertandingan-real-madrid-vs-eibar-skor-2-1-aaf2df-html.txt
+Kalimat ke-1: Real Madrid berhasil mengalahkan Eibar dengan skor 2-1 pada jornada ke-31 La Liga 2018 .
+Relasi: berhasil mengalahkan(Real Madrid# Eibar)
+) 
+domainRelation(relasi(TimKalah) 
+argumen(eibar#) 
+) 
+

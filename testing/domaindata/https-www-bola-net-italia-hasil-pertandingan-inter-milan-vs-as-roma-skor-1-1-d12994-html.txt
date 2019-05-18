@@ -1,0 +1,29 @@
+openIERelation(Source: C:\Users\user\Documents\TA\Code\openie\data\preprocess\https-www-bola-net-italia-hasil-pertandingan-inter-milan-vs-as-roma-skor-1-1-d12994-html.txt
+Kalimat ke-1: Inter Milan hanya mampu bermain imbang 1-1 saat menjamu AS Roma pada laga lanjutan Serie A 2018/19 .
+Relasi: hanya bermain(Inter Milan# imbang 1-1)
+) 
+domainRelation(relasi(TimImbang) 
+argumen(Inter Milan#) 
+) 
+openIERelation(Source: C:\Users\user\Documents\TA\Code\openie\data\preprocess\https-www-bola-net-italia-hasil-pertandingan-inter-milan-vs-as-roma-skor-1-1-d12994-html.txt
+Kalimat ke-1: Inter Milan hanya mampu bermain imbang 1-1 saat menjamu AS Roma pada laga lanjutan Serie A 2018/19 .
+Relasi: hanya bermain(Inter Milan# imbang 1-1)
+) 
+domainRelation(relasi(SkorPertandingan) 
+argumen(1-1#) 
+) 
+openIERelation(Source: C:\Users\user\Documents\TA\Code\openie\data\preprocess\https-www-bola-net-italia-hasil-pertandingan-inter-milan-vs-as-roma-skor-1-1-d12994-html.txt
+Kalimat ke-1: Inter Milan hanya mampu bermain imbang 1-1 saat menjamu AS Roma pada laga lanjutan Serie A 2018/19 .
+Relasi: menjamu(imbang 1-1# AS Roma)
+) 
+domainRelation(relasi(TimImbang) 
+argumen(AS Roma#) 
+) 
+openIERelation(Source: C:\Users\user\Documents\TA\Code\openie\data\preprocess\https-www-bola-net-italia-hasil-pertandingan-inter-milan-vs-as-roma-skor-1-1-d12994-html.txt
+Kalimat ke-1: Inter Milan hanya mampu bermain imbang 1-1 saat menjamu AS Roma pada laga lanjutan Serie A 2018/19 .
+Relasi: menjamu(imbang 1-1# AS Roma)
+) 
+domainRelation(relasi(SkorPertandingan) 
+argumen(1-1#) 
+) 
+
