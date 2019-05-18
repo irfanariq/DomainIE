@@ -1,0 +1,15 @@
+openIERelation(Source: C:\Users\user\Documents\TA\Code\openie\data\preprocess\https-www-bola-net-champions-hasil-pertandingan-manchester-united-vs-barcelona-skor-0-1-f5a47e-html.txt
+Kalimat ke-1: Barcelona sukses mengalahkan Manchester United dengan skor tipis 1-0 dalam laga leg pertama babak perempat final Liga Champions 2018-19 yang digelar di Old Trafford .
+Relasi: mengalahkan(Barcelona sukses# Manchester United)
+) 
+domainRelation(relasi(TimMenang) 
+argumen(barcelona#) 
+) 
+openIERelation(Source: C:\Users\user\Documents\TA\Code\openie\data\preprocess\https-www-bola-net-champions-hasil-pertandingan-manchester-united-vs-barcelona-skor-0-1-f5a47e-html.txt
+Kalimat ke-1: Barcelona sukses mengalahkan Manchester United dengan skor tipis 1-0 dalam laga leg pertama babak perempat final Liga Champions 2018-19 yang digelar di Old Trafford .
+Relasi: mengalahkan(Barcelona sukses# Manchester United)
+) 
+domainRelation(relasi(TimKalah) 
+argumen(manchester united#) 
+) 
+

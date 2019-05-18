@@ -1,0 +1,15 @@
+openIERelation(Source: C:\Users\user\Documents\TA\Code\openie\data\preprocess\https-www-bola-net-spanyol-hasil-pertandingan-real-madrid-vs-athletic-bilbao-skor-3-0-fbe0c9-html.txt
+Kalimat ke-2: Hat-trick Karim Benzema membawa Real Madrid menaklukkan Athletic Bilbao dengan skor 3-0 ketika kedua tim bertemu dalam laga lanjutan La Liga 2018-19 jornada 33 yang digelar di Santiago Bernabeu .
+Relasi: menaklukkan(Real Madrid# Athletic Bilbao)
+) 
+domainRelation(relasi(TimMenang) 
+argumen(real madrid#) 
+) 
+openIERelation(Source: C:\Users\user\Documents\TA\Code\openie\data\preprocess\https-www-bola-net-spanyol-hasil-pertandingan-real-madrid-vs-athletic-bilbao-skor-3-0-fbe0c9-html.txt
+Kalimat ke-2: Hat-trick Karim Benzema membawa Real Madrid menaklukkan Athletic Bilbao dengan skor 3-0 ketika kedua tim bertemu dalam laga lanjutan La Liga 2018-19 jornada 33 yang digelar di Santiago Bernabeu .
+Relasi: menaklukkan(Real Madrid# Athletic Bilbao)
+) 
+domainRelation(relasi(TimKalah) 
+argumen(athletic bilbao#) 
+) 
+

@@ -1,0 +1,29 @@
+openIERelation(Source: C:\Users\user\Documents\TA\Code\openie\data\preprocess\https-www-bola-net-uefa-hasil-pertandingan-eintracht-frankfurt-vs-inter-milan-skor-0-0-afb5d7-html.txt
+Kalimat ke-2: Inter Milan hanya bisa bermain imbang 0-0 melawan Eintracht Frankfurt di leg pertama babak 16 besar Liga Europa di Commerzbank-Arena .
+Relasi: hanya bermain(Inter Milan# imbang 0-0)
+) 
+domainRelation(relasi(TimImbang) 
+argumen(inter milan#) 
+) 
+openIERelation(Source: C:\Users\user\Documents\TA\Code\openie\data\preprocess\https-www-bola-net-uefa-hasil-pertandingan-eintracht-frankfurt-vs-inter-milan-skor-0-0-afb5d7-html.txt
+Kalimat ke-2: Inter Milan hanya bisa bermain imbang 0-0 melawan Eintracht Frankfurt di leg pertama babak 16 besar Liga Europa di Commerzbank-Arena .
+Relasi: hanya bermain(Inter Milan# imbang 0-0)
+) 
+domainRelation(relasi(SkorPertandingan) 
+argumen(0-0#) 
+) 
+openIERelation(Source: C:\Users\user\Documents\TA\Code\openie\data\preprocess\https-www-bola-net-uefa-hasil-pertandingan-eintracht-frankfurt-vs-inter-milan-skor-0-0-afb5d7-html.txt
+Kalimat ke-2: Inter Milan hanya bisa bermain imbang 0-0 melawan Eintracht Frankfurt di leg pertama babak 16 besar Liga Europa di Commerzbank-Arena .
+Relasi: melawan(imbang 0-0# Eintracht Frankfurt)
+) 
+domainRelation(relasi(TimImbang) 
+argumen(Eintracht frankfurt#) 
+) 
+openIERelation(Source: C:\Users\user\Documents\TA\Code\openie\data\preprocess\https-www-bola-net-uefa-hasil-pertandingan-eintracht-frankfurt-vs-inter-milan-skor-0-0-afb5d7-html.txt
+Kalimat ke-2: Inter Milan hanya bisa bermain imbang 0-0 melawan Eintracht Frankfurt di leg pertama babak 16 besar Liga Europa di Commerzbank-Arena .
+Relasi: melawan(imbang 0-0# Eintracht Frankfurt)
+) 
+domainRelation(relasi(SkorPertandingan) 
+argumen(0-0#) 
+) 
+
