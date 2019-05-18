@@ -1,6 +1,6 @@
 package id.ac.itb.openie.postprocess;
 
-import id.ac.itb.openie.relation.Relations;
+import id.ac.itb.openie.models.Relations;
 import org.pf4j.ExtensionPoint;
 
 import java.io.File;
@@ -32,8 +32,8 @@ public interface IPostprocessorHandler extends ExtensionPoint, Serializable {
 
     /**
      *
-     * @param relations List of originally extracted relation from extractor
-     * @param postprocessed List of relation postprocessed from previous postprocessor
+     * @param relations List of originally extracted models from extractor
+     * @param postprocessed List of models postprocessed from previous postprocessor
      * @return postprocessed relations
      * @throws Exception
      */

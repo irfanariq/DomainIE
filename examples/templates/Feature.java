@@ -3,7 +3,7 @@ package classes;
 import ro.fortsoft.pf4j.Extension;
 import ro.fortsoft.pf4j.Plugin;
 import ro.fortsoft.pf4j.PluginWrapper;
-import id.ac.itb.openie.relation.Relation;
+import id.ac.itb.openie.models.Relation;
 import org.apache.commons.lang3.tuple.Triple;
 import org.apache.commons.lang3.tuple.Pair;
 import id.ac.itb.openie.dataprocessor.*;
@@ -37,7 +37,7 @@ public class Feature extends Plugin {
     	}
 
     	public Object calculate(Relation relation){
-            /*TODO: return feature value from a relation. return string if feature type is nominal or string. 
+            /*TODO: return feature value from a models. return string if feature type is nominal or string.
             return double if feature type is numeric*/  
         }
 

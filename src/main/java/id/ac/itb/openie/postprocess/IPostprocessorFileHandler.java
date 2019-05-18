@@ -1,6 +1,6 @@
 package id.ac.itb.openie.postprocess;
 
-import id.ac.itb.openie.relation.Relations;
+import id.ac.itb.openie.models.Relations;
 
 /**
  * Created by elvanowen on 2/24/17.

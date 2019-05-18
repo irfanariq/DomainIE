@@ -1,6 +1,6 @@
 package id.ac.itb.openie.extractor;
 
-import id.ac.itb.openie.relation.Relations;
+import id.ac.itb.openie.models.Relations;
 import org.apache.commons.lang3.tuple.Pair;
 import org.pf4j.ExtensionPoint;
 
@@ -33,7 +33,7 @@ public interface IExtractorHandler extends ExtensionPoint, Serializable {
     /**
      *
      * @param document String containing original preprocessed file content
-     * @param extracted List of relation extracted from previous extractor
+     * @param extracted List of models extracted from previous extractor
      * @return extracted relations
      * @throws Exception
      */
@@ -42,7 +42,7 @@ public interface IExtractorHandler extends ExtensionPoint, Serializable {
     /**
      *
      * @param instance data test that has been classified
-     * @param extracted List of incomplete relation from preprocessor
+     * @param extracted List of incomplete models from preprocessor
      * @return extracted relations
      * @throws Exception
      */

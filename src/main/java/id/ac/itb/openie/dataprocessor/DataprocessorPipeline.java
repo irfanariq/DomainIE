@@ -7,7 +7,7 @@ package id.ac.itb.openie.dataprocessor;
 
 import id.ac.itb.openie.pipeline.IOpenIePipelineElement;
 import id.ac.itb.openie.plugins.PluginLoader;
-import id.ac.itb.openie.relation.Relations;
+import id.ac.itb.openie.models.Relations;
 import java.io.File;
 import java.util.ArrayList;
 import java.util.HashMap;

@@ -5,10 +5,7 @@
  */
 package id.ac.itb.openie.dataprocessor;
 
-import id.ac.itb.openie.relation.Relations;
-import java.io.File;
-import java.util.ArrayList;
-import weka.core.Instances;
+import id.ac.itb.openie.models.Relations;
 
 /**
  *

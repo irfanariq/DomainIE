@@ -1,7 +1,7 @@
 package classes;
 
 import id.ac.itb.openie.extractor.IExtractorExtensionLearningHandler;
-import id.ac.itb.openie.relation.Relations;
+import id.ac.itb.openie.models.Relations;
 import ro.fortsoft.pf4j.Extension;
 import ro.fortsoft.pf4j.Plugin;
 import ro.fortsoft.pf4j.PluginWrapper;
@@ -42,7 +42,7 @@ public class ExtractorLearning extends Plugin {
 
         @Override
         public Relations extract(Instances instances, Relations extracted) throws Exception {
-           /*TODO: complete extracted as set of relation by using classified datatest(instances) */
+           /*TODO: complete extracted as set of models by using classified datatest(instances) */
         }
     }
 }

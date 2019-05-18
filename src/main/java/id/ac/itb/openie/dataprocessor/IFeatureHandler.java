@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 package id.ac.itb.openie.dataprocessor;
-import id.ac.itb.openie.relation.Relation;
+import id.ac.itb.openie.models.Relation;
 import java.io.Serializable;
 import org.apache.commons.lang3.tuple.Pair;
 import org.pf4j.ExtensionPoint;
@@ -23,7 +23,7 @@ public interface IFeatureHandler extends ExtensionPoint, Serializable{
     public String getDescription();
     /**
      *
-     * @param relation relation as preprocess result
+     * @param relation models as preprocess result
      * @return feature value
      */
     public Object calculate(Relation relation);

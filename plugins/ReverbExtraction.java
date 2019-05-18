@@ -2,8 +2,8 @@ package classes;
 
 import id.ac.itb.nlp.POSTagger;
 import id.ac.itb.nlp.SentenceTokenizer;
-import id.ac.itb.openie.relation.Relation;
-import id.ac.itb.openie.relation.Relations;
+import id.ac.itb.openie.models.Relation;
+import id.ac.itb.openie.models.Relations;
 import org.apache.commons.lang3.StringUtils;
 
 import java.io.File;

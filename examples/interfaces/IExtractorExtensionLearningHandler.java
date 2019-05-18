@@ -23,7 +23,7 @@ public abstract class IExtractorExtensionLearningHandler implements IExtractorHa
     /**
      *
      * @param instance data test that has been classified
-     * @param extracted List of incomplete relation from preprocessor
+     * @param extracted List of incomplete models from preprocessor
      * @return extracted relations
      * @throws Exception
      */

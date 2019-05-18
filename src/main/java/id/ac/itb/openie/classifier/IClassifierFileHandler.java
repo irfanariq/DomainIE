@@ -5,9 +5,6 @@
  */
 package id.ac.itb.openie.classifier;
 
-import id.ac.itb.openie.relation.Relations;
-import java.io.File;
-import java.util.ArrayList;
 import weka.core.Instances;
 
 /**

@@ -1,7 +1,7 @@
 package classes;
 
 import id.ac.itb.openie.classifier.IClassifierExtensionHandler;
-import id.ac.itb.openie.relation.Relations;
+import id.ac.itb.openie.models.Relations;
 import ro.fortsoft.pf4j.Extension;
 import ro.fortsoft.pf4j.Plugin;
 import ro.fortsoft.pf4j.PluginWrapper;
