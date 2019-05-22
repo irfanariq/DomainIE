@@ -1,5 +1,5 @@
-# openIE
-Prototype for Modular Open Information Extraction System. Developed from https://github.com/elvanowen/openIE by adding machine learning components.
+# DomainIE
+Prototype for Modular Domain Specific Information Extraction System. Developed from https://github.com/yogaadrian/openIE by adding component for adapting openIE to domainIE.
 
 # Prerequisites
 
@@ -9,7 +9,7 @@ Prototype for Modular Open Information Extraction System. Developed from https:/
 # Installation
 All source codes are placed in the /src directory. Application is developed using IntelliJ IDEA.
 
-- Clone this repo or [download here](https://github.com/yogaadrian/openIE/archive/master.zip). <br />
+- Clone this repo or [download here](https://github.com/irfanariq/DomainIE/archive/master.zip). <br />
   `$ git clone https://github.com/yogaadrian/OpenIE.git`
   <br />
 - Open file `build.properties` and modify property `jdk.home.1.8` to your `JAVA_HOME` path. [More about JAVA_HOME](http://sbndev.astro.umd.edu/wiki/Finding_and_Setting_JAVA_HOME) <br />
